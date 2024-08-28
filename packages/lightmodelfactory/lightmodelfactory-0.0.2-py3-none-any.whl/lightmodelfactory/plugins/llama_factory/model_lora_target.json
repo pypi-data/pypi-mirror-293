@@ -1,0 +1,11 @@
+{
+    "chatglm3_6b": "query_key_value",
+    "bloomz_7b1_mt": "query_key_value",
+    "bloomz_3b": "query_key_value",
+    "bloomz_1b1": "query_key_value",
+    "falcon_7b": "query_key_value",
+    "falcon_7b_instruct": "query_key_value",
+    "internlm2_7b_chat": "wqkv",
+    "phi_3_mini_4k_instruct": "qkv_proj",
+    "phi_3_mini_128k_instruct": "qkv_proj"
+}
