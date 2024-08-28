@@ -1,0 +1,7 @@
+pandas
+tqdm
+numpy
+pillow
+imagehash
+datasets
+opencv-contrib-python
