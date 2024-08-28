@@ -1,0 +1,10 @@
+recommender_ibmws/__init__.py,sha256=p474zub1ISPSUz8l8fTZET9nfw8rma1sdISaTSB4LmM,53
+recommender_ibmws/recommender.py,sha256=cXdPTFNjgmIudUnkHEraiEk3g1m7Fr9Q3CxTODlbkGM,6052
+recommender_ibmws/recommender_functions.py,sha256=nh25zNr0XFFis4aqXufhx6S77nK4u4uwneHqIZ7Ps28,6387
+recommender_ibmws/data/articles_community.csv,sha256=I8pgmmwUwt3yYIMgfEHOhGcDbkXITNIb-nogfdVE1UQ,9284947
+recommender_ibmws/data/user-item-interactions.csv,sha256=B98kl3GZ5ikzlyO2RKk7imRS06XHCGj3sKFDsUq1m8Y,4545126
+recommender_ibmws-0.1.1.dist-info/LICENSE,sha256=vo5CuLTKn0MkKlDlEtLjSpDntizPmpr4TvaYAEyC6_c,1081
+recommender_ibmws-0.1.1.dist-info/METADATA,sha256=6OLSAF0t6ajZ3wCH6agwgUnyc7LeHAoimXjkEz0cqu8,1505
+recommender_ibmws-0.1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+recommender_ibmws-0.1.1.dist-info/top_level.txt,sha256=F2hLR4VJHJqHmsPPxI5Q_BqmwfTyg_9K6LzFwby_jas,18
+recommender_ibmws-0.1.1.dist-info/RECORD,,
