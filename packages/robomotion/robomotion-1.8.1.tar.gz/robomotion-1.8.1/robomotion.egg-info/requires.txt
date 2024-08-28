@@ -1,0 +1,5 @@
+protobuf==5.27.2
+grpcio==1.64.1
+grpcio-tools==1.64.1
+jsonpath-ng==1.6.1
+zipp==3.19.2
