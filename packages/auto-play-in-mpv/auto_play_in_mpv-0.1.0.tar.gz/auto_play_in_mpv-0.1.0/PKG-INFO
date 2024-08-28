@@ -1,0 +1,34 @@
+Metadata-Version: 2.3
+Name: auto-play-in-mpv
+Version: 0.1.0
+Summary: Automatically redirect to mpv player when playing online video
+Project-URL: Homepage, https://github.com/lxl66566/auto-play-in-mpv
+Project-URL: Repository, https://github.com/lxl66566/auto-play-in-mpv.git
+License-File: LICENSE
+Keywords: mpv,video
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Requires-Dist: websockets>=13.0
+Description-Content-Type: text/markdown
+
+# Auto play in MPV
+
+Automatically redirect to mpv player when playing online video.
+
+## Usage
+
+1. install auto-play-in-mpv: `pipx install auto-play-in-mpv`, start as `apim`.
+2. install tampermonkey in your browser
+3. [install the script from greasyfork](https://greasyfork.org/zh-CN/scripts/505562-auto-play-in-mpv)
+4. just click a video from supported sites.
+
+## support
+
+- [x] bilibili
+- [x] youtube
