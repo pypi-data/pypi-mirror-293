@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+microfading.egg-info/PKG-INFO
+microfading.egg-info/SOURCES.txt
+microfading.egg-info/dependency_links.txt
+microfading.egg-info/requires.txt
+microfading.egg-info/top_level.txt
+src/microfading/__init__.py
+src/microfading/microfading.py
+src/microfading/plotting.py
