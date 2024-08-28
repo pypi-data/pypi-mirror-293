@@ -1,0 +1,11 @@
+geopandas==0.13.2
+laspy==2.5.4
+matplotlib==3.5.2
+numpy==1.22.2
+open3d==0.18.0
+pandas==1.4.4
+pypcd==0.1.1
+pyshp==2.3.1
+scipy==1.10.1
+Shapely==1.8.5.post1
+tqdm==4.66.1
