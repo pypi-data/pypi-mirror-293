@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microfading"
+version = "1.0.1"
+authors = [
+  { name="Gauthier Patin", email="g.patin@monemail.com" },
+]
+description = "Package to manipulate microfading data"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3", 
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",   
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "colour==0.4.4",
+    "seaborn==0.12.2",
+    "uncertainties",
+    "pandas==2.0.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/g-patin/microfading"
+
+[tool.poetry.include]
+"datasets/*" = "data"
+
+[tool.setuptools.packages.find]
+where = ["datasets"]
+

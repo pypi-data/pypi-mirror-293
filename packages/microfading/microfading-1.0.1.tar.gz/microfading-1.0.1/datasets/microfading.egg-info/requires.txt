@@ -1,0 +1,4 @@
+colour==0.4.4
+seaborn==0.12.2
+uncertainties
+pandas==2.0.3
