@@ -1,0 +1,14 @@
+LICENSE,sha256=iFdFVi0rpZZTEFGe9nRRQNyvTXQprThZBQdc2T2xgN8,1069
+README.md,sha256=h-elKSXbmEKecseYcwDoqaQ0csqfbPw6dqH7omWDQW4,30344
+beancount_importer_rules-0.1.0.dist-info/METADATA,sha256=BjUXZ6SFiU1PV6rSPDrGgpMXxSYWPJELTpa6x7q4X9M,30788
+beancount_importer_rules-0.1.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+beancount_importer_rules-0.1.0.dist-info/licenses/LICENSE,sha256=iFdFVi0rpZZTEFGe9nRRQNyvTXQprThZBQdc2T2xgN8,1069
+beancount_importer_rules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beancount_importer_rules/constants.py,sha256=4oDcGfweidyD5GDupvhiYMKOO0W74Vp6k5AqfgHvIXE,264
+beancount_importer_rules/data_types.py,sha256=JH6Bj4jififEu8QU5xkHyU99YTsp3VRQZ11dmA8mT_M,8338
+beancount_importer_rules/post_processor.py,sha256=_PxdMh5iKkD-Axmr8crzrau9ox9L2RA1BRPSRICLyWY,9425
+beancount_importer_rules/processor.py,sha256=SyvzfUk2-7aG9IRaz1dwn38PDl-qcL2dX2rKcGbKhdY,14896
+beancount_importer_rules/templates.py,sha256=p_lZaDpMz4YSeYmhDx6scfqiPlcdbMCHIia8Ic8hMHM,276
+beancount_importer_rules/utils.py,sha256=G1qp7koDCOO8e11CEoutHm2CmR1a0Zu733suNDGIzBY,977
+pyproject.toml,sha256=goTzRHpDNiopZhlrPnx5lL4QN09W1rbHDd1c6VFEjIo,763
+beancount_importer_rules-0.1.0.dist-info/RECORD,,
