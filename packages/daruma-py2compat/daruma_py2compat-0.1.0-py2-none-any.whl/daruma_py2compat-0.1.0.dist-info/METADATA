@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: daruma-py2compat
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (<=1.16.6) ; python_version <= "2.7"
+
+UNKNOWN
+
+
