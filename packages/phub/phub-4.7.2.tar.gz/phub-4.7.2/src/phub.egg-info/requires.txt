@@ -1,0 +1,5 @@
+httpx[brotli,socks]
+ffmpeg-progress-yield
+
+[cli]
+click
