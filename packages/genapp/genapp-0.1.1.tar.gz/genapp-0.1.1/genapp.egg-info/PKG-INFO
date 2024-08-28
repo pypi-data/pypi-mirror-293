@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: genapp
+Version: 0.1.1
+Summary: Genapp framework
+Home-page: https://genapp.sytes.net/login
+Author: Tu Nombre
+Author-email: al.genericapp@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
