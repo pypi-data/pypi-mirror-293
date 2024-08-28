@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: aq_dbmigration
+Version: 1.0.1
+Summary: a database migration tool
+Home-page: https://github.com/nanshens/AQ-DBMigration
+Author: nanshens
+Author-email: 619232906@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psycopg2 >=2.9.9
+Requires-Dist: mysql-connector-python >=9.0.0
+Requires-Dist: uuid >=1.30
+Requires-Dist: loguru >=0.7.2
+
+# AQ-DBMigration
+a db migration tool in python   
+
+## home
+[github: nanshens/AQ-DBMigration](https://github.com/nanshens/AQ-DBMigration)
+
+## install
+`pip install aq-dbmigration`   
+
+## how to use   
+
+```python
+    config = MigrationConfig("db_name", "db_user", "db_password", "db_host", "db_port", DBConstant.Type.PostgreSQL, "db file path")
+    db = DBMigration(config)
+    db.migration()
+```
+
+## sql file
+file format: V{version}__{description}.sql   
+example: V1__test.sql, V2__issue1.sql, V2.1__issue11.sql, V2.12__issue12.sql   
+
+version:
+version = main sequence + . + sub sequence, so order by main first, then sub.
+example: V1.2 run first and V1.13 second, because 2 < 13.   
+
+please start from V1
+
+## MigrationConfig
+
+### file path
+please use absolute path.   
+if you use flask, you can set db_path in flask config,
+like this `app.config['DB_MIGRATION_PATH'] = os.path.join(app.root_path, 'resource', 'db_migration')`
+and use `MigrationConfig("db_name", "db_user", "db_password", "db_host", "db_port", DBConstant.Type.PostgreSQL, app.config['DB_MIGRATION_PATH'])` to init   
+
+
+### baseline
+When used for the first time, it will set the baseline, and subsequent changes will not take effect.   
+Only read sql files larger than baseline.   
+
+
+## database support
+1. postgresql(tested pass)
+2. mysql(in testing)
+3. maria(in testing)
+4. sqlite(in testing)
+
+
+## License
+This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE).

@@ -1,0 +1,12 @@
+aq_dbmigration/__init__.py,sha256=XAtd0HTfdn-9unjOeCu60LHpPXM7LsYB4RlMIJ-0aO0,121
+aq_dbmigration/db_constant.py,sha256=b-7LBdNve_yOJEeNEhHZC90WrcMoZhBLhnEmnSSWRuI,2177
+aq_dbmigration/db_migration.py,sha256=9B-BNLZt_st7k8n3-spm11e16jLzZFRGGwCR3AZQTjo,6269
+aq_dbmigration/db_record.py,sha256=Z_IyJzpAN_bnz3BfZIVOdJZkOPgyKNRhMLmTntaTxVY,1016
+aq_dbmigration/migration_config.py,sha256=75nfAPJzUooodsEuub4rEEnjpXShKiKKwHmpqgUFAW4,442
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=C7ViKZ0mAK8kzB4644GH1qpQW_6V7C9VnGBkzJptsPY,359
+aq_dbmigration-1.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+aq_dbmigration-1.0.1.dist-info/METADATA,sha256=mfq3xoh32SAW7kVtwI3MMYDnXUprTuqcfip6unFW1bc,2120
+aq_dbmigration-1.0.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+aq_dbmigration-1.0.1.dist-info/top_level.txt,sha256=lotlHfd_KA3f4C_hBK5Rc-9tsvl_3AJ8Iam1uimscNI,21
+aq_dbmigration-1.0.1.dist-info/RECORD,,
