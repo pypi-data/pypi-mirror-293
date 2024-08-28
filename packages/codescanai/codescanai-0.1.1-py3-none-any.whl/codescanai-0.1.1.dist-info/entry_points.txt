@@ -1,0 +1,2 @@
+[console_scripts]
+codescanai = core.runner:main
