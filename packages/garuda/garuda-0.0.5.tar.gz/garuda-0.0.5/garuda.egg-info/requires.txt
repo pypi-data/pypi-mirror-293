@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+pyproj
+beartype
+jaxtyping
+planetary-computer
+shapely
+rioxarray
+opencv-python
+supervision
