@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: recommender_ibmws
+Version: 0.1.1
+Summary: User article recommender system for IBM Watson Studio
+Home-page: https://github.com/joanamdsantos/recommender_ibmws_pkg
+Author: Joana Martins dos Santos
+Author-email: Joana Martins dos Santos <joanamlmsantos@gmail.com>
+Project-URL: Homepage, https://github.com/joanamdsantos/recommender_ibmws_pkg
+Project-URL: Issues, https://github.com/joanamdsantos/recommender_ibmws_pkg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Recommender_ibmws
+
+Recommender IBMWS package is a Python Package to recommend articles for users of the IBM Watson Studio platform.
+
+This Recommender uses a hybrid approach of Content-Based Filtering and Collaborative Filtering to make recommendations.  
+The content base recommendation system developed relies on a user profile, text vectorization, similarity calculation, ranking and recommendation, as well as handling of new users to deal with the cold start problem. 
+
+### How to use:
+
+Import the Recommender
+```
+from recommender_ibmws.recommender import Recommender
+rec = Recommender()
+```
+
+Load data
+```
+rec.load_data(inter_path='user-item-interactions.csv', content_path='articles_community.csv')
+```
+
+Make recomendations
+```
+rec.make_content_recs(user_id=8, m=10)
+```
+
+Find number of users
+```
+rec.n_users
+```
+

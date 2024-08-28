@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+recommender_ibmws/__init__.py
+recommender_ibmws/recommender.py
+recommender_ibmws/recommender_functions.py
+recommender_ibmws.egg-info/PKG-INFO
+recommender_ibmws.egg-info/SOURCES.txt
+recommender_ibmws.egg-info/dependency_links.txt
+recommender_ibmws.egg-info/not-zip-safe
+recommender_ibmws.egg-info/top_level.txt
+recommender_ibmws/data/articles_community.csv
+recommender_ibmws/data/user-item-interactions.csv
+tests/tests.py
