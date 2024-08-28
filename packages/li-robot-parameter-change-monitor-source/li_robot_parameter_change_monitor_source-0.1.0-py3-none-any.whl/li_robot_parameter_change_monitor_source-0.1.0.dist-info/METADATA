@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: li-robot-parameter-change-monitor-source
+Version: 0.1.0
+Summary: A package for industrial robot parameter change monitoring using ZDT API
+Home-page: https://gitlab.example.com/your-group/robot-parameter-change-monitor-source
+Author: Juncheng Zhang
+Author-email: zhangjunchengbh@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# li-robot-parameter-change-monitor-source
