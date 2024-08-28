@@ -1,0 +1,12 @@
+{
+    "name": "Realtime_Rendering_Tool",
+    "version": "1.0.0",
+    "description": "A tool for real-time rendering",
+    "main": "dist/bundle.js",
+    "type": "module",
+    "scripts": {
+      "start": "node dist/bundle.js"
+    },
+    "dependencies": {
+    }
+  }
