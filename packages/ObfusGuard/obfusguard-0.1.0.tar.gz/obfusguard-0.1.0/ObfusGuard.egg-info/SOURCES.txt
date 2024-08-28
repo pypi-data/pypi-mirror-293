@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ObfusGuard.egg-info/PKG-INFO
+ObfusGuard.egg-info/SOURCES.txt
+ObfusGuard.egg-info/dependency_links.txt
+ObfusGuard.egg-info/requires.txt
+ObfusGuard.egg-info/top_level.txt
+obfusguard/__init__.py
+obfusguard/core.py
+tests/test_core.py
