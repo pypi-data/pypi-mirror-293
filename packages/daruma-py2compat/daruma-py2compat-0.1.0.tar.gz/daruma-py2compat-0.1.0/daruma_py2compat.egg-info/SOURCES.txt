@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+daruma_py2compat/__init__.py
+daruma_py2compat/daruma_module.py
+daruma_py2compat/functions.py
+daruma_py2compat/models.py
+daruma_py2compat.egg-info/PKG-INFO
+daruma_py2compat.egg-info/SOURCES.txt
+daruma_py2compat.egg-info/dependency_links.txt
+daruma_py2compat.egg-info/entry_points.txt
+daruma_py2compat.egg-info/requires.txt
+daruma_py2compat.egg-info/top_level.txt
+daruma_py2compat/data/AAindex553-Normal-X0.feature
+daruma_py2compat/data/CNN3_128_9_NN2_121_128.weight

@@ -1,0 +1,3 @@
+[console_scripts]
+daruma = daruma_py2compat.daruma_module:main
+
