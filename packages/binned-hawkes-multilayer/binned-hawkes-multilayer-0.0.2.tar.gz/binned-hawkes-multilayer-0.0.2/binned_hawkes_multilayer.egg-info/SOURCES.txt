@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+binned_hawkes_multilayer/__init__.py
+binned_hawkes_multilayer/ablation.py
+binned_hawkes_multilayer/proposed.py
+binned_hawkes_multilayer/residual_analysis.py
+binned_hawkes_multilayer/utils.py
+binned_hawkes_multilayer.egg-info/PKG-INFO
+binned_hawkes_multilayer.egg-info/SOURCES.txt
+binned_hawkes_multilayer.egg-info/dependency_links.txt
+binned_hawkes_multilayer.egg-info/requires.txt
+binned_hawkes_multilayer.egg-info/top_level.txt
