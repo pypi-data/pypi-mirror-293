@@ -1,0 +1,5 @@
+sqlpickle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlpickle/key_value_store.py,sha256=IvwOtN-EcC3z5-V4w1ckjseImj56i90sAUecnLIZ_1A,2330
+sqlpickle-0.1.0.dist-info/METADATA,sha256=aeL8jiw7fDuHrUUSiV6y75sfTRTq-1A9a9CTZv1f9xs,884
+sqlpickle-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sqlpickle-0.1.0.dist-info/RECORD,,
