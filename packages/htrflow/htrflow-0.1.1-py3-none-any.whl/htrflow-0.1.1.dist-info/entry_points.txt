@@ -1,0 +1,3 @@
+[console_scripts]
+htrflow = htrflow.cli:app
+openmmlab_install = scripts.openmmlab_install:main
