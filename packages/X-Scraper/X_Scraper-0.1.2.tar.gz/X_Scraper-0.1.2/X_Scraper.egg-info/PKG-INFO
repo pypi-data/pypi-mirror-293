@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: X-Scraper
+Version: 0.1.2
+Summary: A Python module to scrape Twitter posts and images
+Home-page: https://github.com/Saikat-too/Scraper
+Author: Saikat Singha
+Author-email: saikatsingha00q@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# X_Scraper
+
+X_Scraper is a Python module designed to scrape Twitter posts and images. It allows you to extract data from Twitter posts and download images with ease.
+
+## Features
+
+- **X_Image**: Scrape images from a given Twitter post.
+- **X_Tweet**: Extract tweet text, metadata, and more from a Twitter post.
+
+## Installation
+
+You can install X_Scraper via pip:
+
+```bash
+pip install X_Scraper
