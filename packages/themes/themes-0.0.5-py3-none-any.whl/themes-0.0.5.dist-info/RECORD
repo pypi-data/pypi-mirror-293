@@ -1,0 +1,17 @@
+themes/__init__.py,sha256=T6DYGJOtdnW9g2bajJpTcftMKhhcbEtvZWIQltLhomM,32
+themes/datasets.py,sha256=6isbFUHbi7CF4Reiiw-emrQ25s1c37Z-zL3KoPUqBnE,825
+themes/registrar.py,sha256=oC6liHErU5M27HzBD94ZlN3Rr5BS_9HyKu4qAdR8W9U,1315
+themes/resources/gapminder2007.csv,sha256=OHlQHjP2LwJp_R-LCv1CdlIguLFMIzVDVRaX_dQBUPI,7117
+themes/resources/market-indexes.csv.gz,sha256=AbiWjtN-WnT1McptvvDCEWAs1u53Qc1Y5IuTE8SfMBU,255731
+themes/themers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+themes/themers/altair.py,sha256=n0RY48gECcxMISgqYEg4KoCLbNOKRcj7kDw2vgLebo8,2457
+themes/themers/base.py,sha256=qM5zewHMOczh8X0vZsBCTISjWzAmtABqVdPyTF2xUTg,359
+themes/themers/matplotlib.py,sha256=3mxQlBeorOpv2LjuicWZB77Z_HuQsdIjg67LR8VetKU,2001
+themes/themes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+themes/themes/base.py,sha256=aJmOkhl1hr_U1VtRFUVGrqptrrZ12cQN0R2szwqZR8c,615
+themes/themes/capon_theme.py,sha256=bjgcMIxFx4DQiop8Lkql6J3KuRvaEBw7vqOOB_OiLZs,2306
+themes-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+themes-0.0.5.dist-info/METADATA,sha256=GOOnNbXyockMHW44bG5eJRZGQ6vuG6p-MR6HiXB_9vU,3733
+themes-0.0.5.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+themes-0.0.5.dist-info/top_level.txt,sha256=yq7Q5AxcwEnP0KPypaY7bISNKptVkIQ-dobYwKoEFy0,7
+themes-0.0.5.dist-info/RECORD,,
