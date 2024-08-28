@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: llmlinks
+Version: 0.1.9
+Summary: Links of ResearchChain
+License: MIT
+Author: ryamauchi
+Author-email: ryutaro_yamauchi@weblab.t.u-tokyo.ac.jp
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anthropic (>=0.33.0,<0.34.0)
+Requires-Dist: google-generativeai (>=0.7.2,<0.8.0)
+Requires-Dist: openai (>=1.35.13,<2.0.0)
+Description-Content-Type: text/markdown
+
+# llmlink
