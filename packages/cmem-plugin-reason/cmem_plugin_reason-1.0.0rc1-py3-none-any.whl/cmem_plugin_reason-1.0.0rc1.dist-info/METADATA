@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: cmem-plugin-reason
+Version: 1.0.0rc1
+Summary: Reasoning with Robot
+Home-page: https://github.com/eccenca/cmem-plugin-reason
+License: Apache-2.0
+Keywords: eccenca Corporate Memory,plugin
+Author: eccenca GmbH
+Author-email: info@eccenca.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: cmem-plugin-base (>=4.5.0,<5.0.0)
+Requires-Dist: defusedxml (>=0.7.1,<0.8.0)
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: pathvalidate (>=3.2.0,<4.0.0)
+Requires-Dist: validators (>=0.33.0,<0.34.0)
+Description-Content-Type: text/markdown
+
+# cmem-plugin-reason
+
+This [eccenca](https://eccenca.com) [Corporate Memory](https://documentation.eccenca.com) workflow plugin bundle contains plugins performing reasoning (Reason) andontology consistency checking (Validate) using [ROBOT](http://robot.obolibrary.org/).
+
+ROBOT is published under the [BSD 3-Clause "New" or "Revised" License](https://choosealicense.com/licenses/bsd-3-clause/).
+Copyright © 2015, the authors. All rights reserved.
+
+### Installation
+
+```
+➜ cmemc admin workspace python install cmem-plugin-reason
+```
+
+
