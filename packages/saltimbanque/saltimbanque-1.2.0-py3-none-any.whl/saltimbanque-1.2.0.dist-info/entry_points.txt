@@ -1,0 +1,2 @@
+[console_scripts]
+saltimbanque = saltimbanque.__main__:main
