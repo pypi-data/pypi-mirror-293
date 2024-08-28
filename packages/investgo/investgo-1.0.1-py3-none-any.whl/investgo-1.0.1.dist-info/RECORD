@@ -1,0 +1,10 @@
+investgo/__init__.py,sha256=__XnKrk898boQ-67Nhr81Ubcig4lh6Ch6YFVTdRGYjQ,191
+investgo/historical.py,sha256=SN3hLxhIiOX46x-q8J3uOy853w9U49kYkBzWwLPExRs,3407
+investgo/holdings.py,sha256=X9OdhP1kAmw7L_lwZqhNKYtsJJUc0h1GDO7aaqkEqtA,5452
+investgo/search.py,sha256=DDQjNaaAJYMUliT0opoGTgLU1zdwel7s3mUvOCiOaCU,3090
+investgo/technical.py,sha256=gn62rfAJeeurTKkuIN8yTgRaB0SogmDPcec9mDf_5E4,1533
+investgo-1.0.1.dist-info/LICENCE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+investgo-1.0.1.dist-info/METADATA,sha256=fOcb-14kgNkL9myjXu3VI9u1Tkm18MTCKXAcAYyFIgY,1277
+investgo-1.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+investgo-1.0.1.dist-info/top_level.txt,sha256=wqZGT-ogKvsWEGC-MsvhnmuPfxT9xr1vMLY2I-rIzqY,9
+investgo-1.0.1.dist-info/RECORD,,
