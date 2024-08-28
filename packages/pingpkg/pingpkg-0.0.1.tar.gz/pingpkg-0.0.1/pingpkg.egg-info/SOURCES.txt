@@ -1,0 +1,10 @@
+README.md
+requirements.txt
+setup.py
+pingpkg/__init__.py
+pingpkg/pingpackage.py
+pingpkg.egg-info/PKG-INFO
+pingpkg.egg-info/SOURCES.txt
+pingpkg.egg-info/dependency_links.txt
+pingpkg.egg-info/requires.txt
+pingpkg.egg-info/top_level.txt

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pingpkg
+Version: 0.0.1
+Summary: Used to ping network devices
+Home-page: https://pypi.org/project/pingpkg/
+Author: xizhao_li
+Author-email: hard_rock_l@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: openpyxl
+
+# ping tools
+
+## Installation
+'''shell
+pip3 uninstall pingpkg
+pip3 install pingpkg
+'''
+
+
+'''bash
+pip3 install openpuxl==3.1.5
+'''
+
+
+## Table of Contents
+
+- pingTools
+  - run Start ping 127.0.0.1
