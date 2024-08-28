@@ -1,0 +1,1 @@
+"""sparql-anything - main package"""
