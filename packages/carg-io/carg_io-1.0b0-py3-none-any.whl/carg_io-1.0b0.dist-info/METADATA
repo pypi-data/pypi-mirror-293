@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: carg-io
+Version: 1.0b0
+Summary: Parametrization made easy
+Author-email: "E. van Vliet" <eelcovanvliet@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: Pint>=0.20.1
+Requires-Dist: bokeh>=3.1.1
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Provides-Extra: dev
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: furo; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+
+
+Ir. E. van Vliet
+
+24-07-2023
+
+# Carg-io
+
+`cargi-io` supports defining, setting and bookkeeping when working with sets of parameters.
+`cargi-io` originated as an alternative to using the python-native `dataclass`, since `dataclasses` did not really offer the functionality needed for parametric analyses.
+
+## Features
+
+- Unit conversion
+- Assigning default values
+- Linting and autocompletion
+- Hashing
+- Iteration
+- Representations for `pandas.dataframe` and `tkinter`
+
+
+## Examples:
+
+### Independent parameters
+Below an example of how to organize the input parameters for a box object.
+
+```python
+from carg_io import ParameterSet, Parameter, units
+
+class Box(ParameterSet):
+    Length:Parameter = 1 * units.meter
+    Width:Parameter = 1 * units.meter
+    Height:Parameter = 1 * units.meter
+    Density:Parameter = 2 * units.kilogram / units.meter**3
+
+
+if __name__ == "__main__":
+    box = Box()
+    box.Length['m'] = 2
+    assert box.Length['mm'] == 2000
+
+```
+
+### Dependent parameter
+In the example below, `Box.Volume` is a *dependent* parameter that uses the length, width and height of the box.
+
+```python
+from carg_io import ParameterSet, Parameter, units
+
+class Box(ParameterSet):
+    Length:Parameter = 1 * units.meter
+    Width:Parameter = 1 * units.meter
+    Height:Parameter = 1 * units.meter
+    Density:Parameter = 2 * units.kilogram / units.meter**3
+
+    def Volume(self) -> Parameter:
+        l = self.Length['m']
+        w = self.Width['m']
+        h = self.Height['m']
+        return Parameter('Volume', l*w*h*units.meter**3)
+
+```
+
+## No categorical data
+Categorical data, such as as choice between `GREEN`, `BLUE`, `YELLOW`, is deliberately not supported.
+The reason for this is that `carg-io` focusses on numerical values only, since only numerical values can be shown in a graph.
+
+Typically, digging deeper into categorical values, one will eventually find numerical values again. E.g. the colors `GREEN`, `BLUE` and `YELLOW` are actually wave lenghts 550, 450 and 580 nm.
+
+
