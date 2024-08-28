@@ -1,0 +1,10 @@
+cmem_plugin_sparql_anything/__init__.py,sha256=qtlIvOyKJgnzOoQPZuxti0hWBtC2RFx0Pe1jS_bOhaE,37
+cmem_plugin_sparql_anything/bin/__init__.py,sha256=V4lwWVMWNTMekO9PDAOUGFb8V30vRa7wCD7ml_uj_bY,176
+cmem_plugin_sparql_anything/bin/sparql-anything-0.9.0.jar,sha256=JXr0NlApGoT81hgRe3M_fVk0Av7va-IGryRjTD-185A,134
+cmem_plugin_sparql_anything/constants.py,sha256=oPg8AQBCTC9pcXE0y_dMuCyPIRuTbZtdGbyCs4KOam0,1940
+cmem_plugin_sparql_anything/logo.svg,sha256=hUVm6jz8lnurIx1QbwJ9UaL2BjtRB0trNrXo5eTKTIs,13039
+cmem_plugin_sparql_anything/sparql_anything_workflow.py,sha256=8PNR6AS8PlCkQGVsqrhiJrAdAKqCV-dW9dKXDW5AqOw,5391
+cmem_plugin_sparql_anything-0.0.1rc2.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+cmem_plugin_sparql_anything-0.0.1rc2.dist-info/METADATA,sha256=LiGTAPEt3-t6r12wqblphYa6hbrLZ3Zx00uNpJwD7YI,1152
+cmem_plugin_sparql_anything-0.0.1rc2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cmem_plugin_sparql_anything-0.0.1rc2.dist-info/RECORD,,
