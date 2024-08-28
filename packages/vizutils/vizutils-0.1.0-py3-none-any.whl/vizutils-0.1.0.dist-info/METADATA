@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: vizutils
+Version: 0.1.0
+Summary: A library for creating visualizations for data analysis.
+Home-page: https://github.com/omkars20/vizutils_package.git
+Author: Omkar Singh
+Author-email: singhomkar20.1995@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: plotly
+Requires-Dist: pandas
+
+# VizUtils
+
+**VizUtils** is a Python library that simplifies the creation of various types of visualizations, ranging from basic plots to advanced and interactive visualizations. Whether you're performing exploratory data analysis or presenting insights, VizUtils provides an easy-to-use interface for generating insightful plots.
+
+## Features
+
+- **Basic Plots**: Create common visualizations like bar plots, histograms, line plots, and scatter plots with minimal code.
+- **Advanced Plots**: Generate more complex visualizations such as correlation heatmaps, pair plots, and box plots.
+- **Interactive Plots**: Use `Plotly` to create interactive plots that can be embedded in notebooks and web pages.
+
+## Installation
+
+You can install VizUtils using `pip`:
+
+```bash
+pip install vizutils
