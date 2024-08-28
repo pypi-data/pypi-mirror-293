@@ -1,0 +1,11 @@
+src/__init__.py,sha256=Ddfxw4MjWD_Z1upMGBWfRRN1Wke7ABImF6OAwHepdJs,56
+src/engine.py,sha256=ULFe5FBkA6YkH8zm1w2buNUv_w0s0Iyjpf5zFEMBKIU,6623
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_engine.py,sha256=xglvBU7qGu-gLpoSCBkuA6xiq8rYq5Vi0b8b3Q3yQbo,9819
+tiny_fnc_engine/__init__.py,sha256=etJDvf59dwJB9zoTCMOaoCum7K23o55m8cAgA4C2kdA,97
+tiny_fnc_engine/engine.py,sha256=lbAO1gfUzAdjNi9jkZV5UT8rX1kR65_mhr4E28Sh88U,6634
+tiny_fnc_engine-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tiny_fnc_engine-0.1.6.dist-info/METADATA,sha256=kKgap8o1G0AeQ4DWwavKgt19bcBmjJRJYF7swIn81f8,3843
+tiny_fnc_engine-0.1.6.dist-info/WHEEL,sha256=Rp8gFpivVLXx-k3U95ozHnQw8yDcPxmhOpn_Gx8d5nc,91
+tiny_fnc_engine-0.1.6.dist-info/top_level.txt,sha256=mo90gPc0HXFrSPqK0OTqghK4ZeKu5rVji8L1gZRdgPg,22
+tiny_fnc_engine-0.1.6.dist-info/RECORD,,
