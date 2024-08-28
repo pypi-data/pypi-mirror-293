@@ -1,0 +1,12 @@
+import time
+
+import qg_toolkit.tools.qg_log
+from qg_toolkit.tools.qg_log import *
+
+qlog("这是信息日志", "info")
+qlog("这是警告日志", "warn")
+qlog("这是错误日志", "error")
+qlog("这是调试日志", "debug")
+qlog("这是默认日志")
+for i in progress_bar(range(100), desc='进度：'):
+    time.sleep(0.01)
