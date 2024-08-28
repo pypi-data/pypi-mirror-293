@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+scipy
+langchain
+langchain-community
+langchain-core
+langchain-experimental
+langchain-openai
