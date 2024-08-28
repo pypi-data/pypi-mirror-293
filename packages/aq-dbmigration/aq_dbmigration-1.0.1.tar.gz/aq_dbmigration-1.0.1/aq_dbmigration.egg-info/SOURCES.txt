@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+aq_dbmigration/__init__.py
+aq_dbmigration/db_constant.py
+aq_dbmigration/db_migration.py
+aq_dbmigration/db_record.py
+aq_dbmigration/migration_config.py
+aq_dbmigration.egg-info/PKG-INFO
+aq_dbmigration.egg-info/SOURCES.txt
+aq_dbmigration.egg-info/dependency_links.txt
+aq_dbmigration.egg-info/requires.txt
+aq_dbmigration.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
