@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dataserver/__init__.py
+src/dataserver/client.py
+src/dataserver/server.py
+src/datasever.egg-info/PKG-INFO
+src/datasever.egg-info/SOURCES.txt
+src/datasever.egg-info/dependency_links.txt
+src/datasever.egg-info/top_level.txt
