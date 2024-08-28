@@ -1,0 +1,30 @@
+name: Do things every 1 minutes
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+    # - cron: "0 0 * * 0"
+
+jobs:
+  main:
+    name: main
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check Python
+        run: |
+          result=$(python3 --version)
+          if [[ $result == "Python 3.12."* ]]; then
+              echo "Passed lint."
+          else
+              echo "Failed lint due to ${result}."
+              exit 1
+          fi
