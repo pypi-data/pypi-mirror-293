@@ -1,0 +1,11 @@
+plover>=4.0.0.dev12
+mac-pyxa==0.0.9
+
+[test]
+coverage
+mac-pyxa==0.0.9
+mypy
+pylint
+pytest
+pytest-cov
+pytest-mock
