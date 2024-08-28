@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my_project4_yosafe_fesaha"
+version = "0.1.0"
+description = ""
+authors = ["Y581515 <yfessaha@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_project4_yosafe_fesaha", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
