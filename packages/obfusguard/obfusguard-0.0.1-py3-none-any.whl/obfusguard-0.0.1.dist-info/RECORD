@@ -1,0 +1,9 @@
+obfusguard/__init__.py,sha256=bZfSxC6MK56OmSLawcJ0gVz2Xve5ce3ZIo1G9_P95BY,99
+obfusguard/core.py,sha256=0fxIU6naNztqQeyeb2fPMzPoYiNxrpy37Y6kyX89TIM,4195
+obfusguard/data/aloha_map.pkl,sha256=csnoaH7FFY4S-NShI8uQ5IozPwUm_Hy5vx18x7Q0dhY,96
+obfusguard/data/kmap.pkl,sha256=_p-4psq1Pq8CGTGz_uw7ccadrlhWmnkp8JUDj4-AaUc,1061
+obfusguard-0.0.1.dist-info/LICENSE,sha256=5IquEBBUAcxRbbnoAm1Zc9Eywqy73bjNQpPNXRwxwuE,498
+obfusguard-0.0.1.dist-info/METADATA,sha256=DXtZVZmA-Plsmn3HVFHJbQ_iq5_ThhTfqnx5_fFBeAI,2089
+obfusguard-0.0.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+obfusguard-0.0.1.dist-info/top_level.txt,sha256=iGvhUmoFvztlqB17dvhLkDzogWoCwIPhX5kqi2L_Upk,11
+obfusguard-0.0.1.dist-info/RECORD,,
