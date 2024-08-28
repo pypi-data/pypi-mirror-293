@@ -1,0 +1,28 @@
+[project]
+name = "crypto_chassis_trade"
+version = "0.0.3"
+dependencies = [
+    "aiohttp[speedups] ~= 3.10",
+    "StrEnum ~= 0.4 ; python_version < '3.11'",
+]
+requires-python = ">= 3.10"
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = [
+    "StrEnum",
+    "black",
+    "isort",
+    "autoflake",
+    "flake8",
+    "mypy",
+    "pylint",
+    "pytest",
+    "uvloop ; platform_system != 'Windows'",
+    "orjson",
+]

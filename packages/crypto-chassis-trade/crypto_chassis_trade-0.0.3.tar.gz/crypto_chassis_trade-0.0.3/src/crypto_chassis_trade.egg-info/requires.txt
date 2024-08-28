@@ -1,0 +1,18 @@
+aiohttp[speedups]~=3.10
+
+[:python_version < "3.11"]
+StrEnum~=0.4
+
+[dev]
+StrEnum
+black
+isort
+autoflake
+flake8
+mypy
+pylint
+pytest
+orjson
+
+[dev:platform_system != "Windows"]
+uvloop
