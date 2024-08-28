@@ -1,0 +1,6 @@
+README.md
+setup.py
+trinityml.egg-info/PKG-INFO
+trinityml.egg-info/SOURCES.txt
+trinityml.egg-info/dependency_links.txt
+trinityml.egg-info/top_level.txt
