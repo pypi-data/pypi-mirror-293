@@ -1,0 +1,43 @@
+[project]
+name = "beancount-importer-rules"
+version = "0.1.0"
+description = "Beancount importer rules engine"
+authors = [
+    { name = "Zeno Jiricek", email = "airtonix@users.noreply.github.com" },
+]
+dependencies = [
+    "beancount-parser>=1.2.3",
+    "beancount-black>=1.0.4",
+    "jinja2>=3.1.4",
+    "pyyaml>=6.0.2",
+    "pydantic>=2.8.2",
+    "pytz>=2024.1",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.3.2",
+    "pytest-mock>=3.14.0",
+]
+
+[tool.pdm.build]
+includes = [
+    "beancount_importer_rules",
+    "README.md",
+    "pyproject.toml",
+    "LICENSE",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
