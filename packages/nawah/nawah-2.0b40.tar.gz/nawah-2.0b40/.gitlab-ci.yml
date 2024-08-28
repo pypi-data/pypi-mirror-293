@@ -1,0 +1,117 @@
+# Official language image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/python/tags/
+image: python:3.11
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+stages:
+  - test
+  - build
+  - deploy
+  - tag
+
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+before_script:
+  - python -V # Print out python version for debugging
+  - python -m venv venv
+  - source venv/bin/activate
+  - pip install -r dev_requirements.txt
+  - pip install -r requirements.txt
+
+Test commit:
+  stage: test
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+  script:
+    - pytest
+
+Build Python package:
+  stage: build
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_MESSAGE =~ /\[release\]/
+    - when: never
+  script:
+    - python setup.py sdist bdist_wheel
+  artifacts:
+    paths:
+      - dist/*
+
+Deploy Python package to PyPI Registry:
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_MESSAGE =~ /\[release\]/
+    - when: never
+  script:
+    - TWINE_USERNAME=__token__ python -m twine upload dist/*
+
+Build commit:
+  stage: build
+  image: docker:19.03.12
+  services:
+    - docker:19.03.12-dind
+  variables:
+    # Use TLS https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#tls-enabled
+    DOCKER_HOST: tcp://docker:2376
+    DOCKER_TLS_CERTDIR: "/certs"
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_MESSAGE =~ /\[release\]/
+    - when: never
+  before_script:
+    - docker info
+    - docker login -u $CI_REGISTRY_USERNAME -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker build --cache-from $CI_REGISTRY/$CI_REPO:latest --build-arg PYPI_PASSWORD=$CI_JOB_TOKEN --build-arg PYPI_USERNAME=gitlab-ci-token --tag $CI_REGISTRY/$CI_REPO:$CI_COMMIT_SHA .
+    - docker push $CI_REGISTRY/$CI_REPO:$CI_COMMIT_SHA
+
+Push docker tag:
+  stage: deploy
+  image: docker:19.03.12
+  services:
+    - docker:19.03.12-dind
+  variables:
+    # Use TLS https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#tls-enabled
+    DOCKER_HOST: tcp://docker:2376
+    DOCKER_TLS_CERTDIR: "/certs"
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_MESSAGE =~ /\[release\]/
+    - when: never
+  before_script:
+    - docker info
+    - docker login -u $CI_REGISTRY_USERNAME -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $CI_REGISTRY/$CI_REPO:$CI_COMMIT_SHA
+  script:
+    - docker tag $CI_REGISTRY/$CI_REPO:$CI_COMMIT_SHA $CI_REGISTRY/$CI_REPO:latest
+    - docker push $CI_REGISTRY/$CI_REPO:latest
+    - docker tag $CI_REGISTRY/$CI_REPO:$CI_COMMIT_SHA $CI_REGISTRY/$CI_REPO:$(cat nawah/version.txt)
+    - docker push $CI_REGISTRY/$CI_REPO:$(cat nawah/version.txt)
+
+Tag release:
+  stage: tag
+  image: bitnami/git:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_MESSAGE =~ /\[release\]/
+    - when: never
+  before_script:
+    - git --version
+  script:
+    - git tag release/$(cat nawah/version.txt)
+    - git remote set-url origin https://oauth2:$GITLAB_TOKEN@$(sed "s/[^@]*@//g" <<< "$CI_REPOSITORY_URL")
+    - git push --tags
