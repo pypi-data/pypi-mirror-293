@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pstash
+Version: 0.1.2
+Summary: P Stash provides encrypted storage and data exchange for Python applications.
+Home-page: https://github.com/stregato/stash
+Author: Francesco Ink
+Author-email: me@francesco.ink
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# Introduction
+
+PStash is a Python binding for the Stash library. It enables encrypted data storage and exchange. Similar to traditional systems, Stash offers controlled access with a security model inspired by Unix permissions.
+Unlike traditional storage, the access is based on cryptographic features, enabling distributed control.
+
+For more details, please refer to [http://github.com/stregato/stash](http://github.com/stregato/stash)
+
