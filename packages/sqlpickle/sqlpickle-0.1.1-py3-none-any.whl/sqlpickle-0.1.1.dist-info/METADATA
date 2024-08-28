@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sqlpickle
+Version: 0.1.1
+Summary: Simple KV Storage and memoization based on sqlite
+License: MIT
+Author: Slava Vishnyakov
+Author-email: bomboze@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# SQL Pickle
+
+SQL Pickle is a simple key-value store that uses SQLite to store pickled objects.
+
+```python
+from sqlpickle import KeyValueStore
+store = KeyValueStore('test.db')
+
+store['test'] = 1
+print(store['test']) 
+# 1
+
+store['very_complex_object'] = {'a': 1, 'b': 2}
+```
+
+# Memoization
+
+```python
+from sqlpickle import memoize, KeyValueStore
+
+@memoize(KeyValueStore('test.db'))
+def expensive_function(x):
+    return x**2
+
+expensive_function(2) # 4
+expensive_function(2) # 4
+```
+
