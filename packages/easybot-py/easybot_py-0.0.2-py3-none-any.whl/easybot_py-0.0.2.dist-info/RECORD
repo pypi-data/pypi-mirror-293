@@ -1,0 +1,12 @@
+easy_bot/__init__.py,sha256=jOZ7la6NjFSJcye-Q-9bNJorzYkTXjN93NSYTwTwVhI,145
+easy_bot/ai_cores.py,sha256=MaLzegmKdJOKxGw7fVlxL1nuky7xw7u727W4vzSNI2s,783
+easy_bot/easy_bot.py,sha256=7DAp4EeTXwYw_tB6liYegGYM50CxIomzlS69b2CI9wQ,3104
+easy_bot/openai_conn.py,sha256=ia7C4PWJP3mLLaYwK4B81hsGMj0-Gb_I_Eb30jeMjUY,5312
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_easy_bot.py,sha256=R56OdfJrOLYisYWpf_23fqBwDPE4K2KEYUOQHh0CMoY,6448
+easybot_py-0.0.2.dist-info/LICENSE,sha256=1mEIIsVI6xjsT2gZ75lqHd2hIiXA9ZzMOU3rCTVBhQg,1092
+easybot_py-0.0.2.dist-info/METADATA,sha256=00dvMmczLK3mI7r1Jt8H6wZxJdNpE9iMCZKXllAaN8g,2047
+easybot_py-0.0.2.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+easybot_py-0.0.2.dist-info/entry_points.txt,sha256=dGY8hfzW8dmemeM1g-4sAm7qxAvplP696UtE2kfBqlc,58
+easybot_py-0.0.2.dist-info/top_level.txt,sha256=zHUHGB-C1QsvMPBg34TIMyjTyjMdpv0m_0v8J4oCkkc,15
+easybot_py-0.0.2.dist-info/RECORD,,
