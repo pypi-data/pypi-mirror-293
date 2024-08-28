@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    # manually triggered
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Setup venv
+        run: |
+          python -m venv .env
+          .env/bin/pip install '.[testing]'
+      - name: Tests
+        run: .env/bin/pytest -v
+      - name: Tests with Flux
+        run: |
+          .env/bin/pip install flux
+          .env/bin/pytest -v
