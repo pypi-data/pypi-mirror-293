@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: example_package_mibrdeniz
+Version: 0.0.1
+Summary: This package is to test if it is success or not.
+Home-page: https://github.com/mdeniz20/example_package.git
+Author: Mahmut İbrahim DENİZ
+Author-email: mdeniz20@ku.edu.tr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# example_package
+A package distribution attempt

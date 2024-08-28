@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+example_package_mibrdeniz/__init__.py
+example_package_mibrdeniz/module.py
+example_package_mibrdeniz.egg-info/PKG-INFO
+example_package_mibrdeniz.egg-info/SOURCES.txt
+example_package_mibrdeniz.egg-info/dependency_links.txt
+example_package_mibrdeniz.egg-info/top_level.txt
