@@ -1,0 +1,8 @@
+README.md
+setup.py
+mathutils/__init__.py
+mathutils/operations.py
+omkars_add_sub_mathops_first.egg-info/PKG-INFO
+omkars_add_sub_mathops_first.egg-info/SOURCES.txt
+omkars_add_sub_mathops_first.egg-info/dependency_links.txt
+omkars_add_sub_mathops_first.egg-info/top_level.txt
