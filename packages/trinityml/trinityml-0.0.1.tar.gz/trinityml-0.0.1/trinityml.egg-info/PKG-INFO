@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: trinityml
+Version: 0.0.1
+Summary: A Python SDK for record the LLM Experiment Execution
+Home-page: https://github.com/roosterhr/gg_python_sdk
+Author: Team Giggso
+Author-email: support@giggso.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
