@@ -1,0 +1,60 @@
+Metadata-Version: 2.3
+Name: zetacore
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: A simple in-memory vector store library.
+Keywords: LLM,vector-store,similarity-search,python-bindings
+Author: zenithvrx
+License: Apache-2.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# zetacore
+
+zetacore is a Rust library with Python bindings for efficient vector storage and similarity search.
+
+## Features
+
+- Store and manage vector records with associated metadata
+- Perform cosine similarity search on stored vectors
+- Efficient add, get, and delete operations
+- Python bindings for easy integration with Python projects
+
+## Installation
+
+### Python
+
+```bash
+pip install zetacore
+```
+
+## Usage
+
+### Python
+
+```python
+import zetacore
+
+store = zetacore.VectorStore([])
+store.add([
+    { "id": "vector_1", "values": [1.0, 2.0] },
+    { "id": "vector_2", "values": [5.3, 3.9] },
+])
+
+result = store.query([1.5, 2.5], 1)
+print(f"Nearest vector: {result[0]}")
+```
+
+## Contributing
+
+Contributions are welcome!
+
+## License
+
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
+
+
+

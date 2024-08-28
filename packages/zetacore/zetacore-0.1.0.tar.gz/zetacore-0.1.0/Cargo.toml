@@ -1,0 +1,42 @@
+[package]
+name = "zetacore"
+version = "0.1.0"
+authors = ["zenithvrx"]
+edition = "2021"
+description = "A simple in-memory vector store library with Python bindings."
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["LLM", "vector-store", "similarity-search", "python-bindings"]
+categories = ["data-structures", "science"]
+exclude = [
+    "tests/*",
+    "benches/*",
+]
+
+[lib]
+name = "zetacore"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+thiserror = "1.0"
+pyo3 = { version = "0.22", features = ["extension-module"] }
+
+[dev-dependencies]
+rand = "0.8"
+criterion = "0.3"
+
+# [[bench]]
+# name = "query_benchmark"
+# harness = false
+#
+# [[bench]]
+# name = "add_benchmark"
+# harness = false
+#
+# [[bench]]
+# name = "get_benchmark"
+# harness = false
+#
+# [[bench]]
+# name = "delete_benchmark"
+# harness = false
