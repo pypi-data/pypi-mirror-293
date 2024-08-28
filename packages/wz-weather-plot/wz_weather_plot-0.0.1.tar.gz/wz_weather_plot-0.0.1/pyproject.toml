@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wz-weather-plot"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "yjw", email = "1633998687@qq.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+  "matplotlib>=3.9.1",
+  "matplotlib-base>=3.9.1",
+  "matplotlib-inline>=0.1.7",
+  "numpy>=1.22.3",
+  "pandas>=1.4.2",
+  "geopandas>=1.0.1",
+  "cartopy>=0.20.2",
+  "pygrib>=2.1.6",
+  "scipy>=1.14.1",
+  "xarray>=2024.7.0",
+  "netcdf4>=66.0.3",
+  "metpy>=1.6.3",
+  "loguru>=0.7.2",
+  "chardet>=4.0.0"
+]
+
+[project.urls]
+Documentation = "https://github.com/yjw/wz-weather-plot#readme"
+Issues = "https://github.com/yjw/wz-weather-plot/issues"
+Source = "https://github.com/yjw/wz-weather-plot"
+
+[tool.hatch.version]
+path = "src/wz_weather_plot/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/wz_weather_plot tests}"
+
+[tool.coverage.run]
+source_pkgs = ["wz_weather_plot", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/wz_weather_plot/__about__.py",
+]
+
+[tool.coverage.paths]
+wz_weather_plot = ["src/wz_weather_plot", "*/wz-weather-plot/src/wz_weather_plot"]
+tests = ["tests", "*/wz-weather-plot/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

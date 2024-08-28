@@ -1,0 +1,50 @@
+2024-08-12 10:51:14:702 | plot.run_plot_task[121] | ERROR[MainThread]： 'MapSettings' object has no attribute 'dpi'
+2024-08-12 10:52:03:113 | plot.run_plot_task[121] | ERROR[MainThread]： 'DataDetailSettings' object has no attribute 'wind_paths'
+2024-08-12 10:52:31:139 | plot.run_plot_task[121] | ERROR[MainThread]： 'NoneType' object has no attribute 'format'
+2024-08-12 10:54:24:486 | plot.run_plot_task[121] | ERROR[MainThread]： object NoneType can't be used in 'await' expression
+2024-08-12 12:30:58:081 | plot.run_plot_task[123] | ERROR[MainThread]： 'NoneType' object has no attribute 'get'
+2024-08-12 12:36:32:211 | plot.run_plot_task[123] | ERROR[MainThread]： 'DataDetailSettings' object has no attribute 'u_path_fmt'
+2024-08-12 12:36:50:369 | plot.run_plot_task[123] | ERROR[MainThread]： 'WindBarSettings' object has no attribute 'size'
+2024-08-12 12:38:02:245 | plot.run_plot_task[123] | ERROR[MainThread]： 'WindBarSettings' object has no attribute 'regrid_shape'
+2024-08-12 12:38:49:430 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 12:40:11:612 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 12:41:12:111 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 12:41:34:480 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 12:43:13:321 | plot.run_plot_task[123] | ERROR[MainThread]： Points cannot contain NaN
+2024-08-12 12:44:21:669 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 12:46:37:896 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:15:59:071 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:17:10:880 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:17:38:790 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:26:09:987 | plot.run_plot_task[123] | ERROR[MainThread]： 'DrawImages' object has no attribute '_DrawImages__set_x_y_axis'
+2024-08-12 16:27:14:365 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:27:49:871 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:29:57:633 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:30:29:671 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:37:30:179 | plot.run_plot_task[123] | ERROR[MainThread]： 
+2024-08-12 16:38:08:963 | plot.run_plot_task[123] | ERROR[MainThread]： 
+2024-08-12 16:39:22:758 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:43:05:842 | plot.run_plot_task[123] | ERROR[MainThread]： index 0 is out of bounds for axis 0 with size 0
+2024-08-12 16:43:49:514 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:46:32:480 | plot.run_plot_task[123] | ERROR[MainThread]： u and v must be the same shape
+2024-08-12 16:47:24:029 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:47:59:684 | plot.run_plot_task[123] | ERROR[MainThread]： The shapes of the passed in arrays do not match
+2024-08-12 16:57:22:620 | plot.run_plot_task[123] | ERROR[MainThread]： 
+2024-08-12 17:10:41:084 | plot.run_plot_task[125] | ERROR[MainThread]： '' is not a valid value for cmap; supported values are 'Accent', 'Accent_r', 'Blues', 'Blues_r', 'BrBG', 'BrBG_r', 'BuGn', 'BuGn_r', 'BuPu', 'BuPu_r', 'CMRmap', 'CMRmap_r', 'Dark2', 'Dark2_r', 'GnBu', 'GnBu_r', 'Grays', 'Greens', 'Greens_r', 'Greys', 'Greys_r', 'OrRd', 'OrRd_r', 'Oranges', 'Oranges_r', 'PRGn', 'PRGn_r', 'Paired', 'Paired_r', 'Pastel1', 'Pastel1_r', 'Pastel2', 'Pastel2_r', 'PiYG', 'PiYG_r', 'PuBu', 'PuBuGn', 'PuBuGn_r', 'PuBu_r', 'PuOr', 'PuOr_r', 'PuRd', 'PuRd_r', 'Purples', 'Purples_r', 'RdBu', 'RdBu_r', 'RdGy', 'RdGy_r', 'RdPu', 'RdPu_r', 'RdYlBu', 'RdYlBu_r', 'RdYlGn', 'RdYlGn_r', 'Reds', 'Reds_r', 'Set1', 'Set1_r', 'Set2', 'Set2_r', 'Set3', 'Set3_r', 'Spectral', 'Spectral_r', 'Wistia', 'Wistia_r', 'YlGn', 'YlGnBu', 'YlGnBu_r', 'YlGn_r', 'YlOrBr', 'YlOrBr_r', 'YlOrRd', 'YlOrRd_r', 'afmhot', 'afmhot_r', 'autumn', 'autumn_r', 'binary', 'binary_r', 'bone', 'bone_r', 'brg', 'brg_r', 'bwr', 'bwr_r', 'cividis', 'cividis_r', 'cool', 'cool_r', 'coolwarm', 'coolwarm_r', 'copper', 'copper_r', 'cubehelix', 'cubehelix_r', 'flag', 'flag_r', 'gist_earth', 'gist_earth_r', 'gist_gray', 'gist_gray_r', 'gist_grey', 'gist_heat', 'gist_heat_r', 'gist_ncar', 'gist_ncar_r', 'gist_rainbow', 'gist_rainbow_r', 'gist_stern', 'gist_stern_r', 'gist_yarg', 'gist_yarg_r', 'gist_yerg', 'gnuplot', 'gnuplot2', 'gnuplot2_r', 'gnuplot_r', 'gray', 'gray_r', 'grey', 'hot', 'hot_r', 'hsv', 'hsv_r', 'inferno', 'inferno_r', 'jet', 'jet_r', 'magma', 'magma_r', 'nipy_spectral', 'nipy_spectral_r', 'ocean', 'ocean_r', 'pink', 'pink_r', 'plasma', 'plasma_r', 'prism', 'prism_r', 'rainbow', 'rainbow_r', 'seismic', 'seismic_r', 'spring', 'spring_r', 'summer', 'summer_r', 'tab10', 'tab10_r', 'tab20', 'tab20_r', 'tab20b', 'tab20b_r', 'tab20c', 'tab20c_r', 'terrain', 'terrain_r', 'turbo', 'turbo_r', 'twilight', 'twilight_r', 'twilight_shifted', 'twilight_shifted_r', 'viridis', 'viridis_r', 'winter', 'winter_r'
+2024-08-12 18:25:23:538 | plot.run_plot_task[134] | ERROR[MainThread]： Invalid RGBA argument: 99.0
+2024-08-12 18:26:01:017 | plot.run_plot_task[134] | ERROR[MainThread]： Invalid RGBA argument: 99.0
+2024-08-12 18:27:47:361 | plot.run_plot_task[134] | ERROR[MainThread]： 
+2024-08-12 18:32:09:593 | plot.run_plot_task[134] | ERROR[MainThread]： 'ContourSettings' object has no attribute 'get'
+2024-08-12 18:34:08:655 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 18:35:50:871 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 18:36:52:189 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 18:38:03:424 | plot.run_plot_task[134] | ERROR[MainThread]： 
+2024-08-12 18:41:21:411 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 18:54:55:330 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 18:56:12:104 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 18:58:26:944 | plot.run_plot_task[134] | ERROR[MainThread]： 
+2024-08-12 19:01:31:971 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 19:02:31:484 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 19:07:28:223 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 19:09:18:055 | plot.run_plot_task[134] | ERROR[MainThread]： zero-size array to reduction operation minimum which has no identity
+2024-08-12 19:12:35:689 | plot.run_plot_task[134] | ERROR[MainThread]： 

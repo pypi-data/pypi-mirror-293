@@ -1,0 +1,8 @@
+ENV:
+  NAME: "CONFIG_LOCAL"
+
+CONFIG_ENV:
+  PLOT_CFG: "env/his_week_config.yaml"
+
+CONFIG_LOCAL:
+  PLOT_CFG: "local/plot_config.yaml"

@@ -1,0 +1,87 @@
+PRE01:
+  map_cfg:
+    extent:
+      - 70
+      - 140
+      - 10
+      - 60
+      - 10
+      - 10
+    add_province: true
+    add_city: false
+    title: "2米气温"
+  data_detail_cfg:
+    save_path: "./test/test.png"
+    data_type: "WIZGRD02"
+    u_path: "F:/data/ECMWF_D1D/2022061208/u10/2022061208.006"
+    v_path: "F:/data/ECMWF_D1D/2022061208/v10/2022061208.006"
+    contourf_paths:
+      mx2t24: "F:/data/ECMWF_D1D/2022061208/mx2t24/2022061208.024"
+#    contour_paths:
+#      mx2t24: "F:/data/ECMWF_D1D/2022061208/mx2t24/2022061208.024"
+  time_interval:
+    hours: 12
+  time_zone: "GMT8"
+  cst_hour:
+    start_cst: 1
+    end_cst: 2
+    step: 1
+  contourf_cfg:
+    add_color_bar: true
+    elements_detail:
+      mx2t24:
+        colors: "#022F82,#125CA6,#1776D5,#3B9EF1,#85D2FF,#AFE4FA,#D5FAFF,#F4FBF3,#D4FDD4,#BDFF8C,#FAFEA0, #FFF2C5,#FED1A3,#FA9887,#FD5500,#E60000"
+        levels: "-50, -12, -8, -4, 0, 4, 8, 12, 16, 20, 24, 28, 32, 35, 37, 40, 99"
+#        cmap: ""
+        extend: "both"
+      mx2t242:
+        colors: "#022F82,#125CA6,#1776D5,#3B9EF1,#85D2FF,#AFE4FA,#D5FAFF,#F4FBF3,#D4FDD4,#BDFF8C,#FAFEA0, #FFF2C5,#FED1A3,#FA9887,#FD5500,#E60000"
+        levels: "-50, -12, -8, -4, 0, 4, 8, 12, 16, 20, 24, 28, 32, 35, 37, 40, 99"
+        #        cmap: ""
+        extend: "both"
+  wind_bar_cfg:
+    barb_color: "blue"
+    length: 6
+    re_grid_shape: 20
+  contour_cfg:
+    mx2t24:
+      - levels:
+          - -20
+          - 0
+          - 4
+        colors: "black"
+        line_widths: 1.5
+        line_styles: "-"
+      - levels:
+          - 35
+        colors: "red"
+        line_widths: 2
+        line_styles: "-"
+      - levels:
+          - 0
+          - 40
+          - 4
+        colors: "black"
+        line_widths: 1.5
+        line_styles: "-"
+    gh850:
+      - levels:
+          - 488
+          - 584
+          - 4
+        colors: "black"
+        line_widths: 1.5
+        line_styles: "-"
+      - levels:
+          - 588
+        colors: "red"
+        line_widths: 2
+        line_styles: "-"
+      - levels:
+          - 590
+          - 644
+          - 4
+        colors: "black"
+        line_widths: 1.5
+        line_styles: "-"
+
