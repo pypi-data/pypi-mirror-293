@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: hexamind
+Version: 0.1
+Summary: Hexamind library to implement RAG solutions
+Author: Julien Fresnel, Max Beales, Alexandre Fleutelot
+Author-email: Julien Fresnel <julien.fresnel@hexamind.ai>, Max Beales <max.beales@hexamind.ai>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+  <img src="branding/hexamind.png" alt="Sample Image">
+</p>
+
+# Hexamind
+
+This package has been created by Hexamind to provide a simple and easy way to use and create RAG applications.
+
+- **Website**: https://www.hexamind.ai/
+- **Documentation**: https://hexamindorganisation.github.io/hexamind/
+- **Source Code**: https://github.com/HexamindOrganisation/hexamind
+
+
+
+
+
+
+
+
+
