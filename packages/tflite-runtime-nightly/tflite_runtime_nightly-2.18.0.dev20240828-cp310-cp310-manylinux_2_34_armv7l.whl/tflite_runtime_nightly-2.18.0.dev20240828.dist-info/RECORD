@@ -1,0 +1,9 @@
+tflite_runtime/__init__.py,sha256=lBNlMwTnb9YVbC6-MBSa_-ce4uK30_vy1QsEl2XsFkM,80
+tflite_runtime/_pywrap_tensorflow_interpreter_wrapper.so,sha256=ytTuROLoiT2dPq8vMCklIqkMif-iph6KHsFZqgfgH_8,5270180
+tflite_runtime/interpreter.py,sha256=yj6GCkPGGrMZADQWmJ3NKA9W9AxYT171yUai4fGMxCQ,39243
+tflite_runtime/metrics_interface.py,sha256=dVu6SmbnQUntPgE5o6BxHVMyemwli-7F6tDfVMGrlYI,1542
+tflite_runtime/metrics_portable.py,sha256=YBiMNokP9JtoQaUcCRRY1T_iFSZGeWCjr6L0iUR6eY8,2048
+tflite_runtime_nightly-2.18.0.dev20240828.dist-info/METADATA,sha256=Vnvqe32vB-_yl6cJ_n6GiBajuGuJyxaR1fCZ2FIB8LY,1438
+tflite_runtime_nightly-2.18.0.dev20240828.dist-info/WHEEL,sha256=JnFycybV544ASnJPy17g7-_A_gpN3wIw6Wr3NYF9GKE,113
+tflite_runtime_nightly-2.18.0.dev20240828.dist-info/top_level.txt,sha256=uNbSt_JkE5qb43UeqR4Wx6_Y6A5613g6gtS49welF08,15
+tflite_runtime_nightly-2.18.0.dev20240828.dist-info/RECORD,,
