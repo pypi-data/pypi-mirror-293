@@ -1,0 +1,8 @@
+[console_scripts]
+sagerender=sagerender.cli.commands:main
+
+[sagerender.cli.command]
+run-pipeline=sagerender.cli.run_pipeline:main
+upsert-pipeline=sagerender.cli.upsert_pipeline:main
+version=sagerender.cli.version:main
+
