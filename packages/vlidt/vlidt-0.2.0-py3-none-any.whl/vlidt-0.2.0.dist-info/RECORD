@@ -1,0 +1,8 @@
+vlidt/__init__.py,sha256=gW4B3oLJKCu6KCL5tmjGZE7NSpljurqEzLYifdHsoTs,65
+vlidt/base.py,sha256=2EePQHIrLZzNz12aoucVQ7TXLZAgFksTMWMIRwzVsU4,1831
+vlidt/fast.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlidt/lazy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlidt/validata.py,sha256=CJmh144hGLh6OBlI45txWNqWROP5LGAF1ZpWkDc4cQA,28
+vlidt-0.2.0.dist-info/METADATA,sha256=XoGTaP4raNTDPL1fNdP2L-T2_SnT-XR2MdEV5gekQko,2701
+vlidt-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vlidt-0.2.0.dist-info/RECORD,,
