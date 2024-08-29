@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: odoo-pos-driver
+Version: 0.4.0
+Summary: Python library to communicates with devices used by the Odoo Point of Sale application
+License: AGPLv3+
+Keywords: Odoo,Point Of Sale,Driver
+Author: Sylvain LE GAL
+Author-email: sylvain.legal@grap.coop
+Requires-Python: >=3.8,<4.0.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Odoo
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click-loglevel (>=0.5.0,<0.6.0)
+Requires-Dist: flask (>=3.0.3,<4.0.0)
+Requires-Dist: flask-babel (>=4.0.0,<5.0.0)
+Requires-Dist: flask-cors (>=4.0.1,<5.0.0)
+Requires-Dist: gevent (>=24.2.1,<25.0.0)
+Requires-Dist: gevent-websocket (>=0.10.1,<0.11.0)
+Requires-Dist: importlib-resources (>=6.4.0,<7.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: psutil (>=6.0.0,<7.0.0)
+Requires-Dist: pyserial (>=3.5,<4.0)
+Requires-Dist: python-escpos (>=3.1,<4.0)
+Requires-Dist: pyusb (>=1.2.1,<2.0.0)
+Requires-Dist: simplejson (>=3.19.3,<4.0.0)
+Requires-Dist: single-source (>=0.4.0,<0.5.0)
+Requires-Dist: unidecode (>=1.3.8,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Odoo Drivers
+
+## Odoo modules
+
+- Odoo / point_of_sale
+- OCA / pos_payment_terminal
+
+# Credits
+
+* Icon created by AbtoCreative (Flaticon):
+  - Application icon: https://www.flaticon.com/fr/icones-gratuites/hub-usb
+
+* Icon created by ToZ Icon (Flaticon):
+  - Credit Card Payment Terminal: https://www.flaticon.com/fr/icone-gratuite/terminal-de-paiement_6137350
+
+* Icon created by Iconic Panda (Flaticon):
+  - LCD Customer Display: https://www.flaticon.com/fr/icone-gratuite/lcd_9622586
+
+* Icon created by Icongeek26 (Flaticon):
+  - Thermal Receipt Printer: https://www.flaticon.com/fr/icone-gratuite/facture_1649343
+
