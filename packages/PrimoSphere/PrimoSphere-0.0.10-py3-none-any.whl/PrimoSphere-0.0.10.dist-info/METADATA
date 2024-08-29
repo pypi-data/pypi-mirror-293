@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PrimoSphere
+Version: 0.0.10
+Summary: A python package for prime number utilities.
+Home-page: https://github.com/kidusfmariam/Pryme
+Author: Kidus F.mariam Ayalew
+Author-email: kidusfmariamayalew@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: sympy
+
