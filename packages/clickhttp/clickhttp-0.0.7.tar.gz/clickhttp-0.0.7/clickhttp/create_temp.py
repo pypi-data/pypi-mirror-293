@@ -1,0 +1,55 @@
+from random import randbytes
+from typing import List
+
+from requests import Session
+
+from .frame import FrameType
+from .log import to_log
+from .read import read_frame
+
+
+DDL_TEMPLATE: str = """CREATE TEMPORARY TABLE {table_name}
+(
+    {table_struct}
+)
+ENGINE = MergeTree
+ORDER BY {column}
+AS
+{query}"""
+
+
+def temp_query(sess: Session,
+               session_id: str,
+               url: str,
+               database: str,
+               query: str,
+               timeout: int = 10,) -> str:
+    """Запись запроса во временную таблицу. Возвращает название временной таблицы."""
+
+    to_log("Get names and data types from query")
+    describe: List[List[str]] = read_frame(sess=sess,
+                                           session_id=session_id,
+                                           url=url,
+                                           database=database,
+                                           query=f"describe table ({query})",
+                                           frame_type=FrameType.python,
+                                           timeout=timeout,).data
+    table_name: str = "temp_" + randbytes(8).hex()
+    
+    to_log(f"Generate DDL for temporary table {table_name}")
+    column: str = describe[0][0]
+    table_struct: str = ",\n    ".join(" ".join(column) for column in
+                                       (row[:2] for row in describe))
+    read_frame(sess=sess,
+               session_id=session_id,
+               url=url,
+               database=database,
+               query=DDL_TEMPLATE.format(table_name=table_name,
+                                         table_struct=table_struct,
+                                         column=column,
+                                         query=query,),
+               frame_type=FrameType.python,
+               timeout=timeout,)
+    
+    to_log(f"Temporary table {table_name} created.")
+    return table_name
