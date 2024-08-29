@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+contextual_logger/__init__.py
+contextual_logger/logger.py
+contextual_logger.egg-info/PKG-INFO
+contextual_logger.egg-info/SOURCES.txt
+contextual_logger.egg-info/dependency_links.txt
+contextual_logger.egg-info/requires.txt
+contextual_logger.egg-info/top_level.txt
