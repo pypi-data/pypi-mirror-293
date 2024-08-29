@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pijoris
+Version: 1.0.2
+Description-Content-Type: text/markdown
+
+# Installation des DÃ©pendences (Requirements)
+> **> pip install setuptools wheel twine**
+
+# Construire une distribution python
+> **> python setup.py sdist bdist_wheel**
+
+
+# Installer la distribution
+> **> pip install dist/pijoris-1.0.1-py3-none-any.whl** [--force-reinstall]
+
+> *> pip list*
