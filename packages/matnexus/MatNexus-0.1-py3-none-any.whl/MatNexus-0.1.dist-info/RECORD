@@ -1,0 +1,15 @@
+MatNexus/PaperCollector.py,sha256=e8mNWSq6x43-61OO_j5NrsBdS7T_TNX4ByAwJJwHpEc,6749
+MatNexus/TextProcessor.py,sha256=Ajj6f2EA27lSWechOFryEX287axm7gWHCcTkoMxDTCA,6063
+MatNexus/VecGenerator.py,sha256=7hn_RIOgvjGkTvLAAFBButUZ_Zj2Mpg8Tjq-2bchMJU,24039
+MatNexus/VecVisualizer.py,sha256=Ysx7k76pExJCqV1tIQ2LgWhOaF3UkHa8eqvr6cO_2FQ,23860
+MatNexus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MatNexus/__pycache__/PaperCollector.cpython-310.pyc,sha256=pwYBcUkmhe_04H7JGGgICea8qi4lOmp6zj_8wc7PNP4,6751
+MatNexus/__pycache__/TextProcessor.cpython-310.pyc,sha256=7bkJfsvX5zhrFc9Jh596GmUq9VtEhhI9Pw_8R4H4PfA,5010
+MatNexus/__pycache__/VecGenerator.cpython-310.pyc,sha256=xsD6bGDY7knO8KcngK8XIc8IqADIEZu3o39IMf9PE2A,23278
+MatNexus/__pycache__/VecVisualizer.cpython-310.pyc,sha256=skd5T9eopTqFJHIZUN9bqB-p23I3FHEGVzREUThaRjg,17694
+MatNexus/__pycache__/__init__.cpython-310.pyc,sha256=YA3Aa7DQBR5qOXxqvNpB3I7YdD-V-1hOkfhMrl85EOY,157
+MatNexus-0.1.dist-info/LICENSE,sha256=ohYRaFO0ISwaiv3fifo3YtRbSdlh1DtueZcn7DlUjFg,7369
+MatNexus-0.1.dist-info/METADATA,sha256=euwtXQilTUI-kutfuw-yuXecXkr5vRDKpWLNLMBs2c4,16192
+MatNexus-0.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+MatNexus-0.1.dist-info/top_level.txt,sha256=llJCyoXiklUyzGNn4X9MIajJFOwFyV9GB5gbXG4wtco,9
+MatNexus-0.1.dist-info/RECORD,,
