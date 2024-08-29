@@ -1,0 +1,11 @@
+NOTES.md
+README.md
+pyproject.toml
+setup.cfg
+src/autoCppToPy.egg-info/PKG-INFO
+src/autoCppToPy.egg-info/SOURCES.txt
+src/autoCppToPy.egg-info/dependency_links.txt
+src/autoCppToPy.egg-info/top_level.txt
+src/cpptopy/__init__.py
+src/cpptopy/__main__.py
+src/cpptopy/cpptopy.py
