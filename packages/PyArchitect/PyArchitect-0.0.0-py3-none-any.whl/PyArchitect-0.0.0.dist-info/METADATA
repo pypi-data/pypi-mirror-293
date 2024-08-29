@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: PyArchitect
+Version: 0.0.0
+Requires-Dist: openai (>=1.42.0)
+Requires-Dist: Faker (==27.0.0)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: tqdm (>=4.66.5)
+Requires-Dist: mysql-connector-python (==8.3.0)
+
