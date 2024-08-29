@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: yaroslavslogger
+Version: 0.1.0
+Summary: A simple logging helper for Python projects
+Home-page: UNKNOWN
+Author: YaroslavS
+Author-email: yarosmr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# yaroslavslogger
+
+`yaroslavslogger` is a simple Python package that provides an easy-to-use logging setup function.
+
+## Installation
+
+You can install this package using pip:
+
+```bash
+pip install yaroslavslogger
+
+
+
