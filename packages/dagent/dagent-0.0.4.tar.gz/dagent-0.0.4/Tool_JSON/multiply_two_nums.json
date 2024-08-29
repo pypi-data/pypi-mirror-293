@@ -1,0 +1,1 @@
+{"type": "function", "function": {"name": "multiply_two_nums", "description": "Multiplies two integers", "parameters": {"type": "object", "properties": {"a": {"type": "int", "description": "The first integer to multiply"}, "b": {"type": "int", "description": "The second integer to multiply"}}, "required": ["a", "b"]}}}
