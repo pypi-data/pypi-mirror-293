@@ -1,0 +1,137 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "kamer"
+description = "Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten"
+version = "60"
+authors = [
+    {name = "Bart Thate", email = "bthate@dds.nl" },
+]
+readme = "README.rst"
+license = { text="Public Domain"}
+classifiers=[
+             'Development Status :: 3 - Alpha',
+             'License :: Public Domain',
+             'Operating System :: Unix',
+             'Programming Language :: Python',
+             'Topic :: Utilities'
+            ]
+
+
+[project.scripts]
+"kamer"  = "kamer.__main__:wrapped"
+"kamerc" = "kamer.prompt:wrapped"
+"kamerd" = "kamer.daemon:wrapped"
+
+
+
+[project.urls]
+"home" = "https://pypi.org/project/kamer"
+"bugs" = "https://github.com/bthate/kamer/issues"
+"source" = "https://github.com/bthate/kamer"
+
+
+[project.optional-dependencies]
+dev = []
+
+
+[tool.setuptools]
+packages = [
+            "kamer",
+            "kamer.modules"
+           ]
+zip-safe = true
+
+
+[tool.setuptools.data-files]
+"share/doc/kamer" = [
+                     "docs/about.rst",
+                     "docs/bewijsgif4.jpg",
+                     "docs/conf.py",
+                     "docs/index.rst",
+                     "docs/manual.rst",
+                     "docs/robots.txt",
+                     "docs/skull.png",
+                     "docs/source.rst",
+                     "docs/tochamber.rst"
+                    ]
+
+"share/doc/kamer/jpg" = [
+                         "docs/jpg/20140730_011.jpg",
+                         "docs/jpg/20151029_004.jpg",
+                         "docs/jpg/aes.ico",
+                         "docs/jpg/beuker2.jpg",
+                         "docs/jpg/bevestigd3.jpg",
+                         "docs/jpg/bevestigd.jpg",
+                         "docs/jpg/bewijsgif3.jpg",
+                         "docs/jpg/bewijsgif4.jpg",
+                         "docs/jpg/ECHAhaloperidol.png",
+                         "docs/jpg/fact.jpg",
+                         "docs/jpg/igz.jpg",
+                         "docs/jpg/nederland2.jpg",
+                         "docs/jpg/stoned2.jpg"
+                        ]
+
+"share/doc/kamer/_static" = [
+                  "docs/_static/kamer.css",
+                 ]
+
+"share/doc/kamer/pdf" =  [
+               "docs/pdf/bevestigd.pdf",
+              ]
+
+
+"share/docs/kamer/txt" = [
+                          "docs/txt/aangifte.rst",
+                          "docs/txt/advocatenemails",
+                          "docs/txt/advocatenemails.1",
+                          "docs/txt/advocatenemails.2",
+                          "docs/txt/advocatenemails.3",
+                          "docs/txt/advocatenemails.4",
+                          "docs/txt/beuker2.rst",
+                          "docs/txt/beuker.rst",
+                          "docs/txt/bewijsgif4.jpg",
+                          "docs/txt/bewijsgif.rst",
+                          "docs/txt/bijwerkingen.rst",
+                          "docs/txt/chronologisch.rst",
+                          "docs/txt/clozapine.rst",
+                          "docs/txt/eerstekameremails2017",
+                          "docs/txt/eerstekameremails.rst",
+                          "docs/txt/eerstekamer.rst",
+                          "docs/txt/eerste.rst",
+                          "docs/txt/fact.rst",
+                          "docs/txt/greffe.rst",
+                          "docs/txt/hoogeraad.rst",
+                          "docs/txt/igz.rst",
+                          "docs/txt/index.rst",
+                          "docs/txt/kamer1",
+                          "docs/txt/kamer2",
+                          "docs/txt/legal.rst",
+                          "docs/txt/minister.rst",
+                          "docs/txt/om.rst",
+                          "docs/txt/ontwenning.rst",
+                          "docs/txt/pvp.rst",
+                          "docs/txt/strafbaar2.rst",
+                          "docs/txt/strafbaar.rst",
+                          "docs/txt/uitspraak.rst",
+                          "docs/txt/urls.rst",
+                          "docs/txt/zyprexa.rst"
+                         ]
+
+
+"share/doc/kamer/_templates" = [
+                     "docs/_templates/base.rst",
+                     "docs/_templates/class.rst",
+                     "docs/_templates/module.rst"
+                    ]
+
+
+[tool.setuptools.exclude-package-data]
+"*" = [
+       "env*",
+       "html*",
+       "test*"
+      ]

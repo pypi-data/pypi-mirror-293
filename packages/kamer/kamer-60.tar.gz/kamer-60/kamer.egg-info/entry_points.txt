@@ -1,0 +1,4 @@
+[console_scripts]
+kamer = kamer.__main__:wrapped
+kamerc = kamer.prompt:wrapped
+kamerd = kamer.daemon:wrapped
