@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PrimoSphere.egg-info/PKG-INFO
+PrimoSphere.egg-info/SOURCES.txt
+PrimoSphere.egg-info/dependency_links.txt
+PrimoSphere.egg-info/requires.txt
+PrimoSphere.egg-info/top_level.txt
+Pryme/__init__.py
+Pryme/prymepackage.py
