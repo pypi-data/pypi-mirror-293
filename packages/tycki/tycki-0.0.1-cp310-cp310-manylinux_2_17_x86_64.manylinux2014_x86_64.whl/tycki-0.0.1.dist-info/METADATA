@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tycki
+Version: 0.0.1
+Summary: Fast MCMC in Python
+Home-page: https://github.com/ripaul/tycki
+Author: Richard D. Paul
+Author-email: richard@los-paul.eu
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: NOTICE.txt
+
