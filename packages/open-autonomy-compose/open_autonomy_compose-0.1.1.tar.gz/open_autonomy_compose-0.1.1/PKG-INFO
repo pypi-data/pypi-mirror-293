@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: open-autonomy-compose
+Version: 0.1.1
+Summary: FSM Composer for open-autonomy framework
+License: Apache-2.0
+Author: angrybayblade
+Author-email: vptl185@gmail.com
+Requires-Python: >=3.8,<4
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: black (==23.1.0)
+Requires-Dist: clea (==0.1.0rc4)
+Requires-Dist: flask (==2.1.3)
+Requires-Dist: open-aea-cli-ipfs (==1.55.0)
+Requires-Dist: open-autonomy[all] (==0.15.2)
+Requires-Dist: pyyaml (==6.0.1)
+Requires-Dist: starlette (==0.37.2)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tomte[black,isort] (==0.2.17)
+Requires-Dist: uvicorn (==0.30.5)
+Description-Content-Type: text/markdown
+
+# Open Autonomy Compose
+
+A framework for working with FSM based ABCI applications
+
+## Install
+
+```bash
+pip3 install open-autonomy-compose
+```
+
+## Setup a new service repository
+
+In an empty directory run
+
+```bash
+compose new --author=AUTHOR
+```
+
+This will scaffold a service repository with all the latest packages and dependencies.
+
+## Generate FSM Specification
+
+If you have an ABCI app composition and you want to generate a specification for the same run
+
+```bash
+compose fsm from-app PATH_TO_ABCI_APP
+```
+
+## Perform consistency checks
+
+To peform consistency check on an ABCI app run
+
+```bash
+compose check PATH_TO_ABCI_APP
+```
+
+Supported consistency checks
+
+- SyncDB
+  - Pre/Post Conditions for round transitions
+  - Static analyser for checking if the required updates are being performed or not
+
+## Inspect the ABCI App
+
+To inspect the ABCI app run
+
+```bash
+compose inspect PATH_TO_ABCI_APP
+```
+
+Running this will start an http server, open the URL for HTTP server and you can inspect the ABCI app in the browser
+
+## Scaffolding FSMs
+
+Scaffold an empty ABCI application
+
+```bash
+compose scaffold --abci/--composition NAME
+```
+
+This will create a skill package in the `packages/author/skills/` directory.
+
+You can also use a FSM specification to scaffold using `--spec` flag.
+
+```bash
+compose scaffold --abci/--composition --spec=specification.yaml NAME
+```
+
+Check `examples/specifications` folder for examples.
+
+
+## Development
+
+- Ensure your machine satisfies the following requirements:
+
+    - Python `>= 3.8`
+    - [Pip](https://pip.pypa.io/en/stable/installation/)
+    - [Poetry](https://python-poetry.org/docs/#installation)
+
+- Clone the repository:
+
+    ```bash
+    git clone git@github.com:valory-xyz/open-autonomy-compose.git
+    ```
+
+- Create a development environment
+
+    ```bash
+    poetry install
+    ```
+
+- Launch poetry shell in start developing
+
+    ```bash
+    poetry shell
+    ```
+
+## Cite
+
+If you are using our software in a publication, please consider to cite it with the following BibTex entry:
+
+```
+@misc{open-autonomy-compose,
+  Author = {Viraj Patel},
+  Title = {Open Autonomy Compose},
+  Year = {2023},
+}
+```
+
