@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cds_plugin_isyntax"
+version = "0.1.4"
+description = "Clinical data service plugin for iSyntax"
+authors = ["Michael Franz <michael.franz.sy@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.19.5"
+pyzmq = "^25.0.0"
+cachetools = "^4.2.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
