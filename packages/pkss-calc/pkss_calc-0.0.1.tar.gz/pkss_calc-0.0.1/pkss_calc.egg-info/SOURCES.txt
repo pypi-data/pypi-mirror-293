@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+pkss_calc/__init__.py
+pkss_calc.egg-info/PKG-INFO
+pkss_calc.egg-info/SOURCES.txt
+pkss_calc.egg-info/dependency_links.txt
+pkss_calc.egg-info/top_level.txt
