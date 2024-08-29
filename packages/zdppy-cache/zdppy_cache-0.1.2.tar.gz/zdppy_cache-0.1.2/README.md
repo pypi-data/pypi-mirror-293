@@ -1,0 +1,262 @@
+# zdppy_cache
+
+Python的缓存库
+
+## 特性
+
+- 1、轻量级，没有任何第三方依赖
+- 2、低代码，zdppy_api只需要一行代码就自动拥有缓存的相关接口
+- 3、简单易学
+- 4、完整的中文文档
+
+## 安装
+
+```bash
+pip install zdppy_cache
+```
+
+## 使用教程
+
+### 基本用法
+
+```python
+import zdppy_cache as c
+
+# 设置缓存
+key = "code"
+value = "A13k"
+c.set(key, value)
+
+# 获取缓存
+print(c.get(key))
+
+# 删除缓存
+c.delete(key)
+print(c.get(key))
+
+# 清空缓存
+c.delete_all()
+```
+
+### 查询所有的key
+
+默认参数是False，查询所有未过期的。传True则查询所有，包括已过期的。
+
+```python
+import zdppy_cache as c
+import time
+
+# 设置缓存
+key = "code"
+value = "A13k"
+c.set(key, value, 3)
+
+# 获取所有的缓存的key
+print(c.get_all_keys())
+
+time.sleep(3)
+print("默认查询未过期的：", c.get_all_keys())
+print("查询过期的：", c.get_all_keys(False))
+
+# 清空缓存
+c.delete_all()
+```
+
+### 查询所有的键值对
+
+```python
+import zdppy_cache as c
+import time
+
+# 设置缓存
+key = "code"
+value = "A13k"
+c.set(key, value, 3)
+
+# 获取所有的缓存的key-value
+print(c.get_all_items())
+
+time.sleep(3)
+print("默认查询未过期的：", c.get_all_items())
+print("查询过期的：", c.get_all_items(False))
+
+# 清空缓存
+c.delete_all()
+
+```
+
+### 查询所有的有效具体数据
+
+会返回具体详细的缓存信息。
+
+```python
+import zdppy_cache as c
+import time
+
+# 设置缓存
+key = "code"
+value = "A13k"
+c.set(key, value, 3)
+
+# 获取所有的缓存的key-value
+print(c.get_all())
+
+time.sleep(3)
+print("默认查询未过期的：", c.get_all())
+print("查询过期的：", c.get_all(False))
+
+# 清空缓存
+c.delete_all()
+```
+
+### 获取缓存文件大小
+
+```python
+import zdppy_cache as c
+import time
+
+# 设置缓存
+key = "code"
+value = "A13k"
+c.set(key, value, 3)
+
+# 获取占据磁盘大小
+print(c.get_size())
+
+# 加很多东西
+for i in range(100):
+    c.set(f"zhangsan{i}", i)
+
+print(c.get_size())
+
+# 清空缓存
+c.delete_all()
+```
+
+### 通过账号密码区分用户的缓存
+
+```python
+import zdppy_cache
+
+# 设置缓存
+key = "code"
+value = "A13k"
+
+# 设置缓存
+c = zdppy_cache.UserCache("admin", "admin123456")
+c.set(key, value, 3)
+
+# 获取缓存
+print(c.get(key))
+
+# 让另一个用户去获取缓存
+c = zdppy_cache.UserCache("admin", "admin123457")
+print("另一个用户", c.get(key))
+
+# 清空缓存
+c.delete_all()
+```
+
+### 基于zdppy_api实现的接口级别的缓存
+
+```python
+import api
+import zdppy_cache
+
+key1 = "admin"
+key2 = "admin123456"
+app = api.Api(
+    routes=[
+        *zdppy_cache.zdppy_api.cache(key1, key2, api)
+    ]
+)
+
+if __name__ == '__main__':
+    app.run()
+```
+
+设置缓存：
+
+```bash
+req -X POST -d '{\"key\":1,\"value\":111}' http://127.0.0.1:8888/zdppy_cache
+```
+
+获取缓存：
+
+```bash
+# 只查询key对应的value
+req -d '{\"key\":1}' http://127.0.0.1:8888/zdppy_cache
+```
+
+删除缓存：
+
+```bash
+req -X DELETE -d '{\"key\":1}' http://127.0.0.1:8888/zdppy_cache
+```
+
+批量查询缓存信息：
+
+```bash
+# 默认查询所有的key，
+req  http://127.0.0.1:8888/zdppy_caches
+
+# 只查询未过期的keys
+req -d '{\"active\":true}' http://127.0.0.1:8888/zdppy_caches
+
+# 查看key-value格式
+req -d '{\"active\":true, \"value\":true}' http://127.0.0.1:8888/zdppy_caches
+
+# 查询详细缓存信息
+req -d '{\"active\":true, \"value\":true, \"detail\":true}' http://127.0.0.1:8888/zdppy_caches
+req -d '{\"active\":true, \"detail\":true}' http://127.0.0.1:8888/zdppy_caches
+```
+
+删除缓存：在缓存的数据比较少的情况下，size可能不会发生变化
+
+```bash
+req -X DELETE http://127.0.0.1:8888/zdppy_caches
+req -X DELETE -d '{\"limit\": 33}' http://127.0.0.1:8888/zdppy_caches
+```
+
+获取缓存大小：
+
+```bash
+req http://127.0.0.1:8888/zdppy_cache/size
+```
+
+清空缓存：
+
+```bash
+req -X DELETE http://127.0.0.1:8888/zdppy_caches/all
+```
+
+### 重置缓存的逻辑
+
+resize方法会根据参数，保留最近limit个数的过期缓存，其他的都清除。
+
+```python
+from zdppy_cache import Cache
+
+# 实例化缓存对象，指定缓存目录
+cache = Cache('tmp')
+for i in range(2000):
+    cache.set(f"k{i}", i, 1)
+print(len(cache.get_all_keys()))
+
+cache.resize(1111)
+print("resize之后", len(cache.get_all_keys()))
+
+# 关闭缓存对象
+cache.close()
+```
+
+## 版本历史
+
+### v0.1.1
+
+- 支持zpppy_api接口级别的缓存
+
+### v0.1.2
+
+- 支持用户缓存隔离
+- 支持超级管理员权限
