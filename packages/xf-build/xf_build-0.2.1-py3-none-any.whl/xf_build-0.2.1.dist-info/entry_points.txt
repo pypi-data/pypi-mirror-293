@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        xf=xf_build.cmd.cmd:cli
+    

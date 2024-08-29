@@ -1,0 +1,17 @@
+xf_build/__init__.py,sha256=5Sd-d8OTwj5L71VRpVtN2DIKXKIqYrjvw-Zv6MuHU6o,664
+xf_build/api.py,sha256=FNgFSija0RRG7rktrHTKCFa0S3rn8scFooPqybYTQzw,3710
+xf_build/build.py,sha256=yk7D2WbKWtATRuoFlj-on9fPlxnjAmclEIGZtgd55F4,6989
+xf_build/env.py,sha256=XuD5-J5LYdZaeyi3b5OFEmWMciVekfHgrTW2i8TqzaM,4705
+xf_build/log.py,sha256=F8XTJHM3MpTgvhL2PCazVBk3K6aOphWsd9nmn8CIfIM,1050
+xf_build/menuconfig.py,sha256=X1j6_zmopdNc0UdW6IgKibkb5fdqyZbMbGlIY7jwpZg,6242
+xf_build/plugins.py,sha256=mnTmnqX74QQ1cmjfuIVCuT5B1zgyBTTauURgAEbkGv8,1229
+xf_build/plugins_hookspec.py,sha256=8TbupkoMYSkZF6gHdtg_xjIadJjxBJz_5HXjTrJynYU,711
+xf_build/cmd/__init__.py,sha256=71rA5t_rEY1pkHp97AIkCnzAWV1JKwAOgjHYx1z4eSw,99
+xf_build/cmd/cmd.py,sha256=W72D0hZ5d7tvL7kGpbudgUrmsALuEPEicrEtoI92VBU,4987
+xf_build/cmd/package.py,sha256=VYy5d7_AZql21YhtYAS4NOr1fGf8S_XR4JtQra6C-L0,3634
+xf_build/cmd/project.py,sha256=ql05XVrkG6LWywfF-QURQ0p4-QcPr00XLyxbXyZR4Co,4426
+xf_build-0.2.1.dist-info/METADATA,sha256=iXmpT4Ng7gszuq5FL7Pz_mDN6DPxZl6F8HkB1PNm3dg,504
+xf_build-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xf_build-0.2.1.dist-info/entry_points.txt,sha256=7ytEq4_nE7xhwywnKDZedAn7x7QL2iL51xL0IYE1JmA,63
+xf_build-0.2.1.dist-info/top_level.txt,sha256=MlzDxK6Zir8rL8PPeQVUrx8vnEChUdNWN67ugEd4HFE,9
+xf_build-0.2.1.dist-info/RECORD,,
