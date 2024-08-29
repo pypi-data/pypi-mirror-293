@@ -1,0 +1,1 @@
+ENDPOINT_URL = "http://your-endpoint-url.com/data"
