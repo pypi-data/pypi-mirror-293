@@ -1,0 +1,11 @@
+README.md
+setup.py
+schema_compare_postgres/__init__.py
+schema_compare_postgres/gerir_procedure.py
+schema_compare_postgres/gerir_tabelas.py
+schema_compare_postgres/main.py
+schema_compare_postgres.egg-info/PKG-INFO
+schema_compare_postgres.egg-info/SOURCES.txt
+schema_compare_postgres.egg-info/dependency_links.txt
+schema_compare_postgres.egg-info/requires.txt
+schema_compare_postgres.egg-info/top_level.txt
