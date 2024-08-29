@@ -1,0 +1,34 @@
+<request
+  url="https://phys.org/space-news/astronomy"
+  parsers="main-news-parser,nav-items-parser"
+></request>
+<!-- <request-list
+  start="1"
+  end="5"
+  url-template="'https://phys.org/space-news/astronomy/page' + str(i) + '.html'"
+  parser="main-news"
+></request-list> -->
+
+<list
+  id="nav-items-parser"
+  name="nav-items"
+  xpath="//nav/div[2]/div//a"
+  filter="item['title'] != ''"
+>
+  <item name="url" xpath="@href"></item>
+  <item name="title" xpath="text()" strip></item>
+</list>
+
+<list id="main-news-parser" name="main-news" xpath="//article[@class='sorted-article']" key="url">
+  <item name="url" xpath=".//a/@href"></item>
+  <item name="title" xpath=".//h3/a/text()"></item>
+  <item name="subtitle" xpath=".//p/text()" strip></item>
+  <item name="date" xpath="./div[2]/div[2]/p/text()" strip></item>
+  <item
+    name="view_count"
+    xpath="./div[2]/div[4]/p/span/text()"
+    strip
+    parse="int(value)"
+  ></item>
+  <item name="category" xpath="./div[2]/div[1]//p/text()" strip></item>
+</list>
