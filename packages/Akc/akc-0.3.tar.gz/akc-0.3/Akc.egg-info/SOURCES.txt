@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+Akc/Bitwise.py
+Akc/FibonacciGenerator.py
+Akc/TCKimlik.py
+Akc/VergiKimlik.py
+Akc/__init__.py
+Akc.egg-info/PKG-INFO
+Akc.egg-info/SOURCES.txt
+Akc.egg-info/dependency_links.txt
+Akc.egg-info/top_level.txt
