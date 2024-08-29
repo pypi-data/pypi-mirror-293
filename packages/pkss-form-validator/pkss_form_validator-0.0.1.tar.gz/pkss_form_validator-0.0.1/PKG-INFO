@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pkss_form_validator
+Version: 0.0.1
+Summary: A Form Inputs Validator
+Home-page: 
+Author: Vinoth
+Author-email: vinothmoorthy1397@gmail.com
+License: MIT
+Keywords: validator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/plain
+License-File: LICENCE.txt
+
+This is form inputs validator library. It performs the validation of the inputs entered in UI forms.
+
+The validators are listed below :
+    1. validate_name
+    2. validate_email
+    3. validate_phone
+    4. validate_password
+    5. validate_address
+    6. validate_integer
+    7. validate_string
+
+Change Log
+==========
+
+0.0.1 (29/08/2024)
+- First Release
