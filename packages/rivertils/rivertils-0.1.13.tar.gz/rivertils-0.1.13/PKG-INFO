@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rivertils
+Version: 0.1.13
+Summary: utilities commonly used by rivers cuomo
+Author: Rivers Cuomo
+Author-email: riverscuomo@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: google-cloud-translate (==3.9.0)
+Description-Content-Type: text/markdown
+
+# Rivertils
+
+Scripts that are imported by packages you've deployed to pypi
+
+## To publish to PyPi 
+
+- increment the version number in pyproject.toml
+- poetry build
+- poetry publish --username __token__ --password (use the token in the pypi account) [text](https://pypi.org/manage/account/token/)
+Set your username to __token__
+Set your password to the token value, including the pypi- prefix
+- git commit and push
