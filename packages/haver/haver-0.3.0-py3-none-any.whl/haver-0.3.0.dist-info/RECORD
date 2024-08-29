@@ -1,0 +1,12 @@
+haver/__init__.py,sha256=Ur8vos_Bb9mk5LBbVw58F5UPwKBLIQJKTGefXILme-w,339
+haver/haver.py,sha256=X5g9VNNLpKCkIv6TsXv7qv0eQH0vAGVCboa50Q5nGjQ,8996
+haver/haver_maps.py,sha256=IEXMmvI1jV_hLTaiEqI8cB926rHMVUaMfyaXGsA1IQU,12647
+haver/scratch_TEMP.py,sha256=CfSEe3yyqz2ohcf1fGsOBRAoQxoYe5tZWJAkWdKbQkY,892
+haver/res/haver.jpg,sha256=_tdxtWQiW-q6RigqADJ-5E88xB6uAEXEm1Bn_cytLFI,4497
+haver/tests/__init__.py,sha256=9c3o2uRrInVYLLCtKqNP3Cnn-tOW0dke7c5mW91YhLQ,102
+haver/tests/test_all.py,sha256=VGBBP25XVlUVYQp_1LH85SDbn1wnMzjXpztr-7tpy4U,1059
+haver-0.3.0.dist-info/LICENSE,sha256=H7oSGy2qGDa602_bsLECshp6I1MuccbTHOF3f5QvsKw,1073
+haver-0.3.0.dist-info/METADATA,sha256=QHYXPdvpe8bM12S2RerBrxwpaxT3xrJVYrI667Sfu_U,4017
+haver-0.3.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+haver-0.3.0.dist-info/top_level.txt,sha256=YZSvn0NJE92-XWNZuLc3_ylZnqXKWw1rHLj6BwcSCqo,6
+haver-0.3.0.dist-info/RECORD,,
