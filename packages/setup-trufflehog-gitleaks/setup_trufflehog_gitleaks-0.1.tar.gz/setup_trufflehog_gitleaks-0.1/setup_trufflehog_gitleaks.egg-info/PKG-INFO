@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: setup_trufflehog_gitleaks
+Version: 0.1
+Summary: A package to install security tools like OWASP ZAP, TruffleHog, and Gitleaks
+Requires-Dist: truffleHog
+Requires-Dist: gitleaks
+
+# Setup Security Tools
+
+This package installs OWASP ZAP, Gitleaks, and TruffleHog on a Windows machine using Chocolatey and pip.
+
+## Setup a Package:
+
+Install a package:
+```bash
+pip install security-package-tools
+```
+
+Install setuptools and wheel if you haven't already:
+
+```bash
+pip install setuptools wheel
+```
+
+## Usage
+
+To use this package, install it locally and run the command:
+
+```bash
+setup-security-tools
+```
