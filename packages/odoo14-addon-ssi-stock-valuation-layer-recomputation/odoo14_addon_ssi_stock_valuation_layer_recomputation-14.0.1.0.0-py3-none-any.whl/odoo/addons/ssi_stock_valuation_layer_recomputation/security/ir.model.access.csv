@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_svl_recomputation_type_configurator,svl_recomputation_type - configurator,model_svl_recomputation_type,svl_recomputation_type_group,1,1,1,1
+access_svl_recomputation_type_all,svl_recomputation_type - all,model_svl_recomputation_type,,1,0,0,0
+access_svl_recomputation_all,svl_recomputation - all,model_svl_recomputation,,1,0,0,0
+access_svl_recomputation_viewer,svl_recomputation - viewer,model_svl_recomputation,svl_recomputation_viewer_group,1,0,0,0
+access_svl_recomputation_user,svl_recomputation - user,model_svl_recomputation,svl_recomputation_user_group,1,1,1,1
