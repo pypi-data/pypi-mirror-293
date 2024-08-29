@@ -1,0 +1,37 @@
+[project]
+name = "golgotha"
+version = "0.0.2"
+dependencies = ["regex"]
+requires-python = ">= 3"
+authors = [
+  {name = "Wyatt S Carpenter"}
+]
+maintainers = [
+  {name = "Wyatt S Carpenter"}
+]
+description = "A preprocessor to define new operators in any programming language."
+readme = "readme.txt"
+keywords = ["preprocessor", "operators", "infix", "prefix", "postfix", "syntax", "💀", "🔣"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+  "License :: OSI Approved :: MIT No Attribution License (MIT-0)", # The text of this license is not included in the repo, but I, Wyatt Carpenter, agree to license the project under MIT-0 as well as CC0.
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Code Generators",
+  "Topic :: Software Development :: Pre-processors",
+]
+
+[project.urls]
+Homepage = "https://github.com/wyattscarpenter/golgotha"
+Documentation = "https://github.com/wyattscarpenter/golgotha/blob/master/readme.txt"
+Repository = "https://github.com/wyattscarpenter/golgotha.git"
+Issues = "https://github.com/wyattscarpenter/golgotha/issues"
+
+[project.scripts]
+golgotha = "golgotha:main"
+
+[project.gui-scripts]
+golgotha = "golgotha:main"
