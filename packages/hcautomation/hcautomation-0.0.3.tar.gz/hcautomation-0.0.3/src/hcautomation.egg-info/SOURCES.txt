@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/hcautomation/__init__.py
+src/hcautomation/main.py
+src/hcautomation.egg-info/PKG-INFO
+src/hcautomation.egg-info/SOURCES.txt
+src/hcautomation.egg-info/dependency_links.txt
+src/hcautomation.egg-info/requires.txt
+src/hcautomation.egg-info/top_level.txt
