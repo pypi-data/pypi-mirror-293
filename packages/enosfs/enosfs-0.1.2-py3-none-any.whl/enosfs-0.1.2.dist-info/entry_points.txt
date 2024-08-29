@@ -1,0 +1,2 @@
+[console_scripts]
+enosfs = enosfs.cli:main

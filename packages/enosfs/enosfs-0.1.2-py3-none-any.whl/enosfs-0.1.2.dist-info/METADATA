@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: enosfs
+Version: 0.1.2
+Summary: A CLI tool for operating ENOS Online Store
+Home-page: https://git.rsglab.com/enosfs
+Author: Mrinal Gosain
+Author-email: mrinal_gosain@intuit.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: google-cloud-bigtable
+
+# enosfs
