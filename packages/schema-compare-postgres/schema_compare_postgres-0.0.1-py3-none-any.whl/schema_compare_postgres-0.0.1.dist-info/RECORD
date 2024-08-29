@@ -1,0 +1,8 @@
+schema_compare_postgres/__init__.py,sha256=4_h9meXMCLqsSk-Gd_Ga7oN72OBsncettC62vkLG6vE,21
+schema_compare_postgres/gerir_procedure.py,sha256=jPkRzthy0Jbw_mxw-69lfAJx1xZX6Upt52atNEWQR2c,590
+schema_compare_postgres/gerir_tabelas.py,sha256=l8FMBIZg0EViAuWVpENyvdxm43wRSX0an4KA7W4BkLY,1351
+schema_compare_postgres/main.py,sha256=MMKwx4msEoculfxPRWxvzydLwOriq3EfuVsg4qlMUO0,6198
+schema_compare_postgres-0.0.1.dist-info/METADATA,sha256=KB5LQ793jBh_DPvpNOih0_dkKyRxlJuufLvP-Wovrho,2668
+schema_compare_postgres-0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+schema_compare_postgres-0.0.1.dist-info/top_level.txt,sha256=KXGQrxkHqNkJWpagq4Eg9KTi03K50hYdrmXoQ3WAsNA,24
+schema_compare_postgres-0.0.1.dist-info/RECORD,,

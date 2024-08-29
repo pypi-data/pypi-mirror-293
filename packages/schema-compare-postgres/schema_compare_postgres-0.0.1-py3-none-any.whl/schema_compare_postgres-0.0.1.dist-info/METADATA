@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: schema-compare-postgres
+Version: 0.0.1
+Summary: Este pacote Python permite comparar estruturas de bancos de dados PostgresSQL, identificando diferenças entre tabelas, views, procedures e funções. Ideal para auditorias e sincronizações entre ambientes de banco de dados.
+Home-page: https://github.com/Isaquemz/schema_compare_postgres.git
+Author: Isaque Menezes
+Author-email: isaquesantos1517@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2>=2.9.9
+
+
+# Comparador de Estruturas de Bancos de Dados PostgreSQL
+
+Este pacote Python fornece funcionalidades para comparar as estruturas de dois bancos de dados PostgreSQL, incluindo tabelas, views, procedures e funÃ§Ãµes. O resultado da comparaÃ§Ã£o Ã© registrado em um arquivo de log para anÃ¡lise.
+
+## Funcionalidades
+
+- **ComparaÃ§Ã£o de Tabelas**: Identifica diferenÃ§as entre as tabelas dos bancos de origem e destino, listando tabelas Ãºnicas em cada banco e diferenÃ§as nas colunas das tabelas comuns.
+- **ComparaÃ§Ã£o de Procedures e Functions**: Compara o cÃ³digo de procedures e functions entre os bancos, identificando diferenÃ§as ou elementos exclusivos de cada banco.
+
+## InstalaÃ§Ã£o
+
+Para instalar o pacote, utilize:
+
+```bash
+pip install schema_compare_postgres
+```
+
+## Uso
+
+### Conectando ao Banco de Dados
+
+Para utilizar o pacote, primeiro, vocÃª deve se conectar aos bancos de dados de origem e destino:
+
+```python
+from schema_compare_postgres import conectar
+
+conn_origem = conectar(banco="nome_banco_origem", user="usuario", password="senha", host="localhost")
+conn_destino = conectar(banco="nome_banco_destino", user="usuario", password="senha", host="localhost")
+```
+
+### Comparando Estruturas
+
+Depois de estabelecer a conexÃ£o, vocÃª pode realizar a comparaÃ§Ã£o entre as estruturas dos dois bancos:
+
+```python
+from schema_compare_postgres import comparar
+
+comparar(conn_origem, conn_destino)
+```
+
+Os resultados da comparaÃ§Ã£o serÃ£o armazenados em um arquivo `compare.txt`, gerado na raiz do seu projeto.
+
+### FunÃ§Ãµes DisponÃ­veis
+
+- `conectar(banco, user, password, host, port=5432)`: Estabelece uma conexÃ£o com um banco de dados PostgreSQL.
+- `comparar(conexao_banco_origem, conexao_banco_destino)`: Compara tabelas, views, procedures e functions entre dois bancos de dados.
+
+## ContribuiÃ§Ã£o
+
+ContribuiÃ§Ãµes sÃ£o bem-vindas! Sinta-se Ã  vontade para enviar pull requests ou abrir issues no repositÃ³rio.
+
+## LicenÃ§a
+
+Este projeto estÃ¡ licenciado sob a licenÃ§a MIT.
