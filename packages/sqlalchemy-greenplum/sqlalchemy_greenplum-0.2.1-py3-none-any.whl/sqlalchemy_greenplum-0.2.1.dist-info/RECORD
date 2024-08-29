@@ -1,0 +1,14 @@
+sqlalchemy_greenplum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemy_greenplum/alembic_gp.py,sha256=WpSY1mjbWdgIjvWydgBPqeXHzz6nknM1agCxKNfvaQU,441
+sqlalchemy_greenplum/dialect.py,sha256=fpJ3GjqlGB55p7djP59IX3nBw_O84IQ51yrQvHEn0Ws,11940
+sqlalchemy_greenplum/provision.py,sha256=YAYRkgr-Pq5j1qMj-OFw0xl9KUWvrznpsDbqQa5BCTw,4435
+sqlalchemy_greenplum/requirements.py,sha256=iybJaqk1VhlaGT8dKfT2VnVOaPffYU57EGwtpkojeIw,9950
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/conftest.py,sha256=sTvBd698MHx2mEb1rYYUluDq2eUHFPF-D7_nIUDFoyk,350
+test/test_suite.py,sha256=fhniHxqy9eHpppYpFjCBoj86gcp06zOetE3y6c2FShE,3243
+sqlalchemy_greenplum-0.2.1.dist-info/LICENSE,sha256=xazLvYVG6Uw0rtJK_miaYXYn0Y7tWmxIJ35I21fCOFE,11356
+sqlalchemy_greenplum-0.2.1.dist-info/METADATA,sha256=BiQ8NzK67j-7Xv7X3hkHCQNx0bU3V9vFTdnUSEy_tSk,2404
+sqlalchemy_greenplum-0.2.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+sqlalchemy_greenplum-0.2.1.dist-info/entry_points.txt,sha256=Om4MZW-S_QeaXnudDo_6Lt4sT--ikRVizLk7eURgnUc,147
+sqlalchemy_greenplum-0.2.1.dist-info/top_level.txt,sha256=DTm_LCx_AHusKtiK2fcDkkb7qNJpq0Ed98TMlJ7Asj4,26
+sqlalchemy_greenplum-0.2.1.dist-info/RECORD,,
