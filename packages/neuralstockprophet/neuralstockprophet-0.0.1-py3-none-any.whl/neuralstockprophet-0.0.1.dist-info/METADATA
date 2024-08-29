@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: neuralstockprophet
+Version: 0.0.1
+Summary: LSTM-ARIMA with Attention and multiplicative decomposition for sophisticated stock forecasting.
+License: MIT
+Author: Lucas Chan
+Author-email: chanconan@gmail.com 
+Requires-Python: >=3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: empyrical (>=0.5.5,<0.6.0)
+Requires-Dist: jax (>=0.4.26,<0.5.0)
+Requires-Dist: jaxlib (>=0.4.26,<0.5.0)
+Requires-Dist: numpy (>=1.20.1,<2.0.0)
+Requires-Dist: pandas (>=1.2.3,<2.0.0)
+Requires-Dist: quadprog (>=0.1.12,<0.2.0)
+Requires-Dist: riskparityportfolio (>=0.5.1,<0.6.0)
+Requires-Dist: scikit-learn (>=0.24.1,<0.25.0)
+Requires-Dist: scipy (>=1.6.1,<2.0.0)
+Requires-Dist: statsmodels (>=0.12.2,<0.13.0)
+Requires-Dist: ta (>=0.11.0,<0.12.0)
+Requires-Dist: tensorflow (>=2.16.1,<3.0.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Requires-Dist: yfinance (>=0.1.63,<0.2.0)
+Project-URL: Homepage, https://github.com/lucaswychan/neural-stock-prophet
+Description-Content-Type: text/markdown
+
+# Neural Stock Prophet
+
+[![PyPI version](https://badge.fury.io/py/neuralstockprophet.svg)](https://badge.fury.io/py/neuralstockprophet)
+[![Downloads](https://pepy.tech/badge/neuralstockprophet)](https://pepy.tech/project/neuralstockprophet)
+
+**neuralstockprophet** combines several techniques and algorithms to enhance and evaluate the robustness, stability, and interoperability of the stock price prediction algorithm. Stock Price Prediction using a machine learning algorithm helps discover the future value of company stock and other financial assets traded on an exchange. Whereas, the existing methods relied highly on model setup and tuning, without considering the variation of data. Also, the machine learning model faces the problems of overfitting and performance limitations.
+
+Combined techniques:
+
+-   LSTM model with attention mechanisms
+-   Multiplicative decomposition
+-   ARIMA model
+
+## Installation
+
+```
+pip install neuralstockprophet
+```
+
+## Getting Started
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## TODO
+
+There are further improvements that can be made. Please have a look at the [TODO](TODO.md).
+
