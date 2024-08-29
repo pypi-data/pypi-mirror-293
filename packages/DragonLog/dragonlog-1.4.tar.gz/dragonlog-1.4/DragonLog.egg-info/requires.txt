@@ -1,0 +1,9 @@
+PyQt6
+maidenhead
+PyADIF-File==1.3
+keyring
+requests
+xmltodict
+
+[extra]
+openpyxl
