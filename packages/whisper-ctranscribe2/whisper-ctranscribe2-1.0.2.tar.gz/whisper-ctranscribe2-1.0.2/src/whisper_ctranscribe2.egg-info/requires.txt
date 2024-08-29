@@ -1,0 +1,14 @@
+ctranslate2<5,>=4.0
+huggingface_hub>=0.13
+numpy
+onnxruntime<2,>=1.14
+pyannote-audio>=3.1.1
+tokenizers<1,>=0.13
+torch>=2.1.1
+torchaudio>=2.1.2
+tqdm
+
+[dev]
+black==24.*
+flake8==7.*
+nose2
