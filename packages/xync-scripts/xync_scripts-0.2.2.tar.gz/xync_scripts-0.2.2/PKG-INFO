@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: xync-scripts
+Version: 0.2.2
+Author-email: Mike Artemiev <mixartemev@gmail.com>
+Project-URL: Homepage, https://gitlab.com/xync/back/scripts
+Project-URL: Repository, https://gitlab.com/xync/back/scripts
+Requires-Python: >=3.11
+Requires-Dist: xync-schema
+Requires-Dist: cex-clients
