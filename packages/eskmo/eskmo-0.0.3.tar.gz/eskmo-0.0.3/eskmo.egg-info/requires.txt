@@ -1,0 +1,7 @@
+chardet>=5.2.0
+colorama>=0.4.6
+comtypes>=1.1.10
+psutil>=5.9.5
+python-dotenv>=1.0.0
+pywin32>=300
+pyzmq>=22.0.3

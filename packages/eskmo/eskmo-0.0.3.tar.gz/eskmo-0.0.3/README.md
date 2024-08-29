@@ -1,0 +1,55 @@
+# Eskmo
+
+
+## Build
+
+請先透過 `pipreqs` 檢查目前的依賴的套件和版本，是否對應 `scripts/setup.py` 中的 `install_requires` 都有良好配置
+
+```powershell
+pip install pipreqs
+pipreqs api
+# 會在目錄下產生 requirements.txt
+# 檢查裡面的內容與版本, 和 scripts/setup.py 中的 install_requires 是否:
+#    1. 版本都有兼容
+#    2. 套件有包含
+```
+
+確定後，就可以開始打包和上傳 Pypi 
+
+```powershell
+# 打包 (先到 scripts/setup.py 修改版號)
+scripts/eskmobuild.bat test
+# 建立新環境做測試
+python -m venv testeskmo; testeskmo\Scripts\activate
+# 從 testpypi 安裝 (可能需要等 5-10 秒)
+python -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple eskmo==0.0.95
+
+https://test.pypi.org/project/eskmo/
+# 確認無誤後, 上傳到 pypi
+# TBD
+
+```
+ 
+
+## Docs
+
+### install
+
+```bash
+cd docs; npm install
+```
+
+### dev
+```bash
+cd docs; npx vitepress dev
+```
+
+### build
+```bash
+cd docs; npx vitepress build
+```
+
+### check build
+```bash
+cd docs/.vitepress/dist; python -m http.server
+```

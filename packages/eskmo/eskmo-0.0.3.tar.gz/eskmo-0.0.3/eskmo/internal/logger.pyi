@@ -1,0 +1,3 @@
+from eskmo.utils.logger import Logger as Logger
+
+class EskmoLogger(Logger): ...
