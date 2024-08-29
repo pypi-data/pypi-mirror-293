@@ -1,0 +1,3 @@
+[console_scripts]
+cellchip = CellChip.CellChip:main_CellChip
+
