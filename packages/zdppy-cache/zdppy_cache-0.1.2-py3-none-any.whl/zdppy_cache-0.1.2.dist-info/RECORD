@@ -1,0 +1,13 @@
+zdppy_cache/__init__.py,sha256=bfzEeQPI6VbxregpS9TvqsmZDJ3xlsz74yK2Snxce_4,1135
+zdppy_cache/cache.py,sha256=t9Jo7D3nqvZzfWMNURagStmX8PS8qaYxNVtNKWfCuKI,72107
+zdppy_cache/core.py,sha256=GyLk1zmurnprTCqVSFIv9niCTEIoJIeGeZNoynkOSM0,13364
+zdppy_cache/fanout.py,sha256=q_Xvwxa7JerWeqT_Ut0311iR4I8hevOP6Oak3qwEyDA,22781
+zdppy_cache/persistent.py,sha256=qsq5kp1DRdVBEdhBAZFLb5Q2JqoMy_6EeVNZEdl7w18,34706
+zdppy_cache/recipes.py,sha256=qxg1-DpnE9KoqfPSvcEWIkYd1_mW9Qs8gaHyXXfuOIM,14948
+zdppy_cache/user_cache.py,sha256=ZgWti68UbpOh6PmLWQmy9PX_bsnTIsMnFZam_WcJNr4,2702
+zdppy_cache/utils.py,sha256=JnwYpb08OSKy5ZkCvl5aGNFmPIYIuYocepikOof62ZI,2280
+zdppy_cache/zdppy_api.py,sha256=F4954RU1A02wl3GpnS-bX9mXpeInFQKt9a6InaAsjQ4,11537
+zdppy_cache-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+zdppy_cache-0.1.2.dist-info/METADATA,sha256=I5y_VHF6XTggGpnvW8TwG4P3xsIwAykiYd5R3mx9eTo,4995
+zdppy_cache-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+zdppy_cache-0.1.2.dist-info/RECORD,,
