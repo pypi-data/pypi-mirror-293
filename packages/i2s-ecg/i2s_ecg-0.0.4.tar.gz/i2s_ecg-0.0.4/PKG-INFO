@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: i2s-ecg
+Version: 0.0.4
+Summary: ecgi2s123
+Author: zou linzhuang
+Author-email: zoulinzhuang2204@hnu.edu.cn
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+Requires-Dist: streamlit
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+Requires-Dist: pandas
+Requires-Dist: natsort
+Requires-Dist: scipy
+Requires-Dist: unzip
+
+Add a fallback short description here
