@@ -1,0 +1,8 @@
+README.md
+setup.py
+fat/__init__.py
+fat/my_fat.py
+my_factorial.egg-info/PKG-INFO
+my_factorial.egg-info/SOURCES.txt
+my_factorial.egg-info/dependency_links.txt
+my_factorial.egg-info/top_level.txt
