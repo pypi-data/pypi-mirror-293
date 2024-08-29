@@ -1,0 +1,22 @@
+[project]
+name = "acoustic-emission-analysis-wfs-to-wav"
+version = "0.1a"
+description = "A updated and adjusted forked project for importing acoustic emission analysis data from wfs files and converting them to wav files."
+authors = [
+    { name = "Christoph Renzing", email = "christoph.renzing@imf.tu-freiberg.de" },
+]
+license = "BSD-3-Clause"
+requires-python = ">=3.9, <4.0"
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.hatch.metadata]
+allow-direct-references = true
