@@ -1,0 +1,5 @@
+setup.py
+siddhu.egg-info/PKG-INFO
+siddhu.egg-info/SOURCES.txt
+siddhu.egg-info/dependency_links.txt
+siddhu.egg-info/top_level.txt
