@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+recaptchav3ninja/__init__.py
+recaptchav3ninja/ninja.py
+tempmailcreator/__init__.py
+tempmailcreator/_mailer.py
+tempmailcreator.egg-info/PKG-INFO
+tempmailcreator.egg-info/SOURCES.txt
+tempmailcreator.egg-info/dependency_links.txt
+tempmailcreator.egg-info/requires.txt
+tempmailcreator.egg-info/top_level.txt
