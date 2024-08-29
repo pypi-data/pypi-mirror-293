@@ -1,0 +1,11 @@
+plpygis/__init__.py,sha256=fWP-r0y3uvxEz6gsj0i1rsCWZIKbTYLEWE8QXPuMaKs,435
+plpygis/_version.py,sha256=DITpct-LrdIsTgwx2NgH5Ghx5y8Xgz1YMimy1ZV5RTY,22
+plpygis/exceptions.py,sha256=czoep124HcSGV69UptYa_ymU_L9K1jZTm78f_wtnVjc,2294
+plpygis/geometry.py,sha256=OLy5NzJy9D4elBqU7eUt0xcreZQldyMH388NRWVkYZk,39988
+plpygis/hex.py,sha256=ExFG4NYlglZj2yqLso2NFuYSlJA2GH9VMPjOaH8YKP4,3208
+plpygis/wkt.py,sha256=S794gu7KzkpzoHBpCCDtC86n8lTIPeyvSTbp9yHkilE,4478
+plpygis-0.5.4.dist-info/LICENSE,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+plpygis-0.5.4.dist-info/METADATA,sha256=kUvN5jR4T-56WXPkxMcOGP5Xm6waxb-e6adq5eiAfp0,3295
+plpygis-0.5.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+plpygis-0.5.4.dist-info/top_level.txt,sha256=44x8Ws5co258H3yY3ApmfDPfbluEXxnaiVRfA0JPhR8,8
+plpygis-0.5.4.dist-info/RECORD,,
