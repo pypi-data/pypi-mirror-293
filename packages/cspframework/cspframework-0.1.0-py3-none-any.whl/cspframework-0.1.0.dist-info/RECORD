@@ -1,0 +1,14 @@
+framework/StatLogger.py,sha256=soQD4MTkF0DhGpSh4JAaiuQHU-bymJ_h_t8rcXBoWm8,4562
+framework/TraceLogger.py,sha256=78a8rq28J2mGfHq2GOQgM4zR7jkPET-HvfVhhflmWXE,2180
+framework/__init__.py,sha256=zmCudXQBldp66cFps2MUPsnvHOpU_kybF69nlsHSa1I,110
+framework/afts.py,sha256=WjAXVpnf-ZPYoxxqcMdM1PA-iCpzRsquu7jzS-_DIlk,14676
+framework/afts_client.py,sha256=9jh8rkQqSRGorHyOynZxe3Z2YZBBahv-_eRjUMz6KHU,7710
+framework/common.py,sha256=PY0lKlT6AdZrKtkfSjGVEXFCZGZKNDSqR3vzeHAe5Mc,290
+framework/errors.py,sha256=vx4LPJDmZJc67cFY6qzaM2R9k28a0WK9jaYJAW3hBI0,929
+framework/framework.py,sha256=vMoyH2I4eSdx0faMgk_9KEFWLB_ucFYjN4w0KjZ7z9A,5825
+framework/schema.py,sha256=FUaBXaxiYZms9TuEqDjtlG1G8Z55UIE2wEkR3bBQ8Sk,948
+framework/util.py,sha256=W9piJOsUl1MXduKoN7pQ33_jaz3QwAALRKm9pQYzxJ4,3570
+cspframework-0.1.0.dist-info/METADATA,sha256=rz-9_2NS-uqYLcAbV3tNraY42RpSwIvC8Ap4P3_JuOo,2202
+cspframework-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+cspframework-0.1.0.dist-info/top_level.txt,sha256=hzpv2xEeSkKTVweFn8I8XnG5zJJOIOTB38-_zgJJSUw,10
+cspframework-0.1.0.dist-info/RECORD,,
