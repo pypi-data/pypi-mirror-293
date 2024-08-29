@@ -1,0 +1,53 @@
+# GitHub Actions workflow that runs on a cron schedule.
+# Check URLs and run latest deps with remote tests
+
+# Remove -numpy126 when we support testing with numpy 2.0
+
+name: Weekly CI Tests
+
+on:
+  schedule:
+    # run at 5am UTC on Mondays
+    - cron: "0 5 * * 1"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  ARCH_ON_CI: "normal"
+  IS_CRON: "true"
+
+jobs:
+  oorb-data:
+    uses: ./.github/workflows/oorb_data.yml
+  tests:
+    needs: [oorb-data]
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@v1
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+    with:
+      setenv: |
+        ARCH_ON_CI: "normal"
+        IS_CRON: "true"
+        OORB_DATA: "$GITHUB_WORKSPACE/oorb-data/"
+      cache-path: oorb-data/
+      cache-key: oorb-data
+      submodules: false
+      coverage: ""
+      envs: |
+        - name: Link check
+          linux: linkcheck
+
+        - name: Python 3.11 with dev versions of key dependencies
+          linux: py311-test-devdeps-cov
+          posargs: --verbose
+
+  allowed_failures:
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@v1
+    with:
+      submodules: false
+      envs: |
+        - name: Python 3.11 with all optional dependencies and remote data
+          linux: py311-test-numpy126-alldeps
+          posargs: --remote-data --verbose
