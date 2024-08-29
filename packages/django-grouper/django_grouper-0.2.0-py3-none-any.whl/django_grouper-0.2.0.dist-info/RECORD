@@ -1,0 +1,10 @@
+django_grouper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_grouper/apps.py,sha256=jK2mrx_htU4X9-Vd-lOLmigKNWR9xCJlMIVgYp9FoCk,156
+django_grouper/templates/django_grouper/group.html,sha256=bJqeWOeUaFhgw1xFrloKDalsMG8282U7WfGpnm5BMz4,5641
+django_grouper/templates/django_grouper/grouper.html,sha256=WBShFIk43WdpVbv4u2j80HApEOToFi5tYQ4PAmqdX5k,932
+django_grouper/urls.py,sha256=8zeVP_If_hTtqqDnn7mG94cq4Ci3GyRHaJEyJoTH13Q,189
+django_grouper/utils.py,sha256=it72804D4Qes4F-hNnR1DH_gXCqND8f5zS56Oprk07A,3041
+django_grouper/views.py,sha256=8cVs0z-whqnQV7fcjULHcvvFm1OwFHXiiITIijgg_3s,2324
+django_grouper-0.2.0.dist-info/METADATA,sha256=M9254htoHixqfOQYVpLseT8GmuPzckO3Fa0a--vgqXE,1332
+django_grouper-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_grouper-0.2.0.dist-info/RECORD,,
