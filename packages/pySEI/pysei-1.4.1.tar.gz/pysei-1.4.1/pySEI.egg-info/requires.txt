@@ -1,0 +1,5 @@
+selenium
+msedge-selenium-tools
+webdriver_manager
+ConfigParser
+pandas
