@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: hostasphere_profiler
+Version: 0.0.1
+Summary: Hostasphere Profiler API
+Home-page: https://github.com/hand-e-fr/hostasphere
+Author: William Jolivet
+Author-email: william.jolivet@epitech.eu
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
