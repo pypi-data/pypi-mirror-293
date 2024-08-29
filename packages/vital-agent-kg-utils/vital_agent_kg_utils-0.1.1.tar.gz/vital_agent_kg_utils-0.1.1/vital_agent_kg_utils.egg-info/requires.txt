@@ -1,0 +1,4 @@
+vital-ai-vitalsigns>=0.1.21
+vital-ai-haley-kg>=0.1.14
+six
+pyyaml
