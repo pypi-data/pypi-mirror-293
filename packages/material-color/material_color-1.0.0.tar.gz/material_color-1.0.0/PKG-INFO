@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: material-color
+Version: 1.0.0
+Summary: Unofficial Android Material Color
+Keywords: material,color,android
+Author-email: Martanto <martanto@live.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: pandas ; extra == "base"
+Project-URL: Homepage, https://github.com/martanto/material-color
+Project-URL: Issues, https://github.com/martanto/material-color/issues
+Provides-Extra: base
+
+# Material Color
+Unofficial Android material color v2 hex generator for python.
+https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
