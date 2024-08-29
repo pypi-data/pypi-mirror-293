@@ -1,0 +1,11 @@
+ask_question/__init__.py,sha256=kbb03heUDRetuahkSj2QOfwxjlIfuhr0TAx5dtXppaQ,1603
+ask_question/__main__.py,sha256=omm0DHZud6pCefxjOn-ZEpbdgIigj7K67FgYsRMutdw,1222
+ask_question/ask_question.py,sha256=9uK32cG_1TRlVP2dW-ZwyclWn6HO-dZbAPDgBeDFz-4,10735
+ask_question/ask_question_tui.py,sha256=eW0wwtpuGJ4fph7d5xEEv3AG3V-0XS7bYfhLCM4yrKo,23270
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ask_question.py,sha256=fMCnED40EwkID1pOim7ckOWTF_iJzpX9fW_5kQjtn-w,8558
+ask_question-1.2.8.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+ask_question-1.2.8.dist-info/METADATA,sha256=GCABXr-w4sMdxrbpDU8jtKVbDARUorOVawoC8luM7GY,8256
+ask_question-1.2.8.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+ask_question-1.2.8.dist-info/top_level.txt,sha256=lJC2rZuoYq-45L6jbG3rGJ--UzKd8_rPt2DPcoW0LTA,19
+ask_question-1.2.8.dist-info/RECORD,,
