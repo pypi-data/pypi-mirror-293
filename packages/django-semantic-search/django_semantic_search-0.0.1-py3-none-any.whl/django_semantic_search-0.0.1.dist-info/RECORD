@@ -1,0 +1,15 @@
+django_semantic_search/__init__.py,sha256=gTs_3dYh-RfI2aT0dqW8IMMTUmy0gx0PHESLtYLjxEI,162
+django_semantic_search/apps.py,sha256=eGDVoOerkJ94PMiZ0aE5NEerXLJc3a0pkHXX0VBRMds,507
+django_semantic_search/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_semantic_search/backends/base.py,sha256=qBa68iBgPkKFiDVd5OTDdBYLN_rhxWgLPC8T4Rz4Uug,695
+django_semantic_search/backends/qdrant.py,sha256=pu-khMFcGdutSl1UwReYOz8zDrMXv5c23TfRYx2_Il8,244
+django_semantic_search/decorators.py,sha256=I1SJ3IA6k8X6Ji7Nkx073rTEMbTm0JTT5pfkPjWMcNk,1330
+django_semantic_search/default_settings.py,sha256=BxeY6Uqkn3SypCssCNe2JejW39NvK0iwFceGcOzgBLs,686
+django_semantic_search/documents.py,sha256=_uwLsj0cW0Y48IwwRSu5gJUc81RT5Y-df8edh_hQ0xU,3787
+django_semantic_search/embeddings/__init__.py,sha256=96NN1cPf38_7QVAAKj3WH0CKze9m2OCImWM2nfQmHSU,100
+django_semantic_search/embeddings/base.py,sha256=GEy3w7NVRHU-LSF39bBU_kCeSWmcvp85c-HUDB4s9dQ,930
+django_semantic_search/embeddings/sentence_transformers.py,sha256=Bq9QEm0Cksl_xzQVlAEFpBQlORF5bH0eE4LOrQgfUG4,1541
+django_semantic_search-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_semantic_search-0.0.1.dist-info/METADATA,sha256=KN_PcN23gzaY5zam0kJ4GjEVDWxCoBAdHZ_zo9WV1n4,1068
+django_semantic_search-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_semantic_search-0.0.1.dist-info/RECORD,,
