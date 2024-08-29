@@ -1,0 +1,15 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+requirements/requirements.txt
+scrapy_selenium_customdriverinstance/__init__.py
+scrapy_selenium_customdriverinstance/http.py
+scrapy_selenium_customdriverinstance/middlewares.py
+scrapy_selenium_customdriverinstance.egg-info/PKG-INFO
+scrapy_selenium_customdriverinstance.egg-info/SOURCES.txt
+scrapy_selenium_customdriverinstance.egg-info/dependency_links.txt
+scrapy_selenium_customdriverinstance.egg-info/top_level.txt
+tests/test_cases.py
+tests/test_middlewares.py
