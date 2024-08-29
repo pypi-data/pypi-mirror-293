@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sttk
+Version: 0.2.0
+Summary: The Systematic Trading Toolkit (sttk.org) is a set of open source modules that support quantitative research and the development and execution of systematic trading strategies
+Author: Nils P. Kujath
+Author-email: 63961429+NilsKujath@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ipython (>=8.26.0,<9.0.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=2.0.1,<3.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: yfinance (>=0.2.41,<0.3.0)
+Description-Content-Type: text/markdown
+
+# README
+
+The Systematic Trading Toolkit (or short, STTK) is a set of open source modules that support quantitative research and the development and execution of systematic trading strategies.
+
+
+
+## Documentation
+
+Read the documentation at [sttk.org](sttk.org).

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sttk"
+version = "0.2.0"
+description = "The Systematic Trading Toolkit (sttk.org) is a set of open source modules that support quantitative research and the development and execution of systematic trading strategies"
+authors = ["Nils P. Kujath <63961429+NilsKujath@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+ipython = "^8.26.0"
+yfinance = "^0.2.41"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^24.4.2"}
+twine = "^5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
