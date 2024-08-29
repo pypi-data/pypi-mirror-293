@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+debugtkinter/__init__.py
+debugtkinter/debugtkinter.py
+debugtkinter.egg-info/PKG-INFO
+debugtkinter.egg-info/SOURCES.txt
+debugtkinter.egg-info/dependency_links.txt
+debugtkinter.egg-info/entry_points.txt
+debugtkinter.egg-info/top_level.txt
