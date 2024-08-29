@@ -1,0 +1,9 @@
+mits_similarity_3/__init__.py,sha256=_4OcEc9rUO3vm1C6o01VuhfFjmgGUhpoHHuYVgZM454,310
+mits_similarity_3/hamming_distance.py,sha256=V75tM-r4l1P70e29_9d5NBU0BRPednCaK1DBuJI9yLs,343
+mits_similarity_3/jaccard_coefficient.py,sha256=zuLSlguY0PwyNPYWzNuPR5R7n9Br5p9wtDsuZ13bcIk,334
+mits_similarity_3/overlap_coefficient.py,sha256=NRRdsctA5yPz4e1d69PAdriv2UAsAtcgn8ZtXLtShMQ,336
+mits_similarity_3-0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+mits_similarity_3-0.1.dist-info/METADATA,sha256=B_qdWb2cUhswcpGdWqA33j85KwNEX5WqcqmPa8r2NOs,577
+mits_similarity_3-0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+mits_similarity_3-0.1.dist-info/top_level.txt,sha256=8cwg5lFnzClJFODLmKEyXIPj5iPGjbQxJXIhE4FUmyg,18
+mits_similarity_3-0.1.dist-info/RECORD,,

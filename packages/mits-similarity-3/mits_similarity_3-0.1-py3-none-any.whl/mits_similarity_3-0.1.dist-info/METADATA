@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mits_similarity_3
+Version: 0.1
+Summary: similarity coefficients and hamming distance
+Home-page: https://github.com/jaswanthmuthineedi/mits_similarity_3
+Author: BinduSree Pallavi Jaswanth
+Author-email: jaswanthmuthineedi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mits_similarity_3
+package for calculation of similarity coefficients
