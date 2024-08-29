@@ -1,0 +1,11 @@
+numpy
+pandas
+geopandas
+scipy
+h5py
+shapely
+rasterio
+rio_cogeo
+pyproj
+lxml
+psycopg2
