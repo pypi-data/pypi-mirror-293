@@ -1,0 +1,125 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static admin_data_utils %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel="stylesheet" type="text/css" href="{% static "admin/css/forms.css" %}">
+  <style>
+
+    div.adv-dict,
+    div.adv-dict,
+    div.adv-array {
+        display: flow-root;
+    }
+
+    div.adv-array > ul {
+        display: inline-table;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    div.adv-array > ul > li {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    div.adv-data label {
+        display: inline-flex;
+        max-width: 150px;
+        min-width: 100px;
+        line-height: normal;
+        margin: 2px 0 2px 0!important;
+        padding: 0.5rem 0 0 0!important;
+        float: left;
+    }
+
+    div.adv-data input,
+    div.adv-data textarea {
+        width: 20em;
+        margin: 4px 0 4px 0!important;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    div.adv-array > ul > li> div.adv-array-item,
+    div.adv-dict > div.adv-dict-items > div.adv-dict-item {
+        display: inline-flex;
+    }
+
+    div.adv-dict > div.adv-dict-items,
+    div.adv-item {
+        display: inline-block;
+    }
+
+    div.adv-data div.help {
+        margin-left: 0!important;
+        padding-left: 0!important;
+    }
+
+    @media (max-width: 1024px) {
+        div.adv-data label {
+            padding: 0.75rem 0 0 0!important;
+        }
+    }
+
+  </style>
+{% endblock %}
+
+{% block coltype %}colM{% endblock %}
+
+{% block bodyclass %}{{ block.super }} app-{{ app_label }} change-list{% endblock %}
+
+{% if not is_popup %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:admin-data-index-view' %}">{{ app_label|capfirst }}</a>
+{% if category_slug %}
+&rsaquo; <a href="{{ category_url }}">{{ category_slug|capfirst }}</a>
+{% endif %}
+&rsaquo; {{ slug|capfirst }}
+</div>
+{% endblock %}
+{% endif %}
+
+{% block content %}
+  <div id="content-main">
+    <form method="post" novalidate>{% csrf_token %}
+      <div class="adv-data">
+      {% if image %}
+        <img src="{{ image }}" alt="" style="max-width: 470px; padding-bottom: 10px">
+      {% endif %}
+      {% for section in data %}
+        <fieldset class="module aligned">
+          {% if section.name %}
+            <h2>{{ section.name }}</h2>
+          {% endif %}
+          {% if section.description %}
+            <div class="description">{{ section.description|safe }}</div>
+          {% endif %}
+          <div class="adv-dict-items">
+            {% for key, value in section|fields_with_help_texts|items %}
+              <div class="form-row adv-dict-item">
+                {% if value.0|get_type == "dict" %}
+                  {% include 'admin_data_views/dict_item.html' with label=key items=value only %}
+                {% elif value.0|get_type == "list" %}
+                  {% include 'admin_data_views/list_item.html' with label=key items=value only %}
+                {% else %}
+                  <label class="required">{{ key|capfirst }}</label>
+                  {% include 'admin_data_views/item.html' with value=value only %}
+                {% endif %}
+                <br>
+              </div>
+            {% endfor %}
+          </div>
+        </fieldset>
+      {% endfor %}
+      </div>
+    </form>
+    <form method="post" action="{% url 'admin:admin-data-download' %}" novalidate>{% csrf_token %}
+      <input type="hidden" name="name" value="{{ title }}">
+      <input type="hidden" name="data" value="{{ data|jsonify|escape }}">
+      <input type="submit" name="download" value="Download as JSON">
+    </form>
+  </div>
+{% endblock %}

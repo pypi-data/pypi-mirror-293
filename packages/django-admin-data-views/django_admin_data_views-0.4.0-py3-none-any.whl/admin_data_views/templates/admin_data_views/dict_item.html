@@ -1,0 +1,27 @@
+{% load i18n static admin_data_utils %}
+
+<div class="adv-dict">
+  {% if label != "" %}
+    <label class="required">{{ label|capfirst }}</label>
+  {% endif %}
+
+  <div class="adv-dict-items">
+    {% for key, value in items.0.items %}
+      <div class="adv-dict-item">
+        {% if value.0|get_type == "dict" %}
+          {% include 'admin_data_views/dict_item.html' with label=key items=value only %}
+        {% elif value.0|get_type == "list" %}
+          {% include 'admin_data_views/list_item.html' with label=key items=value only %}
+        {% else %}
+          <label class="required">{{ key|capfirst }}</label>
+          {% include 'admin_data_views/item.html' with value=value only %}
+        {% endif %}
+        </div>
+      <br>
+    {% endfor %}
+  </div>
+
+  {% if items.1 %}
+    <div class="help">{{ items.1|safe }}</div>
+  {% endif %}
+</div>
