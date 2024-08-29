@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+seizcord.py
+seizcord.egg-info/PKG-INFO
+seizcord.egg-info/SOURCES.txt
+seizcord.egg-info/dependency_links.txt
+seizcord.egg-info/top_level.txt
