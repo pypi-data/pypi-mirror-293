@@ -1,0 +1,15 @@
+pyobsplot/__init__.py,sha256=OTHz5hkXDTIdrf_yV8XYBwUmnmr9NGEeYJG9uNFVm5A,252
+pyobsplot/data.py,sha256=wCuXKP5QwVfSM-VKNuOdxIP3HKvcnGEGBSbrQ09kutU,2517
+pyobsplot/js_modules.py,sha256=A0JbPfeKk1ahkvW0s4WczP1XU7w7rfgOnulUu3QyZAQ,24144
+pyobsplot/jsdom.py,sha256=3zuq_IiURGdIf5gEWNuoTujNIuzJMHzy-5-Tk72ksSY,2853
+pyobsplot/obsplot.py,sha256=PlaIvdz_X-mlWEhwau9BUQHk1rwjTv6NqdHlEFRYGPM,17968
+pyobsplot/parsing.py,sha256=4D4WjpN9nFrp5p7t7ppC-lEmqP3dYPEofYkZZDo2sRs,6652
+pyobsplot/utils.py,sha256=eiHa4SjIpjp4DDXc8NwuMTlUWDTJIJNXhBFgzn-w92M,580
+pyobsplot/widget.py,sha256=tsWjElR5afi_WQH_kHMBJQ8rGu5ramGocIlot62u5MM,1972
+pyobsplot/static/static-styles.css,sha256=U0gv8YrDpl6XkisSQyv6mm3M6JsU1cbxT1iksHsjQqs,1226
+pyobsplot/static/static-widget.js,sha256=OEo2EiYZLj6yj7WdZ52kSsyoIfAiFDXhBBkgG-ZatOk,1408556
+pyobsplot/static/template.typ,sha256=5lEPJfh4n41SPEaVGdL2rKzPZmQY282jkCY108C_hq8,3628
+pyobsplot-0.5.0.dist-info/METADATA,sha256=wRo-dWZeUe9ZhKHloUF6eC1vLkV18oR9cmopcYCJ6Eo,6461
+pyobsplot-0.5.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pyobsplot-0.5.0.dist-info/licenses/LICENSE,sha256=MSEzqIBzWcaTHkK5jpqFfi8Zr4GOslryjwz3VXPYi6k,1071
+pyobsplot-0.5.0.dist-info/RECORD,,
