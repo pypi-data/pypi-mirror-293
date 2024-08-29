@@ -1,0 +1,11 @@
+dataclassish/__init__.py,sha256=UO25R8bkjbqzwSKKNSPN2En-rlrD2M3oWBbxbuR_rqQ,552
+dataclassish/_core.py,sha256=xyxwyipQ4Xw3T2uTpUw0PCIub8L1QfAdVOikD3rzOEU,9066
+dataclassish/_ext.py,sha256=jszmvYgnRoAv3Oj2tTkm1y_McsdB7tjTpdIWDZ6-WhI,3002
+dataclassish/_version.py,sha256=Jk2iAU7m-7Vx9XV1TtdD9ZoJraIncDq_4_Wd-qtUotg,411
+dataclassish/_version.pyi,sha256=o7uNL6MhuJoiqpEnriU7rBT6TmkJZA-i2qMoNz9YcgQ,82
+dataclassish/converters.py,sha256=Hfp1jWXc_vrsBhcLLbCo93PoJTPczI2HJnKWWzUYsX4,5247
+dataclassish/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataclassish-0.3.0.dist-info/METADATA,sha256=InQVkczb1vtaXMC70ydXUQsVvsPhhI85bbRnh6cqhA0,10310
+dataclassish-0.3.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dataclassish-0.3.0.dist-info/licenses/LICENSE,sha256=ZGyWUYfbcM3ad2EqV6tSTBV55tHRGXbG3Ft8TyO_AtQ,1058
+dataclassish-0.3.0.dist-info/RECORD,,
