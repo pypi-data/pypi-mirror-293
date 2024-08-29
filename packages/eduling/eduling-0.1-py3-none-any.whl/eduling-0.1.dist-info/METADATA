@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: eduling
+Version: 0.1
+Summary: Un módulo de enciclopedia y diccionario para Python
+Home-page: https://github.com/tuusuario/eduling
+Author: Tu Nombre
+Author-email: tuemail@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+ï»¿# Eduling
+
+Eduling es un mÃ³dulo para Python que proporciona un diccionario y enciclopedia bÃ¡sicos para principiantes.
+
+## InstalaciÃ³n
+
+Puedes instalar Eduling usando pip:
+
+```bash
+pip install eduling
+
+
