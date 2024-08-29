@@ -1,0 +1,4 @@
+pynput>=1.7.6
+numpy>=1.20.0
+PyAudio>=0.2.12
+buildz>=0.6.9
