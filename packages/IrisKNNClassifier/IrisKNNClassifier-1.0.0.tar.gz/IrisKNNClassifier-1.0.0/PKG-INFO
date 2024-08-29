@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: IrisKNNClassifier
+Version: 1.0.0
+Summary: A k-Nearest Neighbors classifier for the Iris dataset.
+Home-page: UNKNOWN
+Author: Scott Miner
+Author-email: scott.miner.data.scientist@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+data/iris.txt
+src/app/__init__.py
+src/app/iris_classifier_app.py
+src/knn/__init__.py
+src/knn/cross_validator.py
+src/knn/data_loader.py
+src/knn/iris_model.py
+src/knn/k_nearest_neighbors.py
+src/knn/preprocessor.py
