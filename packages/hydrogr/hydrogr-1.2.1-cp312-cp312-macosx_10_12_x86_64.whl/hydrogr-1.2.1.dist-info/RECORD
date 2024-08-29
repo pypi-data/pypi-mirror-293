@@ -1,0 +1,14 @@
+hydrogr-1.2.1.dist-info/METADATA,sha256=M3Ald89odGKjJBPue_br2tAGV7Yp1JA3sa8UEEth7Ns,2388
+hydrogr-1.2.1.dist-info/WHEEL,sha256=u825zbt5upLlh7l4vgtqqeKFGj57HGU8XB8kDjpMPfA,106
+hydrogr-1.2.1.dist-info/licenses/LICENSE.txt,sha256=p4qlB1MeBSFf7Dt08NEwuzj9NRi9P7UpL6Nkl2JC6ok,17986
+hydrogr/gr4h.py,sha256=sNC722hARcbiCECo9_HgQ2R39h7z75D-E8ElIFJWbvE,7385
+hydrogr/gr2m.py,sha256=6WFIYPFLEZKVOMyP4-FdpfvEwrx9S4oFkys0vYItpS4,5344
+hydrogr/__init__.py,sha256=YAj6Y-Z3mB119sub4d2UrVltRIu2W6Dir5h_baFTF0Q,281
+hydrogr/gr6j.py,sha256=6Tb4vDa53hl9Jr8P5-MXgYxWzf0Cz_SZju_dEZXG8uk,8980
+hydrogr/gr5j.py,sha256=mOIb6KmLze_8fGe98fC7OAQ0MwIAruK3orysXPf54_Q,7518
+hydrogr/gr4j.py,sha256=_belbgZc0zxOrzkv2aSIuYgsG1uCvRG941Qqi341DrU,7287
+hydrogr/model_interface.py,sha256=b7JT2OQytSyuPqByeMNGf_F9AJxJJrCS4hieRDUtdoI,3294
+hydrogr/input_data.py,sha256=DnQ8fmD-gzqf5RstqL2GfYHYT3foCp2-Vv19OkZZC0Q,5971
+hydrogr/gr1a.py,sha256=nl9SdhnmP9VofaXqy17_gR8UHV--pJpJqgc0Wb1tK44,2616
+hydrogr/_hydrogr.cpython-312-darwin.so,sha256=0w2-HRyPPmGqSuPstoNIXZOv_zVCp8uOsnmIi2idVXI,602296
+hydrogr-1.2.1.dist-info/RECORD,,
