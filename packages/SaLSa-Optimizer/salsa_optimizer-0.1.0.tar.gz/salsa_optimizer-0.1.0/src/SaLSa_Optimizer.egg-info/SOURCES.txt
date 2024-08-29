@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/SaLSa_Optimizer.egg-info/PKG-INFO
+src/SaLSa_Optimizer.egg-info/SOURCES.txt
+src/SaLSa_Optimizer.egg-info/dependency_links.txt
+src/SaLSa_Optimizer.egg-info/requires.txt
+src/SaLSa_Optimizer.egg-info/top_level.txt
+src/salsa/SaLSA.py
+src/salsa/__init__.py
+src/salsa/adam_sls.py
+src/salsa/sls_base.py
