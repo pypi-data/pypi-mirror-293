@@ -1,0 +1,8 @@
+hypster/__init__.py,sha256=hfCAemJXguFCEGZHCnxgd0V1DAG2bwGAp1eC7gR3mgs,130
+hypster/ast_analyzer.py,sha256=KhURtCGrrBe0DBGxc4d_BY0Fk9r3kgEVynWFkqIngCs,13226
+hypster/core.py,sha256=3ZC4mCaEdr1esWYDNibu5W-QMS1LuJp9evL1fs4nwzg,13589
+hypster/logging_utils.py,sha256=b7Sm1WNzPeHgADQYuyZuHIiyaq0-yDH_pO1e2vsAQA8,1524
+hypster-0.2.0.dist-info/LICENSE,sha256=uSD0WGs3Wkrc6M1UU865Dc89UWX0Kssx7dapKdcLL1I,1077
+hypster-0.2.0.dist-info/METADATA,sha256=gAJZJFIWChI___iP0nNSWPvDgTWW1gQwV1QMYXbu09M,2704
+hypster-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hypster-0.2.0.dist-info/RECORD,,
