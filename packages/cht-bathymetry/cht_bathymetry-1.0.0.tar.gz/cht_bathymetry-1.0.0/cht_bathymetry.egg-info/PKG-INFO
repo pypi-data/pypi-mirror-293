@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cht_bathymetry
+Version: 1.0.0
+Author-email: Maarten van Ormondt <maarten.vanormondt@deltares-usa.us>
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyproj
+Requires-Dist: rasterio
+Requires-Dist: xarray
+Requires-Dist: matplotlib
+Requires-Dist: netCDF4
+Requires-Dist: pyyaml
+Requires-Dist: toml
+Requires-Dist: cht-utils
