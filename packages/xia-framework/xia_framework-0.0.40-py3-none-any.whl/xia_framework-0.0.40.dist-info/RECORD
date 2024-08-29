@@ -1,0 +1,11 @@
+xia_framework/__init__.py,sha256=_oJIxmUExcV8u4q5iRXiLu8fjdKLro4yg7p5c8Y-fvQ,326
+xia_framework/application.py,sha256=2Dllvllijrdo6gqKVGeZgvhgun2bZnZ5-9BwdMSvWmQ,3179
+xia_framework/base.py,sha256=sA4BGeqNnQFnsOZam4M1_2jTTDzTDrnbN5KC8B4u6DA,12518
+xia_framework/cosmos.py,sha256=qe8BzvCmvzC-8jG9xlD_rhydl4L1wsvDvKAiUpe_LWo,4941
+xia_framework/foundation.py,sha256=nhwC_OTEjgSGIkt37fZJN_nYBdLGJBK85U2AX6PCLzU,5581
+xia_framework/realm.py,sha256=w-YHjuNwTYVbPzdDVUCkJ4tOZ33neyG0TTtJfXq3uCU,87
+xia_framework-0.0.40.dist-info/LICENSE,sha256=RJDBG1pyQlnqJqp7zHghqWIOzrnMJSSiw_voH1hh06Q,1062
+xia_framework-0.0.40.dist-info/METADATA,sha256=dJ0QhHty5UcVEmWjpArWchsFSWyxJdazx5D7iHIXrP0,263
+xia_framework-0.0.40.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+xia_framework-0.0.40.dist-info/top_level.txt,sha256=nsqQPILRIIL9d9ob5Ky5VCmeiP-19rdka8GWp6SvjLM,14
+xia_framework-0.0.40.dist-info/RECORD,,
