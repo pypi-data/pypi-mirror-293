@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pybenlogger
+Version: 2.0.0
+Summary: PyBEN logger repository
+Home-page: https://github.com/DarkFlameBEN/pybenlogger.git
+Author: Ben Moskovitch
+Author-email: "Ben Moskovitch" <darkflameben@gmail.com>
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pybenlogger
+Unified logger format
+
+## Use options:
+
+1. Direct import from base module
+```python
+from pybenlogger import get_logger
+
+logger = get_logger()
+```
+2. Import from the inner module
+```python
+from pybenlogger.config_logger import get_logger
+
+logger = get_logger(logger_name='main_logger')
+```
+
+## get_logger:
+Returns a logger object with a given title, default name as 'main_logger'
+
+:param logger_name: If empty the logger name will be based on the calling module
+
+:return: Logger object
