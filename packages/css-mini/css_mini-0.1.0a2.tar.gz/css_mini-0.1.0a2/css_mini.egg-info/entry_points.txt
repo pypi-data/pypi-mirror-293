@@ -1,0 +1,2 @@
+[console_scripts]
+serve = css.serving.app:start_server
