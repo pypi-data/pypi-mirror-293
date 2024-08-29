@@ -1,0 +1,6 @@
+exasol/pytest_slc/__init__.py,sha256=kgmBRwax2YIHi9A984OON_WGBBSXRCnzBW3pJXGVGvQ,3156
+exasol/pytest_slc/version.py,sha256=1FztxOeEc0YHRT_8ZURmNeMU3WeiIPnB3wNgK7rms1M,404
+pytest_exasol_slc-0.2.0.dist-info/METADATA,sha256=nUHrW-HcI9_wXKJdT2cwG4GjyXruspsv05AXXisKEnE,1467
+pytest_exasol_slc-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pytest_exasol_slc-0.2.0.dist-info/entry_points.txt,sha256=VIGXuTAEoVuthh3OlVvzm471E86sE3AgqPQdqWLDPow,34
+pytest_exasol_slc-0.2.0.dist-info/RECORD,,
