@@ -1,0 +1,15 @@
+tau_fibrils_yolo/__init__.py,sha256=LluKMwfxaQUR62lZzoeYdJthsf-Wnalkdq6c7AyheBQ,256
+tau_fibrils_yolo/__main__.py,sha256=sX1NmVpPCdrrRq0XCY4sMP23CBC1Bvs77BoYkAA3mZM,277
+tau_fibrils_yolo/_version.py,sha256=EJB7__SNK9kQS_SWZB_U4DHJ3P8ftF6etZEihTYnuXE,411
+tau_fibrils_yolo/_widget.py,sha256=0tAVCAmn5aHAS6XGHXAv6aKjXxiaiXC4pubDJZCKJPM,10378
+tau_fibrils_yolo/cli.py,sha256=rQX1e0N-9N-Ub381PlMRMhhxdOQA64lGePDoK1gUzWo,2713
+tau_fibrils_yolo/measure.py,sha256=a9kbZPapbWA-FO5Yfxp7j4hNs60iNLCi6s2w0z9hXCE,2378
+tau_fibrils_yolo/napari.yaml,sha256=CLac43pJqbklLzjkaEhVEf6aHoGeRjS-CoHPhkcaPE0,303
+tau_fibrils_yolo/postprocess.py,sha256=k368tB3Mmo08N9F9zwZCT8V0cyYPZ47-n1d--mB7odk,2658
+tau_fibrils_yolo/predict.py,sha256=hMViSnyX9HSTDpbB-nYrQ77F_IrChWiPdXrwqC2E8KA,5473
+tau_fibrils_yolo-0.0.5.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+tau_fibrils_yolo-0.0.5.dist-info/METADATA,sha256=Wry-O9lCPPtonosP0wsb5Bfto_v2mIESmtOflPCr35g,44406
+tau_fibrils_yolo-0.0.5.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+tau_fibrils_yolo-0.0.5.dist-info/entry_points.txt,sha256=rf5DNzu6OGSQ2sZa1YqAvR6I-wnQ_zexP0EyUB4ZxtA,221
+tau_fibrils_yolo-0.0.5.dist-info/top_level.txt,sha256=9s_o7Fja2NxRfdxnPwkMXQljx6D233h3z0JpV4a4bTE,17
+tau_fibrils_yolo-0.0.5.dist-info/RECORD,,
