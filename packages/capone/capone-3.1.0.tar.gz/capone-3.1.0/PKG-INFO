@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: capone
+Version: 3.1.0
+Summary: Django app representing a double-entry accounting ledger.
+Home-page: https://github.com/counsyl/capone
+Author: Hunter Richards
+Author-email: opensource@counsyl.com
+License: MIT
+Description: Django app representing a double-entry accounting ledger.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Legal Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Description-Content-Type: text/x-rst

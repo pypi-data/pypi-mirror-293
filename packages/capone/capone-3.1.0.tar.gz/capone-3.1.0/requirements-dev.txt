@@ -1,0 +1,8 @@
+# Requirements needed for running the test suite.
+
+factory_boy
+flake8
+parameterized
+pytest
+pytest-cov
+pytest-django
