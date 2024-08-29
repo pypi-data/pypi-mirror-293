@@ -1,0 +1,11 @@
+Control_*
+a.out
+cfs
+cfs_debug
+compile_commands.json
+.cache
+*.pdf
+*.csv
+test
+bin/
+build/
