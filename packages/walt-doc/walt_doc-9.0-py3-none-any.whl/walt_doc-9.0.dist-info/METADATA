@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: walt-doc
+Version: 9.0
+Summary: WalT doc files and related code.
+Home-page: https://walt-project.liglab.fr
+Author: WalT developers
+Author-email: walt-contact@univ-grenoble-alpes.fr
+License: 3-Clause BSD
+Keywords: WalT testbed
+Requires-Dist: commonmark >=0.7.5
+Requires-Dist: pygments >=2.2.0
+Requires-Dist: walt-common ==9.0
+
