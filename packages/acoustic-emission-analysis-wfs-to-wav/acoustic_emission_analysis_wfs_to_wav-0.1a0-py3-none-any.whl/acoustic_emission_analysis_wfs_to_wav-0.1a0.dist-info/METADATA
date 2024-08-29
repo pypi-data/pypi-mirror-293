@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: acoustic-emission-analysis-wfs-to-wav
+Version: 0.1a0
+Summary: A updated and adjusted forked project for importing acoustic emission analysis data from wfs files and converting them to wav files.
+Author-email: Christoph Renzing <christoph.renzing@imf.tu-freiberg.de>
+License-Expression: BSD-3-Clause
+License-File: LICENSE
+Requires-Python: <4.0,>=3.9
+Requires-Dist: numpy
+Requires-Dist: scipy
