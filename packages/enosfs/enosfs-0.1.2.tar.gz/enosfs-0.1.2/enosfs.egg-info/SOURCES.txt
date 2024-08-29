@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+enosfs/__init__.py
+enosfs/cli.py
+enosfs.egg-info/PKG-INFO
+enosfs.egg-info/SOURCES.txt
+enosfs.egg-info/dependency_links.txt
+enosfs.egg-info/entry_points.txt
+enosfs.egg-info/requires.txt
+enosfs.egg-info/top_level.txt
