@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Pryme/__init__.py
+Pryme/prymepackage.py
+PrymePython.egg-info/PKG-INFO
+PrymePython.egg-info/SOURCES.txt
+PrymePython.egg-info/dependency_links.txt
+PrymePython.egg-info/requires.txt
+PrymePython.egg-info/top_level.txt
