@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include deepcubeai/scripts/*.sh
+global-exclude *.py[cod] __pycache__ .DS_Store .git .vscode
