@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: funcnodes-module
+Version: 0.1.11
+Summary: 
+Author: Julian Kimmig
+Author-email: julian.kimmig@gmx.net
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: funcnodes
+Description-Content-Type: text/markdown
+
+# common_workflows
