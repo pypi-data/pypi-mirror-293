@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=Q9VyxzKtL5-f-iPAIHPnywLxLW44SxoUcypWNcAaeME,92
+tests/test.py,sha256=9e_lqCrG9zCSKgBzqtID1SJRGCNEVT_I-6gRaFJkFD8,1829
+vconnex/__init__.py,sha256=lCmSPFsGPwbBoBcSvI6VZYKRiXB0uPnYpEdiYQgQoQE,24
+vconnex/api.py,sha256=Eg4p5r-AT9fXwxATX_rq1MVhRhzEND3HQbLt3npUML0,6495
+vconnex/device.py,sha256=D9ZQvaAvN8JSJVN1KUM9Ny2-WCPqCJeeIipLu7iiya8,27927
+vconnex.py-1.0.10.dist-info/LICENSE.txt,sha256=bZKWOs_JdbJ1zTFl7WaBDCgNgDniGFtohJC8BKQwR4I,1073
+vconnex.py-1.0.10.dist-info/METADATA,sha256=dbVnisA1Co_3SZCN4UlvI0LxE8EPB1FqE44gWRQyZHQ,612
+vconnex.py-1.0.10.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+vconnex.py-1.0.10.dist-info/top_level.txt,sha256=6Qb-WnLKKujfUaNiNBxjrT7L7ggzWLultUW-HO4bH5M,14
+vconnex.py-1.0.10.dist-info/RECORD,,
