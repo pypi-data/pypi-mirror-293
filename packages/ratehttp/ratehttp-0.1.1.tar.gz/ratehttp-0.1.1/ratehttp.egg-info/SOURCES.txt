@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rate/__init__.py
+rate/ratehttp.py
+ratehttp.egg-info/PKG-INFO
+ratehttp.egg-info/SOURCES.txt
+ratehttp.egg-info/dependency_links.txt
+ratehttp.egg-info/top_level.txt
