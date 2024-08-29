@@ -1,0 +1,10 @@
+split_dtype.cpython-312-darwin.so,sha256=ips0VQj26K8Sxczq30tQHwrnjIiXgHD9BljLpcUdT2k,118430
+zipnn/__init__.py,sha256=q7pnY9giYRsJW7wzc43uCEXmISTFbWh-RxshnELjwVg,25
+zipnn/util_header.py,sha256=XP7yIwmuvrJKfa4CVo1U8xyGU_1YPbvigmDzaJ9UFHE,1623
+zipnn/util_torch.py,sha256=n4K-9Cb4X1liQUHy94nPTMvRdiEFCQ_EuRv9l2drFTQ,8059
+zipnn/zipnn.py,sha256=JrUyyqcEWD1j3iqIkuIUy9n4d_H9jTO6l0q9igwezak,41212
+zipnn-0.3.1.dist-info/LICENSE.txt,sha256=W7SO6tO8xWE_rk2KWakkjpo4KPLC2M93LFQ_LS0a7ow,1130
+zipnn-0.3.1.dist-info/METADATA,sha256=hEL1Y00J1OoYXZl8bEzHzcmCPZlqmCC7wcZEQXSBfr4,9058
+zipnn-0.3.1.dist-info/WHEEL,sha256=7JDuPzVOv4CZsKy48sNdyhB46r1YWjorSeGtQr_7vOg,110
+zipnn-0.3.1.dist-info/top_level.txt,sha256=Kjf2duoPRD7BNXJLF8fmxYLwvRB_0kwiGmNcz1Zpajo,18
+zipnn-0.3.1.dist-info/RECORD,,
