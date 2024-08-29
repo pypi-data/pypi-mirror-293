@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/checkmate_sample/ __init__.py
+src/checkmate_sample/generator.py
+src/checkmate_sample/update_toml.py
+src/checkmate_sample.egg-info/PKG-INFO
+src/checkmate_sample.egg-info/SOURCES.txt
+src/checkmate_sample.egg-info/dependency_links.txt
+src/checkmate_sample.egg-info/requires.txt
+src/checkmate_sample.egg-info/top_level.txt
+tests/test_make_checkerboard.py
