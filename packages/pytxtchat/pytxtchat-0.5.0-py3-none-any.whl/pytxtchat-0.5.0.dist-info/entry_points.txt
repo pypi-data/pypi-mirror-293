@@ -1,0 +1,11 @@
+[console_scripts]
+txtbot = pytxtchat.cli:run_movie_bot
+txtchat = pytxtchat.cli:run_chat
+txtgmovie = pytxtchat.cli:print_group_count
+txtparquet = pytxtchat.cli:print_parquet_path
+txtping = pytxtchat.cli:ping
+txtsmovie = pytxtchat.cli:print_search_movie
+txtstopwatch = pytxtchat.cli:run_stopwatch
+txtweather = pytxtchat.cli:run_weather
+txtweatherpf = pytxtchat.cli:weather_fire
+txtweatherpt = pytxtchat.cli:weather_typer
