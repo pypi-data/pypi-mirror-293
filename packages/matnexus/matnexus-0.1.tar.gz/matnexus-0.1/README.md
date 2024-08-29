@@ -1,0 +1,421 @@
+# MatNexus
+
+MatNexus is a Python project designed to collect, process, and analyze scientific papers from the Scopus database. It is divided into four main modules:
+
+1. `PaperCollector`: Collects papers from the Scopus database based on a given query.
+2. `TextProcessor`: Processes the text content of the papers for further analysis.
+3. `VecGenerator`: Generates vector representations of the processed text for machine learning applications.
+4. `VecVisualizer`: A module for visualizing word embeddings using a Word2Vec model.
+
+## Installation
+
+This project uses a number of external dependencies, which are listed in the `environment.yml` file.
+
+To create a new conda environment named 'matnexus_env' with all the necessary dependencies, run the following command:
+
+```
+conda env create -f environment.yml
+```
+
+To install this package, clone the repository and run one of the following commands:
+
+For a system-wide installation:
+
+```
+python setup.py install
+```
+
+For a developer installation (i.e., changes to the source code immediately take effect):
+
+```
+python setup.py develop
+```
+
+Alternatively, you can install the package with pip:
+
+```
+pip install .
+```
+For a developer installation with pip:
+
+```
+pip install -e .
+```
+
+## PaperCollector
+
+`PaperCollector` is a module module designed for collecting and processing academic 
+papers from multiple data sources, including Scopus and arXiv. The module provides 
+an interface to search for papers, retrieve relevant information, and process them 
+into a structured format. 
+
+### Paper
+
+The `Paper` class represents an individual paper. It stores various properties of the paper, such as its title, year of publication, number of citations, and abstract.
+
+Example usage:
+
+```python
+paper = Paper(eid="2-s2.0-85082598145", source="Scopus")
+print(paper.title)
+print(paper.year)
+```
+
+### DataSource
+
+The `DataSource` is an abstract base class for all data sources (e.g., Scopus, arXiv). It defines a common interface that all data source classes must implement.
+
+### ScopusDataSource
+
+The `ScopusDataSource` class is responsible for interacting with the Scopus API using the `pybliometrics` library. It allows users to search for papers using a query and retrieve detailed information about them.
+
+Example usage:
+
+```python
+scopus = ScopusDataSource(config_path="path_to_pybliometrics_config.cfg")
+papers = scopus.search("TITLE-ABS-KEY(machine learning) AND PUBYEAR > 2020", limit=10)
+```
+
+### ArxivDataSource
+
+The `ArxivDataSource` class is responsible for interacting with the arXiv API. It allows users to search for papers using a query and retrieve information about them.
+
+Example usage:
+
+```python
+arxiv = ArxivDataSource()
+papers = arxiv.search("all:machine learning", limit=10)
+```
+
+### MultiSourcePaperCollector
+
+The `MultiSourcePaperCollector` class enables users to collect papers from multiple data sources concurrently. It takes in a list of `DataSource` objects, a query, and an optional limit on the number of results.
+
+Example usage:
+
+```python
+scopus = ScopusDataSource()
+arxiv = ArxivDataSource()
+
+collector = MultiSourcePaperCollector(data_sources=[scopus, arxiv], keywords="machine learning", startyear=2020)
+collector.collect_papers()
+
+print(collector.results.head())
+```
+
+## TextProcessor
+
+`TextProcessor` is a module designed for preprocessing textual data contained 
+within a DataFrame. It provides functionalities for filtering sentences, lemmatizing 
+words, and performing other text preprocessing tasks.
+
+
+### TextProcessor
+
+The `TextProcessor` class is the main class of this module. It processes text data by filtering and lemmatizing it.
+
+#### Attributes
+
+- `df` (pd.DataFrame): The input DataFrame containing the text data to be processed.
+- `nlp` (spacy.lang): Spacy language model used for lemmatization.
+- `processed_df` (pd.DataFrame): DataFrame containing the processed text data.
+
+#### Methods
+
+- `filter_sentences(s: str) -> str`: Filters sentences in the input string based on certain criteria, such as removing parts containing "©" or "& Co.".
+- `filter_words(s: str) -> str`: Filters words in the input string, performs lemmatization, and handles chemical formulas.
+- `is_chemical_formula(word: str) -> bool`: Determines if a word likely represents a chemical formula.
+- `extract_elements(word: str) -> set`: Extracts chemical elements from a token identified as a chemical formula.
+- `process_dataframe() -> pd.DataFrame`: Processes the input DataFrame by applying sentence filtering and word filtering.
+
+### Example Usage
+
+```python
+import pandas as pd
+from TextProcessor import TextProcessor
+
+# Example DataFrame
+data = {'abstract': ["This is an example. It includes H2O and NaCl. ©2023 Example Corp."]}
+df = pd.DataFrame(data)
+
+# Initialize the TextProcessor
+processor = TextProcessor(df)
+
+# Access the processed DataFrame
+processed_df = processor.processed_df
+print(processed_df)
+```
+
+## VecGenerator
+
+`VecGenerator` is a module designed for generating and processing vector representations of materials, particularly in the context of chemical formulas and materials science. It includes functionalities for creating word vectors using Word2Vec, generating vectors for materials, and calculating similarities between different materials or properties.
+
+### Corpus
+
+The `Corpus` class preprocesses text from abstracts by splitting them into sentences.
+
+#### Example Usage:
+
+```python
+import pandas as pd
+from VecGenerator import Corpus
+
+# Example DataFrame
+data = {'abstract': ["This is a sample abstract. It mentions H2O and CO2."]}
+df = pd.DataFrame(data)
+
+# Initialize the Corpus
+corpus = Corpus(df)
+sentences = corpus.preprocess()
+print(sentences)
+```
+
+### Model
+
+The `Model` class is an abstract base class for different vector models. It provides methods for fitting, saving, loading, and retrieving items from models. This class is meant to be subclassed.
+
+### Word2VecModel
+
+The `Word2VecModel` class is a concrete implementation of a Word2Vec model using Gensim. It allows you to train, save, load, and retrieve word vectors.
+
+#### Example Usage:
+
+```python
+from VecGenerator import Word2VecModel
+
+# Example sentences
+sentences = [["this", "is", "a", "sentence"], ["this", "is", "another", "sentence"]]
+
+# Initialize and fit the model
+model = Word2VecModel(sentences)
+model.fit(vector_size=100, window=5, min_count=1)
+
+# Save the model
+model.save("word2vec.model")
+
+# Load the model
+loaded_model = Word2VecModel.load("word2vec.model")
+
+# Get the vector for a word
+vector = loaded_model["sentence"]
+print(vector)
+```
+
+### VectorOperations
+
+The `VectorOperations` class provides static methods for various operations related to vectors, particularly for processing chemical formulas and generating vectors.
+
+#### Methods:
+
+- `split_chemical_formula(word: str) -> list`: Splits a chemical formula into its constituent elements and their counts.
+- `generate_material_vector(formula: str, model) -> np.ndarray`: Generates a vector representation for a material based on its chemical formula.
+- `get_vector(word_or_phrase: str, model) -> np.ndarray`: Obtains the vector representation for a word or phrase.
+- `generate_property_vectors(property_list: list, model) -> list`: Generates vectors for a list of properties.
+
+### MaterialListGenerator
+
+The `MaterialListGenerator` class is used to generate valid combinations of elements based on a defined range and to save these combinations into CSV files.
+
+#### Example Usage:
+
+```python
+from VecGenerator import MaterialListGenerator
+
+# Example element ranges
+elements_ranges = [
+    ["H", (1, 99)], 
+    ["O", (1, 99)]
+]
+
+# Initialize and generate combinations
+generator = MaterialListGenerator(elements_ranges)
+generator.generate_and_save_all_combinations(element_range=(2, 2))
+```
+
+### MaterialSimilarityCalculator
+
+The `MaterialSimilarityCalculator` class computes similarity scores between materials based on their vector representations. This class utilizes a Word2Vec model to represent materials as vectors and then calculates their similarity to target materials or properties.
+
+#### Initialization
+
+```python
+def __init__(self, model, property_list=None):
+    # Initialize the MaterialSimilarityCalculator with a Word2Vec model and optional property vectors.
+```
+
+##### Parameters:
+- `model (gensim.models.Word2Vec)`: The Word2Vec model for generating vector representations.
+- `property_list (list, optional)`: A list of properties for which vectors are pre-generated. Defaults to None.
+
+#### Methods
+
+##### _calculate_similarity_vectors
+
+```python
+def _calculate_similarity_vectors(self, material_list):
+    # Calculate similarity vectors for a list of materials.
+```
+
+###### Parameters:
+- `material_list (list)`: A list of materials for which similarity vectors are to be calculated.
+
+###### Returns:
+- `dict`: A dictionary mapping each material in the list to its similarity vector. If property_vectors is None, returns the material vectors in their original dimensions.
+
+##### find_top_similar_materials
+
+```python
+def find_top_similar_materials(self, target_material, material_list, top_n=10):
+    # Find the top-n materials most similar to the target material.
+```
+
+###### Parameters:
+- `target_material (str)`: The name of the target material.
+- `material_list (list)`: List of materials to compare against the target.
+- `top_n (int, optional)`: Number of top materials to return. Default is 10.
+
+###### Returns:
+- `list`: List of tuples containing the top-n similar materials and their respective similarity scores.
+
+##### calculate_similarity_from_dataframe
+
+```python
+def calculate_similarity_from_dataframe(
+    self,
+    df,
+    element_columns,
+    target_material=None,
+    target_property=None,
+    target_vec=None,
+    percentages_as_decimals=False,
+    experimental_indicator_column="Resistance",
+    experimental_indicator_func=lambda x: 1 / x,
+    add_experimental_indicator=True
+):
+    # Calculate similarity scores for materials in a DataFrame compared to a target material.
+```
+
+###### Parameters:
+- `df (pd.DataFrame)`: DataFrame containing materials and their properties.
+- `element_columns (list)`: List of column names in the DataFrame representing the elements.
+- `target_material (str)`: The name of the target material.
+- `target_property (str, optional)`: The name of the target property to compare.
+- `target_vec (np.ndarray, optional)`: The vector representation of the target.
+- `percentages_as_decimals (bool, optional)`: Whether the percentages in the DataFrame are given as decimals. Default is False.
+- `experimental_indicator_column (str, optional)`: Name of the column used to compute the 'Experimental_Indicator'. Default is 'Resistance'.
+- `experimental_indicator_func (function, optional)`: Function to compute the 'Experimental_Indicator' value. Default is inverse function.
+- `add_experimental_indicator (bool, optional)`: Whether to add the experimental indicator column to the dataframe. Default is True.
+
+###### Returns:
+- `pd.DataFrame`: DataFrame with similarity scores, or a list of top-n similar materials with their scores.
+
+##### calculate_similarity_to_list
+
+```python
+def calculate_similarity_to_list(
+    self, material_list, target_words=None, target_materials=None
+):
+    # Compute similarity scores between a list of materials and target words/materials.
+```
+
+###### Parameters:
+- `material_list (list)`: List of materials to compute similarity scores for.
+- `target_words (list, optional)`: List of target words or phrases to compare against.
+- `target_materials (list, optional)`: List of target materials to compare against.
+
+###### Returns:
+- `list`: List of similarity scores corresponding to each material in the `material_list`.
+
+##### Example Usage
+
+```python
+# Initialize the Word2Vec model and MaterialSimilarityCalculator
+model = Word2VecModel(model)
+
+similarity_calculator = MaterialSimilarityCalculator(model)
+
+# Find the top 10 materials most similar to a target material
+top_similar = similarity_calculator.find_top_similar_materials("H2O", ["CO2", "CH4"], top_n=10)
+print(top_similar)
+
+# Calculate similarity scores for materials in a DataFrame
+df = pd.DataFrame({
+    'H': [20, 50],
+    'O': [50, 80],
+    })
+similarity_df = similarity_calculator.calculate_similarity_from_dataframe(
+    df,
+    element_columns=['H', 'O'],
+    target_material="H2O"
+)
+print(similarity_df)
+```
+
+## Word2VecVisualizer
+
+`Word2VecVisualizer` is a module for visualizing word embeddings using a pre-trained Word2Vec model. It provides various methods to visualize word vectors in 2D space using dimensionality reduction techniques like t-SNE, Isomap, MDS, and Spectral Embedding.
+
+### Word2VecVisualizer
+
+The `Word2VecVisualizer` class is designed to help visualize word embeddings generated by a Word2Vec model.
+
+#### Initialization
+
+```python
+def __init__(self, model):
+    # Initialize the Word2VecVisualizer with a pre-trained Word2Vec model.
+```
+
+#### Methods
+
+- `collect_similar_words(word, level, top_n_similar, collected=None)`: Recursively collect similar words to a given word up to a specified level.
+  
+- `get_property_vectors(property_list)`: Compute vectors for a list of properties using the Word2Vec model.
+  
+- `get_words_data(property_list, level, top_n_similar)`: Retrieve vectors and data for words related to given properties for visualization purposes.
+
+- `plot_2d(coordinates, property_list, ...)`: Generate a 2D scatter plot of word embeddings.
+
+- `plot_data(property_list, plot_method="t_sne", ...)`: Visualize word embeddings in 2D using various dimensionality reduction techniques like t-SNE, Isomap, MDS, and Spectral Embedding.
+
+- `plot_vectors(material_list=None, property_list=None, ...)`: Plot a 2D scatter plot of material vectors using t-SNE.
+
+- `plot_similarity_scatter(data_dict, elements, ...)`: Plot scatter plots showing the similarity of materials based on specified elements from multiple DataFrames.
+
+### Example Usage
+
+```python
+from vec_generator import Word2VecModel
+from word2vec_visualizer import Word2VecVisualizer
+
+# Example: Initialize the Word2Vec model and Word2VecVisualizer
+model = Word2VecModel(sentences)
+model.fit()
+
+visualizer = Word2VecVisualizer(model)
+
+# Visualize word embeddings in 2D using t-SNE
+fig = visualizer.plot_data(property_list=["property1", "property2"], plot_method="t_sne", level=1, top_n_similar=30)
+fig.show()
+
+# Plot vectors for specific materials and properties
+fig = visualizer.plot_vectors(material_list=["H2O", "CO2"], property_list=["Density"])
+fig.show()
+
+# Plot similarity scatter plots for materials
+data_dict = {"data1": df1, "data2": df2}
+elements = [("data1", ["ElementX", "ElementY"]), ("data2", ["ElementZ"])]
+fig = visualizer.plot_similarity_scatter(data_dict, elements)
+fig.show()
+```
+
+## License
+
+This project is licensed under the GNU GPL v3 License.
+
+## Future Updates
+
+
+This README will be updated with instructions for modules as they are developed.
+
+For more information on this project, please visit the [GitLab repository](https://gitlab.ruhr-uni-bochum.de/icams-mids/text_mining_tools).

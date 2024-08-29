@@ -1,0 +1,8 @@
+include environment.yml
+include README.md
+include LICENSE
+include setup.py
+include setup.cfg
+include pyproject.toml
+recursive-include MatNexus *
+prune .idea
