@@ -1,0 +1,9 @@
+eldom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eldom/base_client.py,sha256=6mfF4RnBe2th72liR8sI-aaLfXGVDCbVPx8l03QMNa4,2695
+eldom/flat_boiler.py,sha256=hd_m1zHSBmSUBwpDwfx7zURFY-TZyRamYtYglgm-JYM,2805
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyeldom-0.0.9.dist-info/LICENSE,sha256=2jcdWzzJ4JlL2IyhR_XuEA3d6xQ90KVCE9_v-1xBY08,1064
+pyeldom-0.0.9.dist-info/METADATA,sha256=7x-q5ouvbE0OMn6pD3B6OWmCDvqZzGI5aOFiiirwnfo,621
+pyeldom-0.0.9.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+pyeldom-0.0.9.dist-info/top_level.txt,sha256=6YSluM9rf48qZy9ywtyX_0SLXnpRmYlRTtp_Y5NnS-g,12
+pyeldom-0.0.9.dist-info/RECORD,,
