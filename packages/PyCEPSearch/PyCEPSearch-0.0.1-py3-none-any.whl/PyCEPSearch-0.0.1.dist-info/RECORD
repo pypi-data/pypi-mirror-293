@@ -1,0 +1,9 @@
+py_cep_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_cep_search/cepsearch.py,sha256=Vi0pYdSuakN_rkvymRJHllh089gzv_CrT-FzjJIxEwA,4034
+py_cep_search/response_correios.py,sha256=O0pBnsKWmnu63ffeIp437caUOQwsn4VooeqLfXuExC0,197
+py_cep_search/version.py,sha256=x6h2yOGOi8G6i6CNLmpVJOXE5ojS7xHObQYUyu4x1LU,48
+PyCEPSearch-0.0.1.dist-info/LICENSE,sha256=dVtTOoRsJ8z-DZKVA14kTRzk_2EvDOhK6EwNhzpoz1c,1081
+PyCEPSearch-0.0.1.dist-info/METADATA,sha256=28tmTfvKLPGeSCXIAPdDOYaXZHaWDRXNRLVSzLjvZwc,1397
+PyCEPSearch-0.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+PyCEPSearch-0.0.1.dist-info/top_level.txt,sha256=xvw_Svg4DoL5yMCa_iOjH1gxHyVqJLG1ULTmPY1nHYE,14
+PyCEPSearch-0.0.1.dist-info/RECORD,,
