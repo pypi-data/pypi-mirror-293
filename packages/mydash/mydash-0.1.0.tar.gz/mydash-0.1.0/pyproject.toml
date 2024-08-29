@@ -1,0 +1,20 @@
+[project]
+name = "mydash"
+version = "0.1.0"
+authors = [
+    { name = "Jaehee Lee" }
+]
+description = "Customize Dashboard with Python"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/ij5/dashpy"
+Issues = "https://github.com/ij5/dashpy/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
