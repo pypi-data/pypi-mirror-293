@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+AutoMessenger/__init__.py
+AutoMessenger/auto_messenger.py
+AutoMessenger.egg-info/PKG-INFO
+AutoMessenger.egg-info/SOURCES.txt
+AutoMessenger.egg-info/dependency_links.txt
+AutoMessenger.egg-info/requires.txt
+AutoMessenger.egg-info/top_level.txt
+tests/test_auto_messenger.py
