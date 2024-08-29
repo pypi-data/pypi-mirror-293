@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "Report-Ranger"
+version = "3.2"
+description = "Create a report using markdown files."
+license = "MIT"
+authors = ["Matthew Strahan <matt@volkis.com.au>"]
+repository = "https://gitlab.com/volkis/report-ranger/"
+documentation = "https://gitlab.com/volkis/report-ranger/-/wikis/home"
+include = [ "sample/sample-template", "sample/plain-template" ]
+
+[tool.poetry.scripts]
+reportranger = "report_ranger:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mistune = "*"
+kaleido = "0.2.1"
+jinja2 = "*"
+argparse = "*"
+pyyaml = "*"
+cerberus = "*"
+num2words = "*"
+plotly = "*"
+pandas = "*"
+tabulate = "*"
+openpyxl = "*"
+numpy = "*"
+watchdog = "*"
+platformdirs = "*"
