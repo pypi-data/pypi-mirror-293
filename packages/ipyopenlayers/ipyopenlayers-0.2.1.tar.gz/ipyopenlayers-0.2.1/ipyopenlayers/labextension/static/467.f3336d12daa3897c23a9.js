@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipyopenlayers=self.webpackChunkipyopenlayers||[]).push([[467],{1467:(e,r,s)=>{s.r(r),s.d(r,{default:()=>l});var a=s(5616),n=s(8559);class l extends n.A{decodeBlock(e){return(0,a.UD)(new Uint8Array(e)).buffer}}}}]);
