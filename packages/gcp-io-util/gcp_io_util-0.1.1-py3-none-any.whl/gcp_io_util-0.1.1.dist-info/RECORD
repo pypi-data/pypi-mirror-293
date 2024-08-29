@@ -1,0 +1,6 @@
+gcp_io/__init__.py,sha256=V916ghEPB1NhHkVPMcmps5rArJG4tw2eT3PHAzlIFEU,125
+gcp_io/gcp_interface.py,sha256=6TkoRqVRF88YSbwN_Zqd-vSlOcyXRiPJBU79SnKzfKA,17445
+gcp_io/utils.py,sha256=57M8r04DZ2SdZCnioW4FpIvc-SyPzSEOu8tm4ucw8o0,3412
+gcp_io_util-0.1.1.dist-info/METADATA,sha256=QvTccj0yMz0w7zQyO59Tk5jT_CoMFtViP_N7vbc72KI,2741
+gcp_io_util-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gcp_io_util-0.1.1.dist-info/RECORD,,
