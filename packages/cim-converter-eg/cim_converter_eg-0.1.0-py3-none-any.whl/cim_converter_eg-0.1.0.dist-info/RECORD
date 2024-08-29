@@ -1,0 +1,12 @@
+cim_converter_eg/CIMModel.py,sha256=zDvou77WK0LcbMCYeKFXHyAnL7W2msA5JSEOpYnmpTc,8401
+cim_converter_eg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cim_converter_eg/myfunctions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cim_converter_eg/rdf_converter.py,sha256=iDJXTkB02AioZxTwQFKV-O36O7as7jYllwYI7IVPCuw,10991
+cim_converter_eg/CIM_EG/Element.py,sha256=RYMk_Gf3f3bKcnTXOs72MjvSuxuXBp_x8Yoa5xV_N9k,318
+cim_converter_eg/CIM_EG/__init__.py,sha256=CpOm2bUIT3RkPifhV5Tuejmim1j0yW1gulyyHWCb3oM,1958
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_myfunctions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cim_converter_eg-0.1.0.dist-info/METADATA,sha256=vW8v0Vd_QBR4OhKOWMCXgw6OupAh1NRzNW8ITJIYtMw,110
+cim_converter_eg-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+cim_converter_eg-0.1.0.dist-info/top_level.txt,sha256=RnSwMXUSfguUblrYPrkH9AigdG2QjbmxS63JRktuZFc,23
+cim_converter_eg-0.1.0.dist-info/RECORD,,
