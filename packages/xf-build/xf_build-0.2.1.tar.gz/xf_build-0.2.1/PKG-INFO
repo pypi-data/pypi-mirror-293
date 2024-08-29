@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xf_build
+Version: 0.2.1
+Summary: A tools for xfusion
+Home-page: http://www.coral-zone.cc/
+Author: kirto
+Author-email: sky.kirto@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+README
+
