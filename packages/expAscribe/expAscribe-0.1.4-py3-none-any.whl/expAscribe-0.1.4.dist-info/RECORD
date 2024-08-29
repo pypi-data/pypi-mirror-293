@@ -1,0 +1,16 @@
+expAscribe/__init__.py,sha256=FUru2vDfPablxy9Zni6G6QKBvXusvVqKxfKYrrR7n9c,269
+expAscribe/falsify.py,sha256=DJAoCGJeYRRqMslmxn07s2DelfLvTdme__KATbjjzEk,1238
+expAscribe/io_utils.py,sha256=ccLBm4vR9OZAYPWEfH8-4n6oz8lkv5ymbelMloB806I,7008
+expAscribe/itvsimu.py,sha256=cq0-s1lMkE-fzQqvsnOhR3BjLsNK2tDg2cHINXQOsHQ,1421
+expAscribe/learn.py,sha256=rXE5lnrA_rscDO8c_jMt2xVz--EhxnVOauE4fFEpmWA,3758
+expAscribe/plot.py,sha256=HE_iyjb5FcHTobFGhFnH2lSFHfrZVaXMHhFELI6WMjM,1403
+expAscribe/quasiexp.py,sha256=ewXZrnxIouBPgPMaPECQm2bhdcxB2bzvTmvz-XnItzE,6090
+expAscribe/score.py,sha256=PSt9mVmUkxPXZZ9PFA2kPwOFfrpROTJnPl1uPaMT05k,1682
+expAscribe/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+expAscribe/model/functional.py,sha256=8eNuY9j695QKCoTXy25v63KCB8UG4DS5YlnUUa40nZU,12703
+expAscribe/model/voter.py,sha256=S75VicK19SH39kYTk34fdnBTgfLkXzHrKz6eFhajZAQ,3740
+expAscribe-0.1.4.dist-info/LICENSE,sha256=iSMJCvppm3YfeKpm9OmAtgaeDjf2laHYi-rrO90bf1k,1087
+expAscribe-0.1.4.dist-info/METADATA,sha256=9MQeXpfADhBm5m3lD3i1Kgat_YocRfkUn6b40mjYX0g,736
+expAscribe-0.1.4.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+expAscribe-0.1.4.dist-info/top_level.txt,sha256=-puvSoKkLj3dL910t13p2o6X9ItogyAvATw-fu3Hc_U,11
+expAscribe-0.1.4.dist-info/RECORD,,
