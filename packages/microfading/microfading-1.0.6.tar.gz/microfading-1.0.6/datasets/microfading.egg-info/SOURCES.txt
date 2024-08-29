@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+datasets/microfading.egg-info/PKG-INFO
+datasets/microfading.egg-info/SOURCES.txt
+datasets/microfading.egg-info/dependency_links.txt
+datasets/microfading.egg-info/requires.txt
+datasets/microfading.egg-info/top_level.txt
