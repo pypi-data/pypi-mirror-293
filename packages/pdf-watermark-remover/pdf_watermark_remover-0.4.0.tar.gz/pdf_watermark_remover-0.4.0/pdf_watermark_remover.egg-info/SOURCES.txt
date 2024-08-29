@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pdf_watermark_remover/__init__.py
+pdf_watermark_remover/remover.py
+pdf_watermark_remover.egg-info/PKG-INFO
+pdf_watermark_remover.egg-info/SOURCES.txt
+pdf_watermark_remover.egg-info/dependency_links.txt
+pdf_watermark_remover.egg-info/entry_points.txt
+pdf_watermark_remover.egg-info/requires.txt
+pdf_watermark_remover.egg-info/top_level.txt
