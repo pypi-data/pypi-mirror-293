@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+chatgpt/__init__.py
+chatgpt/chatgpt.py
+python3_chatgpt.egg-info/PKG-INFO
+python3_chatgpt.egg-info/SOURCES.txt
+python3_chatgpt.egg-info/dependency_links.txt
+python3_chatgpt.egg-info/requires.txt
+python3_chatgpt.egg-info/top_level.txt
