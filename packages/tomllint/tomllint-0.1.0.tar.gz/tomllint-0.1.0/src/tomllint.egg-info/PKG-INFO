@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tomllint
+Version: 0.1.0
+Summary: A simple TOML linter.
+Author: Will Bradley
+License-File: LICENSE
