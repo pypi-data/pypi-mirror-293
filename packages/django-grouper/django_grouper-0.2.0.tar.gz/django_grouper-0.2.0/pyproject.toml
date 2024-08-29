@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "django-grouper"
+version = "0.2.0"
+description = ""
+authors = ["Birger Schacht"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.0"
+sparse-dot-topn = "^1.1.1"
+django = ">=3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.8"
+djlint = "^1.31.1"
+deptry = "^0.16.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.deptry.package_module_name_map]
+scikit-learn = "sklearn"

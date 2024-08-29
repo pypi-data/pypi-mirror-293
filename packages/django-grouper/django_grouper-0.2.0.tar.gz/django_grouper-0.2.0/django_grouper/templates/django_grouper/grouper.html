@@ -1,0 +1,29 @@
+{% extends "webpage/base.html" %}
+{% block content %}
+    <style>
+li {
+  padding: 1em;
+  list-style-type: none;
+}
+summary {
+  list-style-type: none;
+}
+
+    </style>
+    <div class="container mt-3">
+        <ul>
+            {% for group, ids in groups.items %}
+                <li>
+                    <a href="{% url "group" %}?group_content_type={{ content_type.app_label }}.{{ content_type.model }}{% for id in ids %}&ids={{ id }}{% endfor %}">{{ group }}</a>
+                    <details>
+                        <summary>{{ ids|length }} occurences</summary>
+                        {% for id in ids %}
+                            <a href="{% url "apis_core:apis_entities:generic_entities_detail_view" content_type.model id %}">{{ id }}</a>,
+                        {% endfor %}
+                    </details>
+                </li>
+                <hr />
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock content %}
