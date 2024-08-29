@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "csrd"
+version = "0.1.1"
+description = ""
+authors = ["aaron <aaron@frostmn.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
