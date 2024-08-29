@@ -1,0 +1,25 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.poetry]
+authors = ["Elvir Muslic <elvirmuslic.dev@gmail.com>"]
+description = "Python-based tool for processing Serbian cards."
+name = "serbiacard"
+readme = "README.md"
+version = "5.0.0"
+
+[tool.poetry.dependencies]
+pillow = "^10.4.0"
+python = "^3.10"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.vulture]
+make_whitelist = true
+min_confidence = 90
+paths = ["serbiacard"]
+sort_by_size = true
+verbose = true
