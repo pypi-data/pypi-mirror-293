@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: plm-cs
+Version: 0.1
+Summary: Protein chemical shift prediction based on Protein Language Model
+Home-page: https://github.com/doorpro/predict-chemical-shifts-from-protein-sequence.git
+Author: Zhu He
+Author-email: 2260913071@qq.com
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: esm
+
