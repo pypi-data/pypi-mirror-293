@@ -1,0 +1,8 @@
+material_color/__init__.py,sha256=UBT2VjrkWD0i4a4t42cB3QhPcpP0E_yiuddTqbbN1Ss,351
+material_color/color.py,sha256=TBRTr909_aWHNdm_AOZw6sbXwUIXzbKCcg-V4-Oqqr4,932
+material_color/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+material_color/resources/material-colors.json,sha256=kxXv6DMJqaC09rrXghSQoNXOQp_nuqsslqWR4Ktxqrw,2274
+material_color-1.0.0.dist-info/LICENSE,sha256=rwlxGtynWEDB7R6X-_XixZ-h9xCROlLhZaVabjIulas,1085
+material_color-1.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+material_color-1.0.0.dist-info/METADATA,sha256=MBrU4_LDUXZ_9FptkUaf8Ne5CaKpm3FISm6ejaFC8AA,883
+material_color-1.0.0.dist-info/RECORD,,
