@@ -1,0 +1,9 @@
+README.md
+setup.py
+setup_trufflehog_gitleak.1.egg-info/PKG-INFO
+setup_trufflehog_gitleak.1.egg-info/SOURCES.txt
+setup_trufflehog_gitleak.1.egg-info/dependency_links.txt
+setup_trufflehog_gitleak.1.egg-info/entry_points.txt
+setup_trufflehog_gitleak.1.egg-info/requires.txt
+setup_trufflehog_gitleak.1.egg-info/setup_security_tools.py
+setup_trufflehog_gitleak.1.egg-info/top_level.txt
