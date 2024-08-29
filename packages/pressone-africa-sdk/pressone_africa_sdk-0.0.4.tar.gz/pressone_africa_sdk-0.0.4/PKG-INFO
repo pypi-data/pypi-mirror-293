@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pressone-africa-sdk
+Version: 0.0.4
+Summary: PressOne Python package
+Author: Afolabi Tope
+Author-email: <tope@pressone.co>
+Keywords: python,pressone,telephony,telephone,internet call,phone
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: requests
+
+This package helps you interacts with the pressone backend.

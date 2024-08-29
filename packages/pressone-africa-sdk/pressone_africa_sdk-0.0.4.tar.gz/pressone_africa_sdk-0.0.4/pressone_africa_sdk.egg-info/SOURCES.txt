@@ -1,0 +1,8 @@
+setup.py
+pressone-sdk/__init__.py
+pressone-sdk/telephony.py
+pressone_africa_sdk.egg-info/PKG-INFO
+pressone_africa_sdk.egg-info/SOURCES.txt
+pressone_africa_sdk.egg-info/dependency_links.txt
+pressone_africa_sdk.egg-info/requires.txt
+pressone_africa_sdk.egg-info/top_level.txt
