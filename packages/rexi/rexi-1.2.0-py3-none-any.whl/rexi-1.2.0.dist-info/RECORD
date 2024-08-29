@@ -1,0 +1,10 @@
+rexi/__init__.py,sha256=MpAT5hgNoHnTtG1XRD_GV_A7QrHVU6vJjGSw_8qMGA4,22
+rexi/cli.py,sha256=WTNrdRyYAjFW5mks3bOdYKZGg_fbs-ftBfixzQGcpu4,1766
+rexi/regex_help.py,sha256=bAIhrE-FQiijxalhX6OhdDuZetQy6vAu86M1lmLUow8,362
+rexi/rexi.py,sha256=08R-Zz_ydv5Xz7IwKJ2yAlvP5AaxzTqTcsJwJAO9dVY,7261
+rexi/rexi.tcss,sha256=9STlESKMrVtTyoshia88cJ2G2150sF7bJ2vnVJfVZAQ,623
+rexi-1.2.0.dist-info/LICENSE,sha256=asScTdyX0-n4ZuCWXgsrNKZPhul5JQV1nSC11ZxAa-U,1066
+rexi-1.2.0.dist-info/METADATA,sha256=Nr_96DShttj73auquxrq_V3x2iSpVTsWkMMYEBGJmY8,3561
+rexi-1.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rexi-1.2.0.dist-info/entry_points.txt,sha256=mx-wLVArzovIPy1zQvjXuzc7Sc_FIPAqIs0P2TK-JZw,37
+rexi-1.2.0.dist-info/RECORD,,
