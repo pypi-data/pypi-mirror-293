@@ -1,0 +1,7 @@
+pythoncfs-0.1.2.dist-info/RECORD,,
+pythoncfs-0.1.2.dist-info/WHEEL,sha256=N8zBE42V67iJxBubESy7jfYBapvoxIISDwTj1fz_CcM,114
+pythoncfs-0.1.2.dist-info/METADATA,sha256=62vzKvbMyv02KsJ93lMkZKxzr86P7m8jn4YzVFFsnbs,3390
+pythoncfs-0.1.2.dist-info/licenses/LICENSE.txt,sha256=kA_x1T7LIVRGGFruuh-mZGqChix4SATsuucAfYGpMk4,1079
+CFS/_routines.cpython-311-darwin.so,sha256=c84ztzLOzC9dLyjU8l_ZOtZ3tm1awzHEE2sQIWOSm1I,93104
+CFS/_constants.cpython-311-darwin.so,sha256=FMGsmOJE4tGdV9Nin4_BE4zLA_HRT88jOv64FiM46hg,125120
+CFS/CFSFile.cpython-311-darwin.so,sha256=2ep087RBk9ZFkJtjb82LZwtXsK5E4LkUL36xkCA82cQ,108416
