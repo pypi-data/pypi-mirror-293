@@ -1,0 +1,9 @@
+*.npy
+.DS_Store
+__pycache__/
+.env
+models/
+xprize_data/
+.cache/
+.venv/
+dist/

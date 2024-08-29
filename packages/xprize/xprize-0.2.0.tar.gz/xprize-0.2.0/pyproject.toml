@@ -1,0 +1,36 @@
+[project]
+name = "xprize"
+version = "0.2.0"
+description = "Brazilian nut and rubber tree detection from satellite images. Self-supervised representation learning and few-shot classification in PyTorch. Streamlit app for interactive visualization."
+authors = [{ name = "Georges Pantalos", email = "georgespantalos@gmail.com" }]
+dependencies = [
+    "numpy>=2.1.0",
+    "matplotlib>=3.9.2",
+    "scikit-learn>=1.5.1",
+    "onnxruntime>=1.19.0",
+    "streamlit>=1.38.0",
+    "tqdm>=4.66.5",
+    "watchdog>=5.0.0",
+    "aiofiles>=24.1.0",
+    "opencv-python>=4.10.0.84",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/xprize"]
+
+
+[tool.rye.scripts]
+dev = "streamlit run app.py"
