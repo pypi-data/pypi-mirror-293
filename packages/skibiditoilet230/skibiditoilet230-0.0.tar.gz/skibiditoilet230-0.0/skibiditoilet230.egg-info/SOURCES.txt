@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+skibiditoilet230/skibiditoilet230.py
+skibiditoilet230.egg-info/PKG-INFO
+skibiditoilet230.egg-info/SOURCES.txt
+skibiditoilet230.egg-info/dependency_links.txt
+skibiditoilet230.egg-info/not-zip-safe
+skibiditoilet230.egg-info/top_level.txt
