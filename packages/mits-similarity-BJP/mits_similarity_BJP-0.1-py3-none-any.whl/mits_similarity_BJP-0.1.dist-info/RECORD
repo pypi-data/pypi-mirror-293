@@ -1,0 +1,9 @@
+mits_similarity_BJP/__init__.py,sha256=dgXIxdwuxrqf0TMMNMMM-aR84LCJsj_nkMfzSoHnZnc,315
+mits_similarity_BJP/hamming_distance.py,sha256=V75tM-r4l1P70e29_9d5NBU0BRPednCaK1DBuJI9yLs,343
+mits_similarity_BJP/jaccard_coefficient.py,sha256=zuLSlguY0PwyNPYWzNuPR5R7n9Br5p9wtDsuZ13bcIk,334
+mits_similarity_BJP/overlap_coefficient.py,sha256=NRRdsctA5yPz4e1d69PAdriv2UAsAtcgn8ZtXLtShMQ,336
+mits_similarity_BJP-0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+mits_similarity_BJP-0.1.dist-info/METADATA,sha256=64A07w4cCvD1XNXDrAoZ4aqT_S3rE106MxBx9UpA0S4,583
+mits_similarity_BJP-0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+mits_similarity_BJP-0.1.dist-info/top_level.txt,sha256=lPlSpDw_Um9X_F4-zBOsJo_spVBqyXLvPsdd_Ruy0iU,20
+mits_similarity_BJP-0.1.dist-info/RECORD,,
