@@ -1,0 +1,7 @@
+setup.py
+vinayaga/__init__.py
+vinayaga/multiplication.py
+vinayaga.egg-info/PKG-INFO
+vinayaga.egg-info/SOURCES.txt
+vinayaga.egg-info/dependency_links.txt
+vinayaga.egg-info/top_level.txt
