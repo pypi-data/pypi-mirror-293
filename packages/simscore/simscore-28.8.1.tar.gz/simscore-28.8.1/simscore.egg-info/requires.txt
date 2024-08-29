@@ -1,0 +1,17 @@
+numpy
+scipy
+
+[dev]
+twine
+setuptools
+build
+
+[docs]
+sphinx>=3.0.0
+
+[gpu]
+cupy
+pycuda
+
+[spark]
+pyspark

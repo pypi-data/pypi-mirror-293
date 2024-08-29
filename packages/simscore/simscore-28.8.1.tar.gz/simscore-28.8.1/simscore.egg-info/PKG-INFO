@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: simscore
+Version: 28.8.1
+Summary: This software is being developed at the Madanapalle Institute of Technology & Science.
+Home-page: https://github.com/sairamarava/MITS_AIBIRDS
+Author: Sai Ram Reddy Shabeena Kamuluri Tejashri Kothapalli
+Author-email: sairamrdya@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: gpu
+Requires-Dist: cupy; extra == "gpu"
+Requires-Dist: pycuda; extra == "gpu"
+Provides-Extra: spark
+Requires-Dist: pyspark; extra == "spark"
+Provides-Extra: dev
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: setuptools; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=3.0.0; extra == "docs"
+
+# MITS_AIBIRDS
+
+MITS_AIBIRDS is a repository for SIMS (Similarity Score)Python package that provides easy-to-use functions for calculating various similarity scores, including Jaccard, Overlap, and Hamming Distance. These scores can be useful in a wide range of applications, such as text analysis, bioinformatics, and data science.
+
+## Features
+
+- **Jaccard Similarity**: Measures the similarity between two sets by dividing the size of the intersection by the size of the union.
+- **Overlap Similarity**: Calculates the overlap between two sets by dividing the size of the intersection by the size of the smaller set.
+- **Hamming Distance**: Measures the number of positions at which the corresponding elements are different between two strings of equal length.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install mits_aibirds

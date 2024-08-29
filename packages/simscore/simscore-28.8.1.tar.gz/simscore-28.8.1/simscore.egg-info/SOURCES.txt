@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+similarity_check/Similarity.py
+similarity_check/__init__.py
+simscore.egg-info/PKG-INFO
+simscore.egg-info/SOURCES.txt
+simscore.egg-info/dependency_links.txt
+simscore.egg-info/requires.txt
+simscore.egg-info/top_level.txt
