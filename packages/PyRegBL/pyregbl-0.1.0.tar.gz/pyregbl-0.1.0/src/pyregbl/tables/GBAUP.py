@@ -1,0 +1,15 @@
+GBAUP = {
+    8011: "Période avant 1919",
+    8012: "Période de 1919 de 1945",
+    8013: "Période de 1946 de 1960",
+    8014: "Période de 1961 de 1970",
+    8015: "Période de 1971 de 1980",
+    8016: "Période de 1981 de 1985",
+    8017: "Période de 1986 de 1990",
+    8018: "Période de 1991 de 1995",
+    8019: "Période de 1996 de 2000",
+    8020: "Période de 2001 de 2005",
+    8021: "Période de 2006 de 2010",
+    8022: "Période de 2011 de 2015",
+    8023: "Période à partir de 2016",
+}
