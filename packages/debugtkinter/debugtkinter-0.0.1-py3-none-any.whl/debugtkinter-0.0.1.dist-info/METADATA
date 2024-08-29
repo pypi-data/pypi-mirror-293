@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: debugtkinter
+Version: 0.0.1
+Summary: A simple debugger for tkinter.
+Home-page: https://github.com/berk-efe/debugtkinter
+Author: Berk Efe
+Author-email: berkefekeskin@gmail.com
+Keywords: python,tkinter,debugger,debugging,debug,tkinter debugger
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package that allows you to debug tkinter applications.
