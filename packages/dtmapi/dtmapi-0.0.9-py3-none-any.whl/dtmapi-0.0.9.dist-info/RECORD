@@ -1,0 +1,9 @@
+dtmapi/__init__.py,sha256=9xuQLiTItKpWyxr_iRVutGieZ-7iClGjpQQJUcyAKuk,144
+dtmapi/common.py,sha256=XLXX2i4JTVPFIkCLU445h8BK66YgB1ascciSRz-i37I,1759
+dtmapi/config.py,sha256=cx9gywp7pmQeuHYrdIyM0X6clkm_W8qNCgy7VK4ftc4,370
+dtmapi/idp.py,sha256=s_k9Uq1MDYJvgcyTE9XBekyFvaorvLGVBPtlcJG97uE,8573
+dtmapi-0.0.9.dist-info/LICENSE,sha256=4xFpywFOZRvNlFsAQES0ViRP-ALqAtIHeogwICjMmoA,1085
+dtmapi-0.0.9.dist-info/METADATA,sha256=q6Dk5c_KSS4ANXa-WFBLFR_u36Y3xBS6xKiAr_2ueRw,3358
+dtmapi-0.0.9.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+dtmapi-0.0.9.dist-info/top_level.txt,sha256=W-YqNQXxHSOrYulosbiMZcS2OCCrUOEl12nZed7TDic,7
+dtmapi-0.0.9.dist-info/RECORD,,
