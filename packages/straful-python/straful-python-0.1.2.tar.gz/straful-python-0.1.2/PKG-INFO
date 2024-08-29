@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: straful-python
+Version: 0.1.2
+Summary: A python library for interacting with Straful quantum computing API backbone.
+Home-page: https://transilvania-quantum.com/
+Author: Radu Marginean
+Author-email: radu.marginean@transilvania-quantum.com
+License: MIT
+Download-URL: https://github.com/Transilvania-Quantum/straful-python/releases/tag/v0.1.1
+Description: # straful-python
+        A python library for interacting with Straful quantum computing API backbone
+        
+Keywords: quantum,computing,API backbone
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
