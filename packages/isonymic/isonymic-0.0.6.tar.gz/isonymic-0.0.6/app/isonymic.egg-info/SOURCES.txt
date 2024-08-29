@@ -1,0 +1,15 @@
+LICENCE.txt
+pyproject.toml
+setup.py
+app/isonymic/__init__.py
+app/isonymic/cleaning.py
+app/isonymic/indicators.py
+app/isonymic/utils.py
+app/isonymic/vis.py
+app/isonymic.egg-info/PKG-INFO
+app/isonymic.egg-info/SOURCES.txt
+app/isonymic.egg-info/dependency_links.txt
+app/isonymic.egg-info/requires.txt
+app/isonymic.egg-info/top_level.txt
+app/isonymic/tests/__init__.py
+app/isonymic/tests/test_get_isonymy.py
