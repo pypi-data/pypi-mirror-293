@@ -1,0 +1,11 @@
+flask_namespace/__init__.py,sha256=ax2nM2gZIQhP4fXAuTGWCC1E6c5Pmh1PKpta3G4Zqb4,1132
+flask_namespace/exceptions.py,sha256=mhsnRgvrswc2X8HRSXeZ15HmO_LlEE26k-i7IKjhcG8,163
+flask_namespace/helpers.py,sha256=h1gu87NAMZ1ZZrlnfyb15BenAYsHwrhDLJeFOy7r4Sw,1199
+flask_namespace/route.py,sha256=daFrKotHiiXVldnaOw5i8zn6DyjSq_-8iMav1wpcpMg,4503
+flask_namespace/signer.py,sha256=R178nJeGAtHscH2HAiwArC30hfLnwkNkOxwzg7L7QhQ,2169
+flask_namespace/socketio.py,sha256=hO1dDFf9tMpB36vwfepGpSK6d-uzK3DKMUifIWcwxUg,6717
+flask_namespace-0.2.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+flask_namespace-0.2.4.dist-info/METADATA,sha256=AERD0Y0KOfNr2qAf8jXAxJN-7yXV0nf9R_X7YB5atzU,900
+flask_namespace-0.2.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+flask_namespace-0.2.4.dist-info/top_level.txt,sha256=lsGPlkzdHmD6rPUb_7W50ICNWFE05bCZjn1PB20RPa0,16
+flask_namespace-0.2.4.dist-info/RECORD,,
