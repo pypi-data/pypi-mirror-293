@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+mkdocs_sqlite_console/__init__.py
+mkdocs_sqlite_console/plugin.py
+mkdocs_sqlite_console.egg-info/PKG-INFO
+mkdocs_sqlite_console.egg-info/SOURCES.txt
+mkdocs_sqlite_console.egg-info/dependency_links.txt
+mkdocs_sqlite_console.egg-info/entry_points.txt
+mkdocs_sqlite_console.egg-info/requires.txt
+mkdocs_sqlite_console.egg-info/top_level.txt
+mkdocs_sqlite_console/css/sqlite_ide.css
+mkdocs_sqlite_console/js/sql-wasm.wasm
+mkdocs_sqlite_console/js/sqlite_ide.js
+mkdocs_sqlite_console/js/worker.sql-wasm.js
