@@ -1,0 +1,6 @@
+funland/__init__.py,sha256=ds8oX7qEr6bLo_v3eNa3kQKAzpGCTSCQUmrMrOStyR8,93
+funland/containers.py,sha256=I4bIgRvQ1Ohroe4Fs5IWpM7ON4Bsynm4OXC1G42E2pI,10260
+funland/wrappers.py,sha256=jG1tdHWDCS0nukkCsuYR9RG_aJPNzLZ2V-ZRTOmoSz8,4062
+funland-0.0.0a0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+funland-0.0.0a0.dist-info/METADATA,sha256=a1-rPfhCPoBUzHH-fk_Vm6rS4xKVVpcRhFC_bkJY2Ck,5825
+funland-0.0.0a0.dist-info/RECORD,,
