@@ -1,0 +1,4 @@
+graft src
+include requirements.txt
+recursive-include src/testcommon/ui_steps/js_scripts *
+global-exclude *.pyc *pyo
