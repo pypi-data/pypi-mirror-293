@@ -1,0 +1,1 @@
+robotframework-logs==0.1.0
