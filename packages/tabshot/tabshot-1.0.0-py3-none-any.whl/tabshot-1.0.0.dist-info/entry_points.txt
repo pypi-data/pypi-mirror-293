@@ -1,0 +1,2 @@
+[console_scripts]
+tabshot = tabshot.__main__:main
