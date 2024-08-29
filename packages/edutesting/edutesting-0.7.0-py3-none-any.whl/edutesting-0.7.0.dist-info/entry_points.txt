@@ -1,0 +1,3 @@
+[console_scripts]
+bparallel = edutesting.bparallel.__main__:main
+datatransfer = edutesting.mocks.datatransfer_server:main
