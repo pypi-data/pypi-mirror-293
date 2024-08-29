@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ttlinks
+Version: 0.1.0
+Summary: TTLinks Network Service Packages
+Home-page: https://github.com/tyt063144/TTLinks.git
+Author: TTLinks LLC.
+Author-email: dorisjingjing531@gmail.com
+License: MIT
+Keywords: network,ttlinks,networking,automation,ip,mac,python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: System :: Networking
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
