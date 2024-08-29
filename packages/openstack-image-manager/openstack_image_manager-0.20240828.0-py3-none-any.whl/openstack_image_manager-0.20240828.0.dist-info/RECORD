@@ -1,0 +1,8 @@
+openstack_image_manager/__init__.py,sha256=z6lQHDMfCV8IkUz5pM1QYfQ37O2Rdy82jYovN8N9DIU,240
+openstack_image_manager/main.py,sha256=uDj3ZpehvA2VzAHd7itHcyT56XEnY1gYTdkjRD-2kz0,47297
+openstack_image_manager-0.20240828.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+openstack_image_manager-0.20240828.0.dist-info/METADATA,sha256=EhhClCe6kY3we9ahgEDLk-IGPrz7WQYaQ0YBGvxJ-2s,14850
+openstack_image_manager-0.20240828.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+openstack_image_manager-0.20240828.0.dist-info/entry_points.txt,sha256=IrOGjHJbCa6-jmCQiqiKFqHeVvjGa1p25s2mLkt0da8,78
+openstack_image_manager-0.20240828.0.dist-info/top_level.txt,sha256=iLfREddId51T97Dr9IGRQtJXKJgVy1PB6uHCaQk1j44,24
+openstack_image_manager-0.20240828.0.dist-info/RECORD,,
