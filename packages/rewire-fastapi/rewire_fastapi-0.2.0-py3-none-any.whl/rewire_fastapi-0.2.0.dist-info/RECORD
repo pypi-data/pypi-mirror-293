@@ -1,0 +1,9 @@
+rewire_fastapi/__init__.py,sha256=52iqNkcEEhgNfEzNdjuYTkWSTj47YdwpcMNysXvxJzI,8065
+rewire_fastapi/dependable.py,sha256=t50rHc1BaPNv6dSSwMKuWVJS_xXCR7XGkBZKKJorLqQ,1644
+rewire_fastapi/patch.py,sha256=Qyf88OEDm_MrxOIf0h3NKGc6sm_cABoRfZ9JfBMd5t8,1783
+rewire_fastapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rewire_fastapi-0.2.0.dist-info/LICENSE,sha256=YBavjftTTGmi6kgtO4UtlIg9o1p879Zs5uSV3tyfagI,1086
+rewire_fastapi-0.2.0.dist-info/METADATA,sha256=KzlRmx-ObaguEewQWbxoU4ONN5Yns0fJzqDlW8lQtrk,3403
+rewire_fastapi-0.2.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+rewire_fastapi-0.2.0.dist-info/top_level.txt,sha256=eIJ13-X63yoUPvx530iyiWK-Gks5XXjr0C_39pc5iHk,15
+rewire_fastapi-0.2.0.dist-info/RECORD,,
