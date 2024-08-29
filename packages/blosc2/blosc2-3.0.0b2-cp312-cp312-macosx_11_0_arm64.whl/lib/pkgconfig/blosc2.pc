@@ -1,0 +1,14 @@
+prefix=/var/folders/m4/5dz5h26x329cqq4fx333f8gm0000gn/T/tmp7bsyn2ah/wheel/platlib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: blosc2
+Description: A blocking, shuffling and lossless compression library
+URL: https://blosc.org/
+Version: 2.15.2.dev
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lblosc2
+Cflags: -I${includedir}
