@@ -1,0 +1,11 @@
+datatoword/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datatoword/datatoword.py,sha256=hiX_W5fq3vUzhexIhRdLBDZ7fxPmTNN5_slNaUE8P9I,1027
+datatoword/loaders/__init__.py,sha256=ZTiKuurpe8dC_K1b1CzqPttL3YkIZGLtaa7_93I2nVM,588
+datatoword/loaders/csv.py,sha256=ZxSGG7UIR3-ekpCNgHv101grbOwzI_NFJK9AUKpjZPk,408
+datatoword/loaders/factory.py,sha256=U24P70MacBPD-h6TSrHpFLOi_0WrsYAlOg-L4570Ihc,751
+datatoword/loaders/json.py,sha256=NBPJ4NGvAaQhH6g0AlUXKkpo9SWPVdxrKaalCBmycU8,595
+datatoword/loaders/tests.py,sha256=RUV6G7K0CjtFemb-VEAQK7scRFtibVUihsFXmbAsxiE,3779
+datatoword-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datatoword-0.2.0.dist-info/METADATA,sha256=dlccOFbqU4GWwEea4b1U82JdyN-ker7m3Cv6SCXrUOQ,1165
+datatoword-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+datatoword-0.2.0.dist-info/RECORD,,
