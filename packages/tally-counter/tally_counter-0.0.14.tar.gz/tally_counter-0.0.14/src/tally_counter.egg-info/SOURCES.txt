@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/tally_counter/__init__.py
+src/tally_counter/counter.py
+src/tally_counter/point.py
+src/tally_counter/py.typed
+src/tally_counter/series.py
+src/tally_counter.egg-info/PKG-INFO
+src/tally_counter.egg-info/SOURCES.txt
+src/tally_counter.egg-info/dependency_links.txt
+src/tally_counter.egg-info/requires.txt
+src/tally_counter.egg-info/top_level.txt
+tests/test_counter.py
+tests/test_point.py
+tests/test_series.py
