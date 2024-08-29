@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cht_utils
+Version: 1.0.0
+Author-email: Maarten van Ormondt <maarten.vanormondt@deltares-usa.us>
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: shapely
+Requires-Dist: pandas
+Requires-Dist: geopandas
+Requires-Dist: pyproj
+Requires-Dist: paramiko
+Requires-Dist: xarray
+Requires-Dist: scipy
+Requires-Dist: pyyaml
+
