@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: datatoword
+Version: 0.2.0
+Summary: 
+Home-page: https://github.com/nickchen1998/DataToWord
+License: Apache-2.0
+Author: nick
+Author-email: nickchen1998@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain (>=0.2.14,<0.3.0)
+Requires-Dist: langchain-community (>=0.2.12,<0.3.0)
+Requires-Dist: langchain-openai (>=0.1.22,<0.2.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# DataToWord
+
+## 專案目的
+
+這是一個將資料轉換成文字的專案，可以協助你在進行 RAG 的過程中，將資料類型的檔案轉換成文字，方便後續進行段落查詢。
+
+目前支援的檔案有：
+
+- CSV
+- JSON
+
+## 使用方式
+
+### 安裝
+
+```bash
+pip install datatoword
+```
+or
+
+```bash
+poetry add datatoword
+```
+
+### Quick Start
+
+```python
+```
+
+## poetry export requirements.txt
+
+```bash
+poetry export -f requirements.txt --output requirements.txt --without-hashes
+```
