@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: eduling
+Version: 0.0.3
+Summary: Un módulo de enciclopedia y diccionario para las funciones de Python
+Home-page: https://gitlab.com/vidalnelson112/eduling
+Author: Lyonnelv20
+Author-email: vidalnelson112@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+ï»¿# Descripcion
+
+Eduling es un modulo para Python que proporciona un diccionario y enciclopedia basicos para principiantes.
+
+## EJMPLO DE USO SIN INTERFAZ (ejemplo_uso_eduling.py)
+
+from eduling import eduling
+
+def mostrar_informacion_funcion(nombre_funcion):
+    """
+    Muestra la descripcion y el ejemplo de uso de una funcion de Python
+    usando el modulo Eduling.
+    """
+    try:
+        # Obten la descripcion de la funcion
+        descripcion = eduling.obtener_info_funcion(nombre_funcion)
+        print(f"Descripcion y uso de la funcion '{nombre_funcion}':\n{descripcion}\n")
+    except Exception as e:
+        print(f"Error al obtener informacion sobre la funcion '{nombre_funcion}': {e}")
+
+def main():
+    print("Bienvenido al explorador de funciones de Python con Eduling.")
+    print("Puedes obtener informaciÃ³n sobre funciones basicas de Python.")
+
+    # Listar todas las funciones disponibles en el modulo Eduling
+    funciones = eduling.listar_funciones()
+
+    for funcion in funciones:
+        mostrar_informacion_funcion(funcion)
+
+if __name__ == "__main__":
+    main()
+
+
+### EJEMPLO DE USO CON INTERFAZ (interfaz_eduling.py)
+
+import tkinter as tk
+from tkinter import ttk
+from eduling import eduling
+
+class Aplicacion(tk.Tk):
+    def __init__(self):
+        super().__init__()
+
+        self.title("Explorador de Funciones de Python")
+        self.geometry("600x400")
+
+        # Crear el marco principal
+        marco = ttk.Frame(self, padding="10")
+        marco.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+
+        # Crear la lista desplegable
+        self.combo_funciones = ttk.Combobox(marco, values=eduling.listar_funciones(), state="readonly")
+        self.combo_funciones.grid(row=0, column=0, padx=10, pady=10, sticky=(tk.W, tk.E))
+        self.combo_funciones.bind("<<ComboboxSelected>>", self.mostrar_info_funcion)
+
+        # Crear el area de texto para mostrar la informacion
+        self.text_info = tk.Text(marco, wrap=tk.WORD, height=15, width=70)
+        self.text_info.grid(row=1, column=0, padx=10, pady=10, sticky=(tk.W, tk.E))
+
+        # Inicializar con la primera funcion seleccionada
+        if self.combo_funciones["values"]:
+            self.combo_funciones.current(0)
+            self.mostrar_info_funcion()
+
+    def mostrar_info_funcion(self, event=None):
+        nombre_funcion = self.combo_funciones.get()
+        descripcion = eduling.obtener_info_funcion(nombre_funcion)
+        self.text_info.delete(1.0, tk.END)
+        self.text_info.insert(tk.END, descripcion)
+
+if __name__ == "__main__":
+    app = Aplicacion()
+    app.mainloop()
+
+#### Instalacion
+
+Puedes instalar Eduling usando pip:
+
+```bash
+
+pip install eduling
+
+en caso de que desees actualizarlo deberas usar:
+
+pip install --upgrade eduling
+
+
