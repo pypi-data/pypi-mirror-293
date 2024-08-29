@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+standard_j.egg-info/PKG-INFO
+standard_j.egg-info/SOURCES.txt
+standard_j.egg-info/dependency_links.txt
+standard_j.egg-info/top_level.txt
