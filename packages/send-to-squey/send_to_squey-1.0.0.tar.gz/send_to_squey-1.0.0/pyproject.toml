@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "send-to-squey"
+description = "Send columnar data structures from your code to a Squey cloud instance and visualize them."
+authors = [
+  { name="Squeylab", email="contact@squeylab.com" },
+]
+license = "GPL-3.0-or-later"
+dynamic = ["version"]
+readme = "README.rst"
+requires-python = ">=3.8"
+dependencies = [
+  "pyarrow",
+  "progress",
+  "boto3"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://squeylab.com"
+Documentation = "http://send-to-squey.doc.squeylab.com"
+Repository = "https://gitlab.com/squeylab/send-to-squey"
+Issues = "https://gitlab.com/squeylab/send-to-squey/issues"
+Changelog = "https://send-to-squey.doc.squeylab.com/CHANGELOG"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/squeylab"]
+
+[tool.hatch.version]
+source = "vcs"
