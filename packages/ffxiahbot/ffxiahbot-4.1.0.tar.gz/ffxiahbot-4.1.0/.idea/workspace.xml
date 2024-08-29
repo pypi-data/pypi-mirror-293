@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="954e3f25-34ed-4334-a39b-b344d6ecd883" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffxiahbot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxiahbot/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Add broken build system" />
+        <option name="rewordedMessage" value="Redo build system" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="ac8d777d20143a4bffcdb9fadba1d227220dbddf" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="migrate-build-system" />
+                    <option name="lastUsedInstant" value="1724878064" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1724878063" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lIq6vLBkpnXjkKv9cZsbZjjJ8R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in tests.executor": "Run",
+    "Python tests.pytest for ffxiahbot.tests.scrubbing.test_ffxiah.TestCase01.test_extract.executor": "Run",
+    "Python tests.pytest for ffxiahbot.tests.test_itemlist.TestCase01.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "migrate-build-system",
+    "last_opened_file_path": "/Users/adam/workspace/clones/pydarkstar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.github" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in tests">
+    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pydarkstar" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ffxiahbot/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ffxiahbot/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for ffxiahbot.tests.scrubbing.test_ffxiah.TestCase01.test_extract" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pydarkstar" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ffxiahbot/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ffxiahbot.tests.scrubbing.test_ffxiah.TestCase01.test_extract&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for ffxiahbot.tests.test_itemlist.TestCase01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pydarkstar" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ffxiahbot/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ffxiahbot.tests.test_itemlist.TestCase01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python tests.pytest for ffxiahbot.tests.test_itemlist.TestCase01" />
+        <item itemvalue="Python tests.pytest for ffxiahbot.tests.scrubbing.test_ffxiah.TestCase01.test_extract" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="954e3f25-34ed-4334-a39b-b344d6ecd883" name="Changes" comment="" />
+      <created>1724877767768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724877767768</updated>
+      <workItem from="1724877769514" duration="8901000" />
+      <workItem from="1724889218229" duration="3607000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add broken build system">
+      <option name="closed" value="true" />
+      <created>1724878619806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724878619806</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rename files">
+      <option name="closed" value="true" />
+      <created>1724879237592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724879237592</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add missing config">
+      <option name="closed" value="true" />
+      <created>1724879469540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724879469540</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add mkdocs to --dev">
+      <option name="closed" value="true" />
+      <created>1724879684692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724879684692</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix modules">
+      <option name="closed" value="true" />
+      <created>1724879772796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724879772796</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Drop makebin.py">
+      <option name="closed" value="true" />
+      <created>1724879854631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724879854631</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add pre-commit">
+      <option name="closed" value="true" />
+      <created>1724879949943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724879949943</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Get docs working">
+      <option name="closed" value="true" />
+      <created>1724881140305</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724881140305</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Disable hooks temp">
+      <option name="closed" value="true" />
+      <created>1724881670620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724881670620</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Run prettier">
+      <option name="closed" value="true" />
+      <created>1724881897584</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724881897584</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix module naming">
+      <option name="closed" value="true" />
+      <created>1724882163801</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724882163801</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Drop backup">
+      <option name="closed" value="true" />
+      <created>1724882222701</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724882222701</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update actions">
+      <option name="closed" value="true" />
+      <created>1724883354851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724883354851</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Try to fix new GitHub Action for uv">
+      <option name="closed" value="true" />
+      <created>1724884458195</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724884458195</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ensure venv exists">
+      <option name="closed" value="true" />
+      <created>1724884657182</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724884657182</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix tests">
+      <option name="closed" value="true" />
+      <created>1724888956990</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724888956990</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ignore junit.xml">
+      <option name="closed" value="true" />
+      <created>1724888994592</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724888994592</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Disable mypy gate">
+      <option name="closed" value="true" />
+      <created>1724889134415</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1724889134415</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fix all ruff violations">
+      <option name="closed" value="true" />
+      <created>1724891344548</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724891344548</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Apply extra pre-commit hooks">
+      <option name="closed" value="true" />
+      <created>1724892270534</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1724892270534</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix tox config">
+      <option name="closed" value="true" />
+      <created>1724892411605</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724892411605</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add broken build system" />
+    <MESSAGE value="Rename files" />
+    <MESSAGE value="Add missing config" />
+    <MESSAGE value="Add mkdocs to --dev" />
+    <MESSAGE value="Fix modules" />
+    <MESSAGE value="Drop makebin.py" />
+    <MESSAGE value="Add pre-commit" />
+    <MESSAGE value="Update Makefile" />
+    <MESSAGE value="Get docs working" />
+    <MESSAGE value="Disable hooks temp" />
+    <MESSAGE value="Run prettier" />
+    <MESSAGE value="Fix module naming" />
+    <MESSAGE value="Drop backup" />
+    <MESSAGE value="Update actions" />
+    <MESSAGE value="Redo build system" />
+    <MESSAGE value="Try to fix new GitHub Action for uv" />
+    <MESSAGE value="Ensure venv exists" />
+    <MESSAGE value="Fix tests" />
+    <MESSAGE value="Ignore junit.xml" />
+    <MESSAGE value="Disable mypy gate" />
+    <MESSAGE value="Fix all ruff violations" />
+    <MESSAGE value="Apply extra pre-commit hooks" />
+    <MESSAGE value="Fix tox config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix tox config" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ffxiahbot/tests/test_itemlist.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ffxiahbot/itemlist.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pydarkstar$.coverage" NAME=" Coverage Results" MODIFIED="1724892210494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ffxiahbot/tests" />
+    <SUITE FILE_PATH="coverage/pydarkstar$pytest_for_ffxiahbot_tests_test_itemlist_TestCase01.coverage" NAME="pytest for ffxiahbot.tests.test_itemlist.TestCase01 Coverage Results" MODIFIED="1724891205341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ffxiahbot/tests" />
+    <SUITE FILE_PATH="coverage/pydarkstar$pytest_for_ffxiahbot_tests_scrubbing_test_ffxiah_TestCase01_test_extract.coverage" NAME="pytest for ffxiahbot.tests.scrubbing.test_ffxiah.TestCase01.test_extract Coverage Results" MODIFIED="1724888882880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ffxiahbot/tests" />
+  </component>
+</project>
