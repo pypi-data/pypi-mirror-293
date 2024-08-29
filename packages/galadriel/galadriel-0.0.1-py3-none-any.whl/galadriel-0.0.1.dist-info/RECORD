@@ -1,0 +1,10 @@
+galadriel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+galadriel/cli/app.py,sha256=OA8VDqCKBsu9TC1VmR0cgbtc59OndyLYYywUVvLz3sk,165
+galadriel/cli/node.py,sha256=Hq-p-xdgHLvYBFzM0GjyV80PytyturYmFiWRaqR_d-o,3970
+galadriel/config.py,sha256=ZmeA_N_xzABWjdlej30VVBL5yGI87Kz9cLl15_mEPMU,1189
+galadriel/sdk/entities.py,sha256=Zwazm-1GJrkA8Qz69lHdceRudvX1uXU6nRuOdeH4Tq0,637
+galadriel/sdk/llm.py,sha256=5yU9CosazsLrfb0XajkUfybFL09dqGk_du7HxTkGl-M,1648
+galadriel-0.0.1.dist-info/METADATA,sha256=NvD-n7bRJTS7NUn6jOSTlXa0p0OSXYmFOHcTh2Up7kk,1975
+galadriel-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+galadriel-0.0.1.dist-info/entry_points.txt,sha256=yrBOqT61DjArUgrPQ-JOt54QgpdwrsubQ1_uFPVFmh4,56
+galadriel-0.0.1.dist-info/RECORD,,
