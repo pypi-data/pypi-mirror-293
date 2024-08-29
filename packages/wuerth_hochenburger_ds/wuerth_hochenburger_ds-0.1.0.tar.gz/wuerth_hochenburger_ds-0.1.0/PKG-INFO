@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: wuerth_hochenburger_ds
+Version: 0.1.0
+Summary: All WH needs for Data Science
+Author: Schwarz
+Author-email: Martin.Schwarz@w-h.gmbh
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: pandas (==2.2.2)
+Requires-Dist: peewee (==3.17.3)
+Requires-Dist: psycopg2-binary (==2.9.9)
+Requires-Dist: python-dateutil (==2.9.0.post0)
+Requires-Dist: pytz (==2024.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tzdata (==2024.1)
+Description-Content-Type: text/markdown
+
+# Data Science WH Utils
+
+This repo contains a selection of utilities worth being packed into its own repo.
+
+### Python versions:
+Currently only 3.11
