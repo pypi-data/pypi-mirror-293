@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: mathcalculate
+Version: 0.0.1
+Summary: A small example package
+Author-email: Mani Arasteh <mani.arasteh92@gmail.com>
+Project-URL: Homepage, https://github.com/ManiArasteh/mathcalc
+Project-URL: Issues, https://github.com/ManiArasteh/mathcalc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mathcalc
+Mathcalc is a module for calculating easier
+## Installation
+Install via Pip
+```
+pip install mathcalc
+```
+Use it in your app
+## Example
+Calculating using mathcalc:
+If you want to calculate, use the Calculation function.
+Example:
+```python
+import mathcalc as mc
+
+calc = mc.Calculation()
+
+result = mc.add(5, 3)
+mc.add(12, 87, print_result=True) # Adding print_result=True will print result automatically
+```

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/mathcalc/__init__.py
+src/mathcalculate.egg-info/PKG-INFO
+src/mathcalculate.egg-info/SOURCES.txt
+src/mathcalculate.egg-info/dependency_links.txt
+src/mathcalculate.egg-info/top_level.txt
