@@ -1,0 +1,16 @@
+version: 2
+
+conda:
+  environment: conda-env.yml
+
+python:
+  install:
+  - path: .
+    extra_requirements:
+      - docs
+
+# Set the version of Python and other tools you might need
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "mambaforge-22.9"
