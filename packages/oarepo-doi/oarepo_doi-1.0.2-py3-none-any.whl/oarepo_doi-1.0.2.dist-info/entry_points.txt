@@ -1,0 +1,9 @@
+[invenio_base.api_apps]
+oarepodoi = oarepo_doi.ext:OARepoDOI
+
+[invenio_base.apps]
+oarepo_doi = oarepo_doi.ext:OARepoDOI
+
+[invenio_requests.types]
+create-doi-request = oarepo_doi.types.doi:CreateDoiRequestType
+edit-doi-request = oarepo_doi.types.doi:EditDoiRequestType
