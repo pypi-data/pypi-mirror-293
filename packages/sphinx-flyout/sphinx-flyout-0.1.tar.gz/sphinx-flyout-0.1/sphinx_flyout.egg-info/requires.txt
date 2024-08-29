@@ -1,0 +1,10 @@
+Sphinx
+docutils
+setuptools
+sphinx-rtd-theme
+
+[dev]
+pytest==7.4.4
+ruff==0.4.9
+mypy==1.4.1
+mypy-extensions==1.0.0

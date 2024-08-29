@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+flyout_multiversion/__init__.py
+flyout_multiversion/errors.py
+flyout_multiversion/flyout_menu.py
+flyout_multiversion/git.py
+flyout_multiversion/_templates/versions.html
+sphinx_flyout/__init__.py
+sphinx_flyout.egg-info/PKG-INFO
+sphinx_flyout.egg-info/SOURCES.txt
+sphinx_flyout.egg-info/dependency_links.txt
+sphinx_flyout.egg-info/requires.txt
+sphinx_flyout.egg-info/top_level.txt
+sphinx_flyout/_templates/versions.html
+tests/test_flyout_multiversion_git.py
