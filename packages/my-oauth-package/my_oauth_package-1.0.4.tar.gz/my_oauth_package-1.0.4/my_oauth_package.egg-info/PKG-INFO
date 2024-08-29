@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: my_oauth_package
+Version: 1.0.4
+Summary: A package for handling Xecurify authentication
+Author: Romit
+Author-email: romitaherkar@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: cryptography
+Requires-Dist: pyjwt
+Requires-Dist: django
+
+# Oauth signin
+This is just a simple oauth login package
+
+1) first install the package using the command "pip install my-oauth-package==1.0.3" in the terminal
+2) After installing import this library to your views.py to use it using "from my_oauth_package.test import OAuthManager" where my_oauth_package is the file test
