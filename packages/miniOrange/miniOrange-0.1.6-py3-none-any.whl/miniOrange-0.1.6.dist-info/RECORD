@@ -1,0 +1,8 @@
+src/__init__.py,sha256=pYKTJDEktXZsnHQp_5pSTmu4-XIHJ8Zvxh-J_umwxeI,4383
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mini_orange.py,sha256=bSr3rQrG5DI7-dv4AvJSwZN38hhacI5X-AXExy11Ee4,4302
+miniOrange-0.1.6.dist-info/LICENSE,sha256=D1SEaTNQ_RmCcdxYbnneRjDc3qQGMjaEgt7cXQOHTuM,1088
+miniOrange-0.1.6.dist-info/METADATA,sha256=iK5Yvk5jVg32QaHXNv27ZSBAcrcfQ57ZvUk_e9q_Vxk,467
+miniOrange-0.1.6.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+miniOrange-0.1.6.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+miniOrange-0.1.6.dist-info/RECORD,,
