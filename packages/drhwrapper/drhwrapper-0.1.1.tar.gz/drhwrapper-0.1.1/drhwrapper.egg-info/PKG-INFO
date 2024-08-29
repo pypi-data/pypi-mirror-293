@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: drhwrapper
+Version: 0.1.1
+Summary: A Python wrapper for the Database of Religious History API
+Home-page: https://github.com/religionhistory/drhwrapper
+Author: Victor Møller Poulsen
+Author-email: victormoeller@gmail.com
+License: Apache 2.0
+Project-URL: Bug Tracker, https://github.com/religionhistory/drhwrapper/issues
+Project-URL: Documentation, https://github.com/religionhistory/drhwrapper#readme
+Project-URL: Source Code, https://github.com/religionhistory/drhwrapper
+Project-URL: Demos, https://github.com/religionhistory/drhwrapper/tree/main/demo
+Keywords: religion,history,api,wrapper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: networkx>=3.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: pandas>=2.0
+Requires-Dist: requests>=2.27.0
+Requires-Dist: tqdm
+
+# Overview
+Python wrapper for the [Database of Religious History (DRH)](https://religiondatabase.org/) providing programmatic access to DRH data. 
+
+# Install 
+To install `drhwrapper` you need a python installation on your system, running python >= 3.8. Run 
+
+```bash
+pip install drhwrapper
+```
+
+# Python API
+Using `drhwrapper`, DRH data can be accessesd programmatically from within python.
+All functionality is mediated through an instance of drhwrapper.DRHwrapper, e.g.
+
+```python
+>>> from drhwrapper import DRHwrapper
+>>> drh = DRHwrapper()
+```
+
+# Getting started 
+To run the demos, you will first need to install the `drhwrapper` package from PyPI. It is good practice to use a virtual environment to keep depencies tidy and separate from other projects
+
+```bash
+# create virtual environment
+python -m venv env 
+
+# activate virtual environment
+# Windows
+env\Scripts\activate
+# macOS, Linux
+source env/bin/activate
+
+# install drhwrapper
+pip install drhwrapper 
+```
