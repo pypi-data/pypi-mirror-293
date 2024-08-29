@@ -1,0 +1,3 @@
+[console_scripts]
+iris-classifier = app.iris_classifier_app:main
+
