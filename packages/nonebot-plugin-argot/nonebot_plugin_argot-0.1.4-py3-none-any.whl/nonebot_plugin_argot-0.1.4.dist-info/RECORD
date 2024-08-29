@@ -1,0 +1,15 @@
+nonebot_plugin_argot-0.1.4.dist-info/METADATA,sha256=2aI63tzc76PfJBUHBg12vnQgxIOBMqzlNE5lqUHsWhs,4470
+nonebot_plugin_argot-0.1.4.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+nonebot_plugin_argot-0.1.4.dist-info/licenses/LICENSE,sha256=xQ3QCUicEzCFCuHFdyli8yu49f1Xrw4BjrAvyrAyYnY,1065
+nonebot_plugin_argot/__init__.py,sha256=Jqv87zaHg3LMEM41VJCJTVwBtdSttd7bUKTim4M_gbk,1164
+nonebot_plugin_argot/config.py,sha256=et6PdGH3OCThLVgj8eSHTCT05E_PZEUQNGq7SIlm7XY,354
+nonebot_plugin_argot/hook.py,sha256=TG34bqT_v4UTLEol3oXnxzZqfmEx0unXFjF9n469BC4,1313
+nonebot_plugin_argot/matcher.py,sha256=iC9M__8FtlEZYHV3JrdxRkrG7v7ocz_DHNM0b0zWhrw,1953
+nonebot_plugin_argot/migrations/1a4a86205503_first_revision.py,sha256=cH9V9k2fiW7WqgaRz1YLErYlrvEiPL-_W3xWQFL-VaA,1325
+nonebot_plugin_argot/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot_plugin_argot/migrations/bb58fca761ea_msg_id_type.py,sha256=IyQuOyg-jm1I0scqPvv4NbQ4raF9omdt0P5hcT-fqVI,1278
+nonebot_plugin_argot/migrations/e63054f23a7e_fix.py,sha256=a7vIlchAnTPA8LhoosAheohauYpOZXj7tUw_3nPnGp0,1262
+nonebot_plugin_argot/model.py,sha256=JsoMCO-2FLkgmjIeogYF75HJkf_uG24PXdqAe9bDLj4,2443
+nonebot_plugin_argot/typing.py,sha256=5ve7cXpiFr76I1WOGvhwkHMlGG53xvmmDNjSlA9KKj8,432
+nonebot_plugin_argot/utils.py,sha256=PNRpZuxSHQEVedeo55xXz9p4cJE4uTGCgiCqF_j48Xc,1944
+nonebot_plugin_argot-0.1.4.dist-info/RECORD,,
