@@ -1,0 +1,17 @@
+[project]
+name = "formulite"
+version = "0.0.5"
+description = "Simple Formula Parser"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+keywords = [
+    "parser","formula","formulite"
+]
+
+[project.urls]
+Repository="https://github.com/Tom-game-project/formulite"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
