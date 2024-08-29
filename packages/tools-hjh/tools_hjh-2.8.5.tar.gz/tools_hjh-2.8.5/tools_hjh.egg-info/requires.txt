@@ -1,0 +1,8 @@
+dbutils
+pymysql
+psycopg2
+cx_Oracle
+paramiko
+pandas
+requests
+eventlet
