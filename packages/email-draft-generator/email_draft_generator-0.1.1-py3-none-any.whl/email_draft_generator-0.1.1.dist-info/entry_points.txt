@@ -1,0 +1,5 @@
+[console_scripts]
+email-generator = email_draft_generator.main:main
+email-generator-gui = email_draft_generator.gui.main:main
+email-list-parser = email_draft_generator.file_parser.main:main
+email-template-editor-gui = email_draft_generator.gui.template_editor:main
