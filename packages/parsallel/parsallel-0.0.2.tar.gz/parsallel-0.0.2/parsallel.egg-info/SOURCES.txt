@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+parsallel/VERSION
+parsallel/__init__.py
+parsallel/loader.py
+parsallel/parser.py
+parsallel/version.py
+parsallel.egg-info/PKG-INFO
+parsallel.egg-info/SOURCES.txt
+parsallel.egg-info/dependency_links.txt
+parsallel.egg-info/requires.txt
+parsallel.egg-info/top_level.txt
