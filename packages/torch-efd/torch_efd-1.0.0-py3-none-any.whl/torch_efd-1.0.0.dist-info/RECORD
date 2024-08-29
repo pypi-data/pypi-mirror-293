@@ -1,0 +1,10 @@
+torch_efd/__init__.py,sha256=oCTvpTTEQnm-8thOo2WDCI-1cRLKnE91Uu-UGPj07Qo,1112
+torch_efd/compute.py,sha256=7MsBhdyD7HOk_CushQ8897ILJ9zyr8X_3KRgeWFeWbc,4342
+torch_efd/measure.py,sha256=TRD8v27xr9iKoD2hF9ijXocUJh3lsFL4FT9AZsNUZ-I,3079
+torch_efd/reconstruct.py,sha256=LnyP626U8kXEzjo9MJI_VJQtBwS9YjfoTJPo1IPdiYc,4300
+torch_efd/render.py,sha256=tP8dwnU-mSwd27Ze_qUehtLoYruDv8VZ8on03ClR_SA,2538
+torch_efd/transforms.py,sha256=xq-nkdGA4Q2Kl-6kW0lnxK8HTHhDi_6lc3mIOs9X150,1624
+torch_efd-1.0.0.dist-info/LICENSE,sha256=RkAbYsz4JArxl9Kg6jem-3Xy-EZ6ugBYsUBnQAUdIpk,1056
+torch_efd-1.0.0.dist-info/METADATA,sha256=zrIVgAkA2oe-6wzNC-5nj0JdpFRUf_zY2RtFSpC0W0c,6119
+torch_efd-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+torch_efd-1.0.0.dist-info/RECORD,,
