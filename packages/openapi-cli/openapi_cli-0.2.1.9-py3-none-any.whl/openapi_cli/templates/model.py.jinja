@@ -1,0 +1,63 @@
+from typing import Any, Dict, Type, TypeVar, Tuple, Optional, BinaryIO, TextIO, TYPE_CHECKING
+from pydantic import BaseModel, ConfigDict, Field
+
+{% for relative in model.relative_imports %}
+{{ relative }}
+{% endfor %}
+
+{% for lazy_import in model.lazy_imports %}
+{% if loop.first %}
+if TYPE_CHECKING:
+{% endif %}
+  {{ lazy_import }}
+{% endfor %}
+
+
+{% if model.additional_properties %}
+{% set additional_property_type = 'Any' if model.additional_properties == True else model.additional_properties.get_type_string(quoted=not model.additional_properties.is_base_type) %}
+{% endif %}
+
+{% set class_name = model.class_info.name %}
+{% set module_name = model.class_info.module_name %}
+
+{% from "helpers.jinja" import safe_docstring %}
+
+T = TypeVar("T", bound="{{ class_name }}")
+
+{% macro class_docstring_content(model) %}
+    {% if model.title %}{{ model.title | wordwrap(116) }}
+
+    {% endif -%}
+    {%- if model.description %}{{ model.description | wordwrap(116) }}
+
+    {% endif %}
+    {% if not model.title and not model.description %}
+    {# Leave extra space so that a section doesn't start on the first line #}
+
+    {% endif %}
+    {% if model.example %}
+    Example:
+        {{ model.example | string | wordwrap(112) | indent(12) }}
+
+    {% endif %}
+    {% if model.required_properties or model.optional_properties %}
+    {% for property in model.required_properties + model.optional_properties %}
+    :param {{ property.to_docstring() | wordwrap(112) | indent(12) }}
+    {% endfor %}{% endif %}
+{% endmacro %}
+
+class {{ class_name }}(BaseModel):
+    {{ safe_docstring(class_docstring_content(model)) | indent(4) }}
+
+    model_config = ConfigDict(populate_by_name=True)
+
+    {% for property in model.required_properties + model.optional_properties %}
+    {% if property.default is none and property.required %}
+    {{ property.python_name }}: {{ property.get_type_string(quoted=True)}} = Field({{ property.default or "..." }}, alias="{{ property.name }}")
+    {% endif %}
+    {% endfor %}
+    {% for property in model.required_properties + model.optional_properties %}
+    {% if property.default is not none or not property.required %}
+    {{ property.python_name }}: {{ property.get_type_string(quoted=True).replace("Unset", "None")}} = Field({{ property.default or "..." }}, alias="{{ property.name }}")
+    {% endif %}
+    {% endfor %}
