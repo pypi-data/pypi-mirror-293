@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: xodapi
+Version: 1.0.2
+Summary: Simple Python Wrapper for scraping and accessing Xoda Data
+Home-page: https://github.com/REVL-Training/XodaAPI
+Author: Liew Cher Don
+Author-email: liewcherdon@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# XodaAPI
+Private Xoda library actions
+
+[![Version](https://img.shields.io/badge/version-v1.0.2-blue)](https://git.soma.salesforce.com/cherdon-liew/Taskmaster)
+
+
+## Installation
+To install, simply use your virtualenv:
+
+```
+pip install xodapi
+```
+
+## Repackaging Instructions
+To repackage, change the version number of the `setup.py` file
+```
+python3 setup.py bdist_wheel
+python3 -m twine upload dist/*
+```
