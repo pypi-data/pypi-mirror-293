@@ -1,0 +1,1 @@
+var e,o={};e=o,Object.defineProperty(e,"B",{value:!0}),console.log("Arguments:",process.argv),console.log("app.ts executed");var r=o.B;export{r as __esModule};
