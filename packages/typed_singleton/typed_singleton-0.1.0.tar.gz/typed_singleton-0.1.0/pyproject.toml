@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "typed_singleton"
+version = "0.1.0"
+description = "Package to provide a decorator to create singletons"
+authors = ["Kyosuke Miyamura <ask@386.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+ruff = "^0.6.2"
+mypy = "^1.11.2"
+
+[tool.poetry.group.ci-test]
+optional = true
+
+[tool.poetry.group.ci-test.dependencies]
+pytest = "^8.3.2"
+pytest-github-actions-annotate-failures = "^0.2.0"
+
+[tool.poetry.group.ci-lint]
+optional = true
+
+[tool.poetry.group.ci-lint.dependencies]
+ruff = "^0.6.2"
+
+[tool.poetry.group.ci-typecheck]
+optional = true
+
+[tool.poetry.group.ci-typecheck.dependencies]
+mypy = "^1.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
