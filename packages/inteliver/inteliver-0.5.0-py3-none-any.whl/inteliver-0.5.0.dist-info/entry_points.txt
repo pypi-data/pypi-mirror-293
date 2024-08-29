@@ -1,0 +1,2 @@
+[console_scripts]
+inteliver = inteliver.cli.main:cli
