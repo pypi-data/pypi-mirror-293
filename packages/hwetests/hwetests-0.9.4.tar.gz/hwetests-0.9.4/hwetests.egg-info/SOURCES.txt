@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+hwetests.egg-info/PKG-INFO
+hwetests.egg-info/SOURCES.txt
+hwetests.egg-info/dependency_links.txt
+hwetests.egg-info/top_level.txt
