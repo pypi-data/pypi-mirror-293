@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "cds_plugin_utils"
+version = "0.1.0"
+description = ""
+authors = ["Michael Franz <michael.franz.sy@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

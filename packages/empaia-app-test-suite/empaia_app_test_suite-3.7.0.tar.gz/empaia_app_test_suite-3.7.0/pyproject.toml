@@ -1,0 +1,99 @@
+[tool.poetry]
+name = "empaia-app-test-suite"
+version = "3.7.0"
+description = "The EMPAIA App Test Suite (EATS)"
+license = "MIT"
+
+# Authors / Maintainers
+authors = ["EMPAIA <support@empaia.org>"]
+maintainers = ["EMPAIA <support@empaia.org>"]
+
+# URLs
+homepage = "https://developer.empaia.org/app_developer_docs/#/"
+repository = "https://gitlab.com/empaia/integration/empaia-app-test-suite"
+documentation = "https://developer.empaia.org/app_developer_docs/#/"
+readme = "README.md"
+
+# Classifiers
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: POSIX",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Testing",
+]
+
+exclude = ["empaia_app_test_suite/services/", "**/__pycache__/"]
+include = [
+    "empaia_app_test_suite/services/clinical_data_service/wsi_format_plugins/utils/*",
+    "empaia_app_test_suite/services/clinical_data_service/wsi_format_plugins/utils/cds_plugin_utils/*",
+    "empaia_app_test_suite/services/clinical_data_service/wsi_format_plugins/isyntax/Dockerfile",
+    "empaia_app_test_suite/services/clinical_data_service/wsi_format_plugins/isyntax/pyproject.toml",
+    "empaia_app_test_suite/services/clinical_data_service/wsi_format_plugins/isyntax/cds_plugin_isyntax/*",
+    "empaia_app_test_suite/services/clinical_data_service/wsi_format_plugins/mirax/Dockerfile",
+    "empaia_app_test_suite/services/clinical_data_service/wsi_format_plugins/mirax/entrypoint.sh",
+    "empaia_app_test_suite/services/nginx/Dockerfile",
+    "empaia_app_test_suite/services/nginx/nginx.conf",
+    "empaia_app_test_suite/services/docker-compose.yml",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://gitlab.com/empaia/integration/empaia-app-test-suite/-/issues"
+
+[tool.poetry.scripts]
+empaia-app-test-suite = 'empaia_app_test_suite.cli:app'
+eats = 'empaia_app_test_suite.cli:app'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jsonschema = "^4.4.0"
+toml = "^0.10.2"
+docker = "^7.0.0"
+prettytable = "^3.2.0"
+PyYAML = "^6.0"
+requests = "2.32.3"
+typer = { extras = ["all"], version = "^0.12.0" }
+pydantic = "^2.5.0"
+pydantic-settings = "^2.0.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.0.0"
+pillow = "^10.0.0"
+pytest = "^8.0.0"
+pycodestyle = "^2.10.0"
+pylint = "^3.0.0"
+
+[tool.pytest.ini_options]
+norecursedirs = ["empaia_app_test_suite/services"]
+
+[tool.black]
+line-length = 120
+exclude = "(sample_apps)|(empaia_app_test_suite/services)|(empaia_app_test_suite/models)|(empaia_app_test_suite/py_ead_validation)"
+
+[tool.isort]
+line_length = 120
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+skip = [
+    ".venv",
+    "sample_apps",
+    "empaia_app_test_suite/services",
+    "empaia_app_test_suite/models",
+    "empaia_app_test_suite/py_ead_validation",
+]
+
+[tool.pylint.master]
+ignore = ["services", "models", "py_ead_validation"]
+
+[tool.pylint."MESSAGES CONTROL"]
+max-line-length = 120
+disable = "R,C,W0613,W0511,W0703,W0212,E0611,W3101,W0719"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
