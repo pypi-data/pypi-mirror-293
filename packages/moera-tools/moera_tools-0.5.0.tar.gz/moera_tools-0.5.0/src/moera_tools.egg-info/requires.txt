@@ -1,0 +1,5 @@
+moeralib~=0.15.5
+python-dateutil
+PyYAML
+first
+docopt
