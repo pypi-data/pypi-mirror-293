@@ -1,0 +1,7 @@
+getrpimodel>=0.1.26
+pyserial
+requests
+argparse
+RPi.GPIO
+gpiozero
+lgpio
