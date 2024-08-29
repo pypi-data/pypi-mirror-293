@@ -1,0 +1,5 @@
+setup.py
+eduling.egg-info/PKG-INFO
+eduling.egg-info/SOURCES.txt
+eduling.egg-info/dependency_links.txt
+eduling.egg-info/top_level.txt
