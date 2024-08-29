@@ -1,0 +1,8 @@
+pyperclip
+haralyzer
+python3-saml
+cryptography
+networkx
+xmlsec>=1.3.14
+dash
+dash-extensions
