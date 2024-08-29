@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/openbim/__main__.py
+src/openbim.egg-info/PKG-INFO
+src/openbim.egg-info/SOURCES.txt
+src/openbim.egg-info/dependency_links.txt
+src/openbim.egg-info/entry_points.txt
+src/openbim.egg-info/requires.txt
+src/openbim.egg-info/top_level.txt
