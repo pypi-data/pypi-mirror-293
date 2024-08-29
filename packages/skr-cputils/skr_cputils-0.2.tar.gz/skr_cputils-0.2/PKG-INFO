@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: skr_cputils
+Version: 0.2
+Summary: Utility libraries to accelerate development. 1) TraverseNestedList - A simple module to traverse and print nested list elements
+Author: Saravana Kumar Rajiah
