@@ -1,0 +1,14 @@
+numpy
+xarray
+rasterio
+fiona
+rioxarray
+netCDF4
+zarr
+aiohttp
+fsspec
+pooch
+
+[docs]
+sphinx
+sphinx_rtd_theme
