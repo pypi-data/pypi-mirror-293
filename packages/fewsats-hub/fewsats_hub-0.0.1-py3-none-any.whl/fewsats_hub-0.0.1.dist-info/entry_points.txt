@@ -1,0 +1,2 @@
+[nbdev]
+hub_sdk = hub_sdk._modidx:d
