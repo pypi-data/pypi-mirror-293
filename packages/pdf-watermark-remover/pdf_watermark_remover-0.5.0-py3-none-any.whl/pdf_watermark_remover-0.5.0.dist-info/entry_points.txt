@@ -1,0 +1,2 @@
+[console_scripts]
+pdf_watermark_remover = pdf_watermark_remover.remover:process_pdf
