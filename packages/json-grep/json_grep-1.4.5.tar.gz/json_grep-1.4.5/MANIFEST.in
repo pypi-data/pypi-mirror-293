@@ -1,0 +1,3 @@
+include jsongrep/VERSION
+include requirements.txt
+include postinstall.sh
