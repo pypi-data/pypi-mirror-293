@@ -1,0 +1,13 @@
+plurally/__init__.py,sha256=gpy3jIUKUs4kXp_JgkS3EUz-elQWD1m97_hfVmpJpgs,54
+plurally/deploy.py,sha256=hhwl6TAqyzKCpf3oQxg9XQyu9CqQ1jitPC8Sw7ZEDpc,358
+plurally/main.py,sha256=_-GxUb1hzMdPlDIjq69iISNHTuQxvTVe6Y3WLb4bNug,306
+plurally/models/__init__.py,sha256=v9witUSZCX53Wp6zQjIsH826O-fNX6wMiNGJeX9RmMY,1179
+plurally/models/action.py,sha256=3r0ovxCDae78E4hPWMQWIgNyAgOXMZ4MjJwEcylVQI4,5370
+plurally/models/flow.py,sha256=PRwAPQFYmu0x1yiSLnfa-jjxw1yAfD2y2K1HbFaQVUA,5592
+plurally/models/logic.py,sha256=U9qP56ruC51H9_HpU87Z31VOJBOKHj9hDKzfMekW2oU,886
+plurally/models/node.py,sha256=OJl8pTtsuWYkP_d5l0ypKnFsAGYFxVeqw_hHXwLDxew,3263
+plurally/models/source.py,sha256=D5uNxl_6k0C9uM-G1BOwpBwtdriuYSFtA0VMGR1Z9cg,1667
+plurally/models/user.py,sha256=NXU3uj6xnyjbaOGqfWQPtKFEqPBksOHY3vxVAHRzIfA,312
+plurally-0.1.1.dist-info/METADATA,sha256=abmslxzeHUsdlhnFsQl0EwGzJbPxsJq7GXX4e7UFbZc,567
+plurally-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+plurally-0.1.1.dist-info/RECORD,,
