@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hcautomation
+Version: 0.0.4
+Summary: A package to automate downloading from QV & ER for HC
+Author-email: Harshal Sarode <hsarode04@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rsa>=4.9
+Requires-Dist: getpass4>=0.0.14.1
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: pywin32>=305.1
+Requires-Dist: selenium>=4.8.0
+
+qv(self, url, save_path, download_time, column_order=[], cols_to_convert=[], typ='float', lx=False, stop_date='', extension='csv', lx_mon=[], include_today=False, check_date_filter=True)
+
+er_v2(self, bookmark_name, save_path, export_format='csv', direct_export=True, filter_name='', start_date='', stop_date='', concept='Home Center', user='Omkar', filters=10)
+
+call_macro(self, excel_file_path, macro_name)
+
+refresh_excel(self, excel_file_path)
+
+send_mail(self, to_list, cc_list, subject, attachments=[], html_body='', body='', send_flag=False)

@@ -1,0 +1,5 @@
+rsa>=4.9
+getpass4>=0.0.14.1
+pandas>=2.2.2
+pywin32>=305.1
+selenium>=4.8.0

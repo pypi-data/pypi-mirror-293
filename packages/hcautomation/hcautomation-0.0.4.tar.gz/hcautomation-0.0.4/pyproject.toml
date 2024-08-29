@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hcautomation"
+version = "0.0.4"
+dependencies = [
+                "rsa>=4.9", 
+                "getpass4>=0.0.14.1", 
+                "pandas>=2.2.2", 
+                "pywin32>=305.1", 
+                "selenium>=4.8.0"
+      ]
+authors = [
+  { name="Harshal Sarode", email="hsarode04@gmail.com"},
+]
+description = "A package to automate downloading from QV & ER for HC"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
