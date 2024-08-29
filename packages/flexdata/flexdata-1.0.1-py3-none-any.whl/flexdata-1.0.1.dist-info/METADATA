@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: flexdata
+Version: 1.0.1
+Summary: IO routines for CT data
+Home-page: https://github.com/cicwi/flexdata
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: pyqtgraph
+Requires-Dist: astra-toolbox
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: imageio
+Requires-Dist: psutil
+Requires-Dist: scipy
+Requires-Dist: toml
+Provides-Extra: dev
+Requires-Dist: autopep8; extra == "dev"
+Requires-Dist: rope; extra == "dev"
+Requires-Dist: jedi; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: importmagic; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: yapf; extra == "dev"
+Requires-Dist: snakeviz; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: sphinx-rtd-theme; extra == "dev"
+Requires-Dist: myst-parser; extra == "dev"
+
