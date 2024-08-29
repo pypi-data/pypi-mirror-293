@@ -1,0 +1,11 @@
+plare/__init__.py,sha256=BqOI5y46o1G1RWC9bF1DPL-YM68lGYPmZt1pn6FZFZs,22
+plare/exception.py,sha256=DCePowpCFti-Pp0NwBHNOHPZqCp6fVkQJ5Y5yHQCBkI,181
+plare/lexer.py,sha256=KqlsDVwt9v_Hjw-LVlfT3xnE-7wOdropo_Wa5HDQIfM,2602
+plare/parser.py,sha256=S5kG1T2ZXw67Nmje3mbBSxJMp6RL5h24y5deFnt8LkA,18985
+plare/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plare/token.py,sha256=govTVBkD-hVbOZbJjvliLxi1MdoNEgO84S9YfRLF5go,777
+plare/utils.py,sha256=VKrDCd5W0KdAKUWAg5WFrXKPo6suTLoDb20QrUGjubY,892
+plare-1.4.1.dist-info/METADATA,sha256=bU3WU-hivFH8LR1Iz-OUKLElHPdlmTR4MCluUBBMlUg,955
+plare-1.4.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+plare-1.4.1.dist-info/licenses/LICENSE,sha256=-g2MsVVAPphFndJBTozh5S8MfpvCU_kWY_h6d1bMhhc,1076
+plare-1.4.1.dist-info/RECORD,,
