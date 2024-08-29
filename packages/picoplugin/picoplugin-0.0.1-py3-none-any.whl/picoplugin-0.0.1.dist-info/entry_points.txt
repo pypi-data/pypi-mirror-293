@@ -1,0 +1,2 @@
+[console_scripts]
+picoplugin = picoplugin.__main__:main

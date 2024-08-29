@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: picoplugin
+Version: 0.0.1
+Summary: Tool for generating picodata plugins
+Author-email: Alexandr Sorokin <awekening2@gmail.com>
+Project-URL: Homepage, https://github.com/alrsorokin/picoplugin
+Project-URL: Issues, https://github.com/alrsorokin/picoplugin/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+

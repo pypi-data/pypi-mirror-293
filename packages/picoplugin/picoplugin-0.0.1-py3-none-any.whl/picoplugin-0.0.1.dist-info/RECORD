@@ -1,0 +1,14 @@
+picoplugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picoplugin/__main__.py,sha256=UDm4ENa5qC6Zdg0nZTUL7Ut5ZqZNh94p04HAaNLv5rU,785
+picoplugin/cmds.py,sha256=51qfx2yJX7lWur9083M_VOQuBh4XbXiV3976_H6Ua6k,2032
+picoplugin/config.py,sha256=8MI7bt6qcjNbb6vjHzRNafKR3kqUKOypoQ7e-R4hwFM,729
+picoplugin/templates/cargo.toml.j2,sha256=gQMtF9TmrtB46_1Or9GaZQrPiSpKDV_c15Jh3g8mTH8,231
+picoplugin/templates/lib.rs.j2,sha256=5KHt2LCjmw3fZCxXR2DlpScoQuo6FXbPxuJGe8ydTqI,472
+picoplugin/templates/manifest.yaml.j2,sha256=uQRFyWxyuPD6rl-joU13Cr4rGYZCzOr8xlH_dOuPHhc,189
+picoplugin/templates/service.rs.j2,sha256=JjpcnXXWs6QcGiD-xW7-QOtksEko1d9GWlaYVRLFBFQ,1820
+picoplugin-0.0.1.dist-info/LICENSE,sha256=SBSKGLIp2t5Cm71zfpBBt2KTA6eSxsBodRkt1VGZhuk,1073
+picoplugin-0.0.1.dist-info/METADATA,sha256=OaNfb752IG8cfSVnyhZzAs4O3NKOrZuBe5LoulNYBCg,611
+picoplugin-0.0.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+picoplugin-0.0.1.dist-info/entry_points.txt,sha256=rQA-JbJxQCDFkWG19AFHcxOliC-jUu1XEXGHJuLyYlo,56
+picoplugin-0.0.1.dist-info/top_level.txt,sha256=j6GLPI6w5_L-oAaxunOe1H4u62Fhh0AXOvd5APebe-Y,11
+picoplugin-0.0.1.dist-info/RECORD,,
