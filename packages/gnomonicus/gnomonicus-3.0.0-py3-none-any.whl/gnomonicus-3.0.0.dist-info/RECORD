@@ -1,0 +1,10 @@
+gnomonicus/__init__.py,sha256=V-_wD66NEvxi0LwIxmbBl1WRYuadoyPwRl0nFvL_rE0,1032
+gnomonicus/gnomonicus_lib.py,sha256=7TQNn1zBH48OvSaGgmkfI0W8QIYvNmklbU0wzBkKfWI,50983
+gnomonicus-3.0.0.data/scripts/gnomonicus,sha256=fvTtLRzkV8bXb6vzTQsqaXltbG5Af1q77B-9qiGyIqo,8952
+gnomonicus-3.0.0.data/scripts/gnomonicus-table-update,sha256=tCLyndNIMNMSjUrTH6Zf-mNbsdF0mxF9I14z_pI8fuQ,1414
+gnomonicus-3.0.0.data/scripts/merge-vcfs,sha256=EwxsSP2ynQGn9eOAiJmk6APZwy--tAPMbCSgJvdVryg,5502
+gnomonicus-3.0.0.dist-info/LICENSE,sha256=UmtjTgFDPPpqIj-UB5s8bXLvSDYln7ARfke4-tjlTWU,5737
+gnomonicus-3.0.0.dist-info/METADATA,sha256=7hjfD8ETHGIzJCneyLZihZ6OFyWoomZswmIAGziFM-U,5849
+gnomonicus-3.0.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+gnomonicus-3.0.0.dist-info/top_level.txt,sha256=rTnrlPjYpdgA1qyi7MWX8aaLp3Zc92UCAlK9Qtoe_ho,11
+gnomonicus-3.0.0.dist-info/RECORD,,
