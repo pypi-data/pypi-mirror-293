@@ -1,0 +1,12 @@
+odoo/addons/sale_order_search_line/README.rst,sha256=NdO-O_VElio2AKh-QXkRcu2uT3kg_yW3St24nhj_tss,2824
+odoo/addons/sale_order_search_line/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/sale_order_search_line/__manifest__.py,sha256=UXPK4IvvW5EFDL3IZWH7BTqQKk0V3ac7QSUuOkQ0XoY,447
+odoo/addons/sale_order_search_line/i18n/sale_order_search_line.pot,sha256=e8psSLlzGVGctdesz76M7rOn1UCbKYfJJ2xPB6A6tyo,522
+odoo/addons/sale_order_search_line/readme/DESCRIPTION.rst,sha256=t-QmZIrjGAuQx_JJh8flJTQ_1375fov2vNeYDIX04tE,82
+odoo/addons/sale_order_search_line/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sale_order_search_line/static/description/index.html,sha256=70teDD81jDNwplBoy293xZZIqsJKvHulVYCfnbgwtug,11836
+odoo/addons/sale_order_search_line/views/sale_order_views.xml,sha256=OgDYQeoELbvc3LOJmzvWnuCiqDLRBBdttoLQhYKhV28,522
+odoo_addon_sale_order_search_line-16.0.1.0.0.2.dist-info/METADATA,sha256=Yt5F6UeYpC-nQ6CidXzgHDM9ACFE_n-k07gKqmsIICI,3345
+odoo_addon_sale_order_search_line-16.0.1.0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo_addon_sale_order_search_line-16.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_sale_order_search_line-16.0.1.0.0.2.dist-info/RECORD,,
