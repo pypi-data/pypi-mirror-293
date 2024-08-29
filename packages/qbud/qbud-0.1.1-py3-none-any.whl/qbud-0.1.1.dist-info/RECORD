@@ -1,0 +1,10 @@
+qbud/__init__.py,sha256=vsCS-ZGoVD_IRWG6N-6SK2jVE7Yzy_nNGQMKNrA-bys,56
+qbud/_client.py,sha256=bT-rodft6MkvmLjnRO-SwpV1WN6tvh_GPfo2x0ELvNQ,3673
+qbud/_constants.py,sha256=ziZ37bDe8H9H-1yulphU3RLy7rxF7Tw6yJkpNL3zeio,56
+qbud/_exceptions.py,sha256=t_-CKQBxxZr63AZHOSS8JKDyMR97mQ4lVfunS2AIW4k,1034
+qbud/assistant.py,sha256=Ve4kWVv7HR3bz9dNFUuLZECz8UecY8AKJxe5uSkKFV0,1065
+qbud/chat.py,sha256=SmgfasoyD1sbzH2Ghuf9kSds0_quvNcflgKndRXiD-A,3659
+qbud-0.1.1.dist-info/METADATA,sha256=92bDMuhd1hOtk57kY7oG8qXF3wlMlDN_GfAEr9pDXf4,2639
+qbud-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+qbud-0.1.1.dist-info/licenses/LICENSE,sha256=9b1VAsiYjBlY_zZE21RcgLr3m1SekMT2vHRxWQ566Fk,1076
+qbud-0.1.1.dist-info/RECORD,,
