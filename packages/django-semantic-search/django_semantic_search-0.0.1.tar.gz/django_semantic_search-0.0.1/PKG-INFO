@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: django-semantic-search
+Version: 0.0.1
+Summary: Bringing semantic search to Django. Integrates seemlessly with Django ORM.
+License: Apache-2.0
+Author: Kacper Łukawski
+Author-email: lukawski.kacper@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: django (>=5.1,<6.0)
+Description-Content-Type: text/markdown
+
+# django-semantic-search
+
+## Configuration
+
+All the configuration is done in the `settings.py` file of the project.
+
+## Examples
+
+The `examples` folder contains a minimal Django `simple_django_app` project using the `django-semantic-search` library.
+It shows how to configure semantic search in a Django project.
+
+### Credentials
+
+If you would like to access the Django admin panel, you can use the following credentials:
+
+- User: `admin`
+- Password: `passsword`
+
