@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+pysocbot.egg-info/PKG-INFO
+pysocbot.egg-info/SOURCES.txt
+pysocbot.egg-info/dependency_links.txt
+pysocbot.egg-info/top_level.txt
