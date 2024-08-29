@@ -1,0 +1,19 @@
+[Unit]
+Description=Obfuscator inotify daemon
+After=network.target
+
+[Service]
+Type=simple
+User=arunas
+Group=arunas
+PIDFile=/tmp/obfuscator.pid
+ExecStart=/home/arunas/tempuscator/.venv/bin/obfuscator-daemon --action obfuscate --conf-action /home/arunas/tempuscator/tempuscator/etc/tempuscator/obfuscator.ini --log-level debug
+Restart=on-failure
+StandardOutput=journal
+StandardError=journal
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+
+; vim:ft=systemd
