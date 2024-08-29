@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GPLWordNet"
+version = "1.0.2"
+authors = [
+  { name="Xuanlong QIN", email="xuanlongqin.cu@gmail.com" },
+]
+description = "A tool for generating polarity lexicons with WordNet  package"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "click>=8.1.7",
+    "joblib>=1.4.2",
+    "nltk>=3.9.1",
+    "tqdm==4.66.5",
+]
+
+
