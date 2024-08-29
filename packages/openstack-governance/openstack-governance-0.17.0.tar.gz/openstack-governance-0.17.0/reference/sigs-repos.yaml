@@ -1,0 +1,91 @@
+---
+# List of repositories owned by SIGs
+Ansible:
+  - repo: openstack/ansible-collections-openstack
+  - repo: openstack/ansible-plugin-container-connection
+API:
+  - repo: openstack/api-sig
+Automation:
+  - repo: openstack/auto-scaling-sig
+  - repo: openstack/self-healing-sig
+First Contact:
+  - repo: openstack/contributor-guide
+  - repo: openstack/training-guides
+  - repo: openstack/upstream-institute-virtual-environment
+Hardware Vendor:
+  - repo: openstack/python-dracclient
+  - repo: openstack/sushy-oem-idrac
+i18n:
+  - repo: openstack/i18n
+    extra-acs:
+    - name: Ilya Alekseyev
+      email: ilyaalekseyev@acm.org
+      expires-in: February 2025
+      comment: adiantum (ru)
+    - name: Álvaro Soto
+      email: alsotoes@gmail.com
+      expires-in: October 2024
+      comment: alsotoes (es-MX)
+    - name: Akihiro Motoki
+      email: amotoki@gmail.com
+      expires-in: October 2024
+      comment: amotoki (ja)
+    - name: Andi Chandler
+      email: andi@gowling.com
+      expires-in: October 2024
+      comment: andibing (en-GB)
+    - name: Lee Jongwon
+      email: tothebinaryworld@gmail.com
+      expires-in: February 2025
+      comment: chasetherabbit (ko-KR)
+    - name: Georg Hennemann
+      email: georg.hennemann@t-systems.com
+      expires-in: February 2025
+      comment: gehennem (eo)
+    - name: Ian Y. Choi
+      email: ianyrchoi@gmail.com
+      expires-in: October 2024
+      comment: ianychoi (ko-KR)
+    - name: Kuemjong Jeong
+      email: goldenbell.jeong@gmail.com
+      expires-in: October 2024
+      comment: jkj1 (ko-KR)
+    - name: Sebastien Boyron
+      email: sebastien@boyron.eu
+      expires-in: February 2025
+      comment: sboyron (fr)
+Large Scale:
+  - repo: openstack/large-scale
+Meta:
+  - repo: openstack/governance-sigs
+Multi-Arch:
+  - repo: openstack/multi-arch-sig
+Operation Docs and Tooling:
+  - repo: openstack/arch-design
+  - repo: openstack/ha-guide
+  - repo: openstack/operations-guide
+  - repo: openstack/osops
+Packaging:
+  - repo: openstack/rpm-packaging
+  - repo: openstack/rpm-packaging-tools
+  - repo: openstack/pymod2pkg
+  - repo: openstack/renderspec
+Public Cloud SIG:
+  - repo: openstack/publiccloud-sig
+Security:
+  - repo: openstack/ossa
+  - repo: openstack/security-doc
+Testing and Collaboration Tools:
+  - repo: openstack/bugdaystats
+  - repo: openstack/ci-log-processing
+  - repo: openstack/diskimage-builder
+  - repo: openstack/logstash-filters
+  - repo: openstack/nose-html-output
+  - repo: openstack/openstack-nose
+  - repo: openstack/openstack-planet
+  - repo: openstack/openstack-zuul-jobs
+  - repo: openstack/openstack-zuul-roles
+  - repo: openstack/project-config
+  - repo: openstack/ptgbot
+  - repo: openstack/reviewday
+  - repo: openstack/reviewstats
