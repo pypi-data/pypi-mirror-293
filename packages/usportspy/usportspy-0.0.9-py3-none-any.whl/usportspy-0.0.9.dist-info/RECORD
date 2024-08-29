@@ -1,0 +1,17 @@
+usportspy/__init__.py,sha256=f44ghVyNXPhz7v58cY7Ip380Jb2GuwjsUtSoTZC2sXE,1175
+usportspy/basketball.py,sha256=UoIKjh6PdgILjqt7VNjPMaQIHZoOGFZfHXS61o175es,3749
+usportspy/crosscountry.py,sha256=2ZLqcpzh4HHdTBwjy0qCkhVcYmfgDgo4DrgSsvRyFgY,2961
+usportspy/fieldhockey.py,sha256=p4FkHFbTyOhoXbc0sedz5R_TG2dhPosF_I3DyXdswEI,4392
+usportspy/football.py,sha256=DVcenmq_GnTL3i87KWcUzk2zTaO5-DFkj5egiZYsCnQ,7178
+usportspy/helpers.py,sha256=kD2DvVxUEPOB_dPoC6USzjxskq5r-Bgf9kO1ST5xoRI,1652
+usportspy/icehockey.py,sha256=5asd_brkEmMdkDDraRXnVFqz91NHG8rJ4nLNvvYHBIY,3710
+usportspy/rugby.py,sha256=wpDBrV8xQTL5EiQz46jx8TT-XjCGvgXUwUvnGmh2BMY,795
+usportspy/soccer.py,sha256=cC5yNpPyK4zEC2bQ7odsu0z7JwgHUK8XD0JyQu2UWPI,3670
+usportspy/swimming.py,sha256=j9K2MLEH0j1M-e_VkBLHFxKReTbxXNrEmtCzQPnePMU,708
+usportspy/trackandfield.py,sha256=y_SdAupvTWxOh76HsAvSwAOPuVdRQ9BvjoRYoLcoLEM,4152
+usportspy/volleyball.py,sha256=Q-xXStDdM1qbVJb8r-0vvQaYNMxUvasbENeJs1o-Qtw,3748
+usportspy/wrestling.py,sha256=A4eiWWfozsOY-OnCcOemqoG-qIgzA80oR4Sqi6tAyKQ,1407
+usportspy-0.0.9.dist-info/METADATA,sha256=fPxEwoVerepcV_tVFElrtBJGPs_PYyJ7v6IJdRp1fac,466
+usportspy-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+usportspy-0.0.9.dist-info/top_level.txt,sha256=u_4KmdtMRX5QQwvSXaapMNTutsEWQQQz0wcp5-Fy8_Y,10
+usportspy-0.0.9.dist-info/RECORD,,
