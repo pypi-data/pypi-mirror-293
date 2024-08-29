@@ -1,0 +1,79 @@
+Metadata-Version: 2.3
+Name: tenjin_sdn
+Version: 0.0.5
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+License-File: LICENSE
+Summary: Tenjin is The SDN Framework writing with rust, this library is implement tenjin into python
+Keywords: tenjin,openflow,sdn,cli,network
+Home-Page: https://github.com/Arikato111/tenjin-py
+Author: Nawasan <nawasan.dev@gmail.com>
+Author-email: Nawasan Wisitsingkhon <nawasan.dev@gmail.com>
+Maintainer-email: Nawasan Wisitsingkhon <nawasan.dev@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/Arikato111/tenjin-py
+Project-URL: Documentation, https://github.com/Arikato111/Tenjin-py/wiki
+Project-URL: Repository, https://github.com/Arikato111/tenjin-py.git
+Project-URL: Issues, https://github.com/Arikato111/Tenjin-py/issues
+
+# Tenjin SDN (For Python)
+
+This Project is want to implement [Tenjin SDN](https://github.com/Arikato111/Tenjin) for python. Tenjin is The sdn framework that you can use for control network.
+
+## Installation
+
+### install tenjin with pip
+
+```bash
+pip install tenjin_sdn
+```
+
+### Install from source
+
+```bash
+git clone https://github.com/Arikato111/Tenjin-py
+cd Tenjin-py
+pip install .
+```
+
+## Example
+
+### With openflow 1.3
+
+```python
+from tenjin_sdn import Ctrl13
+
+controller = Ctrl13(address="127.0.0.1", port=6653)
+controller.run()
+```
+
+### With openflow 1.0
+
+```python
+from tenjin_sdn import Ctrl10
+
+controller = Ctrl10(address="0.0.0.0", port=6653)
+controller.run()
+```
+
+## Mininet
+
+Mininet is a network emulator to create virtual networks for rapid prototyping of Software-Defined.
+Using mininet for testing this SDN Framework.
+
+### Run Mininet with Openflow 1.3
+
+```bash
+sudo mn --controller=remote,ip=127.0.0.1 --mac --switch=ovsk,protocols=OpenFlow13 --topo=tree,2
+```
+
+### Run Mininet with Openflow 1.0
+
+```bash
+sudo mn --controller=remote,ip=127.0.0.1 --mac --switch=ovsk,protocols=OpenFlow10 --topo=tree,2
+```
+
