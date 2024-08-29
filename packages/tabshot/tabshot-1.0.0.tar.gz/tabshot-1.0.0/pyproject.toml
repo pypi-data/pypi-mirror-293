@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tabshot"
+description = "copy all tab URLs from a browser window"
+version = "1.0.0"
+requires-python = ">=3.8"
+dependenices = [
+    "pyautogui>0.9.54",
+    "pynput>1.7.7",
+    "pyperclip>1.9.0",
+]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["url", "browser"]
+
+[project.scripts]
+tabshot = "tabshot.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/iso1048/tabshot"

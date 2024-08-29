@@ -1,0 +1,4 @@
+output/
+tests/
+venv/
+dist/
