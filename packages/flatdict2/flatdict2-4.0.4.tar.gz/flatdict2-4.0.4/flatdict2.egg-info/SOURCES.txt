@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.rst
+flatdict2.py
+setup.cfg
+setup.py
+flatdict2.egg-info/PKG-INFO
+flatdict2.egg-info/SOURCES.txt
+flatdict2.egg-info/dependency_links.txt
+flatdict2.egg-info/top_level.txt
+flatdict2.egg-info/zip-safe
