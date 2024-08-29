@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+# To include a config file at the root of your package
+config = ["config"]
+
+[project]
+name = "autophylo"
+description = "Autophylo is used to generate phylogentic trees automatically."
+version = "1.0.1"
+dependencies = [
+  "joblib",
+  "biopython"
+]
+authors = [
+  { name="Amogelang R. Raphenya", email="raphenar@mcmaster.ca" },
+]
+maintainers = [
+  {name = "Amogelang R. Raphenya", email = "raphenar@mcmaster.ca"}
+]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["phylogentic", "autophy", "automatic", "autophylo"]
+
+[project.scripts]
+autophylo = "autophylo:autophylo.main"
+
+[project.urls]
+Homepage = "https://github.com/raphenya/autophylo"
+Issues = "https://github.com/raphenya/autophylo/issues"
