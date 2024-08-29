@@ -1,0 +1,2 @@
+[console_scripts]
+install-security-package-tools = security_tools.install_tools:main
