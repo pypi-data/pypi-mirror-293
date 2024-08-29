@@ -1,0 +1,6 @@
+duckdb_extension_spatial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_spatial/extensions/v1.0.0/osx_arm64/spatial.duckdb_extension.gz,sha256=M5R3RAxnk-anEGKY2do9a-qiUQMz9jgjwBqNIBlR56E,18039807
+duckdb_extension_spatial-1.0.0.dist-info/METADATA,sha256=vVB-G8yxTtGp0BMBAfnt3u2tEmPGYXSnI6Xp73dDgv4,2144
+duckdb_extension_spatial-1.0.0.dist-info/WHEEL,sha256=B_HTF0nESsbkeA2UeB8YgKrtPrxyKFORYURx7Qxu8Xw,101
+duckdb_extension_spatial-1.0.0.dist-info/licenses/LICENSE.txt,sha256=nnxZWPH56sIZcjI_d3lzGiShkm7fMUnNisNrUJKahaU,1090
+duckdb_extension_spatial-1.0.0.dist-info/RECORD,,
