@@ -1,0 +1,8 @@
+pytest_pydantic_schema_sync-0.2.0.dist-info/METADATA,sha256=nmPCVrefWsT1w_Ntlvay3ttzsywpeKTYPA2Eea-mj1Q,2940
+pytest_pydantic_schema_sync-0.2.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+pytest_pydantic_schema_sync-0.2.0.dist-info/entry_points.txt,sha256=WU8Mpcu1EsV2AiA8aRqtieIGjnS7L_CVeq2AnwPzZsI,70
+pytest_pydantic_schema_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_pydantic_schema_sync/config.py,sha256=4uapHwxPBXW_yrqOG9hRLSf8IVDg3TwJeFvNcAoJLY8,537
+pytest_pydantic_schema_sync/data_model.py,sha256=lwOVCPkP0_t6_qYT3IvzUVrK9LKtgLj1sJXuKFZsOP8,360
+pytest_pydantic_schema_sync/plugin.py,sha256=1omnABUElufsKzC5gS1KSAhQElzi9Vw2R_WP76l6qhM,3342
+pytest_pydantic_schema_sync-0.2.0.dist-info/RECORD,,
