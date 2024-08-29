@@ -1,0 +1,40 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="ra_netsuite_shared_utils",
+    version="0.1.2",
+    author="Vrishabh Agamya",
+    packages=find_packages(),
+    install_requires=[
+        'asn1crypto',
+        'certifi'
+        'cffi',
+        'charset-normalizer',
+        'cryptography',
+        'filelock',
+        'idna',
+        'numpy',
+        'oauthlib',
+        'packaging',
+        'pandas',
+        'platformdirs',
+        'pycparser',
+        'PyJWT',
+        'pyOpenSSL',
+        'python-dateutil',
+        'pytz',
+        'requests',
+        'requests-oauthlib',
+        'six',
+        'sortedcontainers',
+        'tomlkit',
+        'typing_extensions',
+        'tzdata',
+        'urllib3',
+        'python-dotenv',
+        'google-cloud-storage',
+        'snowflake-connector-python',
+        'google-cloud-pubsub',
+        'google-cloud-tasks',
+    ]
+)
