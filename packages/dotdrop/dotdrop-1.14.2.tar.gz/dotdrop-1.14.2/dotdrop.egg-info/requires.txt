@@ -1,0 +1,19 @@
+docopt
+Jinja2
+ruamel.yaml
+python-magic
+packaging
+requests
+tomli_w
+distro
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+check-manifest
+
+[test]
+coverage
+pytest
+pytest-cov
