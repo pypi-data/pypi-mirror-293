@@ -1,0 +1,2 @@
+[console_scripts]
+create_omp_tracks = omakase_media_tools:main
