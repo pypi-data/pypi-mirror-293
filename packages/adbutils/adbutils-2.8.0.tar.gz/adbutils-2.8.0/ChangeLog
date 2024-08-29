@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+2.8.0
+-----
+
+* feat:allow set filter for list\_packages api (#129)
+* add devices-l command for device paths (#136)
+* add landscape args to window\_size (#139)
+* bug fix for safe connect server (#127)
+* fix window\_size
+* Add py.typed. (#123)
+* add kwargs error\_ok for screenshot (#118), fix window\_size on tablelet, fix adb-server not start on windows
+* feat(shell): add brightness\_value and brightness\_mode (#115)
+* add push file to dir support, close #101 (#117)
+* change back to old ways forward
