@@ -1,0 +1,9 @@
+django_shell_extended/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_shell_extended/settings.py,sha256=_9Wa9IvytQQrHBWUnHfLuMMp1pVjGpVRLroy-t5GxcI,2465
+django_shell_extended/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_shell_extended/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_shell_extended/management/commands/sh.py,sha256=juhyLKe_TemDFGR9iDdSAGfS9KhHjJW_k6NaZEDnfbU,3114
+django_shell_extended-1.0.0.dist-info/METADATA,sha256=dMGFeyHqIrflxAejcNy_rhhr90uc1YF-KdnIgxkZ2uI,2636
+django_shell_extended-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+django_shell_extended-1.0.0.dist-info/licenses/LICENSE,sha256=_pq8OWc0RHommWq1IUY5o8NcROluIf4AoSNovEVR0vQ,1087
+django_shell_extended-1.0.0.dist-info/RECORD,,
