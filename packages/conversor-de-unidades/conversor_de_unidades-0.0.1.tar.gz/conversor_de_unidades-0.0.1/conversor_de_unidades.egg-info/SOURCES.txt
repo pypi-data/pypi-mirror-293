@@ -1,0 +1,10 @@
+README.md
+setup.py
+conversor_de_unidades/__init__.py
+conversor_de_unidades/temperatura.py
+conversor_de_unidades.egg-info/PKG-INFO
+conversor_de_unidades.egg-info/SOURCES.txt
+conversor_de_unidades.egg-info/dependency_links.txt
+conversor_de_unidades.egg-info/top_level.txt
+tests/__init__.py
+tests/test_temperatura.py
