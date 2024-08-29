@@ -1,0 +1,8 @@
+*.lp
+*.sol
+*.log
+testenv
+__pycache__
+dist
+os_settings.py
+PyPI*
