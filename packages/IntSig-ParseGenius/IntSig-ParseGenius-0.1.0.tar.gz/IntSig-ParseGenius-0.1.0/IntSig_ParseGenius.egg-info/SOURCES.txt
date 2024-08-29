@@ -1,0 +1,11 @@
+README.md
+setup.py
+IntSig_ParseGenius.egg-info/PKG-INFO
+IntSig_ParseGenius.egg-info/SOURCES.txt
+IntSig_ParseGenius.egg-info/dependency_links.txt
+IntSig_ParseGenius.egg-info/requires.txt
+IntSig_ParseGenius.egg-info/top_level.txt
+ParseGenius/ParseGenius.py
+ParseGenius/__init__.py
+tests/__init__.py
+tests/test_parser.py
