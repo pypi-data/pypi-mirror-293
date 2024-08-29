@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+cim_converter_eg/CIMModel.py
+cim_converter_eg/__init__.py
+cim_converter_eg/myfunctions.py
+cim_converter_eg/rdf_converter.py
+cim_converter_eg.egg-info/PKG-INFO
+cim_converter_eg.egg-info/SOURCES.txt
+cim_converter_eg.egg-info/dependency_links.txt
+cim_converter_eg.egg-info/top_level.txt
+cim_converter_eg/CIM_EG/Element.py
+cim_converter_eg/CIM_EG/__init__.py
+tests/__init__.py
+tests/test_myfunctions.py
