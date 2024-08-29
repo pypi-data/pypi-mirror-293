@@ -1,0 +1,42 @@
+[project]
+name = "funland"
+version = "0.0.0a"
+description = "Function programming in python"
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Repository = "https://github.com/benrutter/ufo-tools"
+Documentation = "https://benrutter.github.io/ufo-tools/index.html"
+Homepage = "https://benrutter.github.io/ufo-tools/index.html"
+Issues = "https://github.com/benrutter/ufo-tools/issues"
+
+
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ipython>=8.18.1",
+    "pytest>=7.4.4",
+    "mypy>=1.8.0",
+    "black>=23.12.1",
+    "twine>=4.0.2",
+    "coverage>=7.4.0",
+    "ipdb>=0.13.13",
+    "mkdocs>=1.5.3",
+    "mkdocs-material>=9.5.14",
+    "mkdocstrings>=0.24.1",
+    "mkdocstrings-python>=1.9.0",
+]
