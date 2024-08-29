@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: serbiacard
+Version: 5.0.0
+Summary: Python-based tool for processing Serbian cards.
+Author: Elvir Muslic
+Author-email: elvirmuslic.dev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+

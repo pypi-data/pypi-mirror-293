@@ -1,0 +1,10 @@
+serbiacard/CelikApi.dll,sha256=6augyHOjVt205gmBPGx34Q37MBvJ4sqSz1RBhirwNTU,3764224
+serbiacard/__init__.py,sha256=4BuBSz8oGHgWU0kG2v62IIvJCVWOZH2Zk6fHkKb_A5s,55
+serbiacard/card.py,sha256=4ddwT5yTjX0rE6v5e6oKpieosAeHMjrSFL5hyJMKoWc,25544
+serbiacard/card_additional.py,sha256=st-z-dvUWEra9q1X7efckohPPkFvzRJ1QsPSrogVlp0,7465
+serbiacard/eVehicleRegistrationAPI.dll,sha256=6gIvjI2MCthOQ5mc9HKgfD0L-N1fbmZZs4EgcbQh7Hk,167936
+serbiacard/eVehicleRegistrationCOM.dll,sha256=2dvQcWRjusyrcT8YEcOvTfsNjUOraqsz8W_h_qedn8E,133632
+serbiacard/try.py,sha256=yq28q2dSStROXt7qGsaR_kIhdfD1m5Gx7-Ziji5BaUo,356
+serbiacard-5.0.0.dist-info/METADATA,sha256=4I_XZ98G7eLqyLSlzhs_kPukiG1k_AXVer4c7iSpK9M,485
+serbiacard-5.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+serbiacard-5.0.0.dist-info/RECORD,,
