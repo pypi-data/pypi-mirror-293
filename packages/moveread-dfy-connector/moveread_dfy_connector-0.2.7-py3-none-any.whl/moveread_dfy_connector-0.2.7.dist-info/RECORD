@@ -1,0 +1,12 @@
+moveread/dfy_connector/__init__.py,sha256=rO6J9VdESGgZyFkt2QJcV7O8DsIca4jmxAizI3Z1GB4,172
+moveread/dfy_connector/__init__.pyi,sha256=d3eFH42ZvmoWin1G0abrYMbficau07KxuFlbI-CTosk,81
+moveread/dfy_connector/pull.py,sha256=SU_ObysBYHgAuuIz9U39yoi71Kkhhxz0pN4Fk0Q9kSk,3991
+moveread/dfy_connector/push.py,sha256=CjEW-7PjVv5ULY2y-z_eGtI3pB8m6W9dLN1PMLahYUA,1911
+moveread/dfy_connector/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moveread/dfy_connector/scripts/pull.py,sha256=c8ojI0Kg44hk3DZ1xp2Rf1s2jTstIxMY2RLr9pHLBu8,1813
+moveread/dfy_connector/scripts/push.py,sha256=IEJZ8rLY36aWSqUENussQBNQTlCfeHGivO2FgiOMErg,1968
+moveread_dfy_connector-0.2.7.dist-info/METADATA,sha256=GuQnwzwsKPzS0VCjSfNFMBWmq_piMbgviFMBjZx_tBo,623
+moveread_dfy_connector-0.2.7.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+moveread_dfy_connector-0.2.7.dist-info/entry_points.txt,sha256=28SiWm_vG1iWMounBwBsFpQNgKYEh1m3LGwsZZ7m1cQ,126
+moveread_dfy_connector-0.2.7.dist-info/top_level.txt,sha256=Nf4zr37sbhc5sbPztUq8FfXD7iyRYJ9bjMTU09166ig,9
+moveread_dfy_connector-0.2.7.dist-info/RECORD,,

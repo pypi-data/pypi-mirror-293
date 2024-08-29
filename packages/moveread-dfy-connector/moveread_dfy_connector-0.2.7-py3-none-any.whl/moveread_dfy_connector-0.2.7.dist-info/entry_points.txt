@@ -1,0 +1,3 @@
+[console_scripts]
+dfy-puller = moveread.dfy_connector.scripts.pull:main
+dfy-pusher = moveread.dfy_connector.scripts.push:main
