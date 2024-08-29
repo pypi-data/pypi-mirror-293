@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/bisstats/__init__.py
+src/bisstats/http_request.py
+src/bisstats.egg-info/PKG-INFO
+src/bisstats.egg-info/SOURCES.txt
+src/bisstats.egg-info/dependency_links.txt
+src/bisstats.egg-info/requires.txt
+src/bisstats.egg-info/top_level.txt
+tests/test_http_base.py
