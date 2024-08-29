@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: xstampp_model_parser
+Version: 0.1.0
+Requires-Python: >=3.10
+Requires-Dist: dataclasses-json
+Requires-Dist: ply
+

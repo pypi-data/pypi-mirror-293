@@ -1,0 +1,8 @@
+xstampp_model_parser/__init__.py,sha256=H2c3jE73tgEeLnMN1RQk1cTxGkBRWeMTHrq8dhve16s,28
+xstampp_model_parser/hazx_parser/__init__.py,sha256=nkwfxsMeAVP0mbLuw1UX3pp0Cz9aNuKzuMHfBuXpGZg,62
+xstampp_model_parser/hazx_parser/hazx_parser.py,sha256=u5KQHTv4-a1tms_dOBbm0Us05AeEwU2jMsFe_Lldueo,881
+xstampp_model_parser/hazx_parser/models.py,sha256=YmauG5P7YsQLmcbnSP8X7H7sNSUTP_ghkY4dHaRo02U,1939
+xstampp_model_parser-0.1.0.dist-info/METADATA,sha256=CCEofF3-2I0T9MVsc48f68LgawDUfaiRluVM_-CXHb8,147
+xstampp_model_parser-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+xstampp_model_parser-0.1.0.dist-info/top_level.txt,sha256=7BIjQliHOso_OGN547t0lmFl4zYlWhINfRfE-WtZs-0,21
+xstampp_model_parser-0.1.0.dist-info/RECORD,,
