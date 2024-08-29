@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: harmonize.py
+Version: 1.0.0
+Summary: A robust and powerful, fully asynchronous Lavalink wrapper built for disnake in Python.
+Author-email: Krista <contactchisato@gmail.com>
+Project-URL: Homepage, https://github.com/Krispeckt/Harmonize
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip>=24.2
+Requires-Dist: disnake>=2.9.0
+Requires-Dist: aiohttp>=3.9.0
+Requires-Dist: loguru>=0.6.0
+Requires-Dist: async-timeout>=4.0.2
+
+<img align="right" src="https://raw.githubusercontent.com/Krispeckt/Harmonize/dev/.github/assets/lib_icon.png" width="150" height="150">
+
+
+# Harmonize
+
+---
+
+[![Python](https://img.shields.io/badge/Python-^3.11-orange.svg)](https://www.python.org) 
+[![License](https://img.shields.io/github/license/Krispeckt/Harmonize?color=orange)](LICENSE) 
+![Last Commit](https://img.shields.io/github/last-commit/Krispeckt/Harmonize?color=orange)
+![GitHub Release](https://img.shields.io/github/v/release/Krispeckt/Harmonize?color=orange)
+[![Python](https://img.shields.io/badge/Lavalink-^4.0.0-orange.svg)](https://lavalink.dev) 
+
+---
+
+## Features
+<h4>
+
+- Simple and easy to use
+- Multi-node support
+- Last frequency used cache for queries
+- Audio filters
+- Full asynchronous design
+
+</h4>
+
+---
+
+## Library installing
+
+<h4>
+
+Development version
+
+
+```shell
+pip install git+https://github.com/Krispeckt/Harmonize.git
+```
+
+Default
+
+```shell
+pip install harmonize.dev
+```
+
+</h4>
+
+---
+
+## Lavalink
+<h4>
+
+Harmonize requires Lavalink V4.
+See: [Lavalink](https://github.com/lavalink-devs/Lavalink/releases)
+
+For another source manager support, simply install and use [LavaSrc](https://github.com/topi314/LavaSrc)
+
+</h4>
+
+---
