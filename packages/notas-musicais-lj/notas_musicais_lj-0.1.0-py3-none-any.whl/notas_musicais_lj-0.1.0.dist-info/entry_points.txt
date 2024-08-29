@@ -1,0 +1,3 @@
+[console_scripts]
+notas-musicais-lj=notas_musicais.cli:app
+
