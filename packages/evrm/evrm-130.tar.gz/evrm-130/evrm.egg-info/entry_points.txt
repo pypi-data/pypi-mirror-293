@@ -1,0 +1,4 @@
+[console_scripts]
+evrm = evrm.__main__:wrapped
+evrmc = evrm.prompt:wrapped
+evrmd = evrm.daemon:wrapped
