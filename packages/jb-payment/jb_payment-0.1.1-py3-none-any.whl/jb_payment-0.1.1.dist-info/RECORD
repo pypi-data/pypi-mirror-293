@@ -1,0 +1,5 @@
+jb_payment/__init__.py,sha256=mQP4ExPsTLHLAAwQ8WJu1y_LBqtsNsLsNeR9jpW1DNc,49
+jb_payment/payment.py,sha256=c9CmcM8Ym9wyVX1SyakyvrHtUU0zQ8ckb1tK8C-DfhE,6097
+jb_payment-0.1.1.dist-info/METADATA,sha256=3PNKdOxqevWPIa55O0-ciSet48syYCq5TFNkFDOrq6s,454
+jb_payment-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jb_payment-0.1.1.dist-info/RECORD,,
