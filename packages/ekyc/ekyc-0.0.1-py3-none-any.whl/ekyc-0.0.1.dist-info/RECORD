@@ -1,0 +1,14 @@
+ekyc/__init__.py,sha256=Z8fzEBki2FBKjoKSLzKPoxY6uQ_B6Gre3jUKLGEX2GM,710
+ekyc/core.py,sha256=ceA-W6twIzEqT-GECjTYtciUvvLAlLT-cOGpqy1s-3s,2617
+ekyc/document_verification.py,sha256=_boHjM04_q0FOt4QpmPUdav1nRI6bXxK949mqy6U0-A,2241
+ekyc/face_matching.py,sha256=oHo6FsWdfGHywULst24S_fwaebkM3zf0dReZasmsflU,1139
+ekyc/face_processing.py,sha256=WgqlZxsfQvKQ93PFaGNS7I0eGqxCekh2ZejYVw32YPA,1911
+ekyc/liveness_check.py,sha256=z4q9XHt8Ca52crNEitgvUiByomEC1pSblOD49yYmuBI,783
+ekyc/utils.py,sha256=Vv1LNQ6_pSEZAjjRXoC6DwXi3WlxBW_yX4sSmJ4vFYA,1608
+ekyc/data/ic_template.jpg,sha256=ClK3Srv19CbExynPnxf49GrD6UF0qxBYMYVHDK2vBw4,40915
+ekyc/data/shape_predictor_68_face_landmarks.dat,sha256=-9wsuA65qnp1hnLL_doyumMA7-m25seimf9-c2sRuS8,99693937
+ekyc-0.0.1.dist-info/LICENSE,sha256=-mncYQZWiphcOswoIqprDotQdxqheLXXQLir3QuYYp4,1076
+ekyc-0.0.1.dist-info/METADATA,sha256=hSIK1Uf2juCgl9RZh4x4WL06o-iNm0AhRT6rL9ma62o,2529
+ekyc-0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+ekyc-0.0.1.dist-info/top_level.txt,sha256=PlqKPQIb1ltT1HQD2oPg9ygETh7w7U4uA0WZWD3MsQc,5
+ekyc-0.0.1.dist-info/RECORD,,
