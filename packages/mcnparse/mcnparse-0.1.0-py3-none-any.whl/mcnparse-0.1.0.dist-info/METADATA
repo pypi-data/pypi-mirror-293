@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: mcnparse
+Version: 0.1.0
+Summary: Your package description
+Author-email: "Noah J. Blair" <noah.blair@colostate.edu>
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: numpy==2.1.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: scipy==1.14.0

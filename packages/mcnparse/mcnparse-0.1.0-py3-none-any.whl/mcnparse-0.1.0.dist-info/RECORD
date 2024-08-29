@@ -1,0 +1,10 @@
+LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject.toml,sha256=lBJUNxbEUiUShkge750PvW17PBX2MYvNMbRllCgfsVc,600
+mcnparse/__init__.py,sha256=61rXSvbc7TPcl7BUc00nndmkjUmwUG2G9kAHq98MuIQ,49
+mcnparse/__main__.py,sha256=fIAlqr1eQfN1D5mmCEFKU8R1YpNG-rK2zXEtSCxdhQI,136
+mcnparse/_src.py,sha256=9BEi1Hjpusnc9TGC-R5020XucAoRocv4ORM5aR-Jpsc,7051
+mcnparse-0.1.0.dist-info/METADATA,sha256=DoeKG8odN_xdbIVqgOX1wq0C0_ozmz-TBHec3YpzObo,308
+mcnparse-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+mcnparse-0.1.0.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcnparse-0.1.0.dist-info/RECORD,,
