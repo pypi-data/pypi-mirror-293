@@ -1,0 +1,8 @@
+conversor_de_unidades/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conversor_de_unidades/temperatura.py,sha256=OQvDzN1tfyXIh9tNd_SlSDHUJTwbIF4yg6z6eCC4nzk,373
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_temperatura.py,sha256=RuI2HGL0jMh3tbsIScEa5j40J-6zsT5zOPmzTz_72WQ,1153
+conversor_de_unidades-0.0.1.dist-info/METADATA,sha256=gs8KIBzkiosCjicZR7IQU2ZnsczvzOcczsbIxfm8sz8,1229
+conversor_de_unidades-0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+conversor_de_unidades-0.0.1.dist-info/top_level.txt,sha256=TLFY0upuHwCEV13o5BGAWB_vfx8E2evM9C8zmtskIeM,28
+conversor_de_unidades-0.0.1.dist-info/RECORD,,
