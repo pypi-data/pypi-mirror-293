@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "traumascanner"
+version = "0.1.1"
+description = "Identify radiology reports with post-traumatic hemorrhage"
+authors = ["Meghan R. Hutch"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/meghutch/traumaScanner/"
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.2.5"
+numpy = "^1.21.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
