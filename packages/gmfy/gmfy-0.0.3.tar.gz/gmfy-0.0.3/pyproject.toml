@@ -1,0 +1,148 @@
+[tool.poetry]
+name = "gmfy"
+version = "0.0.3"
+authors = [
+    "Evgeny Izvekov <evgeny.izvekov@redcollar.ru>",
+    "Yuriy Belotserkovskiy <yuriy.belotserkovskiy@redcollar.ru>"
+]
+description = "This is a simple library for working with the gmfy api."
+readme = "README.md"
+packages = [
+    { include = "gmfy" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+]
+keywords = ["gmfy API gamification"]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+pydantic = "^2.8.2"
+requests = { version = "^2.32.3", optional = true }
+httpx = { version = "^0.27.0", optional = true }
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.10.1"
+types-requests = "^2.32.0.20240712"
+pytest = "^8.3.2"
+ruff = "^0.5.6"
+pre-commit = "^3.8.0"
+requests-mock = "^1.12.1"
+pytest-asyncio = "^0.23.8"
+pytest_httpx = "^0.30.0"
+
+[tool.poetry.extras]
+sync = ["requests"]
+async = ["httpx"]
+
+[tool.poetry.urls]
+Docs = "https://pypi.org/project/gmfy/"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools", "wheel", "setuptools_scm"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.setuptools]
+tag_build = ""
+tag_date = "0"
+
+# ==== pytest ====
+[tool.pytest.ini_options]
+minversion = "6.0"
+python_files = [
+    "tests.py",
+    "test_*.py",
+]
+
+# ==== mypy ====
+[tool.mypy]
+python_version = "3.12"
+check_untyped_defs = true
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
+
+# ==== ruff ====
+[tool.ruff.lint]
+select = [
+    "F",
+    "E",
+    "W",
+    "C90",
+    "I",
+    "N",
+    "UP",
+    "YTT",
+    "ASYNC",
+    "S",
+    "BLE",
+    "FBT",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "DTZ",
+    "T10",
+    "DJ",
+    "EM",
+    "EXE",
+    "FA",
+    "ISC",
+    "ICN",
+    "G",
+    "INP",
+    "PIE",
+    "T20",
+    "PYI",
+    "PT",
+    "Q",
+    "RSE",
+    "RET",
+    "SLF",
+    "SLOT",
+    "SIM",
+    "TID",
+    "TCH",
+    "INT",
+    "PTH",
+    "ERA",
+    "PD",
+    "PGH",
+    "PL",
+    "TRY",
+    "FLY",
+    "PERF",
+    "RUF"
+]
+ignore = [
+    "S101", # Use of assert detected https://docs.astral.sh/ruff/rules/assert/
+    "RUF012", # Mutable class attributes should be annotated with `typing.ClassVar`
+    "SIM102", # sometimes it"s better to nest
+    "TRY003", # Specifying long messages outside the exception class
+    "EM101", # Exception could use a string literal
+    "EM102", # Exception could use an f-string literal
+    "FBT001", # Boolean-typed positional argument in function definition
+    "RUF001", # Ambiguous unicode character string
+    "UP031", # Use format specifiers instead of percent format
+    "FBT002", # Boolean default positional argument in function definition
+]
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.ruff.lint.per-file-ignores]
+"test_*.py" = ["S106"]
+"conftest.py" = ["S311"]
