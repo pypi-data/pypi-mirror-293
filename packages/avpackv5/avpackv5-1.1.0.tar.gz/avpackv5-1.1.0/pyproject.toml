@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "avpackv5"
+version = "1.1.0"
+description = "Idk"
+authors = ["AVirus-ubuntu <ribavan123wawa@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+keywords = ["avirus", "python"]
+homepage = "https://gist.github.com/AVirus-ubuntu/196b431c8ee73c99d9268d4df0022267"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.7"
+keyboard = "^0.13.5"
+random2 = "^1.0.2"
+colorama = "^0.4.6"
+python-time = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
