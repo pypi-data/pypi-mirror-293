@@ -1,0 +1,10 @@
+README.md
+setup.py
+irrelevant_content_detection/__init__.py
+irrelevant_content_detection/detector.py
+irrelevant_content_detection.egg-info/PKG-INFO
+irrelevant_content_detection.egg-info/SOURCES.txt
+irrelevant_content_detection.egg-info/dependency_links.txt
+irrelevant_content_detection.egg-info/requires.txt
+irrelevant_content_detection.egg-info/top_level.txt
+tests/test_detector.py
