@@ -1,0 +1,2 @@
+[console_scripts]
+arosics = enpt.cli:main
