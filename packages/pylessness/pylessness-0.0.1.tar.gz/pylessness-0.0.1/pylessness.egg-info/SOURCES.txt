@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pylessness.egg-info/PKG-INFO
+pylessness.egg-info/SOURCES.txt
+pylessness.egg-info/dependency_links.txt
+pylessness.egg-info/top_level.txt
+useless/__init__.py
