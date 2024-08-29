@@ -1,0 +1,11 @@
+dbt2pdf/__init__.py,sha256=laur3X0MzvsXdqygsWiM0AaGs322GOEOy2oWYyaARpI,176
+dbt2pdf/cli.py,sha256=Q9WvyMtDRNsmhXcrrN_ZpgR-_ImjuOsIpB5E8YkwR2A,5758
+dbt2pdf/manifest.py,sha256=_5rcvwezcNHqpNaTG3mRXX8xbLogbJEATHQlJl74Cfc,1765
+dbt2pdf/pdf.py,sha256=OCkkWd7_f5SfR4t56kXAxour7_7K6e9ct4aOnNPwz-E,8263
+dbt2pdf/schemas.py,sha256=ewxoQfr5YCvm7L8QTY-Zw5XWscOQ6zJj435CPI6ELs0,630
+dbt2pdf/utils.py,sha256=ULDtz5GlZmnOoWvv0vzB_H5xYoXyl25kGjlSom-QIoE,184
+dbt2pdf-0.0.4.dist-info/LICENSE,sha256=P-3alrGfUO1PVSBT6hjn7ztrSvmCVl5eWOdfy6V1GIY,1103
+dbt2pdf-0.0.4.dist-info/METADATA,sha256=KsdPDY5dgAY2mI1CxqZicadL2YpmXC6_XtYqWrQe3eU,5546
+dbt2pdf-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dbt2pdf-0.0.4.dist-info/entry_points.txt,sha256=sMSg7xWk2saixoY_9K9dZ5X5bFso9iOnSOMUI0Hy0hY,43
+dbt2pdf-0.0.4.dist-info/RECORD,,
