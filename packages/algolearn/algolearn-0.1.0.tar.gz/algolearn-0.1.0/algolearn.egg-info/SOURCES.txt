@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+algolearn/__init__.py
+algolearn/multiplication.py
+algolearn.egg-info/PKG-INFO
+algolearn.egg-info/SOURCES.txt
+algolearn.egg-info/dependency_links.txt
+algolearn.egg-info/top_level.txt

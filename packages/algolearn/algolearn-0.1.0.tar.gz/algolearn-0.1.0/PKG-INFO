@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: algolearn
+Version: 0.1.0
+Summary: Custom implementation of standard library to help learn Data Structures, Algorithms and Leetcode
+Home-page: https://algolearn.readthedocs.io/
+Author: Liam Esteban Prince
+Author-email: liamesteban@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# algolearn - Custom Standard Library
+
+Custom implementation of standard library to help learn Data Structures, Algorithms and Leetcode.
+
+## Core Features
+
+- Implement Array
+- Implement LinkedList
+- Implement HashMap
+- Implement Heap
+- Implement Stack
+- Implement Tree
+
+## Future Features
+
+- Use a build tool instead of running setup.py directly because this method is deprecated
+
+## Phases
+
+## Milestones
+
+## User stories
+
+## System requirements
+
+For manual publishing to PyPi: pip, wheel, twine, setuptools
+
+## Installation
+
+```bash
+pip3 install algolearn
+```
+
+## Usage
+
+```bash
+python3 main.py
+```
+
+## Testing
+
+```bash
+python3 -m unittest -v tests/multiplication_tests.py
+```
+
+## Manually publishing to PyPi
+
+```bash
+pip install twine wheel setuptools
+python setup.py sdist bdist_wheel
+twine check dist/*
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+twine upload dist/*
+```
+
+## Contributing
+
+## License
