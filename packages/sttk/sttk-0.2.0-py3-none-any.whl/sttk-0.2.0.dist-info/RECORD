@@ -1,0 +1,13 @@
+sttk/__init__.py,sha256=rOQ2eTIH-K5RmYxxTYp5nEepG3T7iQZJ_VKpvHFFnGs,107
+sttk/charting/__init__.py,sha256=DSD8zm2d6QEczIUoSlkxZ-u2xi_jpwjY7kD7fcfXieg,79
+sttk/charting/indicators.py,sha256=8fgS9QDoPxizr4S-TuF7G1vTtx7ZVyS292GbFh_mSyU,5626
+sttk/charting/main.py,sha256=soV6HMNYVh6jSJtADcrd4BWeEGvfPbzOwjs-iim0l38,1353
+sttk/charting/plot.py,sha256=pNk33hNi0cIqbmPa3PSLgMoO-rn9-ZsrnfCM-i4zftk,8422
+sttk/data/__init__.py,sha256=GFRdl1nIqOCKHF3EW4bU884oCGEHur0n0bB8YO7qIQ8,51
+sttk/data/yfdownload.py,sha256=-g32bAsh8PTZ5ID1J5Jwaf2ElJGJPb4yUXCXR5waxp0,9487
+sttk/researchtools/__init__.py,sha256=2BIjaEWlUy74abpE-XyxhxbPRw1tgB0b1wPOdok4Cxo,55
+sttk/researchtools/csvinspector.py,sha256=f6UB4GnzBIorOJGOiUXDVq2FbmKuTfbGxcSCmjLTdGA,2087
+sttk-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sttk-0.2.0.dist-info/METADATA,sha256=CkOL-ErvosAuUUKX2m85JYO7g7gHEy00Cng3ZXBErUU,949
+sttk-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sttk-0.2.0.dist-info/RECORD,,
