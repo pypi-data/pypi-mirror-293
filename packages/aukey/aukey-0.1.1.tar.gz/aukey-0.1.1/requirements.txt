@@ -1,0 +1,5 @@
+json
+keyboard
+platform
+subprocess
+typing
