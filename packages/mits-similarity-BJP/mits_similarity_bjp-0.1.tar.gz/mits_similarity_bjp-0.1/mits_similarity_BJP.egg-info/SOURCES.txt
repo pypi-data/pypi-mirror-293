@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mits_similarity_BJP/__init__.py
+mits_similarity_BJP/hamming_distance.py
+mits_similarity_BJP/jaccard_coefficient.py
+mits_similarity_BJP/overlap_coefficient.py
+mits_similarity_BJP.egg-info/PKG-INFO
+mits_similarity_BJP.egg-info/SOURCES.txt
+mits_similarity_BJP.egg-info/dependency_links.txt
+mits_similarity_BJP.egg-info/top_level.txt
