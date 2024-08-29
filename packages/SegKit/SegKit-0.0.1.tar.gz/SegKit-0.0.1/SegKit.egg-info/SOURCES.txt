@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SegKit.egg-info/PKG-INFO
+SegKit.egg-info/SOURCES.txt
+SegKit.egg-info/dependency_links.txt
+SegKit.egg-info/top_level.txt
+segmetrics/__init__.py
