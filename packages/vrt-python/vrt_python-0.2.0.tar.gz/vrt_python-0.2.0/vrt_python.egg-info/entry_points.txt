@@ -1,0 +1,2 @@
+[console_scripts]
+vrt = vrt_python.cli:main
