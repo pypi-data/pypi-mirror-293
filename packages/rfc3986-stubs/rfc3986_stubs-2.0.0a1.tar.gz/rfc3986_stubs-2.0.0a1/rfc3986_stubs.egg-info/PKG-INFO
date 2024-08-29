@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: rfc3986-stubs
+Version: 2.0.0a1
+Summary: rfc3986 typing stubs
+Author-email: trim21 <trim21me@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/trim21/rfc3986-stubs
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Typing :: Typed
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: rfc3986<2.1.0,>=2.0.0
+Requires-Dist: typing-extensions>=4.7.1
+Provides-Extra: dev
+Requires-Dist: pre-commit==3.8.0; python_version >= "3.9" and extra == "dev"
+Requires-Dist: mypy==1.11.2; python_version >= "3.9" and extra == "dev"
+
+# Typing stubs for rfc3986
+
+```shell
+pip install rfc3986-stubs
+```
+
+https://github.com/python-hyper/rfc3986
+
+rfc3986 already have typing in their source code, but it doesn't have new release over 2 years.
+
+This package extract current typing from rfc3986.
