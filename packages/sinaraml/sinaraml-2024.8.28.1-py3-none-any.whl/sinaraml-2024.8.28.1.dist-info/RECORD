@@ -1,0 +1,9 @@
+sinaraml/__init__.py,sha256=XWMVm64LtW5-NVQfNedxAxturRoA61bz0p9rLnqGdws,24
+sinaraml/_version.py,sha256=7PvppqnPlTM_sRsPJWpd73Ja1CASM8PU68zrqIX4jLM,424
+sinaraml/org_manager.py,sha256=amXXvgkX9CjwhDZa-m_tvNtITSsocnzqq0fDKt4mmqQ,7933
+sinaraml/sinaraml.py,sha256=J9bitUqRxMagdY93d-qVPYhxW0I5I4C1PSAveAY0T84,5317
+sinaraml-2024.8.28.1.dist-info/METADATA,sha256=pcIrW4AIY7SAeAdWzzzkiMXg5W7WH_2XusnG7i_Pp7Y,5410
+sinaraml-2024.8.28.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+sinaraml-2024.8.28.1.dist-info/entry_points.txt,sha256=pj-k4C1YdoAq3rsSi9Bir_PY0fqCAnJqgzSrM9qrO1U,50
+sinaraml-2024.8.28.1.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sinaraml-2024.8.28.1.dist-info/RECORD,,
