@@ -1,0 +1,2 @@
+[console_scripts]
+earwigbot = earwigbot.cli:main
