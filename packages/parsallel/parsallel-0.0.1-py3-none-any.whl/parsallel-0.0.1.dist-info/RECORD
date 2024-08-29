@@ -1,0 +1,10 @@
+parsallel/VERSION,sha256=5mNQReHSR47EynEtjA4d_O-Lt7Wx6OO7Vg03_jmannI,6
+parsallel/__init__.py,sha256=WteWlCZ6GLsnfe7cizGiIabLZZfbnDtN4MWVbCUMuXQ,59
+parsallel/loader.py,sha256=cIY91CCNwtMvrYprAm2de64BsfWNDonc2TVEdaD2B_k,799
+parsallel/parser.py,sha256=KRU1Plosn6wif6Z1SuarjIiYXFMXuzPRS_gzGTa38go,1968
+parsallel/version.py,sha256=7k8WHs89v8UriEEQ-vpquqW0iNbHY4bK1P9i04oM8Fc,278
+parsallel-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+parsallel-0.0.1.dist-info/METADATA,sha256=Bc8PgtyxmIFKGRiT5R1QCgo8rda_dsZ4myXZCeSjRMw,585
+parsallel-0.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+parsallel-0.0.1.dist-info/top_level.txt,sha256=dtEM6IrgOd2lY3YBBlWCKi-3QkYFlPVnuTMOhuvuIw8,10
+parsallel-0.0.1.dist-info/RECORD,,
