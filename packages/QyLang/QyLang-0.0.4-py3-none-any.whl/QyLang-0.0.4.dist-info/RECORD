@@ -1,0 +1,13 @@
+qy/__init__.py,sha256=q0yv4ifN7gy3VLAEJUy6_Fp1yU4buSTwIbnLr6ALEns,413
+qy/__main__.py,sha256=VfRxS29G22ZnoAe8lkAPo96-LDwQB98f0Qs4BiK2lGk,64
+qy/_reader.py,sha256=QZ5qujjYGnE46nnHNLj0Un4wAuN-7YNp5riJib_SRTQ,4334
+qy/cli.py,sha256=d9cbXoqGTHkv10B7ixDRiCEtKeTT7YuX-KCJzjgesHQ,349
+qy/core.py,sha256=XsIgyN0sxFSp6vdNIpRoInn8Y8puajycTUJpZ2y-_-g,9014
+qy/operator.py,sha256=55B4tDLD0WAwkGfYop6KwbSgvlTtnU6pUHO5FrGrk_8,1525
+qy/operators/__init__.py,sha256=1MbFpx6X-6U-MKnpd4fIdN6N3rchyeXzELYMRbqFZ1g,474
+QyLang-0.0.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+QyLang-0.0.4.dist-info/METADATA,sha256=_dCu_Ur_GTcaHXKOQnnSPEPqDjy5oJQABzY7USuCLZs,1409
+QyLang-0.0.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+QyLang-0.0.4.dist-info/entry_points.txt,sha256=HP_p8k1X1EWHiUenP24hS8BqQ8tPEMMqhJD8SJ2TW4Q,35
+QyLang-0.0.4.dist-info/top_level.txt,sha256=iCVdvi6eSZCLpCEnvy9k444zbkrJqtnCeuRFTbfOFm8,3
+QyLang-0.0.4.dist-info/RECORD,,
