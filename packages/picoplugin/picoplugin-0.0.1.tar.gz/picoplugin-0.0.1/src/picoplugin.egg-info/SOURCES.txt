@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/picoplugin/__init__.py
+src/picoplugin/__main__.py
+src/picoplugin/cmds.py
+src/picoplugin/config.py
+src/picoplugin.egg-info/PKG-INFO
+src/picoplugin.egg-info/SOURCES.txt
+src/picoplugin.egg-info/dependency_links.txt
+src/picoplugin.egg-info/entry_points.txt
+src/picoplugin.egg-info/top_level.txt
+src/picoplugin/templates/cargo.toml.j2
+src/picoplugin/templates/lib.rs.j2
+src/picoplugin/templates/manifest.yaml.j2
+src/picoplugin/templates/service.rs.j2
