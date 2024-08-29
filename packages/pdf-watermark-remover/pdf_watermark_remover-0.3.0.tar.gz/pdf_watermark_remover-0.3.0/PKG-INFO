@@ -1,0 +1,237 @@
+Metadata-Version: 2.1
+Name: pdf_watermark_remover
+Version: 0.3.0
+Summary: A package to remove watermarks from PDF files
+Home-page: https://github.com/huapohen/pdf_watermark_remover
+Author: huapohen
+Author-email: 694450321@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python-headless
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: PyMuPDF
+Requires-Dist: reportlab
+
+# PDF Watermark Remover
+
+A Python package to remove watermarks from PDF files.
+
+
+## Installation
+
+```bash
+pip install pdf_watermark_remover
+```
+
+## Usage
+```python
+from pdf_watermark_remover import process_pdf
+
+input_pdf = 'input.pdf'
+output_pdf = 'output.pdf'
+process_pdf(input_pdf, output_pdf)
+```
+
+## Update PyPI Version
+```
+1.更新 setup.py 中的版本号
+setup(
+    name='your-package-name',
+    version='0.2.0',  # 更新版本号
+    ...
+)
+2.重新生成分发文件
+python setup.py sdist bdist_wheel
+3.上传新版本
+twine upload dist/*
+```
+
+## .pypirc 配置
+```bash
+[distutils]
+index-servers =
+    pypi
+
+[pypi]
+  username = __token__
+  password = <your-api-token>
+```
+
+## setup.py
+```
+from setuptools import setup, find_packages
+
+setup(
+    name='pdf_watermark_remover',
+    version='0.2.0',
+    packages=find_packages(),
+    install_requires=[
+        'opencv-python-headless',
+        'numpy',
+        'Pillow',
+        'PyMuPDF',
+        'reportlab',
+    ],
+    entry_points={
+        'console_scripts': [
+            'pdf_watermark_remover=pdf_watermark_remover.remover:process_pdf',
+        ],
+    },
+    author='huapohen',
+    author_email='694450321@qq.com',
+    description='A package to remove watermarks from PDF files',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/huapohen/pdf_watermark_remover',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: Apache Software License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
+)
+
+```
+
+## requirements.txt
+```
+opencv-python-headless
+numpy
+Pillow
+PyMuPDF
+reportlabW
+```
+
+## 准备项目结构
+```
+pdf_watermark_remover/
+│
+├── pdf_watermark_remover/
+│   ├── __init__.py
+│   ├── remover.py
+│
+├── setup.py
+├── README.md
+├── LICENSE
+└── requirements.txt
+```
+
+## 创建项目文件
+pdf_watermark_remover/remover.py
+pdf_watermark_remover/init.py：
+```python
+from .remover import process_pdf, remove_watermark, pdf_to_images, images_to_pdf
+```
+
+## 构建和发布包
+```
+1.安装必要的工具
+pip install setuptools wheel twine
+2.构建包
+python setup.py sdist bdist_wheel
+3.发布到PyPI
+这里需要配置好.pypirc，填写pypi api token
+twine upload dist/*
+4.安装
+pip install pdf_watermark_remover
+5.使用
+from pdf_watermark_remover import process_pdf
+process_pdf('input.pdf', 'output.pdf')
+```
+
+## remover.py
+```python
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+
+# pip install pymupdf pillow opencv-python reportlab
+import io, os, cv2, fitz, tempfile
+import numpy as np
+from PIL import Image
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import letter
+
+
+def remove_watermark(img):
+    # img = cv2.imread("words_watermark.jpg")
+    # 从一张图像中去除所有白色内容（或在HSV色彩空间中接近白色的内容）
+    # 用的是HSV色彩空间，数组的三个值分别对应Hue（色调），Saturation（饱和度）和Value（亮度）
+    lower_hsv = np.array([160, 160, 160])  # 大致对应于白色，偏白
+    upper_hsv = np.array([255, 255, 255])  # 最大值，纯白。范围 0~255
+    # 根据设定的阈值范围，生成一个二值掩码（mask），其中白色部分表示水印，黑色部分表示非水印区域
+    mask = cv2.inRange(img, lower_hsv, upper_hsv)  # 从较亮的灰色（160）到纯白色（255）
+    mask = cv2.GaussianBlur(
+        mask, (1, 1), 0
+    )  # 对生成的掩码进行高斯模糊处理，细节处减少噪点
+    mask_indices = mask == 255  # 获取掩码中所有白色像素的索引，160~255以全部重置为255
+    img[mask_indices] = [255, 255, 255]  # 使用掩码将原始图片中的水印区域设置为纯白色
+    # quality = [int(cv2.IMWRITE_JPEG_QUALITY), 100]  # 保存为最高质量（100）
+    # cv2.imwrite('clean.jpg', img, quality)
+    return img
+
+
+def pdf_to_images(pdf_path, dpi=300):
+    pdf_document = fitz.open(pdf_path)
+    images = []
+
+    for page_num in range(len(pdf_document)):
+        page = pdf_document.load_page(page_num)
+        zoom = dpi / 72
+        mat = fitz.Matrix(zoom, zoom)
+        pix = page.get_pixmap(matrix=mat, alpha=False)
+        img_bytes = pix.tobytes('png')
+        img = Image.open(io.BytesIO(img_bytes))
+        images.append(img)
+
+    return images
+
+
+def images_to_pdf(images, output_pdf_path):
+    c = canvas.Canvas(output_pdf_path, pagesize=letter)
+    for img in images:
+        with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as temp_img_file:
+            img.save(temp_img_file, format='PNG')
+            temp_img_file_path = temp_img_file.name
+        c.drawImage(temp_img_file_path, 0, 0, width=letter[0], height=letter[1])
+        c.showPage()
+        os.remove(temp_img_file_path)
+    c.save()
+
+
+def process_pdf(pdf_path, output_pdf_path):
+    images = pdf_to_images(pdf_path)
+    cleaned_images = []
+
+    for img in images:
+        img_np = np.array(img)
+        cleaned_img_np = remove_watermark(img_np)
+        cleaned_img = Image.fromarray(cleaned_img_np)
+        cleaned_images.append(cleaned_img)
+
+    images_to_pdf(cleaned_images, output_pdf_path)
+    # print(f"处理完成，新的PDF已保存到{output_pdf_path}")
+
+
+'''
+# 示例使用
+pdf_path = "example.pdf"  # 你的PDF文件路径
+output_pdf_path = "cleaned_example.pdf"  # 保存处理后PDF文件的路径
+process_pdf(pdf_path, output_pdf_path)
+'''
+
+```
