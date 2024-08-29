@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+News.gg.egg-info/PKG-INFO
+News.gg.egg-info/SOURCES.txt
+News.gg.egg-info/dependency_links.txt
+News.gg.egg-info/requires.txt
+News.gg.egg-info/top_level.txt
+news/__init__.py
+news/news.py

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: News.gg
+Version: 0.0.2
+Summary: The Official News.gg Libary
+Home-page: 
+Author: Coden
+Author-email: codenrblx@gmail.com
+License: MIT
+Keywords: news
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+News.gg is a robust Python library designed to provide seamless access to the official News.gg API, an advanced alternative to GoogleNews. This library empowers developers to effortlessly integrate real-time news data into their applications, featuring optimized functions for fetching, filtering, and managing news articles. With a focus on performance and ease of use, News.gg is the ideal choice for developers seeking a reliable and efficient news API solution.
+
+Change Log
+==========
+
+0.0.1(28/8/2024)
+- Initial version.
+0.0.2(28/8/2024)
+- Changed the readme
