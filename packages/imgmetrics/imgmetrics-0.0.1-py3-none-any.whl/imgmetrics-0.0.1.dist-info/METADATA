@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: imgmetrics
+Version: 0.0.1
+Summary: An Implementation of Metrics for Image Segmentation.
+Author: zhaojianqiang
+Author-email: zhaojianqiang@foxmail.com
+License-File: LICENSE
+
