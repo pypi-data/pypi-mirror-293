@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: python-heapq
+Version: 0.0.0
+Summary: class based heap queue algorithm implemented in python
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Class Based Heapq Algorithm
+
