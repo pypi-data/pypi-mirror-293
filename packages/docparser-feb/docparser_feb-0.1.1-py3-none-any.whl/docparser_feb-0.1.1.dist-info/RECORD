@@ -1,0 +1,11 @@
+api/__init__.py,sha256=zjKQ-TQF44rSfAkS6ucWrjKaq3txDiZRPZDWeQYapOA,24
+api/functional/__init__.py,sha256=p22sPDN-7LIUJfCSCqJBDNQO72pvUh4S9HCEASqgfLw,50
+api/functional/html_parser.py,sha256=91Ws61xlVG1SSAfy3zQJxEE0sB0SG9HH7OyhNs9jMGU,2278
+api/functional/pdf_parser.py,sha256=PUBlGCyrYXhFnvKvbsgVl3y_aJho5i7HJf00yf4FWNI,5237
+src/__init__.py,sha256=eZmYKN3m0i26pd9Q57DcZtqE2TVVh8qmWm0P_gYzYoE,43
+docparser_feb-0.1.1.dist-info/LICENSE,sha256=z5sXgi0fzU_zLMvhQYM4b7Ot9vL_ktwYQTCCP3_CgXM,1087
+docparser_feb-0.1.1.dist-info/METADATA,sha256=HGjo9tiObYogyUUjmLFh2XdoXZW1yE1KmKofkxY4r9Y,4596
+docparser_feb-0.1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+docparser_feb-0.1.1.dist-info/entry_points.txt,sha256=wPnRe9ZTGq9JsLsjX_kMUfQfbICfCN4QeZ4XVxtgCqE,114
+docparser_feb-0.1.1.dist-info/top_level.txt,sha256=tTF3GQeynaeYwHX-5zpyaHktzInV4e1k4JQGGu7OPTE,8
+docparser_feb-0.1.1.dist-info/RECORD,,
