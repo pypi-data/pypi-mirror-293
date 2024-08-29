@@ -1,0 +1,10 @@
+Licence.txt
+README.md
+pyproject.toml
+setup.py
+customexcelread_1/__init__.py
+customexcelread_1/main.py
+customexcelread_1.egg-info/PKG-INFO
+customexcelread_1.egg-info/SOURCES.txt
+customexcelread_1.egg-info/dependency_links.txt
+customexcelread_1.egg-info/top_level.txt
