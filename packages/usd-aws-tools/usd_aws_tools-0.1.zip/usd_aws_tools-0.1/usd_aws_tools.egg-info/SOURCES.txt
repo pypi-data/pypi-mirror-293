@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+usd_aws_tools.egg-info/PKG-INFO
+usd_aws_tools.egg-info/SOURCES.txt
+usd_aws_tools.egg-info/dependency_links.txt
+usd_aws_tools.egg-info/top_level.txt
