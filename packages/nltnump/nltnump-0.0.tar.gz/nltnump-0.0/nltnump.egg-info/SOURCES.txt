@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+nltnump/nltnump.py
+nltnump.egg-info/PKG-INFO
+nltnump.egg-info/SOURCES.txt
+nltnump.egg-info/dependency_links.txt
+nltnump.egg-info/not-zip-safe
+nltnump.egg-info/top_level.txt
