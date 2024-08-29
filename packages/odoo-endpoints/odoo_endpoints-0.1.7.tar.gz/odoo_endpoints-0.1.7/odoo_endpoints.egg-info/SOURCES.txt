@@ -1,0 +1,9 @@
+README.md
+setup.py
+odoo_endpoints/__init__.py
+odoo_endpoints/api_exception.py
+odoo_endpoints/endpoint_wrapper.py
+odoo_endpoints.egg-info/PKG-INFO
+odoo_endpoints.egg-info/SOURCES.txt
+odoo_endpoints.egg-info/dependency_links.txt
+odoo_endpoints.egg-info/top_level.txt
