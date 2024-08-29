@@ -1,0 +1,5 @@
+pyzmq
+protobuf
+python-dotenv
+pyaudio
+pydub
