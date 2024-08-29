@@ -1,0 +1,4 @@
+[console_scripts]
+splg = splg.__main__:wrapped
+splgc = splg.prompt:wrapped
+splgd = splg.daemon:wrapped
