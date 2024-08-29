@@ -1,0 +1,12 @@
+xapian/_xapian.cpython-310-x86_64-linux-gnu.so,sha256=TegOP9bP1t2ZZKPek5xA4tacklSzd_MWCrpXC65p7nk,8535905
+xapian/__init__.cpython-310.opt-1.pyc,sha256=5YiWclz1UiOY_xoiM2YhsIjDM9d3HGKu7e-tfLrXBJ8,176113
+xapian/__init__.py,sha256=b_uiXOs00o3L8R_fybF_8V6B_1BM4CU9_6093YChpUA,184083
+xapian/__init__.cpython-310.pyc,sha256=tH1HZBbzIqF2i_jr5XZyM6Q9V431KSkynZgkdaVWEyQ,176176
+xapian_bindings_binary.libs/libuuid-3ed1ebff.so.1.3.0,sha256=58MGXxwdJktuG6z6gUmVqZPTjgDvVecH4fFinIiy4G8,34001
+xapian_bindings_binary.libs/libstdc++-496613c0.so.6.0.32,sha256=AwZhL5WFT99I2Q6vIxXOhW7qddfuOZ1xecxiP9QTVY4,3494361
+xapian_bindings_binary.libs/libgcc_s-a3a07607.so.1,sha256=5ptIUeAzZweNZrFehN0_Bb5B0FcJgux7NbAFoU8vwwo,148041
+xapian_bindings_binary.libs/libxapian-c4d783c3.so.30.13.0,sha256=s5IgVQ_MxqVw60X3wkM7MmuXOmUaP3TaTQOEoHNrdes,41648625
+xapian_bindings_binary-1.4.26.dist-info/RECORD,,
+xapian_bindings_binary-1.4.26.dist-info/WHEEL,sha256=VJF4EX-VVtwZzLnRo7Jju4LI6Zr3ZUssVCd29iTBFlg,112
+xapian_bindings_binary-1.4.26.dist-info/top_level.txt,sha256=BLYBJkrtT3m83YvnxIMOuqHD69_RaEbZgQOfTyD83sY,7
+xapian_bindings_binary-1.4.26.dist-info/METADATA,sha256=Bi6C8rhrSaqpTMQV1nnq0Tg6zRC3aXgQPIuw5d_hLgw,324
