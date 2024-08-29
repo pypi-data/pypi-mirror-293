@@ -1,0 +1,9 @@
+README.md
+setup.py
+array_prop_pack/__init__.py
+array_prop_pack/array_prop.py
+array_prop_pack.egg-info/PKG-INFO
+array_prop_pack.egg-info/SOURCES.txt
+array_prop_pack.egg-info/dependency_links.txt
+array_prop_pack.egg-info/requires.txt
+array_prop_pack.egg-info/top_level.txt
