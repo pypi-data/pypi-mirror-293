@@ -1,0 +1,56 @@
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**.py"
+      - ".github/workflows/test.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "**.py"
+      - ".github/workflows/test.yml"
+
+jobs:
+  main:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install '.[dev]'
+
+      - name: Run tests
+        env:
+          CRYPTO_CHASSIS_TRADE_TEST_FLAG: "1"
+        run: |
+          pytest tests/
+
+      - name: Run examples
+        if: runner.os != 'Windows'
+        env:
+          CRYPTO_CHASSIS_TRADE_TEST_FLAG: "1"
+        run: |
+          for file in $(find examples -name '*.py');
+          do
+              echo "Running ${file}..."
+              if ! python3 $file; then
+                  echo "Failed ${file}."
+                  exit 1
+              fi
+          done
