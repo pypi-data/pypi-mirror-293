@@ -1,0 +1,9 @@
+numpy
+shapely
+pandas
+geopandas
+pyproj
+paramiko
+xarray
+scipy
+pyyaml
