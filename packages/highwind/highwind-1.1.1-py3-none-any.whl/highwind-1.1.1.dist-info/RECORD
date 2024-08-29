@@ -1,0 +1,10 @@
+highwind/__init__.py,sha256=BsZ_XJC9DuM3zXzRimODjsk2fO5yVr9znUB1nFN6JVk,145
+highwind/client.py,sha256=zoyp0MDcaRlC_0S7UDz_zDRKv1XJNZVaCcFIX8Qc0tM,11822
+highwind/client_factory.py,sha256=e3fYxiTlwPKZA_t5yrCgGlu9o6gWV1EKMEg5fEWaCUg,1304
+highwind/deployment_inference.py,sha256=0c_JSuN65p-7YkV2xN-5YE-5VlE2JmeSvLK8ueza4WQ,1088
+highwind/gradio_app.py,sha256=B6KPzgqTL8rmgmRs-R6NtbuLdAPDM8XNztA2Cp6H_Yg,2415
+highwind/use_case.py,sha256=xmLyvQTU4UbUw6kUwJGb-1FAb3JMLJaRIRCcUPbj_Vc,1741
+highwind-1.1.1.dist-info/LICENSE,sha256=QQ1iC6tNDXMLnpi2a9Wd5tXgNZ70qSJuJ2Lu_v1An6w,1068
+highwind-1.1.1.dist-info/METADATA,sha256=N6XCfUEmrXuYCkzVO38hBFPfGtprFvMrMN_tbnkTCVA,2808
+highwind-1.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+highwind-1.1.1.dist-info/RECORD,,
