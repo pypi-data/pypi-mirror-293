@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: echocmdlib
+Version: 0.1.7
+Home-page: https://github.com/codetimothy/echocmdlib
+Author: Timothy Wu
+Author-email: wuxiaoyu1107g@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: colorama
+Requires-Dist: pyfiglet
+Requires-Dist: rich
+
+A simple and beautiful command-line interactive library, something is come from rich but more easy to use           \
+I will upload new helper later
