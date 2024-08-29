@@ -1,0 +1,6 @@
+mcodac/__init__.py,sha256=q_oQ9RqhOM3QpNMYvdTH8jxZFeCzc2t1DXFw6ELTWAw,1125
+mcodac/_mcodac.cp311-win_amd64.pyd,sha256=Uc_Ibao4c2GoICnMtBOIbonLePDHX6Rhp6leG0WO17g,8695225
+mcodac-1.2.0.dist-info/LICENSE,sha256=1FXJ_XBzB6yzQ3v_yPtze7-Ock7bHOJa996jI_3FFaM,1367
+mcodac-1.2.0.dist-info/METADATA,sha256=zW3URV_gUd0hXrEdcyP6sjbmq_YBR9KDqrZxQuXUdo8,4369
+mcodac-1.2.0.dist-info/WHEEL,sha256=-FZBVKyKauScY3vLa8vJR6hBCpAJfFykw2MOwlNKr1g,98
+mcodac-1.2.0.dist-info/RECORD,,
