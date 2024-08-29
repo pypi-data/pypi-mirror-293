@@ -1,0 +1,2 @@
+[console_scripts]
+waiter = gpu_waiter.main:main
