@@ -1,0 +1,9 @@
+salsa/SaLSA.py,sha256=a7bMjY8i1Ov-UuGg3RLUG12OxGjqfN2ooXaXpIyzuAA,10522
+salsa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+salsa/adam_sls.py,sha256=il2VZ3K9GS9IUH7zRnIzcMMKgP1haPp2NeqfmtbHjPk,12194
+salsa/sls_base.py,sha256=rq-fdLVAgMSRN9cdft48wczuLkW8lxfcFJHqNq6qpTg,9030
+SaLSa_Optimizer-0.1.0.dist-info/LICENSE,sha256=fgovuWPgD2jJk8JU6MBTDysUsZHX2gz_VqjlHQOkLaw,1064
+SaLSa_Optimizer-0.1.0.dist-info/METADATA,sha256=pnTid6wgBYAIPhoeepmLVCOL3QrphuEYlgalhVbGXkU,4006
+SaLSa_Optimizer-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+SaLSa_Optimizer-0.1.0.dist-info/top_level.txt,sha256=MJybHRGx3btY8ZbKk4jftaYhwDyOngY7103liHlxjhA,6
+SaLSa_Optimizer-0.1.0.dist-info/RECORD,,
