@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: django-er-diagram
+Version: 1.0.0
+Summary: Auto-generate Entity-Relationship Diagrams for a Django project using Mermaid
+License: MIT
+Author: David Del Grosso
+Author-email: daviddelgrosso97@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: django (>=4.2,<5.0)
+Requires-Dist: pylint-django (>=2.5.5,<3.0.0)
+Requires-Dist: pytest (>=8.3.2,<9.0.0)
+Description-Content-Type: text/markdown
+
+# django-er-diagram
+
+[![PyPI](https://img.shields.io/pypi/v/django-er-diagram.svg)](https://pypi.org/project/django-er-diagram/)
+[![Tests](https://github.com/david-delgrosso/django-er-diagram/actions/workflows/test.yml/badge.svg)](https://github.com/david-delgrosso/django-er-diagram/actions/workflows/test.yml)
+[![Changelog](https://img.shields.io/github/v/release/david-delgrosso/django-er-diagram?include_prereleases&label=changelog)](https://github.com/david-delgrosso/django-er-diagram/releases)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/david-delgrosso/django-er-diagram/blob/main/LICENSE)
+
+Auto-generate Entity-Relationship diagrams for a Django project using Mermaid
+
+## Installation
+
+Install this library using `pip`:
+```bash
+pip install django-er-diagram
+```
+## Usage
+
+Usage instructions go here.
+
+## Development
+
+To contribute to this library, first checkout the code. Then create a new virtual environment:
+```bash
+cd django-er-diagram
+python -m venv venv
+source venv/bin/activate
+```
+Now install the dependencies and test dependencies:
+```bash
+python -m pip install -e '.[test]'
+```
+To run the tests:
+```bash
+python -m pytest
+```
+
