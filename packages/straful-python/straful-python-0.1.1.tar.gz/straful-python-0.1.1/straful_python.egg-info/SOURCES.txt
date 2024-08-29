@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+straful_python/__init__.py
+straful_python/straful.py
+straful_python.egg-info/PKG-INFO
+straful_python.egg-info/SOURCES.txt
+straful_python.egg-info/dependency_links.txt
+straful_python.egg-info/requires.txt
+straful_python.egg-info/top_level.txt
