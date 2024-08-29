@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+httpx
+pydantic
+sqlalchemy
+typer
+magika
+pydantic-settings
+typesense
+opencv-python
+pillow
+piexif
