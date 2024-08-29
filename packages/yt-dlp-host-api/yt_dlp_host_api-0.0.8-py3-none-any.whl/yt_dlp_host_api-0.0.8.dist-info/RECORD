@@ -1,0 +1,10 @@
+yt_dlp_host_api/__init__.py,sha256=RHx1BvH2Cy_dweEKo5sA-hdBOfBdY_2ds7srPuKGzWQ,41
+yt_dlp_host_api/api.py,sha256=iLzWKoyiXeu0Y1Uky8PzpxxHTSMcTGzxlCRT121AKcM,196
+yt_dlp_host_api/client.py,sha256=TDyzpKwhTqwi_Ob3oV3KCweZG-GDolPo6FFcdR_h0UE,3581
+yt_dlp_host_api/exceptions.py,sha256=U_70W1R_ZcUfKptUShGB5VPWQXwc5M29_sNC8pwwq8g,38
+yt_dlp_host_api/task.py,sha256=llgBAO_L1CajklMsbICdRpLdOV05Wi0oUh9NKj0bD0w,2674
+yt_dlp_host_api-0.0.8.dist-info/LICENSE,sha256=-_Ad_xue4UymJ8jO-ZsSg0vmZ6SUm8WYdoEwHLyBUlc,1078
+yt_dlp_host_api-0.0.8.dist-info/METADATA,sha256=I3nTkfbB2BVY9nStph5DrHVDQoLQ9JQdLItbYLCqnFA,3496
+yt_dlp_host_api-0.0.8.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+yt_dlp_host_api-0.0.8.dist-info/top_level.txt,sha256=Mn3FZuqLCHr47sRjhtEOz7lDl4lpsHkymWANORYp72s,16
+yt_dlp_host_api-0.0.8.dist-info/RECORD,,
