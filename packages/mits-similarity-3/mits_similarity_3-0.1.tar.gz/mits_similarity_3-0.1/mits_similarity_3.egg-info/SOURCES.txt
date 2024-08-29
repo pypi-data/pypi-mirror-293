@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mits_similarity_3/__init__.py
+mits_similarity_3/hamming_distance.py
+mits_similarity_3/jaccard_coefficient.py
+mits_similarity_3/overlap_coefficient.py
+mits_similarity_3.egg-info/PKG-INFO
+mits_similarity_3.egg-info/SOURCES.txt
+mits_similarity_3.egg-info/dependency_links.txt
+mits_similarity_3.egg-info/top_level.txt
