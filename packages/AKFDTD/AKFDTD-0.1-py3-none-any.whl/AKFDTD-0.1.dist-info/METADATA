@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: AKFDTD
+Version: 0.1
+Summary: Finite difference time domain simulation (for slit diffraction)
+Home-page: http://avkor.epizy.com
+Author: Alexander V. Korovin
+Author-email: a.v.korovin73@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# AV FDTD
+
+version=0.1
+
+author Alexander V. Korovin [a.v.korovin73@gmail.com, http://avkor.epizy.com]
+
+## Overview
+
+**AV FDTD** is a Python package designed for finite difference time domain (FDTD) simulation. It allows you to test slit diffraction.
+
+## Features
+
+- **PML**: implementation of perfectly matched boundary layers.
+
+## Installation
+
+You can install **AVFDTD** using `pip`. To install the latest version from PyPI, use:
+
+```bash
+pip install AVFDTD
+
+
+
+
