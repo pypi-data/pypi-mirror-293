@@ -1,0 +1,7 @@
+vitar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vitar/cross_attn.py,sha256=cByEbkfhCNjKPuIt8EbbC1hAjSJxrfVA0hbgtbQLwc4,3077
+vitar/main.py,sha256=-SiMXV9ds1V93WuXw5yx7bJ3uyxinSCLXiQprjRPEeQ,5193
+vitar-0.0.1.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+vitar-0.0.1.dist-info/METADATA,sha256=HjXYqdbAZfYLpiHaAhaL8WzzcPxYTfHi6-KGm4ZW6RI,2714
+vitar-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vitar-0.0.1.dist-info/RECORD,,
