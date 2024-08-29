@@ -1,0 +1,3 @@
+include *
+recursive-include beta_dia_test *
+recursive-exclude */__pycache__ *
