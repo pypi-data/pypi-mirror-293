@@ -1,0 +1,18 @@
+Changelog
+=========
+
+0.2.1
+-----
+- Using psycopg2-binary instead of psycopg2
+
+0.2.0
+-----
+- SQLAlchemy 2.0 Support
+
+0.1.0
+-----
+- SQLAlchemy 1.4 Support
+
+0.0.1
+-----
+- Initial version
