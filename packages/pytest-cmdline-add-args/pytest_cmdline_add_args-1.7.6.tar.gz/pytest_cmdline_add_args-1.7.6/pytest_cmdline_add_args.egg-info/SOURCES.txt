@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+cmdline_add_args/__init__.py
+cmdline_add_args/__main__.py
+cmdline_add_args/allure_report_path.py
+cmdline_add_args/plugin.py
+pytest_cmdline_add_args.egg-info/PKG-INFO
+pytest_cmdline_add_args.egg-info/SOURCES.txt
+pytest_cmdline_add_args.egg-info/dependency_links.txt
+pytest_cmdline_add_args.egg-info/entry_points.txt
+pytest_cmdline_add_args.egg-info/top_level.txt
