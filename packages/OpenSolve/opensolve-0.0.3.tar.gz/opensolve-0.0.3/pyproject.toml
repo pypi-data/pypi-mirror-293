@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "OpenSolve"
+version = "0.0.3"
+authors = [
+	{ name="Greg Hauser", email="greg@open-solve.com" },
+]
+description = "The Python client for the OpenSolve linear optimization solver service."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+	"requests",
+]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.sdist]
+include = [
+	"src/OpenSolve/Client.py",
+	"src/OpenSolve/randomNames.py",
+	"src/OpenSolve/__init__.py"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/OpenSolve"]
+
+[project.urls]
+Homepage = "https://open-solve.com"
+Issues = "https://github.com/greg-open-solve/OpenSolveClient"
