@@ -1,0 +1,7 @@
+pythoncfs-0.1.2.dist-info/RECORD,,
+pythoncfs-0.1.2.dist-info/WHEEL,sha256=RavhnXIijediLc00KudACr9W_vpb1wf3lla4egTApgk,117
+pythoncfs-0.1.2.dist-info/METADATA,sha256=62vzKvbMyv02KsJ93lMkZKxzr86P7m8jn4YzVFFsnbs,3390
+pythoncfs-0.1.2.dist-info/licenses/LICENSE.txt,sha256=kA_x1T7LIVRGGFruuh-mZGqChix4SATsuucAfYGpMk4,1079
+CFS/_routines.cpython-310-x86_64-linux-gnu.so,sha256=Zq9DCYDJ5YtoRbkqcNqINY9YVht4MRIGux-8T08eANI,101856
+CFS/CFSFile.cpython-310-x86_64-linux-gnu.so,sha256=_qUY6enl-zp7cxj6LUOEe_YmQ_IoBqGNQORVohM_cJ0,106592
+CFS/_constants.cpython-310-x86_64-linux-gnu.so,sha256=ojY37FLSX8bcHMXKMgx2NaJsyctvxcYFC2QYAJbx2fA,131200
