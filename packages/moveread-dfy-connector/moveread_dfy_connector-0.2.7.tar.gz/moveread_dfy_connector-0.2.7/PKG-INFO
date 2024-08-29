@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: moveread-dfy-connector
+Version: 0.2.7
+Summary: Daemons to connect Moveread DFY and the pipeline
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/dfy-pipeline.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: moveread-dfy
+Requires-Dist: moveread-pipelines-dfy
+Requires-Dist: haskellian
+Requires-Dist: pure-cv
+Requires-Dist: sqlmodel
+Requires-Dist: dslog
+Requires-Dist: psycopg2-binary
+Requires-Dist: python-kv
+Requires-Dist: scoresheet-models
+
+# Dfy Connector
+
+> Daemons to connect Moveread DFY and the pipeline

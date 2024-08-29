@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/moveread/dfy_connector/__init__.py
+src/moveread/dfy_connector/__init__.pyi
+src/moveread/dfy_connector/pull.py
+src/moveread/dfy_connector/push.py
+src/moveread/dfy_connector/scripts/__init__.py
+src/moveread/dfy_connector/scripts/pull.py
+src/moveread/dfy_connector/scripts/push.py
+src/moveread_dfy_connector.egg-info/PKG-INFO
+src/moveread_dfy_connector.egg-info/SOURCES.txt
+src/moveread_dfy_connector.egg-info/dependency_links.txt
+src/moveread_dfy_connector.egg-info/entry_points.txt
+src/moveread_dfy_connector.egg-info/requires.txt
+src/moveread_dfy_connector.egg-info/top_level.txt

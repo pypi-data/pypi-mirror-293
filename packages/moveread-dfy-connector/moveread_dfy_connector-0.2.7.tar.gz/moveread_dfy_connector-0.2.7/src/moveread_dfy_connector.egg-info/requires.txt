@@ -1,0 +1,9 @@
+moveread-dfy
+moveread-pipelines-dfy
+haskellian
+pure-cv
+sqlmodel
+dslog
+psycopg2-binary
+python-kv
+scoresheet-models

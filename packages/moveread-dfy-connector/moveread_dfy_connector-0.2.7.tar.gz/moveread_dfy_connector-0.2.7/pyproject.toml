@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moveread-dfy-connector"
+version = "0.2.7"
+authors = [
+  {name="Marcel Claramunt", email="marcel@moveread.com"}
+]
+description = "Daemons to connect Moveread DFY and the pipeline"
+dependencies = [
+  "moveread-dfy", "moveread-pipelines-dfy", "haskellian", "pure-cv",
+  "sqlmodel", "dslog", "psycopg2-binary", "python-kv", "scoresheet-models"
+]
+requires-python = ">=3.10"
+readme = {file="README.md", content-type="text/markdown"}
+
+[project.urls]
+repo = "https://github.com/moveread/dfy-pipeline.git"
+
+[project.scripts]
+dfy-puller = "moveread.dfy_connector.scripts.pull:main"
+dfy-pusher = "moveread.dfy_connector.scripts.push:main"
