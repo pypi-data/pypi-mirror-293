@@ -1,0 +1,3 @@
+[console_scripts]
+gitleaks = setup_security_tools.install_tools:gitleaks
+install-security-package-tools = setup_security_tools.install_tools:main
