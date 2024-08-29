@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+print2web/__init__.py
+print2web.egg-info/PKG-INFO
+print2web.egg-info/SOURCES.txt
+print2web.egg-info/dependency_links.txt
+print2web.egg-info/requires.txt
+print2web.egg-info/top_level.txt

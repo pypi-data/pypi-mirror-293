@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: print2web
+Version: 0.0.1
+Summary: The package final name is httpout.
+Author-email: nggit <contact@anggit.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/nggit/httpout
+Project-URL: Source, https://github.com/nggit/httpout
+Project-URL: Funding, https://github.com/sponsors/nggit
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# print2web
+The package final name is httpout.
+
+## Install
+```
+python3 -m pip install --upgrade httpout
+```
