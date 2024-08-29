@@ -1,0 +1,14 @@
+CODEOWNERS
+LICENSE
+README.md
+REUSE.toml
+pyproject.toml
+tox.ini
+LICENSES/Apache-2.0.txt
+src/PyocdLibrary/__init__.py
+src/PyocdLibrary/__version__.py
+src/robotframework_pyocd.egg-info/PKG-INFO
+src/robotframework_pyocd.egg-info/SOURCES.txt
+src/robotframework_pyocd.egg-info/dependency_links.txt
+src/robotframework_pyocd.egg-info/requires.txt
+src/robotframework_pyocd.egg-info/top_level.txt
