@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: gp-flask-ext
+Version: 0.0.3
+Summary: flask extension for gp
+Author: hil
+Author-email: hil@carota.ai
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: loguru
+Requires-Dist: requests
+Provides-Extra: full
+Requires-Dist: protobuf ; extra == 'full'
+Requires-Dist: paho-mqtt ; extra == 'full'
+
+# gp-flask-ext
+
+开放项目, 用于扩展flask框架.
+
+## 构建
+    
+```bash
+# Build wheel
+pip install build
+python -m build --wheel .
+
+# Upload to pypi
+pip install twine
+twine upload dist/*
+```
+
+## 安装
+
+```bash
+pip install gp-flask-ext
+```
+
+## 使用
+
+```python
+from flask import Flask
+from gp_flask_ext import flask_gitlab_oauth, flask_nocodb
+
+app = Flask(__name__)
+
+flask_nocodb.init(app {
+    'url': 'http://localhost:8080',
+    'api_token': 'your-api-token',
+    'project_id': 'your-project-id'
+})
+
+flask_gitlab_oauth.init(app, {
+    'client_id': 'your-client-id',
+    'client_secret': 'your-client-secret',
+    'redirect_uri': 'http://localhost:5000/oauth/callback',
+    'gitlab_url': 'https://gitlab.com',
+    'scope': 'api'
+})
+```
+
