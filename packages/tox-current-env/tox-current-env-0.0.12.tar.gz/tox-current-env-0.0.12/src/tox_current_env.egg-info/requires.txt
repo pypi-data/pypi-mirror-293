@@ -1,0 +1,10 @@
+tox>=3.24
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[tests]
+pytest
+pytest-xdist
+packaging
+virtualenv<20.22
