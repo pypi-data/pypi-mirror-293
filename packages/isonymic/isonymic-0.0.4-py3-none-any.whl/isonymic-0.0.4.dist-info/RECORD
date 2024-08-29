@@ -1,0 +1,13 @@
+isonymic/__init__.py,sha256=R2VQRrw6QUU-Wud6aEmZAyOem8_LFTFXvTqJqrZ2V2M,48
+isonymic/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isonymic/src/cleaning.py,sha256=ayto9N7_AejErijJjdk8Hfg1SCAupYw--tw53YbYaUo,2210
+isonymic/src/indicators.py,sha256=bMqjJpELF7zaCFjLZi4SraCIwmxzFB0_LzFn_wWRFg0,9748
+isonymic/src/utils.py,sha256=pNo4xm4pyAkhbjJjSxgfR43aclF682Eb1PQJ7AbgM-U,19138
+isonymic/src/vis.py,sha256=5Nm0phH0MFdFc7Am1k-RvCawdMfUb1lJCO4CwU5eVNw,5443
+isonymic/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isonymic/tests/test_get_isonymy.py,sha256=FUec22jmbMyjGAbPNLskL6Xw4kMeOZJGZYX_o35VYqY,297
+isonymic-0.0.4.dist-info/LICENCE.txt,sha256=NH8-UmkFMKLQrPrvLLFJDajsSPIhsPyYUiDZEpFeu1o,1067
+isonymic-0.0.4.dist-info/METADATA,sha256=lWBUDuHeVXdF-Tq929g_N6hp7OIwjYy6D0_OCCO56Io,2002
+isonymic-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+isonymic-0.0.4.dist-info/top_level.txt,sha256=q0XavNL6L85_BkXMMAgfudNUgGLFDL5yI-PrcA9NgQQ,9
+isonymic-0.0.4.dist-info/RECORD,,
