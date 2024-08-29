@@ -1,0 +1,162 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "president"
+description = "Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten"
+version = "121"
+authors = [
+    {name = "Bart Thate", email = "bthate@dds.nl" },
+]
+readme = "README.rst"
+license = { text="Public Domain"}
+classifiers=[
+             'Development Status :: 3 - Alpha',
+             'License :: Public Domain',
+             'Operating System :: Unix',
+             'Programming Language :: Python',
+             'Topic :: Utilities'
+            ]
+
+[project.scripts]
+"president"  = "president.__main__:wrapped"
+"presidentc" = "president.prompt:wrapped"
+"presidentd" = "president.daemon:wrapped"
+
+
+
+[project.urls]
+"home" = "https://pypi.org/project/president"
+"bugs" = "https://github.com/bthate/president/issues"
+"source" = "https://github.com/bthate/president"
+
+
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools]
+packages = [
+            "president",
+            "president.modules"
+           ]
+zip-safe = true
+
+
+[tool.setuptools.data-files]
+"share/doc/president" = [
+                         "docs/about.rst",
+                         "docs/conf.py",
+                         "docs/index.rst",
+                         "docs/manual.rst",
+                         "docs/nederland2.jpg",
+                         "docs/robots.txt",
+                         "docs/skull.png",
+                         "docs/source.rst",
+                         "docs/Wetboek-van-Strafrecht.txt",
+                         "docs/aangifte.rst",
+                         "docs/aantallen.rst",
+                         "docs/absoluut.rst",
+                         "docs/bedreiging.rst",
+                         "docs/beuker.rst",
+                         "docs/BIJWERKING",
+                         "docs/bijwerkingen.rst",
+                         "docs/clozapine.rst",
+                         "docs/CONTACT",
+                         "docs/contact.rst",
+                         "docs/dodelijk.rst",
+                         "docs/DOPAMINE",
+                         "docs/echt.rst",
+                         "docs/ernstig.rst",
+                         "docs/evrm.rst",
+                         "docs/fact.rst",
+                         "docs/gif.rst",
+                         "docs/greffe.rst",
+                         "docs/hoogeraad.rst",
+                         "docs/igz.rst",
+                         "docs/index.rst",
+                         "docs/kamerbrief2.rst",
+                         "docs/kamerbrief3.rst",
+                         "docs/kamerbrief.rst",
+                         "docs/kamerbrief.rst",
+                         "docs/ld50.rst",
+                         "docs/leven.rst",
+                         "docs/loggen.rst",
+                         "docs/MADS",
+                         "docs/minister.rst",
+                         "docs/misdrijf.rst",
+                         "docs/mishandeling.rst",
+                         "docs/nederland2.jpg",
+                         "docs/notworking.rst",
+                         "docs/om.rst",
+                         "docs/ONTWENNING",
+                         "docs/oorzaak.rst",
+                         "docs/opzet2.rst",
+                         "docs/pad.rst",
+                         "docs/realtweedekamer.rst",
+                         "docs/receptoren.rst",
+                         "docs/recht.rst",
+                         "docs/risico.rst",
+                         "docs/schadelijk.rst",
+                         "docs/sedatie.rst",
+                         "docs/strafrecht.rst",
+                         "docs/symptomen.rst",
+                         "docs/todo.rst",
+                         "docs/toxic.rst",
+                         "docs/tussenkomst.rst",
+                         "docs/uitspraak.rst",
+                         "docs/urls.rst",
+                         "docs/VERGIFTIGING",
+                         "docs/vergiftiging.rst",
+                         "docs/vervolgen.rst",
+                         "docs/verzoek.rst",
+                         "docs/Wetboek-van-Strafrecht.txt",
+                         "docs/wet.rst",
+                         "docs/wvggz.rst",
+                         "docs/WvGGZ.rst",
+                         "docs/WvGGZ.txt",
+                         "docs/zyprexa.rst",
+                         "docs/20140730_011.jpg",
+                         "docs/20151028_009.jpg",
+                         "docs/20151029_004.jpg",
+                         "docs/69389.jpg",
+                         "docs/absoluut2.jpg",
+                         "docs/aesculaap.ico",
+                         "docs/aes.ico",
+                         "docs/bart2.jpg",
+                         "docs/bart.jpg",
+                         "docs/besloten.jpg",
+                         "docs/fact.jpg",
+                         "docs/geinformeerd.jpg",
+                         "docs/gelijk2.jpg",
+                         "docs/haarmaken.jpg",
+                         "docs/igz.jpg",
+                         "docs/minister.jpg",
+                         "docs/nalatig.jpg",
+                         "docs/nederland2.jpg",
+                         "docs/neurotoxisch.jpg",
+                         "docs/stoned2.jpg",
+                         "docs/tussenkomst.jpg",
+                         "docs/verbod.jpg"
+                        ]
+
+
+"share/doc/president/_static" = [
+                                 "docs/_static/president.css",
+                                ]
+
+
+"share/doc/president/_templates" = [
+                                    "docs/_templates/base.rst",
+                                    "docs/_templates/class.rst",
+                                    "docs/_templates/module.rst"
+                                   ]
+
+[tool.setuptools.exclude-package-data]
+"*" = [
+       "env*",
+       "html*",
+       "test*"
+      ]

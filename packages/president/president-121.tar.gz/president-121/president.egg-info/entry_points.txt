@@ -1,0 +1,4 @@
+[console_scripts]
+president = president.__main__:wrapped
+presidentc = president.prompt:wrapped
+presidentd = president.daemon:wrapped
