@@ -1,0 +1,11 @@
+tcpw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcpw/__main__.py,sha256=K06gD4_1rh8tvp0ArribDy2jL0Wb-wUecCWbxVFSo1I,332
+tcpw/tcpw-aarch64,sha256=lvjo9qYvg1wFgT2eK6QphDufbEhztYkF6poFkLCQLfQ,844160
+tcpw/tcpw-armv7l,sha256=rSPDlZQHjlB5nUoOzDkS5yyBI3qjxWD658_qvA_9Oec,832292
+tcpw/tcpw-x86_64,sha256=7e2ZviotIpVMmIg6onL9O_vVe7XBpQTaaJmH4d62gG4,901700
+tcpw-0.1.1.dist-info/LICENSE,sha256=2oq06IBKL2V_QOiVku6qRHBgDr3masx2hopWHdW8I-U,1056
+tcpw-0.1.1.dist-info/METADATA,sha256=jB6MBODyCB8XvY9vE1UkjGExHEfbWLRV9OnWIZ_5kzg,4029
+tcpw-0.1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+tcpw-0.1.1.dist-info/entry_points.txt,sha256=bglxSSXBRMIf19LwX2a5omNsO_ST6yRvIrzpw_88pxI,44
+tcpw-0.1.1.dist-info/top_level.txt,sha256=Y8N-ktN8BeTYYHS8HfF8S0l7ovzSX3RWBVlxmxfHfJk,5
+tcpw-0.1.1.dist-info/RECORD,,
