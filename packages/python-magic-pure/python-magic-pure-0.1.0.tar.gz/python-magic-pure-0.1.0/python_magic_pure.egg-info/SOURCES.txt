@@ -1,0 +1,9 @@
+README.md
+setup.py
+magic/__init__.py
+python_magic_pure.egg-info/PKG-INFO
+python_magic_pure.egg-info/SOURCES.txt
+python_magic_pure.egg-info/dependency_links.txt
+python_magic_pure.egg-info/not-zip-safe
+python_magic_pure.egg-info/requires.txt
+python_magic_pure.egg-info/top_level.txt
