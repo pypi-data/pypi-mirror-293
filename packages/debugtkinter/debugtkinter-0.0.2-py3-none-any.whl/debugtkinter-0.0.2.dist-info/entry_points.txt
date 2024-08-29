@@ -1,0 +1,2 @@
+[console_scripts]
+debugtkinter = debugtkinter.__main__:funny_addition
