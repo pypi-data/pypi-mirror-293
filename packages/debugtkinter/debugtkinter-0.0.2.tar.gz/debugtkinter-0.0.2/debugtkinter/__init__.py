@@ -1,0 +1,1 @@
+from .debugtkinter import funny_addition
