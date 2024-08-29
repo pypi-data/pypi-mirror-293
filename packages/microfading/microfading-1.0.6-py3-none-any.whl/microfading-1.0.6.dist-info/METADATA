@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: microfading
+Version: 1.0.6
+Summary: Package to manipulate microfading data
+Author-email: Gauthier Patin <g.patin@monemail.com>
+Project-URL: Homepage, https://github.com/g-patin/microfading
+Keywords: microfading,light-induced colour change,accelerated ageing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colour-science==0.4.4
+Requires-Dist: seaborn==0.12.2
+Requires-Dist: uncertainties
+Requires-Dist: matplotlib
+Requires-Dist: pandas==2.0.3
+
+# microfading
+Package to manipulate microfading data
