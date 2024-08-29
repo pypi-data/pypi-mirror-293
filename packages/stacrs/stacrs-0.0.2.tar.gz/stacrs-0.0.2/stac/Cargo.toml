@@ -1,0 +1,38 @@
+[package]
+name = "stac"
+version = "0.8.0"
+authors = ["Pete Gadomski <pete.gadomski@gmail.com>"]
+edition = "2021"
+description = "Rust library for the SpatioTemporal Asset Catalog (STAC) specification"
+homepage = "https://github.com/stac-utils/stac-rs"
+repository = "https://github.com/stac-utils/stac-rs"
+license = "MIT OR Apache-2.0"
+keywords = ["geospatial", "stac", "metadata", "geo", "raster"]
+categories = ["science", "data-structures"]
+readme = "README.md"
+
+[features]
+gdal = ["dep:gdal", "dep:gdal-sys"]
+geo = ["dep:geo"]
+reqwest = ["dep:reqwest"]
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+gdal = { version = "0.17", optional = true }
+gdal-sys = { version = "0.10", optional = true }
+geo = { version = "0.28", optional = true }
+geojson = { version = "0.24" }
+log = { version = "0.4" }
+reqwest = { version = "0.12", optional = true, features = ["json", "blocking"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+thiserror = "1"
+url = "2"
+
+[dev-dependencies]
+assert-json-diff = "2"
+rstest = "0.22"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
