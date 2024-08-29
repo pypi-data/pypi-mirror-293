@@ -1,0 +1,8 @@
+README.md
+setup.py
+readme_gen/__init__.py
+readme_gen/generator.py
+readme_gen.egg-info/PKG-INFO
+readme_gen.egg-info/SOURCES.txt
+readme_gen.egg-info/dependency_links.txt
+readme_gen.egg-info/top_level.txt

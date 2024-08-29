@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: readme_gen
+Version: 0.1
+Summary: A simple package to generate README files for projects automatically.
+Home-page: https://github.com/Eshaniqbal/Readme_gen-Package
+Author: Eshan Iqbal
+Author-email: mireshan321@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# README Generator
+
+A simple Python package to generate README files for projects automatically.
+
+## Features
+
+- Automatically generates README files with customizable content.
+
+## Installation
+
+```bash
+pip install readme_gen
+```
+
+## Usage
+
+```python
+from readme_gen import generate_readme
+
+generate_readme(
+    project_name="My Awesome Project",
+    description="This project is awesome because...",
+    installation_instructions="pip install -r requirements.txt",
+    usage_instructions="python main.py",
+    license_info="MIT License"
+)
+```
+
+## License
+
+MIT License
