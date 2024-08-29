@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: odoo-endpoints
+Version: 0.1.2
+Summary: A package to unify odoo endpoints responses templates
+Home-page: https://github.com/MED-B/odoo_endpoint.git
+Author: MED-B
+Author-email: mohmed.khellaf@gmail.com
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
