@@ -1,0 +1,12 @@
+fldpln/__init__.py,sha256=9kGy1pvNKLWG5DxY3j7m5NLP7MCvYvo3IBsWXqPoRhY,115
+fldpln/common.py,sha256=bvuVvTRS4UKhscTMLyikMT1eURU8W7smTWmqj6_WmAA,3559
+fldpln/fldpln.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+fldpln/gauge.py,sha256=ybxJRnEVqXOLJBJK1fcfL9PIXvuWrN6A_N6Aq-Hje-4,52349
+fldpln/mapping.py,sha256=ISQCSdac91kzdxdUA_wLWRtWevfMunGAPS7CuanaMRk,88622
+fldpln/tile.py,sha256=TSMPMvLITkipSPQwF20zJVta9_wSoMJ9k95V6Q4cFnA,36056
+fldpln-0.0.2.dist-info/LICENSE,sha256=kNCSUVZM2ATwttN-aZ0FZ3PnHxxNF0sj2Vl5ZCfrsVQ,1069
+fldpln-0.0.2.dist-info/METADATA,sha256=Rky4wctbOo2hAvuv7XmayUZfvKINXM7AyWA2H7V-APY,1497
+fldpln-0.0.2.dist-info/WHEEL,sha256=WDDPHYzpiOIm6GP1C2_8y8W6q16ICddAgOHlhTje9Qc,109
+fldpln-0.0.2.dist-info/entry_points.txt,sha256=pVjV1pWDsIm_YLbg1EsdXmQZitNmuSG4uxuRSRElYkM,43
+fldpln-0.0.2.dist-info/top_level.txt,sha256=DK4IS2HnwzCn4VurNaFuXevqyROotM8PQtdmfAzx7-Y,7
+fldpln-0.0.2.dist-info/RECORD,,
