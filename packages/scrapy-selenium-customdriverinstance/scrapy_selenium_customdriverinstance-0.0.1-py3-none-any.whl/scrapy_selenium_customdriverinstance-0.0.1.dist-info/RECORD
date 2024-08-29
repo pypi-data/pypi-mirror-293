@@ -1,0 +1,8 @@
+scrapy_selenium_customdriverinstance/__init__.py,sha256=MZQxaHeE3F0_04TDTjc_mW4F2Z32Ru32hPkil77Lr3k,80
+scrapy_selenium_customdriverinstance/http.py,sha256=sobo4eqPWY1sXZRTWqYu4aCMhOjPCDIl3M4zzzCBbJo,1092
+scrapy_selenium_customdriverinstance/middlewares.py,sha256=bZtdh9MH8aPLsg_ubls5U6t7OwUijQs0gOmLNhwGkys,5695
+scrapy_selenium_customdriverinstance-0.0.1.dist-info/LICENCE,sha256=lDCWHCXeOJIfc28GrYR1mZeG6Yy0W5hL7aNO-8qf-vE,509
+scrapy_selenium_customdriverinstance-0.0.1.dist-info/METADATA,sha256=X9aRWVlRLpM-FoUOZ1YrUEj7eHI7wuDueW7CH-a1F9w,5220
+scrapy_selenium_customdriverinstance-0.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+scrapy_selenium_customdriverinstance-0.0.1.dist-info/top_level.txt,sha256=yFMWfbzcaHrppdlDp-fw5vi3CIdDkDVUOUpPv-BW4-U,37
+scrapy_selenium_customdriverinstance-0.0.1.dist-info/RECORD,,
