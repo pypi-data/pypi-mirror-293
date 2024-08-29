@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "zdppy-mcrud"
+version = "0.1.0"
+description = "Python操作MySQL常用增删改查操作的低代码框架"
+authors = ["张大鹏 <1156956636@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
