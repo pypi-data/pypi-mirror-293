@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+vref_util/__init__.py
+vref_util/verse.py
+vref_util/verse_list.py
+vref_util/versification.py
+vref_util/vref.py
+vref_util/vref.txt
+vref_util.egg-info/PKG-INFO
+vref_util.egg-info/SOURCES.txt
+vref_util.egg-info/dependency_links.txt
+vref_util.egg-info/top_level.txt
