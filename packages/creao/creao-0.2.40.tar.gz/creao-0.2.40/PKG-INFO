@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: creao
+Version: 0.2.40
+Summary: A description of your project
+Home-page: https://creao@dev.azure.com/creao/creao/_git/creao
+Author: creaoai
+Author-email: dev@creao.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# creao
+
+* beta pacakge
+
