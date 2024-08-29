@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: sahi_processor
+Version: 0.0.1
+Summary: Using SAHI as a pre and post processing step
+Author: Ernest Lim
+Project-URL: Homepage, https://github.com/ernestlwt/sahi_processor
+Project-URL: Issues, https://github.com/ernestlwt/sahi_processor/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sahi >=0.11.10
+
+# SAHI_processor
+Using SAHI as a pre and post processing step
+
+## Impetus
+To make it easier to use sahi without changes to the main model inference code.
+
+## How to use
+Install package with 
+```
+pip install sahi_processor
+```
+
+Sample usage
+```
+from sahi_processor.sahi_processor import SAHIProcessor
+
+processor = SAHIProcessing()
+batched_images = processor.get_slice_batches(list_of_images, model_batchsize=batchsize)
+
+# run batched_images through your model and output predictions
+# combine all batch of predictions into  List[List[l, t, r, b, score, class_id]]
+
+results = processor.run_sahi_algo(list_of_images, predictions)
+```
+
+## Format for predictions
+```
+# List of images predictions
+[
+    [ 
+        [l, t, r, b, score, class_id],
+        [l, t, r, b, score, class_id], ...
+    ],...
+]
+```
