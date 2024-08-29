@@ -1,0 +1,9 @@
+auto_backup_storage/__init__.py,sha256=WCM1AdTSBdybrHJCenCyV2q6GGtTFcUnUS7ZHDTTAAM,112
+auto_backup_storage/auto_backup_storage.py,sha256=sl4epIbS3zRQI9CP7O-3_GzfdbZX9lpYj5QoBPSNDz0,15905
+auto_backup_storage/cli.py,sha256=tLABzLb0cXDkT9XuAgMvv5bTdjkfkrcJbGkzoVUh2-Y,593
+auto_backup_storage-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+auto_backup_storage-0.1.6.dist-info/METADATA,sha256=Pb9VeEuKPKaI_jC0vYsSwjXMExuSjHmD-1XaoWcBf-M,3848
+auto_backup_storage-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+auto_backup_storage-0.1.6.dist-info/entry_points.txt,sha256=i7u32Zv1w2uGDXfnii_Mv1jqNUAkubRYid8uWcArxWY,71
+auto_backup_storage-0.1.6.dist-info/top_level.txt,sha256=tqdyH_rw_uDYkTIKVfSkzdrFsLqEPYjUnJOpVXPfMmE,20
+auto_backup_storage-0.1.6.dist-info/RECORD,,
