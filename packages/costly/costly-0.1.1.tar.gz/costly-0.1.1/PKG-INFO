@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: costly
+Version: 0.1.1
+Summary: Estimate costs of complex LLM workflows in advance before spending money
+Author: abhimanyu
+Author-email: abhimanyupallavisudhir@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Faker (>=28.0.0,<29.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: tiktoken (>=0.7.0,<0.8.0)
+Requires-Dist: typing-extensions (>=4.12.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# costly
+Estimate costs of complex LLM workflows in advance before spending money, via simulations. Just put `@costly()` on the load-bearing function (provided it has the right type signature); make sure all functions that call it pass `**kwargs` to it and call your complex function with `simulate=True` and some `cost_log: Costlog` object. See [examples.ipynb](examples.ipynb) for more details.
+
+## Installation
+
+```bash
+pip install costly
+```
+
+## Usage
+
+See [examples.ipynb](examples.ipynb) for a quick walkthrough.
+
