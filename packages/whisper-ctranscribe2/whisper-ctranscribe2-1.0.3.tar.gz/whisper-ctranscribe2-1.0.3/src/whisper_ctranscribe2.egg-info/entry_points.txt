@@ -1,0 +1,3 @@
+[console_scripts]
+whisper-ctranscribe2 = whisper_ctranscribe2.whisper_ctranscribe2:main
+
