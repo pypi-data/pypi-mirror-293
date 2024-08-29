@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: News.gg
+Version: 0.0.1
+Summary: The Official News.gg Libary
+Home-page: 
+Author: Coden
+Author-email: codenrblx@gmail.com
+License: MIT
+Keywords: news
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a test official
+
+Change Log
+==========
+
+0.0.1(28/8/2024)
+- Initial version.
