@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+imgmetrics.egg-info/PKG-INFO
+imgmetrics.egg-info/SOURCES.txt
+imgmetrics.egg-info/dependency_links.txt
+imgmetrics.egg-info/top_level.txt
+segmetrics/__init__.py
