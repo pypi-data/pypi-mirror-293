@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sentok/__init__.py
+sentok/main.py
+sentok/sentok_weights.py
+sentok.egg-info/PKG-INFO
+sentok.egg-info/SOURCES.txt
+sentok.egg-info/dependency_links.txt
+sentok.egg-info/requires.txt
+sentok.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
