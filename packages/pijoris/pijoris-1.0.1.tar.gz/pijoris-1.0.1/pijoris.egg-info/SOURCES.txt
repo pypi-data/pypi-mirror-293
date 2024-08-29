@@ -1,0 +1,9 @@
+README.md
+setup.py
+pijoris/__init__.py
+pijoris/main.py
+pijoris.egg-info/PKG-INFO
+pijoris.egg-info/SOURCES.txt
+pijoris.egg-info/dependency_links.txt
+pijoris.egg-info/entry_points.txt
+pijoris.egg-info/top_level.txt
