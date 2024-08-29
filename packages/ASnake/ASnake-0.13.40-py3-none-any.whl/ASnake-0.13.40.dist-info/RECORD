@@ -1,0 +1,12 @@
+ASnake/ASnake.py,sha256=fr406hesTMY-tIdN9V5wVNO163pzOf3Azo8_cuF3txQ,545604
+ASnake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ASnake/__main__.py,sha256=bzIazYF49UTEfuxKsJwls7rW9zga-9opk_n3Yq29acc,20281
+ASnake/data/ASnakeAlias.bat,sha256=78trtjWvL-PwN-Q22gEiHDqUK-Ku2U1K_-suzXg3klA,58
+ASnake/data/megaTest.asnake,sha256=cYv1RhSU58AqpA3D6saRQNEXjtIcQZTo5NYwoo7s6WY,9233
+ASnake/data/setAlias.asnake,sha256=9JwIj0gGUb0cDGL_PSaSD49_2q0WMQNWp0FFq_YtBPU,3398
+ASnake-0.13.40.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ASnake-0.13.40.dist-info/METADATA,sha256=mogshDh-MZK4hUmqhh1y8-5NLspVv8zdarvJQIRaiPQ,14990
+ASnake-0.13.40.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+ASnake-0.13.40.dist-info/entry_points.txt,sha256=4FwH992XXrUG-6dAXvNQXupa8oiV3ZtYy3PWZnp6S74,46
+ASnake-0.13.40.dist-info/top_level.txt,sha256=l6X0Rzsw8Urrjh2_PVVHVvOOS-aXYWyGf8_QpvepjgA,7
+ASnake-0.13.40.dist-info/RECORD,,
