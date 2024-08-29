@@ -1,0 +1,3 @@
+[console_scripts]
+jgtset = jgtutils.jgtset:main
+jgtutr = jgtutils.cli_tlid_range:main
