@@ -1,0 +1,3 @@
+scapy
+opencv-python
+pydub
