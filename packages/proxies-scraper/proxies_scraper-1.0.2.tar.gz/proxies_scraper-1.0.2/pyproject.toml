@@ -1,0 +1,80 @@
+[tool.poetry]
+name = "proxies-scraper"
+version = "1.0.2"
+description = "A Python package for proxies scraping"
+authors = ["Carlosman1996 <cmmolinas01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+flask = "^3.0.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+pytest-cov = "^5.0.0"
+mypy = "^1.11.2"
+pre-commit = "^3.8.0"
+types-beautifulsoup4 = "^4.12.0.20240511"
+types-requests = "^2.32.0.20240712"
+ruff = "^0.6.2"
+tox = "^4.18.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# PYTEST
+
+[tool.pytest.ini_options]
+python_files = "test_*.py"
+python_functions = "test_*"
+addopts = "--cov-report term --cov-report xml:coverage.xml --cov=proxies_scraper --cov-fail-under=50 tests/"
+
+# PYTEST COVERAGE
+
+[tool.coverage.report]
+skip_empty = true
+exclude_also = [
+    "if __name__ == .__main__.:",
+]
+
+# RUFF
+
+[tool.ruff]
+line-length = 120
+format.docstring-code-format = true
+lint.select = [
+    "B",         # bugbear
+    # "D",       # TODO: pydocstyle
+    "E",         # pycodestyle
+    "F",         # pyflakes
+    "FA100",     # add future annotations
+    "I",         # isort
+    "PGH004",    # pygrep-hooks - Use specific rule codes when using noqa
+    "PIE",       # flake8-pie
+    "PLC",       # pylint convention
+    "PLE",       # pylint error
+    # "PLR",     # TODO: pylint refactor
+    # "PLR1714", # TODO: Consider merging multiple comparisons
+    "PLW",       # pylint warning
+    "PYI",       # flake8-pyi
+    # "RUF",     # TODO: ruff
+    "T100",      # flake8-debugger
+    "UP",        # pyupgrade
+    "W",         # pycodestyle
+]
+
+# ISORT
+
+[tool.isort]
+line_length = 120
+known_first_party = [
+	"proxies_scraper",
+]
+
+# MYPY
+
+[tool.mypy]
+exclude = "freeProxyCz.py"
