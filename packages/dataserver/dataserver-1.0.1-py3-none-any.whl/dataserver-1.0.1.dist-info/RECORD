@@ -1,0 +1,8 @@
+dataserver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataserver/client.py,sha256=rwHAG-vGUxLindFj2vdjnOfK7UhQYImNkxNJKq_TGjA,3022
+dataserver/server.py,sha256=G6vcBAjxGqkKypxpAU46xPjqbFPr9WPPdiqr9-SOZRM,3544
+dataserver-1.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+dataserver-1.0.1.dist-info/METADATA,sha256=CnN0tBFEBMCVc02Q4EEbAcc-0lmqPobjewIw0wQ1fEU,539
+dataserver-1.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+dataserver-1.0.1.dist-info/top_level.txt,sha256=SOVN4Ax7MO_wi0utILianh9bVER0ZYHmA9rehRFPyCM,11
+dataserver-1.0.1.dist-info/RECORD,,
