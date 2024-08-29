@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: xapian-bindings-binary
+Version: 1.4.26
+Summary: xapian bindings binary builds
+Home-page: https://github.com/mayli/xapian-bindings/
+Author: xapian-bindings dev
+Description-Content-Type: text/markdown
+
+binary wheel builds for xapian-bindings
+
+see https://xapian.org/docs/bindings/python3/ for docs
