@@ -1,0 +1,8 @@
+ParseGenius/ParseGenius.py,sha256=EU9waBn1MuYNx_7Ob_XX8AgyRGZZDmbcMxQVRBBsUtI,15099
+ParseGenius/__init__.py,sha256=68MVBhFxCl45la3YFgvIE_OJGK0DTzukWoam6pax83g,178
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_parser.py,sha256=2iErVMg1V2n7DEHHHI0lyHS-q28cDeQ2dtQpTvLtVTA,7180
+IntSig_ParseGenius-0.1.0.dist-info/METADATA,sha256=lJh9SPwQ2cbyRulC5M7H-D80caoshBnlNr5B_Xi3dJk,666
+IntSig_ParseGenius-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+IntSig_ParseGenius-0.1.0.dist-info/top_level.txt,sha256=CMRWMbQTDSeFcPBdMVHyP3kcivHTjN5x5bjuGxlrig4,18
+IntSig_ParseGenius-0.1.0.dist-info/RECORD,,
