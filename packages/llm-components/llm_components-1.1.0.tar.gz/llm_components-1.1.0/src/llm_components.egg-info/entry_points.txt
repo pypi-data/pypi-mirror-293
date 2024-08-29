@@ -1,0 +1,2 @@
+[console_scripts]
+format-codebase = llm_components.cli:main
