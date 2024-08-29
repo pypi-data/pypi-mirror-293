@@ -1,0 +1,1116 @@
+# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+
+from __future__ import annotations
+
+import os
+from typing import Any, cast
+
+import pytest
+
+from sgp_agents import Agents, AsyncAgents
+from tests.utils import assert_matches_type
+from sgp_agents.types import (
+    ConfigCreateAndExecuteResponse,
+)
+
+base_url = os.environ.get("TEST_API_BASE_URL", "http://127.0.0.1:4010")
+
+
+class TestConfigs:
+    parametrize = pytest.mark.parametrize("client", [False, True], indirect=True, ids=["loose", "strict"])
+
+    @parametrize
+    def test_method_create(self, client: Agents) -> None:
+        config = client.configs.create(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_method_create_with_all_params(self, client: Agents) -> None:
+        config = client.configs.create(
+            config={
+                "plan": [
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                ],
+                "workflows": {"foo": "string"},
+                "id": "id",
+                "account_id": "account_id",
+                "concurrency_default": True,
+                "datasets": [{}, {}, {}],
+                "egp_api_key_override": "egp_api_key_override",
+                "evaluations": [
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                ],
+                "final_output_nodes": ["string", "string", "string"],
+                "nodes_to_log": "string",
+                "num_workers": 0,
+                "streaming_nodes": ["string", "string", "string"],
+            },
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_raw_response_create(self, client: Agents) -> None:
+        response = client.configs.with_raw_response.create(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_streaming_response_create(self, client: Agents) -> None:
+        with client.configs.with_streaming_response.create(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_method_retrieve(self, client: Agents) -> None:
+        config = client.configs.retrieve(
+            "config_id",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_raw_response_retrieve(self, client: Agents) -> None:
+        response = client.configs.with_raw_response.retrieve(
+            "config_id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_streaming_response_retrieve(self, client: Agents) -> None:
+        with client.configs.with_streaming_response.retrieve(
+            "config_id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_path_params_retrieve(self, client: Agents) -> None:
+        with pytest.raises(ValueError, match=r"Expected a non-empty value for `config_id` but received ''"):
+            client.configs.with_raw_response.retrieve(
+                "",
+            )
+
+    @parametrize
+    def test_method_list(self, client: Agents) -> None:
+        config = client.configs.list(
+            config_type="workflow",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_method_list_with_all_params(self, client: Agents) -> None:
+        config = client.configs.list(
+            config_type="workflow",
+            account_id="account_id",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_raw_response_list(self, client: Agents) -> None:
+        response = client.configs.with_raw_response.list(
+            config_type="workflow",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_streaming_response_list(self, client: Agents) -> None:
+        with client.configs.with_streaming_response.list(
+            config_type="workflow",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_method_delete(self, client: Agents) -> None:
+        config = client.configs.delete(
+            "config_id",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_raw_response_delete(self, client: Agents) -> None:
+        response = client.configs.with_raw_response.delete(
+            "config_id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_streaming_response_delete(self, client: Agents) -> None:
+        with client.configs.with_streaming_response.delete(
+            "config_id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_path_params_delete(self, client: Agents) -> None:
+        with pytest.raises(ValueError, match=r"Expected a non-empty value for `config_id` but received ''"):
+            client.configs.with_raw_response.delete(
+                "",
+            )
+
+    @parametrize
+    def test_method_create_and_execute(self, client: Agents) -> None:
+        config = client.configs.create_and_execute(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        )
+        assert_matches_type(ConfigCreateAndExecuteResponse, config, path=["response"])
+
+    @parametrize
+    def test_method_create_and_execute_with_all_params(self, client: Agents) -> None:
+        config = client.configs.create_and_execute(
+            config={
+                "plan": [
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                ],
+                "workflows": {"foo": "string"},
+                "id": "id",
+                "account_id": "account_id",
+                "concurrency_default": True,
+                "datasets": [{}, {}, {}],
+                "egp_api_key_override": "egp_api_key_override",
+                "evaluations": [
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                ],
+                "final_output_nodes": ["string", "string", "string"],
+                "nodes_to_log": "string",
+                "num_workers": 0,
+                "streaming_nodes": ["string", "string", "string"],
+            },
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+            ],
+            session_id="session_id",
+            id="id",
+            metadata={},
+            stream=True,
+        )
+        assert_matches_type(ConfigCreateAndExecuteResponse, config, path=["response"])
+
+    @parametrize
+    def test_raw_response_create_and_execute(self, client: Agents) -> None:
+        response = client.configs.with_raw_response.create_and_execute(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = response.parse()
+        assert_matches_type(ConfigCreateAndExecuteResponse, config, path=["response"])
+
+    @parametrize
+    def test_streaming_response_create_and_execute(self, client: Agents) -> None:
+        with client.configs.with_streaming_response.create_and_execute(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = response.parse()
+            assert_matches_type(ConfigCreateAndExecuteResponse, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_method_execute(self, client: Agents) -> None:
+        config = client.configs.execute(
+            config_id="config_id",
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_method_execute_with_all_params(self, client: Agents) -> None:
+        config = client.configs.execute(
+            config_id="config_id",
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+            ],
+            session_id="session_id",
+            id="id",
+            metadata={},
+            run_id="run_id",
+            stream=True,
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_raw_response_execute(self, client: Agents) -> None:
+        response = client.configs.with_raw_response.execute(
+            config_id="config_id",
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    def test_streaming_response_execute(self, client: Agents) -> None:
+        with client.configs.with_streaming_response.execute(
+            config_id="config_id",
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_path_params_execute(self, client: Agents) -> None:
+        with pytest.raises(ValueError, match=r"Expected a non-empty value for `config_id` but received ''"):
+            client.configs.with_raw_response.execute(
+                config_id="",
+                messages=[
+                    {
+                        "role": "model",
+                        "text": "text",
+                    },
+                    {
+                        "role": "model",
+                        "text": "text",
+                    },
+                    {
+                        "role": "model",
+                        "text": "text",
+                    },
+                ],
+                session_id="session_id",
+            )
+
+
+class TestAsyncConfigs:
+    parametrize = pytest.mark.parametrize("async_client", [False, True], indirect=True, ids=["loose", "strict"])
+
+    @parametrize
+    async def test_method_create(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.create(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_method_create_with_all_params(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.create(
+            config={
+                "plan": [
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                ],
+                "workflows": {"foo": "string"},
+                "id": "id",
+                "account_id": "account_id",
+                "concurrency_default": True,
+                "datasets": [{}, {}, {}],
+                "egp_api_key_override": "egp_api_key_override",
+                "evaluations": [
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                ],
+                "final_output_nodes": ["string", "string", "string"],
+                "nodes_to_log": "string",
+                "num_workers": 0,
+                "streaming_nodes": ["string", "string", "string"],
+            },
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_raw_response_create(self, async_client: AsyncAgents) -> None:
+        response = await async_client.configs.with_raw_response.create(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = await response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_create(self, async_client: AsyncAgents) -> None:
+        async with async_client.configs.with_streaming_response.create(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = await response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_method_retrieve(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.retrieve(
+            "config_id",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_raw_response_retrieve(self, async_client: AsyncAgents) -> None:
+        response = await async_client.configs.with_raw_response.retrieve(
+            "config_id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = await response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_retrieve(self, async_client: AsyncAgents) -> None:
+        async with async_client.configs.with_streaming_response.retrieve(
+            "config_id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = await response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_path_params_retrieve(self, async_client: AsyncAgents) -> None:
+        with pytest.raises(ValueError, match=r"Expected a non-empty value for `config_id` but received ''"):
+            await async_client.configs.with_raw_response.retrieve(
+                "",
+            )
+
+    @parametrize
+    async def test_method_list(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.list(
+            config_type="workflow",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_method_list_with_all_params(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.list(
+            config_type="workflow",
+            account_id="account_id",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_raw_response_list(self, async_client: AsyncAgents) -> None:
+        response = await async_client.configs.with_raw_response.list(
+            config_type="workflow",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = await response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_list(self, async_client: AsyncAgents) -> None:
+        async with async_client.configs.with_streaming_response.list(
+            config_type="workflow",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = await response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_method_delete(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.delete(
+            "config_id",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_raw_response_delete(self, async_client: AsyncAgents) -> None:
+        response = await async_client.configs.with_raw_response.delete(
+            "config_id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = await response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_delete(self, async_client: AsyncAgents) -> None:
+        async with async_client.configs.with_streaming_response.delete(
+            "config_id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = await response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_path_params_delete(self, async_client: AsyncAgents) -> None:
+        with pytest.raises(ValueError, match=r"Expected a non-empty value for `config_id` but received ''"):
+            await async_client.configs.with_raw_response.delete(
+                "",
+            )
+
+    @parametrize
+    async def test_method_create_and_execute(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.create_and_execute(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        )
+        assert_matches_type(ConfigCreateAndExecuteResponse, config, path=["response"])
+
+    @parametrize
+    async def test_method_create_and_execute_with_all_params(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.create_and_execute(
+            config={
+                "plan": [
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                    {
+                        "workflow_name": "workflow_name",
+                        "request_user_input": "never",
+                        "workflow_inputs": "string",
+                        "workflow_save_outputs": {"foo": "string"},
+                    },
+                ],
+                "workflows": {"foo": "string"},
+                "id": "id",
+                "account_id": "account_id",
+                "concurrency_default": True,
+                "datasets": [{}, {}, {}],
+                "egp_api_key_override": "egp_api_key_override",
+                "evaluations": [
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                    {
+                        "config": {
+                            "node_metadata": ["string", "string", "string"],
+                            "num_workers": 0,
+                        },
+                        "name": "name",
+                        "type": "type",
+                        "inputs": {"foo": "string"},
+                    },
+                ],
+                "final_output_nodes": ["string", "string", "string"],
+                "nodes_to_log": "string",
+                "num_workers": 0,
+                "streaming_nodes": ["string", "string", "string"],
+            },
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+            ],
+            session_id="session_id",
+            id="id",
+            metadata={},
+            stream=True,
+        )
+        assert_matches_type(ConfigCreateAndExecuteResponse, config, path=["response"])
+
+    @parametrize
+    async def test_raw_response_create_and_execute(self, async_client: AsyncAgents) -> None:
+        response = await async_client.configs.with_raw_response.create_and_execute(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = await response.parse()
+        assert_matches_type(ConfigCreateAndExecuteResponse, config, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_create_and_execute(self, async_client: AsyncAgents) -> None:
+        async with async_client.configs.with_streaming_response.create_and_execute(
+            config={
+                "plan": [
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                    {"workflow_name": "workflow_name"},
+                ],
+                "workflows": {"foo": "string"},
+            },
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = await response.parse()
+            assert_matches_type(ConfigCreateAndExecuteResponse, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_method_execute(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.execute(
+            config_id="config_id",
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_method_execute_with_all_params(self, async_client: AsyncAgents) -> None:
+        config = await async_client.configs.execute(
+            config_id="config_id",
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                    "uuid": "UUID",
+                },
+            ],
+            session_id="session_id",
+            id="id",
+            metadata={},
+            run_id="run_id",
+            stream=True,
+        )
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_raw_response_execute(self, async_client: AsyncAgents) -> None:
+        response = await async_client.configs.with_raw_response.execute(
+            config_id="config_id",
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        config = await response.parse()
+        assert_matches_type(object, config, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_execute(self, async_client: AsyncAgents) -> None:
+        async with async_client.configs.with_streaming_response.execute(
+            config_id="config_id",
+            messages=[
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+                {
+                    "role": "model",
+                    "text": "text",
+                },
+            ],
+            session_id="session_id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            config = await response.parse()
+            assert_matches_type(object, config, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_path_params_execute(self, async_client: AsyncAgents) -> None:
+        with pytest.raises(ValueError, match=r"Expected a non-empty value for `config_id` but received ''"):
+            await async_client.configs.with_raw_response.execute(
+                config_id="",
+                messages=[
+                    {
+                        "role": "model",
+                        "text": "text",
+                    },
+                    {
+                        "role": "model",
+                        "text": "text",
+                    },
+                    {
+                        "role": "model",
+                        "text": "text",
+                    },
+                ],
+                session_id="session_id",
+            )
