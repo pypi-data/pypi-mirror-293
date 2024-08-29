@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+tinysaeasyconnector/__init__.py
+tinysaeasyconnector/lib.py
+tinysaeasyconnector/main.py
+tinysaeasyconnector.egg-info/PKG-INFO
+tinysaeasyconnector.egg-info/SOURCES.txt
+tinysaeasyconnector.egg-info/dependency_links.txt
+tinysaeasyconnector.egg-info/not-zip-safe
+tinysaeasyconnector.egg-info/top_level.txt
