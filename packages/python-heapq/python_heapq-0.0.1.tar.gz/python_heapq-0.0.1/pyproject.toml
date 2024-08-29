@@ -1,0 +1,11 @@
+[project]
+name = "python-heapq"
+version = "0.0.1"
+description = "class based heap queue algorithm implemented in python"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
