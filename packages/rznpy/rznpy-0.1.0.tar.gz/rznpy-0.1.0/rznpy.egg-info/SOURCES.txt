@@ -1,0 +1,7 @@
+README.md
+setup.py
+rznpy.egg-info/PKG-INFO
+rznpy.egg-info/SOURCES.txt
+rznpy.egg-info/dependency_links.txt
+rznpy.egg-info/requires.txt
+rznpy.egg-info/top_level.txt
