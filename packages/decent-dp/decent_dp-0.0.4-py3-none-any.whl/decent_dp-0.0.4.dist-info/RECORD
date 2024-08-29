@@ -1,0 +1,10 @@
+decent_dp/__init__.py,sha256=ZtoI38xod-KxK55HGJPeLFr_v6sRYZNFq5w6EU2Dkds,41
+decent_dp/ddp.py,sha256=fLpRHUKg7rFrkfH1HSaLXme-nLPTVlqcQYlamDiHaLM,19816
+decent_dp/optim.py,sha256=fyzbDnQyBlmDv9AtulrUGyCoTzntP6ghGtyjZaxfjbI,9789
+decent_dp/topo.py,sha256=9j5ruqJ2tol_61dPLOdQ1XEdy8DYIKlEOYrUSe43rpY,7866
+decent_dp/utils.py,sha256=x4Ff8Pdzbxhvp6R3PcCsClnmrcvBWa4BikRneHnL8ac,797
+decent_dp-0.0.4.dist-info/LICENSE,sha256=GkdqT7tsiALk3iXQUZOkhl6h3BVwbiiOt888lq0Aj7Y,1067
+decent_dp-0.0.4.dist-info/METADATA,sha256=t6iB8aUG2uac4IxsGtBLN6Fer-UjTGot68EbDFqG9qg,2499
+decent_dp-0.0.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+decent_dp-0.0.4.dist-info/top_level.txt,sha256=eBBYJ7VISyt3d4npk3a9K7XgAjL5OM-MrPl3acHTIig,10
+decent_dp-0.0.4.dist-info/RECORD,,
