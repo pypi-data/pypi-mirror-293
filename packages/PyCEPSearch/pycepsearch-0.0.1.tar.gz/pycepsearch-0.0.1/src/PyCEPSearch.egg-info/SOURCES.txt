@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/PyCEPSearch.egg-info/PKG-INFO
+src/PyCEPSearch.egg-info/SOURCES.txt
+src/PyCEPSearch.egg-info/dependency_links.txt
+src/PyCEPSearch.egg-info/top_level.txt
+src/py_cep_search/__init__.py
+src/py_cep_search/cepsearch.py
+src/py_cep_search/response_correios.py
+src/py_cep_search/version.py
+tests/test_pycepsearch.py
