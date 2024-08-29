@@ -1,0 +1,9 @@
+bioplumber/.DS_Store,sha256=cfeHTV1vACQG_VB4h7Tf6Hz0IFHl5ObbcHJEKTS8jDU,6148
+bioplumber/__init__.py,sha256=c4iObJDE-mQwpwlqPsz-87b4Ry5CdN4VqiXA3MrBxYQ,105
+bioplumber/configs.py,sha256=-_Oh70zJV9rNLlVEpQ84yT0zd-vrJ_ElE_QETxj4Abc,844
+bioplumber/files.py,sha256=Hf-tZGtH2NRI7_meg9sxCEhvPQB-ehknhwvyN1pLgF4,3957
+bioplumber/qc.py,sha256=RcTq1DeRoRPXGxGrRY2BeaHMCSkYJ64ZxiG8vN3qNXw,688
+bioplumber/slurm.py,sha256=PVfLNQreMC0icgm6YY03sue8eAlVzh0ZoNCeO1TfpEI,301
+bioplumber-0.15.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bioplumber-0.15.dist-info/METADATA,sha256=xeUJb-ZyAhrrG_eosxAfK0hKcnAWewljayoIY5ei8tw,279
+bioplumber-0.15.dist-info/RECORD,,
