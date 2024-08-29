@@ -1,0 +1,9 @@
+smartdata/__init__.py,sha256=dhyIJzV9PMX5j7kYKxf24i14kQBQ9ylgKG-3mB6Ayz4,79
+smartdata/config.py,sha256=iSMyCik2zYGms3WKW66wOlPowFcX5VauJMMf6hdpSXo,3699
+smartdata/custom_agent.py,sha256=6GoJaTiEbVv9pR13yTks2pE8C0ToYXLpusj2fpBWS6M,16801
+smartdata/memory.py,sha256=iddNBXr5jxu2vTE_bbHSUpdCQYZdNwqtOiuql-NK8g8,2056
+smartdata/modeler.py,sha256=iNUcrLJwgj-EFLgP2fzprEuZjCq0oKBOas-CnBcg__k,6538
+smartdataai_test-1.4.dist-info/METADATA,sha256=uTtNsCkh8SrHJ37OZ8Jth04C_mBl4E7_6TS8zs3BR2Y,1466
+smartdataai_test-1.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+smartdataai_test-1.4.dist-info/top_level.txt,sha256=SDNcKq5iBy44qEf1AyzA6Pjrh-9GZcPw1HMkOpEnaAc,10
+smartdataai_test-1.4.dist-info/RECORD,,
