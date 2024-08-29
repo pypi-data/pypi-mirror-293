@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: crypto-chassis-trade
+Version: 2.0.1
+License: MIT License
+        
+        Copyright (c) Crypto Chassis
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/chassis-community/test_2.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp[speedups]~=3.10
+Requires-Dist: StrEnum~=0.4; python_version < "3.11"
+Provides-Extra: dev
+Requires-Dist: StrEnum; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: autoflake; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: orjson; extra == "dev"
+Requires-Dist: uvloop; platform_system != "Windows" and extra == "dev"
+
+# Crypto Chassis Trade
+* A pure Python library for trading on cryptocurrency exchanges.
+* More than a library, it syncs exchange data to local memory and keeps track of realtime data updates.
+* Unified API for different exchanges.
+* Super simple to use. Your code will be in a linear and synchronous manner. The library takes care of asynchronous networking.
+* Supported exchanges:
+  * Okx.
+  * More comming soon...
+* Public beta. All kinds of feedbacks and contributions are welcomed.
+* Join us on Discord https://discord.gg/b5EKcp9s8T and Medium https://cryptochassis.medium.com.
+
+## Branches
+* The `main` branch may contain experimental features.
+* The `release` branch represents the most recent stable release.
+
+## Installation
+* It's recommended that you install in a virtual environment of your choosing.
+
+### Install From PyPi
+* `pip install crypto_chassis_trade`.
+* For developers, `pip install 'crypto_chassis_trade[dev]'`.
+
+### Install Locally
+* `pip install .`.
+* For developers, `pip install '.[dev]'`.
+
+## Public API
+* [See all methods in class `ExchangeInterface` for public interfaces.](crypto_chassis_trade/core/exchanges/exchange_interface.py)
+* [See the `__init__` method in class `ExchangeBase` for public configurations.](crypto_chassis_trade/core/exchanges/exchange_base.py)
+
+## Examples
+* [Quick start](examples/quick_start.py)
+* [More examples](examples)
+
+## Thread safety
+* Single thread.
+
+## Performance Tuning
+* [Use a faster json library such as orjson](tests/test_orjson.py).
+* [Use a faster event loop such as uvloop](tests/test_uvloop.py).
