@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg911"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="page-bg.svg">
+  <defs
+     id="defs905">
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path1456"
+         d="M 0,0 L 721.14016,0 L 721.14016,1018.6482 L 0,1018.6482 z" />
+    </clipPath>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath66">
+      <path
+         d="M 0,0 H 841.89 V 595.276 H 0 Z"
+         id="path64"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42">
+      <path
+         d="M 0,0 H 841.89 V 595.276 H 0 Z"
+         id="path40-1"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath56-1">
+      <path
+         d="M 19.559,43.937 H 822.331 V 575.716 H 19.559 Z"
+         id="path54-2"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask82-3">
+      <g
+         id="g92-4">
+        <g
+           id="g90-9">
+          <g
+             id="g88-6">
+            <g
+               id="g86-3">
+              <path
+                 d="M -32768,32767 H 32767 V -32768 H -32768 Z"
+                 style="fill:url(#linearGradient80);stroke:none"
+                 id="path84-8"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </mask>
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(738.37799,0,0,-799.79528,269.29132,97.984287)"
+       spreadMethod="pad"
+       id="linearGradient80">
+      <stop
+         style="stop-opacity:0;stop-color:#ffffff"
+         offset="0"
+         id="stop66" />
+      <stop
+         style="stop-opacity:0;stop-color:#ffffff"
+         offset="0.00050742"
+         id="stop68" />
+      <stop
+         style="stop-opacity:0;stop-color:#ffffff"
+         offset="0.001"
+         id="stop70" />
+      <stop
+         style="stop-opacity:0;stop-color:#ffffff"
+         offset="0.50552358"
+         id="stop72" />
+      <stop
+         style="stop-opacity:1;stop-color:#ffffff"
+         offset="0.9953"
+         id="stop74" />
+      <stop
+         style="stop-opacity:1;stop-color:#ffffff"
+         offset="0.99905571"
+         id="stop76" />
+      <stop
+         style="stop-opacity:1;stop-color:#ffffff"
+         offset="1"
+         id="stop78" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath100-8">
+      <path
+         d="m 268.77,631.746 h 739.42 V -89.5941 H 268.77 Z"
+         id="path98-4"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath74">
+      <path
+         d="M 19.922,297.64 H 42.598 L 282.71,51.543 19.663,51.002 Z"
+         id="path72"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="426.65729"
+     inkscape:cy="971.07696"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3210"
+     inkscape:window-height="1551"
+     inkscape:window-x="76"
+     inkscape:window-y="76"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata908">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#3649c6;fill-opacity:0.50196081;stroke:none;stroke-width:0.12859179;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.50196078"
+       id="rect848"
+       width="15.728157"
+       height="11.340356"
+       x="141.42737"
+       y="-12.615602"
+       transform="matrix(0.98942876,0.14501974,-0.16993227,0.98545574,0,0)" />
+    <rect
+       style="fill:#3649c6;fill-opacity:0.50196081;stroke:none;stroke-width:0.1285397;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.50196078"
+       id="rect848-9"
+       width="15.085016"
+       height="11.814271"
+       x="99.942566"
+       y="-116.00891"
+       transform="matrix(0.62946877,0.77702578,-0.79130061,0.6114273,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.08329487px;line-height:0.89999998;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17708237"
+       x="163.78333"
+       y="15.391101"
+       id="text867"><tspan
+         sodipodi:role="line"
+         id="tspan865"
+         x="163.78333"
+         y="15.391101"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.89999998;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.17708237">Report</tspan><tspan
+         sodipodi:role="line"
+         x="163.78333"
+         y="22.030487"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.89999998;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.17708237"
+         id="tspan869"> Ranger</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot871"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-2.1166667)"><flowRegion
+         id="flowRegion873"><rect
+           id="rect875"
+           width="63.892147"
+           height="93.060303"
+           x="628.1886"
+           y="27.135527" /></flowRegion><flowPara
+         id="flowPara877" /></flowRoot>  </g>
+</svg>
