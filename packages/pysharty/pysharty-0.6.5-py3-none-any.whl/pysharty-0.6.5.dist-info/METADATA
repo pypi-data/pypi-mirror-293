@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pysharty
+Version: 0.6.5
+Summary: Python soyjak.party API Wrapper. Based on BASC-py4chan by the Bibliotheca Anonoma
+Home-page: http://github.com/SuperWaluigi64/pysharty
+Author: Antonizoon Overtwater
+Author-email: antonizoon@bibanon.org
+License: DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                            Version 2, December 2004
+        
+         Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+        
+         Everyone is permitted to copy and distribute verbatim or modified
+         copies of this license document, and changing it is allowed as long
+         as the name is changed.
+        
+                    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+           TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+        
+          0. You just DO WHAT THE FUCK YOU WANT TO.
+        
+        
+Keywords: soyjak.party api
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: requests >=1.0.0
+
+UNKNOWN
+
