@@ -1,0 +1,10 @@
+erp3_py_commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+erp3_py_commons/anexo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+erp3_py_commons/anexo/anexo_controller.py,sha256=cDQlBh_Suus6la_6vWZy6mFSyi54negFV4Q563X5nlA,1485
+erp3_py_commons/anexo/anexo_dao.py,sha256=jAU8uStlc7VwU7RXX0yPN3Gg4af7R5kcimadXgsC4b8,8416
+erp3_py_commons/anexo/anexo_dto.py,sha256=5-_qV6cer7Gr-QIFOIMPq1PM42UzHNg3ySjFp8DM6wo,2531
+erp3_py_commons/anexo/anexo_service.py,sha256=cmuKVlMtiDKv56YQ7I8UajPvtGOtxJMSBzbDS9Qvy28,8897
+erp3_py_commons-0.0.7.dist-info/METADATA,sha256=QNK0WjEL-fD5Ce8aDwMfRShtXjnb8tU7lZZcncIkw70,1916
+erp3_py_commons-0.0.7.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+erp3_py_commons-0.0.7.dist-info/top_level.txt,sha256=ZxpnU_-BR4uizvXUoXIddssJHGuyl4UC8PeAGy-08w8,16
+erp3_py_commons-0.0.7.dist-info/RECORD,,
