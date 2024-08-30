@@ -1,0 +1,7 @@
+pandas
+numpy
+dol
+config2py
+graze
+umap-learn
+lkj
