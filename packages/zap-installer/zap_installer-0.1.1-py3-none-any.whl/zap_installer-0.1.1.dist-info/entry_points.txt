@@ -1,0 +1,2 @@
+[console_scripts]
+install-zap = zap_installer.zap:main
