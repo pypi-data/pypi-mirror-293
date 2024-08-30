@@ -1,0 +1,14 @@
+scim2_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scim2_server/backend.py,sha256=x8ZCX6fHm68kHDW8bvUwd3HA71JgWUK5gZteysvVzcU,15367
+scim2_server/cli.py,sha256=BBxhrBnmw_YbFwUP4MtjtkoY_noqW9antI2xWbfO0WE,2993
+scim2_server/filter.py,sha256=TqA66tg03HXBGdAy5QCjul-4ERIjzE2rirTjIygxDww,4903
+scim2_server/operators.py,sha256=xyLQFghm9yaXHQAD-aiso3xhu4VOWAvSWEa45Ae_k5M,18172
+scim2_server/provider.py,sha256=zyEijc8Tqm_nq_h9ONwpoOy1VJ7IhWeCBZzzQwkc7Zs,22368
+scim2_server/resources/default-resource-types.json,sha256=bfCPfZ1ZbIVj3PK054lUfuhfSbomfS0ChS2iATBQZ8g,873
+scim2_server/resources/default-schemas.json,sha256=TOnE7mvLwYu59HGpR9vrq1Vaf_3MSmq0qtH2WkAAJ7g,43469
+scim2_server/utils.py,sha256=Vng60sGaOIUWVpVR6SsgCS0zNiW9F19ek6LyaT4MM28,8215
+scim2_server-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scim2_server-0.1.0.dist-info/METADATA,sha256=Ublqh-6OD-LsQLy80YiThHEiCrKYUjp5IRZ8UDZV9bI,3650
+scim2_server-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+scim2_server-0.1.0.dist-info/entry_points.txt,sha256=MOyO4EJdRVvP3IWwmJQ7r31SQri9HMH8yYJUUhx_hLo,54
+scim2_server-0.1.0.dist-info/RECORD,,
