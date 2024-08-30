@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: faiss-vector-aggregator
+Version: 0.1.0
+Summary: A package to aggregate embeddings in a Faiss vector store based on metadata columns.
+Home-page: https://github.com/vinerya/faiss_vector_aggregator
+Author: Moudather Chelbi
+Author-email: moudather.chelbi@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# **Faiss Vector Aggregator**
+
+`faiss_vector_aggregator` is a Python package designed to aggregate embeddings stored in a Faiss vector store based on a specified metadata column. This package simplifies the process of combining embeddings (e.g., averaging) associated with the same identifier, and creates a new Faiss index with the aggregated embeddings.
+
+## **Features**
+
+- **Flexible Aggregation**: Aggregate embeddings based on any specified metadata field (e.g., `id`, `name`, `year`).
+- **Simple Interface**: Provide input and output folder paths to automatically process Faiss and metadata files.
+- **Faiss Integration**: Directly works with Faiss indexes for efficient similarity search.
+
+## **Installation**
+
+Install the package using `pip`:
+
+```bash
+pip install faiss_vector_aggregator
+
+
