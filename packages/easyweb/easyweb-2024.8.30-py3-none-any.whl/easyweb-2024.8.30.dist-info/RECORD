@@ -1,0 +1,9 @@
+easyweb/__init__.py,sha256=fGhVXUpxO35mdMQZS5U6LXBCk0iA5r3sQDJGWcTcurU,1793
+easyweb/__version__.py,sha256=uMupXBh0YBVmNtqlSFqsTHw0BOmP6dcW-GgAP9dKl6c,26
+easyweb/config.py,sha256=6ZNmb1zLZoNzxUOHpa0gCLd29sEI8uAUpQAsBSiczzg,253
+easyweb/plugin.py,sha256=4QPw91ISPbZydGyJ81_8n1BeD0ZFSFzDA_VNCmjQeYM,686
+easyweb-2024.8.30.dist-info/METADATA,sha256=89vIcoi-aHu_5Nwoo-hm9OJ4tVNUw98Th2pVnjnZHO8,332
+easyweb-2024.8.30.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+easyweb-2024.8.30.dist-info/entry_points.txt,sha256=uwvbVtRzkS-6PeLmTt4L2Cebavr1Bq_3fucFuxb03aI,45
+easyweb-2024.8.30.dist-info/licenses/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+easyweb-2024.8.30.dist-info/RECORD,,
