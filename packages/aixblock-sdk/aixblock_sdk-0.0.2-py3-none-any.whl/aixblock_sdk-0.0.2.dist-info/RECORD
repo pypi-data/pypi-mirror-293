@@ -1,0 +1,10 @@
+aixblock_sdk/__init__.py,sha256=SEW_PqFK_3PyvUJ27FiHfUqfiVobh6yb6Z12bC74Tpo,149
+aixblock_sdk/client.py,sha256=_V1dc9q4cFvErmIF0IHo1Iq1nqgr5P1lfXNFR-I7VtE,8859
+aixblock_sdk/data_manager.py,sha256=rYs3OasrS_QmOePnzOqw5J0ua5dK6GYF-KtjWAhKtHU,7887
+aixblock_sdk/project.py,sha256=KTetk-W5Kq0KMGRsCnIHPydD-0L_CUcSqDtuQQGQR88,74925
+aixblock_sdk/users.py,sha256=D7rZjjd42mGHFpRoI9reSY-u4aCgeUHkRJGS5q4ofNQ,1321
+aixblock_sdk/utils.py,sha256=bbMlTp5mZr-5bBovfJEjpXSHL2236N27dytugdgWgc4,4213
+aixblock_sdk/workspaces.py,sha256=QN6_QSCrg2FS-YylI_x_hiat9mojsUPQdKg24qJ3y4A,1877
+aixblock_sdk-0.0.2.dist-info/METADATA,sha256=ZCeDTTYNMX4A178Pdlu5rPkpUkHCXnPQEp_yOk-Da1M,404
+aixblock_sdk-0.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aixblock_sdk-0.0.2.dist-info/RECORD,,
