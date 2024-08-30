@@ -1,0 +1,6 @@
+maturin
+numpy
+onnx
+onnxruntime
+click
+eggwrap

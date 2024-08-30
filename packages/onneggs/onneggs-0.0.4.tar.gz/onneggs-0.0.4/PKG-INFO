@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: onneggs
+Version: 0.0.4
+Requires-Python: >=3.10
+Requires-Dist: click
+Requires-Dist: eggwrap
+Requires-Dist: maturin
+Requires-Dist: numpy
+Requires-Dist: onnx
+Requires-Dist: onnxruntime
+Description-Content-Type: text/markdown
+
+# onneggs

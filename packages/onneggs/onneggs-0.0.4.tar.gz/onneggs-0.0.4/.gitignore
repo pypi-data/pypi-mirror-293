@@ -1,0 +1,19 @@
+# Ignore distribution folder
+dist/
+
+# Virtual environment variations
+venv/
+env/
+.venv/
+.env/
+
+# IDE detritus
+.idea/
+
+# Cache stuff
+.pytest_cache/
+__pycache__/
+target/
+
+# Rust stuff
+Cargo.lock
