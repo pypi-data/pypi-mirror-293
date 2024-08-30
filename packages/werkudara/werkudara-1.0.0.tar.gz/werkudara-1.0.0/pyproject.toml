@@ -1,0 +1,47 @@
+[project]
+name = "werkudara"
+version = "1.0.0"
+authors = [
+    { name = "Samarthya Lykamanuella", email = "93555329+groaking@users.noreply.github.com" },
+]
+maintainers = [
+    { name = "Samarthya Lykamanuella", email = "93555329+groaking@users.noreply.github.com" },
+]
+dependencies = [
+    "lxml",
+    "platformdirs",
+    "PyQt5",
+    "requests",
+]
+license = {file = "LICENSE"}
+keywords = ["administrator", "autosync", "BIMA", "control panel", "Diktiristek", "Kemdikbud", "Kemendikbud"]
+description = "Automatically synchronize author and lecturer data in https://bima.kemdikbud.go.id"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: X11 Applications :: Qt",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Natural Language :: Indonesian",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Database",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/groaking/werkudara"
+Repository = "https://github.com/groaking/werkudara.git"
+Changelog = "https://github.com/groaking/werkudara/blob/master/CHANGELOG.md"
+Issues = "https://github.com/groaking/werkudara/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/werkudara"]
