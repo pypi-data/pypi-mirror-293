@@ -1,0 +1,2 @@
+[console_scripts]
+lum0x = lum0x.cli:cli
