@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: odoo13-addon-photovoltaic_products
+Version: 13.0.0.0.3
+Requires-Python: >=3.5
+Requires-Dist: odoo>=13.0a,<13.1dev
+Summary: Photovoltaic Products
+Author: Librecoop
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 13.0
+
+Manage the creation of photovoltaic products

@@ -1,0 +1,17 @@
+odoo/addons/photovoltaic_products/__init__.py,sha256=k6VdU9k3RocxIg6IwoFhaeynr5yThcRKmQQowowlAvY,20
+odoo/addons/photovoltaic_products/__manifest__.py,sha256=u9sH2AXYR-V7K-6VpUd9t1mTwWVLm8GmO17EkltR_P4,478
+odoo/addons/photovoltaic_products/i18n/es.po,sha256=F8SsnJC-sgpCh-gKyw1F4wDP8YAqZ-JEqCMMODgmjUY,112233
+odoo/addons/photovoltaic_products/i18n/photovoltaic_products.pot,sha256=Aq6EquAdhaiuZtPwVVezZPE7bYoHW2zs-MforxFoHLA,110833
+odoo/addons/photovoltaic_products/models/__init__.py,sha256=rRKl2P59CWw0wMa9HB7Y3m1I9lbvbzw5NSUiayNxOTI,134
+odoo/addons/photovoltaic_products/models/photovoltaic_inverter.py,sha256=faE_3Fa2yu48FlCBX_vFymMa4k_o_Kb6yUhEryN89S4,3347
+odoo/addons/photovoltaic_products/models/photovoltaic_module.py,sha256=uiM6LwKrI2YzJ2qFuABY4i1QMATMFTynet5ebLhBjUY,2664
+odoo/addons/photovoltaic_products/models/product_template.py,sha256=3H630a75QA4BkF5qWRKCmdHMlihlrLDbE2K1jUZ6O_M,3994
+odoo/addons/photovoltaic_products/models/res_config_settings.py,sha256=-Hbkv_b5CKFJdbvtAIw2Effl4JBkVOJ0nbHLUQ0TRYg,1308
+odoo/addons/photovoltaic_products/security/ir.model.access.csv,sha256=jV4Ys91KTlkD_axJBphRslFzivQkJRkU8bH1_QEVrpY,330
+odoo/addons/photovoltaic_products/views/photovoltaic_inverter.xml,sha256=HAu6lZO4jsSa85YFuH261dRdwpXKC0fJ8PigD6y7hFo,4166
+odoo/addons/photovoltaic_products/views/photovoltaic_module.xml,sha256=gonlOgAcmg9ybZ2AOeknAZyKBEZvS6Y9muas0MUkvuo,3607
+odoo/addons/photovoltaic_products/views/product_template.xml,sha256=xwbzfYpWo1VvyaUP8e06ITuqpihdYEJ9_J1lyaa5HiU,3907
+odoo13_addon_photovoltaic_products-13.0.0.0.3.dist-info/METADATA,sha256=24qAZsvR32bEyq4lusOVGEG6Njy1MdKz89ciDRDS47I,347
+odoo13_addon_photovoltaic_products-13.0.0.0.3.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo13_addon_photovoltaic_products-13.0.0.0.3.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo13_addon_photovoltaic_products-13.0.0.0.3.dist-info/RECORD,,
