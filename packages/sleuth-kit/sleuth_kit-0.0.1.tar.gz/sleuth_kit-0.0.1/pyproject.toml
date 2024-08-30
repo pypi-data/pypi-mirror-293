@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sleuth-kit"
+version = "0.0.1"
+description = "A flexible and extensible toolkit designed for blockchain investigation and intelligence gathering."
+authors = ["Sleuth <dev@sleuth.fi>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/sleuthfi/sleuth-kit"
+homepage = "https://sleuth.fi"
+documentation = "https://docs.sleuth.fi"
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+colorama = "^0.4.6"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+tqdm = "^4.66.5"
+
+[tool.poetry.scripts]
+sleuth = "sleuth_kit.cli.sleuth:sleuth"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
