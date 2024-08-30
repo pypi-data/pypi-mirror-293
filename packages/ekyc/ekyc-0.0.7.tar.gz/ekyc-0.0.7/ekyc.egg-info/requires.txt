@@ -1,0 +1,9 @@
+opencv-python
+numpy
+scikit-learn
+deepface
+Flask
+paddlepaddle==2.6.1
+tensorflow==2.11.0
+protobuf==3.19.6
+dlib>=19.22.0
