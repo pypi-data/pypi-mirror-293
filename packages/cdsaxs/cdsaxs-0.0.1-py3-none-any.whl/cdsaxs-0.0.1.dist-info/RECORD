@@ -1,0 +1,12 @@
+cdsaxs/__about__.py,sha256=EkjUfWvLkAH5N-jCw7qCgme883NmEhKPIUE6wSORpfc,53
+cdsaxs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdsaxs/fitter.py,sha256=ev-nFwOknTIjUlGUpsIvD5YPHQOUO2wxt7VLP3Heizw,22770
+cdsaxs/residual.py,sha256=CinOMzpqWBSNzcV_VBAafQrLqFIM9sLKfAj7fbE2eW4,5770
+cdsaxs/simulations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdsaxs/simulations/base.py,sha256=KdwBAGWV_0uQAPsujVBX1CtptLHUAPh102oJlZjG7c0,2875
+cdsaxs/simulations/stacked_trapezoid.py,sha256=MOxhiRnxAEchoefJqgBuNTWqJTLDfHrkWStel6OlLyM,21769
+cdsaxs/simulations/strong_castle.py,sha256=KZ2mYBmGguwAFJ4IhI3pZMUlAxQKFYXIB83Uy-qa0yk,9979
+cdsaxs-0.0.1.dist-info/METADATA,sha256=pbLclUEJx9YIlCQ49OLk2DMVvdM1o5fX2U9wk-tFBoM,10168
+cdsaxs-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+cdsaxs-0.0.1.dist-info/licenses/LICENSE.txt,sha256=-zDlZ7aTQFrW1YV3oBcHG1vqmrpL12LKsA2EUA6vloQ,1105
+cdsaxs-0.0.1.dist-info/RECORD,,
