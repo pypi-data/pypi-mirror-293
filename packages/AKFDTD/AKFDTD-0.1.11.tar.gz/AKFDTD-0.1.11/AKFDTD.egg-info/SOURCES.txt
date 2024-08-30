@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+AKFDTD.egg-info/PKG-INFO
+AKFDTD.egg-info/SOURCES.txt
+AKFDTD.egg-info/dependency_links.txt
+AKFDTD.egg-info/requires.txt
+AKFDTD.egg-info/top_level.txt
+FDTD/__init__.py
+FDTD/fdtd2D.py
+images/slit_diffraction2d.PNG
+tests/__init__.py
+tests/diffraction_on_slit_test.py
+tests/diffraction_on_slit_test2.py
