@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/fade/__init__.py
+src/fade/fallacy_detector.py
+src/fade/transcription_features/live_transcription.py
+src/python_fade.egg-info/PKG-INFO
+src/python_fade.egg-info/SOURCES.txt
+src/python_fade.egg-info/dependency_links.txt
+src/python_fade.egg-info/requires.txt
+src/python_fade.egg-info/top_level.txt
