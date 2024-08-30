@@ -1,0 +1,57 @@
+Changes
+=======
+
+0.3.0 (2024-08-29)
+------------------
+- nrt.data now lives in its own namespace package (nrt-data). Subpackage removed,
+  and namespace enabling in multiple __init__.py files
+- A few edits (e.g. pkg-data and MANIFEST.in) as a consequence of removing
+  nrt.data subpackage
+- Transitioned from setup.py to pyproject.toml
+- Package version now maintained in pyproject.toml
+- Adapted integration fixture to new test data access method (+ band names slightly changed
+  B4 is now B04, etc)
+- Version number now managed via git tags using setuptools-scm
+- Removed all LFS hack in .readthedocs, github actions, etc. No longer needed
+  given that the package itself no longer contain data
+
+
+0.2.1 (2024-07-15)
+------------------
+
+- Various improvements to documentation and package metadata suggested by JOSS
+  review (new example using PC archive and STAC catalogue, Contributing guidelines,
+  explicit citation information, etc) 
+- Small documentation improvement for CCDC monitoring
+- New update_mask argument and moniroting class attribute to allow monitoring to
+  continue regardless of boundary crossing
+- Exclude version 0.59 of numba in requirements due to known bug in pararrel accelerator.
+  See https://github.com/numba/numba/issues/9490
+
+0.2.0 (2024-01-15)
+------------------
+
+- np.linalg.inv replaced by the more recommanded np.linalg.solve in many places
+- Integration of numba parallel accelerator in most fitting functions (new argument
+  to control number of threads in the .fit method of BaseNrt class)
+- Possibility to pass kwargs to function of data module that load xarray.Datasets
+  objects (particularly useful to specify chunking and get a dask based object)
+- New example in gallery on parallel fitting
+- Add a minimum python version requirement (>=3.9). 3.8 not longer tested
+- New set of functions to generate synthetic data (single time-series and DataArrays)
+  added to the data module
+- Gallery section added to the documentation, with one example on use of synthetic data
+  for nrt simulation and computation of performance metrics 
+
+0.1.0 (2022-04-27)
+------------------
+
+- The report() method can now receive a list of layers as argument to select the
+  attributes of the monitoring instance to be retrieved and written to disk. Backward
+  compatibility of the .report() method is not affected but backward compatibility
+  of the private ._report() method, used to prepare the array is broken
+
+0.0.5 (2022-03-21)
+------------------
+
+- First pypi release
