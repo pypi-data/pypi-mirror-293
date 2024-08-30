@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pywhitakers
+Version: 0.0.9
+Summary: An API package to latin-words.com that returns the most likely Latin translation of a word.
+Author: Forrest Zeng
+Author-email: forrestzengmusic@gmail.com
+License: Apache 2.0
+Keywords: Latin translation whitakers
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: unidecode
+
+pywhitakers
