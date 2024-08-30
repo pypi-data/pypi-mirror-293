@@ -1,0 +1,7 @@
+setuptools
+iiblib
+pushcollector
+requests
+
+[reST]
+Sphinx
