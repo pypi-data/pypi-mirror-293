@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: codeforge
+Version: 0.0.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastcore
+Requires-Dist: matplotlib
+Requires-Dist: Pillow
+Requires-Dist: altair
+Requires-Dist: dill
+Requires-Dist: ipython
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: rich
+Requires-Dist: PyYAML
+Requires-Dist: catalogue
+Requires-Dist: confection
+Requires-Dist: pydantic
+Requires-Dist: typing
+Requires-Dist: srsly
+Requires-Dist: typing_extensions
+Requires-Dist: wasabi
+Requires-Dist: jsonlines
+Requires-Dist: imgaug>=0.4.0
+Requires-Dist: xmltodict
+Requires-Dist: fuzzywuzzy
+Requires-Dist: scikit-learn
+Requires-Dist: nltk
+Requires-Dist: python-Levenshtein
+Requires-Dist: pre-commit
+Requires-Dist: pymupdf
+Requires-Dist: nbconvert
+Requires-Dist: nbformat
+Requires-Dist: icecream
+Requires-Dist: mergedeep
+
+# codeforge
+pythn工具包
+
+# personal
