@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: genapp
+Version: 0.1.11
+Summary: Genapp framework
+Home-page: https://genapp.sytes.net/login
+Author: ATL
+Author-email: al.genericapp@gmail.com
+Requires-Python: >=3.7
