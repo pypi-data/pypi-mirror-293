@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django_api_request_logging
+Version: 0.1.0
+Summary: A Django module for logging incoming requests
+Home-page: https://github.com/yourusername/django_request_logging
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >=3.2
+
