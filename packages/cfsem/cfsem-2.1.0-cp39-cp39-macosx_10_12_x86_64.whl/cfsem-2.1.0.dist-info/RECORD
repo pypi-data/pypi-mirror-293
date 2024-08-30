@@ -1,0 +1,9 @@
+cfsem-2.1.0.dist-info/METADATA,sha256=OaM_3mAWQIwi-gQBdKavayHRJxXWqzXYuZBPYWy7T44,3575
+cfsem-2.1.0.dist-info/WHEEL,sha256=pu6coE53omzhZe9U_Q_g_8VK4chQ72iJzFUX-DrhQ28,104
+cfsem-2.1.0.dist-info/licenses/LICENSE,sha256=0JB9mJPks1pqB9kSlcPYj_iQKmGjrPg1GTdsBf-c7Z4,1084
+cfsem/__init__.py,sha256=moT92PjMAuo7fpbhZpajxXBc4p9UenZD-bK6XxUnSbQ,20376
+cfsem/types.py,sha256=_Q3GHggIP4SAsDaXE-_DRwTCNz-T9xcIcEYBzofSMSU,194
+cfsem/bindings.py,sha256=K12scKWyE4jTU0_vir_Txa2pdZiD06zuRy3FvX1Wbjs,16112
+cfsem/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfsem/_cfsem.cpython-39-darwin.so,sha256=WmyAbqVf6Qw5s3C8XX8anr2wXZBhSw1AscK0zj-3iVo,721552
+cfsem-2.1.0.dist-info/RECORD,,
