@@ -1,0 +1,5 @@
+httpx
+hishel
+pydantic
+textual
+textual-dev
