@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: currencies_lib
+Version: 1.0.2
+Summary: A currency formatter for many currencies
+Home-page: https://github.com/iamtwobe/currencies_lib
+Author: iamtwobe
+Author-email: contato.iamtwobe@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A currency formatter library with more specific formats for every currency
