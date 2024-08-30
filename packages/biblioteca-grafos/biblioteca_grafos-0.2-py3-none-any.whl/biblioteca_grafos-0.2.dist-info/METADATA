@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: biblioteca_grafos
+Version: 0.2
+Summary: Uma biblioteca de exemplo em Python
+Home-page: https://github.com/lucasfbb/biblioteca_grafos
+Author: Lucas Firmino Batista
+Author-email: seuemail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
