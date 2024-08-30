@@ -1,0 +1,1 @@
+ServiceDiscovery>=0.4.1
