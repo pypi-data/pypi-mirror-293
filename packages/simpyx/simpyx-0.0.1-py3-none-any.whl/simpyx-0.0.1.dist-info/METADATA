@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: simpyx
+Version: 0.0.1
+Summary: Simulate neopixels in the terminal.
+Project-URL: homepage, https://github.com/jtompkin/simpyx
+Author-email: Josh Tompkin <jtompkin-dev@pm.me>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: neopixel,simulate
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# gopixels
+Simulate RGB pixel control in a terminal

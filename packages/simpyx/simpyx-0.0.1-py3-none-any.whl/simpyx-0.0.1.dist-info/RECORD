@@ -1,0 +1,9 @@
+simpyx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpyx/__version__.py,sha256=YTKbG68zGFVPZfD_24l8RyKuhMXwQnve9oJP_VREDGI,23
+simpyx/pixels.py,sha256=mDFhb5CEz9E24GZJOOtCUA5p2g3A1-E0ULxiF2eeUt0,6635
+simpyx/screen.py,sha256=8OkMKuy5gMOz228p97_7_8MHJiZjztq9GhVDNLTlx_c,2527
+simpyx/shows.py,sha256=fzb-9qPy2hcM7ajo7OiCGPuHpo-G_K52WO81PI7saH0,977
+simpyx-0.0.1.dist-info/METADATA,sha256=K2Pgs2a_w75ew1RSJscU7Jtmr03nKreuUdk-qD99DSc,392
+simpyx-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+simpyx-0.0.1.dist-info/licenses/LICENSE,sha256=x5plSJZeZ29-sypJhlcyT1N5CgrWhMRbOeveqi18-d4,1069
+simpyx-0.0.1.dist-info/RECORD,,
