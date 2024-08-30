@@ -1,0 +1,4 @@
+include sonarcloud_report/templates/sonarcloud_report.j2
+global-exclude *.pyc
+global-exclude *.pyo
+exclude tests/*
