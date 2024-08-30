@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+my_cool_project/__init__.py
+my_cool_project/main.py
+my_cool_project.egg-info/PKG-INFO
+my_cool_project.egg-info/SOURCES.txt
+my_cool_project.egg-info/dependency_links.txt
+my_cool_project.egg-info/top_level.txt
