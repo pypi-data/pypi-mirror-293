@@ -1,0 +1,5 @@
+[console_scripts]
+folio-data-import=src.folio_data_import.__main__:sync_main
+folio-marc-import=src.folio_data_import.MARCDataImport:sync_main
+folio-user-import=src.folio_data_import.UserImport:sync_main
+
