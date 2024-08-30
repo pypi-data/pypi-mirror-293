@@ -1,0 +1,10 @@
+wordlemini/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordlemini/__main__.py,sha256=zAbJfABGKz0VNRDD1lLRCTRlOvYEz-dFBnDTrIBeRA0,9256
+wordlemini/assets/styles.tcss,sha256=b-4bgww4iOYkdaWgTOD8jqy6e5mfg_M8wtyAO1H3qvU,943
+wordlemini/assets/unigram_freq.csv,sha256=kb6xqZ_YsMOPDE5vbdYSGai43UCAanMACgIZzfwYEbE,4956252
+wordlemini-0.0.1.dist-info/LICENSE,sha256=aw5EG0n95GrSWsrKuRWLbOWpRPmYwIkbCbgd-B8FrPk,1067
+wordlemini-0.0.1.dist-info/METADATA,sha256=Cj5EC7s5rWZxJVIwPMQMGhX6l2Ko0yXlvTs9q_ooa6M,2211
+wordlemini-0.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+wordlemini-0.0.1.dist-info/entry_points.txt,sha256=uUGToBdc8Uzoh5TENUHpp9QvGQ_olpWxk94FGhRBP3o,56
+wordlemini-0.0.1.dist-info/top_level.txt,sha256=sHE85d3XF9nR8enscngAs8mw30K5nk6zxG48avOxXc8,11
+wordlemini-0.0.1.dist-info/RECORD,,
