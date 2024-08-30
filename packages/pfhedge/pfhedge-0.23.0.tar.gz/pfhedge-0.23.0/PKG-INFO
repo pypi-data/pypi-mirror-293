@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pfhedge
+Version: 0.23.0
+Summary: Deep Hedging in PyTorch
+Home-page: https://github.com/pfnet-research/pfhedge
+License: MIT
+Author: Shota Imaki
+Author-email: shota.imaki.0801@gmail.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (<1.25) ; python_version == "3.8"
+Requires-Dist: numpy (>=1.26,<2.0) ; python_version >= "3.9"
+Requires-Dist: torch (>=1.9.0,<3.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Project-URL: Repository, https://github.com/pfnet-research/pfhedge
