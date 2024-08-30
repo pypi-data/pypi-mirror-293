@@ -1,0 +1,8 @@
+README.md
+setup.py
+jibix/__init__.py
+jibix/jibix.py
+jibix.egg-info/PKG-INFO
+jibix.egg-info/SOURCES.txt
+jibix.egg-info/dependency_links.txt
+jibix.egg-info/top_level.txt
