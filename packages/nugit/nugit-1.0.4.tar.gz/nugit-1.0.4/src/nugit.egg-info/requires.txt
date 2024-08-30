@@ -1,0 +1,5 @@
+PyYAML>=6.0.2
+
+[dev]
+nugit>=1.0.2
+flake8>=7.1.1
