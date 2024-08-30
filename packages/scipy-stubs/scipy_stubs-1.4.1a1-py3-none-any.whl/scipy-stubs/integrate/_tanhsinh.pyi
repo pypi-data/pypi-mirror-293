@@ -1,0 +1,3 @@
+from scipy._typing import Untyped
+
+def nsum(f, a, b, *, step: int = 1, args=(), log: bool = False, maxterms=..., tolerances: Untyped | None = None) -> Untyped: ...
