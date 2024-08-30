@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mesa-reader
+Version: 0.3.3
+Summary: tools for interacting with output from MESA star
+Home-page: http://github.com/wmwolf/py_mesa_reader
+Author: William M. Wolf
+Author-email: wolfwm@uwec.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
