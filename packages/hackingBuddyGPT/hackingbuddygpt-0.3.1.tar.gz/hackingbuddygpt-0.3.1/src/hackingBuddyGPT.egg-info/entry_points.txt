@@ -1,0 +1,3 @@
+[console_scripts]
+hackingBuddyGPT = hackingBuddyGPT.cli.wintermute:main
+wintermute = hackingBuddyGPT.cli.wintermute:main
