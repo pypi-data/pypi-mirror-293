@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: dashai_plugin_hernan3
+Version: 1.0
+Summary: DashAI Plugin description
+Author: hernan
+Author-email: hernan.sarmiento@imfd.cl
+Keywords: Model
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+#
+#
+DEFINIR ESTRUCTURA PARA EL README
+#
+#
+
+# **DashAI plugin template**
