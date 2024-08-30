@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: str2bool3
+Version: 1.1.0
+Summary: Convert string to boolean (Forked from SymonSoft/str2bool)
+Home-page: https://github.com/sam-fakhreddine/str2bool3
+Download-URL: https://github.com/sam-fakhreddine/str2bool3/archive/refs/tags/v1.1.0.tar.gz
+Author: Sam Fakhreddine
+Author-email: sam.fakhreddine@gmail.com
+Keywords: str2bool,bool,boolean,convert,yes,no,true,false
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# str2bool3 v1.0.0
+
+## About
+Convert string to boolean.  
+The library recognizes "yes", "true", "y", "t", "1" as True, and "no", "false", "n", "f", "0" as False.  
+Case insensitive.
+
+## Installation
+
+    $ pip install str2bool3
+
+## Examples
+Here's a basic example:
+
+    >>> from str2bool3 import StrUtils
+    >>> print(StrUtils.str2bool('Yes'))
+    True
+
+To raise an exception on invalid input:
+
+    >>> from str2bool3 import StrUtils
+    >>> StrUtils.str2bool_exc('invalid')
+    ValueError: Invalid value 'invalid'. Expected one of: false, f, n, no, t, true, y, yes, 0, 1.
+
+## License
+BSD
+
+Forked from symonsoft/str2bool
