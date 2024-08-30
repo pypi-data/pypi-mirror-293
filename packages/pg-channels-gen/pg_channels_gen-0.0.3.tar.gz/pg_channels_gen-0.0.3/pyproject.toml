@@ -1,0 +1,14 @@
+[project]
+name = "pg-channels-gen"
+requires-python = ">=3.11"
+authors = [
+    {name = "Mike Artemiev", email = "mixartemev@gmail.com"},
+]
+version = "0.0.3"
+
+[project.urls]
+Homepage = "https://github.com/mixartemev/pg-channels"
+Repository = "https://github.com/mixartemev/pg-channels"
+
+[tool.ruff]
+line-length = 120
