@@ -1,0 +1,2 @@
+[console_scripts]
+scdo = collector_optimisation.scripts.collector_optimisation:main

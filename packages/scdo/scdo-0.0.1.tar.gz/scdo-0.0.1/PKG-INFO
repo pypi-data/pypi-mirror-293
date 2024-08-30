@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: scdo
+Version: 0.0.1
+Summary: Solar-collector Design Optimiser
+Home-page: https://github.com/BenWinchester/CollectorOptimisation
+Author: Ben Winchester
+Author-email: benedict.winchester@gmail.com
+Project-URL: Bug Tracker, https://github.com/BenWinchester/CollectorOptimisation/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bayesian-optimization>=1.5.1
+Requires-Dist: heatpanel>=1.1.4
+
+# CollectorOptimisation

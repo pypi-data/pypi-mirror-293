@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/collector_optimisation/__init__.py
+src/collector_optimisation/__main__.py
+src/collector_optimisation/__utils__.py
+src/collector_optimisation/bayesian_optimiser.py
+src/collector_optimisation/model_wrapper.py
+src/scdo.egg-info/PKG-INFO
+src/scdo.egg-info/SOURCES.txt
+src/scdo.egg-info/dependency_links.txt
+src/scdo.egg-info/entry_points.txt
+src/scdo.egg-info/requires.txt
+src/scdo.egg-info/top_level.txt
