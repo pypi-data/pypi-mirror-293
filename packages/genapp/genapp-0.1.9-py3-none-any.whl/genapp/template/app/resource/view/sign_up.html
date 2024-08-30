@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: linear-gradient(to bottom, #141e30, #243b55);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-box {
+            width: 400px;
+            padding: 40px;
+            background: rgba(0, 0, 0, .7);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .login-box h2 {
+            margin: 0 0 30px;
+            padding: 0;
+            color: #fff;
+        }
+
+        .login-box .user-box {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .login-box .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            border-bottom: 1px solid #03e9f4;
+            outline: none;
+            background: transparent;
+            transition: border-color 0.4s;
+        }
+
+        .login-box .user-box label {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            color: #fff;
+            pointer-events: none;
+            transition: top 0.4s, font-size 0.4s, color 0.4s;
+        }
+
+        .login-box .user-box input:focus~label,
+        .login-box .user-box input:valid~label {
+            top: -20px;
+            left: 0;
+            color: #03e9f4;
+            font-size: 12px;
+        }
+
+        .login-box form button {
+            background: transparent;
+            border: none;
+            color: #03e9f4;
+            font-size: 16px;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: background 0.5s, color 0.5s;
+            position: relative;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .login-box form button:hover {
+            background: #03e9f4;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 2px #028fbc, 0 0 5px #028fbc, 0 0 10px #028fbc, 0 0 20px #028fbc;
+        }
+
+        .login-box a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #03e9f4;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .login-box a:hover {
+            color: #fff;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.6);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: rgba(36, 59, 85, 0.95);
+            color: #fff;
+            margin: auto;
+            padding: 30px;
+            border: 1px solid #03e9f4;
+            width: 90%;
+            max-width: 400px;
+            position: relative;
+            border-radius: 10px;
+            animation: fadeIn 0.5s forwards;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .modal-content {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .section-container {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: 300%;
+            justify-content: space-between;
+            /* Añade espacio entre secciones */
+        }
+
+        .section {
+            width: 33.33%;
+            padding: 5%;
+        }
+
+        .slide-left {
+            transform: translateX(-33.33%);
+        }
+
+        .slide-left-2 {
+            transform: translateX(-66.66%);
+        }
+
+        .modal .user-box {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .modal .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+        }
+
+        .modal .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            pointer-events: none;
+            transition: 0.5s;
+        }
+
+        .modal .user-box input:focus~label,
+        .modal .user-box input:valid~label {
+            top: -20px;
+            left: 0;
+            color: #03e9f4;
+            font-size: 12px;
+        }
+
+        .modal button {
+            background: #03e9f4;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.4s, box-shadow 0.4s;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .modal button:hover {
+            background: #028fbc;
+            box-shadow: 0 0 2px #028fbc, 0 0 5px #028fbc, 0 0 10px #028fbc, 0 0 20px #028fbc;
+        }
+
+        .close {
+            color: #fff;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            transition: color 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #03e9f4;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Estilos adicionales para los elementos del formulario de registro */
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: rgba(0, 0, 0, .7);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Estilo para la nueva pantalla de verificación */
+        .verify-screen {
+            display: none;
+            width: 400px;
+            padding: 40px;
+            background: rgba(0, 0, 0, .7);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: left 0.5s ease;
+        }
+
+        .show-verify-screen {
+            left: 50%;
+        }
+
+        .verify-screen h2 {
+            margin: 0 0 30px;
+            padding: 0;
+            color: #fff;
+        }
+
+        .verify-screen label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .verify-screen input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #03e9f4;
+            outline: none;
+            margin-bottom: 20px;
+        }
+
+        .verify-screen button {
+            background: transparent;
+            border: none;
+            color: #03e9f4;
+            font-size: 16px;
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: background 0.5s, color 0.5s;
+            position: relative;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .verify-screen button:hover {
+            background: #03e9f4;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 2px #028fbc, 0 0 5px #028fbc, 0 0 10px #028fbc, 0 0 20px #028fbc;
+        }
+
+        #signupForm h2 {
+            margin-bottom: 30px;
+            color: #fff;
+        }
+
+        #signupForm label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        #signupForm input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-bottom: 1px solid #03e9f4;
+            background: transparent;
+            color: #fff;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.4s;
+        }
+
+        #signupForm input:focus {
+            border-color: #03e9f4;
+        }
+
+        #signupForm button {
+            background: #03e9f4;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.4s, box-shadow 0.4s;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        #signupForm button:hover {
+            background: #028fbc;
+            box-shadow: 0 0 2px #028fbc, 0 0 5px #028fbc, 0 0 10px #028fbc, 0 0 20px #028fbc;
+        }
+
+        #googleSignup {
+            background: #db4437;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.4s, box-shadow 0.4s;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        #googleSignup:hover {
+            background: #c23321;
+            box-shadow: 0 0 2px #c23321, 0 0 5px #c23321, 0 0 10px #c23321, 0 0 20px #c23321;
+        }
+
+        /* Estilos para el modal de "correo ya registrado" */
+
+        #emailAlreadyRegisteredModal p {
+            font-size: 16px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>Crear Usuario</h2>
+        <form id="signupForm" method="post">
+
+            <div class="user-box">
+                <input type="text" name="username" id="username" required>
+                <label>Username</label>
+            </div>
+
+
+            <div class="user-box">
+                <input type="text" name="email" id="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="user-box">
+                <input type="password" id="password" name="password" required>
+                <label>Contraseña</label>
+            </div>
+
+            <div class="user-box">
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <label>Confirmar Contraseña</label>
+            </div>
+
+            <button type="submit">Registrarse</button>
+        </form>
+
+        <!-- Nueva pantalla de verificación -->
+        <div id="verifyScreen" class="verify-screen">
+            <h2>Verificación de cuenta</h2>
+            <label for="verificationCode">Introduce el código de verificación:</label>
+
+            <input type="text" id="verificationCode" required>
+            <div id="errorMessage" style="color: red; display: none;"></div>
+            <button type="button" id="verifyButton">Verificar</button>
+
+        </div>
+
+        <!-- Modal -->
+        <div id="emailAlreadyRegisteredModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>El correo ya está registrado.</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (!validatePassword(password)) {
+                alert('La contraseña debe tener al menos 10 caracteres, incluyendo al menos una letra mayúscula, una letra minúscula, un número y un carácter especial.');
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                alert('Las contraseñas no coinciden.');
+                return;
+            }
+
+            const hashPasswd = CryptoJS.SHA256(password).toString();
+            const data = {
+                username: username,
+                email: email,
+                hash_passwd: hashPasswd
+            };
+
+            fetch('/sign_up', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data === "102") {
+                        // Mostrar modal si el resultado es 102
+                        const modal = document.getElementById('emailAlreadyRegisteredModal');
+                        modal.style.display = "block";
+
+                        // Cerrar el modal cuando el usuario haga clic en el botón de cerrar
+                        const closeBtn = modal.querySelector('.close');
+                        closeBtn.onclick = function () {
+                            modal.style.display = "none";
+                        };
+
+                        // Cerrar el modal si el usuario hace clic fuera de él
+                        window.onclick = function (event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        };
+                    } else {
+                        // Mostrar la pantalla de verificación y ocultar el formulario de registro
+                        const signupForm = document.getElementById('signupForm');
+                        const verifyScreen = document.getElementById('verifyScreen');
+                        signupForm.style.display = 'none';
+                        verifyScreen.style.display = 'block';
+                        setTimeout(() => {
+                            verifyScreen.classList.add('show-verify-screen');
+                        }, 100);
+
+                        // Iniciar cuenta atrás
+                        startCountdown(90);
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        });
+
+        document.getElementById('verifyButton').addEventListener('click', function () {
+            const verificationCode = document.getElementById('verificationCode').value;
+            const email = document.getElementById('email').value;
+
+            const data = {
+                code: verificationCode,
+                email: email
+            };
+
+            fetch('/configuration/confirm_account', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                    if (!data.result.error) {
+                        alert('Cuenta verificada con éxito.');
+                        const signupForm = document.getElementById('signupForm');
+                        const verifyScreen = document.getElementById('verifyScreen');
+                        verifyScreen.style.display = 'none';
+                        signupForm.style.display = 'block';
+                        verifyScreen.classList.remove('show-verify-screen');
+
+                        // Limpiar los formularios
+                        document.getElementById('signupForm').reset();
+                        document.getElementById('verificationCode').value = '';
+
+                        window.location.href = '/login';
+                        // Aquí puedes redirigir al usuario a la página de inicio o dashboard
+                    } else {
+                        var errorMessage = document.getElementById('errorMessage');
+                        errorMessage.textContent = 'Código incorrecto';
+                        errorMessage.style.display = 'block';
+                    }
+                })
+                .catch((error) => {
+                    var errorMessage = document.getElementById('errorMessage');
+                    errorMessage.textContent = 'Se ha producido un error inesperado';
+                    errorMessage.style.display = 'block';
+                });
+        });
+
+        function validatePassword(password) {
+            const minLength = 10;
+            const hasUpperCase = /[A-Z]/.test(password);
+            const hasLowerCase = /[a-z]/.test(password);
+            const hasNumber = /\d/.test(password);
+            const hasSpecialChar = /[!@#$'%^&*(),.?":{}|<>]/.test(password);
+            return password.length >= minLength && hasUpperCase && hasLowerCase && hasNumber && hasSpecialChar;
+        }
+
+        function startCountdown(seconds) {
+            const countdownElement = document.getElementById('countdown');
+            const interval = setInterval(() => {
+                const minutes = Math.floor(seconds / 60);
+                const remainingSeconds = seconds % 60;
+                countdownElement.textContent = `Tiempo restante: ${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+                if (seconds-- <= 0) {
+                    clearInterval(interval);
+                    countdownElement.textContent = 'El tiempo ha expirado.';
+                }
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>
