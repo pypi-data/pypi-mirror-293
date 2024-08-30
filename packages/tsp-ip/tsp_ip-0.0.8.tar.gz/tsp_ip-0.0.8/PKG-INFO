@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tsp_ip
+Version: 0.0.8
+Summary: TSP-IP (Travelling Salesman Problem integer programing)
+Home-page: https://github.com/rebui1der/tsp-ip
+Author: rebui1der
+Author-email: vlad_wizard@mail.ru
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# tsp-ip
+TSP-IP (Travelling Salesman Problem integer programing)

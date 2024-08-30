@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+tsp_ip/__init__.py
+tsp_ip/main.py
+tsp_ip.egg-info/PKG-INFO
+tsp_ip.egg-info/SOURCES.txt
+tsp_ip.egg-info/dependency_links.txt
+tsp_ip.egg-info/not-zip-safe
+tsp_ip.egg-info/requires.txt
+tsp_ip.egg-info/top_level.txt
