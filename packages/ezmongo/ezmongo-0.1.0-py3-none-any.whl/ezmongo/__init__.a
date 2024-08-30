@@ -1,0 +1,33 @@
+from pymongo import MongoClient
+from pymongo.database import Collection, Database as MongoDB
+from typing import Callable, Type, TypeVar, Generic
+from pydantic import BaseModel
+
+class TableObject(BaseModel):
+    id: str
+
+T = TypeVar('T', bound=TableObject)
+
+class Table(Generic[T]):
+    db: "Database"
+    name: str
+    def __init__(self,
+                 db: "Database",
+                 name: str,
+                 klass: Type[T]) -> None: ...
+    def __call__(self, *args, **kwargs) -> T: ...
+    @property
+    def client_coll(self) -> Collection: ...
+    def push(self, obj: T) -> None: ...
+    def remove(self, obj: T) -> None: ...
+    def get(self, id: str) -> T | None: ...
+    def find(self, filter: dict[str, str], limit: int = 0) -> list[T]: ...
+    __getitem__ = get
+
+class Database:
+    name: str
+    url: str
+    def __init__(self, name: str, url: str) -> None: ...
+    @property
+    def client_db(self) -> MongoDB: ...
+    def Table(self, name: str) -> Callable[[Type[T]], Table[T]]: ...
