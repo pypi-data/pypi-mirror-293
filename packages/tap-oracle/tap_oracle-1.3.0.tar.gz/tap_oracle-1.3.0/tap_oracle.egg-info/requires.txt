@@ -1,0 +1,6 @@
+singer-python==6.1.0
+cx_Oracle==6.1
+strict-rfc3339==0.7
+
+[dev]
+pylint
