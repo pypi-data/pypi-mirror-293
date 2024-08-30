@@ -1,0 +1,1 @@
+raise ImportError("Activity Browser is not yet available on PYPI/Pip, please install via Conda for now.")
