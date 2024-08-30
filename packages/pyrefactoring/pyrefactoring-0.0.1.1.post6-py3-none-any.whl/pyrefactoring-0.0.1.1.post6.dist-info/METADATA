@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyrefactoring
+Version: 0.0.1.1.post6
+Summary: Restructuring existing code from a mess into clean code and simple design.
+Home-page: https://github.com/hieupth/pyrefactor
+Author: Hieu Pham
+Author-email: 64821726+hieupth@users.noreply.github.com
+License: Copyright (c) 2024 Hieu Pham
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: rawpy
+Requires-Dist: pillow-heif
+
+# Python Refactor
+Small package aims for restructuring existing Python code from a mess into clean code and simple design.
+## Installation
+```bash
+pip install pyrefactoring
+```
+## License
+[AGPL v3.0](LICENSE)<br>
+Copyright &copy; 2024 [Hieu Pham](https://github.com/hieupth). All rights reserved.
