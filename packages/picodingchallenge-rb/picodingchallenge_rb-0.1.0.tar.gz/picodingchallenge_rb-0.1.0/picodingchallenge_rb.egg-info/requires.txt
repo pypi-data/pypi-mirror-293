@@ -1,0 +1,10 @@
+pandas
+beautifulsoup4
+requests
+regex
+os
+io
+datetime
+csv
+json
+logging
