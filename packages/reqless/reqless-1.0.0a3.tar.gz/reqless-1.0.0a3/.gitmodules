@@ -1,0 +1,3 @@
+[submodule "reqless/reqless-core"]
+	path = reqless/reqless-core
+	url = https://github.com/tdg5/reqless-core.git
