@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: werkudara
+Version: 1.1.0
+Summary: Automatically synchronize author and lecturer data in https://bima.kemdikbud.go.id
+Project-URL: Homepage, https://github.com/groaking/werkudara
+Project-URL: Repository, https://github.com/groaking/werkudara.git
+Project-URL: Changelog, https://github.com/groaking/werkudara/blob/master/CHANGELOG.md
+Project-URL: Issues, https://github.com/groaking/werkudara/issues
+Author-email: Samarthya Lykamanuella <93555329+groaking@users.noreply.github.com>
+Maintainer-email: Samarthya Lykamanuella <93555329+groaking@users.noreply.github.com>
+License: GNU General Public License v3.0 only
+License-File: LICENSE
+Keywords: BIMA,Diktiristek,Kemdikbud,Kemendikbud,administrator,autosync,control panel
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Indonesian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Requires-Dist: lxml
+Requires-Dist: platformdirs
+Requires-Dist: pyqt5
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# werkudara
+Automatically synchronize author and lecturer data in https://bima.kemdikbud.go.id (Unofficial)
+
+## Acknowledgement
+
+This module uses and modifies some part of the code in [`save-thread-result`](https://github.com/shailshouryya/save-thread-result) v0.1.1.post1 by [**shailshouryya**](https://github.com/shailshouryya). Licensed under the [MIT License](https://spdx.org/licenses/MIT.html). Copyright (C) 2023 by the respective owner(s).
