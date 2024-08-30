@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+bin/dockerd-proxy
+src/dent.py
+src/dent.egg-info/PKG-INFO
+src/dent.egg-info/SOURCES.txt
+src/dent.egg-info/dependency_links.txt
+src/dent.egg-info/entry_points.txt
+src/dent.egg-info/top_level.txt
