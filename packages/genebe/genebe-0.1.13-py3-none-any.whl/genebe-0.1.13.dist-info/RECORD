@@ -1,0 +1,12 @@
+genebe/__init__.py,sha256=9BUOCGYxkvTV5DaLMTt9jQlvFLOz8RhxVUyddgmdIjY,423
+genebe/client.py,sha256=8MHg-2pMO-m4SmFqlODL3mi0FgMsFjY5i-RHWrbA4uo,32053
+genebe/entrypoint.py,sha256=aslileMMqH2PKdcJLEElMnXeY4aZkWLiQK-n-eZSmCk,6925
+genebe/gbid.py,sha256=gdXhzpV_a0Q5YXNGHzzMsqBtmrTFOlFeFMhTymWiUTk,8334
+genebe/json_simple_annotator.py,sha256=_uzLeStkLBt28JdTexUKIdK0KDx6gIivJz6-Uyq_v8s,6660
+genebe/vcf_simple_annotator.py,sha256=ozB3r6KeZeBl-gvLUv872C5iEcidzA-Yr_lwr9XCXOY,6126
+genebe/version.py,sha256=khDKUuWafURKVs5EAZkpOMiUHI2-V7axlqrWLPUpuZo,23
+genebe-0.1.13.dist-info/METADATA,sha256=uO6x_WQXvE-R8UbyPmZvc1VxsI0hYZbrGyghef0aTTU,6556
+genebe-0.1.13.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+genebe-0.1.13.dist-info/entry_points.txt,sha256=aAAS3E25WX0ISeLM4WLPRHmnrz5Z9yvKusqlLEJr-rA,50
+genebe-0.1.13.dist-info/top_level.txt,sha256=toOD9FkiLnZfk1j4o5QR_EH5eR_AhH_IvdQvoZNLXec,7
+genebe-0.1.13.dist-info/RECORD,,
