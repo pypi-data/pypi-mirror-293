@@ -1,0 +1,11 @@
+-r requirements.txt
+build
+coverage
+mypy
+pytest
+ruff
+setuptools
+Sphinx
+sphinx-gallery
+sphinx-rtd-theme
+twine
