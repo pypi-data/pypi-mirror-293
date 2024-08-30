@@ -1,0 +1,76 @@
+[tool.pdm]
+ignore_package_warnings = [
+    "sphinx*",
+    "alabaster",
+]
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.build]
+run-setuptools = true
+includes = [
+    "mkidcore/",
+]
+source-includes = [
+    ".gitignore",
+    ".coveragerc",
+]
+
+[tool.pdm.dev-dependencies]
+test = [
+    "coverage",
+]
+docs = [
+    "pdoc>=14.6.1",
+]
+
+[tool.pdm.scripts.test]
+composite = [
+    "test-code",
+    "test-docs",
+]
+
+[tool.pdm.scripts.test-code]
+cmd = "python -m coverage run -m unittest discover -t . -s tests -v"
+
+[tool.pdm.scripts.test-docs]
+cmd = "pdoc mkidcore -o docs"
+
+[tool.pdm.scripts.document]
+cmd = "pdoc mkidcore -o docs"
+
+[tool.pdm.scripts.document-live]
+cmd = "pdoc mkidcore"
+
+[project]
+dynamic = []
+name = "mkidcore"
+description = "Mazin Lab Core MKID Library"
+readme = "README.md"
+authors = [
+    { name = "Mazin Lab contributors" },
+]
+requires-python = "~=3.10"
+dependencies = [
+    "setuptools>=72.2.0",
+    "numpy>=1.24",
+    "astropy>=5.0",
+    "astroplan>=0.10",
+    "ruamel.yaml>0.18",
+    "pyyaml>=6.0.2",
+    "multiprocessing_logging",
+]
+version = "1.9.0"
+
+[project.license]
+text = "BSD-2-clause"
+
+[build-system]
+requires = [
+    "pdm-backend~=2.3.0",
+    "setuptools>=72.2.0",
+    "numpy>=2.0",
+    "Cython",
+]
+build-backend = "pdm.backend"

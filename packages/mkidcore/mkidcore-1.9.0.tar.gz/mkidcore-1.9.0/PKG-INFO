@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mkidcore
+Version: 1.9.0
+Summary: Mazin Lab Core MKID Library
+Author: Mazin Lab contributors
+License: BSD-2-clause
+Requires-Python: ~=3.10
+Requires-Dist: setuptools>=72.2.0
+Requires-Dist: numpy>=1.24
+Requires-Dist: astropy>=5.0
+Requires-Dist: astroplan>=0.10
+Requires-Dist: ruamel.yaml>0.18
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: multiprocessing_logging
+Description-Content-Type: text/markdown
+
+# MKIDCore
+Core Tools
