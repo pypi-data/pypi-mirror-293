@@ -1,0 +1,14 @@
+scibite_toolkit/__init__.py,sha256=_q6fUiySIvt6GxQD4dyNZAit7B8rrsiksGYpMJoqv00,49
+scibite_toolkit/centree.py,sha256=IZ7aEG1pooiN5w5savTXpXaf7zUBFyYYfY_8ZoR_9sY,5586
+scibite_toolkit/docstore.py,sha256=jig5oSqX2FZ1LPayoB8sGIDvk-_XUZ5X3Lg9MyR8Q_c,10646
+scibite_toolkit/scibite_search.py,sha256=ChdcUKhwyTqV7ZoBWNWVcOkDvWiI6Hv_ZNW2V8PCXAo,40727
+scibite_toolkit/termite.py,sha256=YW8P80gKCP2dtMpghPWt8cBxvuErt5FW2oGGfu2Drto,45371
+scibite_toolkit/texpress.py,sha256=IvgFt-g_JfyxCjhKz2ihXlu9E1wKglHz9OTW6Np7agc,22580
+scibite_toolkit/utilities.py,sha256=lzHTUn38bvYcctdiMH8mGsB_2PgtHiZWxMmO2ja0B1w,3737
+scibite_toolkit/workbench.py,sha256=lMAebugzh0m1sMzv2qjBYrZNsbxpdrVhXMf27E4AlK4,35753
+scibite_toolkit-1.0.0.data/data/LICENSE.txt,sha256=Km7JzwVlVLc9hQ4-FhqBoblqp4vSYAvGOvAa7vScQNE,329
+scibite_toolkit-1.0.0.dist-info/LICENSE.txt,sha256=Km7JzwVlVLc9hQ4-FhqBoblqp4vSYAvGOvAa7vScQNE,329
+scibite_toolkit-1.0.0.dist-info/METADATA,sha256=X0zO_F_fKWFbb1U0KzSgsHtDnt6ivVPBhn2_imnQtC0,8847
+scibite_toolkit-1.0.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+scibite_toolkit-1.0.0.dist-info/top_level.txt,sha256=rdQrb7yqU5f3LilSqHYOgOGasUM1NSN9HcLHlEFTed4,16
+scibite_toolkit-1.0.0.dist-info/RECORD,,
