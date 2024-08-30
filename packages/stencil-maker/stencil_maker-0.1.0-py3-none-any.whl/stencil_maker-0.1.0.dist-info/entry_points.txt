@@ -1,0 +1,3 @@
+[console_scripts]
+stencil-maker = stencil_maker.__main__:main
+stencil-server = stencil_maker.server:app.run

@@ -1,0 +1,13 @@
+stencil_maker/__init__.py,sha256=2IRXO_kUvb67y_Emn9r5QqhO8_VL3f2s0OTNGwdr1Ss,59
+stencil_maker/__main__.py,sha256=SVp0z-dvNROrx7sIZwRtnOuNbkYvT6m6nZ5Y4PMi4xs,1175
+stencil_maker/core.py,sha256=XRElJRyppUVeuZJ88SnY381c5Eqzulzmx5J6MMkpkVQ,3106
+stencil_maker/server.py,sha256=WTNkGiICAiH_Ycmv7nVvu5-HGG-7MEprrAhKZz89_Hw,2136
+stencil_maker/static/main.js,sha256=h3v9j7M-eJ15WSx762Qd5w1sbTChGOtMyQD7jCVK8Lk,253
+stencil_maker/static/style.css,sha256=mEbM4dbwJRvSA1Hbmx0yDjTd-M80tVu8nnF0Gue4Fi4,1033
+stencil_maker/templates/index.html,sha256=gVyBOjyDtD6ubJD5WIc3Kx-ujjqAg0LvD5WHcn00gns,1961
+stencil_maker/templates/result-fragment.html,sha256=5N99YuObcFlRpIqxY8dOYWIk-hisb2vGO36pSkU1SnA,110
+stencil_maker-0.1.0.dist-info/METADATA,sha256=5AlIzoM8yfAtVxf4x1dDj1AIIbllhoTDh77SMFciRNw,3251
+stencil_maker-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+stencil_maker-0.1.0.dist-info/entry_points.txt,sha256=VY97MY7-Jq_eD4tvYmHxwLITLoTFw7dsfNr1kCuec3Y,108
+stencil_maker-0.1.0.dist-info/licenses/LICENSE,sha256=2JhUkmNBIJr8i7QlPa5IALGnSI89rP4yrFPivSLOMRE,1064
+stencil_maker-0.1.0.dist-info/RECORD,,
