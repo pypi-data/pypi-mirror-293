@@ -1,0 +1,84 @@
+import logging
+
+from pydantic import BaseModel
+from sqlmodel import Session, select
+
+from mtmai.models.chat import ChatInput, ChatMessage, ChatMessageBase
+from mtmai.models.models import (
+    Account,
+)
+
+logger = logging.getLogger()
+
+
+class ChatSubmitPublic(BaseModel):
+    chat_id: str | None = None
+    agent_name: str
+    messages: list[ChatMessageBase]
+
+
+def submit_chat_messages(
+    *, db: Session, data: ChatSubmitPublic, owner_id: str
+) -> Account:
+    chat_input_item = ChatInput()
+    chat_input_item.agent_id = data.agent_name
+    chat_input_item.user_id = owner_id
+    if not data.chat_id:
+        # 是全新的对话
+        db.add(chat_input_item)
+        db.commit()
+        db.refresh(chat_input_item)
+        logger.info("创建了 chat input %s", chat_input_item.id)
+    else:
+        # 现有对话
+        chat_input_item = get_chat_input(db, data.chat_id)
+        if not chat_input_item:
+            msg = "获取 chat input 记录出错"
+            raise Exception(msg)  # noqa: TRY002
+
+    db.add_all(
+        [
+            ChatMessage(
+                content=x.content,
+                chat=chat_input_item,
+                role=x.role,
+            )
+            for x in data.messages
+        ]
+    )
+    db.commit()
+    return chat_input_item
+
+
+def append_chat_messages(db: Session, chat_messages: list[ChatMessage]):
+    """批量追加聊天历史"""
+    logger.info("追加聊天历史, 消息数量: %d", len(chat_messages))
+    db.add_all(chat_messages)
+
+
+def get_chat_input(db: Session, id: str):
+    statement = select(ChatInput).where(ChatInput.id == id)
+    result = db.exec(statement=statement).first()
+    return result
+
+
+def get_conversation_messages(
+    db: Session,
+    conversation_id: str,
+    offset: int = 0,
+    limit: int = 100,
+):
+    """
+    获取 对话的消息记录
+    TODO: 细节还需改进
+    """
+    if limit > 1000:
+        msg = "limit too large"
+        raise Exception(msg)  # noqa: TRY002
+    chat_messages = db.exec(
+        select(ChatMessage)
+        .where(ChatMessage.chat_id == conversation_id)
+        .offset(offset)
+        .limit(limit)
+    ).all()
+    return chat_messages
