@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cht_model_builder
+Version: 1.0.0
+Author-email: Maarten van Ormondt <maarten.vanormondt@deltares-usa.us>
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: shapely
+Requires-Dist: cht_bathymetry
+Requires-Dist: cht_utils
