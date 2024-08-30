@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+litlyx_sender/__init__.py
+litlyx_sender/sender.py
+litlyx_sender.egg-info/PKG-INFO
+litlyx_sender.egg-info/SOURCES.txt
+litlyx_sender.egg-info/dependency_links.txt
+litlyx_sender.egg-info/requires.txt
+litlyx_sender.egg-info/top_level.txt
+tests/test_sender.py
