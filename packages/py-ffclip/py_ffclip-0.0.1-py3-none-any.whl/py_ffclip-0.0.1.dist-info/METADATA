@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: py-ffclip
+Version: 0.0.1
+Summary: 基于python封装的ffmpeg视频处理工具，依赖ffmpeg命令行
+Home-page: 
+Author: kangkang
+Author-email: chenwk.top@foxmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydub >=0.25.1
+
+# PyFFclip
+
+PyFFclip 是一个基于FFmpeg命令行实现的Python库，可以用于处理视频编解码、组合剪辑等操作。
+
+## 安装
+
+你可以使用pip安装PyFFclip：
+
+```bash
+pip install py-ffclip
+```
+
+## 使用
+
+- 获取视频时长
+
+```python
+from ffclip import FFVideoClip
+
+clip = FFVideoClip("input.mp4")
+print(clip.duration)
+clip.write_video("output.mp4",fps=30,codec="libx264")
+```
+
+- 组合剪辑
+
+```python
+from ffclip import FFVideoClip, FFImageClip, FFTextClip, FFCompositeVideoClip
+
+clip1 = FFImageClip("input1.png")
+bg_video = FFVideoClip("input2.mp4")
+text1 = FFTextClip("Hello world!", fontsize=60, color="green", size=(500, 500)).set_duration(5).alpha(0.1)
+composite_clip = FFCompositeVideoClip([bg_video, clip1, text1])
+composite_clip.write_video("out.mp4")
+```
+
+
