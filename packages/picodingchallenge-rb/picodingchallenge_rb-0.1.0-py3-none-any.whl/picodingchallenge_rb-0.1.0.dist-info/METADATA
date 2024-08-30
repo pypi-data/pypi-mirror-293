@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: picodingchallenge-rb
+Version: 0.1.0
+Summary: a Python package designed to complete a coding challenge I was set.
+Home-page: UNKNOWN
+Author: Ridwan Basith
+Author-email: ridwanbasith93@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: regex
+Requires-Dist: os
+Requires-Dist: io
+Requires-Dist: datetime
+Requires-Dist: csv
+Requires-Dist: json
+Requires-Dist: logging
+
+# PI Coding Challenge
+
+`picodingchallenge_rb` is a Python package designed to complete a coding challenge I was set.
+
+## Installation
+
+```bash
+pip install picodingchallenge_rb
+
+
