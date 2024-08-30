@@ -1,0 +1,2 @@
+[console_scripts]
+microcore-cli = microcore.cli.execute:app
