@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling >= 1.12.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/slimify/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/slimify"]
+
+[project]
+name = "slimify"
+description = "Python Build Slimmer: Only What You Need."
+authors = [{ name = "Valentin Calomme", email = "mail@valentincalomme.com" }]
+readme = "README.md"
+license = "MIT"
+dynamic = ["version"]
+
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "hypothesis >= 6.111.1",
+    "import-linter >= 2.0",
+    "mkdocs-material >= 9.5.33",
+    "mypy >= 1.11.2",
+    "pre-commit >= 3.8.0",
+    "pyright>=1.1.377",
+    "pytest >= 8.3.2",
+    "pytest-cov >= 5.0.0",
+    "ruff >= 0.6.3",
+]
+
+[tool.importlinter]
+# https://import-linter.readthedocs.io/en/stable/toml.html
+
+root_packages = ["slimify", "tests"]
+include_external_packages = true
+
+[[tool.importlinter.contracts]]
+name = "Application should maintain a layered architecture."
+type = "layers"
+layers = [
+    "tests",   # Tests are allowed to import the caspr module
+    "slimify", # But not the other way around
+]
