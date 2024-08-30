@@ -1,0 +1,2 @@
+[console_scripts]
+autophylo = autophylo:autophylo.main
