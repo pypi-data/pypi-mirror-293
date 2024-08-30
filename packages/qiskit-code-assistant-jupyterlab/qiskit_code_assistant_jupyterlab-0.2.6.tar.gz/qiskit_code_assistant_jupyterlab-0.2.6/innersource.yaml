@@ -1,0 +1,17 @@
+## This is where we save links to external resources that are displayed on your project's profile in the InnerSource Portal.
+---
+
+## Link to documentation
+documentationLink: "https://github.ibm.com/IBM-Q-Software/qiskit-code-assistant-jupyterlab#readme"
+
+## Link to project slack channel
+slackChannel: "https://ibm.enterprise.slack.com/archives/C065UFZCDFE"
+
+## Links to starter contact info
+starterName: "[Alex Bozarth](https://github.ibm.com/ajbozart)"
+
+starterRole: "Lead Developer"
+
+starterSlack: "@ajbozart"
+
+starterEmail: "ajbozart@us.ibm.com"
