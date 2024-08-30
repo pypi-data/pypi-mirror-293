@@ -1,0 +1,8 @@
+pyyaml
+openai
+tenacity
+termcolor
+scipy
+tiktoken
+chardet
+markdown
