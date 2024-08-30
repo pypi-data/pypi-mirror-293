@@ -1,0 +1,2 @@
+[console_scripts]
+click-summarizer = click_summarizer.cli:summarize_cli
