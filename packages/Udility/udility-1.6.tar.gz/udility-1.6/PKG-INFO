@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: udility
+Version: 1.6
+Summary: A Python library for generating SVG illustrations using AI.
+Home-page: https://github.com/uditakhourii/udility
+Author: Udit Akhouri
+Author-email: researchudit@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
