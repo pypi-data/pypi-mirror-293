@@ -1,0 +1,3 @@
+pandas
+rawpy
+pillow_heif
