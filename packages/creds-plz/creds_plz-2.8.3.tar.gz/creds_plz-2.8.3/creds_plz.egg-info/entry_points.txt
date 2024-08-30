@@ -1,0 +1,2 @@
+[console_scripts]
+creds-plz = gimme_aws_creds.main:main
