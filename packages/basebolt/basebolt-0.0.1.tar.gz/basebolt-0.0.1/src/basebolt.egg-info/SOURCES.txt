@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/basebolt/__init__.py
+src/basebolt.egg-info/PKG-INFO
+src/basebolt.egg-info/SOURCES.txt
+src/basebolt.egg-info/dependency_links.txt
+src/basebolt.egg-info/top_level.txt
