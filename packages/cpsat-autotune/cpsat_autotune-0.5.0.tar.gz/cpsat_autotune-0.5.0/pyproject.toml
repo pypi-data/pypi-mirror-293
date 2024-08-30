@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2", "wheel", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "cpsat-autotune"
+version = "0.5.0"
+authors = [
+    { name = "Dominik Krupke", email = "krupked@gmail.com" },
+]
+description = "A tool to automatically tune the hyperparameters of the OR-Tools' CP-SAT solver."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+    "optuna", "ortools", "numpy", "scipy", "rich", "click"
+]
+
+[project.scripts]
+cpsat-autotune = "cpsat_autotune.cli:cli"
