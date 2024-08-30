@@ -1,0 +1,2153 @@
+<?xml version='1.0' encoding='utf8'?>
+<nuitka-compilation-report nuitka_version="2.4.8" nuitka_commercial_version="not installed" completion="exception">
+  <exception exception_type="AssertionError" exception_value="/home/ubuntu/fourier-grx/build/lib/fourier_grx.build/module.fourier_grx.c">
+Traceback (most recent call last):
+  File "/tmp/pdm-build-env-z5m84pmd-shared/lib/python3.11/site-packages/nuitka/MainControl.py", line 1155, in main
+    _main()
+  File "/tmp/pdm-build-env-z5m84pmd-shared/lib/python3.11/site-packages/nuitka/MainControl.py", line 1004, in _main
+    result, scons_options = compileTree()
+                            ^^^^^^^^^^^^^
+  File "/tmp/pdm-build-env-z5m84pmd-shared/lib/python3.11/site-packages/nuitka/MainControl.py", line 872, in compileTree
+    makeSourceDirectory()
+  File "/tmp/pdm-build-env-z5m84pmd-shared/lib/python3.11/site-packages/nuitka/MainControl.py", line 447, in makeSourceDirectory
+    writeSourceCode(filename=c_filename, source_code=source_code)
+  File "/tmp/pdm-build-env-z5m84pmd-shared/lib/python3.11/site-packages/nuitka/tree/SourceHandling.py", line 308, in writeSourceCode
+    assert not os.path.isfile(filename), filename
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: /home/ubuntu/fourier-grx/build/lib/fourier_grx.build/module.fourier_grx.c
+</exception>
+  <module name="fourier_grx" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="importlib.metadata" finding="absolute" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.actuator.fi_actuator_gripper_fsa" finding="absolute" line="1" />
+      <module_usage name="fourier_grx.actuator.fi_actuator_dex_hand_inspire" finding="absolute" line="2" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator.fi_actuator_dex_hand_inspire" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/fi_actuator_dex_hand_inspire.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="37" merged_total="901" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="31" merged_total="163" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="socket" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.abc" finding="absolute" line="6" />
+      <module_usage name="fourier_core.actuator.fi_actuator_dexhand" finding="absolute" line="8" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator.fi_actuator_gripper_fsa" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/fi_actuator_gripper_fsa.py">
+    <optimization-time pass="1" time="0.09" micro_passes="4" max_branch_merge="35" merged_total="991" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="28" merged_total="162" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="socket" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="6" />
+      <module_usage name="collections.abc" finding="absolute" line="7" />
+      <module_usage name="typing" finding="excluded" line="8" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="loguru" finding="not-found" line="10" />
+      <module_usage name="fourier_core.actuator" finding="absolute" line="12" />
+      <module_usage name="fourier_core.actuator.ActuatorGripper" finding="not-found" line="12" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence" finding="absolute" line="13" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FIFastIdentifier" finding="not-found" line="13" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FIFastProtocol" finding="not-found" line="13" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FIProtocol" finding="not-found" line="13" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FourierActuatorUDPPort" finding="not-found" line="13" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator.fi_dhx_Inspire" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/fi_dhx_Inspire.py">
+    <optimization-time pass="1" time="0.03" micro_passes="5" max_branch_merge="41" merged_total="3726" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="41" merged_total="739" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.actuator.fi_dhx_base" finding="relative" line="3" />
+      <module_usage name="fourier_grx.actuator.fi_dhx_predefine" finding="relative" line="4" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator.fi_dhx_base" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/fi_dhx_base.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="30" merged_total="144" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="5" merged_total="10" />
+    <module_usages>
+      <module_usage name="fourier_grx.actuator.fi_dhx_socket" finding="relative" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator.fi_dhx_fdh" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/fi_dhx_fdh.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="45" merged_total="3667" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="45" merged_total="730" />
+    <module_usages>
+      <module_usage name="fourier_grx.actuator.fi_dhx_base" finding="relative" line="1" />
+      <module_usage name="fourier_grx.actuator.fi_dhx_predefine" finding="relative" line="2" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator.fi_dhx_logger" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/fi_dhx_logger.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="17" merged_total="153" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="2" merged_total="15" />
+    <module_usages>
+      <module_usage name="fourier_core.logger" finding="absolute" line="2" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="2" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator.fi_dhx_predefine" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/fi_dhx_predefine.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="10" merged_total="86" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="2" merged_total="13" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="2" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.actuator.fi_dhx_socket" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/actuator/fi_dhx_socket.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="46" merged_total="1445" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="36" merged_total="203" />
+    <module_usages>
+      <module_usage name="queue" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="socket" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="struct" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="5" />
+      <module_usage name="json" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.actuator.fi_dhx_logger" finding="relative" line="8" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gait_generator" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gait_generator.py">
+    <optimization-time pass="1" time="0.07" micro_passes="7" max_branch_merge="161" merged_total="6850" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="95" merged_total="908" />
+    <module_usages>
+      <module_usage name="torch" finding="not-found" line="1" />
+      <module_usage name="matplotlib.pyplot" finding="not-found" line="645" />
+      <module_usage name="random" finding="excluded" line="646" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1" finding="absolute" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_algorithm_gr1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_algorithm_gr1.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="50" merged_total="147" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="1" merged_total="6" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="2" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_algorithm_gr1_rl" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_algorithm_gr1_rl.py">
+    <optimization-time pass="1" time="0.03" micro_passes="4" max_branch_merge="267" merged_total="3928" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="159" merged_total="654" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+      <module_usage name="torch" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="5" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="5" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1" finding="absolute" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_algorithm_gr1_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_algorithm_gr1_stand.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="177" merged_total="1254" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="172" merged_total="223" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="3" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.ActuatorControlMode" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="4" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1" finding="absolute" line="11" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_parallel_ankle_gr1_t1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_parallel_ankle_gr1_t1.py">
+    <optimization-time pass="1" time="0.10" micro_passes="7" max_branch_merge="222" merged_total="5546" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="222" merged_total="762" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+      <module_usage name="random" finding="excluded" line="576" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="577" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_parallel_ankle_gr1_t2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_parallel_ankle_gr1_t2.py">
+    <optimization-time pass="1" time="0.09" micro_passes="7" max_branch_merge="222" merged_total="5287" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="222" merged_total="725" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_parallel_ankle_gr1_t3" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_parallel_ankle_gr1_t3.py">
+    <optimization-time pass="1" time="0.09" micro_passes="7" max_branch_merge="222" merged_total="5287" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="222" merged_total="725" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_parallel_head_gr1_t2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_parallel_head_gr1_t2.py">
+    <optimization-time pass="1" time="0.08" micro_passes="7" max_branch_merge="212" merged_total="4494" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="212" merged_total="627" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_parallel_wrist_gr1_t1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_parallel_wrist_gr1_t1.py">
+    <optimization-time pass="1" time="0.08" micro_passes="7" max_branch_merge="238" merged_total="4628" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="230" merged_total="642" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_parallel_wrist_gr1_t2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_parallel_wrist_gr1_t2.py">
+    <optimization-time pass="1" time="0.08" micro_passes="7" max_branch_merge="238" merged_total="4626" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="230" merged_total="642" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.fi_parallel_wrist_gr1_t3" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/fi_parallel_wrist_gr1_t3.py">
+    <optimization-time pass="1" time="0.08" micro_passes="7" max_branch_merge="238" merged_total="4626" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="230" merged_total="642" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.lower_limb" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/lower_limb/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/lower_limb/fi_algorithm_gr1_lower_limb.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="177" merged_total="1524" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="172" merged_total="225" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="2" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="2" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.ActuatorControlMode" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="5" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb_rl_cpg_stack" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/lower_limb/fi_algorithm_gr1_lower_limb_rl_cpg_stack.py">
+    <optimization-time pass="1" time="0.03" micro_passes="4" max_branch_merge="299" merged_total="2604" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="148" merged_total="377" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.algorithm.gait_generator" finding="absolute" line="12" />
+      <module_usage name="posixpath" finding="excluded" line="254" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb_rl_cpg_stack_1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/lower_limb/fi_algorithm_gr1_lower_limb_rl_cpg_stack_1.py">
+    <optimization-time pass="1" time="0.02" micro_passes="4" max_branch_merge="286" merged_total="2494" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="148" merged_total="356" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.algorithm.gait_generator" finding="absolute" line="12" />
+      <module_usage name="posixpath" finding="excluded" line="251" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb_rl_cpg_stack_2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/lower_limb/fi_algorithm_gr1_lower_limb_rl_cpg_stack_2.py">
+    <optimization-time pass="1" time="0.02" micro_passes="4" max_branch_merge="286" merged_total="2494" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="148" merged_total="356" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.algorithm.gait_generator" finding="absolute" line="12" />
+      <module_usage name="posixpath" finding="excluded" line="251" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb_rl_cpg_stack_3" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/lower_limb/fi_algorithm_gr1_lower_limb_rl_cpg_stack_3.py">
+    <optimization-time pass="1" time="0.02" micro_passes="4" max_branch_merge="286" merged_total="2494" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="148" merged_total="356" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.algorithm.gait_generator" finding="absolute" line="12" />
+      <module_usage name="posixpath" finding="excluded" line="251" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.nohla" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/nohla/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_base" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/nohla/fi_algorithm_gr1_nohla_base.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="57" merged_total="158" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="1" merged_total="6" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="2" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_rl_walk" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/nohla/fi_algorithm_gr1_nohla_rl_walk.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="289" merged_total="3484" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="197" merged_total="376" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="math" finding="absolute" line="3" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="7" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_base" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.tools.low_pass_filter" finding="absolute" line="12" />
+      <module_usage name="posixpath" finding="excluded" line="298" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="posixpath" finding="excluded" line="315" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/nohla/fi_algorithm_gr1_nohla_stand.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="177" merged_total="1328" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="172" merged_total="225" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="3" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.ActuatorControlMode" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="4" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_base" finding="absolute" line="13" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.nowhla" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/nowhla/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.nowhla.fi_algorithm_gr1_nowhla" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/nowhla/fi_algorithm_gr1_nowhla.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="178" merged_total="1376" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="173" merged_total="225" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="2" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="2" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.ActuatorControlMode" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="5" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.nowhla.fi_algorithm_gr1_nowhla_rl" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/nowhla/fi_algorithm_gr1_nowhla_rl.py">
+    <optimization-time pass="1" time="0.02" micro_passes="4" max_branch_merge="64" merged_total="1350" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="43" merged_total="223" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="numpy" finding="not-found" line="3" />
+      <module_usage name="torch" finding="not-found" line="4" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="5" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="6" />
+      <module_usage name="fourier_core.rl.rl_actor_critic_mlp" finding="absolute" line="7" />
+      <module_usage name="fourier_core.rl.rl_encoder" finding="absolute" line="8" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1_rl" finding="absolute" line="10" />
+      <module_usage name="posixpath" finding="excluded" line="89" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="posixpath" finding="excluded" line="252" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.robot_operation" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/robot_operation/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.robot_operation.robot_operation" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/robot_operation/robot_operation.py">
+    <optimization-time pass="1" time="0.07" micro_passes="5" max_branch_merge="144" merged_total="4549" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="93" merged_total="873" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="scipy.spatial.transform" finding="not-found" line="2" />
+      <module_usage name="ruckig" finding="not-found" line="3" />
+      <module_usage name="time" finding="absolute" line="4" />
+      <module_usage name="fourier_grx.end_effector.gr1.fi_end_effector_gr1" finding="absolute" line="5" />
+      <module_usage name="math" finding="absolute" line="7" />
+      <module_usage name="meshcat_shapes" finding="not-found" line="8" />
+      <module_usage name="pink.visualization" finding="not-found" line="9" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.simple" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/simple/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/simple/fi_algorithm_gr1_simple.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="177" merged_total="1402" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="172" merged_total="225" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="2" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="2" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.ActuatorControlMode" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="5" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/simple/fi_algorithm_gr1_simple_rl.py">
+    <optimization-time pass="1" time="0.02" micro_passes="4" max_branch_merge="142" merged_total="1760" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="139" merged_total="266" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_actor_critic_mlp" finding="absolute" line="9" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="10" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple" finding="absolute" line="12" />
+      <module_usage name="posixpath" finding="excluded" line="136" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl_cpg_stack" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/simple/fi_algorithm_gr1_simple_rl_cpg_stack.py">
+    <optimization-time pass="1" time="0.03" micro_passes="4" max_branch_merge="233" merged_total="2492" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="154" merged_total="382" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.algorithm.gait_generator" finding="absolute" line="12" />
+      <module_usage name="posixpath" finding="excluded" line="249" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl_cpg_stack_dic" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/simple/fi_algorithm_gr1_simple_rl_cpg_stack_dic.py">
+    <optimization-time pass="1" time="0.03" micro_passes="4" max_branch_merge="233" merged_total="2492" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="154" merged_total="382" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.algorithm.gait_generator" finding="absolute" line="12" />
+      <module_usage name="posixpath" finding="excluded" line="249" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.state_estimator" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/state_estimator/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.state_estimator.estimator" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/state_estimator/estimator.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="187" merged_total="1864" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="66" merged_total="255" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="pinocchio" finding="absolute" line="2" />
+      <module_usage name="math" finding="absolute" line="3" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.kalman_filter" finding="absolute" line="5" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.state" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.robot_data" finding="absolute" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.state_estimator.kalman_filter" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/state_estimator/kalman_filter.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="78" merged_total="477" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="54" merged_total="61" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.state" finding="absolute" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.state_estimator.robot_data" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/state_estimator/robot_data.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="14" merged_total="131" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="14" merged_total="21" />
+    <module_usages />
+  </module>
+  <module name="fourier_grx.algorithm.gr1.state_estimator.state" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/state_estimator/state.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="30" merged_total="105" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="1" merged_total="6" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.state_estimator.test" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/state_estimator/test.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="32" merged_total="713" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="32" merged_total="140" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="pinocchio" finding="absolute" line="2" />
+      <module_usage name="matplotlib.pyplot" finding="not-found" line="3" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.estimator" finding="absolute" line="4" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.kalman_filter" finding="absolute" line="5" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.robot_data" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.state" finding="absolute" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.state_estimator.tool" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/state_estimator/tool.py">
+    <optimization-time pass="1" time="0.00" micro_passes="4" max_branch_merge="9" merged_total="38" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="8" merged_total="9" />
+    <module_usages>
+      <module_usage name="pinocchio" finding="absolute" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.zx" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/zx/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr1.zx.fi_algorithm_gr1_zx_rl_walk" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr1/zx/fi_algorithm_gr1_zx_rl_walk.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="92" merged_total="1082" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="92" merged_total="177" />
+    <module_usages>
+      <module_usage name="collections" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.deque" finding="not-found" line="1" />
+      <module_usage name="os" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="torch" finding="not-found" line="4" />
+      <module_usage name="numpy" finding="not-found" line="5" />
+      <module_usage name="posixpath" finding="excluded" line="105" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr2" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr2/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr2.fi_algorithm_gr2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr2/fi_algorithm_gr2.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="177" merged_total="1379" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="172" merged_total="225" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="2" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="2" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.ActuatorControlMode" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="5" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr2.fi_algorithm_gr2_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr2/fi_algorithm_gr2_stand.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="177" merged_total="1254" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="172" merged_total="223" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="3" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.ActuatorControlMode" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="4" />
+      <module_usage name="fourier_grx.algorithm.gr2.fi_algorithm_gr2" finding="absolute" line="11" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr2.nohla" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr2/nohla/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr2.nohla.fi_algorithm_gr2_nohla_base" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr2/nohla/fi_algorithm_gr2_nohla_base.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="57" merged_total="158" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="1" merged_total="6" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="2" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr2.nohla.fi_algorithm_gr2_nohla_rl_walk_cpg" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr2/nohla/fi_algorithm_gr2_nohla_rl_walk_cpg.py">
+    <optimization-time pass="1" time="0.03" micro_passes="5" max_branch_merge="250" merged_total="2845" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="166" merged_total="307" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="math" finding="absolute" line="3" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="torch" finding="not-found" line="5" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="7" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.rl.rl_robot_tool" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr2.nohla.fi_algorithm_gr2_nohla_base" finding="absolute" line="11" />
+      <module_usage name="posixpath" finding="excluded" line="255" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.gr2.nohla.fi_algorithm_gr2_nohla_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/gr2/nohla/fi_algorithm_gr2_nohla_stand.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="177" merged_total="1328" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="172" merged_total="225" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="3" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.ActuatorControlMode" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="4" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_base" finding="absolute" line="13" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.template" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/template/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.algorithm.template.fi_algorithm_grx" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/algorithm/template/fi_algorithm_grx.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="21" merged_total="203" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="14" merged_total="31" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.algorithm.fi_algorithm_base" finding="absolute" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.control_system" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/control_system/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.control_system.fi_control_system_gr" finding="relative" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.control_system.fi_control_system_gr" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/control_system/fi_control_system_gr.py">
+    <optimization-time pass="1" time="0.00" micro_passes="4" max_branch_merge="22" merged_total="195" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="15" merged_total="36" />
+    <module_usages>
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine.DeployMode" finding="not-found" line="3" />
+      <module_usage name="fourier_core.control_system" finding="absolute" line="4" />
+      <module_usage name="fourier_core.control_system.ControlSystem" finding="not-found" line="4" />
+      <module_usage name="fourier_grx.control_system.fi_control_system_other_mode" finding="absolute" line="6" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.control_system.fi_control_system_other_mode" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/control_system/fi_control_system_other_mode.py">
+    <optimization-time pass="1" time="0.00" micro_passes="4" max_branch_merge="24" merged_total="170" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="24" merged_total="41" />
+    <module_usages>
+      <module_usage name="threading" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="4" />
+      <module_usage name="fourier_core.robot.fi_robot_base" finding="absolute" line="5" />
+      <module_usage name="fourier_grx.robot.fi_robot_interface" finding="absolute" line="6" />
+      <module_usage name="ischedule" finding="not-found" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.end_effector" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/end_effector/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.end_effector.gr1" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/end_effector/gr1/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.end_effector.gr1.fi_end_effector_gr1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/end_effector/gr1/fi_end_effector_gr1.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="127" merged_total="2279" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="119" merged_total="440" />
+    <module_usages>
+      <module_usage name="fourier_core.end_effector.fi_end_effector_base" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+      <module_usage name="pink" finding="not-found" line="4" />
+      <module_usage name="pink.visualization" finding="not-found" line="5" />
+      <module_usage name="pinocchio" finding="absolute" line="6" />
+      <module_usage name="qpsolvers" finding="not-found" line="7" />
+      <module_usage name="math" finding="absolute" line="8" />
+      <module_usage name="os" finding="excluded" line="9" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="loop_rate_limiters" finding="not-found" line="10" />
+      <module_usage name="math" finding="absolute" line="12" />
+      <module_usage name="meshcat_shapes" finding="not-found" line="13" />
+      <module_usage name="posixpath" finding="excluded" line="22" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.end_effector.gr2" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/end_effector/gr2/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.end_effector.gr2.fi_end_effector_gr2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/end_effector/gr2/fi_end_effector_gr2.py">
+    <optimization-time pass="1" time="0.08" micro_passes="5" max_branch_merge="127" merged_total="2279" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="119" merged_total="440" />
+    <module_usages>
+      <module_usage name="fourier_core.end_effector.fi_end_effector_base" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+      <module_usage name="pink" finding="not-found" line="4" />
+      <module_usage name="pink.visualization" finding="not-found" line="5" />
+      <module_usage name="pinocchio" finding="absolute" line="6" />
+      <module_usage name="qpsolvers" finding="not-found" line="7" />
+      <module_usage name="math" finding="absolute" line="8" />
+      <module_usage name="os" finding="excluded" line="9" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="loop_rate_limiters" finding="not-found" line="10" />
+      <module_usage name="math" finding="absolute" line="12" />
+      <module_usage name="meshcat_shapes" finding="not-found" line="13" />
+      <module_usage name="posixpath" finding="excluded" line="22" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.other_controller" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/other_controller/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.other_controller.wbc_controller" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/other_controller/wbc_controller.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages />
+  </module>
+  <module name="fourier_grx.predefine" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/predefine/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.predefine.fi_task_function_type" finding="absolute" line="1" />
+      <module_usage name="fourier_grx.predefine.fi_task_callback_type" finding="absolute" line="2" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.predefine.fi_task_callback_type" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/predefine/fi_task_callback_type.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" max_branch_merge="14" merged_total="94" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="14" merged_total="31" />
+    <module_usages>
+      <module_usage name="enum" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.predefine.fi_task_function_type" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/predefine/fi_task_function_type.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" max_branch_merge="14" merged_total="94" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="14" merged_total="31" />
+    <module_usages>
+      <module_usage name="enum" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.fi_robot_interface" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/fi_robot_interface.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" max_branch_merge="5" merged_total="99" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="5" merged_total="33" />
+    <module_usages>
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="1" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="2" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="2" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.RobotName" finding="not-found" line="3" />
+      <module_usage name="fourier_core.predefine.RobotType" finding="not-found" line="3" />
+      <module_usage name="fourier_core.robot" finding="absolute" line="4" />
+      <module_usage name="fourier_core.robot.RobotInterface" finding="not-found" line="4" />
+      <module_usage name="fourier_grx.robot.gr1" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.robot.gr1.RobotGR1T1" finding="not-found" line="6" />
+      <module_usage name="fourier_grx.robot.gr1.RobotGR1T1V2" finding="not-found" line="6" />
+      <module_usage name="fourier_grx.robot.gr1.RobotGR1T1V3" finding="not-found" line="6" />
+      <module_usage name="fourier_grx.robot.gr1.RobotGR1T2" finding="not-found" line="6" />
+      <module_usage name="fourier_grx.robot.gr1.RobotGR1T3" finding="not-found" line="6" />
+      <module_usage name="fourier_grx.robot.gr2" finding="absolute" line="13" />
+      <module_usage name="fourier_grx.robot.gr2.RobotGR2T1" finding="not-found" line="13" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr1" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr1/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t1" finding="absolute" line="1" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t1v2" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t1v3" finding="absolute" line="3" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t2" finding="absolute" line="4" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t3" finding="absolute" line="5" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr1.fi_robot_gr1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr1/fi_robot_gr1.py">
+    <optimization-time pass="1" time="0.05" micro_passes="5" max_branch_merge="168" merged_total="4864" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="162" merged_total="846" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="numpy" finding="not-found" line="2" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="4" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="5" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.RobotType" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.DeployMode" finding="not-found" line="6" />
+      <module_usage name="fourier_core.sensor" finding="absolute" line="15" />
+      <module_usage name="fourier_core.sensor.SensorUSBIMUHipnuc" finding="not-found" line="15" />
+      <module_usage name="fourier_core.actuator" finding="absolute" line="16" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSA" finding="not-found" line="16" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSAGroup" finding="not-found" line="16" />
+      <module_usage name="fourier_core.joint" finding="absolute" line="20" />
+      <module_usage name="fourier_core.joint.JointRotary" finding="not-found" line="20" />
+      <module_usage name="fourier_core.joint.JointGroup" finding="not-found" line="20" />
+      <module_usage name="fourier_core.end_effector" finding="absolute" line="24" />
+      <module_usage name="fourier_core.end_effector.EndEffectorBaseGroup" finding="not-found" line="24" />
+      <module_usage name="fourier_core.robot" finding="absolute" line="25" />
+      <module_usage name="fourier_core.robot.RobotFFTAI" finding="not-found" line="25" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="27" />
+      <module_usage name="fourier_grx" finding="absolute" line="28" />
+      <module_usage name="fourier_grx.__version__" finding="not-found" line="28" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1_stand" finding="absolute" line="620" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1_stand_pd" finding="absolute" line="624" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1_set_home" finding="absolute" line="628" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr1.fi_robot_gr1_t1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr1/fi_robot_gr1_t1.py">
+    <optimization-time pass="1" time="0.22" micro_passes="8" max_branch_merge="249" merged_total="17316" />
+    <optimization-time pass="2" time="0.03" micro_passes="1" max_branch_merge="248" merged_total="2128" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="os" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="3" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="6" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="7" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.ActuatorFIFSAType" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.RobotType" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.DeployMode" finding="not-found" line="8" />
+      <module_usage name="fourier_core.sensor" finding="absolute" line="18" />
+      <module_usage name="fourier_core.sensor.SensorFIFSE" finding="not-found" line="18" />
+      <module_usage name="fourier_core.actuator" finding="absolute" line="19" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSA" finding="not-found" line="19" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSAGroup" finding="not-found" line="19" />
+      <module_usage name="fourier_core.robot.fi_robot_base" finding="absolute" line="23" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_parallel_ankle_gr1_t1" finding="absolute" line="25" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_parallel_wrist_gr1_t1" finding="absolute" line="26" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1" finding="absolute" line="27" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="28" />
+      <module_usage name="fourier_grx.tools.load_sensor_offset" finding="absolute" line="29" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.tool" finding="absolute" line="72" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.estimator" finding="absolute" line="73" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.robot_data" finding="absolute" line="717" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1_t1_stand" finding="absolute" line="1354" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1_t1_stand_pd" finding="absolute" line="1358" />
+      <module_usage name="fourier_grx.task.gr1.nohla.fi_task_gr1_nohla_stand" finding="absolute" line="1362" />
+      <module_usage name="fourier_grx.task.gr1.nohla.fi_task_gr1_nohla_rl_walk" finding="absolute" line="1366" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr1.fi_robot_gr1_t1v2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr1/fi_robot_gr1_t1v2.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="65" merged_total="716" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="55" merged_total="138" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t1" finding="absolute" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr1.fi_robot_gr1_t1v3" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr1/fi_robot_gr1_t1v3.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="65" merged_total="701" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="55" merged_total="135" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t1" finding="absolute" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr1.fi_robot_gr1_t2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr1/fi_robot_gr1_t2.py">
+    <optimization-time pass="1" time="0.09" micro_passes="5" max_branch_merge="305" merged_total="7436" />
+    <optimization-time pass="2" time="0.02" micro_passes="1" max_branch_merge="304" merged_total="1459" />
+    <module_usages>
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="5" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="6" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine.DeployMode" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine.RobotType" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="7" />
+      <module_usage name="fourier_core.sensor" finding="absolute" line="16" />
+      <module_usage name="fourier_core.sensor.SensorFIFSE" finding="not-found" line="16" />
+      <module_usage name="fourier_core.robot.fi_robot_base" finding="absolute" line="17" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_parallel_ankle_gr1_t2" finding="absolute" line="19" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_parallel_head_gr1_t2" finding="absolute" line="20" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_parallel_wrist_gr1_t2" finding="absolute" line="21" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1" finding="absolute" line="22" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t1" finding="absolute" line="23" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="24" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr1.fi_robot_gr1_t3" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr1/fi_robot_gr1_t3.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="180" merged_total="2728" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="164" merged_total="522" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="os" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="3" />
+      <module_usage name="numpy" finding="not-found" line="5" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="7" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="8" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="9" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="9" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="9" />
+      <module_usage name="fourier_core.predefine.DeployMode" finding="not-found" line="9" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="9" />
+      <module_usage name="fourier_core.predefine.RobotType" finding="not-found" line="9" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="9" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="9" />
+      <module_usage name="fourier_core.sensor" finding="absolute" line="18" />
+      <module_usage name="fourier_core.sensor.SensorFIFSE" finding="not-found" line="18" />
+      <module_usage name="fourier_core.actuator" finding="absolute" line="19" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSA" finding="not-found" line="19" />
+      <module_usage name="fourier_core.task" finding="absolute" line="20" />
+      <module_usage name="fourier_core.task.TaskRobotBase" finding="not-found" line="20" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_parallel_ankle_gr1_t3" finding="absolute" line="22" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_parallel_wrist_gr1_t3" finding="absolute" line="23" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1" finding="absolute" line="24" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1_t2" finding="absolute" line="25" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr2" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr2/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.robot.gr2.fi_robot_gr2_t1" finding="absolute" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr2.fi_robot_gr2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr2/fi_robot_gr2.py">
+    <optimization-time pass="1" time="0.05" micro_passes="5" max_branch_merge="166" merged_total="4820" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="160" merged_total="838" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="numpy" finding="not-found" line="2" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="4" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="5" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.RobotType" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="6" />
+      <module_usage name="fourier_core.predefine.DeployMode" finding="not-found" line="6" />
+      <module_usage name="fourier_core.sensor" finding="absolute" line="15" />
+      <module_usage name="fourier_core.sensor.SensorUSBIMUHipnuc" finding="not-found" line="15" />
+      <module_usage name="fourier_core.actuator" finding="absolute" line="16" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSA" finding="not-found" line="16" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSAGroup" finding="not-found" line="16" />
+      <module_usage name="fourier_core.joint" finding="absolute" line="20" />
+      <module_usage name="fourier_core.joint.JointRotary" finding="not-found" line="20" />
+      <module_usage name="fourier_core.joint.JointGroup" finding="not-found" line="20" />
+      <module_usage name="fourier_core.end_effector" finding="absolute" line="24" />
+      <module_usage name="fourier_core.end_effector.EndEffectorBaseGroup" finding="not-found" line="24" />
+      <module_usage name="fourier_core.robot" finding="absolute" line="25" />
+      <module_usage name="fourier_core.robot.RobotFFTAI" finding="not-found" line="25" />
+      <module_usage name="fourier_grx.task.gr2.fi_task_gr2" finding="absolute" line="27" />
+      <module_usage name="fourier_grx" finding="absolute" line="28" />
+      <module_usage name="fourier_grx.__version__" finding="not-found" line="28" />
+      <module_usage name="fourier_grx.task.gr2.fi_task_gr2_stand" finding="absolute" line="620" />
+      <module_usage name="fourier_grx.task.gr2.fi_task_gr2_stand_pd" finding="absolute" line="624" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.robot.gr2.fi_robot_gr2_t1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/robot/gr2/fi_robot_gr2_t1.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="153" merged_total="3834" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="147" merged_total="744" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="os" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="3" />
+      <module_usage name="numpy" finding="not-found" line="4" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="6" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="7" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="7" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.DeployMode" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.ActuatorFIFSAType" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.RobotType" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="8" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="8" />
+      <module_usage name="fourier_core.sensor" finding="absolute" line="18" />
+      <module_usage name="fourier_core.sensor.SensorFIFSE" finding="not-found" line="18" />
+      <module_usage name="fourier_core.actuator" finding="absolute" line="19" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSA" finding="not-found" line="19" />
+      <module_usage name="fourier_core.actuator.ActuatorFIFSAGroup" finding="not-found" line="19" />
+      <module_usage name="fourier_core.joint" finding="absolute" line="23" />
+      <module_usage name="fourier_core.joint.JointRotary" finding="not-found" line="23" />
+      <module_usage name="fourier_core.joint.JointGroup" finding="not-found" line="23" />
+      <module_usage name="fourier_core.robot.fi_robot_base" finding="absolute" line="27" />
+      <module_usage name="fourier_grx.robot.gr2.fi_robot_gr2" finding="absolute" line="29" />
+      <module_usage name="fourier_grx.task.gr2.fi_task_gr2" finding="absolute" line="30" />
+      <module_usage name="fourier_grx.tools.load_sensor_offset" finding="absolute" line="31" />
+      <module_usage name="fourier_grx.algorithm.gr1.state_estimator.robot_data" finding="absolute" line="503" />
+      <module_usage name="fourier_grx.task.gr2.fi_task_gr2_stand" finding="absolute" line="557" />
+      <module_usage name="fourier_grx.task.gr2.fi_task_gr2_stand_pd" finding="absolute" line="561" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.ros" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/ros/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.ros.ros1_zenoh_pub_test" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/ros/ros1_zenoh_pub_test.py">
+    <optimization-time pass="1" time="0.00" micro_passes="4" max_branch_merge="19" merged_total="84" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="19" merged_total="21" />
+    <module_usages>
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="zenoh" finding="not-found" line="2" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.ros.ros1_zenoh_sub_test" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/ros/ros1_zenoh_sub_test.py">
+    <optimization-time pass="1" time="0.00" micro_passes="4" max_branch_merge="13" merged_total="70" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="13" merged_total="15" />
+    <module_usages>
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="zenoh" finding="not-found" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" max_branch_merge="6" merged_total="30" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="6" merged_total="10" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.sdk.client" finding="relative" line="1" />
+      <module_usage name="fourier_grx.sdk.exceptions" finding="relative" line="2" />
+      <module_usage name="fourier_grx.sdk.utils" finding="relative" line="8" />
+      <module_usage name="fourier_grx.sdk.zenoh" finding="relative" line="16" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.algorithm" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/algorithm.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_stand" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple" finding="absolute" line="13" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb" finding="absolute" line="17" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_rl_walk" finding="absolute" line="23" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl_cpg_stack" finding="absolute" line="27" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl_cpg_stack_dic" finding="absolute" line="31" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb_rl_cpg_stack" finding="absolute" line="35" />
+      <module_usage name="fourier_grx.algorithm.gr1.zx.fi_algorithm_gr1_zx_rl_walk" finding="absolute" line="39" />
+      <module_usage name="fourier_grx.algorithm.gr1.robot_operation.robot_operation" finding="absolute" line="43" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.cli" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/cli.py">
+    <optimization-time pass="1" time="0.02" micro_passes="7" max_branch_merge="22" merged_total="758" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="22" merged_total="108" />
+    <module_usages>
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="typer" finding="not-found" line="3" />
+      <module_usage name="fourier_grx.sdk.client" finding="relative" line="5" />
+      <module_usage name="fourier_grx.sdk.server" finding="relative" line="6" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="21" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="21" />
+      <module_usage name="fourier_grx.tools.load_sensor_offset" finding="absolute" line="39" />
+      <module_usage name="time" finding="absolute" line="67" />
+      <module_usage name="numpy" finding="not-found" line="69" />
+      <module_usage name="rich.console" finding="not-found" line="70" />
+      <module_usage name="rich.table" finding="not-found" line="71" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.client" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/client.py">
+    <optimization-time pass="1" time="0.07" micro_passes="5" max_branch_merge="175" merged_total="5264" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="175" merged_total="984" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="3" />
+      <module_usage name="collections" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.defaultdict" finding="not-found" line="4" />
+      <module_usage name="pathlib" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="typing" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="msgpack_numpy" finding="not-found" line="8" />
+      <module_usage name="numpy" finding="not-found" line="9" />
+      <module_usage name="numpy" finding="not-found" line="10" />
+      <module_usage name="zenoh" finding="not-found" line="11" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="12" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="12" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="13" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="13" />
+      <module_usage name="omegaconf" finding="not-found" line="14" />
+      <module_usage name="rich.console" finding="not-found" line="15" />
+      <module_usage name="rich.progress" finding="not-found" line="16" />
+      <module_usage name="fourier_grx.sdk.constants" finding="relative" line="18" />
+      <module_usage name="fourier_grx.sdk.exceptions" finding="relative" line="19" />
+      <module_usage name="fourier_grx.sdk.utils" finding="relative" line="20" />
+      <module_usage name="fourier_grx.sdk.zenoh" finding="relative" line="21" />
+      <module_usage name="doctest" finding="excluded" line="610" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.common" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/common.py">
+    <optimization-time pass="1" time="0.05" micro_passes="6" max_branch_merge="73" merged_total="2523" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="54" merged_total="291" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="7" />
+      <module_usage name="abc" finding="excluded" line="8" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections" finding="excluded" line="9" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.defaultdict" finding="not-found" line="9" />
+      <module_usage name="collections.deque" finding="not-found" line="9" />
+      <module_usage name="dataclasses" finding="excluded" line="10" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="functools" finding="excluded" line="11" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="typing" finding="excluded" line="12" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="numpy" finding="not-found" line="14" />
+      <module_usage name="loguru" finding="not-found" line="15" />
+      <module_usage name="icecream" finding="not-found" line="18" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.constants" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/constants.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.control_system" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/control_system.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="fourier_grx.control_system.fi_control_system_gr" finding="absolute" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.exceptions" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/exceptions.py">
+    <optimization-time pass="1" time="0.01" micro_passes="6" max_branch_merge="15" merged_total="895" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="15" merged_total="147" />
+    <module_usages />
+  </module>
+  <module name="fourier_grx.sdk.fourier_intelligence" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/fourier_intelligence/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" max_branch_merge="10" merged_total="45" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="10" merged_total="15" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.common" finding="relative" line="1" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.udp" finding="relative" line="13" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.fourier_intelligence.common" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/fourier_intelligence/common.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="29" merged_total="2199" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="20" merged_total="381" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="json" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="struct" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="dataclasses" finding="excluded" line="7" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="enum" finding="excluded" line="8" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="typing" finding="excluded" line="9" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.fourier_intelligence.udp" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/fourier_intelligence/udp.py">
+    <optimization-time pass="1" time="0.07" micro_passes="6" max_branch_merge="38" merged_total="4053" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="27" merged_total="611" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="json" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="queue" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="socket" finding="excluded" line="7" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="8" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="9" />
+      <module_usage name="collections" finding="excluded" line="10" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.defaultdict" finding="not-found" line="10" />
+      <module_usage name="typing" finding="excluded" line="11" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="loguru" finding="not-found" line="13" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.common" finding="relative" line="15" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.gamepad_controller" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/gamepad_controller.py">
+    <optimization-time pass="1" time="0.20" micro_passes="7" max_branch_merge="314" merged_total="8837" />
+    <optimization-time pass="2" time="0.02" micro_passes="1" max_branch_merge="314" merged_total="1233" />
+    <module_usages>
+      <module_usage name="threading" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="copy" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="dataclasses" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="inputs" finding="not-found" line="6" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.motor" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/motor.py">
+    <optimization-time pass="1" time="0.11" micro_passes="7" max_branch_merge="70" merged_total="7409" />
+    <optimization-time pass="2" time="0.02" micro_passes="1" max_branch_merge="70" merged_total="1010" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="socket" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="7" />
+      <module_usage name="collections" finding="excluded" line="8" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.defaultdict" finding="not-found" line="8" />
+      <module_usage name="enum" finding="excluded" line="9" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="zenoh" finding="not-found" line="11" />
+      <module_usage name="loguru" finding="not-found" line="12" />
+      <module_usage name="fourier_grx.sdk.exceptions" finding="relative" line="14" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence" finding="relative" line="15" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FIFastIdentifier" finding="not-found" line="15" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FIFastProtocol" finding="not-found" line="15" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FIUDPClient" finding="not-found" line="15" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FourierServer" finding="not-found" line="15" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.FourierServerType" finding="not-found" line="15" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.UDPDiscoverFailedException" finding="not-found" line="15" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.discover_servers" finding="not-found" line="15" />
+      <module_usage name="fourier_grx.sdk.fourier_intelligence.common" finding="relative" line="24" />
+      <module_usage name="fourier_grx.sdk.utils" finding="relative" line="29" />
+      <module_usage name="fourier_grx.sdk.zenoh" finding="relative" line="30" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.robot" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/robot.py">
+    <optimization-time pass="1" time="0.08" micro_passes="5" max_branch_merge="168" merged_total="5556" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="155" merged_total="939" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="itertools" finding="absolute" line="6" />
+      <module_usage name="os" finding="excluded" line="7" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.abc" finding="absolute" line="8" />
+      <module_usage name="dataclasses" finding="excluded" line="9" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="typing" finding="excluded" line="10" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="numpy" finding="not-found" line="12" />
+      <module_usage name="pink" finding="not-found" line="13" />
+      <module_usage name="pinocchio" finding="absolute" line="14" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="15" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="15" />
+      <module_usage name="fourier_robot_descriptions.loaders.pinocchio" finding="not-found" line="16" />
+      <module_usage name="omegaconf" finding="not-found" line="17" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.server" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/server.py">
+    <optimization-time pass="1" time="0.10" micro_passes="7" max_branch_merge="244" merged_total="9386" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="203" merged_total="1294" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="sys" finding="absolute" line="2" />
+      <module_usage name="threading" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="4" />
+      <module_usage name="pathlib" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="numpy" finding="not-found" line="7" />
+      <module_usage name="zenoh" finding="not-found" line="8" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="9" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="9" />
+      <module_usage name="ischedule" finding="not-found" line="10" />
+      <module_usage name="omegaconf" finding="not-found" line="11" />
+      <module_usage name="rich.console" finding="not-found" line="12" />
+      <module_usage name="rich.progress" finding="not-found" line="13" />
+      <module_usage name="fourier_grx.sdk.constants" finding="absolute" line="15" />
+      <module_usage name="fourier_grx.sdk.exceptions" finding="absolute" line="16" />
+      <module_usage name="fourier_grx.sdk.robot" finding="absolute" line="17" />
+      <module_usage name="fourier_grx.sdk.task_command" finding="absolute" line="18" />
+      <module_usage name="fourier_grx.sdk.utils" finding="absolute" line="19" />
+      <module_usage name="fourier_grx.sdk.zenoh" finding="absolute" line="20" />
+      <module_usage name="fourier_grx.control_system" finding="absolute" line="192" />
+      <module_usage name="fourier_grx.control_system.ControlSystemGR" finding="not-found" line="192" />
+      <module_usage name="fourier_grx.control_system" finding="absolute" line="200" />
+      <module_usage name="fourier_grx.control_system.ControlSystemGR" finding="not-found" line="200" />
+      <module_usage name="fourier_core.hardware.fi_hardware_interface" finding="absolute" line="209" />
+      <module_usage name="fourier_core.robot" finding="absolute" line="218" />
+      <module_usage name="fourier_core.robot.RobotInterface" finding="not-found" line="218" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.sonnie_control" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/sonnie_control.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="19" merged_total="184" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="5" merged_total="12" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="dataclasses" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="socket" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="typing" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.task.gr1.sonnie.fi_task_gr1_sonnie_control" finding="absolute" line="6" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.task_command" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/task_command.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="fourier_core.task.fi_task_robot_base" finding="absolute" line="1" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.utils" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/utils.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="38" merged_total="1658" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="38" merged_total="276" />
+    <module_usages>
+      <module_usage name="logging" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="collections" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.deque" finding="not-found" line="3" />
+      <module_usage name="collections.namedtuple" finding="not-found" line="3" />
+      <module_usage name="dataclasses" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="enum" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="typing" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="msgpack" finding="not-found" line="8" />
+      <module_usage name="msgpack_numpy" finding="not-found" line="9" />
+      <module_usage name="numpy" finding="not-found" line="10" />
+      <module_usage name="rich.console" finding="not-found" line="11" />
+      <module_usage name="rich.table" finding="not-found" line="12" />
+      <module_usage name="doctest" finding="excluded" line="174" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.sdk.zenoh" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/sdk/zenoh.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="134" merged_total="1774" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="30" merged_total="282" />
+    <module_usages>
+      <module_usage name="collections.abc" finding="absolute" line="1" />
+      <module_usage name="typing" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="zenoh" finding="not-found" line="4" />
+      <module_usage name="fourier_grx.sdk.utils" finding="relative" line="6" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="8" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="8" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.fi_task_gr1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/fi_task_gr1.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" max_branch_merge="16" merged_total="121" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="16" merged_total="40" />
+    <module_usages>
+      <module_usage name="enum" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.fi_task_gr1_none_class" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/fi_task_gr1_none_class.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="60" merged_total="838" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="57" merged_total="145" />
+    <module_usages>
+      <module_usage name="collections.abc" finding="absolute" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="4" />
+      <module_usage name="fourier_core.task" finding="absolute" line="5" />
+      <module_usage name="fourier_core.task.TaskManager" finding="not-found" line="5" />
+      <module_usage name="fourier_core.task.TaskRobotBase" finding="not-found" line="5" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="7" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="7" />
+      <module_usage name="fourier_grx.task.template.fi_task_protocol" finding="absolute" line="8" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.fi_task_gr1_set_home" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/fi_task_gr1_set_home.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="40" merged_total="492" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="37" merged_total="84" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_core.task" finding="absolute" line="2" />
+      <module_usage name="fourier_core.task.TaskType" finding="not-found" line="2" />
+      <module_usage name="fourier_core.task.TaskRobotBase" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="6" />
+      <module_usage name="fourier_grx.algorithm.gr1" finding="absolute" line="7" />
+      <module_usage name="fourier_grx.algorithm.gr1.AlgorithmGR1BaseControlModel" finding="not-found" line="7" />
+      <module_usage name="json" finding="excluded" line="37" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.logger" finding="absolute" line="38" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="38" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="39" />
+      <module_usage name="fourier_core.task" finding="absolute" line="40" />
+      <module_usage name="fourier_core.task.TaskRobotBase" finding="not-found" line="40" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.fi_task_gr1_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/fi_task_gr1_stand.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="42" merged_total="480" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="38" merged_total="81" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="3" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1_stand" finding="absolute" line="4" />
+      <module_usage name="numpy" finding="not-found" line="33" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="34" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="34" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="35" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="35" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.fi_task_gr1_stand_pd" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/fi_task_gr1_stand_pd.py">
+    <optimization-time pass="1" time="0.00" micro_passes="4" max_branch_merge="27" merged_total="83" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="2" merged_total="3" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="3" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1_stand" finding="absolute" line="4" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.fi_task_gr1_t1_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/fi_task_gr1_t1_stand.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="78" merged_total="1121" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="68" merged_total="207" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="3" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1_stand" finding="absolute" line="4" />
+      <module_usage name="numpy" finding="not-found" line="33" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="34" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="34" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="35" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="35" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="35" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.fi_task_gr1_t1_stand_pd" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/fi_task_gr1_t1_stand_pd.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="78" merged_total="1121" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="68" merged_total="207" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="3" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1_stand" finding="absolute" line="4" />
+      <module_usage name="numpy" finding="not-found" line="33" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="34" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="34" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="35" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="35" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="35" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.fi_task_gr1_t1_test_parallel_ankle" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/fi_task_gr1_t1_test_parallel_ankle.py">
+    <optimization-time pass="1" time="0.01" micro_passes="4" max_branch_merge="29" merged_total="431" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="28" merged_total="92" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="3" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1" finding="absolute" line="4" />
+      <module_usage name="numpy" finding="not-found" line="33" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.lower_limb" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/lower_limb/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.lower_limb.fi_task_gr1_lower_limb_rl_walk" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/lower_limb/fi_task_gr1_lower_limb_rl_walk.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="115" merged_total="1307" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="109" merged_total="255" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="10" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb_rl_cpg_stack" finding="absolute" line="11" />
+      <module_usage name="numpy" finding="not-found" line="36" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="37" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="37" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="37" />
+      <module_usage name="fourier_core.operator" finding="absolute" line="38" />
+      <module_usage name="fourier_core.operator.operator_joystick" finding="not-found" line="38" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.lower_limb.fi_task_gr1_lower_limb_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/lower_limb/fi_task_gr1_lower_limb_stand.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="96" merged_total="1327" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="88" merged_total="258" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="10" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb" finding="absolute" line="11" />
+      <module_usage name="numpy" finding="not-found" line="36" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="37" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="37" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="38" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="38" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.nohla" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/nohla/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.nohla.fi_task_gr1_nohla_rl_walk" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/nohla/fi_task_gr1_nohla_rl_walk.py">
+    <optimization-time pass="1" time="0.03" micro_passes="5" max_branch_merge="135" merged_total="2199" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="127" merged_total="427" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="12" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_rl_walk" finding="absolute" line="13" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="40" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="45" />
+      <module_usage name="numpy" finding="not-found" line="69" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="70" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="70" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="71" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="71" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="72" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="72" />
+      <module_usage name="fourier_core.operator" finding="absolute" line="73" />
+      <module_usage name="fourier_core.operator.operator_joystick" finding="not-found" line="73" />
+      <module_usage name="numpy" finding="not-found" line="199" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="200" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="200" />
+      <module_usage name="fourier_grx.sdk" finding="absolute" line="201" />
+      <module_usage name="fourier_grx.sdk.ControlGroup" finding="not-found" line="201" />
+      <module_usage name="fourier_grx.sdk.ControlMode" finding="not-found" line="201" />
+      <module_usage name="fourier_grx.sdk.RobotClient" finding="not-found" line="201" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.nohla.fi_task_gr1_nohla_rl_walk_class" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/nohla/fi_task_gr1_nohla_rl_walk_class.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="115" merged_total="2550" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="112" merged_total="484" />
+    <module_usages>
+      <module_usage name="collections.abc" finding="absolute" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="4" />
+      <module_usage name="fourier_core.task" finding="absolute" line="5" />
+      <module_usage name="fourier_core.task.TaskManager" finding="not-found" line="5" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_rl_walk" finding="absolute" line="7" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="8" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.task.template.fi_task_protocol" finding="absolute" line="10" />
+      <module_usage name="numpy" finding="not-found" line="108" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="109" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="109" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="109" />
+      <module_usage name="fourier_core.operator" finding="absolute" line="110" />
+      <module_usage name="fourier_core.operator.operator_joystick" finding="not-found" line="110" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1" finding="absolute" line="112" />
+      <module_usage name="numpy" finding="not-found" line="230" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="231" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="231" />
+      <module_usage name="fourier_grx.sdk" finding="absolute" line="232" />
+      <module_usage name="fourier_grx.sdk.ControlGroup" finding="not-found" line="232" />
+      <module_usage name="fourier_grx.sdk.ControlMode" finding="not-found" line="232" />
+      <module_usage name="fourier_grx.sdk.RobotClient" finding="not-found" line="232" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.nohla.fi_task_gr1_nohla_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/nohla/fi_task_gr1_nohla_stand.py">
+    <optimization-time pass="1" time="0.03" micro_passes="5" max_branch_merge="111" merged_total="2111" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="101" merged_total="412" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="12" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_stand" finding="absolute" line="13" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="40" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="45" />
+      <module_usage name="numpy" finding="not-found" line="67" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="68" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="68" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="69" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="69" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="69" />
+      <module_usage name="numpy" finding="not-found" line="178" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="179" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="179" />
+      <module_usage name="fourier_grx.sdk" finding="absolute" line="180" />
+      <module_usage name="fourier_grx.sdk.ControlGroup" finding="not-found" line="180" />
+      <module_usage name="fourier_grx.sdk.ControlMode" finding="not-found" line="180" />
+      <module_usage name="fourier_grx.sdk.RobotClient" finding="not-found" line="180" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.nohla.fi_task_gr1_nohla_stand_class" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/nohla/fi_task_gr1_nohla_stand_class.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="93" merged_total="2495" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="91" merged_total="472" />
+    <module_usages>
+      <module_usage name="collections.abc" finding="absolute" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="4" />
+      <module_usage name="fourier_core.task" finding="absolute" line="5" />
+      <module_usage name="fourier_core.task.TaskManager" finding="not-found" line="5" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_stand" finding="absolute" line="7" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="8" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.task.template.fi_task_protocol" finding="absolute" line="10" />
+      <module_usage name="numpy" finding="not-found" line="108" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="109" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="109" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="110" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="110" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="110" />
+      <module_usage name="fourier_grx.robot.gr1.fi_robot_gr1" finding="absolute" line="112" />
+      <module_usage name="numpy" finding="not-found" line="203" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="204" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="204" />
+      <module_usage name="fourier_grx.sdk" finding="absolute" line="205" />
+      <module_usage name="fourier_grx.sdk.ControlGroup" finding="not-found" line="205" />
+      <module_usage name="fourier_grx.sdk.ControlMode" finding="not-found" line="205" />
+      <module_usage name="fourier_grx.sdk.RobotClient" finding="not-found" line="205" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.simple" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/simple/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.simple.fi_task_gr1_simple_rl_walk" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/simple/fi_task_gr1_simple_rl_walk.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="109" merged_total="1053" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="103" merged_total="205" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="10" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl_cpg_stack" finding="absolute" line="11" />
+      <module_usage name="numpy" finding="not-found" line="36" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="37" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="37" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="37" />
+      <module_usage name="fourier_core.operator" finding="absolute" line="38" />
+      <module_usage name="fourier_core.operator.operator_joystick" finding="not-found" line="38" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.simple.fi_task_gr1_simple_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/simple/fi_task_gr1_simple_stand.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="82" merged_total="1033" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="74" merged_total="200" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="10" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple" finding="absolute" line="11" />
+      <module_usage name="numpy" finding="not-found" line="36" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="37" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="37" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="38" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="38" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.sonnie" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/sonnie/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr1.sonnie.fi_task_gr1_sonnie_control" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr1/sonnie/fi_task_gr1_sonnie_control.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="59" merged_total="1177" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="56" merged_total="188" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.abc" finding="absolute" line="2" />
+      <module_usage name="enum" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="dataclasses" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="6" />
+      <module_usage name="fourier_core.task" finding="absolute" line="7" />
+      <module_usage name="fourier_core.task.TaskManager" finding="not-found" line="7" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="9" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1" finding="absolute" line="10" />
+      <module_usage name="fourier_grx.task.template.fi_task_protocol" finding="absolute" line="11" />
+      <module_usage name="socket" finding="excluded" line="182" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="183" />
+      <module_usage name="fourier_core.predefine.AlgorithmStage" finding="not-found" line="183" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr2" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr2/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr2.fi_task_gr2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr2/fi_task_gr2.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" max_branch_merge="14" merged_total="100" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="14" merged_total="33" />
+    <module_usages>
+      <module_usage name="enum" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr2.fi_task_gr2_stand" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr2/fi_task_gr2_stand.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="76" merged_total="891" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="66" merged_total="161" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="43" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="43" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="44" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="44" />
+      <module_usage name="fourier_grx.task.gr2.fi_task_gr2" finding="absolute" line="45" />
+      <module_usage name="fourier_grx.algorithm.gr2.fi_algorithm_gr2_stand" finding="absolute" line="46" />
+      <module_usage name="numpy" finding="not-found" line="75" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="76" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="76" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="77" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="77" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="77" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.gr2.fi_task_gr2_stand_pd" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/gr2/fi_task_gr2_stand_pd.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="78" merged_total="1121" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="68" merged_total="207" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="43" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="43" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="44" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="44" />
+      <module_usage name="fourier_grx.task.gr2.fi_task_gr2" finding="absolute" line="45" />
+      <module_usage name="fourier_grx.algorithm.gr2.fi_algorithm_gr2_stand" finding="absolute" line="46" />
+      <module_usage name="numpy" finding="not-found" line="75" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="76" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="76" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="77" />
+      <module_usage name="fourier_core.predefine.JointControlMode" finding="not-found" line="77" />
+      <module_usage name="fourier_core.predefine.RobotWorkSpace" finding="not-found" line="77" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.template" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/template/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.template.fi_task_grx" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/template/fi_task_grx.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" max_branch_merge="14" merged_total="94" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="14" merged_total="31" />
+    <module_usages>
+      <module_usage name="enum" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.template.fi_task_grx_demo" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/template/fi_task_grx_demo.py">
+    <optimization-time pass="1" time="0.00" micro_passes="4" max_branch_merge="27" merged_total="135" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="25" merged_total="29" />
+    <module_usages>
+      <module_usage name="fourier_core.predefine" finding="absolute" line="1" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="2" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="2" />
+      <module_usage name="fourier_grx.task.template.fi_task_grx" finding="absolute" line="10" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.task.template.fi_task_protocol" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/task/template/fi_task_protocol.py">
+    <optimization-time pass="1" time="0.01" micro_passes="4" max_branch_merge="46" merged_total="425" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="43" merged_total="100" />
+    <module_usages>
+      <module_usage name="collections.abc" finding="absolute" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="typing" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="5" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="5" />
+      <module_usage name="fourier_core.task.fi_task_manager" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="8" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="8" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.tools" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/tools/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.tools.fi_tool_logger" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/tools/fi_tool_logger.py">
+    <optimization-time pass="1" time="0.00" micro_passes="5" max_branch_merge="17" merged_total="153" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="2" merged_total="15" />
+    <module_usages>
+      <module_usage name="fourier_core.logger" finding="absolute" line="2" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="2" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.tools.imu_compatible" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/tools/imu_compatible.py">
+    <optimization-time pass="1" time="0.01" micro_passes="4" max_branch_merge="72" merged_total="556" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="68" merged_total="138" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_grx.tools.fi_tool_logger" finding="relative" line="3" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.tools.load_sensor_offset" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/tools/load_sensor_offset.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="42" merged_total="814" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="39" merged_total="159" />
+    <module_usages>
+      <module_usage name="json" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="os" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_grx.tools.fi_tool_logger" finding="relative" line="4" />
+      <module_usage name="posixpath" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="posixpath" finding="excluded" line="66" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.tools.low_pass_filter" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/tools/low_pass_filter.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="41" merged_total="608" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="41" merged_total="88" />
+    <module_usages>
+      <module_usage name="math" finding="absolute" line="1" />
+      <module_usage name="numpy" finding="not-found" line="3" />
+      <module_usage name="torch" finding="not-found" line="4" />
+      <module_usage name="fourier_grx.tools.fi_tool_logger" finding="relative" line="6" />
+      <module_usage name="time" finding="absolute" line="60" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.tools.pd_conversion" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/tools/pd_conversion.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="64" merged_total="1670" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="64" merged_total="334" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="3" />
+      <module_usage name="fourier_core.predefine.ActuatorFIFSAType" finding="not-found" line="3" />
+      <module_usage name="fourier_core.tools.pd_conversion" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.tools.fi_tool_logger" finding="absolute" line="8" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots.gr1" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/gr1/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots.gr1.fi_webots_gr1" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/gr1/fi_webots_gr1.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="123" merged_total="1639" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="121" merged_total="314" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.webots.webots_joystick" finding="absolute" line="4" />
+      <module_usage name="fourier_core.webots.webots_robot" finding="absolute" line="5" />
+      <module_usage name="fourier_grx.algorithm.gr1.fi_algorithm_gr1" finding="absolute" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots.gr1.fi_webots_gr1_lower_limb" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/gr1/fi_webots_gr1_lower_limb.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="127" merged_total="2592" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="125" merged_total="512" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.webots.webots_joystick" finding="absolute" line="5" />
+      <module_usage name="fourier_core.webots.webots_robot" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb" finding="absolute" line="8" />
+      <module_usage name="fourier_grx.algorithm.gr1.lower_limb.fi_algorithm_gr1_lower_limb_rl_cpg_stack" finding="absolute" line="11" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots.gr1.fi_webots_gr1_nohla" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/gr1/fi_webots_gr1_nohla.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="121" merged_total="2447" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="119" merged_total="483" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.webots.webots_joystick" finding="absolute" line="5" />
+      <module_usage name="fourier_core.webots.webots_robot" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_stand" finding="absolute" line="8" />
+      <module_usage name="fourier_grx.algorithm.gr1.nohla.fi_algorithm_gr1_nohla_rl_walk" finding="absolute" line="11" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots.gr1.fi_webots_gr1_nowhla" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/gr1/fi_webots_gr1_nowhla.py">
+    <optimization-time pass="1" time="0.16" micro_passes="7" max_branch_merge="468" merged_total="9426" />
+    <optimization-time pass="2" time="0.02" micro_passes="1" max_branch_merge="257" merged_total="1193" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="numpy" finding="not-found" line="2" />
+      <module_usage name="torch" finding="not-found" line="3" />
+      <module_usage name="enum" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="6" />
+      <module_usage name="fourier_core.webots.webots_joystick" finding="absolute" line="7" />
+      <module_usage name="fourier_core.webots.webots_robot" finding="absolute" line="8" />
+      <module_usage name="fourier_grx.algorithm.gr1.nowhla.fi_algorithm_gr1_nowhla" finding="absolute" line="10" />
+      <module_usage name="fourier_grx.algorithm.gr1.nowhla.fi_algorithm_gr1_nowhla_rl" finding="absolute" line="13" />
+      <module_usage name="posixpath" finding="excluded" line="195" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="posixpath" finding="excluded" line="229" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="posixpath" finding="excluded" line="233" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="posixpath" finding="excluded" line="237" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="posixpath" finding="excluded" line="241" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots.gr1.fi_webots_gr1_simple" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/gr1/fi_webots_gr1_simple.py">
+    <optimization-time pass="1" time="0.03" micro_passes="5" max_branch_merge="251" merged_total="3726" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="251" merged_total="738" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="4" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="4" />
+      <module_usage name="fourier_core.webots.webots_joystick" finding="absolute" line="5" />
+      <module_usage name="fourier_core.webots.webots_robot" finding="absolute" line="6" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple" finding="absolute" line="8" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl_cpg_stack" finding="absolute" line="14" />
+      <module_usage name="fourier_grx.algorithm.gr1.simple.fi_algorithm_gr1_simple_rl_cpg_stack_dic" finding="absolute" line="17" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots.gr2" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/gr2/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.webots.gr2.fi_webots_gr2" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/webots/gr2/fi_webots_gr2.py">
+    <optimization-time pass="1" time="0.02" micro_passes="5" max_branch_merge="123" merged_total="1639" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="121" merged_total="314" />
+    <module_usages>
+      <module_usage name="numpy" finding="not-found" line="1" />
+      <module_usage name="enum" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="fourier_core.webots.webots_joystick" finding="absolute" line="4" />
+      <module_usage name="fourier_core.webots.webots_robot" finding="absolute" line="5" />
+      <module_usage name="fourier_grx.algorithm.gr2.fi_algorithm_gr2" finding="absolute" line="7" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.zenoh" kind="CompiledPythonPackage" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/zenoh/__init__.py">
+    <optimization-time pass="1" time="0.00" micro_passes="3" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" />
+    <module_usages>
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.zenoh.fi_main_zenoh_client" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/zenoh/fi_main_zenoh_client.py">
+    <optimization-time pass="1" time="0.02" micro_passes="4" max_branch_merge="137" merged_total="1443" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="36" merged_total="261" />
+    <module_usages>
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="zenoh" finding="not-found" line="2" />
+      <module_usage name="multiprocessing" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="multiprocessing.Process" finding="not-found" line="3" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="5" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="5" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="6" />
+      <module_usage name="fourier_core.predefine.FunctionResult" finding="not-found" line="6" />
+      <module_usage name="fourier_core.task" finding="absolute" line="7" />
+      <module_usage name="fourier_core.task.TaskManager" finding="not-found" line="7" />
+      <module_usage name="fourier_grx.task.gr1.fi_task_gr1_none_class" finding="absolute" line="9" />
+      <module_usage name="fourier_grx.task.gr1.sonnie.fi_task_gr1_sonnie_control" finding="absolute" line="10" />
+      <module_usage name="fourier_grx.task.gr1.nohla.fi_task_gr1_nohla_stand_class" finding="absolute" line="11" />
+      <module_usage name="fourier_grx.task.gr1.nohla.fi_task_gr1_nohla_rl_walk_class" finding="absolute" line="12" />
+      <module_usage name="fourier_grx.sdk.client" finding="absolute" line="19" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="23" />
+      <module_usage name="fourier_core.config.fi_config" finding="absolute" line="34" />
+      <module_usage name="fourier_grx.predefine" finding="absolute" line="46" />
+      <module_usage name="fourier_grx.predefine.TaskFunctionType" finding="not-found" line="46" />
+      <module_usage name="argparse" finding="excluded" line="159" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="torch" finding="not-found" line="182" />
+      <module_usage name="ischedule" finding="not-found" line="183" />
+    </module_usages>
+  </module>
+  <module name="fourier_grx.zenoh.fi_main_zenoh_server" kind="CompiledPythonModule" usage="root_module" reason="Root module" source_path="${cwd}/fourier_grx/zenoh/fi_main_zenoh_server.py">
+    <optimization-time pass="1" time="0.01" micro_passes="5" max_branch_merge="16" merged_total="322" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="15" merged_total="61" />
+    <module_usages>
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="multiprocessing" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="multiprocessing.Process" finding="not-found" line="2" />
+      <module_usage name="fourier_core.logger" finding="absolute" line="4" />
+      <module_usage name="fourier_core.logger.Logger" finding="not-found" line="4" />
+      <module_usage name="fourier_core.predefine" finding="absolute" line="5" />
+      <module_usage name="fourier_core.predefine.FlagState" finding="not-found" line="5" />
+      <module_usage name="fourier_grx.sdk.server" finding="absolute" line="11" />
+      <module_usage name="argparse" finding="excluded" line="28" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="76070912" />
+    <memory_usage name="before_c_code_generation" value="104157184" />
+  </performance>
+  <data_composer blob_size="None" />
+  <command_line>
+    <option value="--module" />
+    <option value="--enable-plugin=pylint-warnings" />
+    <option value="--output-dir=/home/ubuntu/fourier-grx/build/lib" />
+    <option value="--nofollow-import-to=*.tests" />
+    <option value="--remove-output" />
+    <option value="--include-package=fourier_grx" />
+    <option value="--include-package-data=fourier_grx" />
+    <option value="/home/ubuntu/fourier-grx/build/lib/fourier_grx" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="pylint-warnings" user_enabled="yes" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.prefix}/bin/python" python_flavor="Unknown" python_version="3.11.9" os_name="Linux" os_release="Ubuntu-Debian-20.04.6" arch_name="x86_64" filesystem_encoding="utf-8">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="/tmp/pdm-build-env-h_e7yln5-overlay/site" />
+      <path value="${sys.real_prefix}/lib/python3.11" />
+      <path value="${sys.real_prefix}/lib/python3.11/lib-dynload" />
+      <path value="${sys.prefix}/lib/python3.11/site-packages/cmeel.prefix/lib/python3.11/site-packages" />
+      <path value="/tmp/pdm-build-env-z5m84pmd-shared/lib/python3.11/site-packages" />
+      <path value="~/fourier-grx/fourier-core" />
+      <path value="/tmp/pdm-build-env-z5m84pmd-shared/lib/python3.11/site-packages/setuptools/_vendor" />
+    </search_path>
+  </python>
+  <output run_filename="${cwd}/fourier_grx.cpython-311-x86_64-linux-gnu.so" />
+</nuitka-compilation-report>
