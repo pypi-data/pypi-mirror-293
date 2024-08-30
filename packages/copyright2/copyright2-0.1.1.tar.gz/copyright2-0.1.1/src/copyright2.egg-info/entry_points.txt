@@ -1,0 +1,2 @@
+[console_scripts]
+copyright = copyright2.app:main
