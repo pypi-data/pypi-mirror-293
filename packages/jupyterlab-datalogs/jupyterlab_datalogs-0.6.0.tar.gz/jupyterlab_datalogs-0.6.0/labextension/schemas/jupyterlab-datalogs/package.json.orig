@@ -1,0 +1,61 @@
+{
+  "name": "jupyterlab-datalogs",
+  "private": true,
+  "version": "0.6.0",
+  "description": "JupyterLab extension for DataLogs.",
+  "contributors": [
+    {
+      "name": "Alex Hadley",
+      "email": "contact@alexhadley.net"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/PainterQubits/jupyterlab-datalogs",
+  "repository": "github:PainterQubits/jupyterlab-datalogs",
+  "main": "lib/index.js",
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "labextension",
+    "schemaDir": "schema",
+    "webpackConfig": "webpack.config.js"
+  },
+  "scripts": {
+    "dev": "run-s build symlink:labextension && run-p watch:lib watch:labextension jupyterlab",
+    "build": "run-s clean copy-icons build:lib build:labextension",
+    "clean": "rimraf lib tsconfig.tsbuildinfo labextension",
+    "lint": "tsc --noEmit && eslint . && prettier --check .",
+    "build:lib": "tsc",
+    "watch:lib": "tsc -w",
+    "build:labextension": "jupyter labextension build .",
+    "symlink:labextension": "jupyter labextension develop --overwrite .",
+    "watch:labextension": "jupyter labextension watch .",
+    "jupyterlab": "hatch run jupyter lab",
+    "copy-icons": "mkdir -p lib/icons && cp src/icons/*.svg* lib/icons"
+  },
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "@jupyterlab/application": "^4.2.5",
+    "@jupyterlab/filebrowser": "^4.2.5",
+    "@jupyterlab/launcher": "^4.2.5",
+    "@jupyterlab/notebook": "^4.2.5",
+    "@jupyterlab/ui-components": "^4.2.5"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^4.2.5",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.29.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
+  }
+}

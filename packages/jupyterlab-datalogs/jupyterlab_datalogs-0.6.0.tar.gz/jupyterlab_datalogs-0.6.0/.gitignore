@@ -1,0 +1,22 @@
+# VS Code
+.vscode/
+
+# Misc
+.DS_Store
+
+# Build
+dist/
+lib/
+labextension/
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Typescript
+*.tsbuildinfo
+
+# Yarn
+node_modules/
+.yarn/

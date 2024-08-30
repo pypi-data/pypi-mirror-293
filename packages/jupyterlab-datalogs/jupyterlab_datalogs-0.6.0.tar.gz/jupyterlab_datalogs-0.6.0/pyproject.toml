@@ -1,0 +1,90 @@
+[build-system]
+requires = ["hatchling", "hatch-nodejs-version", "jupyterlab>=4.2.5,<5"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyterlab-datalogs"
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+  "Framework :: Jupyter",
+  "Framework :: Jupyter :: JupyterLab",
+  "Framework :: Jupyter :: JupyterLab :: 4",
+  "Framework :: Jupyter :: JupyterLab :: Extensions",
+  "Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.9"
+dynamic = ["version", "description", "authors", "urls", "keywords"]
+
+[project.optional-dependencies]
+all = ["jupyterlab-datalogs[jupyterlab,analysis,plugins]"]
+jupyterlab = ["jupyterlab>=4.2.5,<5"]
+analysis = [
+  "datalogs>=0.5.1",
+  "numpy>=1.26.4,<3",
+  "xarray>=2024.7.0",
+  "matplotlib>=3.9.2,<4",
+]
+plugins = [
+  "jupyterlab-display-name>=0.2.1",
+  "jupyterlab-open-warning[rtc]>=0.2.0",
+  "jupyterlab-pdf-preview>=0.2.1",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.version]
+source = "nodejs"
+
+[tool.hatch.metadata.hooks.nodejs]
+fields = ["description", "authors", "urls", "keywords"]
+
+[tool.hatch.build.targets.sdist]
+artifacts = ["labextension"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"labextension" = "share/jupyter/labextensions/jupyterlab-datalogs"
+"install.json" = "share/jupyter/labextensions/jupyterlab-datalogs/install.json"
+
+[tool.hatch.build.hooks.jupyter-builder]
+dependencies = ["hatch-jupyter-builder>=0.9.1"]
+build-function = "hatch_jupyter_builder.npm_builder"
+ensured-targets = ["labextension/package.json"]
+skip-if-exists = ["labextension/package.json"]
+
+[tool.hatch.build.hooks.jupyter-builder.build-kwargs]
+build_cmd = "build"
+npm = ["jlpm"]
+
+[tool.hatch.envs.default]
+description = "For running JupyterLab in development"
+dependencies = [
+  "jupyterlab>=4.2.5,<5",
+  "jupyter-collaboration>=2.1.2,<3",
+  "datalogs>=0.5.1",
+  "numpy>=1.26.4,<3",
+  "xarray>=2024.7.0",
+  "matplotlib>=3.9.2,<4",
+]
+
+[tool.hatch.envs.default.env-vars]
+PIP_EXTRA_INDEX_URL = "https://painterqubits.github.io/datalogs/releases"
+
+[tool.hatch.envs.default.scripts]
+dev = "jlpm dev"
+build = "jlpm build"
+clean = "jlpm clean"
+lint = "jlpm lint"
+
+[tool.hatch.envs.ci]
+description = "For running jlpm in CI without building and installing this package"
+detached = true
+dependencies = ["jupyterlab>=4.2.5,<5"]
