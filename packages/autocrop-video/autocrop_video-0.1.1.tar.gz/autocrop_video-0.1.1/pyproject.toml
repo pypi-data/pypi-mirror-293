@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "autocrop-video"
+version = "0.1.1"
+authors = [
+  { name="Pedro Chagas", email="pchagas96@gmail.com" },
+]
+description = "A CLI tool for automatically cropping videos"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "fire",
+]
+
+[project.scripts]
+autocrop = "autocrop.main:main"
+
+[project.urls]
+"Homepage" = "https://github.com/pedroachagas/autocrop"
+"Bug Tracker" = "https://github.com/pedroachagas/autocrop/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/autocrop"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/tests",
+    "LICENSE",
+    "README.md",
+    "pyproject.toml"
+]
