@@ -1,0 +1,4 @@
+[console_scripts]
+glimapi-generate-toml = app.generate_config:generate_toml
+glimapi-help = app.console_help:show_help
+glimapi-start = app.main:run

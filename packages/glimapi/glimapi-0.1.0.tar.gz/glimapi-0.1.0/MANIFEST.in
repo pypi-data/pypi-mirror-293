@@ -1,0 +1,9 @@
+global-exclude __pycache__/*
+global-exclude *.py[cod]
+exclude config.toml
+exclude requirements.txt
+global-exclude .venv/*
+include setup.py
+include README.md
+include LICENSE
+include app/*

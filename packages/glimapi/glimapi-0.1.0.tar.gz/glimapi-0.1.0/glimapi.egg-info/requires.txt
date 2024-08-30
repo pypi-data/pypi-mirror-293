@@ -1,0 +1,16 @@
+fastapi
+pydantic
+uvicorn
+pymongo
+jose
+passlib[bcrypt]
+aioredis
+fastapi-limiter
+passlib
+pydantic_settings
+python_jose
+redis
+starlette
+toml
+colorama
+termcolor

@@ -1,0 +1,38 @@
+[database] # MongoDB
+db_enabled = false
+host = "localhost"
+port = 27017
+username = ""
+password = ""
+dbname = ""
+
+[server] # FastAPI
+host = "localhost"
+port = 8000
+debug = false
+
+[auth] # JWT
+jwt_enabled = true
+secret_key = ""
+algorithm = "HS256"
+access_token_expire_minutes = 30
+
+[cache] # Redis
+enabled = false
+backend = "redis"
+host = "localhost"
+port = 6379
+
+[rate_limiting] # Rate limiting
+enabled = true
+max_requests_per_minute = 60
+
+[[models]] # Models
+model_name = "User"
+fields = { id = "int", name = "str", email = "str", age = "int" }
+filters = { age = { gte = 18, lte = 30 } }
+
+[[models]] # Models
+model_name = "Test"
+fields = { id = "int", name = "str", data = "str" }
+filters = { }
