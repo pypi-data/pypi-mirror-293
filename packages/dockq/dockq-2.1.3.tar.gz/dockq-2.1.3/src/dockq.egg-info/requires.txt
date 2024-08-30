@@ -1,0 +1,4 @@
+numpy<2.0
+biopython>=1.79
+networkx
+parallelbar
