@@ -1,0 +1,2 @@
+[console_scripts]
+trufflehog = trufflehog.trufflehog:main
