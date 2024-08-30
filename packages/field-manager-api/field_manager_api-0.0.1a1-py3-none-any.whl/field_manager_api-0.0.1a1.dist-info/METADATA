@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: field-manager-api
+Version: 0.0.1a1
+Summary: Field Manager API SDK
+Home-page: https://github.com/norwegian-geotechnical-institute/field-manager-api
+License: MIT
+Author: Jostein Leira
+Author-email: 9363084+josteinl@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: GIS
+Project-URL: Repository, https://github.com/norwegian-geotechnical-institute/field-manager-api
+Description-Content-Type: text/markdown
+
+# field-manager-api
+Field Manager SDK for API usage
+
