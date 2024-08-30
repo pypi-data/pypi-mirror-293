@@ -1,0 +1,9 @@
+README.md
+pdfpipe.py
+setup.py
+pdfpipe.egg-info/PKG-INFO
+pdfpipe.egg-info/SOURCES.txt
+pdfpipe.egg-info/dependency_links.txt
+pdfpipe.egg-info/entry_points.txt
+pdfpipe.egg-info/requires.txt
+pdfpipe.egg-info/top_level.txt
