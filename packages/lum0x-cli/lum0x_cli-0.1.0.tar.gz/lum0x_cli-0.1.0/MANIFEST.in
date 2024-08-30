@@ -1,0 +1,8 @@
+# Exclude sensitive files
+exclude .env
+exclude .credential
+exclude .lum0x_session
+
+# Include other necessary files
+include README.md
+include requirements.txt

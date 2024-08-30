@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: lum0x-cli
+Version: 0.1.0
+Summary: A CLI tool for deploying and managing functions for Lum0x Infrastructure
+Author: lum0x
+Author-email: dev@lum0x.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: boto3
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
+# lum0x
+
+`lum0x` is a CLI tool to manage API credentials and deploy Lambda functions with ease.
+
+## Features
+
+- **Credential Management**: Easily authenticate your API key and store the session information securely.
+- **Session Persistence**: Keep your session information stored locally to use across multiple CLI commands.
+
+## Usage
+
+1. **Set API Key**:
+   ```bash
+   lum0x credential <API_KEY>
+
+2. on-demand function deploy
+ ```bash
+   lum0x deploy yourcode.zip --ondemand
