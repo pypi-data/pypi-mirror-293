@@ -1,0 +1,9 @@
+gluex/hddm_r.cp310-win32.pyd,sha256=eknoRsCoGQ2kCdxT2iYCAp_2DmW9O_YkvWjGLlMexBI,3953664
+gluex/hddm_r/rest.xml,sha256=KZ1_oBv2kTIQES1tfM-WakZYCvonLQx-pJGHyeArD4o,11310
+gluex/hddm_r/sharedlibs.tar.gz,sha256=LAwyY1jGMH6Mzq1XMw9iWuN9K0qN6P7RMDda_lk6cj0,35425054
+gluex/xrootd_client/__init__.py,sha256=lxMquhkHP28Psnx4FUiOgXlpHH56wXoNiY0GNi2WbKQ,1409
+gluex.hddm_r-2.2.2.dist-info/LICENSE,sha256=804GcF4mByx40GNjtiOmEFNATYV1wSfRIANhMH4WEY4,1091
+gluex.hddm_r-2.2.2.dist-info/METADATA,sha256=d6GVm_KXYj8CpxT1vSM36eiueonJPQnCmnuT4RGPAG4,3056
+gluex.hddm_r-2.2.2.dist-info/WHEEL,sha256=PuIYd8ju86IllnBJaHmydum6D03umxqCOP3rrQPOsGw,97
+gluex.hddm_r-2.2.2.dist-info/top_level.txt,sha256=1sy7WrgDAbSW3qpacdhWOOk2sU_moRx_P9UXnotF4m8,77
+gluex.hddm_r-2.2.2.dist-info/RECORD,,
