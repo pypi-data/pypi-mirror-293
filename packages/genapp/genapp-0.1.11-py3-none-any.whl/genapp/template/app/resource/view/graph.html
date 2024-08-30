@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico Programa - Producción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin-right: 10px;
+            position: relative;
+            /* Asegura que el dropdown se posicione correctamente */
+        }
+
+        .form-group:last-child {
+            margin-right: 0;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-group select {
+            font-size: 16px;
+        }
+
+        .date-picker {
+            display: flex;
+            justify-content: space-between;
+            /* Espacia los grupos de fecha para que estén en los extremos */
+            align-items: center;
+            /* Alinea los grupos verticalmente al centro */
+            margin-bottom: 20px;
+        }
+
+        .date-picker .date-group {
+            display: flex;
+            flex-direction: column;
+            /* Coloca la etiqueta encima del campo de fecha */
+            flex: 1;
+            /* Permite que los elementos se expandan igualmente */
+            max-width: 300px;
+            /* Define un ancho máximo para los grupos de fecha */
+            margin-right: 10px;
+            /* Añade espacio entre los grupos de fecha */
+        }
+
+        .date-picker .date-group:last-child {
+            margin-right: 0;
+            /* Elimina el margen derecho para el último grupo */
+        }
+
+        .date-picker label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            /* Espacio entre la etiqueta y el campo de fecha */
+        }
+
+        .date-picker input[type="date"] {
+            width: 100%;
+            /* Asegura que el campo de fecha ocupe todo el ancho del contenedor .date-group */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .centered-container {
+            display: flex;
+            justify-content: center;
+            /* Centra el grupo de fecha fin */
+            flex: 1;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .graph-container {
+            display: none;
+            margin-top: 20px;
+        }
+
+        #graph {
+            width: 100%;
+            height: 600px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            background-color: white;
+            z-index: 1000;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-item {
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #f1f1f1;
+        }
+
+        @media (max-width: 768px) {
+            .form-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .form-group {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .date-picker {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .date-picker input[type="date"] {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+        /* Pantalla de carga */
+        #loadingScreen {
+            display: none;
+            /* Oculto por defecto */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            /* Fondo semi-transparente */
+            z-index: 1000;
+            /* Asegura que esté por encima de todo */
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Animación de carga */
+        #loadingSpinner {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <h1>Comparación Producción - Programa</h1>
+    <div class="container">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="searchInput"> Planta </label>
+                <div class="search-dropdown">
+                    <input type="text" id="searchInput" placeholder="Buscar..." onkeyup="filterOptions()">
+                    <div id="dropdown" class="dropdown-content">
+                        <!-- Options dynamically generated by the server -->
+                        {% for uf in cod_ufs %}
+                        <div class="dropdown-item" data-value="{{ uf.cod_uf }}">{{ uf.nombre }}</div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sessionsSelect">Sesión</label>
+                <select id="sessionsSelect">
+                    <!-- Options dynamically generated by the server -->
+                    {% for session in sessions %}
+                    <option value="{{ session }}">{{ session }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- <div class="form-group">
+                <label for="predictorsSelect">Predictora</label>
+                <select id="predictorsSelect">
+                    <!-- Options dynamically generated by the server 
+                    {% for predictor in predictors %}
+                    <option value="{{ predictor }}">{{ predictor }}</option>
+                    {% endfor %}
+                </select>
+            </div> -->
+        </div>
+
+        <div class="date-picker">
+            <div class="date-group">
+                <label for="startDate">Fecha inicio</label>
+                <input type="date" id="startDate">
+            </div>
+            <div class="centered-container">
+                <div class="date-group">
+                    <label for="endDate">Fecha Fin</label>
+                    <input type="date" id="endDate">
+                </div>
+            </div>
+        </div>
+
+
+        <button onclick="generateGraph()">Generar Gráfico</button>
+
+        <div id="graphContainer" class="graph-container">
+            <div id="graph"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('searchInput').addEventListener('click', function () {
+            const dropdown = document.getElementById('dropdown');
+            if (dropdown.style.display !== 'block') {
+                dropdown.style.display = 'block';
+            } else {
+                dropdown.style.display = 'none';
+            }
+        });
+
+        function filterOptions() {
+            const input = document.getElementById('searchInput');
+            const filter = input.value.toLowerCase();
+            const dropdown = document.getElementById('dropdown');
+            const items = dropdown.getElementsByClassName('dropdown-item');
+
+            dropdown.style.display = 'block'; // Asegura que el dropdown esté visible mientras se filtra
+
+            Array.from(items).forEach(item => {
+                const text = item.textContent.toLowerCase();
+                if (text.includes(filter)) {
+                    item.style.display = 'block'; // Muestra la opción si coincide
+                } else {
+                    item.style.display = 'none'; // Oculta la opción si no coincide
+                }
+            });
+        }
+
+        document.addEventListener('click', function (event) {
+            const dropdown = document.getElementById('dropdown');
+            const input = document.getElementById('searchInput');
+            if (!dropdown.contains(event.target) && !input.contains(event.target)) {
+                dropdown.style.display = 'none'; // Oculta el desplegable si se hace clic fuera de él
+            }
+        });
+
+        document.getElementById('dropdown').addEventListener('click', function (event) {
+            const item = event.target;
+            if (item.classList.contains('dropdown-item')) {
+                document.getElementById('searchInput').value = item.textContent; // Rellena el input con el nombre del valor seleccionado
+                document.getElementById('searchInput').setAttribute('data-value', item.getAttribute('data-value')); // Rellena el input con el cod_uf seleccionado
+                document.getElementById('dropdown').style.display = 'none'; // Oculta el desplegable
+            }
+        });
+
+        function generateGraph() {
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            const graphContainer = document.getElementById('graphContainer');
+            const graph = document.getElementById('graph');
+
+            const selectedUf = document.getElementById('searchInput').getAttribute('data-value');
+            const selectedSession = document.getElementById('sessionsSelect').value;
+
+            if (selectedUf && startDate && endDate) {
+                const requestData = {
+                    cod_uf: selectedUf,
+                    fecha_inicio: startDate,
+                    fecha_fin: endDate,
+                    sesion: selectedSession,
+                };
+
+                // Muestra la pantalla de carga
+                document.getElementById('loadingScreen').style.display = 'flex';
+
+                fetch('/graph', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestData)
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Error al obtener el gráfico');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        graphContainer.style.display = 'block';
+
+                        // Create the new Plotly plot
+                        const graphData = JSON.parse(data.graph_json);
+
+                        // Use Plotly.newPlot to render the graph
+                        Plotly.newPlot(graph, graphData.data, graphData.layout, { responsive: true });
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('Hubo un problema al generar el gráfico. Por favor, inténtelo de nuevo.');
+                    })
+                    .finally(() => {
+                        // Oculta la pantalla de carga
+                        document.getElementById('loadingScreen').style.display = 'none';
+                    });
+            } else {
+                alert('Por favor, seleccione un UF y un rango de fechas.');
+            }
+        }
+
+    </script>
+    <!-- Pantalla de carga -->
+    <div id="loadingScreen">
+        <div id="loadingSpinner"></div>
+    </div>
+</body>
+
+</html>
