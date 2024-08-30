@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+carlospdf/__init__.py
+carlospdf/pdf2image.py
+carlospdf/pdf2text.py
+carlospdf.egg-info/PKG-INFO
+carlospdf.egg-info/SOURCES.txt
+carlospdf.egg-info/dependency_links.txt
+carlospdf.egg-info/top_level.txt
