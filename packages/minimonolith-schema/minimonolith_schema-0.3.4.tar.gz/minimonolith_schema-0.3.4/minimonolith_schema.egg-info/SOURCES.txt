@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+minimonolith_schema/__init__.py
+minimonolith_schema/pdf_layout.py
+minimonolith_schema/plot_columns.py
+minimonolith_schema/print_metrics.py
+minimonolith_schema/validators.py
+minimonolith_schema.egg-info/PKG-INFO
+minimonolith_schema.egg-info/SOURCES.txt
+minimonolith_schema.egg-info/dependency_links.txt
+minimonolith_schema.egg-info/top_level.txt
+test/test(1).py
+test/test.py
