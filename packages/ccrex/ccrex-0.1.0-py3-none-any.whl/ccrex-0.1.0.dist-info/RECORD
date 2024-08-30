@@ -1,0 +1,10 @@
+ccrex/__init__.py,sha256=irzZlNQ3cUMlBzBTtudowqDwr_ptk1uD51ynpA5pvIg,98
+ccrex/ccrex.py,sha256=-X0a4_6Y8Gsf3qFQKduCmYSGg0zC2veraMwRqb_EnN8,2160
+ccrex/run_ccrex.py,sha256=9RxIMnycx0oyKNpoePSn00dW12BCBi3ALrMzN4DabZU,1454
+ccrex/utils/__init__.py,sha256=GFQITEnGf27bKWnI9V3V051FD5zSqB3mhlbwQWp9xTk,104
+ccrex/utils/utils.py,sha256=zqls8kFuEUbigCLm4B2Y7sjFag3CikyHLBGwvp1FdwA,3207
+ccrex-0.1.0.dist-info/LICENSE,sha256=GEfg4GmBQu1DR8FEGp-oHI-93USx2LvNXjZH-ZF1nX8,1035
+ccrex-0.1.0.dist-info/METADATA,sha256=SkreIeK0rhuNpbAy9r3wn7DVF4jyHGxSq0E6Kh8OLWQ,487
+ccrex-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+ccrex-0.1.0.dist-info/top_level.txt,sha256=y14CGYXr6DEBVCKteSeqlBMQphi-hcRFXIIYW9TgPqA,6
+ccrex-0.1.0.dist-info/RECORD,,
