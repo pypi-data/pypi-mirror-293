@@ -1,0 +1,41 @@
+Metadata-Version: 2.3
+Name: bt-decode
+Version: 0.0.1
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: toml ==0.10.0
+Requires-Dist: black ==23.7.0 ; extra == 'dev'
+Requires-Dist: maturin ; extra == 'dev'
+Requires-Dist: ruff ==0.4.7 ; extra == 'dev'
+Requires-Dist: bittensor ==7.3.1 ; extra == 'test'
+Requires-Dist: pytest ==7.2.0 ; extra == 'test'
+Requires-Dist: pytest-asyncio ==0.23.7 ; extra == 'test'
+Requires-Dist: pytest-mock ==3.12.0 ; extra == 'test'
+Requires-Dist: pytest-split ==0.8.0 ; extra == 'test'
+Requires-Dist: pytest-xdist ==3.0.2 ; extra == 'test'
+Requires-Dist: pytest-rerunfailures ==10.2 ; extra == 'test'
+Requires-Dist: ddt ==1.6.0 ; extra == 'test'
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+Summary: A wrapper around the scale-codec crate for fast scale-decoding of Bittensor data structures.
+Keywords: substrate,scale,codec,bittensor
+Author-email: Cameron Fairchild <cameron@opentensor.dev>, Opentensor Foundation <hello@bittensor.com>
+Maintainer-email: Cameron Fairchild <cameron@opentensor.dev>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/opentensor/bt-decode
+
+# bt-decode
+A python wrapper around the rust scale-codec crate for fast scale-decoding of Bittensor data structures.
+
