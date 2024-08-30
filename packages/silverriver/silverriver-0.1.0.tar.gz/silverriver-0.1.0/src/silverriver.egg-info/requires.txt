@@ -1,0 +1,11 @@
+httpx
+pydantic
+playwright
+slack_sdk
+tabulate
+python-dotenv
+
+[dev]
+pytest
+flake8
+mypy

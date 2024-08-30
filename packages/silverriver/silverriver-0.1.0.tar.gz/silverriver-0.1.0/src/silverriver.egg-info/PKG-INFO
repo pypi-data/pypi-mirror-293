@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: silverriver
+Version: 0.1.0
+Summary: SilverRiver SDK for advanced automation and AI-driven tasks
+Home-page: https://github.com/manuel-delverme/silver_river
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: pydantic
+Requires-Dist: playwright
+Requires-Dist: slack_sdk
+Requires-Dist: tabulate
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+
+# SilverRiver
+
+SilverRiver is an SDK for advanced automation and AI-driven tasks.
+
+## Installation
+
+You can install SilverRiver using pip:
+
+```
+pip install silverriver
+```
+
+## Usage
+
+Here's a basic example of how to use SilverRiver:
+
+```python
+from silverriver.client import Crux
+from silverriver.interfaces.chat import AgentChatInterface
+
+# Initialize the Crux client
+client = Crux(api_key="your_api_key_here")
+
+# Create a chat interface (implement AgentChatInterface)
+chat = YourChatImplementation()
+
+# Create a browser session
+browser_session, browser_obs, browser_meta = client.create_browser_session(start_url="https://www.example.com", chat=chat)
+
+# Use the browser session to interact with web pages
+# ...
+
+# Get actions from the AI agent
+observation = create_observation(browser_obs, chat.chat_history)
+action = client.get_action(observation)
+
+# Execute the action
+browser_obs = browser_session.execute(action)
+```
+
+For more detailed examples and documentation, please refer to the `example.py` file in the source code.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
