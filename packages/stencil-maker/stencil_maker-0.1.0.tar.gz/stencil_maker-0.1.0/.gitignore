@@ -1,0 +1,17 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+fonts/*
+.vscode/settings.json
+
+.env
+pyrightconfig.json
+
+src/stencil_maker/static/3rdparty
