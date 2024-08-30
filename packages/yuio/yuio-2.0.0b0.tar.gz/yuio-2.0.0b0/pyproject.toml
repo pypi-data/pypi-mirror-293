@@ -1,0 +1,84 @@
+[project]
+name = "yuio"
+authors = [{name = "Tamika Nomara", email = "taminomara@gmail.com"}]
+description = "Lite and user-friendly CLI library"
+dynamic = ["version"]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: System :: Logging",
+    "Intended Audience :: Developers",
+    "Environment :: Console",
+    "Typing :: Typed",
+]
+
+[project.optional-dependencies]
+wcwidth = [
+    "wcwidth~=0.2.0"
+]
+test = [
+    "pytest~=7.4",
+    "pyright~=1.1",
+    "black~=23.7",
+    "isort~=5.12",
+    "PyYaml~=6.0",
+    "types-PyYAML~=5.3",
+    "toml~=0.10",
+    "types-toml~=0.10",
+    "sphinx-vhs~=0.0.3",
+    "typing_extensions~=4.12",
+]
+doc = [
+    "sphinx~=6.1",
+    "sphinx-vhs~=0.0.3",
+    "sphinx-rtd-theme~=1.2",
+]
+
+[project.urls]
+Documentation = "https://yuio.readthedocs.io/en/stable/"
+Issues = "https://github.com/taminomara/yuio/issues"
+Source = "https://github.com/taminomara/yuio/"
+Changelog = "https://github.com/taminomara/yuio/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2", "wheel>=0.40"]
+
+[tool.setuptools_scm]
+write_to = "yuio/_version.py"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = ["--strict-markers"]
+testpaths = ["examples", "test", "yuio"]
+
+[tool.pyright]
+include = ["yuio", "examples"]
+exclude = ["**/__pycache__"]
+typeCheckingMode = "strict"
+pythonVersion = "3.8"
+pythonPlatform = "All"
+
+# deprecateTypingAliases = true
+reportUnnecessaryTypeIgnoreComment = "warning"
+reportUnusedFunction = "none"
+reportPrivateUsage = "none"
+reportMissingParameterType = "none"
+reportUnknownParameterType = "none"
+reportUnknownVariableType = "none"
+reportUnknownMemberType = "none"
+reportUnknownArgumentType = "none"
+reportUnknownLambdaType = "none"
+reportUnnecessaryIsInstance = "none"
+reportConstantRedefinition = "none"
+reportRedeclaration = "none"
