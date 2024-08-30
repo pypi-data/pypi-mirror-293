@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: amazon-sagemaker-hyperpod
+Version: 0.0.0
+License-File: LICENSE
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Amazon SageMaker HyperPod 
+
+Amazon SageMaker Jupyter extension which provides HyperPod cluster discovery

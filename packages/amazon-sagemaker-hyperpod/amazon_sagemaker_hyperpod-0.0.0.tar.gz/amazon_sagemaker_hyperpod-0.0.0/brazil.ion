@@ -1,0 +1,35 @@
+'brazil_package_spec@1.0'
+
+common::{
+  name: "SMHyperPodJLabExtension",
+  major_version: "1.0",
+
+  dependencies: {
+    default_closure: run,
+
+    closures: {
+      run: public::{
+        include: [self],
+      },
+    },
+  },
+
+  build: {
+    command: "peru-hatch", // "./build.sh",   // brazil-build <args> will exec `./build.sh <args>`
+
+    env: {
+      PATH: [
+        (farm "PeruHatch" "bin"),
+        // (farm "PeruNPM" "bin"),
+        (env PATH),
+      ],
+    },
+
+    outputs: {
+      create_build_symlink: true,
+      public_dir : "./dist",
+      private_dir : "./private",
+      cleaned: [ "./build","./dist", "./private", "./.mypy_cache", "./.hatch_venv", "./.pytest_cache", "./.coverage" ],
+    },
+  },
+}
