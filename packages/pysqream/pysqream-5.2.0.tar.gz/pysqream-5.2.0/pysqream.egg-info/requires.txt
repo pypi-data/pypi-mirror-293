@@ -1,0 +1,6 @@
+numpy==1.26.4
+packaging>=23.0
+pyarrow==15.0.0
+pandas==2.2.2
+Faker>=26.0.0
+numexpr==2.8.4
