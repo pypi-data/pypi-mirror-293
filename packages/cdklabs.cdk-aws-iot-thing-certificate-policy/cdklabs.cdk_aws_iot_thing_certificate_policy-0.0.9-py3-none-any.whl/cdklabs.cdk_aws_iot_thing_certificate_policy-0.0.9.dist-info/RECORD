@@ -1,0 +1,10 @@
+cdklabs/cdk_aws_iot_thing_certificate_policy/__init__.py,sha256=LBQ01izIlcojA7PXNb9Usww6FjaGSzym9G_hgyDFbm8,22520
+cdklabs/cdk_aws_iot_thing_certificate_policy/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdklabs/cdk_aws_iot_thing_certificate_policy/_jsii/__init__.py,sha256=DeWD3HqfuHqUb9ysc2f_298ROy07TZg2TlsJuWgpKGA,1505
+cdklabs/cdk_aws_iot_thing_certificate_policy/_jsii/cdk-aws-iot-thing-certificate-policy@0.0.9.jsii.tgz,sha256=Mby0zBuaD2mKcgZ9XYLOfgT52OgQngDZC8xoVXjCo_8,1215639
+cdklabs.cdk_aws_iot_thing_certificate_policy-0.0.9.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdklabs.cdk_aws_iot_thing_certificate_policy-0.0.9.dist-info/METADATA,sha256=r4CG57Jnmd6a6G1aUFiv6_DalYxq8VlKJGcvKTRkkxs,6826
+cdklabs.cdk_aws_iot_thing_certificate_policy-0.0.9.dist-info/NOTICE,sha256=Wx1-nzR40tZM2LbhTmwJ6BqxZDXDyZwzhbpQlQaQfR8,104
+cdklabs.cdk_aws_iot_thing_certificate_policy-0.0.9.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+cdklabs.cdk_aws_iot_thing_certificate_policy-0.0.9.dist-info/top_level.txt,sha256=Vs44V5-Co6j_Qx_ucqQGxTOZFFDDj84KkvQ3MpexszY,8
+cdklabs.cdk_aws_iot_thing_certificate_policy-0.0.9.dist-info/RECORD,,
