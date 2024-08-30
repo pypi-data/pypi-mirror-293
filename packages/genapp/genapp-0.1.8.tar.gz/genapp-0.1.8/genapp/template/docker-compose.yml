@@ -1,0 +1,8 @@
+
+services: 
+  fastapi:
+    image: backend
+    build: .
+    container_name: algen-backend
+    ports:
+      - "8000:8000"
