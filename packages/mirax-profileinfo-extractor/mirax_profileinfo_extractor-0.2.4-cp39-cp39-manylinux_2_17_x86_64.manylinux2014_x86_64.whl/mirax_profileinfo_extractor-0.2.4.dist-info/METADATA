@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mirax_profileinfo_extractor
+Version: 0.2.4
+Summary: A simple library that extracts profile information from a MIRAX file.
+Author-email: GODARD Tuatini <tuatini@pathologywatch.com>
+Project-URL: Homepage, https://github.com/pathologywatch/mirax_profileinfo_extractor
+Project-URL: Bug Tracker, https://github.com/pathologywatch/mirax_profileinfo_extractor/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: configparser
+Requires-Dist: setuptools >=61.0
+
