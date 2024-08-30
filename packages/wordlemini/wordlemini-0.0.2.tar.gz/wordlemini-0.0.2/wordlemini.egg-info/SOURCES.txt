@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+wordlemini/__init__.py
+wordlemini/__main__.py
+wordlemini.egg-info/PKG-INFO
+wordlemini.egg-info/SOURCES.txt
+wordlemini.egg-info/dependency_links.txt
+wordlemini.egg-info/entry_points.txt
+wordlemini.egg-info/requires.txt
+wordlemini.egg-info/top_level.txt
+wordlemini/assets/styles.tcss
+wordlemini/assets/words.txt
