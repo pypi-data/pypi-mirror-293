@@ -1,0 +1,2 @@
+[console_scripts]
+notion-cli = notion_cli.notion_api:main

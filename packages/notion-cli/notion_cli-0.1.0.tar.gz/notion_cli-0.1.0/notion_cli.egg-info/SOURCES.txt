@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+notion_cli/__init__.py
+notion_cli/notion_api.py
+notion_cli.egg-info/PKG-INFO
+notion_cli.egg-info/SOURCES.txt
+notion_cli.egg-info/dependency_links.txt
+notion_cli.egg-info/entry_points.txt
+notion_cli.egg-info/requires.txt
+notion_cli.egg-info/top_level.txt
