@@ -1,0 +1,5 @@
+[console_scripts]
+jgtset = jgtutils.jgtset:main
+jgtutr = jgtutils.cli_tlid_range:main
+tfw = jgtutils.cli_test_cronrun_helper:main
+wtf = jgtutils.cli_test_cronrun_helper:main
