@@ -1,0 +1,15 @@
+funcnodes_keras/__init__.py,sha256=WK3Uk9nj1HHLBDm49ssNuhAO0EfgsYxpAZj1IfxgV3g,811
+funcnodes_keras/applications.py,sha256=71568NU09DjNOosCBwo8zZXzuRWtj25H9K8l1_9YGkI,81829
+funcnodes_keras/callbacks.py,sha256=NYDWxzJP-De3oxSIiXgvQ6toB-yB6IbdayDv4fK5vK0,1810
+funcnodes_keras/datasets.py,sha256=OiaiMYQrHaGOaAAaHxQIYMKfnkkFzC4Zj3peIF1zAm0,5534
+funcnodes_keras/fit.py,sha256=gmEENshpabt09ZkqazsxFGoAxOLWUZngYDieN0KEGq0,5936
+funcnodes_keras/layers.py,sha256=Di_-dj_wBRwFWzKYzr38B3LAKOF2Z4zrPJTqm0aB6H8,19890
+funcnodes_keras/losses.py,sha256=86i_paiwd7wbo25f1lT1SuH27Ym_2VPjUSI-rzgYd8o,10351
+funcnodes_keras/metrics.py,sha256=L9jiFnf7ibGLoMeEptlHtTdLKKXrMit8hEAVXW15opg,25096
+funcnodes_keras/models.py,sha256=mlBGKn6kayUNS85Rn_dLPfoFPJibPVDODUpIHt9FzeU,1842
+funcnodes_keras/optimizers.py,sha256=Pt9AcUz9_5bU6WwM29hx2C5cx4TcDRwh0OOoWpqn4cg,13983
+funcnodes_keras/utilities.py,sha256=k0KsznNlG9keRMCQoQh4o90Bm0ghT3hZ9D6i2NvEPDU,666
+funcnodes_keras-0.1.11.dist-info/METADATA,sha256=Wq3RPXIMFQx9deF8SeLyuxZQaIzbN471FsQJrD40KOE,570
+funcnodes_keras-0.1.11.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+funcnodes_keras-0.1.11.dist-info/entry_points.txt,sha256=s2a_-eHRCzAsMugnAVUVQTP9BrBpTYyZYCsNY7nSn-0,76
+funcnodes_keras-0.1.11.dist-info/RECORD,,
