@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+collinear/__init__.py
+collinear/example_module.py
+collinear.egg-info/PKG-INFO
+collinear.egg-info/SOURCES.txt
+collinear.egg-info/dependency_links.txt
+collinear.egg-info/top_level.txt
