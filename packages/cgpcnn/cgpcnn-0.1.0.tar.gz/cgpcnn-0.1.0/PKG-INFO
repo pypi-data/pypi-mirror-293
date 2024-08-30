@@ -1,0 +1,502 @@
+Metadata-Version: 2.1
+Name: cgpcnn
+Version: 0.1.0
+Summary: A project featuring methods for optimizing neural networks using PyTorch.
+Home-page: https://github.com/MrLipa/CGP-CNN-Optimizer
+Author: Tomasz Szkaradek
+Author-email: bilbo.weirdo@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.14
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: mlflow
+Requires-Dist: pydot
+Requires-Dist: torchsummary
+Provides-Extra: basic
+Requires-Dist: torch; extra == "basic"
+Requires-Dist: torchvision; extra == "basic"
+Requires-Dist: torchaudio; extra == "basic"
+Requires-Dist: matplotlib; extra == "basic"
+Requires-Dist: seaborn; extra == "basic"
+Requires-Dist: scikit-learn; extra == "basic"
+Requires-Dist: pandas; extra == "basic"
+Requires-Dist: requests; extra == "basic"
+Requires-Dist: mlflow; extra == "basic"
+Requires-Dist: pydot; extra == "basic"
+Requires-Dist: torchsummary; extra == "basic"
+Provides-Extra: all
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: torchaudio; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: scikit-learn; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: torchsummary; extra == "all"
+Requires-Dist: python-dotenv; extra == "all"
+Requires-Dist: click; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: myst-parser; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: wheel; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: Sphinx; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: torchaudio; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: scikit-learn; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: requests; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: pydot; extra == "all"
+Requires-Dist: torchsummary; extra == "all"
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: torchaudio; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: scikit-learn; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: torchsummary; extra == "all"
+Requires-Dist: python-dotenv; extra == "all"
+Requires-Dist: click; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: myst-parser; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: wheel; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: Sphinx; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: torchaudio; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: scikit-learn; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: requests; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: pydot; extra == "all"
+Requires-Dist: torchsummary; extra == "all"
+Requires-Dist: python-dotenv; extra == "all"
+Requires-Dist: click; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: myst-parser; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: wheel; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: Sphinx; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Provides-Extra: dev
+Requires-Dist: python-dotenv; extra == "dev"
+Requires-Dist: click; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: myst-parser; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Requires-Dist: mlflow; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: Sphinx; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+
+# CGP-CNN-OPTIMIZER
+
+conda create -n cgpcnnopt python=3.12.2 --yes
+conda env list
+conda remove --name cgpcnnopt --all
+activate cgpcnnopt
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip3 install -r requirements.txt
+deactivate
+
+python -m venv cgpcnnopt
+cgpcnnopt\Scripts\activate
+source cgpcnnopt/bin/activate
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip3 install -r requirements.txt
+deactivate
+
+cookiecutter
+fastapi
+TensorBoard
+Apache Airflow
+mlflow
+torchserve
+testy
+githubaactions
+snyk
+sphinx
+raport
+
+Ray
+jax
+Dask
+Seldon Core
+
+
+
+https://github.com/Happy-Algorithms-League/hal-cgp
+https://pypi.org/project/hal-cgp/
+https://github.com/scheckmedia/cgp-cnn-design
+https://github.com/sg-nm/cgp-cnn
+https://github.com/hoosha/CGP2CNN
+https://github.com/SourangshuGhosh/CGP-CNN-Design
+https://github.com/mlorinc/cnn-cgp-compresser
+https://github.com/pdefraene/cgp_cnn_predictors
+https://github.com/FSSlijkhuis/CGPCNN
+https://github.com/A-Bak/mig-cgp
+https://github.com/giorgia-nadizar/cgpax
+https://github.com/rikifunt/cgp-vec
+
+https://www.youtube.com/watch?v=baI_ckqP36g
+https://github.com/wiqaaas/Coursera_Certificates
+https://github.com/wiqaaas/youtube/tree/master/Machine_Learning_from_Scratch/Cartesian_Genetic_Programming_Neural_Networks
+https://arxiv.org/pdf/1704.00764
+
+https://ieeexplore.ieee.org/document/9020278
+https://direct.mit.edu/evco/article/28/1/141/94990/Evolution-of-Deep-Convolutional-Neural-Networks
+https://link.springer.com/article/10.1007/s10710-024-09483-5
+https://www.sciencedirect.com/science/article/pii/S1568494623008062
+
+
+https://towardsdatascience.com/artificial-neural-networks-optimization-using-genetic-algorithm-with-python-1fe8ed17733e  
+https://link.springer.com/article/10.1007/s10710-019-09360-6
+https://direct.mit.edu/evco/article/28/1/141/94990/Evolution-of-Deep-Convolutional-Neural-Networks
+
+https://github.com/FSSlijkhuis/CGPCNN
+https://www.youtube.com/watch?v=qb2R0rL4OHQ
+https://www.youtube.com/watch?v=baI_ckqP36g
+https://github.com/wiqaaas/yohttps://github.com/search?q=cgp+cnn&type=repositoriesutube/tree/master/Machine_Learning_from_Scratch/Cartesian_Genetic_Programming_Neural_Networks
+https://github.com/topics/cartesian-genetic-programming
+https://github.com/search?q=cgp+cnn&type=repositories
+https://arxiv.org/pdf/1704.00764
+https://ieeexplore.ieee.org/document/9020278
+https://link.springer.com/article/10.1007/s40747-022-00919-y
+https://dl.acm.org/doi/10.1145/3071178.3071229
+https://github.com/FSSlijkhuis/CGPCNN
+
+
+Chciałem się zapytać jaki jest status aplikacji bo dostałem tydzień temu maila od pani i chciałem się dowiedzieć czy oferta jest aktualna i Kamil menedżer dał zielone światło 
+
+Chiałem tez sie dowiedziec jakie są szczegóły np stawka wymiar itd
+
+
+
+
+
+
+Celem pracy magisterskiej jest wykorzystanie Kartezjańskiego Programowania Genetycznego (CGP) do automatyzacji projektowania i optymalizacji architektur sieci konwolucyjnych (CNN), zmniejszając potrzebę wiedzy eksperckiej i czasu na projektowanie przy zachowaniu wysokiej wydajności i minimalnym kosztem obliczeniowym.Przegląd Literatury NAS i CNN: Analiza aktualnych metod automatyzacji projektowania sieci neuronowych, w tym głębokich sieci konwolucyjnych. Implementacja CGP w PyTorch: Programowanie metod Kartezjańskiego Programowania Genetycznego do tworzenia i optymalizacji struktur CNN. Rozwój Operacji Ewolucyjnych: Wprowadzenie w PyTorch mechanizmów mutacji, krzyżowania i selekcji dla architektur CNN. Ewaluacja Początkowych Modeli: Testowanie prototypów sieci na zbiorach CIFAR-10 i analiza ich wydajności. Testowanie Zaawansowanych Technik NAS: Implementacja i porównanie metod GPNND, GA, i ISBGP-II w kontekście efektywności konstrukcji CNN. Analiza Wyników: Ocena i optymalizacja procesów projektowania sieci z wykorzystaniem najlepszych praktyk NAS.
+
+
+
+Celem pracy magisterskiej jest wykorzystanie Kartezjańskiego Programowania Genetycznego (CGP) do automatyzacji projektowania i optymalizacji architektur sieci konwolucyjnych (CNN), zmniejszając potrzebę wiedzy eksperckiej i czasu na projektowanie przy zachowaniu wysokiej wydajności i minimalnym kosztem obliczeniowym. Przegląd Literatury NAS i CNN
+
+
+
+Rozszerzenie Metod Mutacji i Krzyżowania: Przetestowanie i implementacja szerszego zakresu strategii mutacji i krzyżowania w celu zwiększenia różnorodności i skuteczności generowanych architektur sieci.
+Rozbudowa Frameworka o Więcej Warstw: Wprowadzenie dodatkowych typów warstw i funkcji aktywacji do frameworka, co pozwoli na większą elastyczność i dostosowanie do specyficznych potrzeb zastosowań.
+Testowanie na Różnorodnych Zestawach Danych: Wykorzystanie innych, mniej typowych zbiorów danych, w tym danych z dziedziny medycyny, astronomii czy finansów, aby sprawdzić uniwersalność i skalowalność proponowanych metod.
+Porównanie Metod GPNND, GA i ISBGP-II: Kompleksowe porównanie tych trzech metod w kontekście różnych scenariuszy użycia, aby zidentyfikować ich mocne i słabe strony oraz najlepsze przypadki użycia dla każdej z nich.
+Optymalizacja Wydajności i Kosztów Obliczeniowych: Analiza wpływu różnych metod na czas uczenia i zasoby obliczeniowe, z możliwością optymalizacji algorytmów do bardziej efektywnego użytkowania sprzętu.
+Integracja z Istniejącymi Narzędziami ML: Zapewnienie kompatybilności i łatwości integracji z popularnymi platformami uczenia maszynowego, takimi jak TensorFlow czy PyTorch, umożliwiając łatwe wdrożenie i testowanie.
+Publikacja Wyników: Opracowanie szczegółowych dokumentacji i publikacja wyników badań w recenzowanych czasopismach naukowych, co pozwoli na walidację metod przez społeczność naukową.
+
+
+
+
+
+Slajd 2: Wnioski z Badań nad Automatycznym Projektowaniem Architektur Sieci Neuronowych
+Skuteczność Programowania Genetycznego: Badania pokazują, że Genetic Programming (GP), szczególnie w formie Iterative Structure-Based GP (ISBGP), jest skuteczniejsze niż tradycyjne algorytmy genetyczne (GAs) w zadaniach projektowania architektur sieci neuronowych.
+
+Zastosowania GP w NAS: GP, używane do konstruowania sieci za pomocą programów instrukcji, wykazuje lepsze wyniki niż podejścia bezpośrednio reprezentujące sieci, co otwiera nowe możliwości w automatyzacji i optymalizacji procesów projektowych.
+
+Zaawansowane Metody GP: Iterative Structure-Based GP (ISBGP), poprawiona wersja GP z uwzględnieniem struktury i dopasowania, wykazała wyższą skuteczność w porównaniu z prostym GP i tradycyjnymi GAs, oferując bardziej efektywne i celowe przeszukiwanie przestrzeni architektury sieci.
+
+Przyspieszenie i Efektywność: Techniki takie jak bogate inicjalizacje i wcześniejsze zakończenie treningu sieci w ISBGP-II pozwalają na znaczące przyspieszenie procesu wyszukiwania bez degradacji wydajności.
+
+Szeroki Zakres Zastosowań: GP i ISBGP zostały skutecznie zastosowane nie tylko w klasyfikacji obrazów, ale również w tworzeniu krótkich klipów wideo, co wskazuje na szerokie możliwości adaptacyjne tych metod w różnych dziedzinach zastosowań sztucznej inteligencji.
+
+Potencjał na Przyszłość: Wyniki badań sugerują, że dalsze badania nad połączeniem GP z technikami transferu uczenia mogą prowadzić do dalszych usprawnień w automatycznym projektowaniu architektur sieci neuronowych, z potencjalnym zastosowaniem w bardziej złożonych i dynamicznie zmieniających się zadaniach.
+
+Złożoność obliczeniowa: Użycie GP w projektowaniu architektur sieci neuronowych, zwłaszcza w podejściach takich jak ISBGP, może prowadzić do znaczącego wzrostu złożoności obliczeniowej, co wymaga większych zasobów obliczeniowych i czasu na przetwarzanie.
+
+Ryzyko przeuczenia: Pomimo skuteczności, metody te mogą również prowadzić do przeuczenia modeli, szczególnie gdy nie zostaną odpowiednio skalibrowane parametry ewolucyjne i nie zastosuje się technik regularyzacyjnych.
+
+Trudności w doborze parametrów: Optymalizacja parametrów GP, takich jak stopień mutacji czy krzyżowania, wymaga zaawansowanej wiedzy i doświadczenia, co może stanowić barierę dla mniej doświadczonych użytkowników.
+
+Interpretowalność modeli: Architektury sieci wygenerowane przez GP mogą być skomplikowane i trudne do zrozumienia, co ogranicza ich interpretowalność i może utrudniać dalsze badania i rozwój.
+
+Zależność od danych: Skuteczność generowanych architektur sieci neuronowych może być silnie zależna od jakości i charakteru danych treningowych, co wprowadza ryzyko nadmiernego dostosowania do specyficznych cech zestawu danych.
+
+Brak gwarancji optymalności: Jak w przypadku większości algorytmów heurystycznych, GP nie daje gwarancji znalezienia globalnie optymalnej architektury, co może skutkować suboptymalną wydajnością w niektórych zastosowaniach.
+
+Szeroka przestrzeń poszukiwań: GP może eksplorować bardzo szeroką przestrzeń potencjalnych rozwiązań, co bez odpowiednich ograniczeń może prowadzić do bardzo długich czasów wyszukiwania bez znalezienia skutecznej architektury.
+
+
+
+
+
+
+Skuteczność Programowania Genetycznego
+Zastosowania GP w NAS
+Zaawansowane Metody GP Potencjał na Przyszłość
+Przyspieszenie i Efektywność
+Złożoność obliczeniowa:
+Trudności w doborze parametrów
+Zależność od danych
+Brak gwarancji optymalności
+Szeroka przestrzeń poszukiwań
+
+
+
+
+
+
+
+
+
+
+
+
+Oto krótki opis postępów w projekcie implementacji architektury CNN opartej na CGP w PyTorch, uwzględniający skonfigurowanie środowiska pracy na superkomputerze, wykorzystanie MLflow do zarządzania eksperymentami, oraz rozwój kluczowych elementów projektu:
+
+### Postępy w projekcie:
+1. **Konfiguracja środowiska na superkomputerze:**
+   - Skonfigurowano środowisko pracy na superkomputerze, dostosowując zasoby do intensywnych obliczeń potrzebnych do treningu i ewaluacji sieci neuronowych.
+
+2. **Wykorzystanie MLflow do zarządzania eksperymentami:**
+   - Zaimplementowano MLflow do monitorowania eksperymentów, logowania wyników i zarządzania cyklem życia modeli.
+
+3. **Implementacja podstawowych sieci w PyTorch:**
+   - Zdefiniowano i zaimplementowano w PyTorch podstawowe struktury sieci, takie jak AlexNet, ResNet, umożliwiając łatwe porównanie i integrację z CGP.
+
+4. **Definicja kluczowych bloków sieciowych:**
+   - Utworzono specyficzne moduły, takie jak ResBlock, integrując je z CGP jako funkcje węzłów.
+
+5. **Implementacja algorytmów ewolucyjnych:**
+   - Rozwinięto algorytmy mutacji i krzyżowania, aby optymalizować struktury sieci zgodnie z zasadami ewolucji genetycznej.
+
+6. **Implementacja technik Early Termination i Rich Initialization:**
+   - Zaimplementowano mechanizmy wczesnego zakończenia treningu i bogatej inicjalizacji w celu przyspieszenia wyszukiwania architektury i poprawy wyników początkowych.
+
+7. **Implementacja równoległego przetwarzania i dystrybucji zadań:**
+   - Rozwinięto równoległe przetwarzanie i dystrybucję zadań w celu efektywnego wykorzystania zasobów obliczeniowych i przyspieszenia procesu ewolucji.
+
+8. **Implementacja CGP jako metody kodowania struktury sieci CNN:**
+   - Wdrożono CGP do reprezentacji struktury sieci jako skierowanego grafu acyklicznego, co pozwala na dynamiczne tworzenie i modyfikacje architektur sieciowych.
+
+### Kluczowe narzędzia i technologie:
+- **PyTorch** do budowy i trenowania modeli sieci neuronowych.
+- **MLflow** do zarządzania eksperymentami i modelami.
+- **Superkomputer** do przetwarzania danych i obliczeń na dużą skalę.
+
+Te postępy demonstrują kompleksowe podejście do tworzenia zaawansowanych modeli CNN z wykorzystaniem nowatorskich technik genetycznych i programowania w PyTorch, co może prowadzić do odkrycia nowych, efektywnych struktur sieciowych przy zachowaniu rozsądnego czasu obliczeniowego.
+
+
+
+
+
+
+
+### Slajd 2: Wnioski z Badań nad Automatycznym Projektowaniem Architektur Sieci Neuronowych
+
+1. **Skuteczność Programowania Genetycznego**: Badania pokazują, że Genetic Programming (GP), szczególnie w formie Iterative Structure-Based GP (ISBGP), jest skuteczniejsze niż tradycyjne algorytmy genetyczne (GAs) w zadaniach projektowania architektur sieci neuronowych.
+
+2. **Zastosowania GP w NAS**: GP, używane do konstruowania sieci za pomocą programów instrukcji, wykazuje lepsze wyniki niż podejścia bezpośrednio reprezentujące sieci, co otwiera nowe możliwości w automatyzacji i optymalizacji procesów projektowych.
+
+3. **Zaawansowane Metody GP**: Iterative Structure-Based GP (ISBGP), poprawiona wersja GP z uwzględnieniem struktury i dopasowania, wykazała wyższą skuteczność w porównaniu z prostym GP i tradycyjnymi GAs, oferując bardziej efektywne i celowe przeszukiwanie przestrzeni architektury sieci.
+
+4. **Przyspieszenie i Efektywność**: Techniki takie jak bogate inicjalizacje i wcześniejsze zakończenie treningu sieci w ISBGP-II pozwalają na znaczące przyspieszenie procesu wyszukiwania bez degradacji wydajności.
+
+5. **Szeroki Zakres Zastosowań**: GP i ISBGP zostały skutecznie zastosowane nie tylko w klasyfikacji obrazów, ale również w tworzeniu krótkich klipów wideo, co wskazuje na szerokie możliwości adaptacyjne tych metod w różnych dziedzinach zastosowań sztucznej inteligencji.
+
+6. **Potencjał na Przyszłość**: Wyniki badań sugerują, że dalsze badania nad połączeniem GP z technikami transferu uczenia mogą prowadzić do dalszych usprawnień w automatycznym projektowaniu architektur sieci neuronowych, z potencjalnym zastosowaniem w bardziej złożonych i dynamicznie zmieniających się zadaniach.
+
+
+
+### Slajd 3: Wady i Ograniczenia Metod GP w NAS
+
+1. **Złożoność obliczeniowa**: Użycie GP w projektowaniu architektur sieci neuronowych, zwłaszcza w podejściach takich jak ISBGP, może prowadzić do znaczącego wzrostu złożoności obliczeniowej, co wymaga większych zasobów obliczeniowych i czasu na przetwarzanie.
+
+2. **Ryzyko przeuczenia**: Pomimo skuteczności, metody te mogą również prowadzić do przeuczenia modeli, szczególnie gdy nie zostaną odpowiednio skalibrowane parametry ewolucyjne i nie zastosuje się technik regularyzacyjnych.
+
+3. **Trudności w doborze parametrów**: Optymalizacja parametrów GP, takich jak stopień mutacji czy krzyżowania, wymaga zaawansowanej wiedzy i doświadczenia, co może stanowić barierę dla mniej doświadczonych użytkowników.
+
+4. **Interpretowalność modeli**: Architektury sieci wygenerowane przez GP mogą być skomplikowane i trudne do zrozumienia, co ogranicza ich interpretowalność i może utrudniać dalsze badania i rozwój.
+
+5. **Zależność od danych**: Skuteczność generowanych architektur sieci neuronowych może być silnie zależna od jakości i charakteru danych treningowych, co wprowadza ryzyko nadmiernego dostosowania do specyficznych cech zestawu danych.
+
+6. **Brak gwarancji optymalności**: Jak w przypadku większości algorytmów heurystycznych, GP nie daje gwarancji znalezienia globalnie optymalnej architektury, co może skutkować suboptymalną wydajnością w niektórych zastosowaniach.
+
+7. **Szeroka przestrzeń poszukiwań**: GP może eksplorować bardzo szeroką przestrzeń potencjalnych rozwiązań, co bez odpowiednich ograniczeń może prowadzić do bardzo długich czasów wyszukiwania bez znalezienia skutecznej architektury.
+
+Te ograniczenia wskazują na potrzebę dalszych badań nad udoskonaleniem algorytmów GP, w tym lepszą regulacją, efektywniejszymi metodami selekcji oraz rozwojem technik redukujących wymagania obliczeniowe i złożoność modeli.
+
+
+
+
+
+### Dalsze plany rozwoju Frameworka
+
+1. **Rozszerzenie metod mutacji i krzyżowania:**
+   - Opracowanie zaawansowanych technik genetycznych, które mogą zwiększyć różnorodność i efektywność ewolucyjnych algorytmów w projektowaniu architektur sieci neuronowych.
+
+2. **Rozbudowa Frameworka o więcej warstw:**
+   - Implementacja dodatkowych, specjalistycznych warstw i bloków konwolucyjnych, które mogą być wykorzystywane w specyficznych przypadkach użycia, takich jak przetwarzanie sekwencyjne czy zastosowania w rozpoznawaniu obrazu.
+
+3. **Testowanie na różnorodnych zestawach danych:**
+   - Eksperymentowanie z różnymi typami danych, w tym obrazy, dźwięk i tekst, co pozwoli na ocenę uniwersalności i skalowalności proponowanych metod.
+
+4. **Porównanie metod GPNND, GA i ISBGP-II, CGP:**
+   - Dokładna analiza wydajności i skuteczności tych metod na różnorodnych problemach, aby zidentyfikować najlepsze praktyki i potencjalne obszary poprawy.
+
+5. **Optymalizacja wydajności i kosztów obliczeniowych:**
+   - Zoptymalizowanie algorytmów pod kątem czasu wykonania i zużycia zasobów obliczeniowych, co jest kluczowe w zastosowaniach wymagających dużej mocy obliczeniowej.
+
+6. **Integracja z istniejącymi narzędziami ML oraz udostępnienie Framework:**
+   - Zapewnienie kompatybilności i łatwej integracji z popularnymi bibliotekami uczenia maszynowego takimi jak TensorFlow, PyTorch, oraz narzędziami do automatyzacji i monitorowania procesu uczenia, takimi jak MLflow.
+
+7. **Opracowanie dokumentacji i przykładów użycia:**
+   - Stworzenie szczegółowej dokumentacji i tutoriali dla użytkowników, które ułatwią implementację i eksperymentowanie z Frameworkiem, co przyspieszy adopcję technologii w praktyce.
+
+---
+
+Ten slajd zawiera plany na przyszłość związane z rozwojem Frameworka, co pozwala na lepsze zrozumienie długoterminowej wizji i strategii projektu.
+
+
+
+
+
+
+Oto krótki przegląd metod GPNND, GA, ISBGP-II, i CGP, które są różnymi podejściami do optymalizacji i projektowania architektur sieci neuronowych:
+
+### GPNND (Genetic Programming for Neural Network Design)
+- **GPNND** to metoda programowania genetycznego zaprojektowana specjalnie do tworzenia architektur sieci neuronowych. Używa struktur drzewiastych do reprezentowania i ewoluowania sieci, gdzie każdy węzeł drzewa reprezentuje operację lub warstwę w sieci neuronowej.
+
+### GA (Genetic Algorithms)
+- **Genetic Algorithms** to ogólna klasa algorytmów ewolucyjnych, które stosują mechanizmy inspirowane naturalną ewolucją, takie jak selekcja, mutacja, rekombinacja, i dziedziczenie do rozwiązywania problemów optymalizacyjnych i wyszukiwania. W kontekście projektowania sieci neuronowych, GA często używane są do optymalizacji hiperparametrów oraz struktury sieci.
+
+### ISBGP-II (Iterative Structure-Based Genetic Programming)
+- **ISBGP-II** to zaawansowana wersja programowania genetycznego, która integruje informacje o strukturze przy poszukiwaniu rozwiązań. Ten algorytm skupia się na iteracyjnym przeglądzie przestrzeni rozwiązań, unikając lokalnych minimów poprzez analizę podobieństwa struktur między różnymi kandydatami i faworyzując te nowatorskie.
+
+### CGP (Cartesian Genetic Programming)
+- **CGP** to forma programowania genetycznego, która reprezentuje programy jako skierowane acykliczne grafy (DAG) na dwuwymiarowej siatce. CGP jest szczególnie użyteczne w projektowaniu układów elektronicznych, automatycznym projektowaniu oprogramowania, i jak w tym przypadku, do projektowania architektur sieci neuronowych. CGP różni się od tradycyjnego programowania genetycznego tym, że pozwala na bardziej elastyczne połączenia między operacjami, co jest idealne do modelowania złożonych sieci neuronowych. 
+
+Każda z tych metod ma swoje unikalne cechy i zastosowania w dziedzinie sztucznej inteligencji, szczególnie w projektowaniu i optymalizacji architektur sieci neuronowych.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Postępy w projekcie:
+
+Wdrożono CGP do reprezentacji struktury sieci
+Skonfigurowano środowisko pracy na superkomputerze
+Zaimplementowano MLflow do monitorowania eksperymentów, logowania wyników i zarządzania cyklem życia modeli.
+Zdefiniowano i zaimplementowano w PyTorch podstawowe struktury sieci, takie jak AlexNet, ResNet, umożliwiając łatwe porównanie i integrację z CGP.
+Utworzono specyficzne moduły, takie jak ResBlock
+Rozwinięto algorytmy mutacji i krzyżowania
+Zaimplementowano mechanizmy wczesnego zakończenia treningu i Rich Initialization
+Rozwinięto równoległe przetwarzanie i dystrybucję zadań
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ogólnie to mój pomysł na to wszystko.
+ 
+1. Z racji że to sieci konwolucyjne to widziałbym to tak żeby na poczatku zdecydować o rodzaju sieci neuronowych jakie chcemy designowac np.
+ 
+- CNN -> warstwy Conv2D, 
+- GCN -> warstwy GCNConv
+- GAT -> warstwy GAT
+- GrapSAGE -> warsty GraphSAGE
+- etc.
+ 
+co spowoduje ograniczenie liste warstw jakie możemy rozpatrywać. Tak naprawdę to troche taki interface w commandline w oparciu o switch/if-else/pattern matching.
+ 
+2. Potem na podstawie tego ze mamy rozne sieci to podobnie musi byc z datasetami (tutaj mamy spoko, mozemy wziąć datasety wbudowane w PyTorch i Pytorch Geometics)
+	- Dla GCN/GAT/GraphSAGE -> datasety z PyTorch Geometrics 
+		- Uwzglednic klasyfikacje grafów (Mutag itd.) i Node Classification (np. Cora, PubMed, Citiseer)
+	- Dla CNN -> np. CIFAR-10, CIFAR-100, MNIST, FashionMNIST etc.
+	itd.
+ 
+ 
+W obu powyższych krokach powinno być coś na wzór łatwego rozszerzenia tj. dodajemy architekture sieci typu XYZ, liste warstw, liste datasetów -> i mamy dalszy proces.
+ 
+ 
+Największy problem do rozwiązania się tak naprawdę z "upewnieniem się że siec jest połączone tzn. ze kształty/hidden_channel etc. się zgadzają między sobą)
+ 
+ 
+Osobiscie widziałbym to jakoś na wzór odpalania z Command Line (wykorzystanie argparse w pythonie np.)
+ 
+ 
+python3 CGP-Neural-Network-Designer.py
+ 
+-{typ sieci}
+-epochs 
+-Optimiziator (lista dostpenych)
+-loss_function (lista dostepnych)
+-is_dropout (tak/nie)
+- early-stopping (tak/nie)
+- generation
+- mutation(jezeli nie podamy to nie ma mutacji, jak podamy to ustalamy jakas wartosc)
+- params_CGP (rows, cols, node_num = (rows x cols), level_back)
+- fitness (tutaj mozna np. zrobic zeby fitnessem bylo acc/f1/1-f1 itd.)
+ 
+ewentualnie np.
+ 
+python3 GCP-Neural-Network-Designer config.json
+ 
+i w tym config file wpisujemy w JSON parametry jak key-value.
+ 
+Zasadniczo Jak sie uda zrobić tak że zrobimy to tylko dla CNN/GCN + zostawienie łatwego rozszerzania tego o kolejne rzeczy to byłoby super. Może Pan się skupić pod CNN (mi później zależałoby że jak Pan skończy studia żebym mógł to rozbudowywać o np. GCN, GraphSAGE i kolejne inne architektury).
