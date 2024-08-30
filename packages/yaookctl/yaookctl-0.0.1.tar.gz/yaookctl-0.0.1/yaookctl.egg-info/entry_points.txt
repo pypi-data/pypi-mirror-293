@@ -1,0 +1,3 @@
+[console_scripts]
+kubectl-yaook = yaookctl.cli:main
+yaookctl = yaookctl.cli:main

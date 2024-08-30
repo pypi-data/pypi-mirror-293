@@ -1,0 +1,5 @@
+click==8.1.7
+kubernetes-asyncio==30.3.1
+prettytable==3.11.0
+typing-extensions==4.12.2
+click-option-group==0.5.6

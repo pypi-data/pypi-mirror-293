@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: yaookctl
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: click==8.1.7
+Requires-Dist: kubernetes-asyncio==30.3.1
+Requires-Dist: prettytable==3.11.0
+Requires-Dist: typing-extensions==4.12.2
+Requires-Dist: click-option-group==0.5.6
