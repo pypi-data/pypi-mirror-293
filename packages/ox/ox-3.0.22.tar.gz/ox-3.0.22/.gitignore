@@ -1,0 +1,9 @@
+build
+dist
+oxutils.egg-info
+ox/__version.py
+*.pyc
+*.swp
+*~
+MANIFEST
+ox.egg-info

@@ -1,0 +1,4 @@
+chardet
+lxml
+requests
+Pillow>=10
