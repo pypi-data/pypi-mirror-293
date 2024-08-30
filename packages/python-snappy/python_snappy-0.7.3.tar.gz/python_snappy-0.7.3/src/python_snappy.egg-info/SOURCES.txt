@@ -1,0 +1,16 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+test_formats.py
+test_snappy.py
+src/python_snappy.egg-info/PKG-INFO
+src/python_snappy.egg-info/SOURCES.txt
+src/python_snappy.egg-info/dependency_links.txt
+src/python_snappy.egg-info/requires.txt
+src/python_snappy.egg-info/top_level.txt
+src/snappy/__init__.py
+src/snappy/__main__.py
+src/snappy/snappy.py
+src/snappy/snappy_formats.py
