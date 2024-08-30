@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: tecton-gen-ai
+Version: 0.0.1b0
+Summary: [private preview] Tecton Gen AI SDK
+Project-URL: Homepage, https://tecton.ai
+Project-URL: Documentation, https://docs.tecton.ai
+Author-email: "Tecton, Inc." <support@tecton.ai>
+License: Tecton Proprietary
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: typing-extensions>=4.5
+Provides-Extra: langchain
+Requires-Dist: langchain; extra == 'langchain'
+Requires-Dist: langchain-core; extra == 'langchain'
+Provides-Extra: llama-index
+Requires-Dist: llama-index; extra == 'llama-index'
+Provides-Extra: realtime
+Requires-Dist: aws-secretsmanager-caching; extra == 'realtime'
+Provides-Extra: tecton
+Requires-Dist: tecton; extra == 'tecton'
+Description-Content-Type: text/markdown
+
+# Tecton Gen AI
+
+This is in private preview.
