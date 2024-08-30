@@ -1,0 +1,13 @@
+LOGIN_ENDPOINT = None  # TODO
+VERIFY_PASSWORD_ENDPOINT = 'api/password/verify'
+LOAD_MODEL_ENDPOINT = 'api/models/load'
+LIST_MODELS_ENDPOINT = 'api/models/list'
+UNLOAD_MODEL_ENDPOINT = 'api/models/unload'
+PREDICT_ENDPOINT = 'api/models/predict'
+CREATE_USER_ENDPOINT = 'api/users/create'
+DELETE_USER_ENDPOINT = 'api/users/delete'
+NEW_API_KEY_ENDPOINT = 'api/users/api_key/issue'
+NEW_PASSWORD_ENDPOINT = 'api/users/password/issue'
+GET_USER_ROLE_ENDPOINT = 'api/users/role'
+UPDATE_USER_ROLE_ENDPOINT = 'api/users/role'
+LIST_USERS_ENDPOINT = 'api/users/list'
