@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/curvesimplify/__init__.py
+src/curvesimplify/agarwal.py
+src/curvesimplify/imaiiri.py
+src/curvesimplify.egg-info/PKG-INFO
+src/curvesimplify.egg-info/SOURCES.txt
+src/curvesimplify.egg-info/dependency_links.txt
+src/curvesimplify.egg-info/requires.txt
+src/curvesimplify.egg-info/top_level.txt
+tests/test_agarwal.py
+tests/test_imaiiri.py
