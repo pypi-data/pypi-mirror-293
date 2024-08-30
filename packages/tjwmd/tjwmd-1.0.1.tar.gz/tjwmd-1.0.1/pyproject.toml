@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tjwmd"
+version = "1.0.1"
+description = "tjwmd"
+authors = ["Duy Nguyen <duynguyen02.dev@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/duynguyen02/tjwmd"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.10.0.84"
+ultralytics = "^8.2.83"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
