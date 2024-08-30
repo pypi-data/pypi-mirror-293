@@ -1,0 +1,14 @@
+nugit/DESC.md,sha256=o0xBEXkJBe-NQ7j-Iq-KqPdLZCs_aZOT9NKjDmreIUY,99
+nugit/__init__.py,sha256=n06b1huzRWzH9ZWZflR5TGuLDmdXUblLJbuovb0_cxg,68
+nugit/actions.py,sha256=6nqPqg1BgWFAVXS44c6q0nxQfn8xuREODxXhMuVCRoA,600
+nugit/argsparser.py,sha256=2iNtCBMqLKXtvlmWfx3HlIsFRBggUc0yVEYnYx-zxsc,319
+nugit/constants.py,sha256=4pp6u07kGlRV_7qDj78BrHfyS9uJWRb2G9btdMSa04Q,733
+nugit/defaults/nugit.yaml,sha256=XTjAVW_I1EfH3eZqYRFFIR4a2mJOU1wsUX5wVKfsstc,215
+nugit/defaults/pre-commit,sha256=8Wt_VIDuJNUWEzXon9PlLd74D15sk8nRJueI_Duw5vo,3286
+nugit/entrypoints/__init__.py,sha256=YdQXm_qCB9CcI16w98X-L9FYQrPVQ95Uw1uWEaoHi74,346
+nugit-1.0.1.dist-info/LICENSE,sha256=FctBd1f-zYKmT53SnG1Zs1A9njOG2Q4Q4K9BapL-5-c,1067
+nugit-1.0.1.dist-info/METADATA,sha256=gIDPtQdeKkqOoGeP1a-4AqK2PRWCzZ_e_46t7VRUGEs,1818
+nugit-1.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+nugit-1.0.1.dist-info/entry_points.txt,sha256=1x6rYNUCWgL_rWaCoS_CjGQS9nm2i4vohPxmbuIJWO4,50
+nugit-1.0.1.dist-info/top_level.txt,sha256=yPJr0-2JZWUpEX3bFK6NoxzCsZcCkSrRGnPTYHn9A1M,6
+nugit-1.0.1.dist-info/RECORD,,
