@@ -1,0 +1,10 @@
+surf_controller/__init__.py,sha256=UDKiWyh0l5NfUs1IL7a30OcE66EunvhswS36jyy3Pus,579
+surf_controller/api.py,sha256=zyyBly493Z1nlMjZQLWdf-nGrMTZi2Hzg5zCQVfdPnA,8282
+surf_controller/config.toml,sha256=LggRPvk03gZEg1AUvbUABAG_QWqUnQIWzLlfKYLIVwI,220
+surf_controller/gui.py,sha256=WIFnFQy3_5j4Qs4-kBl-2wtGKTixtjE2CwwXhzvxfFo,7867
+surf_controller/utils.py,sha256=iDu2vANo-f3C7OsQuAqCxEfLzTa6AxANcULPSEXKnA8,2552
+surf_controller-0.3.1.dist-info/METADATA,sha256=47egprrQvUgvdU4hKyub4AN5h6DY29XpNP_UWvcplu0,2775
+surf_controller-0.3.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+surf_controller-0.3.1.dist-info/entry_points.txt,sha256=ylp1PO1nnduzsOIzq4-msyQ5LwjpcfCQi8oYVUvFJ9A,60
+surf_controller-0.3.1.dist-info/licenses/LICENSE,sha256=kGPknXeT4bDaipT00ASWKmoSM6_IyJDCzLnwLm4zNBQ,1069
+surf_controller-0.3.1.dist-info/RECORD,,
