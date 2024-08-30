@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tidysorter
+Version: 1.0.2
+Summary: A tool to organize files in a directory
+Home-page: https://github.com/ale-floc/tidysorter
+Author: Arnaud Le Floch
+Author-email: a.lefloch2491@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">
+TidySorter
+</h1>
+<p align="center">
+Effortlessly organize your files into neatly categorized folders, making it easier to prepare for system formatting or reinstallation, or simply to clean up cluttered directories filled with accumulated files. Compatible with macOS, Linux, and Windows.
+</p>
+
+## Installation
+
+To install TidySorter, you have several options:
+
+**Install using `pip`**: This is the easiest method. Simply run:
+```console
+$ python3 -m pip install --user tidysorter
+
+## Usage
+
+Once installed, you can use TidySorter directly from the command line. To get a list of available options and usage instructions, run:
+```console
+$ tidysorter --help
