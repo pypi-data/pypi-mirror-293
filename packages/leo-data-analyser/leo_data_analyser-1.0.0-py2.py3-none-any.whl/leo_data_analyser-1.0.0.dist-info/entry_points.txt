@@ -1,0 +1,2 @@
+[console_scripts]
+data_analyser = data_analyser.controller.console:main
