@@ -1,0 +1,9 @@
+LICENSE.txt
+pyproject.toml
+src/Spectacular_analysis/_init_.py
+src/Spectacular_analysis/example.py
+src/spectacular_analysis.egg-info/PKG-INFO
+src/spectacular_analysis.egg-info/SOURCES.txt
+src/spectacular_analysis.egg-info/dependency_links.txt
+src/spectacular_analysis.egg-info/requires.txt
+src/spectacular_analysis.egg-info/top_level.txt
