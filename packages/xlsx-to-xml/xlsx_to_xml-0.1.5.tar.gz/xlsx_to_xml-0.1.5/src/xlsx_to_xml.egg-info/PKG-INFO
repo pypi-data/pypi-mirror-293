@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: xlsx_to_xml
+Version: 0.1.5
+Summary: A Python library for converting XLSX files to XML using Rust.
+Author-email: Chandan Bauri <chandanbauri441@gmail.com>
+Description-Content-Type: text/markdown
+License-File: LICENSE
