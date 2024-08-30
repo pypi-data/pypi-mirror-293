@@ -1,0 +1,7 @@
+README.md
+setup.py
+ncs_simplifier.egg-info/PKG-INFO
+ncs_simplifier.egg-info/SOURCES.txt
+ncs_simplifier.egg-info/dependency_links.txt
+ncs_simplifier.egg-info/requires.txt
+ncs_simplifier.egg-info/top_level.txt
