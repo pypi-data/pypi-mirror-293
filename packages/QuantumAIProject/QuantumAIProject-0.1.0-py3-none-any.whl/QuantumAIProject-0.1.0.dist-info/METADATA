@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: QuantumAIProject
+Version: 0.1.0
+Requires-Dist: dash
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: nltk
+Requires-Dist: cryptography
+

@@ -1,0 +1,2 @@
+[console_scripts]
+quantum-ai = quantum_ai.cli:main
