@@ -1,0 +1,13 @@
+mlflow_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlflow_extensions/serving/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlflow_extensions/serving/adapters.py,sha256=7eiy-vc_afpEeaD92Nj14z1p-eONgGc_Hd2OsVPS9k8,3188
+mlflow_extensions/serving/fixures.py,sha256=pF7i8sFTRMSavoENkjI_waIHj4U0ALxIb97epEXU_vM,3804
+mlflow_extensions/serving/wrapper.py,sha256=mXxyBpmZGa-nyJ9fQIQjAKSQRgFzZEZ8y6thqy1BbeQ,3986
+mlflow_extensions/serving/engines/__init__.py,sha256=JXf59Ua03LXNIfvy4yWnkSpCITuXTJNROH_Y1Ax310w,94
+mlflow_extensions/serving/engines/base.py,sha256=Bagcwd364kNFUIZkC3Z_hKXxjxm4fYqaFFcq1YtWo9Y,3238
+mlflow_extensions/serving/engines/vllm_engine.py,sha256=9hTaWhZ393ofDadGIk_TCG7iUscS1NQ7-MNZh90pnAE,4313
+mlflow_extensions-0.1.0.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+mlflow_extensions-0.1.0.dist-info/METADATA,sha256=h-v8xJ7SraKaKzU4NkgJ17J06SeciVps71hr6JP3CPA,5172
+mlflow_extensions-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mlflow_extensions-0.1.0.dist-info/top_level.txt,sha256=NWwzFJcsaRwRBwRLr3XZDXhVZRF0Tph6ETBwIYVMgII,18
+mlflow_extensions-0.1.0.dist-info/RECORD,,
