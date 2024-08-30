@@ -1,0 +1,9 @@
+mailtmpy/__init__.py,sha256=hHeJRhPIMrOJoXiLwpXSP62U35JBLxNWUlxSKxSc5og,80
+mailtmpy/email.py,sha256=y0hTNZC1L2d6VDhivMoiTA6auvDNSUFfJ9ad5rzcBmM,3436
+mailtmpy/helpers.py,sha256=So7FcTl7SJUJcnkmvy6Dntnwbow3xymBwAnFWA6ZYsE,340
+mailtmpy/listen.py,sha256=9IXw-6EtI440NgX6XlzyKokgbgC1WjzK-rr8-CsE274,2131
+mailtmpy/models.py,sha256=gDk3FwLHYY6wQepGCI6f_FcdLcR4utBv4bTOHhZzXoI,1111
+mailtmpy-0.1.4.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+mailtmpy-0.1.4.dist-info/METADATA,sha256=qAwPsKpLL7SJbb6c3e31s6hMXMoGngP67tpsg_DCy4Q,2300
+mailtmpy-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mailtmpy-0.1.4.dist-info/RECORD,,
