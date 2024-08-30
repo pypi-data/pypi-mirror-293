@@ -1,0 +1,13 @@
+microcore/main.py,sha256=kJn8HAvnMUv-NE03FMhWzC_87JK9Wiap0awup9_Ehms,11
+microcore/cli/__init__.py,sha256=iYcDUx5dNAmSb5DpM0tQc9VZ0vsQaDlCssXxJeesnTw,36
+microcore/cli/execute.py,sha256=coCnN4p4uVfNLmRJuC10iBxID3xjAqXA8rp3kaWybKg,163
+microcore/cli/commands/__init__.py,sha256=aU2tx8g69L29AQ36WuWJTaZZP_q7_e_XiZGmloQpuiA,50
+microcore/cli/commands/create_node.py,sha256=TIHUaea5fDshfI5ZDfSFf8hg3qqraSY82XWVR8wV9tk,1016
+microcore/cli/commands/dockerize.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microcore/cli/content/__init__.py,sha256=FcI51Hj7xyNyvkN0tfYqQRSj2s79Uil60NYslRyuOz0,89
+microcore/core/files/structmaster.py,sha256=luJ1ilI9uCnLA52JVGTmCvWcH6BRhDiIZaTTYbvYfG4,36
+micro_core_node-0.0.5.dist-info/METADATA,sha256=dPLgPcyZ85A1yxtWgTFgCgKQ4xbqQlYbcPsdllzA2pk,592
+micro_core_node-0.0.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+micro_core_node-0.0.5.dist-info/entry_points.txt,sha256=IIfqH1qS-sN2nRBKG-EoSvXzHGMwYT7AwHEmoGw70II,60
+micro_core_node-0.0.5.dist-info/licenses/LICENSE,sha256=KI5aJ8YdfEknxcMIDiQfbegBng-Eq2OGyVWHag4FKWA,1046
+micro_core_node-0.0.5.dist-info/RECORD,,
