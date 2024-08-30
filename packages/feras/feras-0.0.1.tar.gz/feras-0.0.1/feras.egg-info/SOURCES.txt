@@ -1,0 +1,14 @@
+LICENCE
+README.md
+setup.py
+feras/__init__.py
+feras/base.py
+feras/dense.py
+feras/loss.py
+feras/model.py
+feras/sigmoid.py
+feras.egg-info/PKG-INFO
+feras.egg-info/SOURCES.txt
+feras.egg-info/dependency_links.txt
+feras.egg-info/requires.txt
+feras.egg-info/top_level.txt

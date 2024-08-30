@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: feras
+Version: 0.0.1
+Summary: Un package pour créer des réseaux de neurones denses
+Home-page: 
+Author: fares7816
+Author-email: fares.djelili@outlook.fr
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENCE
+Requires-Dist: numpy>=1.23.3
