@@ -1,0 +1,5 @@
+fastapi>=0.68.0
+bokeh>=2.3.3
+
+[serve]
+uvicorn>=0.15.0
