@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: vinayaga
+Version: 0.3
+Summary: A simple package for hypothesis generation using a custom train function
+Home-page: UNKNOWN
+Author: arasu
+Author-email: arasum6262@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Provides-Extra: excel
+Requires-Dist: openpyxl; extra == "excel"
+
+# Vinayaga
+
+## Description
+
+Vinayaga is a Python package designed for hypothesis generation using a custom `train` function. It processes data to create a specific hypothesis based on positive examples.
+
+## Installation
+
+You can install Vinayaga from PyPI using pip:
+
+```bash
+pip install vinayaga
+
+
