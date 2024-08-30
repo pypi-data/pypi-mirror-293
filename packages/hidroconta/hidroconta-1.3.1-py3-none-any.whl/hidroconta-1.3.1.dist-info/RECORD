@@ -1,0 +1,10 @@
+hidroconta/__init__.py,sha256=oWFygyXVjUyJt9Sr-vw1wklU2_Pd21el_Mb2Eoqy5AY,148
+hidroconta/api.py,sha256=W3j7MJ8Kcjr2tBFxjBSArTVkqiA7n59-lR3NE0__DlA,17118
+hidroconta/endpoints.py,sha256=XI5lY90mAOB7fWJQPprC1oakGBlhU5qYxMc2OApnCdQ,1085
+hidroconta/hist.py,sha256=O1MTLY_fd8yf9pBjr8YNnKZA-dnCmMf-D95Rg_pQaaI,268
+hidroconta/time.py,sha256=9rSjBMXuynXFaEr43wkPHVBCC9mCsCxNC1N-ThkMafQ,232
+hidroconta/types.py,sha256=yX0-mLPm8VQaIRarB_esAJywxDupzebYQWq1h30sJSM,1089
+hidroconta-1.3.1.dist-info/METADATA,sha256=wa1s4dFfpVIoLx6v4h700pl7iriQuWdOOROziYDEGSw,2543
+hidroconta-1.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hidroconta-1.3.1.dist-info/top_level.txt,sha256=eCdyzHFsC5HKlgsGEDGPMJIG_2wFtc71zojedz0IYmo,11
+hidroconta-1.3.1.dist-info/RECORD,,
