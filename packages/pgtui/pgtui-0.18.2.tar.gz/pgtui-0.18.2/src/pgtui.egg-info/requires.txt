@@ -1,0 +1,15 @@
+click
+pgcli
+psycopg[binary]
+sqlparse
+textual-fspicker
+textual[syntax]>=0.74.0
+
+[dev]
+build
+flake8
+mypy
+pyright
+textual-dev
+twine
+vermin
