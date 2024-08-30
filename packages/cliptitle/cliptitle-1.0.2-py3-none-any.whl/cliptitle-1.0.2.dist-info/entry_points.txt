@@ -1,0 +1,2 @@
+[console_scripts]
+cliptitle = cliptitle.clip_title_enhancer:main
