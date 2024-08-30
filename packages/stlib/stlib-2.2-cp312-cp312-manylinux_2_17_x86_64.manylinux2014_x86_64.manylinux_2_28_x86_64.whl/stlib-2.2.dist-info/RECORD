@@ -1,0 +1,17 @@
+stlib-2.2.dist-info/RECORD,,
+stlib-2.2.dist-info/WHEEL,sha256=WZRKlQ-VuVQNusdP3z-vVAri5oLk5JOsvApgRE30ccU,190
+stlib-2.2.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+stlib-2.2.dist-info/top_level.txt,sha256=P6YtaUVVFF7eazFuD59rI2QdXLbDAPFGwE8LiUuLzco,6
+stlib-2.2.dist-info/METADATA,sha256=UTPZoyy9ULBAJzWat5IOChrJSDq9Yv0wWmZKc2QIQiE,5131
+stlib/plugins.py,sha256=B3F4VBSMl_fZm1adLGqaUVADx9l9GoxCw4o-zBS56x4,5354
+stlib/webapi.py,sha256=-k0FIvV2go-YnJMjPR24o4UIdXZH4hnXSvPE3Cd1LJo,11682
+stlib/steamworks.cpython-312-x86_64-linux-gnu.so,sha256=nmDnggL2A9AF5X9DYd4V1jdYEOIZRa1mYx_0uJYZssY,158704
+stlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stlib/login.py,sha256=OtT_hv_lQZxAV6GmgkIItMXElqwnaDV2sBNKrtz_QAU,12124
+stlib/utils.py,sha256=6nYAyoPOuAF1FwklqkuFmDUrt57r2FbhBCymlDopyyU,15114
+stlib/__init__.py,sha256=h8XWT8pTtwLtU474VTNVokGpTv59Wv2E85Ex6Az48cs,4292
+stlib/community.py,sha256=n3qkWw_t0gSx8p6_KbdJFlXvQ8gWmG1G_Qu8IO-HGmI,32569
+stlib/libsteam_api.so,sha256=tQudMT61VHkiFnYvXMC5cs-uFBSfcgRA4PDWxFY8lR8,395696
+stlib/internals.py,sha256=JyNIujzW49vvl7h0AivuqkRiaVz0RFhVman-TlMiKms,7551
+stlib/universe.py,sha256=SnEtL3HUeACGkaolztzOqBlIUsQDK1l4jKtJCcHL4fw,11217
+stlib/client.py,sha256=IdXnCYiok6yaTaQSCgEm8vG-xyjTgNB2HgcV3G_G788,4083
