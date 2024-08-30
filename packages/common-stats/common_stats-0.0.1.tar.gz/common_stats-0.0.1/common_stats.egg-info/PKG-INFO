@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: common_stats
+Version: 0.0.1
+Summary: A simple library for basic statistical calculations
+Author: Paras Arora
+Author-email: parasaroraee@gmail.com
+License: MIT
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+Requires-Dist: pytest
