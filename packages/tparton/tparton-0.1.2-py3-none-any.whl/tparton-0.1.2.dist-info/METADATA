@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: tparton
+Version: 0.1.2
+Summary: Evolution of the transversity parton distribution functions via two methods: (1) direct integration of the DGLAP equations along the energy scale and (2) fast Mellin inversion.
+Author-email: Congzhou M Sha <cms6712@psu.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# tParton
+
+This is an evolution code for the transversity parton distribution functions encountered in hadronic physics.
+
+First, install this package using `pip install tparton`.
+
+To evolve a transversity pdf, run the command `python -m tparton m`. This uses the Mellin moment by default. To use the energy scale integration method, run the command `python -m tparton t`. Use `python -m tparton m -h`/`python -m tparton t -h` for help.
