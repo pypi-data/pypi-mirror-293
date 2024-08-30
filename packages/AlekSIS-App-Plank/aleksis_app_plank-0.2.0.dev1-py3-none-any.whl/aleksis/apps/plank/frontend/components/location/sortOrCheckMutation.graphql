@@ -1,0 +1,39 @@
+mutation ($idOrBarcode: ID!, $locationId: ID!, $checkIn: Boolean) {
+  sortOrCheck(
+    idOrBarcode: $idOrBarcode
+    locationId: $locationId
+    checkIn: $checkIn
+  ) {
+    status
+    item {
+      id
+      barcode
+      name
+      category {
+        id
+        name
+        icon
+        colour
+      }
+      itemType {
+        id
+        name
+      }
+      location {
+        id
+        name
+      }
+      isAvailable
+      currentCheckedOutItem {
+        process {
+          id
+          borrowingPerson {
+            fullName
+          }
+        }
+      }
+      canEdit
+      canDelete
+    }
+  }
+}

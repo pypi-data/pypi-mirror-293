@@ -1,0 +1,8 @@
+fragment InventoryStatusParts on InventoryType {
+  status {
+    countItems
+    countAvailableItems
+    countCheckedOutItems
+    countNotInTime
+  }
+}

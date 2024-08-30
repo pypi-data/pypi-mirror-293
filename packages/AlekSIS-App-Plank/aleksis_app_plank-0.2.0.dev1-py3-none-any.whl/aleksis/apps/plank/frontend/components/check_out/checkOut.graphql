@@ -1,0 +1,8 @@
+mutation ($input: CheckOutInputType!) {
+  checkOut(input: $input) {
+    process {
+      id
+      checkOutForm
+    }
+  }
+}

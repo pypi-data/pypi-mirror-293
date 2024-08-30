@@ -1,0 +1,9 @@
+#import "./editFragment.graphql"
+
+mutation inventoryMutation($input: InventoryMutationInput!) {
+  inventory(input: $input) {
+    inventory {
+      ...InventoryEditParts
+    }
+  }
+}

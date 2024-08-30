@@ -1,0 +1,3 @@
+[aleksis.app]
+plank=aleksis.apps.plank.apps:PlankConfig
+

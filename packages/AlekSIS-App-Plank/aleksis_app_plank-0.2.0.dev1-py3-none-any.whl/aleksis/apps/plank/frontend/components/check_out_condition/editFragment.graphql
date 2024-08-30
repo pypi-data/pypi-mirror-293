@@ -1,0 +1,7 @@
+#import "./extendedFragment.graphql"
+
+fragment CheckOutConditionEditParts on CheckOutConditionType {
+  ...CheckOutConditionExtendedParts
+  canEdit
+  canDelete
+}

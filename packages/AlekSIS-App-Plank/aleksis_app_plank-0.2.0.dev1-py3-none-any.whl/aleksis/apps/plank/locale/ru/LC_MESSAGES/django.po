@@ -1,0 +1,506 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-30 11:28+0200\n"
+"PO-Revision-Date: 2023-05-26 04:37+0000\n"
+"Last-Translator: Serhii Horichenko <m@sgg.im>\n"
+"Language-Team: Russian <https://translate.edugit.org/projects/aleksis/aleksis-app-plank/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 4.12.1\n"
+
+#: aleksis/apps/plank/admin.py:34
+msgid "There can be only one condition as default."
+msgstr "Типовым (по умолчанию) может быть только одно состояние."
+
+#: aleksis/apps/plank/admin.py:42
+msgid "Set as default"
+msgstr "Установить по умолчанию"
+
+#: aleksis/apps/plank/models.py:18 aleksis/apps/plank/models.py:87
+#: aleksis/apps/plank/models.py:116 aleksis/apps/plank/models.py:170
+#: aleksis/apps/plank/models.py:195 aleksis/apps/plank/models.py:233
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:55
+msgid "Name"
+msgstr "Полное имя"
+
+#: aleksis/apps/plank/models.py:21
+msgid "Groups with check out permission"
+msgstr "Группы с разрешением снятия с регистрации"
+
+#: aleksis/apps/plank/models.py:22
+msgid "To persons in this groups things can be checked out."
+msgstr "Объекты могут быть переданы участникам этих групп."
+
+#: aleksis/apps/plank/models.py:30
+msgid "Group for persons created at check out"
+msgstr "Группа для лиц, созданная во время снятия с регистрации"
+
+#: aleksis/apps/plank/models.py:32
+msgid "Persons created in check outs will be put in this group. If not group is set, creating persons at check out will be disabled."
+msgstr "Личности, созданные при снятии с регистрации, добавляются в эту группу. Если группы нет, личности не создаются."
+
+#: aleksis/apps/plank/models.py:42
+msgid "Inventory"
+msgstr "Инвентарь"
+
+#: aleksis/apps/plank/models.py:43
+msgid "Inventories"
+msgstr "Инвентарь"
+
+#: aleksis/apps/plank/models.py:45
+msgid "Can view item for inventory"
+msgstr "Может просматривать объекты инвентаря"
+
+#: aleksis/apps/plank/models.py:46
+msgid "Can change item for inventory"
+msgstr "Может изменять объекты инвентаря"
+
+#: aleksis/apps/plank/models.py:47
+msgid "Can delete item for inventory"
+msgstr "Может удалять объекты инвентаря"
+
+#: aleksis/apps/plank/models.py:48
+msgid "Can create item for inventory"
+msgstr "Может создавать объекты инвентаря"
+
+#: aleksis/apps/plank/models.py:49 aleksis/apps/plank/models.py:50
+msgid "Can check out items for inventory"
+msgstr "Может снимать с регистрации объекты инвентаря"
+
+#: aleksis/apps/plank/models.py:51
+msgid "Can view check out process for inventory"
+msgstr "Может просматривать процесс инвентаризации"
+
+#: aleksis/apps/plank/models.py:54
+msgid "Can change check out process for inventory"
+msgstr "Может изменять процесс снятия с инвентаризации"
+
+#: aleksis/apps/plank/models.py:88 aleksis/apps/plank/models.py:117
+#: aleksis/apps/plank/models.py:171 aleksis/apps/plank/models.py:258
+msgid "Notes"
+msgstr "Заметки"
+
+#: aleksis/apps/plank/models.py:90
+msgid "Icon"
+msgstr "Иконка"
+
+#: aleksis/apps/plank/models.py:92
+msgid "Colour"
+msgstr "Цвет"
+
+#: aleksis/apps/plank/models.py:96 aleksis/apps/plank/models.py:208
+#: aleksis/apps/plank/models.py:246
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:57
+msgid "Category"
+msgstr "Категория"
+
+#: aleksis/apps/plank/models.py:97
+msgid "Categories"
+msgstr "Категории"
+
+#: aleksis/apps/plank/models.py:121
+msgid "Parent location"
+msgstr "Место верхнего уровня"
+
+#: aleksis/apps/plank/models.py:129 aleksis/apps/plank/models.py:272
+#: aleksis/apps/plank/models.py:454
+msgid "Item"
+msgstr "Объект"
+
+#: aleksis/apps/plank/models.py:137 aleksis/apps/plank/models.py:265
+msgid "Location"
+msgstr "Нас.пункт"
+
+#: aleksis/apps/plank/models.py:138
+msgid "Locations"
+msgstr "Места"
+
+#: aleksis/apps/plank/models.py:175 aleksis/apps/plank/models.py:199
+msgid "Manufacturer"
+msgstr "Производитель"
+
+#: aleksis/apps/plank/models.py:176
+msgid "Manufacturers"
+msgstr "Производители"
+
+#: aleksis/apps/plank/models.py:204
+msgid "Description"
+msgstr "Описание"
+
+#: aleksis/apps/plank/models.py:211
+msgid "Image"
+msgstr "Изображение"
+
+#: aleksis/apps/plank/models.py:212
+msgid "Part number"
+msgstr "Номер модели"
+
+#: aleksis/apps/plank/models.py:216 aleksis/apps/plank/models.py:217
+#: aleksis/apps/plank/models.py:254
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:56
+msgid "Item type"
+msgstr "Тип объекта"
+
+#: aleksis/apps/plank/models.py:236
+msgid "Barcode"
+msgstr "Штрихкод"
+
+#: aleksis/apps/plank/models.py:238
+msgid "Leave blank to automatically generate the barcode"
+msgstr "Оставьте незаполненным для автоматического создания штрихкода"
+
+#: aleksis/apps/plank/models.py:241
+msgid "Serial number"
+msgstr "Серийный номер"
+
+#: aleksis/apps/plank/models.py:268
+msgid "Last time seen at"
+msgstr "Последний раз замечено"
+
+#: aleksis/apps/plank/models.py:273
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:50
+msgid "Items"
+msgstr "Объекты"
+
+#: aleksis/apps/plank/models.py:354
+msgid "Default"
+msgstr "По умолчанию"
+
+#: aleksis/apps/plank/models.py:355
+msgid "Text"
+msgstr "Текст"
+
+#: aleksis/apps/plank/models.py:359 aleksis/apps/plank/models.py:404
+msgid "Check out condition"
+msgstr "Условие снятия с регистрации"
+
+#: aleksis/apps/plank/models.py:360
+msgid "Check out conditions"
+msgstr "Условия снятия с регистрации"
+
+#: aleksis/apps/plank/models.py:388
+msgid "Borrowing person"
+msgstr "Получает"
+
+#: aleksis/apps/plank/models.py:394
+msgid "Lending person"
+msgstr "Предоставляет"
+
+#: aleksis/apps/plank/models.py:396
+msgid "Checked out at"
+msgstr "Снято с регистрации"
+
+#: aleksis/apps/plank/models.py:398
+msgid "Check out in process?"
+msgstr "Снятие регистрации в процессе?"
+
+#: aleksis/apps/plank/models.py:400
+msgid "Check in until"
+msgstr "Регистрация до"
+
+#: aleksis/apps/plank/models.py:411 aleksis/apps/plank/models.py:460
+msgid "Check out process"
+msgstr "Процесс снятия с регистрации"
+
+#: aleksis/apps/plank/models.py:412
+msgid "Check out processes"
+msgstr "Процессы снятия с регистрации"
+
+#: aleksis/apps/plank/models.py:414
+msgid "Can check out items"
+msgstr "Может снимать объекты с регистрации"
+
+#: aleksis/apps/plank/models.py:415
+msgid "Can check in items"
+msgstr "Может регистрировать объекты"
+
+#: aleksis/apps/plank/models.py:462
+msgid "Checked in?"
+msgstr "Зарегистрировано?"
+
+#: aleksis/apps/plank/models.py:463
+msgid "Checked in at"
+msgstr "Зарегистрировано в"
+
+#: aleksis/apps/plank/models.py:468
+msgid "Checked in by"
+msgstr "Зарегистрировал(-а)"
+
+#: aleksis/apps/plank/models.py:480
+msgid "Check out item"
+msgstr "Снять объект с регистрации"
+
+#: aleksis/apps/plank/models.py:481
+msgid "Check out items"
+msgstr "Снять объекты с регистрации"
+
+#: aleksis/apps/plank/schema.py:447
+msgid "Item not found"
+msgstr "Объект не найден"
+
+#: aleksis/apps/plank/templates/plank/check/status.html:5
+msgid "All items checked in"
+msgstr "Все объекты зарегистрированы"
+
+#: aleksis/apps/plank/templates/plank/check/status.html:9
+msgid "Checked out items"
+msgstr "Снятые с регистрации объекты"
+
+#: aleksis/apps/plank/templates/plank/check/status.html:13
+msgid "Checked out items overdue"
+msgstr "Снятые с регистрации просроченные объекты"
+
+#: aleksis/apps/plank/templates/plank/item/status.html:4
+msgid "Available"
+msgstr "Доступно"
+
+#: aleksis/apps/plank/templates/plank/item/status.html:11
+msgid "Checked out to"
+msgstr "Снято с регистрации"
+
+#: aleksis/apps/plank/templates/plank/item/status.html:11
+msgid "Checked out"
+msgstr "Снято с регистрации"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:9
+msgid "Print: Check in confirmation"
+msgstr "Печать: Подтверждение регистрации"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:10
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:13
+msgid "Check in confirmation"
+msgstr "Подтверждение регистрации"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:17
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:17
+msgid "Name of the borrowing person"
+msgstr "Имя получателя"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:20
+msgid "has returned the following items"
+msgstr "вернул(-а) такие объекты"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:29
+msgid "on"
+msgstr "в"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:32
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:24
+msgid "Date"
+msgstr "Дата"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:34
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:26
+msgid "by"
+msgstr "от"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:37
+msgid "Name of the person"
+msgstr "Имя физлица"
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:47
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:53
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:51
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:57
+#, python-format
+msgid "Signature of %(name)s"
+msgstr "Подпись %(name)s"
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:9
+msgid "Print: Check out form"
+msgstr "Печать: Форма снятия с регистрации"
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:10
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:13
+msgid "Check out form"
+msgstr "Форма снятия с регистрации"
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:20
+msgid "has borrowed the following items on"
+msgstr "получил(-а) такие объекты от"
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:29
+msgid "Name of the lending person"
+msgstr "Имя физлица, кто передаёт"
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:45
+msgid "Agreed check in date"
+msgstr "Согласованная дата возврата"
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:9
+msgid "Print: Completeness report"
+msgstr "Печать: Полный отчёт"
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:10
+msgid "Completeness report"
+msgstr "Полный отчёт"
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:20
+msgid "Items registered at this location"
+msgstr "Объекты, зарегистрированные в этом месте"
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:31
+msgid "Missing items"
+msgstr "Отсутствующие объекты"
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:42
+msgid "Items moved to this location"
+msgstr "Объекты, перемещённые в это место"
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:53
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:58
+msgid "Status"
+msgstr "Состояние"
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:54
+msgid "Barcode/ID"
+msgstr "Штрихкод/ID"
+
+#: aleksis/apps/plank/views.py:29
+msgid "No item statuses given"
+msgstr "Состояние объекта неизвестное"
+
+#~ msgid "The manufacturer must be in the same inventory as the category."
+#~ msgstr "Производитель должен быть в том же списке, что и категория."
+
+#~ msgid "Can view category for inventory"
+#~ msgstr "Может просматривать категории инвентаря"
+
+#~ msgid "Can change category for inventory"
+#~ msgstr "Может изменять категории инвентаря"
+
+#~ msgid "Can delete category for inventory"
+#~ msgstr "Может удалять категории инвентаря"
+
+#~ msgid "Can create category for inventory"
+#~ msgstr "Может создавать категории инвентаря"
+
+#~ msgid "Can view manufacturer for inventory"
+#~ msgstr "Может просматривать производителей инвентаря"
+
+#~ msgid "Can change manufacturer for inventory"
+#~ msgstr "Может изменять производителей инвентаря"
+
+#~ msgid "Can delete manufacturer for inventory"
+#~ msgstr "Может удалять производителей инвентаря"
+
+#~ msgid "Can create manufacturer for inventory"
+#~ msgstr "Может создавать производителей инвентаря"
+
+#~ msgid "Can view location for inventory"
+#~ msgstr "Может просматривать места для инвентаря"
+
+#~ msgid "Can change location for inventory"
+#~ msgstr "Может изменять места для инвентаря"
+
+#~ msgid "Can delete location for inventory"
+#~ msgstr "Может удалять места для инвентаря"
+
+#~ msgid "Can create location for inventory"
+#~ msgstr "Может создавать места для инвентаря"
+
+#~ msgid "Can view item type for inventory"
+#~ msgstr "Может просматривать типы объектов инвентаря"
+
+#~ msgid "Can change item type for inventory"
+#~ msgstr "Может изменять типы объектов инвентаря"
+
+#~ msgid "Can delete item type for inventory"
+#~ msgstr "Может удалять типы объектов инвентаря"
+
+#~ msgid "Can create item type for inventory"
+#~ msgstr "Может создавать типы объектов инвентаря"
+
+#~ msgid "Item types"
+#~ msgstr "Типы объектов"
+
+#~ msgid "Inventory process"
+#~ msgstr "Инвентаризация"
+
+#~ msgid "Persons"
+#~ msgstr "Люди"
+
+#~ msgid "Check out"
+#~ msgstr "Снять с регистрации"
+
+#~ msgid "Check in"
+#~ msgstr "Зарегистрировать"
+
+#~ msgid "Checks"
+#~ msgstr "Снятие с регистрации"
+
+#~ msgid "Check outs"
+#~ msgstr "Снятия с регистрации"
+
+#~ msgid "Overview about inventory"
+#~ msgstr "Просмотр инвентаря"
+
+#~ msgid "Check out/Check in"
+#~ msgstr "Снятие с регистрации/Регистрация"
+
+#~ msgid "Inventory status"
+#~ msgstr "Состояние инвентаризации"
+
+#~ msgid "Inventoried items"
+#~ msgstr "Проинвентаризованные объекты"
+
+#~ msgid "All Items"
+#~ msgstr "Все объекты"
+
+#~ msgid "All item types"
+#~ msgstr "Все типы объектов"
+
+#~ msgid "Available items"
+#~ msgstr "Доступные объекты"
+
+#~ msgid "All items"
+#~ msgstr "Все объекты"
+
+#~ msgid "All check outs"
+#~ msgstr "Все снятия регистраций"
+
+#~ msgid "thereof not in time"
+#~ msgstr "из них просроченных"
+
+#~ msgid "Person overview"
+#~ msgstr "Просмотр физлица"
+
+#~ msgid "Show"
+#~ msgstr "Показать"
+
+#~ msgid "Persons with checked out items"
+#~ msgstr "Физлица со снятыми с регистрации объектами"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Email"
+#~ msgstr "Эл.почта"
+
+#~ msgid "optional"
+#~ msgstr "опционально"
+
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgid "Room"
+#~ msgstr "Комната"
+
+#~ msgid "Rooms"
+#~ msgstr "Комнаты"
+
+#~ msgid "Site"
+#~ msgstr "Местонахождение"
+
+#~ msgid "Sites"
+#~ msgstr "Места нахождения"

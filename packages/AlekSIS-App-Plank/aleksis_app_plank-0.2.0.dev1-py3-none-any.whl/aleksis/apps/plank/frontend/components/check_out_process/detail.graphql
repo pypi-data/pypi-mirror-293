@@ -1,0 +1,16 @@
+#import "./extendedFragment.graphql"
+#import "../item/baseFragment.graphql"
+
+query ($id: ID!) {
+  item: checkOutProcessById(id: $id) {
+    ...CheckOutProcessExtendedParts
+    checkedOutItems {
+      id
+      checkedIn
+      item {
+        ...ItemBaseParts
+      }
+    }
+    canEdit
+  }
+}

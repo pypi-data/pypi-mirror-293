@@ -1,0 +1,7 @@
+#import "../check_out_condition/baseFragment.graphql"
+
+query formData {
+  checkOutConditions {
+    ...CheckOutConditionBaseParts
+  }
+}

@@ -1,0 +1,11 @@
+query formData {
+  manufacturers(permission: "plank.create_itemtype") {
+    id
+    name
+  }
+  categories(permission: "plank.create_itemtype") {
+    id
+    name
+  }
+  canCreate: permission(permission: "plank.create_itemtype_rule")
+}

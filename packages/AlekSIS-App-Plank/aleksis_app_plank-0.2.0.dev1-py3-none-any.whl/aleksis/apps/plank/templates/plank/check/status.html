@@ -1,0 +1,15 @@
+{% load i18n %}
+
+{% if check.is_everything_checked_in %}
+  <span class="badge new green">
+    {% trans "All items checked in" %}
+  </span>
+{% elif check.is_in_time %}
+  <span class="badge orange new">
+    {% trans "Checked out items" %}
+  </span>
+{% else %}
+  <span class="badge new red">
+    {% trans "Checked out items overdue" %}
+  </span>
+{% endif %}

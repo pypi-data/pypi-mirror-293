@@ -1,0 +1,7 @@
+#import "../category/baseFragment.graphql"
+
+{
+  categories(permission: "plank.create_item") {
+    ...CategoryBaseParts
+  }
+}

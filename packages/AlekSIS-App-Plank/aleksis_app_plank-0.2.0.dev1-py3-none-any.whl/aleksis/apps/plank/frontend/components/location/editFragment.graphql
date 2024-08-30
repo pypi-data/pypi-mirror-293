@@ -1,0 +1,8 @@
+#import "./extendedFragment.graphql"
+
+fragment LocationEditParts on LocationChildrenType {
+  ...LocationExtendedParts
+  itemsCount
+  canEdit
+  canDelete
+}

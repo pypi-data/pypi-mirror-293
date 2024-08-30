@@ -1,0 +1,5 @@
+mutation inventoryMutation($id: ID!) {
+  deleteInventory(id: $id) {
+    ok
+  }
+}

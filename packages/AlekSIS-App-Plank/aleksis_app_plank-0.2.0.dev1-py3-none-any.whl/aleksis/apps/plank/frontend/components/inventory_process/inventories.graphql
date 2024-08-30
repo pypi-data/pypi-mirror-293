@@ -1,0 +1,7 @@
+#import "../inventory/baseFragment.graphql"
+
+{
+  inventories(permission: "plank.create_item") {
+    ...InventoryBaseParts
+  }
+}

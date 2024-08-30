@@ -1,0 +1,6 @@
+#import "./baseFragment.graphql"
+
+fragment ManufacturerExtendedParts on ManufacturerType {
+  ...ManufacturerBaseParts
+  notes
+}

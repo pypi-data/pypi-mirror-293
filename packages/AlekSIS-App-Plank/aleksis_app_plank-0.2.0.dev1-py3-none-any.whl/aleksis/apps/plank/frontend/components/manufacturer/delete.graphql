@@ -1,0 +1,5 @@
+mutation manufacturerMutation($id: ID!) {
+  deleteManufacturer(id: $id) {
+    ok
+  }
+}

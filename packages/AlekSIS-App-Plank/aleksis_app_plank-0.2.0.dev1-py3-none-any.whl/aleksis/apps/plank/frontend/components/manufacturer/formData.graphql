@@ -1,0 +1,3 @@
+query formData {
+  canCreate: permission(permission: "plank.create_manufacturer_rule")
+}

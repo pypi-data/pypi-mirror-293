@@ -1,0 +1,57 @@
+{% extends 'core/base_print.html' %}
+
+{% load i18n static %}
+
+{% block extra_head %}
+  <link rel="stylesheet" href="{% static "plank/print.css" %}">
+{% endblock %}
+
+{% block browser_title %}{% blocktrans %}Print: Check in confirmation{% endblocktrans %}{% endblock %}
+{% block page_title %}{% blocktrans %}Check in confirmation{% endblocktrans %}{% endblock %}
+
+{% block content %}
+  <h4>{% trans "Check in confirmation" %}</h4>
+  <div class="margin-bottom">
+    <span class="two-part">
+      <span>{{ process.borrowing_person.full_name }}</span>
+      <small>{% trans "Name of the borrowing person" %}</small>
+    </span>
+    <span>
+      {% trans "has returned the following items" %}:
+    </span>
+  </div>
+  <ul class="browser-default">
+    {% for checked_out_item in checked_out_items %}
+      <li class="check-li">{{ checked_out_item.item.name }} ({% if checked_out_item.item.item_type %}{{ checked_out_item.item.item_type.name }}
+        , {% endif %}{{ checked_out_item.item.barcode }})
+        <br/>
+        <span class="right">
+          <span>{% trans "on" %}</span>
+          <span class="two-part">
+            <span>{{ checked_out_item.checked_in_at }}</span>
+            <small>{% trans "Date" %}</small>
+          </span>
+          <span>{% trans "by" %}</span>
+          <span class="two-part">
+            <span>{{ checked_out_item.checked_in_by.full_name }}</span>
+            <small>{% trans "Name of the person" %}</small>
+          </span>
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="row no-margin no-padding">
+    <div class="col s5 no-padding">
+      <span class="signature">
+        {% blocktrans with name=process.borrowing_person.full_name %}Signature of {{ name }}{% endblocktrans %}
+      </span>
+    </div>
+    <div class="col s2"></div>
+    <div class="col s5 no-padding">
+      <span class="signature">
+        {% blocktrans with name=process.lending_person.full_name %}Signature of {{ name }}{% endblocktrans %}
+      </span>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,9 @@
+#import "./editFragment.graphql"
+
+mutation manufacturerMutation($input: ManufacturerMutationInput!) {
+  manufacturer(input: $input) {
+    manufacturer {
+      ...ManufacturerEditParts
+    }
+  }
+}

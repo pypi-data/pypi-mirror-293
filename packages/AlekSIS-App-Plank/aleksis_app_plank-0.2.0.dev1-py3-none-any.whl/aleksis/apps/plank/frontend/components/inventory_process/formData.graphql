@@ -1,0 +1,15 @@
+#import "../category/baseFragment.graphql"
+#import "../inventory/baseFragment.graphql"
+#import "../manufacturer/baseFragment.graphql"
+
+query formData {
+  inventories(permission: "plank.create_category") {
+    ...InventoryBaseParts
+  }
+  categories(permission: "plank.create_itemtype") {
+    ...CategoryBaseParts
+  }
+  manufacturers(permission: "plank.create_itemtype") {
+    ...ManufacturerBaseParts
+  }
+}

@@ -1,0 +1,9 @@
+#import "./editFragment.graphql"
+#import "./statusFragment.graphql"
+
+query ($id: ID!) {
+  item: inventoryById(id: $id) {
+    ...InventoryEditParts
+    ...InventoryStatusParts
+  }
+}
