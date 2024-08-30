@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: spiderweb-framework
+Version: 0.12.0
+Summary: A small web framework, just big enough for a spider.
+License: LICENSE.txt
+Author: Joe Kaufeld
+Author-email: opensource@joekaufeld.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Dist: cryptography (>=43.0.0,<44.0.0)
+Requires-Dist: email-validator (>=2.2.0,<3.0.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: peewee (>=3.17.6,<4.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# spiderweb
+
+As a professional web developer focusing on arcane uses of Django for arcane purposes, it occurred to me a little while ago that I didn't actually know how a web framework _worked_.
+
+So I built one.
+
+`spiderweb` is a small web framework, just big enough to hold a spider. Getting started is easy:
+
+```shell
+poetry add spiderweb-framework
+```
+
+Create a new file and drop this in it:
+
+```python
+from spiderweb import SpiderwebRouter
+from spiderweb.response import HttpResponse
+
+app = SpiderwebRouter()
+
+@app.route("/")
+def index(request):
+    return HttpResponse("HELLO, WORLD!")
+
+if __name__ == "__main__":
+    app.start()
+```
+
+My goal with this framework was to do three things:
+
+  1. Learn a lot
+  2. Create an unholy blend of Django and Flask
+  3. Not look at any existing code. Go off of vibes alone and try to solve all the problems I could think of in my own way
+
+And, honestly, I think I got there. Here's a non-exhaustive list of things this can do:
+
+  * Function-based views
+  * Optional Flask-style URL routing
+  * Optional Django-style URL routing
+  * URLs with variables in them a lá Django
+  * Gunicorn support
+  * Full middleware implementation
+  * Limit routes by HTTP verbs
+  * Custom error routes
+  * Built-in dev server
+  * HTML templates with Jinja2
+  * Static files support
+  * Cookies (reading and setting)
+  * Optional append_slash (with automatic redirects!)
+  * ~~CSRF middleware implementation~~ (it's there, but it's crappy and unsafe. I'm working on it.)
+  * Optional POST data validation middleware with Pydantic
+  * Database support (using Peewee, but the end user can use whatever they want as long as there's a Peewee driver for it)
+  * Session middleware
+
+The TODO list:
+
+  * Tests (important)
+  * Fix CSRF middleware
+
+Once tests are in and proven to work, then I'll release as version 1.0.
+
+More documentation to follow!
+
+If you're reading this on GitHub, this repository is a public mirror of https://git.joekaufeld.com/jkaufeld/spiderweb.
