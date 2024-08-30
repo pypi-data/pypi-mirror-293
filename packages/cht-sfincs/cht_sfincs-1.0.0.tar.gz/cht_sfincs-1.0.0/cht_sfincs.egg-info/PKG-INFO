@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cht_sfincs
+Version: 1.0.0
+Author-email: Maarten van Ormondt <maarten.vanormondt@deltares-usa.us>
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: affine
+Requires-Dist: matplotlib
+Requires-Dist: rioxarray
+Requires-Dist: pandas
+Requires-Dist: datashader
+Requires-Dist: shapely
+Requires-Dist: scipy
+Requires-Dist: geopandas
+Requires-Dist: pyproj
+Requires-Dist: xugrid
+Requires-Dist: tabulate

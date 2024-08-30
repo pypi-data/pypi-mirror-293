@@ -1,0 +1,13 @@
+numpy
+xarray
+affine
+matplotlib
+rioxarray
+pandas
+datashader
+shapely
+scipy
+geopandas
+pyproj
+xugrid
+tabulate
