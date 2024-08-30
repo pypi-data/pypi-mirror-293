@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: sit_django_mailx
+Version: 0.0.2
+Summary: Sample Django App
+Home-page: https://google.com/
+Author: jasirmj
+Author-email: jasirmj@gmail.com
+Maintainer: jasirmj
+Maintainer-email: jasirmj@gmail.com
+License: MIT
+Keywords: django
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+=======================
+My First Sample package
+=======================
+
+this is a demo of my first package
+
+
+python .\setup.py sdist  
+
+python .\setup.py bdist_wheel
+
+twine check .\dist\* # to check for errors
+
+=============================
+To upload to testpypi or live
+=============================
+
+
+
+twine upload --verbose  --repository testpypi dist/*
+
+twine upload --verbose  dist/*
+
