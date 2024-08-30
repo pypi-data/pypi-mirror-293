@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: eve_SMLM
+Version: 0.2.1
+Summary: Eve-SMLM: A Python package for single molecule localization microscopy from event-based sensors
+Author: Laura M. Weber
+Author-email: "Koen J.A. Martens" <koenjamartens@gmail.com>, Ulrike Endesfelder <endesfelder@uni-bonn.de>
+Project-URL: Homepage, https://github.com/Endesfelder-Lab/EVE-software
+Project-URL: Issues, https://github.com/Endesfelder-Lab/EVE-software/issues
+Keywords: SMLM,molecule,EBS,neuromorphic,event,microscopy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: <3.10,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: addict==2.4.0
+Requires-Dist: ansi2html==1.9.1
+Requires-Dist: appdirs==1.4.4
+Requires-Dist: asttokens==2.4.1
+Requires-Dist: attrs==23.2.0
+Requires-Dist: blinker==1.7.0
+Requires-Dist: certifi==2023.11.17
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.7
+Requires-Dist: comm==0.2.1
+Requires-Dist: ConfigArgParse==1.7
+Requires-Dist: contourpy==1.2.0
+Requires-Dist: cycler==0.12.1
+Requires-Dist: dash==2.14.2
+Requires-Dist: dash-core-components==2.0.0
+Requires-Dist: dash-html-components==2.0.0
+Requires-Dist: dash-table==5.0.0
+Requires-Dist: decorator==5.1.1
+Requires-Dist: exceptiongroup==1.2.0
+Requires-Dist: executing==2.0.1
+Requires-Dist: fastjsonschema==2.19.1
+Requires-Dist: Flask==3.0.1
+Requires-Dist: fonttools==4.44.0
+Requires-Dist: h5py==3.10.0
+Requires-Dist: idna==3.6
+Requires-Dist: imageio==2.33.1
+Requires-Dist: importlib-metadata==7.0.1
+Requires-Dist: importlib-resources==6.1.1
+Requires-Dist: ipython==8.18.1
+Requires-Dist: ipywidgets==8.1.1
+Requires-Dist: itsdangerous==2.1.2
+Requires-Dist: jedi==0.19.1
+Requires-Dist: Jinja2==3.1.3
+Requires-Dist: joblib==1.2.0
+Requires-Dist: jsonschema==4.21.1
+Requires-Dist: jsonschema-specifications==2023.12.1
+Requires-Dist: jupyter_core==5.7.1
+Requires-Dist: jupyterlab-widgets==3.0.9
+Requires-Dist: kiwisolver==1.4.5
+Requires-Dist: MarkupSafe==2.1.4
+Requires-Dist: markdown==3.6
+Requires-Dist: markdown-utils
+Requires-Dist: markdown-captions
+Requires-Dist: lxml
+Requires-Dist: lxml_html_clean
+Requires-Dist: matplotlib==3.7.1
+Requires-Dist: matplotlib-inline==0.1.6
+Requires-Dist: napari==0.4.19
+Requires-Dist: nbformat<=5.9.2,>=5.5.0
+Requires-Dist: nest-asyncio==1.6.0
+Requires-Dist: numexpr==2.8.8
+Requires-Dist: numpy==1.25.2
+Requires-Dist: open3d>=0.16.0
+Requires-Dist: packaging==23.2
+Requires-Dist: pandas==2.0.3
+Requires-Dist: parso==0.8.3
+Requires-Dist: pexpect==4.9.0
+Requires-Dist: Pillow==10.1.0
+Requires-Dist: platformdirs==4.1.0
+Requires-Dist: plotly==5.18.0
+Requires-Dist: prompt-toolkit==3.0.43
+Requires-Dist: ptyprocess==0.7.0
+Requires-Dist: pure-eval==0.2.2
+Requires-Dist: Pygments==2.17.2
+Requires-Dist: pyparsing==3.1.1
+Requires-Dist: PyQt5>=5.15.10
+Requires-Dist: PyQt5-Qt5>=5.15.2
+Requires-Dist: PyQt5-sip>=12.13.0
+Requires-Dist: PyQtWebEngine
+Requires-Dist: PyQt6>=6.6.1
+Requires-Dist: PyQt6-Qt6>=6.6.1
+Requires-Dist: PyQt6-sip==13.6.0
+Requires-Dist: pyquaternion==0.9.9
+Requires-Dist: PySide6
+Requires-Dist: PySide6-Addons
+Requires-Dist: PySide6-Essentials
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: pytz==2023.3.post1
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: referencing==0.32.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: retrying==1.3.4
+Requires-Dist: rpds-py==0.17.1
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: scipy==1.11.1
+Requires-Dist: six==1.16.0
+Requires-Dist: stack-data==0.6.3
+Requires-Dist: tenacity==8.2.3
+Requires-Dist: threadpoolctl>=3.2.0
+Requires-Dist: tqdm==4.65.0
+Requires-Dist: traitlets>=5.14.1
+Requires-Dist: typing_extensions>=4.9.0
+Requires-Dist: tzdata>=2023.3
+Requires-Dist: urllib3>=2.1.0
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: Werkzeug==3.0.1
+Requires-Dist: widgetsnbextension
+Requires-Dist: zipp==3.17.0
+
+## EVE - General-purpose software for eveSMLM localization
+
+## About EVE
+EVE is a user-interfaced software package that provides several methods to localize emitters from single molecule localization microscopy (SMLM) experiments performed on event-based sensors (eveSMLM).
+
+For full information about EVE, please look at the corresponding scientific manuscript: "EVE is an open modular data analysis software for event-based localization microscopy" by Laura M. Weber$^‡$, Koen J.A. Martens$^‡$, Clément Cabriel, Joel J. Gates, Manon Albecq, Fredrik Vermeulen, Katharina Hein, Ignacio Izeddin, and Ulrike Endesfelder.
+
+Event-based data differs fundamentally from conventional camera images. Unlike traditional sensors, event-based sensors only capture intensity changes, registering them as either positive (when intensity surpasses a predefined threshold) or negative events (when intensity drops below a predefined threshold). As a result, only a list of x and y pixel coordinate pairs is stored together with the detected event polarities and timestamps.
+
+EVE is designed to quickly and directly process and analyse event-based single molecule data. The event-based data analysis is divided into two main parts:<br>  
+1. **Candidate Finding:** The complete event-list is searched for characteristic event clusters that are generated by blinking fluorophores. Potential candidate clusters are then extracted and returned for further processing.<br>  
+2. **Candidate Fitting:** The x,y,(z),t-localization is determined for each candidate cluster.<br>  
+3. **Postprocessing and Evaluation:** This module includes various analytical routines to process and interpret the data.<br>  
+
