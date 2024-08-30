@@ -1,0 +1,7 @@
+fastcore
+requests
+
+[dev]
+jupyterlab
+nbdev
+twine
