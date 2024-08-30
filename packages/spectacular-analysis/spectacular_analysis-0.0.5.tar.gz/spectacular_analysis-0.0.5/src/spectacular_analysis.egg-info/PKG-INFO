@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: spectacular_analysis
+Version: 0.0.5
+Summary: Bayesian logistic regression modeling
+Author-email: Bradford Patton <bradfordpatton72@gmail.com>, Alvin Dean Jeffrey  <alvin.d.jeffery@vanderbilt.edu>, Dagmawi Negesse <dagmawi.negesse@vanderbilt.edu>, Parker Christy <parker.christy@vanderbilt.edu>, Satkar Dhakal <satkar.dhakal@vanderbilt.edu>, Lara Khayatt <lara.khayatt@vanderbilt.edu>
+Maintainer-email: Alvin Dean Jeffrey  <alvin.d.jeffery@vanderbilt.edu>, Bradford Patton <bradfordpatton72@gmail.com>, Dagmawi Negesse <dagmawi.negesse@vanderbilt.edu>, Satkar Dhakal <satkar.dhakal@vanderbilt.edu>
+Project-URL: Bug Tracker, https://github.com/quantitativenurse/SPECTACULAR/issues
+Project-URL: Homepage, https://github.com/quantitativenurse/SPECTACULAR
+Project-URL: Repository, https://github.com/quantitativenurse/SPECTACULAR.git
+Keywords: Spectacular,Bayesian Analysis,Logistic Regression
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.9
+License-File: LICENSE.txt
+Requires-Dist: pymc>=5.16.2
+Requires-Dist: pandas
+Requires-Dist: arviz
+Requires-Dist: numpy
+Requires-Dist: numpy<2.0.0; sys_platform == "win32"
+Requires-Dist: click
+Requires-Dist: click_default_group
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: optuna>=2.0.0
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: tabulate
+Requires-Dist: more_click
+Requires-Dist: more_itertools
+Requires-Dist: pystow>=0.4.3
+Requires-Dist: docdata
+Requires-Dist: class_resolver>0.4.2
+Requires-Dist: typing_extensions
+Requires-Dist: matplotlib
+Requires-Dist: matplotlib>=3.0.0
