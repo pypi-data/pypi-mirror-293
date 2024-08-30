@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "countest"
+version = "0.1.4"
+dependencies = [
+    "numpy>=1.5",
+    "pandas>=1.1.5",
+    "scikit-learn>=0.20.0"
+]
+requires-python = ">=3.9"
+authors = [
+  { name="Sanskriti Singh"},
+  { name="Alok Chauhan"}
+]
+description = "CountEst is a module containing the implementation of count-based estimators, i.e., supervised learning algorithms that make predictions based on the frequency or count of specific events, categories, or values within a dataset."
+readme = "README.md"
+keywords = ["supervised learning", "machine learning", "count-based classifier"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/sanskriti-02/CountEst"
+Issues = "https://github.com/sanskriti-02/CountEst/issues"
