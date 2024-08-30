@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+momo/__init__.py
+momo/model.py
+momo/prototype.py
+momo/tests/__init__.py
+momo/tests/set_pathes.py
+momo/tests/test_model.py
+momo/tests/test_multy_system_model.py
+momo/tests/test_prototype.py
+momo/tests/test_system_model.py
+momo_morphological_modeling.egg-info/PKG-INFO
+momo_morphological_modeling.egg-info/SOURCES.txt
+momo_morphological_modeling.egg-info/dependency_links.txt
+momo_morphological_modeling.egg-info/top_level.txt
