@@ -1,0 +1,13 @@
+h5py>=3.0.0
+
+[doc]
+ipython
+nbsphinx
+sphinx
+sphinx_rtd_theme
+
+[test]
+
+[test:python_version >= "3.9"]
+blosc2>=2.5.1
+blosc2-grok>=0.2.2
