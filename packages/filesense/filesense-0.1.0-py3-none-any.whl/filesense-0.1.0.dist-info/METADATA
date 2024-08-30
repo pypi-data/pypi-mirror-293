@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: filesense
+Version: 0.1.0
+Summary: A package to rename files based on their content using Google Generative AI.
+Home-page: https://github.com/mayurd8862/FileSense.AI-Semantic-File-Renamer
+Author: Mayur Dabade
+Author-email: mayurdabade1103@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: langchain-community
+Requires-Dist: google
+Requires-Dist: pillow
+
+# FileSense
+
+FileSense is a Python package that renames files based on their content using Google Generative AI.
