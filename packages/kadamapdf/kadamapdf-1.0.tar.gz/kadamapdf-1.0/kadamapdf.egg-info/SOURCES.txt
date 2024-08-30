@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+kadamapdf/__init__.py
+kadamapdf/pdf2image.py
+kadamapdf/pdf2text.py
+kadamapdf.egg-info/PKG-INFO
+kadamapdf.egg-info/SOURCES.txt
+kadamapdf.egg-info/dependency_links.txt
+kadamapdf.egg-info/top_level.txt
