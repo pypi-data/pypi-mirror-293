@@ -1,0 +1,7 @@
+pandas
+numpy
+scipy
+joblib
+flaml
+scikit-learn>=1.3.0
+statsmodels
