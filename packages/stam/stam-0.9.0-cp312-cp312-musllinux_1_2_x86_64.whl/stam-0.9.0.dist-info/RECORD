@@ -1,0 +1,9 @@
+stam-0.9.0.dist-info/METADATA,sha256=lEPBBlFFJoZp40z_OmeGvjjrKeDtu8D2bOcy9UjvcSs,8730
+stam-0.9.0.dist-info/WHEEL,sha256=6U3OqaYlGMXPqyFqr-UllLQCJ-2cleekN-Vfk6DYl8Y,107
+stam-0.9.0.dist-info/licenses/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+stam.libs/libgcc_s-1e52349c.so.1,sha256=Ani0u_W_tB8ESsFePO4D2mn2lrgWLhyFdw6RETxBTYM,437537
+stam/__init__.py,sha256=K84sljeIg94IobhO9mO5zP034SxCxF7mi-VsieYsxVE,99
+stam/__init__.pyi,sha256=O_Efbtz-YbGR5Ui_wUPL1MJPyQwGqudx35AttMB5v0I,105686
+stam/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stam/stam.cpython-312-x86_64-linux-musl.so,sha256=eeC3oLKrY8J-waCVQtXcwHy1PmrjFL0rverO9U5LYug,7699417
+stam-0.9.0.dist-info/RECORD,,
