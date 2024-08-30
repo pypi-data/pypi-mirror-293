@@ -1,0 +1,12 @@
+click
+pip-check-reqs
+pip-licenses
+pytest
+pytest-cov
+pytest-pythonpath
+setuptools
+tox
+twine
+pypsrp
+re
+base64
