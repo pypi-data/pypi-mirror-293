@@ -1,0 +1,7 @@
+chrome_proxy-1.0.1.dist-info/METADATA,sha256=cKeKbZCrZ7a_baiZjl3Ga8zuTw8BfG4KKqs62vUTT5Y,669
+chrome_proxy-1.0.1.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+chrome_proxy-1.0.1.dist-info/entry_points.txt,sha256=nsKtOVvqI6zFwgIc8K0-UnxVDfwl-Uv9iYAAEhN_S5c,67
+chrome_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chrome_proxy/chrome_manager.py,sha256=Hike60CbV_GC9FXHV5HQ9h4yddIyXk6lK54bGdgvaSw,1908
+chrome_proxy/proxy_app.py,sha256=vUdazORN0RILu4tIiIqpl-rP8kBsHSgYe4XG6dCwchU,2219
+chrome_proxy-1.0.1.dist-info/RECORD,,
