@@ -1,0 +1,8 @@
+README.md
+setup.py
+office_cracker/__init__.py
+office_cracker/office_cracker.py
+office_cracker.egg-info/PKG-INFO
+office_cracker.egg-info/SOURCES.txt
+office_cracker.egg-info/dependency_links.txt
+office_cracker.egg-info/top_level.txt
