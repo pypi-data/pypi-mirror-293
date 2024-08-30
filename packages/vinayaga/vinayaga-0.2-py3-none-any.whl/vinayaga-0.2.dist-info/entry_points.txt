@@ -1,0 +1,3 @@
+[console_scripts]
+vinayaga = vinayaga.cli:main
+
