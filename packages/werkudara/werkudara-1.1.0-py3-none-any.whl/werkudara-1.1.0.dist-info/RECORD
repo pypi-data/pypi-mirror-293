@@ -1,0 +1,13 @@
+werkudara/__main__.py,sha256=xe_HWbvKUo8QJdmoMg5Ix3CZ_tmi8veewGq-dFUTNwQ,28460
+werkudara/api.py,sha256=EA_oCO7_fd7g1KeCK1knTBhmgp_FqR8nUn7auscHU0c,21593
+werkudara/export_pyuic5.sh,sha256=XrSasuXeb1vjorIkAYtliKN2XX6dM5No8VkbKxTUpC0,504
+werkudara/thread.py,sha256=hkcu1O4Mw97OK2QNBY932fe0sf_BJyWdlrgIwzB8b6M,2624
+werkudara/ui/main_gui.ui,sha256=LnDxxrQgBM2MjrlDQcTjibqgcNGZQw3pOGOz5YPa5MQ,42746
+werkudara/ui/universal_dialog.ui,sha256=xdgBOoRPJiFoeokol43Q6FdAkcqHp5SL6x_vOfpW-4w,1973
+werkudara/ui_exported/__init__.py,sha256=NJ74DfzNL1QCICDi7UMM4eFyM2G1bpgc57IrAE_XJEw,73
+werkudara/ui_exported/main_gui.py,sha256=YdJt8GtZb5JI_5kyOl3KfRZ00M11IZm7HgJE7xZZFe8,37567
+werkudara/ui_exported/universal_dialog.py,sha256=3KsR1NQVt5D1dM_oX6RVpsBnlWakZQu4Ou6ney60WTA,1729
+werkudara-1.1.0.dist-info/METADATA,sha256=GiSXZh4jrqJAMc6a6RNgxOGIVJNDN53Y3Z2msobk6rk,1922
+werkudara-1.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+werkudara-1.1.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+werkudara-1.1.0.dist-info/RECORD,,
