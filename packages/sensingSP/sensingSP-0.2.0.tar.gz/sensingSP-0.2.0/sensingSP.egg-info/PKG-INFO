@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sensingSP
+Version: 0.2.0
+Summary: SensingSP™ is a Blender-based open-source library for simulating electromagnetic-based sensing systems and signal processing algorithms implementations.
+Home-page: https://gitlab.com/sparc-snt/sensing-signal-processing
+Author: Moein Ahmadi
+Author-email: moein.ahmadi@uni.lu, gmoein@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sensing Signal Processing
+
+## Overview
+Sensing Signal Processing is a project focused on advanced signal processing techniques for various sensing applications. The project includes robust methods and algorithms designed to handle and analyze sensor data efficiently.
+
+## Installation
+To install the required dependencies, run:
+```bash
+pip install -r requirements.txt
