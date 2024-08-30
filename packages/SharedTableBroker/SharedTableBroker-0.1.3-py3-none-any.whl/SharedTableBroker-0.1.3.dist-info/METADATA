@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SharedTableBroker
+Version: 0.1.3
+Summary: UNKNOWN
+Home-page: https://github.com/qeyup/SharedTableBroker-python
+Author: Javier Moreno Garcia
+Author-email: jgmore@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: ServiceDiscovery (>=0.4.1)
+
+UNKNOWN
+
+
