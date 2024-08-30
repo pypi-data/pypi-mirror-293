@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+netsour.egg-info/PKG-INFO
+netsour.egg-info/SOURCES.txt
+netsour.egg-info/dependency_links.txt
+netsour.egg-info/entry_points.txt
+netsour.egg-info/requires.txt
+netsour.egg-info/top_level.txt

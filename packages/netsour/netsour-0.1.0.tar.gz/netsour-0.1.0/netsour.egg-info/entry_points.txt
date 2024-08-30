@@ -1,0 +1,2 @@
+[console_scripts]
+netsour = netsour.main:main
