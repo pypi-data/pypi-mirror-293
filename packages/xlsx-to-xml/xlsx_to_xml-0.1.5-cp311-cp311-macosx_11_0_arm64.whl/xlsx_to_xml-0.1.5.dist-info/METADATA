@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: xlsx_to_xml
+Version: 0.1.5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Summary: A Python library for converting XLSX files to XML using Rust.
+Author: Chandan Bauri <chandanbauri441@gmail.com>
+Author-email: Chandan Bauri <chandanbauri441@gmail.com>
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+HI
+
