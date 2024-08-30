@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: activity-browser
+Version: 0.0.0
+Summary: Placeholder package for the Brightway2 GUI: Activity Browser
+Author-email: Marin Visscher <m.r.visscher@cml.leidenuniv.nl>
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Activity Browser
+
+This is only a placeholder package for the Activity Browser: a GUI for the Brightway2 LCA framework. The package is not 
+available via PyPi/Pip. Please install via Conda until this is resolved.
