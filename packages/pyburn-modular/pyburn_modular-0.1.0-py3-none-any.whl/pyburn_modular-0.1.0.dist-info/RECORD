@@ -1,0 +1,11 @@
+modular/__init__.py,sha256=aLrq7YU9LbzVfEd5u8I5Lh4FRs4N84iNM9LcLE-GREo,113
+modular/dataloader.py,sha256=cz583oJWCWXYjhkUi6myay2QDr13ChIEfsA-P9PZ9a4,779
+modular/engine.py,sha256=XZSBdRg3mY2pmO5fXESKr5ZElzvFxZrpBgMSvss76Kg,4428
+modular/utils/__init__.py,sha256=sLSSkUYVanNKGfweEZda6QlgHpZIjOFiCYH3losngYU,172
+modular/utils/default_args.py,sha256=INuVi5LUruv3aHEWXzI3ghv8HnkVZNz8lPSrAlB32Hg,143
+modular/utils/functional.py,sha256=_3oFrSdZYwrR6f7Fwog5mOq1eIF8dvitQPAypUYjfe4,2884
+modular/utils/plots.py,sha256=QOZRwpU9LJd5rUvxLzt-7xJ-acJTX85XG0WhZgJXeg8,4568
+modular/utils/types.py,sha256=SJQeQvs1L6SVg0jKTPtn-CWvpZB5TqfuOz0Wz4iLsMQ,177
+pyburn_modular-0.1.0.dist-info/METADATA,sha256=Y4jeDAnUr9dAGuMpYYDyJibEnSx3UBIgFx_Nmtm9x_M,735
+pyburn_modular-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyburn_modular-0.1.0.dist-info/RECORD,,
