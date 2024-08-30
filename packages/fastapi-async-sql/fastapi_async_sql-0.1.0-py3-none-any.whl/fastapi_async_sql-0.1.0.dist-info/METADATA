@@ -1,0 +1,50 @@
+Metadata-Version: 2.3
+Name: fastapi-async-sql
+Version: 0.1.0
+Summary: Common utilities for Async SQL FastAPI applications
+Requires-Python: >=3.12
+Requires-Dist: fastapi-filter[sqlalchemy]<3.0.0,>=2.0.0
+Requires-Dist: fastapi-pagination<0.13.0,>=0.12.26
+Requires-Dist: fastapi<0.113.0,>=0.100.0
+Requires-Dist: inflect<8.0.0,>=7.3.1
+Requires-Dist: sqlmodel<0.1.0,>=0.0.21
+Provides-Extra: docs
+Requires-Dist: mkdocs-git-revision-date-localized-plugin>=1.2.7; extra == 'docs'
+Requires-Dist: mkdocs-material>=9.5.33; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: pre-commit>=3.8.0; extra == 'lint'
+Requires-Dist: ruff-lsp>=0.0.55; extra == 'lint'
+Requires-Dist: ruff>=0.6.2; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: aiosqlite>=0.20.0; extra == 'test'
+Requires-Dist: factory-boy>=3.3.1; extra == 'test'
+Requires-Dist: httpx>=0.27.2; extra == 'test'
+Requires-Dist: pytest-asyncio>=0.24.0; extra == 'test'
+Requires-Dist: pytest-cov>=5.0.0; extra == 'test'
+Requires-Dist: pytest-mock>=3.14.0; extra == 'test'
+Requires-Dist: pytest>=8.3.2; extra == 'test'
+Description-Content-Type: text/markdown
+
+# FastAPI Async SQL
+Common utilities for Async SQL FastAPI applications
+
+## Installation
+```bash
+uv add fastapi-async-sql
+```
+or
+```bash
+pip install fastapi-async-sql
+```
+
+## Features
+- AsyncSQLAlchemyMiddleware: A middleware to handle database connections with AsyncSQLAlchemy
+- [SQLModel](https://sqlmodel.tiangolo.com/): A library to handle database models with Pydantic and SQLAlchemy
+- Base models for `SQLModel`:
+  - `BaseSQLModel`: A opinionated base model for SQLAlchemy models
+  - `BaseTimestampModel`: A base model with timestamps for SQLAlchemy models
+  - `BaseUUIDModel`: A base model with UUID for SQLAlchemy models
+- `BaseRepository`: A base repository to handle CRUD operations with SQLAlchemy models
+- Filtering, Sorting and Searching with [FastAPI Filter](https://fastapi-filter.netlify.app/): A library to handle filtering and sorting of data
+- Pagination with [FastAPI Pagination](https://uriyyo-fastapi-pagination.netlify.app/): A library to handle pagination of data
+
