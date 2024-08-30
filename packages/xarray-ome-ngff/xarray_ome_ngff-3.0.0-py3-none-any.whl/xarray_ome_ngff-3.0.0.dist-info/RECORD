@@ -1,0 +1,11 @@
+xarray_ome_ngff/__about__.py,sha256=u9OWo4193LBwXENzzkAxv39Ag2PLo1DueVgUA5HnteQ,126
+xarray_ome_ngff/__init__.py,sha256=NqPP3Cl4TyjfWKrcRYrX_GRD-Hph9pIAWAGFTdbLUHg,7965
+xarray_ome_ngff/array_wrap.py,sha256=vBxTm2aTeV6E6jRbcOnmFNM04UbUbPxnGEiCP4N8MtU,4120
+xarray_ome_ngff/core.py,sha256=ENR0rvmOJW26i9Suz5YGhsWzqbcmBB0ee7rQQu13gA0,2881
+xarray_ome_ngff/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray_ome_ngff/v04/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray_ome_ngff/v04/multiscale.py,sha256=EtNUJvK4k1zU8gavx3I8tg18hq_VdEEXF9YiEGZht4A,22021
+xarray_ome_ngff-3.0.0.dist-info/METADATA,sha256=TsBCA4lqCjHTxErqA_MgccPMgIX0iB8WcA8PVb52kWE,5385
+xarray_ome_ngff-3.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+xarray_ome_ngff-3.0.0.dist-info/licenses/LICENSE.md,sha256=vuJGlgpevk5CqGxsyEV0jhIOZCr5s6T5bYp0pZKsfGw,1511
+xarray_ome_ngff-3.0.0.dist-info/RECORD,,
