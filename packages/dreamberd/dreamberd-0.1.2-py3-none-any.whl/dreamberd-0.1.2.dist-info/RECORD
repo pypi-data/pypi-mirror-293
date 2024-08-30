@@ -1,0 +1,14 @@
+dreamberd/__init__.py,sha256=MJwbsiXY9-gQcnKCe9BLl295E9yBYpKs5TSqDPlQqns,5551
+dreamberd/base.py,sha256=xm4pcgZFBS5AIgO0QZfEKMYzPe8yg1fJyxgwm-QJWB8,4079
+dreamberd/builtin.py,sha256=sv74hdRE6qELGrzjz6pb-pBoOeBne2JDX5McGq6MqpQ,23582
+dreamberd/interpreter.py,sha256=4IkhY7Y2MijfkZ1hY455pDLBZd2zC7KU8LCbi7-9igo,93098
+dreamberd/processor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dreamberd/processor/expression_tree.py,sha256=s1eIhLfTaysCZ5SV195E2AZBNKJ8oysyG1Iu9kLdKC0,15265
+dreamberd/processor/lexer.py,sha256=kZW8htwFKapntiH0Agn6u_T6jlSU2KGntuq20tawc64,8251
+dreamberd/processor/syntax_tree.py,sha256=zlkKKOPx6v6w7NsT6nZJVuuYUoL31zGVJiu6aiZQXYw,21753
+dreamberd/serialize.py,sha256=XU4TFK5wUOJeA-fJj9jD4ytHkVN6EjHp8WjviT1Bw3w,4962
+dreamberd-0.1.2.dist-info/LICENSE,sha256=sUIK29LayA9xxCbZCui4ecJ_q3KU4Wzp1xDPBYw4w0w,1071
+dreamberd-0.1.2.dist-info/METADATA,sha256=DILNNUUqTpLvGU7z4j3pgQl8RDIqQ1330X1r17-RmW4,20647
+dreamberd-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dreamberd-0.1.2.dist-info/entry_points.txt,sha256=q5WOn5rZciy48y4nE9cGu49WF9C6YB5fCcYqtIk-1sQ,44
+dreamberd-0.1.2.dist-info/RECORD,,
