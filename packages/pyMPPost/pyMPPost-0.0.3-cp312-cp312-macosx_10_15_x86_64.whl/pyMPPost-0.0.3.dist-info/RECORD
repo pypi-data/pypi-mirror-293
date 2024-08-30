@@ -1,0 +1,11 @@
+pyMPPost/cross_correlation.py,sha256=sWNNJERFzcVO6ma6GxcAOnKAiwvmazPcnGmkaeQdmsU,2380
+pyMPPost/cython_functs.cpython-312-darwin.so,sha256=YlPkGcOEQYKOhlN4fO-PVcJEdd9K90VLgHDdYZ--dG8,191016
+pyMPPost/cython_functs.pyx,sha256=tY9wU8YCxoJR0q5xfAPEyhaeBZwndDR722MPUVcYnAk,1277
+pyMPPost/pulse_height.py,sha256=AhmWRBoF0DGwm7MUPn6DqCE2k4LVSuB6EvBjhSx3s7A,5035
+pyMPPost/pyMPPost.py,sha256=GTkPO9kSQ0mxul36F-hYHh4Z255DwoTlV4kaCO4xAAY,7510
+pyMPPost-0.0.3.dist-info/LICENSE.txt,sha256=Yk4f2JzPEsa933av4hgmlqNNYpP4LH0IOQpZbwMpmXY,1072
+pyMPPost-0.0.3.dist-info/METADATA,sha256=hHO-JCiuW_y9lKDEJsdeTOKL4jP7tkqzne2mPOvdcR0,4164
+pyMPPost-0.0.3.dist-info/WHEEL,sha256=L0j-zRpqCkNpTC7HkTrM46vGAg1xE6E6geLginvi7Gk,111
+pyMPPost-0.0.3.dist-info/entry_points.txt,sha256=4_bx9zXHLo0NfDz5jo1I6C_xV_ZKdNnFsbZvSaNYUFQ,52
+pyMPPost-0.0.3.dist-info/top_level.txt,sha256=38C500kKitTyA6N-bB82W3mngp2hpXRwd-auiduzDJ0,9
+pyMPPost-0.0.3.dist-info/RECORD,,
