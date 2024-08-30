@@ -1,0 +1,14 @@
+ParseGenius/ParseGenius.py,sha256=EU9waBn1MuYNx_7Ob_XX8AgyRGZZDmbcMxQVRBBsUtI,15099
+ParseGenius/__init__.py,sha256=68MVBhFxCl45la3YFgvIE_OJGK0DTzukWoam6pax83g,178
+ParseX/ParseX.py,sha256=x3Gyzwkt7NeeN489ADSheobYB69DCavnPZE4E9gv57o,16856
+ParseX/__init__.py,sha256=lBGgJ9qbEHEHOU7NV1iDwpqNxbg5Ld3syaPsh5j_dGY,167
+ParserX/ParserX.py,sha256=DsOtYpYRupTUyyQFCqVynCDh1ZkXqky8DPAbzonSVpc,16857
+ParserX/__init__.py,sha256=E_pDNezcoweeS9a3QCfILDnVPlnsCcWEAlYHz998bBA,169
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=4-HdtDInxHhWFwmwAcbUVCTTCacJoAVoUwcDjOBvwQ0,1806
+tests/test_parseX.py,sha256=j25Mc-6a01JvG7RfvoeS-whNA6Zt2L3hESo2ha69X44,5952
+tests/test_parser.py,sha256=EkK-cTi3zZzwys5vqQnGxLJT1rOx-ILXKnNTVj8nhjQ,5956
+TextInParseX-0.0.3.dist-info/METADATA,sha256=nn4p_PLkH4R6PIQvK3vcvkTmeiMowoxoxM2eRfHpmQY,684
+TextInParseX-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+TextInParseX-0.0.3.dist-info/top_level.txt,sha256=a6ROId7sGhZcItsnX5xi_2DNxfUX2MsjCHxjxLffF7Q,13
+TextInParseX-0.0.3.dist-info/RECORD,,
