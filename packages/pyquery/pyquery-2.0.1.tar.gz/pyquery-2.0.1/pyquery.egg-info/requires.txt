@@ -1,0 +1,9 @@
+lxml>=2.1
+cssselect>=1.2.0
+
+[test]
+requests
+webob
+webtest
+pytest
+pytest-cov
