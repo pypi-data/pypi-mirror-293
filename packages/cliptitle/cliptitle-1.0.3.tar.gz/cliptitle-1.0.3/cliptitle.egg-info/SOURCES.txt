@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+cliptitle/__init__.py
+cliptitle/clip_title_enhancer.py
+cliptitle/icon.ico
+cliptitle.egg-info/PKG-INFO
+cliptitle.egg-info/SOURCES.txt
+cliptitle.egg-info/dependency_links.txt
+cliptitle.egg-info/entry_points.txt
+cliptitle.egg-info/requires.txt
+cliptitle.egg-info/top_level.txt
