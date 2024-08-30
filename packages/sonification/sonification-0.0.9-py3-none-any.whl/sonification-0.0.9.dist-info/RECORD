@@ -1,0 +1,15 @@
+sonification/__init__.py,sha256=pqOGBm34YfNQ7psGMll9jTFfsDuWeh3TVcOtqZJCX8s,131
+sonification/chords.py,sha256=j2vXTPFr10f1zunN-FT2kYiW9Cd2sH6AexcIHEYNF0Y,8383
+sonification/converters.py,sha256=EMJ1RHuqAmMgzwsY2aNnVP_fdOZDdXa-zT621SP2oZQ,3376
+sonification/sonify_scrap.py,sha256=dkt6wiY5JEFeE5PKBKladhciJcx4bgJn2fb4OsM0r60,2371
+sonification/util.py,sha256=vUPmw1EyMPyGivIvDJ7Lj-FTNs-oUKtzs7BjOF5SPhw,505
+sonify/__init__.py,sha256=pqOGBm34YfNQ7psGMll9jTFfsDuWeh3TVcOtqZJCX8s,131
+sonify/chords.py,sha256=j2vXTPFr10f1zunN-FT2kYiW9Cd2sH6AexcIHEYNF0Y,8383
+sonify/converters.py,sha256=EMJ1RHuqAmMgzwsY2aNnVP_fdOZDdXa-zT621SP2oZQ,3376
+sonify/sonify_scrap.py,sha256=dkt6wiY5JEFeE5PKBKladhciJcx4bgJn2fb4OsM0r60,2371
+sonify/util.py,sha256=vUPmw1EyMPyGivIvDJ7Lj-FTNs-oUKtzs7BjOF5SPhw,505
+sonification-0.0.9.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+sonification-0.0.9.dist-info/METADATA,sha256=BBctS5KSdYE70iFWifepn7Lne9jk3HQseGR17HYme_Y,3220
+sonification-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sonification-0.0.9.dist-info/top_level.txt,sha256=fC0j1GOSVK2ljOiO4UOdwqLK87YD-xkWZWA8emWhItE,20
+sonification-0.0.9.dist-info/RECORD,,
