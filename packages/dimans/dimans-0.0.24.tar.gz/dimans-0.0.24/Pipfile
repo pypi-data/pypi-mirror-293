@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+lark = "*"
+rich = "*"
+textual = "*"
+
+[dev-packages]
+black = "*"
+coverage = "*"
+flit = "~=3.4"
+mypy = "*"
+pytest = "~=7.4"
+pytest-cov = "*"
+textual-dev = "*"

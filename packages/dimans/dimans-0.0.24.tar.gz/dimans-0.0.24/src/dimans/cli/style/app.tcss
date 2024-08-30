@@ -1,0 +1,74 @@
+#line-input {
+    min-height: 2;
+    max-height: 50%;
+    height: auto;
+    padding: 0 1;
+    margin-bottom: 1;
+}
+#line-input.success {
+    border: tall $success 60%;
+}
+#line-input.success:focus {
+    border: tall $success;
+}
+#line-input.error {
+    border: tall $error 60%;
+}
+#line-input.error:focus {
+    border: tall $error;
+}
+
+#result-label {
+    padding: 0 2;
+    height: 5;
+    content-align-vertical: bottom;
+    color: gray;
+    width: 100%;
+}
+#result-label.error {
+    color: $error 60%;
+}
+
+#result-log {
+    padding: 0 1;
+    min-height: 0;
+    height: auto;
+}
+
+Results {
+    layout: grid;
+    grid-size: 3;
+    grid-columns: auto auto 1fr;
+    grid-rows: auto;
+    grid-gutter: 1;
+
+    height: 1fr;
+}
+Results .result-id {
+    color: gray;
+}
+Results .result-eq {
+    color: gray;
+}
+Results Rule {
+    margin: 0;
+    color: gray;
+}
+Results .dimans-title {
+    color: gray;
+    text-style: italic;
+}
+
+FunctionSelector {
+    layout: grid;
+    grid-size: 1;
+    grid-columns: 1fr;
+    grid-rows: 1fr;
+    height: 100%;
+    background: $surface 60%;
+    align: center middle;
+}
+#function-list {
+    max-width: 72;
+    background: $surface 60%;
+}

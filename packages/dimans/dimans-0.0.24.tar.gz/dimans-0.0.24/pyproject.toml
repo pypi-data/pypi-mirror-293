@@ -1,0 +1,62 @@
+[project]
+name = "dimans"
+description = "Dimensional analysis and unit conversion library"
+authors = [
+    {name = "Emre Özcan", email = "emre@emreis.com"},
+]
+maintainers = [
+    {name = "Emre Özcan", email = "emre@emreis.com"},
+]
+readme = "README.md"
+classifiers = [
+    # https://pypi.org/classifiers/
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Utilities",
+]
+keywords = ["units", "calculation", "calculator", "constants"]
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dynamic = ["version",]
+
+[project.scripts]
+dimans = "dimans.cli:main"
+
+[project.optional-dependencies]
+cli = [
+    "lark",
+    "rich",
+    "textual",
+]
+
+[project.urls]
+Repository = "https://github.com/emreozcan/dimans"
+Issues = "https://github.com/emreozcan/dimans/issues"
+
+[build-system]
+requires = ["flit_core ~=3.2"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.sdist]
+include = ["src/"]
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib --cov=dimans --cov-report html --cov-report xml"
+pythonpath = "src"
+testpaths="tests"
+
+[tool.black]
+line-length = 80
+
+[tool.mypy]
+python_version = "3.10"
