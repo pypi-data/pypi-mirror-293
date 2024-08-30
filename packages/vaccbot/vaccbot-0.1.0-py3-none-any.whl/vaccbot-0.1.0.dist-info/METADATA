@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vaccbot
+Version: 0.1.0
+Summary: 
+Author: Jason Lobell
+Author-email: jasonlobell123@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain (>=0.2.15,<0.3.0)
+Requires-Dist: paramiko (>=3.4.1,<4.0.0)
+Requires-Dist: pyqt5 (>=5.15.11,<6.0.0)
+Requires-Dist: slacc (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+
