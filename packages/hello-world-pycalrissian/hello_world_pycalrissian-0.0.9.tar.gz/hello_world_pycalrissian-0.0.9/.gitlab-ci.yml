@@ -1,0 +1,42 @@
+stages:
+  - build
+  - publish
+
+variables:
+  PIP_CACHE_DIR: $CI_PROJECT_DIR/.cache/pip
+  TWINE_USERNAME: __token__ # Set this as a GitLab CI/CD secret variable
+  VENV_DIR: $CI_PROJECT_DIR/venv # Define the virtual environment directory
+
+cache:
+  paths:
+    - $PIP_CACHE_DIR
+
+before_script:
+  # Install Python and virtual environment tools
+  - apt-get update -y
+  - apt-get install -y python3 python3-venv python3-pip
+
+  # Create and activate virtual environment
+  - python3 -m venv $VENV_DIR
+  - source $VENV_DIR/bin/activate
+
+  # Upgrade pip and install build tools
+  - pip install --upgrade pip setuptools
+  - pip install --upgrade build twine
+
+build:
+  stage: build
+  script:
+    - source $VENV_DIR/bin/activate # Activate the virtual environment
+    - python -m build # Builds source distribution and wheel
+  artifacts:
+    paths:
+      - dist/
+
+publish:
+  stage: publish
+  script:
+    - source $VENV_DIR/bin/activate # Activate the virtual environment
+    - twine upload dist/* -u "$TWINE_USERNAME" -p "pypi-AgEIcHlwaS5vcmcCJDRiZDE2MWFlLTZhYzAtNDMwNy05YzdiLThkZTY5NGYzN2M1YwACKlszLCI1ZWZjMDEzOC1mYjMyLTRiZDMtYmE3My01NTM0MTM0NzU0YTUiXQAABiAgoTslLsk0SOEjPAzikLPM8LcCq4NvjjR3TSn64-tLbw"
+  dependencies:
+    - build # Ensure this job only runs after the build job
