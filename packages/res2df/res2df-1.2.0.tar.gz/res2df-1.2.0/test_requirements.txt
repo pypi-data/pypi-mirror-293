@@ -1,0 +1,4 @@
+networkx
+pytest
+pytest-cov
+pytest-mock
