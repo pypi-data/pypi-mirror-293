@@ -1,0 +1,10 @@
+setup.py
+src/compatibility_checkers/__init__.py
+src/compatibility_checkers/base.py
+src/compatibility_checkers/fast_checker.py
+src/compatibility_checkers/installation_checker.py
+src/flexible_requirements.egg-info/PKG-INFO
+src/flexible_requirements.egg-info/SOURCES.txt
+src/flexible_requirements.egg-info/dependency_links.txt
+src/flexible_requirements.egg-info/requires.txt
+src/flexible_requirements.egg-info/top_level.txt
