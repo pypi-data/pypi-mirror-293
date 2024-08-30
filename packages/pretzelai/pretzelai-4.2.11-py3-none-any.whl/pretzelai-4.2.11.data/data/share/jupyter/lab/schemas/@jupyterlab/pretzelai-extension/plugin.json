@@ -1,0 +1,123 @@
+{
+  "title": "Pretzel AI Settings",
+  "description": "DO NOT USE THIS SETTINGS PAGE! Instead go to Menubar > Settings > Pretzel AI Settings to change these settings. This page is for internal use only.",
+  "type": "object",
+  "properties": {
+    "aiService": {
+      "type": "string",
+      "title": "AI Service",
+      "description": "",
+      "enum": [
+        "OpenAI API key",
+        "Use Pretzel AI Server",
+        "Use Azure API"
+      ],
+      "default": "Use Pretzel AI Server"
+    },
+    "openAiSettings": {
+      "type": "object",
+      "title": "OpenAI Settings",
+      "properties": {
+        "openAiApiKey": {
+          "type": "string",
+          "title": "API Key",
+          "default": ""
+        },
+        "openAiBaseUrl": {
+          "type": "string",
+          "title": "Base URL",
+          "description": "",
+          "default": ""
+        },
+        "openAiModel": {
+          "type": "string",
+          "title": "OpenAI Model",
+          "description": "",
+          "enum": [
+            "gpt-4o",
+            "gpt-4-turbo",
+            "gpt-3.5-turbo"
+          ],
+          "default": "gpt-4o"
+        }
+      }
+    },
+    "inlineCopilotSettings": {
+      "type": "object",
+      "title": "Inline Copilot Settings",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "title": "Enabled"
+        },
+        "provider": {
+          "type": "string",
+          "title": "Provider",
+          "description": "",
+          "enum": [
+            "Pretzel AI",
+            "Mistral",
+            "OpenAI"
+          ]
+        },
+        "mistralApiKey": {
+          "type": "string",
+          "title": "Mistral API Key",
+          "description": ""
+        }
+      },
+      "default": {
+        "enabled": true,
+        "provider": "Pretzel AI",
+        "mistralApiKey": ""
+      }
+    },
+    "azureSettings": {
+      "type": "object",
+      "title": "Azure OpenAI Settings",
+      "properties": {
+        "azureBaseUrl": {
+          "type": "string",
+          "title": "Base URL",
+          "default": ""
+        },
+        "azureDeploymentName": {
+          "type": "string",
+          "title": "Deployment Name",
+          "default": ""
+        },
+        "azureApiKey": {
+          "type": "string",
+          "title": "API Key",
+          "default": ""
+        }
+      }
+    },
+    "codeMatchThreshold": {
+      "type": "number",
+      "title": "Code Match Threshold",
+      "description": "",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 20
+    },
+    "posthogPromptTelemetry": {
+      "type": "boolean",
+      "title": "Prompt Telemetry",
+      "default": true
+    },
+    "pretzelSettingsJSON": {
+      "type": "object",
+      "title": "Pretzel Settings",
+      "description": "Store Pretzel Settings as JSON",
+      "default": {},
+      "additionalProperties": true
+    },
+    "pretzelSettingsJSONVersion": {
+      "type": "string",
+      "title": "Pretzel Settings Schema Version",
+      "default": "1.2"
+    }
+  },
+  "additionalProperties": true
+}
