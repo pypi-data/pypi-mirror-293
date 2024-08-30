@@ -1,0 +1,31 @@
+[project]
+name = "dashai_plugin_image_classification_hernan"
+version = "1.0"
+
+dependencies = [
+  # add plugin dependencies here
+]
+
+authors = [ # add author information
+  { name= "hernan"},
+  { email= "hernan.sarmiento@imfd.cl"},
+]
+
+keywords = [ # keep the component types you are extending
+    "Model"
+]
+
+description = "DashAI Plugin description"
+readme = "README.md"
+requires-python = ">=3.8" # DashAI software needs python 3.8 or higher
+
+[project.entry-points.'dashai.plugins']
+# Add one entrypoint per DashAI component included in the plugin. Examples below
+#task_name = 'dashai_plugin_template.task_class_template:ExampleTaskClass'
+model_name = 'dashai_plugin_image_classification_hernan.model_class_template:MLPClassifier'
+#dataloader_name = 'dashai_plugin_template.dataloader_class_template:ExampleDataLoaderClass'
+#metric_name = 'dashai_plugin_template.metric_class_template:ExampleMetricClass'
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
