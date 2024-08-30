@@ -1,0 +1,28 @@
+[project]
+name = "dashai_plugin_hernan4"
+version = "1.0"
+
+dependencies = [
+  # add plugin dependencies here
+]
+
+authors = [ # add author information
+  { name= "hernan"},
+  { email= "hernan.sarmiento@imfd.cl"},
+]
+
+keywords = [ # keep the component types you are extending
+    "Model"
+]
+
+description = "DashAI Plugin description"
+readme = "README.md"
+requires-python = ">=3.8" # DashAI software needs python 3.8 or higher
+
+[project.entry-points.'dashai.plugins']
+# Add one entrypoint per DashAI component included in the plugin. Examples below
+model_name = 'dashai_plugin_hernan4.model_class_template:MLPClassifier'
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
