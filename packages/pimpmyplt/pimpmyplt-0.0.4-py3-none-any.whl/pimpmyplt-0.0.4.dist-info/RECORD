@@ -1,0 +1,13 @@
+pimpmyplt/__init__.py,sha256=UA2cNjHGi1ZzbqWKK10FfeKIIZ1xlPzQlDMzK-uBb7A,80
+pimpmyplt/pimps/__init__.py,sha256=GpZYyat1DJeipx9RCDSlWB3b-vy2h5oQXM_a0zIV6zY,353
+pimpmyplt/pimps/abc.py,sha256=-DCC2nUpTBZqp8qo9t17vfxORz646ldsoB-FyxWwuMQ,188
+pimpmyplt/pimps/color.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pimpmyplt/pimps/figsize.py,sha256=36wUDR6i9qdMa3Er9Ayyq56xCKJuRZGKnaDzzJeFoCk,543
+pimpmyplt/pimps/savefig.py,sha256=wADjj6h1SkjNVr8qbjPP2_vaY12V-lCIukZdw3ijReQ,385
+pimpmyplt/pimps/tightlayout.py,sha256=Vt81k4I78p9CTeINJ7YcSWiM3bVu0g_oApTU4stKjMc,394
+pimpmyplt/pimps/usetex.py,sha256=pg33eRVIjrcu_nVfyZwZnu79xr8ho2KQyzo3bw2bqAA,258
+pimpmyplt/util.py,sha256=U1H0mS8pYl-hbf59VyA7tSOqNmyh_KH3pr8TO9kSx1Q,687
+pimpmyplt-0.0.4.dist-info/LICENSE,sha256=B9x2IQBh_L-kJi5CAGqq-2atESrD-iXfNo4ZpOZEyxQ,1071
+pimpmyplt-0.0.4.dist-info/METADATA,sha256=q9C0th0BdxGyAy7tOTThuTUInTMXcdsj2GTxFQJ0kL0,1371
+pimpmyplt-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pimpmyplt-0.0.4.dist-info/RECORD,,
