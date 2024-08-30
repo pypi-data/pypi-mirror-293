@@ -1,0 +1,4 @@
+{
+    "acq_func": "def acq_func(g, xs, ys):\n    s = 0\n    print(xs, ys)\n    xp = g.new_array(\"main\", channel=[\"gfp\", \"cy5\"], time=5, row=len(ys), col=len(xs))\n    for j, t in enumerate(range(5)):\n        xp.coords[\"bla\"] = f\"bloo{j}\"\n        for k, y in enumerate(ys):\n            for l, x in enumerate(xs):\n                c.xy = (x, y)\n                for i, chan in enumerate([\"gfp\", \"cy5\"]):\n                    # c.filter = chan\n                    print(i, j, k, l)\n                    time.sleep(1)\n                    s += 1\n                    xp[i, j, k, l] = np.ones(xp[i, j, k, l].shape) * s\n                    yield\n",
+    "overlap": 0.1
+}
