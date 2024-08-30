@@ -1,0 +1,16 @@
+[project]
+name = "vinayaga"
+version = "0.2.0"
+description = "A simple package for hypothesis generation using a custom train function"
+authors = ["arasu <arasum6262@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/yourusername/vinayaga"  # Replace with your actual repo URL
+
+[tool.pdm.dependencies]
+python = "^3.8"  # Adjust based on the Python version you're targeting
+pandas = "^2.0.1"  # Adjust version as needed
+numpy = "^1.24.0"  # Adjust version as needed
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.backend"
