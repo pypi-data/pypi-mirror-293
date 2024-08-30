@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ROMtools/Animator.py
+src/ROMtools/Configuration.py
+src/ROMtools/Force.py
+src/ROMtools/RigidBody.py
+src/ROMtools/Solver.py
+src/ROMtools/SpringDamper.py
+src/ROMtools/__init__.py
+src/ROMtools.egg-info/PKG-INFO
+src/ROMtools.egg-info/SOURCES.txt
+src/ROMtools.egg-info/dependency_links.txt
+src/ROMtools.egg-info/requires.txt
+src/ROMtools.egg-info/top_level.txt
