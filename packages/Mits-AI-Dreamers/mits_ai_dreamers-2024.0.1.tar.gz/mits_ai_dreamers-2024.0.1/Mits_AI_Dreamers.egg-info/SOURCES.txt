@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Mits_AI_Dreamers.egg-info/PKG-INFO
+Mits_AI_Dreamers.egg-info/SOURCES.txt
+Mits_AI_Dreamers.egg-info/dependency_links.txt
+Mits_AI_Dreamers.egg-info/requires.txt
+Mits_AI_Dreamers.egg-info/top_level.txt

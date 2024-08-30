@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: Mits_AI_Dreamers
+Version: 2024.0.1
+Summary: This is Hamming distance, Jaccard coefficient, overlap
+Home-page: https://github.com/madhukm2050/Mits_AI_Dreamers
+Author: Madhu Praneeth Lokesh
+Author-email: lokeshreddy2680@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: matplotlib
+Requires-Dist: resource
+Requires-Dist: validators
+Requires-Dist: urllib3
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: sphinx
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: discord.py
+Requires-Dist: networkx
+Requires-Dist: deprecated
+Provides-Extra: gpu
+Requires-Dist: cupy; extra == "gpu"
+Requires-Dist: pycuda; extra == "gpu"
+Provides-Extra: spark
+Requires-Dist: pyspark; extra == "spark"
+Provides-Extra: dev
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: setuptools; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Provides-Extra: all
+Requires-Dist: cupy; extra == "all"
+Requires-Dist: pycuda; extra == "all"
+Requires-Dist: pyspark; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: setuptools; extra == "all"
+Requires-Dist: build; extra == "all"
+
+![License: MITS](https://img.shields.io/badge/License-MIT-green.svg)
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![Documentation Status](https://readthedocs.org/projects/mits-ai-dreamer/badge/?version=latest)](https://mits-ai-dreamer.readthedocs.io/en/latest/?badge=latest)
