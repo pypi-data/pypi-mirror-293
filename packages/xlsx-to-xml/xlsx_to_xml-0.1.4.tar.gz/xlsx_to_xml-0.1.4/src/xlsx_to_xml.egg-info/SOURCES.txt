@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/xlsx_to_xml/__init__.py
+src/xlsx_to_xml.egg-info/PKG-INFO
+src/xlsx_to_xml.egg-info/SOURCES.txt
+src/xlsx_to_xml.egg-info/dependency_links.txt
+src/xlsx_to_xml.egg-info/not-zip-safe
+src/xlsx_to_xml.egg-info/top_level.txt
