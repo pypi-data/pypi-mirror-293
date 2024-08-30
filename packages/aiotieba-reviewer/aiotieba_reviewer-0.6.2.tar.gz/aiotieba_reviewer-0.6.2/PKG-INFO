@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: aiotieba-reviewer
+Version: 0.6.2
+Summary: High Flexibility Anti-spam Framework Based on Aiotieba
+Project-URL: Repository, https://github.com/Starry-OvO/aiotieba-reviewer/
+Project-URL: Documentation, https://review.aiotieba.cc/
+Author-email: Starry-OvO <starry.qvq@gmail.com>
+License-File: LICENSE
+Keywords: baidu,tieba
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Requires-Python: <3.13,>=3.9
+Requires-Dist: aiotieba[img,speedup]<5,>=4.4.0
+Requires-Dist: asyncmy<0.3,>=0.2.9
+Requires-Dist: tomli<3,>=1.1.0; python_version < '3.11'
+Description-Content-Type: text/markdown
+
+## 客户名单
+
+*2024.08.30更新*
+
+| 吧名     | 关注量  | 浏览量（30天平均） | 发帖量 |
+| :------- | :-----: | :----------------: | :----: |
+| 抗压背锅 | 5560958 |       921334       | 45707  |
+| 原神内鬼 | 788665  |       724693       | 72467  |
+| 孙笑川   | 6232811 |       557368       | 195344 |
+| 憨批     | 100646  |       164399       | 47977  |
+| lol半价  | 2100995 |       62672        |  1776  |
+| vtuber   | 235654  |       32994        |  1332  |
+| 考研     | 5506261 |       28458        |  2761  |
+| 新孙笑川 | 1062388 |       22052        |  7669  |
+| 元气骑士 | 286785  |        5888        |  571   |
+| 天堂鸡汤 | 404629  |        4231        |  1037  |
+
+## 友情链接
+
++ [TiebaManager（吧务管理器 有用户界面）](https://github.com/dog194/TiebaManager)
++ [贴吧protobuf定义文件合集](https://github.com/n0099/tbclient.protobuf)
++ [TiebaLite（第三方安卓客户端 已停更）](https://github.com/HuanCheng65/TiebaLite/tree/4.0-dev)
