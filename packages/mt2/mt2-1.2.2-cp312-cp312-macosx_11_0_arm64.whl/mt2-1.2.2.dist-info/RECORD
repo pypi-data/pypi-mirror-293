@@ -1,0 +1,12 @@
+_mt2/mt2_bisect.h,sha256=-TILRHtThtBTKEYzEuUWb2GI6DfudDXzaZLwSwj2nSQ,10672
+_mt2/mt2_Lallyver2.h,sha256=fC3LVnxfglu2shTQFYa5nv1UCcOKZXUEGQyBvRqEkMc,46640
+_mt2/lester_mt2_bisect_v7.h,sha256=ahR2EV9cluqVlrUNaTttJpR7xkT-ixNrmCuuo0gONQY,26064
+_mt2/main.cpp,sha256=GlmLPAGHB276bIfOd8fbHJ8LAOCqXWrdHgl13xIjQxI,12169
+mt2/diagnostics.py,sha256=0QO9mcesdyZ9XtzCauN333eWidmRUnlph-mKT4D1GTM,5022
+mt2/__init__.py,sha256=giZ73f4BUkJXPFj6euo-rtNc3fGwaaoGZeFuxAHhUJ8,4166
+mt2/_mt2.cpython-312-darwin.so,sha256=CQsC4cp1O1pRsL-LxVuy1hzjR6yUlgSOVWyuDcOU7fI,74648
+mt2-1.2.2.dist-info/RECORD,,
+mt2-1.2.2.dist-info/LICENSE,sha256=7GtSXc0fdRmucOT4Lksy6SLCL0YeDdK3DAlrY4P8mQA,1072
+mt2-1.2.2.dist-info/WHEEL,sha256=a49DngoqagUUlcaS-2XVqRCxwXxmdMxhw30J7454hso,109
+mt2-1.2.2.dist-info/top_level.txt,sha256=_3iGpEgPHzEEGIB4nizLpHo4b0rv2IxGMqpRrZTDAXQ,9
+mt2-1.2.2.dist-info/METADATA,sha256=8Byoa_ZpnjDKEwnMoTPYEPBd0OPezfhhPlHWRUIdW7M,7588
