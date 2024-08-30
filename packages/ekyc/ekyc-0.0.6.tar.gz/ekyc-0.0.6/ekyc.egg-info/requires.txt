@@ -1,0 +1,11 @@
+opencv-python
+numpy
+scikit-learn
+deepface
+Flask
+paddlepaddle
+tensorflow-intel
+protobuf
+paddleocr>=2.0.6
+paddlepaddle>=2.0.0
+dlib>=19.22.0
