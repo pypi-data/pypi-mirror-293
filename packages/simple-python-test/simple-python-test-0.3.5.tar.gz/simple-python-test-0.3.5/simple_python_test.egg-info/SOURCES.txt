@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+simple_python_test.egg-info/PKG-INFO
+simple_python_test.egg-info/SOURCES.txt
+simple_python_test.egg-info/dependency_links.txt
+simple_python_test.egg-info/not-zip-safe
+simple_python_test.egg-info/top_level.txt
