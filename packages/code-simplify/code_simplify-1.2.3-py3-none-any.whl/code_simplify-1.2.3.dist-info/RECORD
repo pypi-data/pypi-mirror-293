@@ -1,0 +1,15 @@
+code_simplify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_simplify/crud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_simplify/crud/rdb.py,sha256=fdVBoSVusym3pPDgtwrBfrC_oyMNgOfMI7T1izg5Ups,14730
+code_simplify/http_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_simplify/http_utils/http_request.py,sha256=t_vKGC1j17da3bgd0FD4QtSbEjUaHw771p6dvaBqhC8,6911
+code_simplify/log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_simplify/log/logger.py,sha256=EqjfPovZViBQZte6iiN47wx7qsZ8yFmdi_U4BeGbf7A,2762
+code_simplify/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_simplify/models/base.py,sha256=NSWCpDL15M0XNEApn8MUcEIhh85eo6e0Ef8_isrVSzU,178
+code_simplify/models/errors.py,sha256=cmu53_c4d_nsXTMZ1I3MvD1Czb3BGZo5uU9KagebExw,1263
+code_simplify-1.2.3.dist-info/LICENSE,sha256=P3ZTIJFY0r6V4yNlqKfylycTcmtHhH1j_-CGQ_z8GrM,1066
+code_simplify-1.2.3.dist-info/METADATA,sha256=F7clx95zoZgAJCibpgZZuzNcQPwqaNfpcovAp1I9-64,1514
+code_simplify-1.2.3.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+code_simplify-1.2.3.dist-info/top_level.txt,sha256=XAjdFCpPQvk2WeHxASS3Xa8R33vzLRInyROm14BvnlY,14
+code_simplify-1.2.3.dist-info/RECORD,,
