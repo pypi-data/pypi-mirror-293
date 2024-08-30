@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "hexalate"
+version = "0.1.0"
+description = "Create a tessellation with the desired width, height, and hexagon size"
+authors = ["James Campbell <james@jamescampbell.us>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/james-see/hexalate"
+repository = "https://github.com/james-see/hexalate"
+keywords = ["hexagon", "tessellation", "geometry"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.9.2"
+numpy = "^2.1.0"
+argparse = "^1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hexalate = "hexalate.__main__:main"
