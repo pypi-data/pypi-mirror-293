@@ -1,0 +1,114 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nipreps-synthstrip"
+description = "NiPreps implementation of FreeSurfer's SynthStrip"
+readme = "README.md"
+license = {file = "LICENSE"}
+maintainers = [
+    {name = "Nipreps developers", email = "nipreps@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "nibabel",
+    "nitransforms",
+    "numpy",
+    "scipy",
+    "torch >= 1.10.2",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/nipreps/synthstrip"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "hatch",
+]
+nipype = [
+    "nipype",
+]
+pydra = [
+    "pydra",
+]
+test = [
+    "pytest",
+]
+
+[project.scripts]
+nipreps-synthstrip = "nipreps.synthstrip.cli:main"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "nipreps/synthstrip/_version.py"
+
+[tool.hatch.build.sources]
+"nipreps/synthstrip" = "nipreps/synthstrip"
+
+[tool.hatch.build.targets.wheel]
+packages = ["nipreps/synthstrip"]
+
+[tool.black]
+exclude = '.*'
+
+[tool.ruff]
+line-length = 99
+
+[tool.ruff.lint]
+extend-select = [
+  "F",
+  "E",
+  "W",
+  "I",
+  "UP",
+  "YTT",
+  "S",
+  "BLE",
+  "B",
+  "A",
+  # "CPY",
+  "C4",
+  "DTZ",
+  "T10",
+  # "EM",
+  "EXE",
+  "FA",
+  "ISC",
+  "ICN",
+  "PT",
+  "Q",
+]
+ignore = [
+  "S311",  # We are not using random for cryptographic purposes
+  "ISC001",
+  "S603",
+]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.coverage.run]
+branch = true
+omit = [
+    "*/_version.py"
+]
