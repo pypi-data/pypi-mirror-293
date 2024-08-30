@@ -1,0 +1,1 @@
+from collinear.example_module import example_function
