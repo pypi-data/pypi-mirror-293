@@ -1,0 +1,4 @@
+[console_scripts]
+add-gitleaks-path = gitleak.installer:add_gitleaks_to_path
+install-gitleaks = gitleak.installer:install_gitleaks
+install-zap = zap.zap:main
