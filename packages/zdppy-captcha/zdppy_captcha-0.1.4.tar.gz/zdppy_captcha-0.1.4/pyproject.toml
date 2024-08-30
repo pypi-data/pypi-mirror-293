@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "zdppy-captcha"
+version = "0.1.4"
+description = "Python生成验证码的框架"
+authors = ["zhangdapeng520 <1156956636@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pillow = "^10.4.0"
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "default"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
