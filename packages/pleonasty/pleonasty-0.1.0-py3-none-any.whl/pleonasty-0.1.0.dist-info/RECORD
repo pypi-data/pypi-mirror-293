@@ -1,0 +1,17 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pleonasty/LLM_Result.py,sha256=24kB0cU0HGoCCkQ9Sknb-Hpb7gTnEo8QiPb_RuL1HQA,632
+pleonasty/Pleonast.py,sha256=RKMb3BugL7CkNWqwrQS1KprbdGkOZx6UGdHi8THk3y4,4285
+pleonasty/__init__.py,sha256=ouv3k85HQAQ5MD2xz6IUSpd3YXrY3YFWl5g_asYn6TM,1096
+pleonasty/_buildPrompt.py,sha256=1lt6J5QVOdnwNVT-EcrLYRoOtjJkzdmWXWqjJ8vy9vE,680
+pleonasty/analyze_text.py,sha256=fDe4xaFHSjK1gOyHQJ6voDSOMkYlVZn2TSOgMfCYVsw,1053
+pleonasty/batch_analyze_to_csv.py,sha256=b-l50Vdwr0Jt5iUQ0ZMHQzJiwzA7DZwTUlAflusEJWI,1868
+pleonasty/chat_mode.py,sha256=hIpvEGvkYFOH1EiDANDemq9bnnEaIf4eDsl1YSK23c4,1556
+pleonasty/convert_prompt_to_template_str.py,sha256=QHpUwF7xlNOwd-GDaFEjtjSx-GFgznvHyQZy6Mgvxbc,1566
+pleonasty/generate_csv_outputs.py,sha256=eht8Wkgaz2stDlHh-pmbJzMxxv5et8Hmh_Umx2O-7DU,750
+pleonasty/process_text.py,sha256=i6g1GNgjvS4jjnjucigljSbp0kvI2m0_IMuOTAlv6SY,585
+pleonasty/set_message_contexts.py,sha256=roq9D2yn3KAxLCiYWla0xFTLhYCMYPuCLJjHCLKBcCM,3304
+pleonasty-0.1.0.dist-info/LICENSE,sha256=2S4WdRDtURsOos6telZ6DlCfCbfk6hQcmxhz8onL1z0,1089
+pleonasty-0.1.0.dist-info/METADATA,sha256=KuA4SlKy44J5gnUWDPzqS2MBcZyM0xhMzSg3CJ4M99U,1391
+pleonasty-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+pleonasty-0.1.0.dist-info/top_level.txt,sha256=elIevtGdtbBtriUp5qEUNxF1gQaNyscwv7Pg56V1RkA,19
+pleonasty-0.1.0.dist-info/RECORD,,
