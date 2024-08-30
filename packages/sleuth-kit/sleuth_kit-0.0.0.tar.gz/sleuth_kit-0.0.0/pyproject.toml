@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sleuth-kit"
+version = "0.0.0"
+description = "A flexible and extensible osint toolkit with a focus on blockchain investigations and intelligence gathering."
+authors = ["Sleuth <team@sleuth.fi>"]
+readme = "README.md"
+repository = "https://github.com/sleuth-fi/sleuth-kit"
+homepage = "https://sleuth.fi"
+documentation = "https://docs.sleuth.fi"
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
