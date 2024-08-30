@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ROMtools
+Version: 0.2.1.dev0
+Summary: Tools for reduced order modelling of dynamical systems
+Home-page: https://github.com/turnerjennings/ROMtools
+Author: Turner Jennings
+Author-email: turner.jennings@outlook.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# ROMtools
+Functions for reduced order rigid body modelling of dynamical systems
+
+## Overview
+
+Functions for building rigid body dynamics simulations of more complicated systems.  
+
