@@ -1,0 +1,22 @@
+* {
+    font-family: "Cambria", sans-serif !important;
+    font: size 11px;
+  }
+
+/* Change header text to imported font */
+h2{
+    text-align: center;
+}
+
+h5{
+    font-weight: bold;
+    color : black;
+    text-align:center;
+    text-decoration: underline;
+}
+
+h6{
+    color : black;
+    text-align:left;
+    font-weight: bold;
+}
