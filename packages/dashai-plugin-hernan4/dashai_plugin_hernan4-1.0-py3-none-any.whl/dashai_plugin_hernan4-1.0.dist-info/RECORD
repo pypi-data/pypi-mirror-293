@@ -1,0 +1,9 @@
+dashai_plugin_hernan4/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dashai_plugin_hernan4/dataloader_class_template.py,sha256=ogLoNngT6bX_0h7roImLQAikXI6CZD7Ep274MOdCgYY,2275
+dashai_plugin_hernan4/metric_class_template.py,sha256=t61IyPNUNnnu3rtjh4-wqNeUsI_Fj5Wc0HG0ITVPK2Q,1410
+dashai_plugin_hernan4/model_class_template.py,sha256=stcGLacysP9Evzc54syq0iBdhHoONF8a1OT_6coOrHQ,6156
+dashai_plugin_hernan4/task_class_template.py,sha256=ERaeNXhUPsOZvC2vp6994iv7yGNcC-em86an2xn3qyc,273
+dashai_plugin_hernan4-1.0.dist-info/METADATA,sha256=SmcX6oBoEAFO5uqLC_b-DSxpwPh-Dop7RpXpSPAKlwU,303
+dashai_plugin_hernan4-1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dashai_plugin_hernan4-1.0.dist-info/entry_points.txt,sha256=vX0r29UZ_vijp9ulN7tYec2W2PwzHQ9wF7TvMQTb-PI,87
+dashai_plugin_hernan4-1.0.dist-info/RECORD,,
