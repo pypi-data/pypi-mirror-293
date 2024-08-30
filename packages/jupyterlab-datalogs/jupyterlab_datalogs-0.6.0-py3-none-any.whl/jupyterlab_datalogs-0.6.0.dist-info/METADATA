@@ -1,0 +1,146 @@
+Metadata-Version: 2.3
+Name: jupyterlab-datalogs
+Version: 0.6.0
+Dynamic: Author
+Dynamic: Author-email
+Summary: JupyterLab extension for DataLogs.
+Project-URL: Homepage, https://github.com/PainterQubits/jupyterlab-datalogs
+Project-URL: Repository, https://github.com/PainterQubits/jupyterlab-datalogs
+License: BSD 3-Clause License
+        
+        Copyright (c) 2023–2024, California Institute of Technology
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Keywords: jupyter,jupyterlab,jupyterlab-extension
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 4
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Provides-Extra: all
+Requires-Dist: datalogs>=0.5.1; extra == 'all'
+Requires-Dist: jupyterlab-display-name>=0.2.1; extra == 'all'
+Requires-Dist: jupyterlab-open-warning[rtc]>=0.2.0; extra == 'all'
+Requires-Dist: jupyterlab-pdf-preview>=0.2.1; extra == 'all'
+Requires-Dist: jupyterlab<5,>=4.2.5; extra == 'all'
+Requires-Dist: matplotlib<4,>=3.9.2; extra == 'all'
+Requires-Dist: numpy<3,>=1.26.4; extra == 'all'
+Requires-Dist: xarray>=2024.7.0; extra == 'all'
+Provides-Extra: analysis
+Requires-Dist: datalogs>=0.5.1; extra == 'analysis'
+Requires-Dist: matplotlib<4,>=3.9.2; extra == 'analysis'
+Requires-Dist: numpy<3,>=1.26.4; extra == 'analysis'
+Requires-Dist: xarray>=2024.7.0; extra == 'analysis'
+Provides-Extra: jupyterlab
+Requires-Dist: jupyterlab<5,>=4.2.5; extra == 'jupyterlab'
+Provides-Extra: plugins
+Requires-Dist: jupyterlab-display-name>=0.2.1; extra == 'plugins'
+Requires-Dist: jupyterlab-open-warning[rtc]>=0.2.0; extra == 'plugins'
+Requires-Dist: jupyterlab-pdf-preview>=0.2.1; extra == 'plugins'
+Description-Content-Type: text/markdown
+
+# JupyterLab DataLogs
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/jupyterlab-datalogs)](https://pypi.org/project/jupyterlab-datalogs/)
+[![PyPI Python Versions](https://img.shields.io/pypi/pyversions/jupyterlab-datalogs)](https://pypi.org/project/jupyterlab-datalogs/)
+[![License](https://img.shields.io/pypi/l/jupyterlab-datalogs)](https://github.com/PainterQubits/jupyterlab-datalogs/blob/main/LICENSE)
+[![CI](https://github.com/PainterQubits/jupyterlab-datalogs/actions/workflows/ci.yml/badge.svg)](https://github.com/PainterQubits/jupyterlab-datalogs/actions/workflows/ci.yml)
+
+JupyterLab extension for DataLogs.
+
+## Installation
+
+Install the latest version of JupyterLab DataLogs using pip:
+
+```
+pip install -U jupyterlab-datalogs
+```
+
+This extension should run alongside
+[JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
+version 4 (included with the `jupyterlab` extra). There are also a set of packages
+required for analysis using DataLogs notebooks (included with the `analysis` extra), and
+a set of recommended JupyterLab plugins (included with the `plugins` extra).
+
+To automatically install with all of these extras, use the `all` extra:
+
+```
+pip install -U "jupyterlab-datalogs[all]"
+```
+
+While the Real-Time Collaboration extension is included in the `plugins` extra for
+[JupyterLab Open Warning](https://github.com/PainterQubits/jupyterlab-open-warning) to
+work, the collaboration functionality can be disabled by running JupyterLab with the
+following option:
+
+```
+jupyter lab --YDocExtension.disable_rtc True
+```
+
+## Development
+
+To develop, the following dependencies must be installed:
+
+- [Node.js](https://nodejs.org/en/download)
+- [Yarn](https://yarnpkg.com/getting-started/install)
+- [Python](https://www.python.org/downloads/)
+- [Hatch](https://hatch.pypa.io/latest/install/)
+
+Then, run
+
+```bash
+hatch run ci:jlpm
+```
+
+to install Node.js dependencies, and
+
+```bash
+hatch run dev
+```
+
+to build the extension and start up a JupyterLab server. The first time you do this, also
+go to the Extension Manager tab in JupyterLab (the puzzle piece icon on the left) to
+enable 3rd party extensions. Now the extension should be activated. When the source code
+changes, it should automatically rebuild, and the updated extension will be used when the
+page is reloaded.
+
+> [!NOTE]  
+> On Windows, symbolic links must be activated for `hatch run dev` to work. On Windows 10
+> or above for Python version 3.8 or higher, this can be done by
+> [activating developer mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development).
+>
+> Alternatively, you can run `hatch run build` to rebuild and reinstall the extension each
+> time the source code changes, and `hatch run jupyter lab` to start a new JupyterLab
+> server.

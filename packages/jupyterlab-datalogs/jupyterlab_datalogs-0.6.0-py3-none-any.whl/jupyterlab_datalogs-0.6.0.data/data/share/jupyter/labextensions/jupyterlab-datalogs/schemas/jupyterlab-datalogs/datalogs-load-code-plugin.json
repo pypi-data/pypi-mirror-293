@@ -1,0 +1,39 @@
+{
+  "title": "DataLogs Load Code",
+  "description": "Shortcuts to generate code that loads logs with DataLogs.",
+  "jupyter.lab.menus": {
+    "main": [
+      {
+        "id": "jp-mainmenu-file",
+        "items": [
+          {
+            "type": "submenu",
+            "submenu": {
+              "id": "jp-mainmenu-file-new",
+              "items": [
+                {
+                  "command": "jupyterlab-datalogs:datalogs-notebook-command",
+                  "rank": 20
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "context": [
+      {
+        "command": "jupyterlab-datalogs:add-datalogs-load-code-command",
+        "selector": ".jp-DirListing-item[data-isdir=\"false\"]",
+        "rank": 3
+      },
+      {
+        "command": "jupyterlab-datalogs:new-datalogs-notebook-command",
+        "selector": ".jp-DirListing-content",
+        "rank": 53
+      }
+    ]
+  },
+  "additionalProperties": false,
+  "type": "object"
+}
