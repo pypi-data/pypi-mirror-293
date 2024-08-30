@@ -1,0 +1,2 @@
+[console_scripts]
+evil-jea = evil_jea.cli:cli

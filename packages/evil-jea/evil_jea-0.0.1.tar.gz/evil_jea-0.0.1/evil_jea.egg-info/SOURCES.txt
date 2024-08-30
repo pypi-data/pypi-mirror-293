@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+evil_jea/__init__.py
+evil_jea/cli.py
+evil_jea/version.py
+evil_jea.egg-info/PKG-INFO
+evil_jea.egg-info/SOURCES.txt
+evil_jea.egg-info/dependency_links.txt
+evil_jea.egg-info/entry_points.txt
+evil_jea.egg-info/requires.txt
+evil_jea.egg-info/top_level.txt
