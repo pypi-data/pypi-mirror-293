@@ -1,0 +1,8 @@
+libprofileinfo_extractor.so,sha256=9_TRO4gtdrEScYMhiyjeohp4gYk-JAuZLa8OLN9Olu0,28016
+mirax_profileinfo_extractor-0.2.4.dist-info/RECORD,,
+mirax_profileinfo_extractor-0.2.4.dist-info/WHEEL,sha256=XTrbe1v1RZIwaNy2ykqZ1b32V5o3CvHsSToseXBj9JY,150
+mirax_profileinfo_extractor-0.2.4.dist-info/LICENSE,sha256=3KOL92cmsYgcFnsaijET_Wo_k0z4IBO7oEQT_oIipKQ,1061
+mirax_profileinfo_extractor-0.2.4.dist-info/top_level.txt,sha256=ItlYlB3efjU45OEFTpZeSVW5CbAoeei-cFcQmhPVMvE,53
+mirax_profileinfo_extractor-0.2.4.dist-info/METADATA,sha256=sVk9X4yi-Xt91CBJdUCedCrilqBzkCUWvzgO6oZtYhQ,681
+mirax_profileinfo_extractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mirax_profileinfo_extractor/extractor.py,sha256=Tg6fai_dvuw4bc_KNcaPj_dWQYX_N7U7joP8udXUKnQ,4040
