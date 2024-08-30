@@ -1,0 +1,26 @@
+# SonarCloud report for **{{ project_name }}**
+
+- Project name: `{{ project_name }}`
+{% if branch_name %}
+- Branch name: `{{ branch_name }}`
+{% endif %}
+{% if tag_name %}
+- Tag name: `{{ tag_name }}`
+{% endif %}
+- Analysis date: {{ last_analysis_date }}
+- Analyzed commit ID: `{{ last_analysis_commit_id }}`
+
+
+## SonarCloud metrics
+
+| Metric name       | Description                                                                                          | Value                   | Threshold                         | Quality Gate                    |
+| ----------------- | ---------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------------------- | ------------------------------- |
+| Bugs              | A coding error that can break the code and needs to be fixed.                                        | {{ bugs }}              | {{ thresholds.bugs }}              | {{ quality.bugs}}               |
+{% if thresholds.code_coverage != "N/A" %}
+| Code coverage     | The percentage of lines of code covered by tests.                                                    | {{ coverage }}          | {{ thresholds.code_coverage }}     | {{ quality.code_coverage }}     |
+{% endif %}
+{% if thresholds.code_smells != "N/A" %}
+| Code smells       | Code that is confusing and can be difficult to maintain.                                             | {{ code_smells }}       | {{ thresholds.code_smells }}       | {{ quality.code_smells }}       |
+{% endif %}
+| Security hotspots | Security-sensitive code that requires manual review to assess whether or not a vulnerability exists. | {{ security_hotspots }} | {{ thresholds.security_hotspots }} | {{ quality.security_hotspots }} |
+| Vulnerabilities   | Code that can be exploited by hackers.                                                               | {{ vulnerabilities }}   | {{ thresholds.vulnerabilities }}   | {{ quality.vulnerabilities }}   |
