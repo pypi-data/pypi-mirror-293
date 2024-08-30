@@ -1,0 +1,2 @@
+[console_scripts]
+neuroglancer = funlib.show.neuroglancer.cli:main
