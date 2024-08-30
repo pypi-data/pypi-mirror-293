@@ -1,0 +1,10 @@
+setup.py
+zap_installer/__init__.py
+zap_installer/zap.py
+zap_installer.egg-info/PKG-INFO
+zap_installer.egg-info/SOURCES.txt
+zap_installer.egg-info/dependency_links.txt
+zap_installer.egg-info/entry_points.txt
+zap_installer.egg-info/not-zip-safe
+zap_installer.egg-info/requires.txt
+zap_installer.egg-info/top_level.txt
