@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Udility/__init__.py
+Udility/diffusior.py
+Udility.egg-info/PKG-INFO
+Udility.egg-info/SOURCES.txt
+Udility.egg-info/dependency_links.txt
+Udility.egg-info/requires.txt
+Udility.egg-info/top_level.txt
+tests/test_diffusior.py
