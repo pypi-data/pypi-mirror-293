@@ -1,0 +1,23 @@
+pymc>=5.16.2
+pandas
+arviz
+numpy
+click
+click_default_group
+scikit-learn
+tqdm
+requests
+optuna>=2.0.0
+pandas>=1.0.0
+tabulate
+more_click
+more_itertools
+pystow>=0.4.3
+docdata
+class_resolver>0.4.2
+typing_extensions
+matplotlib
+matplotlib>=3.0.0
+
+[:sys_platform == "win32"]
+numpy<2.0.0
