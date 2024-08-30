@@ -1,0 +1,10 @@
+drawscape_factorio/__init__.py,sha256=tS7acZxNwoCyQu2TcesNYvVAucr2-WvP4sDVt-_mX20,90
+drawscape_factorio/create.py,sha256=PKkWOPViRSWxN9efhjKUzMZSq99x8-twT3z27Rq7dgM,4196
+drawscape_factorio/main.py,sha256=uy0lT94wVglJMqFGEP47xA21yCqT7jzQgrAhYvC5fyI,4159
+drawscape_factorio/optimize_svg.py,sha256=Rlr8qZA-Je3m0H0ZgowYkRBL-dxdppZkG4wig6cq2Eo,1502
+drawscape_factorio/parse.py,sha256=d4nwilGNxgL20nHpxnPmoiDv1rkPI5FJG7Qh7Kv_T04,2060
+drawscape_factorio-0.11.dist-info/METADATA,sha256=CiNd-Y2AERP_PqrzvNOOkwF-Jq5pjYmkitOli9wqsYY,62
+drawscape_factorio-0.11.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+drawscape_factorio-0.11.dist-info/entry_points.txt,sha256=qBzsRgbrazfNjFQbncDDbPZLMhtApvzoAhrtBE9640w,68
+drawscape_factorio-0.11.dist-info/top_level.txt,sha256=DpTlx177IwR-MjUi-oJC3iTJQfeEgd_sNsefvjs_Gy8,19
+drawscape_factorio-0.11.dist-info/RECORD,,
