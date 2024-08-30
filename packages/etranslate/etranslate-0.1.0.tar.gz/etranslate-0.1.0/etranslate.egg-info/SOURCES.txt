@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+etranslate/__init__.py
+etranslate/translate.py
+etranslate.egg-info/PKG-INFO
+etranslate.egg-info/SOURCES.txt
+etranslate.egg-info/dependency_links.txt
+etranslate.egg-info/requires.txt
+etranslate.egg-info/top_level.txt
