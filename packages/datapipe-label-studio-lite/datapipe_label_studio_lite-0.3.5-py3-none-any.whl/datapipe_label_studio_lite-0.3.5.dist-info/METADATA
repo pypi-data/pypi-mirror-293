@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datapipe-label-studio-lite
+Version: 0.3.5
+Summary: 
+Author: Alexander Kozlov
+Author-email: bobokvsky@epoch8.co
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: datapipe-core (>=0.14.0,<0.15)
+Requires-Dist: label-studio-sdk (>=1.0.3,<1.1)
+Requires-Dist: requests (>=2.24.0,<3)
