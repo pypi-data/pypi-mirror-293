@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: database-core
+Version: 0.1.0
+Summary: 
+Author: kimkun07
+Author-email: kimkun07@naver.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: geoalchemy2 (>=0.15.2,<0.16.0)
+Requires-Dist: psycopg2 (>=2.9.9,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0.32,<3.0.0)
+Description-Content-Type: text/markdown
+
+

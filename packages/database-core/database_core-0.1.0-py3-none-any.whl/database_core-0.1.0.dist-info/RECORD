@@ -1,0 +1,8 @@
+database_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+database_core/db.py,sha256=Q9jAy8hlZ2VCdRI847K5PyO50tjtQxbtAuxd74DdQGQ,1294
+database_core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+database_core/tables.py,sha256=YB3iua0PL0z9DnnMBJNTQG3E-CnXbS1y5GgCzq0MsDY,416
+database_core/with_enforcer.py,sha256=zqlk07ISGRlcKP24EcAp1eMkHi_JjmBG_D5FGduZ_eQ,2064
+database_core-0.1.0.dist-info/METADATA,sha256=Paa3W1xxwa0Y4oOx8wn_80St1ILMiDHoVJYDT_JE0bs,418
+database_core-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+database_core-0.1.0.dist-info/RECORD,,
