@@ -1,0 +1,8 @@
+setup.py
+trufflehog.1.egg-info/PKG-INFO
+trufflehog.1.egg-info/SOURCES.txt
+trufflehog.1.egg-info/dependency_links.txt
+trufflehog.1.egg-info/entry_points.txt
+trufflehog.1.egg-info/top_level.txt
+trufflehog_installer/__init__.py
+trufflehog_installer/trufflehog.py
