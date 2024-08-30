@@ -1,0 +1,3 @@
+[console_scripts]
+sleuth=sleuth_kit.cli.sleuth:sleuth
+
