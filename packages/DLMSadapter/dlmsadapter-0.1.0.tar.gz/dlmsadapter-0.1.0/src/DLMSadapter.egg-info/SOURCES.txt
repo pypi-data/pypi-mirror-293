@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/main.py
+src/xml.py
+src/DLMSadapter.egg-info/PKG-INFO
+src/DLMSadapter.egg-info/SOURCES.txt
+src/DLMSadapter.egg-info/dependency_links.txt
+src/DLMSadapter.egg-info/entry_points.txt
+src/DLMSadapter.egg-info/requires.txt
+src/DLMSadapter.egg-info/top_level.txt
+test/test_xml.py
