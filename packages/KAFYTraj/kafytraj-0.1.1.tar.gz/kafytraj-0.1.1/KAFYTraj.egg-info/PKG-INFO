@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: KAFYTraj
+Version: 0.1.1
+Summary: This library includes an extensible system for building various trajectory operations.
+Author: Youssef Hussein
+License-File: LICENSE
