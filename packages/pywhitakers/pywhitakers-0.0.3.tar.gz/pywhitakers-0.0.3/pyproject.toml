@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pywhitakers"
+version = "0.0.1"
+description = ""
+authors = ["Forrest <ForrestZengMusic@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [
+    { include = "pywhitakers" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
