@@ -1,0 +1,12 @@
+evalica-0.2.0.dist-info/METADATA,sha256=h7ftENFHy8Bh58rTFu50IS0oRdIBXmqQhpBRFUqXHCM,6889
+evalica-0.2.0.dist-info/WHEEL,sha256=cVLZsOHJoODK806IAPmNBmRqO7USzWuw-YLpwjmUeII,111
+evalica-0.2.0.dist-info/entry_points.txt,sha256=sd4dTYJCTEK_sv3ZfA0_TXr-QptLhUhF46I6Bv4VQ2Y,48
+evalica-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+evalica/__init__.py,sha256=uFnxmkfcN5jO7ggJBzn139JNc8TV8nuFD9e-JEDiBfM,26848
+evalica/naive.py,sha256=7p5UvUsdcwrXeXYTuLhjg09vDekXk4ZrVhBHnl3yNYM,7275
+evalica/test_evalica.py,sha256=gyS97BAaxKkzICv6upxN5ZRGY4Lr3N0UD9qlWkC6Crc,20432
+evalica/py.typed,sha256=QE6PZoTns-xBPou7DD0hAAAHF-fTAYJ4NlJRRZRaFSw,7
+evalica/evalica.pyi,sha256=DKXur-1RWClLfED4zMQhsRORvusdQUUMrQ_p7dCWFyU,2966
+evalica/__main__.py,sha256=_rbh5npHgrB8U_avtQVm34S2RyY5yO39M9Bwer-9MEI,2932
+evalica/evalica.pypy310-pp73-darwin.so,sha256=4sB0mcDGVu1hNt5eywnY0Lq4S4eiyynNSYg9Cj_9Rjk,730960
+evalica-0.2.0.dist-info/RECORD,,
