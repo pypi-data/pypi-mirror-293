@@ -1,0 +1,10 @@
+gradio_path_selector/__init__.py,sha256=cuvGI6uzLsjjIPQTrv3rvM4ssd3wN_cFha7VFfJ8qXQ,69
+gradio_path_selector/path_selector.py,sha256=705yPU8WeiEWGHivY6eWk21NO65z1YdtPz-uSb3snuA,5542
+gradio_path_selector/path_selector.pyi,sha256=Fwm65hHZ7vxno_LUPrsrukJ0T9Os7sgnh_fgupALz2E,10804
+gradio_path_selector/templates/component/index.js,sha256=miyjUitl8mfFrt3nF0NOvU5jf-wnHpXoz9z_tcPPP-o,101018
+gradio_path_selector/templates/component/style.css,sha256=zrs4lQ901X05IpRNX6_hKXkUe3P7rj5pnU251Y6iIQg,15612
+gradio_path_selector/templates/example/index.js,sha256=0Dvf3l5EZRAIFQ_4oR4BsHHlWcl-o2Saqrdq8WYozJc,1549
+gradio_path_selector/templates/example/style.css,sha256=Aj4k-S41TV83pot-J9j9Fi2UonrXHFC1Jl4Zb1xaYo4,61
+gradio_path_selector-0.1.1.dist-info/METADATA,sha256=kbSbS3sb3BHeQAHjVoFZyvh9xVUo3yT-VfNBSXuO-ho,6507
+gradio_path_selector-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gradio_path_selector-0.1.1.dist-info/RECORD,,
