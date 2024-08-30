@@ -1,0 +1,16 @@
+sonarcloud_report/__init__.py,sha256=ZhzQKWZ8RFrTIkj7z87B144DI95e8LMfA5w8NDWQDtg,23
+sonarcloud_report/__main__.py,sha256=vVf7yL_bB9zqjhDagRuMyPgWQRI9tT4qc8nBTJq-VGk,80
+sonarcloud_report/client.py,sha256=sC36dDyPYthjTkbvlmXQjcJ31GL9YVdqI0ZGfpbGWV8,2535
+sonarcloud_report/generate_sonarcloud_project_report.py,sha256=SYYiaTpmf3UtjkB_40_giGOQoydfQ1foKbsQZCG8i7A,2469
+sonarcloud_report/logger_manager.py,sha256=pG28DwUHnmPrH3q1fD9_coWGAiCLT1Su8pne_F_EvFE,256
+sonarcloud_report/quality_gate.py,sha256=l6rPUvLndawG4iU6hmpzy23MhF8_HX1vCgSYnGfr0SA,1482
+sonarcloud_report/run.py,sha256=I3ymhJwHqE7gnkLCRCVNvX40TkvZULtDdee7JAMh4-c,1024
+sonarcloud_report/template_manager.py,sha256=1og1QYujWslmCfbxXCk8Za-OHccc3IkTDUk6dLOIq-Y,980
+sonarcloud_report/tools.py,sha256=rn0a-fq6oBmB1_MpvXaZ5tiNczujNXbIFtfoAhtZOMI,267
+sonarcloud_report/templates/sonarcloud_report.j2,sha256=IIIboZtog012IW_OYBvqLprAskUMfEmNrKsV8ReS1og,2020
+lupin_sonarcloud_report-1.0.0.dist-info/LICENCE,sha256=rkMFWX_tliRYjzL_c_1cTC5INzOeSqgRAN1fCCSCWYI,1074
+lupin_sonarcloud_report-1.0.0.dist-info/METADATA,sha256=Ef7Z-E7v18nCqCh6vrBryzTyxeyHOXIwSXM6ugCT_uU,1152
+lupin_sonarcloud_report-1.0.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+lupin_sonarcloud_report-1.0.0.dist-info/entry_points.txt,sha256=3bSZJIYaaLzKpQpHWgF_V1gf8yI3LvVELjHwRxYWGTk,64
+lupin_sonarcloud_report-1.0.0.dist-info/top_level.txt,sha256=NaUDdHjYWUJbZ6icAexj_kHcSHdey0h30G3j_DyfDzU,18
+lupin_sonarcloud_report-1.0.0.dist-info/RECORD,,
