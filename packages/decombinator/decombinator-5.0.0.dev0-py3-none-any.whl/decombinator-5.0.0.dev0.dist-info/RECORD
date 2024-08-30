@@ -1,0 +1,14 @@
+decombinator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decombinator/__main__.py,sha256=df-_v-zP0eozb7li7TzESvtxTeyA5XWH4BaYbLuwnvI,35
+decombinator/collapse.py,sha256=d25I9SCq32bM8tnDqlJTpD8I4JAKQ7rrZmXK8y8qYjs,41693
+decombinator/decombine.py,sha256=B-r16xufBIuZgulHpkxW8OslFIlQYQ9dtss6L_Pic5w,45701
+decombinator/io.py,sha256=5E_HUJcRftjU46fhfOUf0zR-Sof6_T719auKZyrdvic,16524
+decombinator/pipeline.py,sha256=lGTaUya2T524Uf2u8qUbC-4a2m9iHvfiCDR3UOg5hC0,1709
+decombinator/translate.py,sha256=FHRhV5DiVykx4clLVGNlEgCnfaB7orSR-8ugNAbSgcc,21160
+decombinator-5.0.0.dev0.dist-info/AUTHORS,sha256=yFQ-H2sCeWca1Wr-xMmDJBTTH7Bsil-Tv1q2b7TMdTs,282
+decombinator-5.0.0.dev0.dist-info/LICENCE,sha256=R_QQrxNtbsveHd-JrsKZ42-cohUZzUXXLCiU1AOmewE,1081
+decombinator-5.0.0.dev0.dist-info/METADATA,sha256=sHtiWZ8gTvwwa2KqjO8eMJJRIvlpId3FPT9EPTjqD9s,42387
+decombinator-5.0.0.dev0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+decombinator-5.0.0.dev0.dist-info/entry_points.txt,sha256=YD1yUBeQm7RJKwXCM6LsxeHl8QegaTVepeKJFxgBeWk,60
+decombinator-5.0.0.dev0.dist-info/top_level.txt,sha256=wpq5rl8gG0AuLHo2FR6xf2DMT9sdo_FvBtdy7bJNzxM,13
+decombinator-5.0.0.dev0.dist-info/RECORD,,
