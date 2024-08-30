@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rpaframework-litellm
+Version: 0.1.2
+Summary: LiteLLM library for RPA Framework
+Home-page: https://github.com/seansummers/rpaframework-litellm
+License: Apache-2.0
+Keywords: robotframework,rpa,automation,litellm,llm,ai
+Author: Sean Summers
+Author-email: seansummers@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: litellm (>=1.44.7)
+Project-URL: Repository, https://github.com/seansummers/rpaframework-litellm
+Description-Content-Type: text/x-rst
+
+rpaframework-litellm
+====================
+
+This library enables LiteLLM Services for `RPA Framework`_
+libraries.
+
+The `LiteLLM Client`_ supports over 100+ LLMs.
+
+.. _RPA Framework: https://rpaframework.org
+.. _LiteLLM Client: https://docs.litellm.ai/docs/
