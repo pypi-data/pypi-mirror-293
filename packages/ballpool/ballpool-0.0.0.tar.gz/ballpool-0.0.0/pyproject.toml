@@ -1,0 +1,13 @@
+[project]
+name = "ballpool"
+version = "0.0.0"
+description = "Particle Simulator Software"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python","Pillow"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
