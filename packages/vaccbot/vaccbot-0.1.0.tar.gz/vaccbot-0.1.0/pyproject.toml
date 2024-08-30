@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vaccbot"
+version = "0.1.0"
+description = ""
+authors = ["Jason Lobell <jasonlobell123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyqt5 = "^5.15.11"
+slacc = "^1.0.1"
+paramiko = "^3.4.1"
+langchain = "^0.2.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
