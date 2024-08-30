@@ -1,0 +1,122 @@
+[
+  {
+    "description": "(D100) Missing docstring in public module",
+    "fingerprint": "26507c2e1a0e9068",
+    "location": {
+      "lines": {
+        "begin": 1,
+        "end": 1
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(F401) `argparse` imported but unused",
+    "fingerprint": "c7792a6c734e1e0",
+    "location": {
+      "lines": {
+        "begin": 1,
+        "end": 1
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(F401) `pathlib` imported but unused",
+    "fingerprint": "c3fbee63f14cbfd3",
+    "location": {
+      "lines": {
+        "begin": 2,
+        "end": 2
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(E741) Ambiguous variable name: `l`",
+    "fingerprint": "eba2429a2a58c873",
+    "location": {
+      "lines": {
+        "begin": 4,
+        "end": 4
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(E731) Do not assign a `lambda` expression, use a `def`",
+    "fingerprint": "30b805db06fa1b74",
+    "location": {
+      "lines": {
+        "begin": 4,
+        "end": 4
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(N801) Class name `wRONgCASinG` should use CapWords convention",
+    "fingerprint": "30247439fb7d81ad",
+    "location": {
+      "lines": {
+        "begin": 7,
+        "end": 7
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(D101) Missing docstring in public class",
+    "fingerprint": "13396a9f2c3b64c1",
+    "location": {
+      "lines": {
+        "begin": 7,
+        "end": 7
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(N802) Function name `meTHoD` should be lowercase",
+    "fingerprint": "b2060666d0714858",
+    "location": {
+      "lines": {
+        "begin": 8,
+        "end": 8
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(D102) Missing docstring in public method",
+    "fingerprint": "9952c4a34350c0d",
+    "location": {
+      "lines": {
+        "begin": 8,
+        "end": 8
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "(N805) First argument of a method should be named `self`",
+    "fingerprint": "676f31afca3057fc",
+    "location": {
+      "lines": {
+        "begin": 8,
+        "end": 8
+      },
+      "path": "misc/project_with_issues.py"
+    },
+    "severity": "major"
+  }
+]
