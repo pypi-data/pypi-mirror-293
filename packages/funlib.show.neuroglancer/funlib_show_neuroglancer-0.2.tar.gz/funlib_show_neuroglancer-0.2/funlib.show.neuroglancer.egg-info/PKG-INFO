@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: funlib.show.neuroglancer
+Version: 0.2
+Author-email: Jan Funke <funkej@janelia.hhmi.org>
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: neuroglancer>=2
+Requires-Dist: numpy
+Requires-Dist: zarr
+Requires-Dist: funlib.geometry>=0.3.0
+Requires-Dist: funlib.persistence>=0.5.0
