@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/openocr/__init__.py
+src/openocr/openocr.py
+src/openocr_python.egg-info/PKG-INFO
+src/openocr_python.egg-info/SOURCES.txt
+src/openocr_python.egg-info/dependency_links.txt
+src/openocr_python.egg-info/requires.txt
+src/openocr_python.egg-info/top_level.txt
