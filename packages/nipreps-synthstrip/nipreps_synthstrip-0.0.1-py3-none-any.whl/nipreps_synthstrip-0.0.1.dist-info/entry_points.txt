@@ -1,0 +1,2 @@
+[console_scripts]
+nipreps-synthstrip = nipreps.synthstrip.cli:main

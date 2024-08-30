@@ -1,0 +1,14 @@
+nipreps/synthstrip/__init__.py,sha256=2In2e00muogmJyM9z-QcEX-b05Vt88V8TGb06vg5MU8,91
+nipreps/synthstrip/__main__.py,sha256=OY1K0MNUA3RFUN65I3gbMNkQ7W5jz-Mj3jSYKhf30mA,1181
+nipreps/synthstrip/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+nipreps/synthstrip/cli.py,sha256=3VXUUikvTHuWS07uierD5r00mnmiRaFMD4I1czgsIMU,8044
+nipreps/synthstrip/model.py,sha256=zWJuAsx3kwawUkelgLGbrLvLlqlyZFTxQ9MUppKKOyk,6527
+nipreps/synthstrip/wrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nipreps/synthstrip/wrappers/nipype.py,sha256=YutITQIAihLLR-ELrk0MV9vVhcDhnzzPz1F1tMV-lYI,2595
+nipreps/synthstrip/wrappers/pydra.py,sha256=LvfZXIa8yN58yNceVdKUp3ligNDsWc2OmxOPh_9UWfM,3262
+nipreps_synthstrip-0.0.1.dist-info/METADATA,sha256=t8I1Jz9X0_kK6RhD4-u_ZVFQ5bQYGoT2FBsu2q4c6Ls,14931
+nipreps_synthstrip-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+nipreps_synthstrip-0.0.1.dist-info/entry_points.txt,sha256=BTCwdFNzT4OwhDMUF6794ZpltOTHCcLU-VtdAHQuoJw,67
+nipreps_synthstrip-0.0.1.dist-info/licenses/LICENSE,sha256=hsl28JANIIf8ItwkyjdozpLMUANcUA_bTTjT4Hz75hU,11355
+nipreps_synthstrip-0.0.1.dist-info/licenses/NOTICE,sha256=Kh3Gk7WfRucMqBGalwDVBMRC4yB28kdDzKc4KIfwJI0,612
+nipreps_synthstrip-0.0.1.dist-info/RECORD,,
