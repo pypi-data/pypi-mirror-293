@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reg-clients"
+description = "reg-clients"
+authors = [
+    {name = "belegnar", email="belegnar@belegnar.ru"}
+]
+dynamic = ["version"]
+requires-python = ">=3.12"
+dependencies = [
+    "marshmallow_recipe", "pytz", "reg-shared-lib>=0.0.7",
+]
+classifiers = [
+        "License :: OSI Approved :: MIT License",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Operating System :: OS Independent",
+        "Development Status :: 5 - Production/Stable",
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://reg.konvent.ru"
+
+[tool.setuptools]
+packages = ["reg_draft_client", "reg_accounts_client", "reg_events_client"]
+
+[tool.setuptools.package-data]
+reg_draft_client = ["py.typed", "VERSION"]
+reg_accounts_client = ["py.typed", "VERSION"]
+reg_events_client = ["py.typed", "VERSION"]
+
+[tool.setuptools.dynamic]
+version = { file = ["./VERSION"] }
+
+[tool.pyright]
+pythonVersion = "3.12"
+pythonPlatform = "All"
+stubPath = ""
+typeCheckingMode = "strict"
+useLibraryCodeForTypes = true
+reportPrivateImportUsage = false
+reportUnusedImport = false
+reportMissingTypeStubs = false

@@ -1,0 +1,3 @@
+reg_accounts_client
+reg_draft_client
+reg_events_client
