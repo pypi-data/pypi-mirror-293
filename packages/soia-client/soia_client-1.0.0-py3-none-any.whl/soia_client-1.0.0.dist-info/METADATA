@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: soia-client
+Version: 1.0.0
+Summary: Read the latest Real Python tutorials
+Author-email: Tyler Fibonacci <gepheum@gmail.com>
+Project-URL: Homepage, https://github.com/realpython/reader
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
