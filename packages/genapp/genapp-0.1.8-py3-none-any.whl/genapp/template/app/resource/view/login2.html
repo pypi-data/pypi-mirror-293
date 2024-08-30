@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/public/css/style.css" rel="stylesheet">
+    <title>Login Sing Up form using javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formcontain" id="login-form">
+            <form>
+                <label>Username</label>
+                <input type="text" id="username" class="username" requiered>
+                <label>Password</label>
+                <input type="password" id="password" class="password" required>
+                <button class="submitbtn">Login</button>
+            </form>
+            <div class="extra">
+                <span id="forget-link"><a href="">Forget Password?</a></span>
+                <span id="signup-link"><a href="">Sign Up?</a></span>
+            </div>
+        </div>
+        <div class="formcontain" id="signup-form" style="display:none;">
+            <form>
+                <label>Username</label>
+                <input type="text" id="username" class="username" requiered>
+                <label>Email</label>
+                <input type="email" id="email" class="email" requiered>
+                <label>Password</label>
+                <input type="password" id="password" class="password" required>
+                <button class="submitbtn">Sing Up</button>
+            </form>
+            <div class="extra">
+                <span id="forget-link"><a href="">Forget Password?</a></span>
+                <span id="login-link"><a href="">Login?</a></span>
+            </div>
+        </div>
+
+    </div>
+    <script src="/public/js/move.js"></script>
+
+</body>
+
+</html>
