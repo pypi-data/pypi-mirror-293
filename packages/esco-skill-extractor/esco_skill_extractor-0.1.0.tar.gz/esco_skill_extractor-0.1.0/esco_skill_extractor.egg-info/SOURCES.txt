@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+esco-skill-extractor/__init__.py
+esco_skill_extractor.egg-info/PKG-INFO
+esco_skill_extractor.egg-info/SOURCES.txt
+esco_skill_extractor.egg-info/dependency_links.txt
+esco_skill_extractor.egg-info/requires.txt
+esco_skill_extractor.egg-info/top_level.txt

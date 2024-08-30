@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: esco-skill-extractor
+Version: 0.1.0
+Summary: Extract ESCO skills from texts such as job descriptions or CVs
+Home-page: https://github.com/KonstantinosPetrakis/esco-skill-extractor
+Author: Konstantinos Petrakis
+Author-email: konstpetrakis01@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi==2024.7.4
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: filelock==3.15.4
+Requires-Dist: fsspec==2024.6.1
+Requires-Dist: huggingface-hub==0.24.6
+Requires-Dist: idna==3.8
+Requires-Dist: Jinja2==3.1.4
+Requires-Dist: joblib==1.4.2
+Requires-Dist: MarkupSafe==2.1.5
+Requires-Dist: mpmath==1.3.0
+Requires-Dist: networkx==3.3
+Requires-Dist: numpy==2.1.0
+Requires-Dist: nvidia-cublas-cu12==12.1.3.1
+Requires-Dist: nvidia-cuda-cupti-cu12==12.1.105
+Requires-Dist: nvidia-cuda-nvrtc-cu12==12.1.105
+Requires-Dist: nvidia-cuda-runtime-cu12==12.1.105
+Requires-Dist: nvidia-cudnn-cu12==9.1.0.70
+Requires-Dist: nvidia-cufft-cu12==11.0.2.54
+Requires-Dist: nvidia-curand-cu12==10.3.2.106
+Requires-Dist: nvidia-cusolver-cu12==11.4.5.107
+Requires-Dist: nvidia-cusparse-cu12==12.1.0.106
+Requires-Dist: nvidia-nccl-cu12==2.20.5
+Requires-Dist: nvidia-nvjitlink-cu12==12.6.20
+Requires-Dist: nvidia-nvtx-cu12==12.1.105
+Requires-Dist: packaging==24.1
+Requires-Dist: pandas==2.2.2
+Requires-Dist: pillow==10.4.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.1
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: regex==2024.7.24
+Requires-Dist: requests==2.32.3
+Requires-Dist: safetensors==0.4.4
+Requires-Dist: scikit-learn==1.5.1
+Requires-Dist: scipy==1.14.1
+Requires-Dist: sentence-transformers==3.0.1
+Requires-Dist: setuptools==74.0.0
+Requires-Dist: six==1.16.0
+Requires-Dist: sympy==1.13.2
+Requires-Dist: threadpoolctl==3.5.0
+Requires-Dist: tokenizers==0.19.1
+Requires-Dist: torch==2.4.0
+Requires-Dist: tqdm==4.66.5
+Requires-Dist: transformers==4.44.2
+Requires-Dist: triton==3.0.0
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: tzdata==2024.1
+Requires-Dist: urllib3==2.2.2
+
+# ESCO Skill Extractor
+
+This is a a tool that extract **ESCO skills from texts** such as job descriptions or CVs. It uses a special embedding model that allows prompts, called `instructor`.
+
+## Installation
+
+```bash
+pip install esco-skill-extractor
+```
+
+## Usage
+
+```python
+from esco_skill_extractor import SkillExtractor
+
+# `device` kwarg is optional and defaults to 'cpu', `cuda` or others can be used.
+# `threshold` kwarg is optional and defaults to 0.8, it's the cosine similarity threshold.
+skill_extractor = SkillExtractor()
+
+ads = [
+    "We are looking for a software engineer with experience in Java and Python.",
+    "We are looking for a devops engineer. Containerization tools such as Docker is a must. AWS is a plus."
+    # ...
+]
+
+print(skill_extractor.get_skills(ads))
+
+# Output:
+# [
+#     [
+#         {
+#             "id": "bf4d884f-c848-402a-b130-69c266b04164",
+#             "label": "apply basic programming skills"
+#         }
+#     ],
+#     [
+#         {
+#             "id": "f0de4973-0a70-4644-8fd4-3a97080476f4",
+#             "label": "DevOps"
+#         },
+#         {
+#             "id": "1b2ec9bb-ba7c-4f93-87ac-ec712c9b68c3", 
+#             "label": "install containers"
+#         },
+#         {
+#             "id": "6b643893-0a1f-4f6c-83a1-e7eef75849b9",
+#             "label": "develop with cloud services"
+#         }
+#     ]
+# ]
+```
+
+## Considerations
+
+While there's been some effort to make the model ignore irrelevant information such as company names, contact information, recruitment hustle and others, the model still tries to extract skills from them sometimes.
+
+For instance a salary range could be interpreted as a skill `determine salaries`.
+
+It is advised to clean the texts before passing them to the model if possible.
+
+## How it works
+
+1. It creates embeddings from esco skills found in the official ESCO website.
+2. It creates embeddings from the input text (one for each sentence).
+3. It compares the embeddings of the text with the embeddings of the ESCO skills using cosine similarity.
+4. It returns the most similar esco skill per sentence if its similarity passes a predefined threshold.
+
+## References
+
+-   [Instructor model](https://huggingface.co/hkunlp/instructor-base)
+-   [ESCO](https://ec.europa.eu/esco/portal/home)
