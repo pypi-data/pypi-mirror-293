@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: spl_transpiler
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: black
+Requires-Dist: pytest ; extra == 'test'
+Provides-Extra: test
+License-File: LICENSE
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Overview
+
+`spl_transpiler` is a Rust + Python port of [Databricks Labs' `spl_transpiler`](https://github.com/databrickslabs/transpiler).
+The goal is to provide a high-performance, highly portable, convenient tool for adapting common SPL code into PySpark code when possible, making it easy to migrate from Splunk to other data platforms for log processing.
+
+# Installation
+
+```pip install spl_transpiler```
+
