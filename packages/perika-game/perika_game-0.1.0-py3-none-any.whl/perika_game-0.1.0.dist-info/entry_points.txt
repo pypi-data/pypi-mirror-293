@@ -1,0 +1,2 @@
+[console_scripts]
+perika = perika.main:app
