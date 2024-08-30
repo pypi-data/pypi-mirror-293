@@ -1,0 +1,5 @@
+[console_scripts]
+golgotha = golgotha:main
+
+[gui_scripts]
+golgotha = golgotha:main
