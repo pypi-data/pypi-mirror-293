@@ -1,0 +1,7 @@
+README.md
+setup.py
+hello_world_rafaellfaria/__init__.py
+hello_world_rafaellfaria.egg-info/PKG-INFO
+hello_world_rafaellfaria.egg-info/SOURCES.txt
+hello_world_rafaellfaria.egg-info/dependency_links.txt
+hello_world_rafaellfaria.egg-info/top_level.txt
