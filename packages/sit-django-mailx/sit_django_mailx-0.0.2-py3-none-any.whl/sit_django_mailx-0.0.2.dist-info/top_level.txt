@@ -1,0 +1,2 @@
+django_mail_engin_pkg
+sit_django_mail
