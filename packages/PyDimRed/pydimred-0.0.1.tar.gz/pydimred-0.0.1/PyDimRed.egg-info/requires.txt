@@ -1,0 +1,11 @@
+scikit-learn
+numpy
+pandas
+joblib
+seaborn
+matplotlib
+umap-learn
+trimap
+pacmap
+openTSNE
+pathlib
