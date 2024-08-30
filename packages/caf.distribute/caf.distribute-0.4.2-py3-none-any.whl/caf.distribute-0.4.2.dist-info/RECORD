@@ -1,0 +1,17 @@
+caf/distribute/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+caf/distribute/_version.py,sha256=vDDTQqAeGL6eReBosSkcpjob_W0nNCARbBKgMeEDTwY,420
+caf/distribute/array_utils.py,sha256=qDYjhJ1rh7WrQRI_UO5kZy3P3wnYHkNhVr9MNM_qrls,16186
+caf/distribute/cost_functions.py,sha256=jwAlACzh-FKzB8Df3OG4QZxlLn2Ny-TE4Cl9fPpa3u8,9467
+caf/distribute/furness.py,sha256=ViGwxXIYa3inxSHGNtTRFKCW-gMu65zw6R8uE3STFLQ,5110
+caf/distribute/iterative_proportional_fitting.py,sha256=7RTGly92BuszPq8HviRqv7R8ywKHAq5GstBnpzFezoA,35690
+caf/distribute/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caf/distribute/utils.py,sha256=F3fE9Yl4U2wBEGy9yhQd0lXXQLw5TD8u58QN7pktYmY,3137
+caf/distribute/gravity_model/__init__.py,sha256=ydo1kNDqF3UqPOyFe7eYhDhQNW5buQg4He6JXMVJdsI,531
+caf/distribute/gravity_model/core.py,sha256=V8_A3ljvOuEU0rxHMXmToUtjARyWHXhyfuw0azb1Hds,19461
+caf/distribute/gravity_model/multi_area.py,sha256=G3daozy5xOiNF93mkvwDLQokSn6YaZHIEb1Ux8Ope8g,26584
+caf/distribute/gravity_model/single_area.py,sha256=uh2p4dyBbcALQ0kfHfwMXUEja4lBziuCBz3wVDoaL7Q,33794
+caf.distribute-0.4.2.dist-info/LICENSE,sha256=myR6x-Y54peiVMh5D5J-SA3X4UW-HSy3lCH5JUSy6Tc,2155
+caf.distribute-0.4.2.dist-info/METADATA,sha256=WdurIbh5qaloc8uTskufNEemzDWhM6eFHgSnuVr2xtE,6399
+caf.distribute-0.4.2.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+caf.distribute-0.4.2.dist-info/top_level.txt,sha256=8dRylPLtiVOyfFCERkOsT62REE5eORmV3dStT58kC9o,4
+caf.distribute-0.4.2.dist-info/RECORD,,
