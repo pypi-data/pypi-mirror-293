@@ -1,0 +1,9 @@
+settings:
+  timeout: 0.5 # timeout between jobs (seconds)
+
+jobs:
+  greeting: # job_name
+    quite: False # nugit ignores job output if True (default=False)
+    required: True # is successful completion required?
+    run: # commands list
+      - echo "Hi from Nugit!" # actual command
