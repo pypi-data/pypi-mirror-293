@@ -1,0 +1,11 @@
+flask_crud_generator/__init__.py,sha256=RSPhq52NCg2KXdzVB8kS1e6_t1BNI6kF-GumdcoD2KY,38
+flask_crud_generator/generator.py,sha256=m2mxxS9bWSpTENoJtUpn1p1OC5C-Ix9tRGrxS7EWNu8,2080
+tests/__init__.py,sha256=_qaKw7DcyxKAyXeFJlLrY3qQMDw8nOmZCC6sGTD2SC0,966
+tests/conftest.py,sha256=N5_fPHtCcOzN0ykhcVZe-FzE39DF45Igp0Dgxe-VUnI,409
+tests/models.py,sha256=UU-UcjvG9DD6CAszzfWL942uD4Jfu1vUJf0wVsLDl-I,713
+tests/test_generator.py,sha256=s1kYHuxU97IDLWINB328AptudCRJmEbBk99qV4BnHrs,1765
+flask_crud_generator-0.2.0.dist-info/LICENSE,sha256=Yu9cTMdgFDh4wd-4lsT41Ycfo0jHGI9Dsm5HT33jcpc,1091
+flask_crud_generator-0.2.0.dist-info/METADATA,sha256=yOYyn7WijKJaeVduPBc-XC3Zcb62ZU9jPSe0LKU2oCI,2055
+flask_crud_generator-0.2.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+flask_crud_generator-0.2.0.dist-info/top_level.txt,sha256=UmL5Av_rXN11tHBb54xE4EGsq7o3Xb8XNWo3HFa-gKk,27
+flask_crud_generator-0.2.0.dist-info/RECORD,,
