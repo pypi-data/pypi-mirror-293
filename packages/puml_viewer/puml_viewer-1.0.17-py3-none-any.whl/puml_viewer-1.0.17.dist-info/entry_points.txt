@@ -1,0 +1,3 @@
+[console_scripts]
+puml_viewer=puml_viewer.__main__:main
+
