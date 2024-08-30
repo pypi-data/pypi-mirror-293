@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: beta-dia
+Version: 0.0.4
+Summary: A cool project that does something awesome on diaPASEF data.
+Author: Song Jian
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numba
+Requires-Dist: pandas
+Requires-Dist: pyzstd
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+
