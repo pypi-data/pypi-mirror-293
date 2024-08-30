@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: litlyx-sender
+Version: 0.1.0
+Summary: A Python library for sending events to LitLyx
+Home-page: https://github.com/vchaindz/litlyx-sender
+Author: Dennis Zimmer
+Author-email: dennis@dzlabs.ch
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.25.1
+
+# LitLyx Sender
+
+LitLyx Sender is a Python library for easily sending events to the LitLyx platform.
+
+## Installation
+
+You can install LitLyx Sender using pip:
+
+```
+pip install litlyx-sender
+```
+
+## Usage
+
+Here's a basic example of how to use LitLyx Sender:
+
+```python
+from litlyx_sender import LitLyxSender
+
+# Create a sender instance
+sender = LitLyxSender()
+
+# Send a simple event
+sender.send_event(name="test_event", metadata={"test": "value"})
+
+# Use the decorator
+@sender.event_decorator(name="decorated_event", metadata={"decorated": True})
+def example_function():
+    print("This is an example function.")
+
+example_function()
+```
+
+## Configuration
+
+You can configure the LitLyxSender with custom default values:
+
+```python
+sender = LitLyxSender(
+    url="https://custom.litlyx.com/event",
+    default_pid="custom_pid",
+    default_name="custom_event",
+    default_metadata={"custom": "metadata"},
+    default_website="custom.website.com",
+    default_user_agent="CustomApp/1.0"
+)
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
