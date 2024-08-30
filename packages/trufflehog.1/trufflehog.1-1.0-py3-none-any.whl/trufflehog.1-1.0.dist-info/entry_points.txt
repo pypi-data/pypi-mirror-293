@@ -1,0 +1,2 @@
+[console_scripts]
+install-trufflehog = trufflehog_installer.trufflehog:main
