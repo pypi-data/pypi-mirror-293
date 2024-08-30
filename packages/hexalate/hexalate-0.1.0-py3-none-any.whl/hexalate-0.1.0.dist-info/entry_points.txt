@@ -1,0 +1,3 @@
+[console_scripts]
+hexalate=hexalate.__main__:main
+
