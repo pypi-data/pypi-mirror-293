@@ -1,0 +1,12 @@
+porechopx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+porechopx/adapters.py,sha256=i5wpeKtHFM58HboVRxp6wpiexKDqyo1zWPu4UHHD8to,32765
+porechopx/logger.py,sha256=3JARPFIEvrQuaqQ8MjUubwE5pi4shrnwRidvpXJYatc,859
+porechopx/main.py,sha256=0CFbgWLza9xkXD9cHbNnFjBkOu7TKianmESVHEcKFD8,14308
+porechopx/misc.py,sha256=K7kj7-siuQyrQEQ5jh-DMe8k2Kfj9cuszjFp3LAeE0E,13062
+porechopx/parser.py,sha256=ONlYLB9Jk-i4jZ7Yo96_7npT31s0RMlaO51vv6uSqwY,23159
+porechopx/porechop.py,sha256=QAXTVE1tfju_eKQl0cS-DKaNUL2bQvWlAuk1hRQpafA,32395
+porechopx-0.2.0.dist-info/LICENSE,sha256=XUbe6iEM1FMC-qnNbfuG2-MqhPn_VO5xGHXizbCR72Y,35129
+porechopx-0.2.0.dist-info/METADATA,sha256=vqAnaS0WI2h9aL97Cj6K9rDjZhHXnb8qFpoKRT9Atns,11517
+porechopx-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+porechopx-0.2.0.dist-info/entry_points.txt,sha256=tsuVIK1zum_W0ZjvL2g86KOjCFBJX0VwkhN_Sy9kA1s,49
+porechopx-0.2.0.dist-info/RECORD,,
