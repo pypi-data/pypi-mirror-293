@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sleuth-kit
+Version: 0.0.0
+Summary: A flexible and extensible osint toolkit with a focus on blockchain investigations and intelligence gathering.
+Home-page: https://sleuth.fi
+Author: Sleuth
+Author-email: team@sleuth.fi
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://docs.sleuth.fi
+Project-URL: Repository, https://github.com/sleuth-fi/sleuth-kit
+Description-Content-Type: text/markdown
+
+# sleuth-kit
+
+A flexible and extensible osint toolkit with a focus on blockchain investigations and intelligence gathering.
+
