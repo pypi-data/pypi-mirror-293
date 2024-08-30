@@ -1,0 +1,8 @@
+biblioteca_grafos/__init__.py,sha256=m28PneoEVB8V1Rw-HhBvuFzN4_5PzN4xOxAY2jDMvPg,24
+biblioteca_grafos/grafo.py,sha256=8sagLWKWQo2j7TQDv0RY5RrhuEm-iJVeB-HT1-62Z-k,10117
+testes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testes/teste_minha_classe.py,sha256=h8zyqRhE5z9_5RQdsM9HoP-i1aSaB_n44zSgIDQbp3o,416
+biblioteca_grafos-0.1.dist-info/METADATA,sha256=R9myQfOIW-bBGZM04F6RRdaiPaVmrS4R-yI6wVjp_Xk,384
+biblioteca_grafos-0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+biblioteca_grafos-0.1.dist-info/top_level.txt,sha256=O7t4-VbqtuHiFIfiXsMdFiyaxu_FihY0nUJ8Cl36lqM,25
+biblioteca_grafos-0.1.dist-info/RECORD,,
