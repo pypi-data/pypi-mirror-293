@@ -1,0 +1,61 @@
+{% extends 'core/base_print.html' %}
+
+{% load i18n static %}
+
+{% block extra_head %}
+  <link rel="stylesheet" href="{% static "plank/print.css" %}">
+{% endblock %}
+
+{% block browser_title %}{% blocktrans %}Print: Check out form{% endblocktrans %}{% endblock %}
+{% block page_title %}{% blocktrans %}Check out form{% endblocktrans %}{% endblock %}
+
+{% block content %}
+  <h4>{% trans "Check out form" %}</h4>
+  <div class="margin-bottom">
+    <span class="two-part">
+      <span>{{ process.borrowing_person.full_name }}</span>
+      <small>{% trans "Name of the borrowing person" %}</small>
+    </span>
+    <span>
+      {% trans "has borrowed the following items on" %}
+    </span>
+    <span class="two-part">
+      <span>{{ process.checked_out_at|date }}</span>
+      <small>{% trans "Date" %}</small>
+    </span>
+    <span>{% trans "by" %}</span>
+    <span class="two-part">
+      <span>{{ process.lending_person.full_name }}</span>
+      <small>{% trans "Name of the lending person" %}</small>
+    </span>
+  </div>
+  <ul class="browser-default">
+    {% for checked_out_item in process.checked_out_items.all %}
+      <li>{{ checked_out_item.item.name }} ({% if checked_out_item.item.item_type %}{{ checked_out_item.item.item_type.name }}
+        , {% endif %}{{ checked_out_item.item.barcode }})
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if process.condition %}
+    {{ process.condition.text|linebreaks }}
+  {% endif %}
+
+  {% if process.check_in_until %}
+    <p>{% trans "Agreed check in date" %}: {{ process.check_in_until }}</p>
+  {% endif %}
+
+  <div class="row no-margin no-padding">
+    <div class="col s5 no-padding">
+      <span class="signature">
+        {% blocktrans with name=process.borrowing_person.full_name %}Signature of {{ name }}{% endblocktrans %}
+      </span>
+    </div>
+    <div class="col s2"></div>
+    <div class="col s5 no-padding">
+      <span class="signature">
+        {% blocktrans with name=process.lending_person.full_name %}Signature of {{ name }}{% endblocktrans %}
+      </span>
+    </div>
+  </div>
+{% endblock %}

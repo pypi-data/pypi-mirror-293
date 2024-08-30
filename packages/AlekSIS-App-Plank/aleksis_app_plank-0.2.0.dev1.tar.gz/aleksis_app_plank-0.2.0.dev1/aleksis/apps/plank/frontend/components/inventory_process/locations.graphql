@@ -1,0 +1,7 @@
+#import "../location/baseFragment.graphql"
+
+{
+  locations(permission: "plank.create_item") {
+    ...LocationBaseParts
+  }
+}

@@ -1,0 +1,12 @@
+#import "../item/extendedFragment.graphql"
+
+query ($id: ID!) {
+  item: checkOutItemsById(id: $id) {
+    item {
+      ...ItemExtendedParts
+    }
+    containedItems {
+      ...ItemExtendedParts
+    }
+  }
+}

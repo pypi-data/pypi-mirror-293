@@ -1,0 +1,15 @@
+#import "./baseFragment.graphql"
+
+fragment InventoryEditParts on InventoryType {
+  ...InventoryBaseParts
+  checkOutGroups {
+    id
+    name
+  }
+  checkOutCreateGroup {
+    id
+    name
+  }
+  canEdit
+  canDelete
+}

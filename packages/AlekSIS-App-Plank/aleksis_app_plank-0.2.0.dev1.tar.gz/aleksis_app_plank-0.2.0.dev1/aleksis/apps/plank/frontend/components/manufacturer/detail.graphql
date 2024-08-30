@@ -1,0 +1,9 @@
+#import "./extendedFragment.graphql"
+
+query ($id: ID!) {
+  item: manufacturerById(id: $id) {
+    ...ManufacturerExtendedParts
+    canEdit
+    canDelete
+  }
+}

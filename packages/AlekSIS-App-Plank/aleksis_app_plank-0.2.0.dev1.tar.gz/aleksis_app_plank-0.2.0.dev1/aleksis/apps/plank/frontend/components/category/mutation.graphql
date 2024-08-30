@@ -1,0 +1,9 @@
+#import "./editFragment.graphql"
+
+mutation categoryMutation($input: CategoryMutationInput!) {
+  category(input: $input) {
+    category {
+      ...CategoryEditParts
+    }
+  }
+}

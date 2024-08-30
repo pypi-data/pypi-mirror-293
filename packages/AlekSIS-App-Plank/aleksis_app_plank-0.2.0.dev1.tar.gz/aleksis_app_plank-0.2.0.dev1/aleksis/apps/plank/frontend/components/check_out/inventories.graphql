@@ -1,0 +1,15 @@
+#import "../inventory/baseFragment.graphql"
+#import "../check_out_condition/extendedFragment.graphql"
+
+query {
+  inventories(permission: "plank.check_out") {
+    ...InventoryBaseParts
+    checkOutConditions {
+      ...CheckOutConditionExtendedParts
+    }
+    checkOutPersons {
+      id
+      fullName
+    }
+  }
+}

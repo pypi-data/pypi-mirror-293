@@ -1,0 +1,19 @@
+#import "./extendedFragment.graphql"
+#import "../item/editFragment.graphql"
+#import "./baseFragment.graphql"
+
+query ($id: ID!) {
+  item: locationById(id: $id) {
+    ...LocationExtendedParts
+    itemsCount
+    canEdit
+    canDelete
+    items {
+      ...ItemEditParts
+    }
+    children {
+      id
+      name
+    }
+  }
+}

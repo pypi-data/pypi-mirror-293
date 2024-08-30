@@ -1,0 +1,9 @@
+#import "./extendedFragment.graphql"
+
+fragment ManufacturerEditParts on ManufacturerType {
+  ...ManufacturerExtendedParts
+  canEdit
+  canDelete
+  itemsCount
+  itemTypesCount
+}

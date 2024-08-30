@@ -1,0 +1,5 @@
+fragment ItemBaseParts on ItemGrapheneType {
+  id
+  barcode
+  name
+}

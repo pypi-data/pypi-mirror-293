@@ -1,0 +1,24 @@
+#import "./baseFragment.graphql"
+#import "../inventory/baseFragment.graphql"
+#import "../check_out_condition/baseFragment.graphql"
+
+fragment CheckOutProcessExtendedParts on CheckOutProcessType {
+  ...CheckOutProcessBaseParts
+  lendingPerson {
+    fullName
+  }
+  borrowingPerson {
+    fullName
+  }
+  inventory {
+    ...InventoryBaseParts
+  }
+  condition {
+    ...CheckOutConditionBaseParts
+  }
+  checkInUntil
+  isEverythingCheckedIn
+  isInTime
+  checkOutForm
+  checkInForm
+}

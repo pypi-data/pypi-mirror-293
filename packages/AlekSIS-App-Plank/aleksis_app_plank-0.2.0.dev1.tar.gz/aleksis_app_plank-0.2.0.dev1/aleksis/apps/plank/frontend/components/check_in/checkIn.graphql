@@ -1,0 +1,15 @@
+mutation ($idOrBarcode: ID!) {
+  checkIn(idOrBarcode: $idOrBarcode) {
+    checkedOutItems {
+      process {
+        id
+        checkInForm
+      }
+      item {
+        id
+        name
+      }
+    }
+    status
+  }
+}

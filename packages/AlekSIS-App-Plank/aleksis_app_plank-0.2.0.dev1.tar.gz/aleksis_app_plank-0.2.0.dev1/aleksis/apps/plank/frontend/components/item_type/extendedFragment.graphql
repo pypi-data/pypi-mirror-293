@@ -1,0 +1,16 @@
+#import "./baseFragment.graphql"
+#import "../manufacturer/baseFragment.graphql"
+#import "../category/baseFragment.graphql"
+
+fragment ItemTypeExtendedParts on ItemTypeType {
+  ...ItemTypeBaseParts
+  manufacturer {
+    ...ManufacturerBaseParts
+  }
+  category {
+    ...CategoryBaseParts
+  }
+  description
+  image
+  partNumber
+}

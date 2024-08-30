@@ -1,0 +1,4 @@
+fragment ItemTypeBaseParts on ItemTypeType {
+  id
+  name
+}

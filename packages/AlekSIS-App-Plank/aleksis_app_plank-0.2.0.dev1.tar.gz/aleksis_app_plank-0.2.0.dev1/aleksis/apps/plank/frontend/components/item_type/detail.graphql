@@ -1,0 +1,13 @@
+#import "./extendedFragment.graphql"
+#import "../item/editFragment.graphql"
+
+query ($id: ID!) {
+  item: itemTypeById(id: $id) {
+    ...ItemTypeExtendedParts
+    canEdit
+    canDelete
+    items {
+      ...ItemEditParts
+    }
+  }
+}

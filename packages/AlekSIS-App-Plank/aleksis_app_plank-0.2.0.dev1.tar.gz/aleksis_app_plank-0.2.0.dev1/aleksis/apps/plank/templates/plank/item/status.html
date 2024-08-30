@@ -1,0 +1,19 @@
+{% load i18n %}
+
+{% if item.is_available %}
+  <span class="badge new green">{% trans "Available" %}</span>
+  {% if item.location and not short %}
+    <a href="{% url "plank_locations_detail" item.location.pk %}">
+      ({{ item.location }})
+    </a>
+  {% endif %}
+{% else %}
+  <span class="badge new red">{% if not short %}{% trans "Checked out to" %}{% else %}{% trans "Checked out" %}{% endif %}</span>
+
+  {% if not short %}
+    <a href="{% url "plank_checks_view" item.current_checked_out_item.process.id %}">
+      {{ current_checked_out_item.process.borrowing_person.full_name }},
+      #{{ current_checked_out_item.process.id }}
+    </a>
+  {% endif %}
+{% endif %}

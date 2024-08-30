@@ -1,0 +1,7 @@
+query formData {
+  canCreate: permission(permission: "plank.create_inventory_rule")
+  groups: groupsForInventory {
+    id
+    name
+  }
+}

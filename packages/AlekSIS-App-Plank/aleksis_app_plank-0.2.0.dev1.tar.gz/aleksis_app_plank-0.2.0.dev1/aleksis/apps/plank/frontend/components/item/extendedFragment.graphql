@@ -1,0 +1,36 @@
+#import "./baseFragment.graphql"
+#import "../item_type/baseFragment.graphql"
+#import "../category/baseFragment.graphql"
+#import "../inventory/baseFragment.graphql"
+#import "../location/baseFragment.graphql"
+
+fragment ItemExtendedParts on ItemGrapheneType {
+  ...ItemBaseParts
+  inventory {
+    ...InventoryBaseParts
+  }
+  category {
+    ...CategoryBaseParts
+  }
+  itemType {
+    ...ItemTypeBaseParts
+  }
+  location {
+    ...LocationBaseParts
+  }
+  isLocation {
+    ...LocationBaseParts
+  }
+  serialNumber
+  notes
+  lastTimeSeenAt
+  isAvailable
+  currentCheckedOutItem {
+    process {
+      id
+      borrowingPerson {
+        fullName
+      }
+    }
+  }
+}

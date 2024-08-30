@@ -1,0 +1,4 @@
+fragment CheckOutProcessBaseParts on CheckOutProcessType {
+  id
+  checkedOutAt
+}

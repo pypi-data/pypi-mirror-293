@@ -1,0 +1,230 @@
+{
+  "plank": {
+    "menu_title": "Inventory",
+    "inventory": {
+      "title": "Inventory",
+      "title_plural": "Inventories",
+      "menu_title": "Inventories",
+      "overview": {
+        "title": "Overview about inventory",
+        "inventory_title": "Inventory",
+        "check_title": "Check out/Check in",
+        "status_title": "Inventory status",
+        "inventory_process": "Inventory process",
+        "status": {
+          "inventoried_items": "Inventoried items",
+          "item_types": "Item types",
+          "available_items": "Available items",
+          "checked_out_items": "Checked out items",
+          "not_in_time": "thereof not in time",
+          "all_items": "All items",
+          "all_item_types": "All item types",
+          "all_check_out_processes": "All check out processes"
+        }
+      },
+      "delete_question": "Are you sure that you want to delete this inventory?",
+      "actions": {
+        "create": "Create new inventory",
+        "edit": "Edit inventory",
+        "delete": "Delete inventory",
+        "show_dashboard": "Show dashboard"
+      }
+    },
+    "category": {
+      "title": "Category",
+      "title_plural": "Categories",
+      "menu_title": "Categories",
+      "delete_question": "Are you sure that you want to delete this category?",
+      "actions": {
+        "create": "Create new category",
+        "edit": "Edit category",
+        "delete": "Delete category"
+      }
+    },
+    "manufacturer": {
+      "title": "Manufacturer",
+      "title_plural": "Manufacturers",
+      "menu_title": "Manufacturers",
+      "delete_question": "Are you sure that you want to delete this manufacturer?",
+      "actions": {
+        "create": "Create new manufacturer",
+        "edit": "Edit manufacturer",
+        "delete": "Delete manufacturer"
+      }
+    },
+    "location": {
+      "title": "Location",
+      "title_plural": "Locations",
+      "menu_title": "Locations",
+      "parents": "Parents",
+      "delete_question": "Are you sure that you want to delete this location?",
+      "actions": {
+        "create": "Create new location",
+        "edit": "Edit location",
+        "delete": "Delete location"
+      },
+      "sort_or_check": {
+        "title": "Sort in items or check their status",
+        "scan_hint": "You either can enter IDs or scan barcodes of items. Then, the system will check the status of the item.",
+        "action": "Sort in or check presence",
+        "ongoing_title": "Ongoing completeness check",
+        "items_registered": "Items registered at this location",
+        "items_missing": "Missing items",
+        "items_moved": "Items moved to this location",
+        "download_completeness_report": "Download completeness report",
+        "currently_checked_out": {
+          "title": "Item currently checked out",
+          "text": "The following item is currently checked out:",
+          "question": "Do you want to check it in?",
+          "no": "No",
+          "yes": "Yes, check in"
+        },
+        "moved_success": "The item has been successfully moved to this location.",
+        "in_place_success": "The item is in place."
+      }
+    },
+    "item_type": {
+      "title": "Item type",
+      "title_plural": "Item types",
+      "menu_title": "Item types",
+      "delete_question": "Are you sure that you want to delete this item type?",
+      "actions": {
+        "create": "Create new item type",
+        "edit": "Edit item type",
+        "delete": "Delete item type"
+      }
+    },
+    "item": {
+      "title": "Item",
+      "title_plural": "Items",
+      "menu_title": "Items",
+      "delete_question": "Are you sure that you want to delete this item?",
+      "container": "Container",
+      "actions": {
+        "create": "Create new item",
+        "edit": "Edit item",
+        "delete": "Delete item",
+        "show": "Show item",
+        "save": "Save item"
+      },
+      "status": {
+        "available": "Available",
+        "checked_out": "Checked out",
+        "checked_out_to": "Checked out to",
+        "checked_in": "Checked in"
+      },
+      "inventory_process": {
+        "title": "Inventory process",
+        "menu_title": "Inventory process",
+        "whats_next": "New item created: What's next?",
+        "create_another_item": "Create another item",
+        "barcode_name_title": "Barcode and name",
+        "barcode_hint": "At this point, an existing, custom barcode can be scanned.",
+        "inventory_title": "Select inventory",
+        "category_title": "Select category",
+        "item_type_title": "Select item type",
+        "location_title": "Select location",
+        "meta_title": "Additional meta data"
+      }
+    },
+    "person": {
+      "title": "Person",
+      "title_plural": "Persons"
+    },
+    "check_out_condition": {
+      "title": "Check out condition",
+      "title_plural": "Check out conditions"
+    },
+    "check_out": {
+      "title": "Check out",
+      "title_plural": "Check outs",
+      "menu_title": "Check out",
+      "process": {
+        "select_borrowing_person_title": "Select borrowing person",
+        "select_items_title": "Scan or select items",
+        "scan_hint": "You either can enter IDs or scan barcodes of items.",
+        "add_item": "Add item",
+        "finish_scanning": "Finish scanning",
+        "confirm_check_out_title": "Confirm check out",
+        "confirm_check_out": "Confirm check out",
+        "cancel_check_out": "Cancel check out",
+        "finished_successfully": "The check out has been finished successfully.",
+        "download_form": "Download check out form",
+        "another_check_out": "Do another check out",
+        "messages": {
+          "already_added": "This item has already been added to the check out list.",
+          "not_found": "There is no item with this ID or barcode.",
+          "checked_out": "This item is currently checked out.",
+          "added": "The item has been added to the check out list."
+        }
+      }
+    },
+    "check_in": {
+      "title": "Check in",
+      "menu_title": "Check in",
+      "process": {
+        "title": "Scan objects to check in",
+        "scan_hint": "You either can enter IDs or scan barcodes of items.",
+        "check_in": "Check in",
+        "checked_in_successfully": "The item has been successfully checked in.",
+        "download_form": "Download check in form",
+        "show_process": "Show check out process",
+        "messages": {
+          "not_found": "There is no item with this ID or barcode.",
+          "checked_in": "The item has been successfully checked in.",
+          "not_checked_out": "The item is not checked out."
+        }
+      }
+    },
+    "check_out_process": {
+      "title": "Check out process",
+      "title_plural": "Check out processes",
+      "menu_title": "Check out processes",
+      "checked_out_items": "Checked out items",
+      "actions": {
+        "edit": "Edit check out process"
+      },
+      "status": {
+        "checked_in": "All items checked in",
+        "checked_out": "Checked out items",
+        "not_in_time": "Checked out items overdue"
+      }
+    },
+    "labels": {
+      "id": "ID",
+      "id_barcode": "ID/Barcode",
+      "name": "Name",
+      "notes": "Notes",
+      "icon": "Icon",
+      "colour": "Colour",
+      "check_out_groups": "Groups with check out permission",
+      "check_out_create_group": "Group for persons created at check out",
+      "status": "Status",
+      "description": "Description",
+      "part_number": "Part number",
+      "barcode": "Barcode",
+      "serial_number": "Serial number",
+      "last_time_seen_at": "Last time seen at",
+      "checked_out_at": "Checked out at",
+      "checked_in_at": "Checked in at",
+      "borrowing_person": "Checked out to",
+      "lending_person": "Checked out by",
+      "check_in_until": "Check in until",
+      "is_location": "Is location"
+    },
+    "loading": "Loading ...",
+    "actions": {
+      "title": "Actions",
+      "edit": "Edit",
+      "delete": "Delete",
+      "close": "Close",
+      "save": "Save",
+      "cancel": "Cancel",
+      "back_to_overview": "Back to overview",
+      "back": "Back",
+      "show": "Show",
+      "show_more": "Show more"
+    },
+    "delete_question": "Are you sure that you want to delete this item?"
+  }
+}

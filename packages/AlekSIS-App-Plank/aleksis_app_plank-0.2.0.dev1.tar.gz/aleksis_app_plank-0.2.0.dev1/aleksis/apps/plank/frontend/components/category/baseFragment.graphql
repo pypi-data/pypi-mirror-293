@@ -1,0 +1,6 @@
+fragment CategoryBaseParts on CategoryType {
+  id
+  name
+  icon
+  colour
+}

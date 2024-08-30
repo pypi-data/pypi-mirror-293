@@ -1,0 +1,5 @@
+fragment CheckOutConditionBaseParts on CheckOutConditionType {
+  id
+  text
+  default
+}

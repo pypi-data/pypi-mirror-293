@@ -1,0 +1,4 @@
+fragment LocationBaseParts on LocationChildrenType {
+  id
+  name
+}

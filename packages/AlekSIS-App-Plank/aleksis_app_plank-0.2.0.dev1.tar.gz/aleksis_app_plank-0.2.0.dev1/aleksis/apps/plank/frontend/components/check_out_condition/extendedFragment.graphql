@@ -1,0 +1,9 @@
+#import "./baseFragment.graphql"
+#import "../inventory/baseFragment.graphql"
+
+fragment CheckOutConditionExtendedParts on CheckOutConditionType {
+  ...CheckOutConditionBaseParts
+  inventory {
+    ...InventoryBaseParts
+  }
+}

@@ -1,0 +1,4 @@
+query formData {
+  icons
+  canCreate: permission(permission: "plank.create_category_rule")
+}

@@ -1,0 +1,4 @@
+fragment InventoryBaseParts on InventoryType {
+  id
+  name
+}

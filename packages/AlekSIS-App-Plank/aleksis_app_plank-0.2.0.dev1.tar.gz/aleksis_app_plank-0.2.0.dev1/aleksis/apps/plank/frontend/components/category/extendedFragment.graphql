@@ -1,0 +1,6 @@
+#import "./baseFragment.graphql"
+
+fragment CategoryExtendedParts on CategoryType {
+  ...CategoryBaseParts
+  notes
+}

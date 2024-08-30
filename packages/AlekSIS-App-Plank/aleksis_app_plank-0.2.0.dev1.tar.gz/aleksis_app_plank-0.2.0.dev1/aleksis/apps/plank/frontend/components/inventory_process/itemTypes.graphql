@@ -1,0 +1,7 @@
+#import "../item_type/baseFragment.graphql"
+
+{
+  itemTypes(permission: "plank.create_item") {
+    ...ItemTypeBaseParts
+  }
+}

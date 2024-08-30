@@ -1,0 +1,7 @@
+#import "./extendedFragment.graphql"
+
+fragment ItemEditParts on ItemGrapheneType {
+  ...ItemExtendedParts
+  canEdit
+  canDelete
+}

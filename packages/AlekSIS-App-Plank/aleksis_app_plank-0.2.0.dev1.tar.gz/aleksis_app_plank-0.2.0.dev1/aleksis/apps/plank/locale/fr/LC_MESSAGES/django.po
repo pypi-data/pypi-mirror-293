@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-30 11:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: aleksis/apps/plank/admin.py:34
+msgid "There can be only one condition as default."
+msgstr ""
+
+#: aleksis/apps/plank/admin.py:42
+msgid "Set as default"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:18 aleksis/apps/plank/models.py:87
+#: aleksis/apps/plank/models.py:116 aleksis/apps/plank/models.py:170
+#: aleksis/apps/plank/models.py:195 aleksis/apps/plank/models.py:233
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:55
+msgid "Name"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:21
+msgid "Groups with check out permission"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:22
+msgid "To persons in this groups things can be checked out."
+msgstr ""
+
+#: aleksis/apps/plank/models.py:30
+msgid "Group for persons created at check out"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:32
+msgid "Persons created in check outs will be put in this group. If not group is set, creating persons at check out will be disabled."
+msgstr ""
+
+#: aleksis/apps/plank/models.py:42
+msgid "Inventory"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:43
+msgid "Inventories"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:45
+msgid "Can view item for inventory"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:46
+msgid "Can change item for inventory"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:47
+msgid "Can delete item for inventory"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:48
+msgid "Can create item for inventory"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:49 aleksis/apps/plank/models.py:50
+msgid "Can check out items for inventory"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:51
+msgid "Can view check out process for inventory"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:54
+msgid "Can change check out process for inventory"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:88 aleksis/apps/plank/models.py:117
+#: aleksis/apps/plank/models.py:171 aleksis/apps/plank/models.py:258
+msgid "Notes"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:90
+msgid "Icon"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:92
+msgid "Colour"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:96 aleksis/apps/plank/models.py:208
+#: aleksis/apps/plank/models.py:246
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:57
+msgid "Category"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:97
+msgid "Categories"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:121
+msgid "Parent location"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:129 aleksis/apps/plank/models.py:272
+#: aleksis/apps/plank/models.py:454
+msgid "Item"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:137 aleksis/apps/plank/models.py:265
+msgid "Location"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:138
+msgid "Locations"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:175 aleksis/apps/plank/models.py:199
+msgid "Manufacturer"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:176
+msgid "Manufacturers"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:204
+msgid "Description"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:211
+msgid "Image"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:212
+msgid "Part number"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:216 aleksis/apps/plank/models.py:217
+#: aleksis/apps/plank/models.py:254
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:56
+msgid "Item type"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:236
+msgid "Barcode"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:238
+msgid "Leave blank to automatically generate the barcode"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:241
+msgid "Serial number"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:268
+msgid "Last time seen at"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:273
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:50
+msgid "Items"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:354
+msgid "Default"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:355
+msgid "Text"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:359 aleksis/apps/plank/models.py:404
+msgid "Check out condition"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:360
+msgid "Check out conditions"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:388
+msgid "Borrowing person"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:394
+msgid "Lending person"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:396
+msgid "Checked out at"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:398
+msgid "Check out in process?"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:400
+msgid "Check in until"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:411 aleksis/apps/plank/models.py:460
+msgid "Check out process"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:412
+msgid "Check out processes"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:414
+msgid "Can check out items"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:415
+msgid "Can check in items"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:462
+msgid "Checked in?"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:463
+msgid "Checked in at"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:468
+msgid "Checked in by"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:480
+msgid "Check out item"
+msgstr ""
+
+#: aleksis/apps/plank/models.py:481
+msgid "Check out items"
+msgstr ""
+
+#: aleksis/apps/plank/schema.py:447
+msgid "Item not found"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/check/status.html:5
+msgid "All items checked in"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/check/status.html:9
+msgid "Checked out items"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/check/status.html:13
+msgid "Checked out items overdue"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/item/status.html:4
+msgid "Available"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/item/status.html:11
+msgid "Checked out to"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/item/status.html:11
+msgid "Checked out"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:9
+msgid "Print: Check in confirmation"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:10
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:13
+msgid "Check in confirmation"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:17
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:17
+msgid "Name of the borrowing person"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:20
+msgid "has returned the following items"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:29
+msgid "on"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:32
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:24
+msgid "Date"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:34
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:26
+msgid "by"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:37
+msgid "Name of the person"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:47
+#: aleksis/apps/plank/templates/plank/reports/check-in.html:53
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:51
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:57
+#, python-format
+msgid "Signature of %(name)s"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:9
+msgid "Print: Check out form"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:10
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:13
+msgid "Check out form"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:20
+msgid "has borrowed the following items on"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:29
+msgid "Name of the lending person"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/check-out.html:45
+msgid "Agreed check in date"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:9
+msgid "Print: Completeness report"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:10
+msgid "Completeness report"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:20
+msgid "Items registered at this location"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:31
+msgid "Missing items"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:42
+msgid "Items moved to this location"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:53
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:58
+msgid "Status"
+msgstr ""
+
+#: aleksis/apps/plank/templates/plank/reports/completeness.html:54
+msgid "Barcode/ID"
+msgstr ""
+
+#: aleksis/apps/plank/views.py:29
+msgid "No item statuses given"
+msgstr ""

@@ -1,0 +1,7 @@
+#import "./editFragment.graphql"
+
+{
+  items: categories {
+    ...CategoryEditParts
+  }
+}

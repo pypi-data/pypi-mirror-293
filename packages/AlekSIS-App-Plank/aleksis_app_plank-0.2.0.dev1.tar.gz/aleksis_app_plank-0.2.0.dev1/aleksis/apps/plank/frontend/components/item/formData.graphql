@@ -1,0 +1,19 @@
+query formData {
+  categories(permission: "plank.create_item") {
+    id
+    name
+  }
+  locations(permission: "plank.create_item") {
+    id
+    name
+  }
+  itemTypes(permission: "plank.create_item") {
+    id
+    name
+  }
+  items {
+    id
+    name
+  }
+  canCreate: permission(permission: "plank.create_item_rule")
+}

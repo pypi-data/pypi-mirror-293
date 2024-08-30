@@ -1,0 +1,9 @@
+#import "./extendedFragment.graphql"
+
+fragment CategoryEditParts on CategoryType {
+  ...CategoryExtendedParts
+  itemsCount
+  itemTypesCount
+  canEdit
+  canDelete
+}

@@ -1,0 +1,230 @@
+{
+  "plank": {
+    "actions": {
+      "back": "Zurück",
+      "back_to_overview": "Zurück zur Übersicht",
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "delete": "Löschen",
+      "edit": "Bearbeiten",
+      "save": "Speichern",
+      "show": "Anzeigen",
+      "show_more": "Mehr anzeigen",
+      "title": "Aktionen"
+    },
+    "category": {
+      "actions": {
+        "create": "Neue Kategorie erstellen",
+        "delete": "Kategorie löschen",
+        "edit": "Kategorie bearbeiten"
+      },
+      "delete_question": "Sind Sie sicher, dass Sie diese Kategorie löschen wollen?",
+      "menu_title": "Kategorien",
+      "title": "Kategorie",
+      "title_plural": "Kategorien"
+    },
+    "check_in": {
+      "menu_title": "Check-In",
+      "process": {
+        "check_in": "Einchecken",
+        "checked_in_successfully": "Das Objekt wurde erfolgreich eingecheckt.",
+        "download_form": "Check-In-Formular herunterladen",
+        "messages": {
+          "checked_in": "Das Objekt wurde erfolgreich eingecheckt.",
+          "not_checked_out": "Das Objekt ist nicht ausgecheckt.",
+          "not_found": "Es gibt kein Objekt mit diesem Barcode oder dieser ID."
+        },
+        "scan_hint": "Sie können entweder Barcodes scannen oder IDs von Objekten eingeben.",
+        "show_process": "Check-Out-Prozess anzeigen",
+        "title": "Objekte zum Einchecken scannen"
+      },
+      "title": "Check-In"
+    },
+    "check_out": {
+      "menu_title": "Check-Out",
+      "process": {
+        "add_item": "Objekt hinzufügen",
+        "another_check_out": "Einen weiteren Check-Out durchführen",
+        "cancel_check_out": "Check-Out abbrechen",
+        "confirm_check_out": "Check-Out bestätigen",
+        "confirm_check_out_title": "Check-Out bestätigen",
+        "download_form": "Check-Out-Formular herunterladen",
+        "finish_scanning": "Scannen beenden",
+        "finished_successfully": "Der Check-Out wurde erfolgreich abgeschlossen.",
+        "messages": {
+          "added": "Das Objekt wurde zur Check-Out-Liste hinzugefügt.",
+          "already_added": "Dieses Objekt wurde bereits zur Check-Out-Liste hinzugefügt.",
+          "checked_out": "Das Objekt ist aktuell ausgecheckt.",
+          "not_found": "Es gibt kein Objekt mit diesem Barcode oder dieser ID."
+        },
+        "scan_hint": "Sie können entweder Barcodes scannen oder IDs von Objekten eingeben.",
+        "select_borrowing_person_title": "Ausleihende Person auswählen",
+        "select_items_title": "Objekte scannen oder auswählen"
+      },
+      "title": "Check-Out",
+      "title_plural": "Check-Outs"
+    },
+    "check_out_condition": {
+      "title": "Check-Out-Bedingung",
+      "title_plural": "Check-Out-Bedingungen"
+    },
+    "check_out_process": {
+      "actions": {
+        "edit": "Check-Out-Vorgang bearbeiten"
+      },
+      "checked_out_items": "Ausgecheckte Objekte",
+      "menu_title": "Check-Out-Prozesse",
+      "status": {
+        "checked_in": "Alle Objekte eingecheckt",
+        "checked_out": "Ausgecheckte Objekte",
+        "not_in_time": "Ausgecheckte Objekte überfällig"
+      },
+      "title": "Check-Out-Vorgang",
+      "title_plural": "Check-Out-Vorgänge"
+    },
+    "delete_question": "Sind Sie sicher, dass Sie dieses Objekt wirklich löschen wollen?",
+    "inventory": {
+      "actions": {
+        "create": "Neues Inventar erstellen",
+        "delete": "Inventar löschen",
+        "edit": "Inventar bearbeiten",
+        "show_dashboard": "Dashboard anzeigen"
+      },
+      "delete_question": "Sind Sie sicher, dass Sie dieses Inventar löschen wollen?",
+      "menu_title": "Inventare",
+      "overview": {
+        "check_title": "Check-Out/Check-In",
+        "inventory_process": "Inventarisierungs-Prozess",
+        "inventory_title": "Inventarisierung",
+        "status": {
+          "all_check_out_processes": "Alle Check-Out-Prozesse",
+          "all_item_types": "Alle Objekt-Typen",
+          "all_items": "Alle Objekte",
+          "available_items": "Verfügbare Objekte",
+          "checked_out_items": "Ausgecheckte Objekte",
+          "inventoried_items": "Inventarisierte Objekte",
+          "item_types": "Objekt-Typen",
+          "not_in_time": "davon nicht im Zeitrahmen"
+        },
+        "status_title": "Status des Inventars",
+        "title": "Überblick über das Inventar"
+      },
+      "title": "Inventar",
+      "title_plural": "Inventare"
+    },
+    "item": {
+      "actions": {
+        "create": "Neues Objekt erstellen",
+        "delete": "Objekt löschen",
+        "edit": "Objekt bearbeiten",
+        "save": "Objekt speichern",
+        "show": "Objekt anzeigen"
+      },
+      "container": "Container",
+      "delete_question": "Sind Sie sicher, dass Sie dieses Objekt wirklich löschen wollen?",
+      "inventory_process": {
+        "barcode_hint": "An dieser Stelle kann ein bereits existierender, individueller Barcode gescannt werden.",
+        "barcode_name_title": "Barcode und Name",
+        "category_title": "Kategorie auswählen",
+        "create_another_item": "Ein weiteres Objekt erstellen",
+        "inventory_title": "Inventar auswählen",
+        "item_type_title": "Objekt-Typ auswählen",
+        "location_title": "Ort auswählen",
+        "menu_title": "Inventarisierungs-Prozess",
+        "meta_title": "Zusätzliche Metadaten",
+        "title": "Inventarisierungs-Prozess",
+        "whats_next": "Neues Objekt erstellt: Was ist der nächste Schritt?"
+      },
+      "menu_title": "Objekte",
+      "status": {
+        "available": "Verfügbar",
+        "checked_in": "Eingecheckt",
+        "checked_out": "Ausgecheckt",
+        "checked_out_to": "Ausgecheckt an"
+      },
+      "title": "Objekt",
+      "title_plural": "Objekte"
+    },
+    "item_type": {
+      "actions": {
+        "create": "Neuen Objekt-Typ erstellen",
+        "delete": "Objekt-Typ löschen",
+        "edit": "Objekt-Typ bearbeiten"
+      },
+      "delete_question": "Sind Sie sicher, dass Sie diesen Objekt-Typ wirklich löschen wollen?",
+      "menu_title": "Objekt-Typen",
+      "title": "Objekt-Typ",
+      "title_plural": "Objekt-Typen"
+    },
+    "labels": {
+      "barcode": "Barcode",
+      "borrowing_person": "Ausgecheckt an",
+      "check_in_until": "Check-In bis",
+      "check_out_create_group": "Gruppe für beim Check-Out erstellte Personen",
+      "check_out_groups": "Gruppen mit Erlaubnis zum Auschecken",
+      "checked_in_at": "Eingecheckt am",
+      "checked_out_at": "Ausgecheckt am",
+      "colour": "Farbe",
+      "description": "Beschreibung",
+      "icon": "Symbol",
+      "id": "ID",
+      "id_barcode": "ID/Barcode",
+      "is_location": "Ist ein Ort",
+      "last_time_seen_at": "Zuletzt gesehen am",
+      "lending_person": "Ausgegeben von",
+      "name": "Name",
+      "notes": "Notizen",
+      "part_number": "Artikelnummer",
+      "serial_number": "Seriennummer",
+      "status": "Status"
+    },
+    "loading": "Laden ...",
+    "location": {
+      "actions": {
+        "create": "Create new location",
+        "delete": "Delete location",
+        "edit": "Edit location"
+      },
+      "delete_question": "Are you sure that you want to delete this location?",
+      "menu_title": "Orte",
+      "parents": "Eltern",
+      "sort_or_check": {
+        "action": "Einsortieren oder Anwesenheit überprüfen",
+        "currently_checked_out": {
+          "no": "Nein",
+          "question": "Möchten Sie es einchecken?",
+          "text": "Das folgende Objekt ist aktuell ausgecheckt:",
+          "title": "Objekt aktuell ausgecheckt",
+          "yes": "Ja, einchecken"
+        },
+        "download_completeness_report": "Vollständigkeitsbericht herunterladen",
+        "in_place_success": "Das Objekt ist an Ort und Stelle.",
+        "items_missing": "Fehlende Objekte",
+        "items_moved": "An diesen Ort verschobene Objekte",
+        "items_registered": "An diesem Ort registrierte Objekte",
+        "moved_success": "Das Objekt wurde erfolgreich an diesen Ort verschoben.",
+        "ongoing_title": "Laufende Vollständigkeitsprüfung",
+        "scan_hint": "Sie können entweder IDs eingeben oder Barcodes scannen. Das System wird dann den Status des Objektes überprüfen.",
+        "title": "Objekte einsortieren oder ihren Status überprüfen"
+      },
+      "title": "Ort",
+      "title_plural": "Orte"
+    },
+    "manufacturer": {
+      "actions": {
+        "create": "Neuen Hersteller erstellen",
+        "delete": "Hersteller löschen",
+        "edit": "Hersteller bearbeiten"
+      },
+      "delete_question": "Sind Sie sicher, dass Sie diesen Hersteller löschen wollen?",
+      "menu_title": "Hersteller",
+      "title": "Hersteller",
+      "title_plural": "Hersteller"
+    },
+    "menu_title": "Inventar",
+    "person": {
+      "title": "Person",
+      "title_plural": "Personen"
+    }
+  }
+}

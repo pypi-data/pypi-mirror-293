@@ -1,0 +1,4 @@
+fragment ManufacturerBaseParts on ManufacturerType {
+  id
+  name
+}

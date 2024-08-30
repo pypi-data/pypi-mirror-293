@@ -1,0 +1,9 @@
+#import "./editFragment.graphql"
+
+mutation ($input: LocationMutationInput!) {
+  location(input: $input) {
+    location {
+      ...LocationEditParts
+    }
+  }
+}
