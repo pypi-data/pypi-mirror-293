@@ -1,0 +1,8 @@
+openai
+cairosvg
+pillow
+matplotlib
+selenium
+pymongo
+dnspython
+werkzeug
