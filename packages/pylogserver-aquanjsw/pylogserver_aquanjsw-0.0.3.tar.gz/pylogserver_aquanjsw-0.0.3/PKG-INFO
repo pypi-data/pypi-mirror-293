@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: pylogserver_aquanjsw
+Version: 0.0.3
+Summary: A simple python logging server
+Project-URL: Homepage, https://github.com/AquanJSW/packaging_pylogserver
+Author-email: aquanjsw <zhdlcc@gmail.com>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# pylogserver Python Package
+
+As a companion executable to `logging.handlers.SocketHandler`.
+
+## Example
+
+Start server from cmdline:
+
+```plain
+$ pip install pylogserver
+$ pylogserver 9999
+Listening on localhost:9999
+```
+
+Client side example:
+
+```python
+#!/usr/bin/env python3
+# client.py
+import logging
+import logging.handlers
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    logger = logging.getLogger()
+    socket_handler = logging.handlers.SocketHandler('localhost', 9999)
+    logger.addHandler(socket_handler)
+    logger.info('Hello, world!')
+```
+
+Server side output:
+
+```plain
+[2024-08-28 20:26:04,681] [root] [INFO] Hello, world!
+```
+
+## References
+
+- [Python official logging cookbook](https://docs.python.org/zh-cn/3/howto/logging-cookbook.html#sending-and-receiving-logging-events-across-a-network)

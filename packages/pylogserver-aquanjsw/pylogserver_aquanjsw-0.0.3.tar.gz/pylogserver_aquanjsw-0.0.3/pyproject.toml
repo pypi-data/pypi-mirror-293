@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pylogserver_aquanjsw"
+version = "0.0.3"
+authors = [
+    { name="aquanjsw", email="zhdlcc@gmail.com" }
+]
+description = "A simple python logging server"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+pylogserver = "pylogserver_aquanjsw.main:main"
+
+[project.urls]
+Homepage = "https://github.com/AquanJSW/packaging_pylogserver"
