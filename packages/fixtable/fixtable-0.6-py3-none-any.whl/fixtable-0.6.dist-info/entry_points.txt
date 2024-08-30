@@ -1,0 +1,2 @@
+[console_scripts]
+fixtable = fixtable:main
