@@ -1,0 +1,10 @@
+camptown/__init__.py,sha256=nPxw5rI5-nR8DOZLqtMwKFhCpz2riAuwMwGaxJgWGKg,7333
+camptown/__main__.py,sha256=iEOROu4yBBR_Dq8NZQsvBPPEOw0vsxajHM4QoGhgKFI,2015
+camptown/__version__.py,sha256=_xfriHXKAiCPxtvEcKdOwHf2UGU0vE_9XcuF3MEBC1Q,57
+camptown/templates/index.html,sha256=hd14aR_dZUDc7wAIYUk4QFZwyJuhOkuhJ_dINaEqaH0,4619
+camptown/templates/player.css,sha256=n2aZ0WJAp1GJdi3pmuUL4vmfwVWv3HbMGwSmsLU6asU,7859
+camptown/templates/player.js,sha256=gmGL1-4K1d001ytBbJHZqt-UJPNbzT_Sh-ml0JwVzg4,5793
+camptown-0.3.7.dist-info/LICENSE,sha256=GwSVDPOPOewaYTBDYrsq2FvDNAhlBhIfzr3c9au3buQ,1063
+camptown-0.3.7.dist-info/METADATA,sha256=PeFphMQNRCyNl5xykVHFt1xk_NRrCpBfHi9X_GaZi_o,1238
+camptown-0.3.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+camptown-0.3.7.dist-info/RECORD,,
