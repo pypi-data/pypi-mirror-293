@@ -1,0 +1,10 @@
+reqboost.cpython-310-darwin.so,sha256=NfBjsJRU_PCcOuvZ1nIWBuGEXjvMnXqTP7TDlffW2I8,321664
+bindings/ApiBindings.cpp,sha256=3OnJJqJSV4iQt0AFWiQwNvyDuGz767roUgqOBiFlAPU,1806
+bindings/ExceptionBindings.cpp,sha256=5DeMmbMDa5p-EKT4JLgtBJ6RUEzG8XSak7pn8-sXae4,2351
+bindings/ModelsBindings.cpp,sha256=IkaG9wcCWTm4TNy5OufVGq1CmJVlOjHK7tEJN7pFVCc,2002
+bindings/UtilityBindings.cpp,sha256=EYn5Nxp1x4CasAr2z0igneIdzmJPZUyRmYanGt4NOxU,520
+reqboost-0.0.0.dist-info/LICENSE,sha256=yIWKWnZEC7ykhOE0z330Y4XQkN0YssWOZQ-TkliALls,10141
+reqboost-0.0.0.dist-info/METADATA,sha256=GgnZgrhjeEROyXvJImHr3-4f6nCEmcLhId_vNip2oU0,14749
+reqboost-0.0.0.dist-info/WHEEL,sha256=OtcTWhHD8O2u6si618Qv7r5uG-dgd_m_HR764b666hk,115
+reqboost-0.0.0.dist-info/top_level.txt,sha256=SdcWfK-t-lvsv3VgEjQkbctWK_AoA9Ur_3gLvOPRTCM,18
+reqboost-0.0.0.dist-info/RECORD,,
