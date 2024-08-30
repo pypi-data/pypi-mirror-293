@@ -1,0 +1,11 @@
+koco_product_sqlmodel/DB-Tables.md,sha256=_jwJ6Rfe1OoUbibtcZS3hlnFNqTFdH1JaAy8bbfwk-4,6811
+koco_product_sqlmodel/__init__.py,sha256=gr0tkGeltulaREru_kqWTyzRPQzsNVHsWy8hU6gyLvw,67
+koco_product_sqlmodel/create_viewdefs_in_db.sql,sha256=aaflde4H7vFbYXs8lIRsTXZjo6ek3oVuTYONTXdkjGg,24223
+koco_product_sqlmodel/definition.py,sha256=bjLdY_A4YuwWB1B2Bbs0SvyqOGvwJfqyDjKbm2R2P2U,13183
+koco_product_sqlmodel/definition_reduced.py,sha256=mgSWXsuKFC8d-H1Z2oE7qSACvN5Jx3S_Ozi1W_rzPZo,8753
+koco_product_sqlmodel/support.py,sha256=q3QSNfOGP_MGedWlIp5fGcG4mpbuaS2Sa3yGtougqrg,2081
+koco_product_sqlmodel/viewdef.py,sha256=OgLAMQTmlurbYGmvlUzMzek_Qhel6OVWvLy-p-oNZT0,4059
+koco_product_sqlmodel-0.1.0.dist-info/METADATA,sha256=l8Jry98BYCS6YEdgDsa-iTDv4iHT6gJIHo_c81RjDOE,1030
+koco_product_sqlmodel-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+koco_product_sqlmodel-0.1.0.dist-info/licenses/LICENSE,sha256=e5GA0Pva-FmFwposmYOTQP4j_7aO6lZE2JDbSsQcodg,1073
+koco_product_sqlmodel-0.1.0.dist-info/RECORD,,
