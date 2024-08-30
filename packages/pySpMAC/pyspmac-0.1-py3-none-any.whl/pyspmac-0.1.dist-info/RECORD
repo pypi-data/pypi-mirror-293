@@ -1,0 +1,16 @@
+spmac/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+spmac/main.py,sha256=SpJOVWN0Nhf6tT2acx3_AVcDob5DP6fQuZTBEqdYUCU,4650
+spmac/matsubara.py,sha256=HR6yKNp53UNkXJtqki548oCWbmjbaeizat7_VX6H4n4,1675
+spmac/mpi.py,sha256=OG-Yl93Hqhc4ZQfAHbJOph3_RAQWftHhCNlzNnfbcWY,888
+spmac/pade.py,sha256=5NGXkadQIY0RhAfxOW8AlKBkeOqHgFNmCDNayKdTsCU,1968
+spmac/solver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spmac/solver/base.py,sha256=Y8lwgLAi2Iie-zU8zhmivd4BqdgSEWDyS5g8NjWG1lM,9335
+spmac/solver/multiple.py,sha256=1JNBuXwBr2vLG4rL86-9a6QkSff1pRMk0VsE-KHknoI,11610
+spmac/solver/pade.py,sha256=rS9-_tRgfeoTrHuzkXKNMFnEiGa-GXf2I_1cQrR6Eeg,1794
+spmac/solver/single.py,sha256=dHF5FkZpEJKh-10h5tMXKjkU1Z_7d9c23ViRudyBMY0,10951
+spmac/util.py,sha256=YOUrWydcU8Kfr8qNl6KTGdme-Y3q0mkYdtiMYr5RRaw,597
+pyspmac-0.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pyspmac-0.1.dist-info/METADATA,sha256=2phFmC7sJEZKVeMFrP1nIxPnfdVN29sPxCWwPAB89Xo,2354
+pyspmac-0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyspmac-0.1.dist-info/entry_points.txt,sha256=NkaFasmYik9yH7Cgcv7kUvMFNbvthYohiVrCTq50xiA,41
+pyspmac-0.1.dist-info/RECORD,,
