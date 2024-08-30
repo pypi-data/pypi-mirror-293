@@ -1,0 +1,14 @@
+django_webtest/__init__.py,sha256=SCApraaGptRaeCyQ2Fc0c88ND2_1-okBBWCcjZkaDOQ,14252
+django_webtest/backends.py,sha256=Pye70OnYG75oKQTuzsFsBmvkeZ6hDwkhdU46PNGzM6A,1657
+django_webtest/compat.py,sha256=OjJKuDFcDo1g4VD2lmnzX11U4HZKK0D9WS-Lc0XZIlY,879
+django_webtest/middleware.py,sha256=vfSbfqmir2MdMC-cLnFPScnMreKolzoBQQt0bmlK8sw,2777
+django_webtest/pytest_plugin.py,sha256=joVR8Qv-eiq1ggD83ADRHx_ctVg2of4ZRo9QDAkRhNM,1191
+django_webtest/response.py,sha256=ND4efqjLeOEC7CcVoIxO33MEGqxDbKylQeUVVekJ_m0,1549
+django_webtest/rest_framework_auth.py,sha256=v0-sEQ6l72uymnIHLktz6F-WYS5Zu5ZtTtHc8GQDWUg,492
+django_webtest-1.9.12.dist-info/AUTHORS.txt,sha256=MY9yT8s2Co3CLczg29HvAfdwJ8nzIHIHl3JV1VrW8pI,591
+django_webtest-1.9.12.dist-info/LICENSE.txt,sha256=PE5_E0hjZFoaOQnolonE2mfLT_hYfvagrOuRPSFSofw,1064
+django_webtest-1.9.12.dist-info/METADATA,sha256=XmWyrBhISvR-LuQlQsW6EVpC7YsR7tlnwpnho-YVQW4,17131
+django_webtest-1.9.12.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_webtest-1.9.12.dist-info/entry_points.txt,sha256=pOt1ABX0Y6-Y5VIH90dlDgAUAGPsH6fj636iq51EnCk,57
+django_webtest-1.9.12.dist-info/top_level.txt,sha256=Hc8az2RzBXQOpsz6LA6m97825CVbYZbKL8vd4TEpPRg,15
+django_webtest-1.9.12.dist-info/RECORD,,
