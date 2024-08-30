@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: ids-peak-ipl
+Version: 1.13.0.0.2
+Summary: ids_peak_ipl - A library for image manipulation
+Author-email: IDS Imaging Development Systems GmbH <info@ids-imaging.com>
+Project-URL: Homepage, https://www.ids-imaging.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Digital Camera
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: third_party_licenses.txt
+License-File: third_party_copyrights.txt
+Requires-Dist: numpy
+
+ids_peak_ipl provides python bindings
+for the IDS peak IPL. It exposes all the
+functionality of the peak IPL.
+
+Benefit from many Python __advantages__, for example the __interactive__
+programming of your IDS camera.
+Write and test small code snippets
+without the complex setup of a programming IDE including a toolchain.
+This package is __ideal for prototyping__ IDS
+camera applications for all supported peak IPL platforms
+(Windows, Linux, Linux Embedded).
+
+## Installation
+
+```bash
+$ pip install ids_peak_ipl
+```
+
+## Quickstart
+
+Creating a peak IPL image from width and height:
+
+```python
+width = 16
+height = 16
+image_from_size = ids_peak_ipl.Image.CreateFromSize(
+    ids_peak_ipl.PixelFormatName_Mono8, width, height)
+```
+
+Creating a peak IPL image from a IDS peak genericAPI buffer manually:
+
+*NOTE*: Using the BufferToImage function provided by the peak IPL extension in the
+ IDS peak genericAPI package is strongly recommended. To ensure correct functionality when using
+ auto features, BufferToImage must be utilized.
+
+```python
+image_from_size_and_buffer = ids_peak_ipl.Image.CreateFromSizeAndBuffer(
+    buffer.PixelFormat(),
+    buffer.BasePtr(),
+    buffer.Size(),
+    buffer.Width(),
+    buffer.Height()
+)
+```
+
+Creating a peak IPL image from a numpy array:
+
+```python
+import numpy as np
+
+numpy_array = np.array([[10, 20, 30]], dtype=np.uint8)
+image_from_size_and_python_buffer = ids_peak_ipl.Image.CreateFromSizeAndPythonBuffer(
+    img.PixelFormatName_RGB8, numpy_array, width, height)
+```
+
+Creating a peak IPL image from a python bytearray:
+
+```python
+byte_array = bytearray([255, 10, 128])
+image_from_size_and_python_buffer = ids_peak_ipl.Image.CreateFromSizeAndPythonBuffer(
+    img.PixelFormatName_RGB8, byte_array, width, height)
+```
+
+## Documentation
+
+Documentation is available [here](https://en.ids-imaging.com/manuals/ids-peak/ids-peak-ipl-documentation/en/index.html)
