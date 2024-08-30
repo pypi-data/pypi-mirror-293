@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+setup.py
+linqex/__init__.py
+linqex/utils.py
+linqex.egg-info/PKG-INFO
+linqex.egg-info/SOURCES.txt
+linqex.egg-info/dependency_links.txt
+linqex.egg-info/top_level.txt
+linqex/enumerable/__init__.py
+linqex/enumerable/iterdict.py
+linqex/enumerable/iteritem.py
+linqex/enumerable/iterlist.py
+linqex/tools/__init__.py
+linqex/tools/iterdicttool.py
+linqex/tools/iteritemtool.py
+linqex/tools/iterlisttool.py
