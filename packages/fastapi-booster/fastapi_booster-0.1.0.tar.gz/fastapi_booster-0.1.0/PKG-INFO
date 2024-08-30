@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fastapi-booster
+Version: 0.1.0
+Summary: 
+Author: ulfaric
+Author-email: ryf0510@live.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bcrypt (==4.0.1)
+Requires-Dist: colorlog (>=6.8.2,<7.0.0)
+Requires-Dist: fastapi[all] (>=0.112.1,<0.113.0)
+Requires-Dist: passlib[bcrypt] (>=1.7.4,<2.0.0)
+Requires-Dist: pyjwt (>=2.9.0,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0.32,<3.0.0)
+Description-Content-Type: text/markdown
+
+
