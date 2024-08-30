@@ -1,0 +1,14 @@
+gitlabgroups/__init__.py,sha256=GowK-ZW_06T5gBjoWkBkCYWQYt2q8iWlE1bkbcGADaw,872
+gitlabgroups/glclone.py,sha256=lwAhW2jG-WxNh9gMBHa-f-G9L_fBQ_QmmfGJvK47nbI,10987
+gitlabgroups/glfromsvn.py,sha256=KyIZw8887H1ETbKOkbT8FYh_VwC6JumtefoHekUzVhQ,7353
+gitlabgroups/glpull.py,sha256=ZaWlJowq9Z2-EbdRo2SLwhEzYN5oQUwXsr5FKstvq8I,5657
+gitlabgroups/glupload.py,sha256=e92iqYTSKK8i9joRt3uZSSVccTDbG-ZhvI5NhbBrRvo,4993
+gitlabgroups-0.6.0.data/scripts/glclone,sha256=T9F5acQ6H5xmQaEXL7PN5GRmf89-Vve4i_zb9dkDQWw,58
+gitlabgroups-0.6.0.data/scripts/glfromsvn,sha256=LAZrbBqGu1Cff5ZJOpfkHYnQt5SQYRg0O87EZfEXXrw,62
+gitlabgroups-0.6.0.data/scripts/glpull,sha256=GQ35vediqjQCyobS8tQp-P5CQwJHSSwEUM38ENn-Iu4,56
+gitlabgroups-0.6.0.data/scripts/glupload,sha256=VOaUQYfFKD7rBmc6ubjtcaT8uUnN71XH8aJ47ImuhtE,60
+gitlabgroups-0.6.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gitlabgroups-0.6.0.dist-info/METADATA,sha256=HhK92SJtfCkvFjLPH9gdOWOm9wAtqQRVMwsVzK0uhS4,1082
+gitlabgroups-0.6.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gitlabgroups-0.6.0.dist-info/top_level.txt,sha256=1W8Azbrg0qC6pCvOFcBKpOBG9eGGlFvnaC_eAgBZc5A,13
+gitlabgroups-0.6.0.dist-info/RECORD,,
