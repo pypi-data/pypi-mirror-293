@@ -1,0 +1,6 @@
+README.md
+setup.py
+scrypted.egg-info/PKG-INFO
+scrypted.egg-info/SOURCES.txt
+scrypted.egg-info/dependency_links.txt
+scrypted.egg-info/top_level.txt
