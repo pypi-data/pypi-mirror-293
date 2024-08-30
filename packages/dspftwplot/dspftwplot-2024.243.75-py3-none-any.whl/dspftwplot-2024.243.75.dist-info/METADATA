@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dspftwplot
+Version: 2024.243.75
+Summary: Plotting functions for the dspftw package.
+Home-page: http://github.com/dspftw/dspftwplot
+License: MIT
+Author: Bill Allen
+Author-email: billallen256@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dspftw
+Requires-Dist: ipywidgets
+Requires-Dist: matplotlib
+Description-Content-Type: text/markdown
+
+# DSPFTW Plot
+
+Plotting functions for dspftw.
+
