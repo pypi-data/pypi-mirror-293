@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: autocrop-video
+Version: 0.1.1
+Summary: A CLI tool for automatically cropping videos
+Project-URL: Homepage, https://github.com/pedroachagas/autocrop
+Project-URL: Bug Tracker, https://github.com/pedroachagas/autocrop/issues
+Author-email: Pedro Chagas <pchagas96@gmail.com>
+License-File: LICENCE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: fire
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Description-Content-Type: text/markdown
+
+# autocrop
+
+A CLI tool for automatically cropping videos.
+
+## Installation
+
+```bash
+pip install autocrop-video
+```
+
+## Usage
+
+```bash
+autocrop process path/to/input_video.mp4
+```
+
+For more options, run:
+
+```bash
+autocrop --help
+```
+
+## Requirements
+
+- Python 3.7+
+- FFmpeg and FFprobe installed and accessible from the command line
