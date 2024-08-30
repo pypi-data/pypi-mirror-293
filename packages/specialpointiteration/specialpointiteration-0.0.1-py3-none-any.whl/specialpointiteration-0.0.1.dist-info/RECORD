@@ -1,0 +1,10 @@
+special_point/__init__.py,sha256=aFp7svkD6vETp_WqJLfXTeqQImhG0hHONl1C6rgLBmE,200
+special_point/adic_rational.py,sha256=PAblB75Gn8--VAxWk0dCSat9mqybzok0XQ4CWcHr8_o,3166
+special_point/box_iterate.py,sha256=ckOq6_Eopc_N9GT1Lyy98hHiVZPYlbctjvCV3GdM2u4,14016
+special_point/iter_utils.py,sha256=hqUHEAXfVb7Zf-u6_k8myL6srqpdPP-w1kYBgHIKw8o,2364
+special_point/parameter_iterate.py,sha256=4JljHFodqmcCV-ZpmfXV_y4aJOUxSigLkbroJtZP96c,5644
+specialpointiteration-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+specialpointiteration-0.0.1.dist-info/METADATA,sha256=4CZuWYkeoRhplCurg3Uc3T-hMGz5Py5I4sTmLaU61uY,1737
+specialpointiteration-0.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+specialpointiteration-0.0.1.dist-info/top_level.txt,sha256=yAQQWFAzv8BrpFFNSTre8bOAPoqAXvHNaQVerVhLQh8,14
+specialpointiteration-0.0.1.dist-info/RECORD,,
