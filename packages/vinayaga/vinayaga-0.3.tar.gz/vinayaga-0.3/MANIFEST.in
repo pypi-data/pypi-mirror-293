@@ -1,0 +1,16 @@
+# Include the README file
+include README.md
+
+# Include the license file (if you have one)
+# include LICENSE
+
+# Include all Python source files
+recursive-include vinayaga *.py
+
+# Include the data file used by the package
+include vinayaga/data.csv
+
+# Include any other non-Python files as needed
+# For example, if you have configuration files or documentation:
+# include vinayaga/config/*.yaml
+# include vinayaga/docs/*.pdf
