@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyprojections
+Version: 0.0.2
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# Run test
+``` python3 camera.py```
