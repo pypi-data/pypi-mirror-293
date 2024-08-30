@@ -1,0 +1,12 @@
+ossai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ossai/decorators.py,sha256=H3jOgE24OUdz_ioav3RA62vCpqL4uQ-dVJ4mul_P3YA,3030
+ossai/handlers.py,sha256=PI2j1aJNTJZCGqimnA0GwKyU02taTKo2JTGloIos0LY,8823
+ossai/logging_config.py,sha256=smbxaR7P6Z4v9FVs8she3HfNKgd4iG1KOkpQjZwSfw0,640
+ossai/slack_server.py,sha256=QyzHveDpohPXEVUunzJ1Rb6BbNgWh0bus9zTSbDOoRc,4208
+ossai/summarizer.py,sha256=jPcfiw6S8Lxy-OCw-u2ukiykZm1lyI7EZhK2FrG1V0o,6962
+ossai/topic_analysis.py,sha256=VuehCWlp7AQLezCS11212Icioxi_yaYqfOlim3kOIPA,6970
+ossai/utils.py,sha256=zEZCx7MU5C7hYV2y3ydcEneqlsOyq33T8Sb9fh_h9pI,11032
+open_source_slack_ai-0.4.0.dist-info/LICENSE.md,sha256=0s3ZszwDrYq3nqSnLKx0SYM9bgm3cSIcG3381qbWm-U,34700
+open_source_slack_ai-0.4.0.dist-info/METADATA,sha256=b60x0y7fzMIztsK7BBc6k-3JftcVQiKukPQlC-efrMw,7994
+open_source_slack_ai-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+open_source_slack_ai-0.4.0.dist-info/RECORD,,
