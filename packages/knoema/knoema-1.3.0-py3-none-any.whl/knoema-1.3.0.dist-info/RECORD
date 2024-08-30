@@ -1,0 +1,14 @@
+knoema/__init__.py,sha256=HSTbzQH1utcRnwTRw34-vPd0hsWhY8aiztHX6f-7L0Q,8053
+knoema/api_client.py,sha256=14W_-o2htijmbzj1A6rEtL4P9upveWAshC9DtnLdInQ,13643
+knoema/api_config.py,sha256=l6viwf16yyMXvds-tp83tj7NbhUFevh4EQ734jr1zWM,1008
+knoema/api_definitions.py,sha256=TBoF9nh7I6FxIHyXAnODz387ZAhYRCvoCRRzqKb2MeA,17512
+knoema/api_definitions_search.py,sha256=rsgYM3p9ZZHKqODrXm1ne9GsGzn3a8hWbXiel91bZek,3960
+knoema/api_definitions_sema.py,sha256=3JXL3SvBSlSIxC6Rjc9P48Zh0TCbDZkRYut4wGOY9lI,3315
+knoema/data_reader.py,sha256=0LAmu4EypJW_pX9GqMcK1ZsNel3uNueJae2u5k46Q4U,50090
+knoema/upload_frame.py,sha256=6tMERDe77wLpQQmhU-dpTe0kwJaXbaMFPCGmRHjIl38,14063
+knoema/view_definitions.py,sha256=GwmRazCoWiUXbL7cbAG57IC7Zrjwgyb6ZPGHH23V-IA,588
+knoema-1.3.0.dist-info/LICENSE,sha256=WKmYk8r-2EOmCY1vsuNgyIm4EYMaWMIkbdCuYr1JcnY,1075
+knoema-1.3.0.dist-info/METADATA,sha256=vDHOhXOrQtwHE3irBnAMR5TNLCUesiW_AbVZn4FgY4w,20256
+knoema-1.3.0.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+knoema-1.3.0.dist-info/top_level.txt,sha256=-hO7ERBpyfHRTxhZmdHVbJ73CobHE-3APLeQ7mffbes,7
+knoema-1.3.0.dist-info/RECORD,,
