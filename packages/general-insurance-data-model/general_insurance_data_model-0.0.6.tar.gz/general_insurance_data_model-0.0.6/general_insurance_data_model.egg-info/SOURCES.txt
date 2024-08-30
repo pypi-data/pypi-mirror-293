@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+general_insurance_data_model/__init__.py
+general_insurance_data_model/generators.py
+general_insurance_data_model.egg-info/PKG-INFO
+general_insurance_data_model.egg-info/SOURCES.txt
+general_insurance_data_model.egg-info/dependency_links.txt
+general_insurance_data_model.egg-info/requires.txt
+general_insurance_data_model.egg-info/top_level.txt
