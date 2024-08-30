@@ -1,0 +1,5 @@
+[console_scripts]
+EVE-SMLM = eve_smlm.GUI:main
+EVE-smlm = eve_smlm.GUI:main
+eve-SMLM = eve_smlm.GUI:main
+eve-smlm = eve_smlm.GUI:main
