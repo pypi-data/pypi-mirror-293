@@ -1,0 +1,14 @@
+osstorchconnector/_oss_bucket_iterable.py,sha256=0LXQi6wRNurcAmciKkMH6Lbiio1fuhvwr7jzg4fDCc4,6506
+osstorchconnector/_oss_client.py,sha256=nZzaPAema1o5kpZMjiAr3covuXVlgsgC7pTzjrom8kM,2677
+osstorchconnector/oss_map_dataset.py,sha256=nXzKiIqorDsYz0abZEqb7gA_XzyoFxUbp8I0ZK3i3RM,8088
+osstorchconnector/oss_checkpoint.py,sha256=TY3v73TNvlqTMAmv_A_7Me3XMp-DHjR4i7pPcUpjRvA,1906
+osstorchconnector/__init__.py,sha256=gBgEg0hdiiZ676ieHFIQg-SpBGw-j-SP8Bcjs29-Eks,312
+osstorchconnector/oss_iterable_dataset.py,sha256=q5U7mb5iKMahaQZr6Ic4Ai_iEKv3FlRgjk13cyxhXJg,6300
+osstorchconnector/_oss_connector/oss_connector.pyi,sha256=wOpgLNQ8STA8iQNOKSxl5p7PTEhFdJdpK9q2W8mlOMc,1318
+osstorchconnector/_oss_connector/__init__.py,sha256=lkATNQjqIyrJRjaJFlxNdTj0W_S481HwxYjEdcceJsg,176
+osstorchconnector/_oss_connector/oss_connector.cpython-310-x86_64-linux-gnu.so,sha256=aR8c1fpvOdT4uUpKptO9NtiJ4pg9naMYUL_b1wdJ83c,3999576
+osstorchconnector-1.0.0rc1.dist-info/RECORD,,
+osstorchconnector-1.0.0rc1.dist-info/WHEEL,sha256=1FEjxEYgybphwh9S0FO9IcZ0B-NIeM2ko8OzhFZeOeQ,152
+osstorchconnector-1.0.0rc1.dist-info/LICENSE,sha256=UvMZXmqi4gepz5xE3rVE_fC2v2JX3njJ2Gm3qVsCeuM,1053
+osstorchconnector-1.0.0rc1.dist-info/top_level.txt,sha256=QGYnmewkKL-HoECpEHUs1hoil40KX3UwthR8NTx9PNU,32
+osstorchconnector-1.0.0rc1.dist-info/METADATA,sha256=rFLNM_OyLyQ9pnr8apLowm_60gjBfuTzUlwVBPZrBvU,1038

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: osstorchconnector
+Version: 1.0.0rc1
+Summary: OSS connector for AI/ML
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <3.13,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch >=2.0
+
+# OSS Connector for AI/ML
+
+## Overview
+
+The OSS Connector for AI/ML is a high-performance Python library specifically designed for AI and ML scenariosis, tailored to work with Alibaba Cloud OSS (Object Storage Service).
+
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
