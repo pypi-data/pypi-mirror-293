@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nlxcaptcha/__init__.py
+nlxcaptcha/nlxcaptcha.py
+nlxcaptcha.egg-info/PKG-INFO
+nlxcaptcha.egg-info/SOURCES.txt
+nlxcaptcha.egg-info/dependency_links.txt
+nlxcaptcha.egg-info/requires.txt
+nlxcaptcha.egg-info/top_level.txt
