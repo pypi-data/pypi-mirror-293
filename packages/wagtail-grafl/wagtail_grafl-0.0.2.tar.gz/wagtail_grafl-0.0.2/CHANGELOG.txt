@@ -1,0 +1,10 @@
+0.0.2 (2024.08.29)
+------------------
+
+* Removed core from wagtail imports
+
+
+0.0.1 (2022.04.04)
+------------------
+
+* Initial release
