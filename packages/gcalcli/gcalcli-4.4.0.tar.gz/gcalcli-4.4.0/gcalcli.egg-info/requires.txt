@@ -1,0 +1,13 @@
+python-dateutil
+google-api-python-client>=1.4
+httplib2
+google_auth_oauthlib
+parsedatetime
+argcomplete
+google-api-python-client-stubs
+types-python-dateutil
+types-requests
+types-vobject
+
+[vobject]
+vobject

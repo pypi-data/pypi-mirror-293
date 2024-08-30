@@ -1,0 +1,4 @@
+include ChangeLog
+include README.md
+
+graft docs
