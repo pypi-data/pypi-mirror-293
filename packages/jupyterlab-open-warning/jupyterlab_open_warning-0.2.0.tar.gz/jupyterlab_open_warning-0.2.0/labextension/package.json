@@ -1,0 +1,64 @@
+{
+  "name": "jupyterlab-open-warning",
+  "version": "0.2.0",
+  "description": "JupyterLab extension to display a warning dialog when opening a file that another user has open.",
+  "contributors": [
+    {
+      "name": "Alex Hadley",
+      "email": "contact@alexhadley.net"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/PainterQubits/jupyterlab-open-warning",
+  "repository": "github:PainterQubits/jupyterlab-open-warning",
+  "main": "lib/index.js",
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "labextension",
+    "webpackConfig": "webpack.config.js",
+    "_build": {
+      "load": "static/remoteEntry.003b5794ce52593ff409.js",
+      "extension": "./extension"
+    }
+  },
+  "scripts": {
+    "dev": "run-s build symlink:labextension && run-p watch:lib watch:labextension jupyterlab",
+    "build": "run-s clean download-licenses build:lib build:labextension",
+    "clean": "rimraf tsconfig.tsbuildinfo lib labextension",
+    "lint": "tsc --noEmit && eslint . && prettier --check .",
+    "build:lib": "tsc",
+    "watch:lib": "tsc -w",
+    "build:labextension": "jupyter labextension build .",
+    "symlink:labextension": "jupyter labextension develop --overwrite .",
+    "watch:labextension": "jupyter labextension watch .",
+    "jupyterlab": "hatch run jupyter lab --YDocExtension.disable_rtc True",
+    "download-licenses": "curl https://raw.githubusercontent.com/jupyterlab/jupyter-collaboration/main/LICENSE -o node_modules/@jupyter/collaboration/LICENSE-downloaded"
+  },
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "@jupyter/collaboration": "^2.1.2",
+    "@jupyterlab/application": "^4.2.5",
+    "@jupyterlab/apputils": "^4.3.5",
+    "@jupyterlab/docmanager": "^4.2.5",
+    "@jupyterlab/services": "^7.2.5",
+    "y-protocols": "^1.0.6"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^4.2.5",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.29.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
+  }
+}
