@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: slimify
+Version: 0.0.1
+Summary: Python Build Slimmer: Only What You Need.
+Author-email: Valentin Calomme <mail@valentincalomme.com>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# Slimify
+
+Python Build Slimmer: Only What You Need.
