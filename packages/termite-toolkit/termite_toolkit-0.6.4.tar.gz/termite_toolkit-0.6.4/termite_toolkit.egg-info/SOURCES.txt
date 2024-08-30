@@ -1,0 +1,7 @@
+README.md
+setup.py
+termite_toolkit.egg-info/PKG-INFO
+termite_toolkit.egg-info/SOURCES.txt
+termite_toolkit.egg-info/dependency_links.txt
+termite_toolkit.egg-info/requires.txt
+termite_toolkit.egg-info/top_level.txt

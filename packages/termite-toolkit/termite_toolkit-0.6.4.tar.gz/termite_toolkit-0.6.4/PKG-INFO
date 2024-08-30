@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: termite-toolkit
+Version: 0.6.4
+Summary: termite-toolkit is now scibite-toolkit
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: scibite-toolkit
+
+# termite-toolkit is now scibite-toolkit
+
+This package has been renamed. Use `pip install scibite-toolkit` instead.
+
+New package: https://pypi.org/project/scibite-toolkit/
