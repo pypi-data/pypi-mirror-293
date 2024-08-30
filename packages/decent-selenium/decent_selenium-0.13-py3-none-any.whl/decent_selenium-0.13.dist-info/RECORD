@@ -1,0 +1,8 @@
+web_automation/__init__.py,sha256=2ZOJHSbtaPKDEQHCQSYBe2i2h3hEQzA1eH2EANtaGjo,2970
+web_automation/config.py,sha256=2u9euYJxALo5nRNDdhVn2vtO79kTgAGVXuFg92sSO2g,810
+web_automation/custom_types.py,sha256=7YxXZHMr3DsWURDOv1Z265jx0GIK6BFNxl63pcWjpEA,13827
+web_automation/utils.py,sha256=1-aaUOGQ1e8lmQZQ0U0Bk4vbsfF2y6uPolSv8UOa52U,2783
+decent_selenium-0.13.dist-info/METADATA,sha256=8iMwO2Q5rM__VLfF93VYlZ0whzelbsh0TKKDIa5cimo,93
+decent_selenium-0.13.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+decent_selenium-0.13.dist-info/top_level.txt,sha256=sZKrJ_3mDbw5T8sQJx6roGWWGRAUm57qQqYCYZWn-iQ,15
+decent_selenium-0.13.dist-info/RECORD,,
