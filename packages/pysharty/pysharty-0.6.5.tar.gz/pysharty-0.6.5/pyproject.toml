@@ -1,0 +1,44 @@
+[build-system]
+requires = [
+    "requests",
+    "sphinxcontrib-napoleon"
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "pysharty"
+dynamic = ["version"]
+description = "Python soyjak.party API Wrapper. Based on BASC-py4chan by the Bibliotheca Anonoma"
+readme = "README.rst"
+license = "            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n                    Version 2, December 2004\n\n Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>\n\n Everyone is permitted to copy and distribute verbatim or modified\n copies of this license document, and changing it is allowed as long\n as the name is changed.\n\n            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n  0. You just DO WHAT THE FUCK YOU WANT TO.\n\n"
+authors = [
+    { name = "Antonizoon Overtwater", email = "antonizoon@bibanon.org" },
+]
+keywords = [
+    "api",
+    "soyjak.party",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests >= 1.0.0",
+]
+
+[project.urls]
+Homepage = "http://github.com/SuperWaluigi64/pysharty"
+
+[tool.hatch.version]
+path = "pysharty/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/pysharty",
+]
+
+[pypi]
+  username = __token__
+  password = pypi-AgEIcHlwaS5vcmcCJGI3NzM3ZGE2LTYyNTctNDZkYi1iZDc2LTE5MmIwZGRjZDdiMgACKlszLCI3ZDRlZDJmMS05YTkyLTQ1YjEtYmUwZC0xNDI4YTNmNzI1ZjkiXQAABiBMKAVf7KGh6kt2IWu2q9VeuCrIsQ0wrEh78mjyxcwKHw
