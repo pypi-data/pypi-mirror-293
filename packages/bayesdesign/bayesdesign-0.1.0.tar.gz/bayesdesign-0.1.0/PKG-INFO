@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: bayesdesign
+Version: 0.1.0
+Summary: Package for Bayesian optimal experimental design
+Home-page: https://github.com/dkirkby/bayesdesign
+Author: David Kirkby
+Author-email: dkirkby@uci.edu
+Project-URL: Documentation, https://github.com/dkirkby/bayesdesign
+Project-URL: Bug Reports, https://github.com/dkirkby/bayesdesign/issues
+Project-URL: Source Code, https://github.com/dkirkby/bayesdesign
+Keywords: bayes,optimization
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Bayesian Optimal Experiment Design
+
+[![PyPI package](https://img.shields.io/badge/pip%20install-bayesdesign-brightgreen)](https://pypi.org/project/bayesdesign/) [![version number](https://img.shields.io/pypi/v/example-pypi-package?color=green&label=version)](https://github.com/dkirkby/bayesdesign/releases) [![Actions Status](https://github.com/dkirkby/bayesdesign/workflows/Test/badge.svg)](https://github.com/dkirkby/bayesdesign/actions) [![License](https://img.shields.io/github/license/dkirkby/bayesdesign)](https://github.com/dkirkby/bayesdesign/blob/main/LICENSE)
+
+Use this package to calculate expected information gain for Bayesian optimal experiment design. For a general introduction to this topic, see this [interactive notebook](https://observablehq.com/@dkirkby/boed).
+
+This package was generated from [this template](https://github.com/tomchen/example_pypi_package) so refer there for details on how to work with VS code, set python testing versions, etc.
