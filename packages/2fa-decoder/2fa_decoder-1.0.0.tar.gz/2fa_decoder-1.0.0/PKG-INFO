@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: 2fa_decoder
+Version: 1.0.0
+Summary: Decode QR Code & Generate OTP
+Home-page: https://www.nghiahl.cloud
+Author: Nghia Dep Trai
+Author-email: nghiahandsome@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: QR_Code OTP 2FA Secret-Code
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+**The Project is used To Extract Raw Data From a QR Code & Generate an OTP From Secret Code Entered Via The keyboard.**
+
+Installation
+```
+# pip install opencv-python pyzbar pyotp
+# pip install 2fa_decoder
+```
+
+How To Use
+```
+# 2fa_decoder [-h] {decode,otp} INPUT
+# QR Code Decoder and OTP Generator
+# Arguments:
+# decode		Decode QR Code With <INPUT> - Path To QR Code
+# otp			Generate OTP From Secret Code
+# -h, --help	Show This Help Message and Exit
+```
+
+Example
+| Command	    | Output 		|
+| :-------------: |:-------------:|
+| # 2fa_decoder decode C:\Users\Test\QR-Code.png	| This-Is-Raw-Data-From-QR-Code
+| # 2fa_decoder otp 1233214566547899870				| 123456
