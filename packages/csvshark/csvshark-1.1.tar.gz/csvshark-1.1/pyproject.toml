@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csvshark"
+version = "1.1"
+description = "Generate Wireshark filters to exclude traffic from CSV files"
+authors = [{name = "Zehm"}]
+readme = "README.md"
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/Zehmosu/csvshark"
+
+[tool.setuptools]
+packages = ["csvshark"]

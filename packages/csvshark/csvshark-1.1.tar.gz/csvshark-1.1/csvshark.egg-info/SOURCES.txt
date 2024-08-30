@@ -1,0 +1,7 @@
+pyproject.toml
+csvshark/__init__.py
+csvshark/csvshark.py
+csvshark.egg-info/PKG-INFO
+csvshark.egg-info/SOURCES.txt
+csvshark.egg-info/dependency_links.txt
+csvshark.egg-info/top_level.txt
