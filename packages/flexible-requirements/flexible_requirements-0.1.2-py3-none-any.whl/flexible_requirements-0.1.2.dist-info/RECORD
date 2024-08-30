@@ -1,0 +1,8 @@
+compatibility_checkers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compatibility_checkers/base.py,sha256=4aPEjm27GsyB1ybauKwpX4cFTwkIb2lfhuXjRtdgCKo,155
+compatibility_checkers/fast_checker.py,sha256=OOBAPeebwBjcEFyXE0d3nBuWdlXL2Jsu2WzcOd8iQRY,2897
+compatibility_checkers/installation_checker.py,sha256=2R8KA44ofm7KGfeUgtFwToBDhw5-kTjNtVn5eYTntq4,4058
+flexible_requirements-0.1.2.dist-info/METADATA,sha256=jlM0BMHvo6HfYFyOhz4MD4fgFD5gSpJN2qaYYzYz7X0,4214
+flexible_requirements-0.1.2.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+flexible_requirements-0.1.2.dist-info/top_level.txt,sha256=UKsBnUQZ60pugYFRTFum7F_sfe8x-nMraHb3OyR3hhE,23
+flexible_requirements-0.1.2.dist-info/RECORD,,
