@@ -1,0 +1,12 @@
+evalica-0.2.0.dist-info/METADATA,sha256=781iE3KvaWHnKIVyS3PSZ0kWQhOOEuth4tFfInFvMnM,7004
+evalica-0.2.0.dist-info/WHEEL,sha256=i-p8mgSn4a7rikHqe4YQswfPRr0VwhoXpb8SQEIsq0A,94
+evalica-0.2.0.dist-info/entry_points.txt,sha256=sd4dTYJCTEK_sv3ZfA0_TXr-QptLhUhF46I6Bv4VQ2Y,48
+evalica-0.2.0.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+evalica/evalica.pyi,sha256=v0tDw5s0qGcI9oZK8wW5pkOxBI0rrSh3FW9MhKulRAY,3091
+evalica/naive.py,sha256=LfJmzhOWCEAxain8CTCLFYtQb5jmNn3z2N-EtolI3GY,7531
+evalica/py.typed,sha256=AsB6mVTHRirFMKgCNmIKNd_dvfP9r2S6rJOlPNiTQls,8
+evalica/test_evalica.py,sha256=ihS0TD_hLWTKUwkQvSyAYLDYm-FxGMLbcEf4txIXrKQ,21051
+evalica/__init__.py,sha256=apgHMyNb3LXxgaL-4xM-WHiGOTOu1kQcoLomO31Ssj8,27858
+evalica/__main__.py,sha256=Z8-En4Zprin-1tzvEyZUQOd3m6pqVT_WZKge1EgF6js,3029
+evalica/evalica.pyd,sha256=_iEmSVpkApvhVLHcZNGH772hDsOar6m-q0oCuR41da8,519680
+evalica-0.2.0.dist-info/RECORD,,
