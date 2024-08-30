@@ -1,0 +1,8 @@
+setup.py
+gitleaks_installer/__init__.py
+gitleaks_installer/installer.py
+gitleaks_package.egg-info/PKG-INFO
+gitleaks_package.egg-info/SOURCES.txt
+gitleaks_package.egg-info/dependency_links.txt
+gitleaks_package.egg-info/entry_points.txt
+gitleaks_package.egg-info/top_level.txt
