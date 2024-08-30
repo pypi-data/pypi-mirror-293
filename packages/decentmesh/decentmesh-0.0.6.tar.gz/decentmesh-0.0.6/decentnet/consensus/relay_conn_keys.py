@@ -1,0 +1,6 @@
+import os
+
+RELAY_CONNECTION_KEY_PAIR = (
+    os.getenv("RELAY_CONNECTION_KEY_PRIV", "p58ul2mBAlllQq_to9VH6FN8wBC2PlGjwYHQiq620z4="),
+    os.getenv("RELAY_CONNECTION_KEY_PUB", "AsFii9WROLKTDoFKE4ZtYlTN2joMDk5_DTYl7CVneroC")
+)
