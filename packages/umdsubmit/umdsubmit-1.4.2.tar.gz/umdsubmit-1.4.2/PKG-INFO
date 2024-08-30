@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: umdsubmit
+Version: 1.4.2
+Summary: Allows submitting to the UMD Submit Server from the command line, without the Eclipse Plugin
+Author: Nico Carbone
+Author-email: carbone.nicolas0@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# umdsubmit
+
+A PIP package that allows submitting to the UMD Submit Server from the command line, without the Eclipse Plugin. Will soon also be available as a VSCode extension.
+
