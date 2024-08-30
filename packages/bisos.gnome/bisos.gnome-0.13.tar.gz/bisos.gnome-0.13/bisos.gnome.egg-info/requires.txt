@@ -1,0 +1,8 @@
+PyGObject
+bisos
+bisos.b
+bisos.common
+blee
+blee.csPlayer
+pycairo
+rpyc
