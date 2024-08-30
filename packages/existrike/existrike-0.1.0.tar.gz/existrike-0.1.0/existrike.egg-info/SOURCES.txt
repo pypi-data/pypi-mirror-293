@@ -1,0 +1,8 @@
+README.md
+setup.py
+existrike.egg-info/PKG-INFO
+existrike.egg-info/SOURCES.txt
+existrike.egg-info/dependency_links.txt
+existrike.egg-info/entry_points.txt
+existrike.egg-info/requires.txt
+existrike.egg-info/top_level.txt

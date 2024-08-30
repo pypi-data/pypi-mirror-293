@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: existrike
+Version: 0.1.0
+Summary: Beta version of the ExiStrike framework, this is not the final version, remembering that we are not responsible for your actions!
+Home-page: https://github.com/RADNET64/Exploiter-alphatest
+Author: RADNET64
+Author-email: radnet@tutamail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ExiStrike
+
+ExiStrike is a beta version of a security framework. This is not the final version. We are not responsible for any misuse of this software.
+
+## Features
+
+- Scanning capabilities
+- Auxiliary scans, auxiliaries, exploits
+## Installation
+
+You can install ExiStrike using pip:
+
+```bash
+pip install .
