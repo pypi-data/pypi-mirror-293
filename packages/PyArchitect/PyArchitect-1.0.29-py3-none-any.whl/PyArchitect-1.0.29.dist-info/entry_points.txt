@@ -1,0 +1,4 @@
+[console_scripts]
+buckets = buckets.__main__:main
+schema_analyzer = schema_analyzer.scripts.main:main
+
