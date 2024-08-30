@@ -1,0 +1,2 @@
+[console_scripts]
+abuild = abuild.main:app

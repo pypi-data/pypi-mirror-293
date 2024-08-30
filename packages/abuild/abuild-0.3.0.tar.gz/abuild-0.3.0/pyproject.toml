@@ -1,0 +1,63 @@
+[project]
+name = "abuild"
+authors = [
+  {name = "Ingo Fruend", email = "github@ingofruend.net"},
+]
+description = "A simple, language agnostic build tool"
+readme = "README.md"
+license = { text = "BSD-3-Clause" }
+keywords = ["language agnostic", "build tool", "monorepo"]
+dynamic = ["version", "dependencies"]
+
+[project.scripts]
+abuild = "abuild.main:app"
+
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+tag_regex = "^(?P<prefix>v?)(?P<version>\\d+\\.\\d+\\.\\d+)"
+local_scheme = "no-local-version"
+
+[tool.blue]
+line_length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
+src_paths = ["src/", "tests/"]
+known_testing = ["unittest", "pytest", "pytest_asyncio", "hypothesis"]
+known_types = ["typing", "typing_extensions", "abc"]
+known_api = ["fastapi", "motor", "pymongo"]
+known_science = ["numpy", "pandas", "scipy", "librosa", "torch", "soxr", "soundfile"]
+sections = ["FUTURE", "TESTING", "TYPES", "STDLIB", "THIRDPARTY", "API", "SCIENCE", "FIRSTPARTY", "LOCALFOLDER"]
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+
+ignore_missing_imports = true
+follow_imports = "skip"
+
+[tool.semv.types]
+feat = "minor"
+feature = "minor"
+fix = "patch"
+perf = "patch"
+chore = "valid"
+test = "valid"
+docs = "valid"
+ci = "valid"
+refactor = "valid"
+style = "valid"
+build = "valid"
+
+[tool.setuptools.package-data]
+"abuild" = ["py.typed"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = "requirements.txt" }
