@@ -1,0 +1,14 @@
+lxml
+unidecode
+requests
+six
+numpy
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-gallery
+
+[tests]
+pytest
+pytest-cov
