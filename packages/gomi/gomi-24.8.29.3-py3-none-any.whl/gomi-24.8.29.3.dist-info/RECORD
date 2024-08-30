@@ -1,0 +1,16 @@
+gomi/.gitignore,sha256=mWf79qaLRIj7Cm6xmmw2sdQIpHMSuIJbbTgGLhDVwHo,14
+gomi/__about__.py,sha256=4fnjWO8u1AeRKhwS7C3sRSGS0FGi9FBU8FC_aLLajOc,420
+gomi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gomi/__main__.py,sha256=tmy6OeEgDbC9VTieeW3aApGogkEug8evC_D9b-0vxoU,2790
+gomi/ankiconnect.py,sha256=bZBy2Fmfw16n8k5aGnBhRqaJdgUUgBDv5ExEH0SQ8kg,1117
+gomi/common.py,sha256=UH9zOl9pL6KUEP_u1--VmEQeJLSTUhbHYCqTy6f3TG4,1564
+gomi/consts.py,sha256=3CvhTMVcftPT4lrj7iPBg6ddYg41t-HdX7-VdgCJutw,419
+gomi/exporter.py,sha256=P670j_anrcXZCk-_qox5AFKG6savE5YJZVqGS9nO3HQ,4233
+gomi/importer.py,sha256=fA4JxxC0EPu1IFEBCejosILrCr5sELa1ujT3iDrTvDs,3345
+gomi/overwriter.py,sha256=igBbdiiBLmqRyXto7rPQT-GxcyH6Er5b2myjGx7oUeo,1058
+gomi/updater.py,sha256=FyI_-QBpXMhKyZMqUa9oTQS2hfKoJjLmc43qDG2AjiU,1625
+gomi-24.8.29.3.dist-info/METADATA,sha256=_t58itvGNP0OTxZgo1OC55dYRdRF08CaZDUXwO0VfFQ,44387
+gomi-24.8.29.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gomi-24.8.29.3.dist-info/entry_points.txt,sha256=kxRViZTTCxo7KmByct2bx2H0nnV56r7rnxQjLuuO1lc,44
+gomi-24.8.29.3.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gomi-24.8.29.3.dist-info/RECORD,,
