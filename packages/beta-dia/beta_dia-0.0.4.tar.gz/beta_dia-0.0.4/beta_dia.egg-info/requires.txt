@@ -1,0 +1,9 @@
+h5py
+matplotlib
+networkx
+numba
+pandas
+pyzstd
+scikit-learn
+scipy
+statsmodels
