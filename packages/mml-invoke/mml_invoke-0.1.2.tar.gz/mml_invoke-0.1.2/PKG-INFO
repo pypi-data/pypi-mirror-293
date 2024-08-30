@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mml-invoke
+Version: 0.1.2
+Summary: Custom invoke task library for the Moleccular Modeling Lab
+License: MIT
+Author: James Wellnitz
+Author-email: wellnitz.james@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: invoke (>=2.1.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+
