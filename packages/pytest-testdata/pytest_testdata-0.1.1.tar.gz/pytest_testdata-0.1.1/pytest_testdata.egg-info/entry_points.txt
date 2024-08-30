@@ -1,0 +1,2 @@
+[pytest11]
+pytest-testdata = pytest_testdata.plugin
