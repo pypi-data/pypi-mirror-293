@@ -1,0 +1,5 @@
+setup.py
+shreyaspurankarmypackage.egg-info/PKG-INFO
+shreyaspurankarmypackage.egg-info/SOURCES.txt
+shreyaspurankarmypackage.egg-info/dependency_links.txt
+shreyaspurankarmypackage.egg-info/top_level.txt
