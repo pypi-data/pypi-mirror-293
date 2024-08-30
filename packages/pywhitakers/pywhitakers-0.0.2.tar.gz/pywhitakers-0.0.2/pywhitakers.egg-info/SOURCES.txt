@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pywhitakers/__init__.py
+pywhitakers.egg-info/PKG-INFO
+pywhitakers.egg-info/SOURCES.txt
+pywhitakers.egg-info/dependency_links.txt
+pywhitakers.egg-info/top_level.txt
+tests/test.py
