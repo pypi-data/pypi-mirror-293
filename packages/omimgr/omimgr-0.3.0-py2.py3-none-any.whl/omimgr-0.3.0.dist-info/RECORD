@@ -1,0 +1,16 @@
+omimgr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omimgr/__main__.py,sha256=iUAdkO_0HBRErn1v94juqik193tlUQv3KaN9cCiKCjo,135
+omimgr/config.py,sha256=azCHsL13eKWgeh_tg-x97-pOMqeJfNzMb0NYAyLyHf8,97
+omimgr/configure.py,sha256=Jcugt2BsaVsVYQL2_AZj0AMAYXdpV2Qtl3JPvxECyqs,6526
+omimgr/gui.py,sha256=O9nD92SZyAyKT3AzrXDrnBISINIaF0D_JT_NyyULmeE,31044
+omimgr/om.py,sha256=p73YI09XzKTaQiXFO-ffjifzEnCNbijIiTSaiDotBkw,11253
+omimgr/omimgr.py,sha256=l4qI0KqMjIwEarXtyYoMSMSLWn5SdSpQaNFLSJst6wg,339
+omimgr/shared.py,sha256=nP_GIQ4BTA56dBFZx1AOGKWII_u7U_sj2M8P3EmyQTI,3027
+omimgr/wrappers.py,sha256=T4RQk0mAawOdtpWjWOR0JsWl1gxL1D452xu3jmzjDos,8647
+omimgr/icons/omimgr.png,sha256=PbH95CdSglKb6sjWDyMOeLgUMS2Onezk2Ce6A6GMFBo,5217
+omimgr-0.3.0.dist-info/LICENSE,sha256=MZrxj4ow1Uu_TGyp_7CSrRG4Dayvji_AbinZahs6UBg,11611
+omimgr-0.3.0.dist-info/METADATA,sha256=3y2n4hISzuC7QLfb7kcHvYNDvegbdkOdJMauxP5nZ74,633
+omimgr-0.3.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+omimgr-0.3.0.dist-info/entry_points.txt,sha256=khE6GwAs7FI9osBfxD-FlCDByxMTj23X6OmwDFAI1GA,128
+omimgr-0.3.0.dist-info/top_level.txt,sha256=14RwjRUdorf1BsY9Ycuz9jXw8Oyod2KOtQxvBo4KZis,7
+omimgr-0.3.0.dist-info/RECORD,,
