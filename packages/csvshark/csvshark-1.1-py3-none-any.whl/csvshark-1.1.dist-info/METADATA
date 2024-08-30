@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: csvshark
+Version: 1.1
+Summary: Generate Wireshark filters to exclude traffic from CSV files
+Author: Zehm
+Project-URL: Homepage, https://github.com/Zehmosu/csvshark
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
