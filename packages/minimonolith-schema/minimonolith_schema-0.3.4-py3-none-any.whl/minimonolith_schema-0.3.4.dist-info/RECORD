@@ -1,0 +1,10 @@
+minimonolith_schema/__init__.py,sha256=_4bb9PJWF5HCSIypfw42VuZG9Lbac3KaV-WkpxO16ZQ,177
+minimonolith_schema/pdf_layout.py,sha256=SSZBcYdP6dw88rrjoXJTGzAnwE_Lw_vB1VJKZKa-0kc,1769
+minimonolith_schema/plot_columns.py,sha256=mrxiNH33sKKME-aXhfgbejYFdXH7VT8bglYYxkTitqw,4002
+minimonolith_schema/print_metrics.py,sha256=IJGylFNh4H5-CIaEqokeQYuVnF78dyTJtczsNCENKK8,4106
+minimonolith_schema/validators.py,sha256=hi5wSCvANKxC53BEuf1DokyV9Bcz-n3JEVSHjKUQL8Y,3074
+minimonolith_schema-0.3.4.dist-info/LICENSE.txt,sha256=-ENEeMzJSUPadpvsmFSwPt4ztBRTLVBQjzYTGNVHkMQ,1114
+minimonolith_schema-0.3.4.dist-info/METADATA,sha256=pTIYceIVzK9vfJCDq9HU8wj0TuB002dfrqiz8dEFX28,1571
+minimonolith_schema-0.3.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+minimonolith_schema-0.3.4.dist-info/top_level.txt,sha256=z6Xd4yt8uPpBVTxqyEPVo2lgOpQMSdmOI__BLd0qjYI,20
+minimonolith_schema-0.3.4.dist-info/RECORD,,
