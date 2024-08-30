@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AppDT
+Version: 1.0.0
+Summary: (This Is A Chinese Package)此工具箱可以帮您快速构建Windows™应用程序，也可以快速生成安装包
+Home-page: https://www.douyin.com/user/MS4wLjABAAAARkk5zY-7-Et1347qxL_7rsHVzWHOh9NI1YbMAZZ8crI
+Author: xumouren225588
+Author-email: xumouren225588@163.com
+License: MIT
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: pyinstaller
+Requires-Dist: PyQt5
