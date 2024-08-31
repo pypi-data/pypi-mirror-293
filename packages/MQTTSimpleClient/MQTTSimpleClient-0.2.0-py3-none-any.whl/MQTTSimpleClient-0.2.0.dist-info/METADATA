@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: MQTTSimpleClient
+Version: 0.2.0
+Summary: A custom MQTT library for interaction with an MQTT broker
+Home-page: https://github.com/filoriccardo/MQTTSimpleClient
+Author: Riccardo Filomena
+Author-email: filomena.riccardo@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Requires-Dist: paho-mqtt
+Requires-Dist: lxml
+Requires-Dist: setuptools
+
