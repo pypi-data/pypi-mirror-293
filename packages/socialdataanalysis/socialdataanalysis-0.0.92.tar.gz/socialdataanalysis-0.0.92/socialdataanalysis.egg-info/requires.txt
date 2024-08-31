@@ -1,0 +1,16 @@
+pandas
+numpy
+statsmodels
+scipy
+sympy
+prince
+altair
+requests
+pyreadstat
+pingouin
+tabulate
+ipython
+warnings
+itertools
+plotly
+factor_analyzer
