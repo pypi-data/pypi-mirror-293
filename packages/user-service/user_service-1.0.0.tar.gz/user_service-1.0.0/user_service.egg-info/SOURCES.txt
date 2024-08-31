@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/__init__.py
+src/main/__init__.py
+src/main/python/__init__.py
+src/main/python/api/__init__.py
+src/main/python/api/main.py
+src/tests/__init__.py
+src/tests/test_user_service.py
+user_service.egg-info/PKG-INFO
+user_service.egg-info/SOURCES.txt
+user_service.egg-info/dependency_links.txt
+user_service.egg-info/requires.txt
+user_service.egg-info/top_level.txt
