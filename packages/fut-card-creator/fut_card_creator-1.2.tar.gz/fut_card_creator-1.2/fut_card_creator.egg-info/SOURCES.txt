@@ -1,0 +1,23 @@
+README.md
+setup.py
+fut_card_creator/__init__.py
+fut_card_creator/fut_card_creator.py
+fut_card_creator/utils.py
+fut_card_creator.egg-info/PKG-INFO
+fut_card_creator.egg-info/SOURCES.txt
+fut_card_creator.egg-info/dependency_links.txt
+fut_card_creator.egg-info/requires.txt
+fut_card_creator.egg-info/top_level.txt
+fut_card_creator/fonts/DINPro CondBold.otf
+fut_card_creator/fonts/DINPro Condensed.otf
+fut_card_creator/images/card_templates/bronze_rare.png
+fut_card_creator/images/card_templates/future_star.png
+fut_card_creator/images/card_templates/gold.png
+fut_card_creator/images/card_templates/icon.png
+fut_card_creator/images/card_templates/rare_gold.png
+fut_card_creator/images/card_templates/silver_rare.png
+fut_card_creator/images/card_templates/tots.png
+fut_card_creator/images/card_templates/totw.png
+fut_card_creator/images/card_templates/toty.png
+fut_card_creator/images/club_logo_cache/paris_saint-germain.png
+fut_card_creator/images/nation_cache/Argentina.png
