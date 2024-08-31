@@ -1,0 +1,7 @@
+rastervision/aws_sagemaker/__init__.py,sha256=VP2ztv9JqGBbNPmi9CNvSqS6y9VgG5K8vNZ2R8snbx8,796
+rastervision/aws_sagemaker/aws_sagemaker_runner.py,sha256=M0BdAGduu1uJLo16UbeOzhc_3UJdrTZZnZfdiLwyEcg,14991
+rastervision/aws_sagemaker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rastervision_aws_sagemaker-0.31.1.dist-info/METADATA,sha256=aIj9SExRNs0gMGn783V6NzieNHsfZT2IeKxo3MifaCg,631
+rastervision_aws_sagemaker-0.31.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+rastervision_aws_sagemaker-0.31.1.dist-info/top_level.txt,sha256=EIHUN3CKBMQRXnkKnPXjUTE6umajbcPPQvtcET5e1x0,13
+rastervision_aws_sagemaker-0.31.1.dist-info/RECORD,,
