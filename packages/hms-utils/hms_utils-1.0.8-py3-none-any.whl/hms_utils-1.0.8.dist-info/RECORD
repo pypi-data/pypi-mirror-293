@@ -1,0 +1,10 @@
+hms_utils/awsecs.py,sha256=Ew-NLnKn0-mLhhNp0x58zOdHzjcER64GGnqCdlAb4Ag,24095
+hms_utils/awsenv.py,sha256=QLoSQALYFWTxri-AZMzleSZXoRrIof1wcyHdXoLZACk,23878
+hms_utils/awsenv.sh,sha256=k9CO1Uk8hIO_KnsYRYWkns7DZn5u9XaRu7YYmJr_g4Y,1311
+hms_utils/hmsconfig.py,sha256=UTMLhMc46AzTN2GQrxYsqvFyEHfnIWLvuCpBwp-d_r8,14288
+hms_utils/portalenv.py,sha256=C6oKJDQpWt0qrKyZExCWXxAQ5bJo0WA4UeKDkhfkrcU,5181
+hms_utils/print_tree.py,sha256=8VrxC2VCZ4J2Se8ymuDpbSB_PF7ByXeoJ80fkVfpotc,1000
+hms_utils-1.0.8.dist-info/METADATA,sha256=DaGCWPdCEQ9SgJ4afhS-SjXor-FlnH6D01Fv6Y3GvZY,1030
+hms_utils-1.0.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hms_utils-1.0.8.dist-info/entry_points.txt,sha256=k3R-Q5LFVKdrpF6Ta2gJTqADDmNPIIar3O6SyPJ1qBw,176
+hms_utils-1.0.8.dist-info/RECORD,,
