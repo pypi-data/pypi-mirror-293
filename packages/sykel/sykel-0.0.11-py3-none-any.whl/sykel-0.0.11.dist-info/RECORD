@@ -1,0 +1,10 @@
+sykel/__init__.py,sha256=urPWWm6OESXzRk5a53mqHRRlK2zdVQnxMnRHCV1ajjM,76
+sykel/__main__.py,sha256=f6NIckIWhRhNGUlxGFW6Aw2J0l4oSTdKvRiqfkLLClg,271
+sykel/package.py,sha256=m2qhyYKP0cZs0MQSwo7nHAB0sYw8yEtZY8cMTlrp2jU,652
+sykel/version.py,sha256=DHYZg8vv6TIqp246Ar4B0GxF-yCxA3rJzJraYyt_L3Q,2377
+sykel-0.0.11.dist-info/LICENSE,sha256=5RmIvXd4qQlUcIxpjMFtNimlvb1p5R7i-13bQtyUiig,35079
+sykel-0.0.11.dist-info/METADATA,sha256=fZFw8TYeJZs8BwaBuqDPxx1pr6Sa6JPZBqO35iOuzMU,511
+sykel-0.0.11.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+sykel-0.0.11.dist-info/entry_points.txt,sha256=cy1MeI0E8BRK-R426oBq87T0l5GKlSwGVOiiasb5leo,53
+sykel-0.0.11.dist-info/top_level.txt,sha256=Qn0tFNvzqvypLppMOp0z15RaEU3buH5YrKiTbFDAF9Q,6
+sykel-0.0.11.dist-info/RECORD,,

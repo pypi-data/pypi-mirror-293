@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sykel
+Version: 0.0.11
+Summary: Sykel - Software Lifecycle Util
+Home-page: https://github.com/beat-no/sykel
+Author: Øystein S. Haaland
+Author-email: oystein@beat.no
+License-File: LICENSE
+Requires-Dist: invoke
+Requires-Dist: bumpversion
+Requires-Dist: build
+Requires-Dist: twine
+Provides-Extra: dev
+Requires-Dist: restview ; extra == 'dev'
+
+=====
+sykel
+=====
+A utility for software lifecycle management.
+
+Installation
+============
+
+Install from pypi::
+
+    $ pip install --user sykel
