@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: cambd
+Version: 1.0.2
+Summary: Cambridge dictionary cli app
+Home-page: https://github.com/rocktimsaikia/cambd
+Author: Rocktim Saikia
+Author-email: saikia.rocktim@proton.me
+License: MIT
+Classifier: Environment :: Console
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.11.1
+Requires-Dist: html5lib>=1.1.0
+Requires-Dist: click>=8.0.3
+Requires-Dist: halo>=0.0.31
+Requires-Dist: requests>=2.25.1
+Requires-Dist: rich>=12.6.0
+Requires-Dist: simple_term_menu>=1.5.2
+
+# Cambd
+
+> [Cambridge dictionary](https://dictionary.cambridge.org) cli app
+
+<img src="https://www.dropbox.com/s/1jydlxwzmj8e6po/demo.gif?raw=1" alt="cambd, Cambridge dictionary cli app" />
+
+## Features
+
+- Automatically suggests related words when a typo is detected.
+- Provides an interactive suggestion menu for selecting the correct word in case of a typo.
+- Supports past and past participle forms, returning the definition of the root word.
+- Operates without relying on any external APIs or databases.
+- Implements persistent caching to store previously searched words, ensuring faster results. The cache is maintained using Python's built-in `sqlite3`.
+
+## Install
+
+```sh
+pip install cambd
+```
+
+## Usage
+
+```sh
+Usage: cambd [OPTIONS] WORD
+
+Options:
+  -a, --show-all         Show all the definitions of a word.
+  -d, --dictionary TEXT  Determine which dictionary region to use (uk, us) [default: uk]
+  -v, --verbose          Show extra word info ie, word codes & labels. [ex: A2 informal]
+  -c, --clear-cache      Clear all the stored cache from system.
+  --version              Show the version and exit.
+  --help                 Show this message and exit.
+```
+
+## FAQ
+
+Q. Why scrape instead of using a Dictionary API?
+
+> [!NOTE]
+> TBH, As a non native english speaker, I find the cambridge dictionary the most easy to understand. But they don't have any public free API with all the features I want like getting suggestions on misspelled words and give both US and UK definations etc. So I ended up building this cli tool with basic scrapping for my own usecase as I am a terminal power user and don't want to leave the terminal, go to browser, open a new tab just to search for a word meaning.
+
+## LICENSE
+
+[MIT](./LICENSE) License &copy; [Rocktim Saikia](https://rocktimsaikia.dev) 2024
