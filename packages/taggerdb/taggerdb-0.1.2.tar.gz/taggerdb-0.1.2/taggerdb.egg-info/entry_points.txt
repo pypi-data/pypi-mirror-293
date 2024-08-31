@@ -1,0 +1,2 @@
+[console_scripts]
+taggerdb = taggerdb.taggerdb:main
