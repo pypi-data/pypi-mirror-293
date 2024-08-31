@@ -1,0 +1,3 @@
+[console_scripts]
+generate-response-models = sweatstack.cli:generate_response_models
+sweatshell = sweatstack.sweatshell:run_ipython
