@@ -1,0 +1,17 @@
+gscraper/__init__.py,sha256=G1j-3tnfldAgfhWQ58YrBYC_ZfhtcqAurjIuPu7uTqA,284
+gscraper/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gscraper/base/abstract.py,sha256=rsfRkBe1beAidv-1B8Q8WCioDO1TW-kMM7GjCM6tPtk,22853
+gscraper/base/gcloud.py,sha256=-Fq2xPzViVZ5rcVbMyXCkwCqtHzXOEeS2cKUR_vgIzA,39833
+gscraper/base/session.py,sha256=irrDI5m9LLm23OdgOtF6_nAU2SNNBalJePM3PUj0RRA,89811
+gscraper/base/spider.py,sha256=SGnLxyJelExFOdWOO8wFUAe0P-KMiv3bl85Qy_MGCok,119602
+gscraper/base/types.py,sha256=vCj2Pt5CW0htcsQfeXMHvYpAc6TA1-upJNpGaWeNtws,19476
+gscraper/utils/__init__.py,sha256=mcb-_K8d-2R1XKv9eg7T0KeEigHd3pGuUkTFDKsnGQ8,962
+gscraper/utils/cast.py,sha256=LHw-hfGLkR6H8HNQUSqAQh2aU-dLh9UWRkqSsv7mgcQ,11448
+gscraper/utils/date.py,sha256=G9RGaot8vjDfj6Z38-32hxcVBAPxDQKpFaYGiZBRBbU,18341
+gscraper/utils/logs.py,sha256=P5EWEhKp8c1GJjvgZ2-l7J2EkuxV_oTA0EGVz7Vz8VY,9124
+gscraper/utils/map.py,sha256=-xXYnaKUxronpYsB9DH4jl1UdInFpHAM2OKTR3Y6Y3c,75269
+gcp_scraper-3.8.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gcp_scraper-3.8.3.dist-info/METADATA,sha256=1H84q0Be9BNdnWfmdIELD3cowpj15Yzvr2J5kS_wUZ0,692
+gcp_scraper-3.8.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gcp_scraper-3.8.3.dist-info/top_level.txt,sha256=0qPa563Kkq74cdhZreyBnp-20UpQq_apdttusSbMD8A,9
+gcp_scraper-3.8.3.dist-info/RECORD,,
