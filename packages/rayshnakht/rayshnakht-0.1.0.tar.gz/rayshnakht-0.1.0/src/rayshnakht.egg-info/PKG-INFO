@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rayshnakht
+Version: 0.1.0
+Summary: A custom hashing algorithm
+Home-page: https://github.com/yourusername/rayshnakht
+Author: Patnutsh
+Author-email: patnutsh@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Usage
+
+Here's how to use the rayshnakht_v1 hashing algorithm:
+
+```python
+from rayshnakht import rayshnakht_v1
+
+hasher = rayshnakht_v1()
+input_string = "Hello, World!"
+hashed_string = hasher.rayshnakht_v1(input_string)
+print(f"Hashed string: {hashed_string}")
