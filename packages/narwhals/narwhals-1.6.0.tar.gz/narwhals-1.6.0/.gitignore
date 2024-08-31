@@ -1,0 +1,12 @@
+.venv
+*.pyc
+todo.md
+.coverage
+site/
+.coverage.*
+.nox
+*.lock
+tpch/data/*
+
+docs/api-completeness/*.md
+!docs/api-completeness/index.md
