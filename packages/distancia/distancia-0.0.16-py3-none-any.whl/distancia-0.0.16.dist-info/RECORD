@@ -1,0 +1,10 @@
+distancia/__init__.py,sha256=bxxP35t_mrSo-twXGdySZHC-SaF_k2Lt2yZgEh4avUc,1000
+distancia/distancia.py,sha256=TNWoBeFF-dVvoqIZUir8ML_fr-F_hC4R6VRDtUNqsxg,99499
+distancia/graphDistance.py,sha256=nzzDBg-KUxYcq8the70dk3Q9wLsGyR8MlDUfrPqxrHs,8899
+distancia/tools.py,sha256=QY4qC1q8SVB9HFMhzIOTgrcvinASztJhFfpfez3WBdU,6036
+distancia-0.0.16.dist-info/LICENSE.txt,sha256=GvzKiCjTNsu_2UCrkZ6n-2B8wPM6RbfLuIuqYBT2Ros,12
+distancia-0.0.16.dist-info/METADATA,sha256=esgiOqCbN-3BWGlouQg9gRVhssNxMt0w5JfrsLWywFM,4349
+distancia-0.0.16.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+distancia-0.0.16.dist-info/entry_points.txt,sha256=ODp4z62pfm0ZyxWa87OY-frCg8FoVEJ7nXDxmsMrjgo,53
+distancia-0.0.16.dist-info/top_level.txt,sha256=aQW-mWkD6V4SquTlqSI4LLORkIMhJmeK0wuz_4zrdI4,10
+distancia-0.0.16.dist-info/RECORD,,
