@@ -1,0 +1,15 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+scrapoxy/__init__.py
+scrapoxy/api.py
+scrapoxy/blacklist.py
+scrapoxy/proxy.py
+scrapoxy/scale.py
+scrapoxy/sticky.py
+scrapoxy.egg-info/PKG-INFO
+scrapoxy.egg-info/SOURCES.txt
+scrapoxy.egg-info/dependency_links.txt
+scrapoxy.egg-info/top_level.txt
