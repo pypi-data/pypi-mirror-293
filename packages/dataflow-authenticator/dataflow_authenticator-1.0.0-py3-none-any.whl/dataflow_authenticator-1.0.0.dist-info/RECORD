@@ -1,0 +1,14 @@
+authenticator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authenticator/dataflowairflowauthenticator.py,sha256=gOmRbNbHAINfeVuE-cHDuk7mbo5q7K1wqRT0B20g6PA,4746
+authenticator/dataflowhubauthenticator.py,sha256=jsxpB_NZz3n_FGFJzW0yfXR3i-KK1dsVVIQVIN84Pfc,2540
+authenticator/package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authenticator/package/configuration.py,sha256=7To6XwH1eESiYp39eqPcswXWwrdBUdPF6xN6WnazOF0,663
+authenticator/package/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authenticator/package/models/database.py,sha256=y09pqnglsBBtDZlyhvqDAlpUSFovwAzBAi6jOYl_XNk,896
+authenticator/package/models/session.py,sha256=j6PhbrTMJxEkeDT4Vf5SqGtM_LI_vZy9O4vxn6LtIbc,495
+authenticator/package/models/user.py,sha256=IYogp_vt0yDBG5i936uNPjgTis77VYPzITn9XpQUIyw,788
+dataflow_authenticator-1.0.0.dist-info/METADATA,sha256=QF26FQRohb8fvRDD4pLk1XrC3o7hd60KTa5--tpBDIc,202
+dataflow_authenticator-1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+dataflow_authenticator-1.0.0.dist-info/entry_points.txt,sha256=lDLG2MMWlKfkqsVWFghF7sx-yEvM2xqMmHE7rMTysE4,118
+dataflow_authenticator-1.0.0.dist-info/top_level.txt,sha256=8ORDz0zH0-W8kIhBeQsXM5q0zgabdxK3FDa47WDfJC4,14
+dataflow_authenticator-1.0.0.dist-info/RECORD,,
