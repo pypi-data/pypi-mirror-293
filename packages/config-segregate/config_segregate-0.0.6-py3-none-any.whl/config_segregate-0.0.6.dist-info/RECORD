@@ -1,0 +1,8 @@
+config_segregate/__init__.py,sha256=Id2YD3BGPIgEebkjuBEcguyzK8G0YlojtUSsVPaV75g,235
+config_segregate/core.py,sha256=PRMuf3lnxFaIkwi-ENd0QaUCQOlxSBAK334n2wuFBH4,4183
+config_segregate/readers.py,sha256=hthMO4fktwcfst6G6CAvBnShgDinOYvhgPERaRgW0ZU,3155
+config_segregate/writers.py,sha256=iQAdOx8uBB88D48y5cegd91oA_b4V8d55XN_8HlSTO4,3091
+config_segregate-0.0.6.dist-info/LICENSE,sha256=ceFBMnL5nbXQxBSorqLQp0Qs_h7s00CcPz9AfRgGbMs,1089
+config_segregate-0.0.6.dist-info/METADATA,sha256=mh1sIM5acvF20f5fOt4Fb0NlAy0J7tSMGW5HqnjS7cA,4275
+config_segregate-0.0.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+config_segregate-0.0.6.dist-info/RECORD,,
