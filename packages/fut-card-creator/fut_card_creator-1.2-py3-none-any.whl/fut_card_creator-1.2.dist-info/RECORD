@@ -1,0 +1,20 @@
+fut_card_creator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fut_card_creator/fut_card_creator.py,sha256=LO-j9Nf9-5B8PlPkJtWnpDgNcbbpALxWAeAhPn92O6c,7725
+fut_card_creator/utils.py,sha256=fA6RzNAaDo7S2VZM6yqE3b8oT5cQ5hudycjoJMtsPuI,10353
+fut_card_creator/fonts/DINPro CondBold.otf,sha256=rqv0hc6sPY130Klr863ikfBi2L2B65bGZEgcU7gVlqE,63240
+fut_card_creator/fonts/DINPro Condensed.otf,sha256=VznU2uDxhmmIvYgkEq7ED2_tFK2poJE5u9YfaO_xWiA,62408
+fut_card_creator/images/card_templates/bronze_rare.png,sha256=z4fZqNoAlLrkGIBhELp-SixIBGY6-3T8w4nIwRHi2qI,355635
+fut_card_creator/images/card_templates/future_star.png,sha256=Pd2B52FmveD9O2-phYOMTPBDhdmj8waeDpLSW--5O0M,1089915
+fut_card_creator/images/card_templates/gold.png,sha256=mMmm91vDKv_7GaZthFbpo8XSG4XZHtLB2HolT2eEwdo,284823
+fut_card_creator/images/card_templates/icon.png,sha256=c83q0QDy9nCpxjYYjS0Z4LzNa2knZI5lDw1uLkT9KmU,1042979
+fut_card_creator/images/card_templates/rare_gold.png,sha256=Vl-nFpRbYFtnZWf6Wl2h4OqE3uONXefFZVU0rkxXnuA,669362
+fut_card_creator/images/card_templates/silver_rare.png,sha256=6YGvfePSU-Mc1H1J2RVQ1QaqVBPpPtC74qIYCXgv7Cc,222069
+fut_card_creator/images/card_templates/tots.png,sha256=RYKwW42ytW7JSVOcjgfk8UVEIDKgzNy7EzXnD9ZMpVA,1360635
+fut_card_creator/images/card_templates/totw.png,sha256=TYPOFUItBnmvops5DW3LdeKwIG83O1xnlgVyVOYT-cQ,512544
+fut_card_creator/images/card_templates/toty.png,sha256=ifRxc7irerYhniyocZrT-NnabuP6C-ZAfGUvEZr8epk,1145028
+fut_card_creator/images/club_logo_cache/paris_saint-germain.png,sha256=x75GrPy7yxMSWbjGWs6lF2KHC2abfONArzPnkDX1bq8,104527
+fut_card_creator/images/nation_cache/Argentina.png,sha256=PJ61VwWhP--MmLZkjgCJ8s684hWsZQVhAKr0DqDrbws,1797
+fut_card_creator-1.2.dist-info/METADATA,sha256=WCZTTlAq4EX_Lx8LS43OECx99rlkg9KpLIo1Qp9n6IU,3996
+fut_card_creator-1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fut_card_creator-1.2.dist-info/top_level.txt,sha256=cnL6ve2035eGU1j2A9tpeQzHs8hazeYaOB10A42-LhM,17
+fut_card_creator-1.2.dist-info/RECORD,,
