@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: buzzquiz
+Version: 0.1.0
+Summary: Handle the controllers of PS2 Buzz!
+License: GNU GENERAL PUBLIC LICENSE
+Author: angmorpri
+Author-email: angelmorenoprieto@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: hidapi (>=0.14.0.post2,<0.15.0)
+Description-Content-Type: text/markdown
+
+# BuzzQuiz
+
+Library for handling the controllers of the acclaimed PlayStation 2 game _Buzz!_
+In a future, also for organizing quizzes just like the game.
+
+# Buzz - Controllers handling
+
+Buzz library contains two modules, 'reader' and 'lights'. As their names
+indicate, they handle input reading and lights changes, respectively.
+
+Buzz must be initialized via `buzz.init()`. It will find all available
+controllers (doesn't matter how many sets or ports are being used), and
+register them so they can be used.
+

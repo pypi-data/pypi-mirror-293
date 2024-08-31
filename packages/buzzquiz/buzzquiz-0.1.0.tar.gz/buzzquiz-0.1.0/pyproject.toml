@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "buzzquiz"
+version = "0.1.0"
+description = "Handle the controllers of PS2 Buzz!"
+authors = ["angmorpri <angelmorenoprieto@gmail.com>"]
+license = "GNU GENERAL PUBLIC LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hidapi = "^0.14.0.post2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
