@@ -1,0 +1,15 @@
+# Include all Python source files
+recursive-include vinayaga *.py
+
+# Include the README file
+include README.md
+
+# Include the LICENSE file
+include LICENSE
+
+# Include additional data files, if any
+# (Uncomment and modify the following line if you have data files to include)
+# recursive-include vinayaga/data *
+
+# Include any other necessary files or directories
+# (You can add more include lines here as needed)
