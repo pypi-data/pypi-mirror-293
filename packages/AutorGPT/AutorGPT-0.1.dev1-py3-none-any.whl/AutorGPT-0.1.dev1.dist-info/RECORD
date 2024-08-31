@@ -1,0 +1,13 @@
+autor/__init__.py,sha256=KrtilrrVjzd0_OpW9a5IKgS4rLwv5h1Ncs7T_-P7Sj8,23
+autor/_version.py,sha256=uLqBlyauSImVR9zc6L9nHYd6kdpU1wTYvz_GwmJ1kVU,419
+autor/file_parser.py,sha256=FWXeaMOZWDjgwVkhti9Ul2h8w9sK2zfWwdX8q5xN2rM,1020
+autor/finetune_llm.py,sha256=5Nc7g4EQKcvo-NWBIYbp26-fPcbAtnFWI6YWEW9mAvs,1883
+autor/llm_integrator.py,sha256=pyqkA9_Hu-BosyL4v3bn_7vmjdUdpXgp2gUgqY-95ew,2709
+autor/main.py,sha256=fcXYiPZGQunrbr_6iVsoREs35J6njTESmAh0UIN08Jw,1572
+autor/readme_parser.py,sha256=LgOmnX_8LpRMjZa3ZglERDTwQC-XyBpnNNv9wJPXNdk,528
+AutorGPT-0.1.dev1.dist-info/LICENSE,sha256=fD49i2A3N67wi076H3FmjUylac9gT7ti3zAMmWARhZc,1057
+AutorGPT-0.1.dev1.dist-info/METADATA,sha256=P3QQ7nETyh4Bnd2nomcLJR8gEu_vD7uuh4ww7BbnEXU,2227
+AutorGPT-0.1.dev1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+AutorGPT-0.1.dev1.dist-info/entry_points.txt,sha256=mwFiNBIXOULyZ5AuL1QsmKMLa2zaIhHGw8fMHbTzgF8,53
+AutorGPT-0.1.dev1.dist-info/top_level.txt,sha256=99oR5tFhHB07eikhOwnyWLMEhrDNdcf17HYi0tGCziU,6
+AutorGPT-0.1.dev1.dist-info/RECORD,,
