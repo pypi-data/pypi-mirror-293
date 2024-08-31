@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: tilores-sdk
+Version: 0.1.0
+Summary: This is the offical SDK to develop with the Tilores entity resolution database.
+Author-email: Lukas Rieder <lukas@parlant.co>
+License: MIT License
+        
+        Copyright (c) 2024 Tilo Tech GmbH
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+Project-URL: Homepage, https://github.com/tilotech/python-tilores-sdk
+Project-URL: Issues, https://github.com/tilotech/python-tilores-sdk/issues
+Keywords: entity-resolution,tilores,graph-rag
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.32.3
+Requires-Dist: graphql-core>=3.2.3
+Requires-Dist: graphql-query>=1.4.0
+Provides-Extra: test
+Requires-Dist: pytest==8.3.2; extra == "test"
+
+# Tilores Python SDK
+
+The `tilores-sdk` Python package is a small SDK to develop with the [Tilores entity resolution system](https://docs.tilotech.io/tilores/).
+
+## What is entity resolution?
+
+Entity resolution is the connecting of non-identitcal, related data from disparate sources to "entities".
+Entities can be anything from people, to companies to financial transactions.
+
+Tilores is a highly-scalable, “entity-resolution” technology that was originally developed to connect internal data together. The technology was developed because we found that no other technology on the market could deliver the speed, scalability or cost performance we demanded.
+
+Common use cases of entity resolution are:
+
+* Deduplication of records from different sources
+* Matching of financial transaction records
+* Data cleaning and transformation
+* Frequency analysis of individual attributes
+* Retrieval Augmented Generation
+
+## Example usage
+
+### Installation
+
+```console
+$ pip install tilores-sdk
+```
+
+### Usage
+
+* Given you have a Tilores instance setup
+* Given you have a set of Tilores instance API credentials.
+
+    Obtain your credentials from your Tilores instance in [Manage Instance > Integration > GraphQL API](https://app.tilores.io/).
+
+* Given you have data loaded, and a schema configured that supports searching for the fields specified in this example.
+
+```python
+import os
+from tilores import TiloresAPI
+
+# Initialize the TiloresAPI (or use `TiloresAPI.from_environ()`)
+tilores = TiloresAPI(
+    api_url=os.environ['TILORES_API_URL'],
+    token_url=os.environ['TILORES_TOKEN_URL'],
+    client_id=os.environ['TILORES_CLIENT_ID'],
+    client_secret=os.environ['TILORES_CLIENT_SECRET']
+)
+tilores.search({'name': 'Müller, Sophia'})
+```
+
+## Features
+
+The Tilores SDK supports the following features of the Tilores API:
+
+* Tilores instance authentication
+* Tilores database schema and introspection
+* Tilores database GraphQL queries
+* Tilores entity resolution search
+* Tilores golden record retrieval
+
+In addition to that, it provides various convenience helpers to integrate with the Python ecosystem:
+
+* Create pydantic base classes from the Tilores schema
+

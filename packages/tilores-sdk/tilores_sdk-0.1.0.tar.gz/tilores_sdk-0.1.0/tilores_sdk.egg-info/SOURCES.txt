@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+tilores/__init__.py
+tilores/helpers.py
+tilores/record_insights.py
+tilores/tilores_api.py
+tilores_sdk.egg-info/PKG-INFO
+tilores_sdk.egg-info/SOURCES.txt
+tilores_sdk.egg-info/dependency_links.txt
+tilores_sdk.egg-info/requires.txt
+tilores_sdk.egg-info/top_level.txt
