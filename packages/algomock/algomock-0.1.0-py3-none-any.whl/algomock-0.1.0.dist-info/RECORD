@@ -1,0 +1,10 @@
+algomock/__init__.py,sha256=12Tw9dWwuCvr7Na7a91sc0P3OIU1kB0_1dtadIJy9Aw,61
+algomock/generator.py,sha256=Mii5Evd6oblEWOr_qfs9RZIgkJUbRqaS-BJ6R3twhtM,2047
+algomock/utils.py,sha256=5UXu-xDDc_Emvh-bo432r-PizsAwP_GGFBCxHgzFM_A,721
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_generator.py,sha256=hmJdRq2U1lQ7_fS0SnZSZaMkur9_MgID9UTxcsaXRs8,1266
+algomock-0.1.0.dist-info/LICENSE,sha256=NcqXEBgs1f0pCitv1tUFVJZzv4uCLdm18iuOsBr2DLI,1073
+algomock-0.1.0.dist-info/METADATA,sha256=3HWG4sDFiP5ljo4HttKoDrQozxWa1HO-89gXtdcyqZE,3975
+algomock-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+algomock-0.1.0.dist-info/top_level.txt,sha256=5XEZFau_lB4SQc9IthkKCZQ2wkeRQdpPKK1cMsg-CFk,15
+algomock-0.1.0.dist-info/RECORD,,
