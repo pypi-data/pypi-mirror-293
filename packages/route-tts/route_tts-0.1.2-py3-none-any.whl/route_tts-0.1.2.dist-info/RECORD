@@ -1,0 +1,7 @@
+route_tts/__init__.py,sha256=vWujUgbggpc9o0tLzoUqrWi8TKInp56ytyPFq0oocUA,71
+route_tts/client.py,sha256=LQGiVmGZDpKGQnC9_dLwE-8gnsuEaJdSWcGPYQKfSPM,8362
+route_tts/voices.py,sha256=TzLUhxfimZmk9qeY1-n-JMTrxlNbpWnwC-CPFkIFUqA,534
+route_tts-0.1.2.dist-info/LICENSE,sha256=sO5va_mKhdtL1bWoWLgVvBjqkCCCQ87-WW-CPSyTwqA,1072
+route_tts-0.1.2.dist-info/METADATA,sha256=pd3CP3SfQVN2VcFICcIV3Kecu61tWTzLrcutjxydmX4,6910
+route_tts-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+route_tts-0.1.2.dist-info/RECORD,,
