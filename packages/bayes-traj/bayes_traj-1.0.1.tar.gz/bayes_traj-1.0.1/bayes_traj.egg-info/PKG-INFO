@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: bayes_traj
+Version: 1.0.1
+Summary: bayes_traj
+Home-page: https://github.com/acil-bwh/bayes_traj
+Author: James Ross
+Author-email: jross@bwh.harvard.edu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: provenance-tools>=0.0.5
+Requires-Dist: pandas<2.2.2
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: matplotlib>=3.3.1
+Requires-Dist: scipy>=1.5.2
+Requires-Dist: argparse>=1.1
+Requires-Dist: statsmodels>=0.11.1
+Requires-Dist: torch>=2.0.1
+Requires-Dist: pyro-ppl>=1.8.5
+Requires-Dist: pytest>=7.0.0
+Requires-Dist: numexpr>=2.10.0
+Requires-Dist: bottleneck>=1.3.8
+
+# bayes_traj
+
+Algorithms and tools for Bayesian trajectory modeling
+
+```sh
+pip install provenance_tools
+pip install bayes_traj
+```
+
+## Overview of code
+
+* `mult_dp_regression.py` is the current non-pyro model
+  "multivariate Dirichlet process regression"
+* `generate_prior.py` creates a prior file.
+* `viz_data_prior_draws.py` prior predictive checks.
+* `bayes_traj_main.py --out_model PICKLE_FILE` saves a trajectory model
+  configured by other tools.
+  This inputs a prior file.
+* `viz_model_trajs.py` is posterior predictive check,
+  visualizes the learned clusters.
+* `sumarize_traj_model.py` prints additional info.
+* `assign_trajectory.py` reads in the model + data.csv and outputs a
+  data.csv file with one appended column that is the assigned trajectory.
+
+Other files are legacy.
+
+## Running tests
+
+```sh
+pytest
+```
+or when debugging
+```sh
+pytest -vsx --pdb
+```
