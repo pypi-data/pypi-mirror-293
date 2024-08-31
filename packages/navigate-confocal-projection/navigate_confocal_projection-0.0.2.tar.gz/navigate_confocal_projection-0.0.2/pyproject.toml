@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "navigate-confocal-projection"
+version = "0.0.2"
+description = "A navigate plugin for high-speed imaging in a projection format."
+authors = [{name = "The Dean Lab, UT Southwestern Medical Center"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.urls]
+Source = "https://github.com/TheDeanLab/navigate-confocal_projection"
+
+[project.entry-points."navigate.plugins"]
+confocal_projection = "ConfocalProjectionPlugin.confocal_projection_acquisition:ConfocalProjectionAcquisitionMode"
+
+[tool.setuptools.package-data]
+confocal_projection_data = ["plugin_config.yml",]

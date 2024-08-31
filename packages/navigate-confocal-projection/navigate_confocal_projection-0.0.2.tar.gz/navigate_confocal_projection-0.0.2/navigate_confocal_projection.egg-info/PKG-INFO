@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: navigate-confocal-projection
+Version: 0.0.2
+Summary: A navigate plugin for high-speed imaging in a projection format.
+Author: The Dean Lab, UT Southwestern Medical Center
+License: MIT License
+        
+        Copyright (c) 2023 Dean Lab
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Source, https://github.com/TheDeanLab/navigate-confocal_projection
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">
+<img src="./plugin-icon.jpg" width="200" height="200"/>
+
+navigate-confocal-projection
+<h2 align="center">
+	confocal projection imaging plugin for an oblique plane microscopy. 
+</h2>
+</h1>`
+
+### Overview
+Oblique plane microscopes (OPMs) are a class of light-sheet microscopes that obliquely
+illuminate the sample, and use aberration-free remote focusing to reorient the captured 
+fluorescence onto a 2D camera array. This plugin provides a confocal projection imaging
+mode for the OPM, which allows the user to capture a 2D projection of the sample at a
+given depth.
+
+More information on oblique plane microscopy can be found in the following publications:
+- [A versatile oblique plane microscope for large-scale and high-resolution imaging of subcellular dynamics](https://elifesciences.org/articles/57681)
+- [Resolution doubling in light-sheet microscopy via oblique plane structured illumination](https://www.nature.com/articles/s41592-022-01635-8)
+- [Increasing the field-of-view in oblique plane microscopy via optical tiling](https://opg.optica.org/boe/fulltext.cfm?uri=boe-13-11-5616&id=509237)
+- [Real-time multi-angle projection imaging of biological dynamics](https://www.nature.com/articles/s41592-021-01175-7)
+
+### Installation
+Please refer to the [installation instructions](https://thedeanlab.github.io/navigate/index.html) for **navigate**.
+
+### Usage
+
+After installation, plugins can be accessed and managed through the navigate interface. 
+
+### Support
+
+For support, please open an issue in the GitHub repository or contact the navigate team.
+
+### License
+
+Navigate-confocal-projection is open source and available under an MIT license. See the [LICENSE](
+https://github.com/TheDeanLab/navigate-confocal-projection/blob/main/LICENSE) for details.
+
