@@ -1,0 +1,8 @@
+proxytg/__init__.py,sha256=8ez1ZU8BcfroNjJnhS_8OkpDHocIERhc1tUSLo_1g9U,23
+proxytg/telegram.py,sha256=KDRDG6kQGfoOOIAr5iy6J6RK2ttRwYfDi9QRZvqja84,6878
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_telegram.py,sha256=fhSPmHDUT9bX5SxfX-zE77v7uDLL4Bn8WLrB-Mxpeys,323
+proxytg-0.2.0.dist-info/METADATA,sha256=G9RGVCLYojSftJcXiGAJMWmbOZEcOwwo59tV9hmzeeQ,2706
+proxytg-0.2.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+proxytg-0.2.0.dist-info/top_level.txt,sha256=Uebkqn_WeQsLdVJTafEWDZJ5E-oLTnPJN_xsreoskTo,14
+proxytg-0.2.0.dist-info/RECORD,,
