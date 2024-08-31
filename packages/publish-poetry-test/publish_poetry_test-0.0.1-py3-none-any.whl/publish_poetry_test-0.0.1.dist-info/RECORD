@@ -1,0 +1,7 @@
+publish_poetry_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+publish_poetry_test/test.py,sha256=vFFdlDMm7k4hUu_b0D8wdom-2QVtprWpKEqHyAURfUc,43
+publish_poetry_test-0.0.1.dist-info/LICENSE.txt,sha256=fZLN-ttDHly3hpj-sIRCqfD-p1jwKBX2zKtphIzvZ4A,1061
+publish_poetry_test-0.0.1.dist-info/METADATA,sha256=hx6jeRKS2opbqBtDqMB0qSYcZSnuKYjBytlw2hNVD1U,301
+publish_poetry_test-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+publish_poetry_test-0.0.1.dist-info/top_level.txt,sha256=kD5Tj_u-uB4EMNui_I6GpgefzsvAUCCj1bmCw2lrfVs,20
+publish_poetry_test-0.0.1.dist-info/RECORD,,
