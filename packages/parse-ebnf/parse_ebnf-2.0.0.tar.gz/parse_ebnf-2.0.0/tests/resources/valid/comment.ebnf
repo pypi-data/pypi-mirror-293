@@ -1,0 +1,13 @@
+(*(*(*(*(*(* I'm really ( recursive * :) (* ****** *) ((((((((( ))))))))()( )()()()( * *)*)*)*)*)*)
+
+(*
+    And I have lots of lines.
+
+ *)
+
+(* Multiple
+   (* nested comments *)
+   (* on the same level *)(with text
+   (* in-between *)
+*)
+
