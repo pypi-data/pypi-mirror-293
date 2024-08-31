@@ -1,0 +1,16 @@
+crudclient/__init__.py,sha256=-2qaZ38WjuMWn4kAMTzF98UHh3QfOJS1sBpdU4R3ZK8,488
+crudclient/__main__.py,sha256=iT5tqCtTqxPmbZ3ZXQz_p0mdOxj1TnqdOumr1YnYaXY,53
+crudclient/api.py,sha256=vO_pEHO_55vEXUcMLZ8PJDjyV5D9XnfBjiB7aqQ2-QA,9842
+crudclient/client.py,sha256=459cXd_dCtWkGbdSBIsRP-H9dOCC0TNVORysF4VQUHk,15120
+crudclient/config.py,sha256=Kz4MrBSCB3RmdS2SVA4PxQeGgKWNo4UddM4ewv0hxO4,3356
+crudclient/crud.py,sha256=FP79nU6tbbnkNg9i1hPRFLlDE7wxB8WRJOxYn_nQzZ8,11252
+crudclient/exceptions.py,sha256=aHfgNuxd9y0GbqhAbFv570qOAzgv0cB7ajDqHtX1DvY,703
+crudclient/models.py,sha256=CC_o1dgrs6o7jzUdXEDPS8jqH0gOTzHvn1PFakX3p3I,430
+crudclient/runtime_type_checkers.py,sha256=W4Hk1e6bwQe5tJn4lwOytSQYhDaU5QGXTKMQIA5iRX8,1251
+crudclient/types.py,sha256=E30qQuL8wD6Y-6B6vh8QbMwnsgZ6hqDj2ckNqUgc7tQ,195
+crudclient-0.3.3.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+crudclient-0.3.3.dist-info/COPYING.LESSER,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+crudclient-0.3.3.dist-info/LICENSE,sha256=OY2XiYeA9K-I3URDFOAcgOm7RfuwU-GpC1eg3ih7kfk,626
+crudclient-0.3.3.dist-info/METADATA,sha256=mBXaRpMcOtQoe7U7BkFoBmN0m1FwVJWW97KOcJeKfwI,17924
+crudclient-0.3.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+crudclient-0.3.3.dist-info/RECORD,,
