@@ -1,0 +1,12 @@
+librosa>=0.10.2.post1
+numpy<2
+pandas
+SoundFile
+pyrubberband
+scipy
+pydub
+scikit-learn
+ipython
+essentia
+matplotlib
+sounddevice

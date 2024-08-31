@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Mix50
+Version: 0.4
+Summary: Fast and simple DJ and audio effects in Python with Librosa
+Home-page: https://github.com/smullins998/Mix50
+Author: Sean Mullins
+Author-email: smullins998@gmail.com
+License: MIT
+Keywords: python,audio,DSP,DJ,audio analysis
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: librosa>=0.10.2.post1
+Requires-Dist: numpy<2
+Requires-Dist: pandas
+Requires-Dist: SoundFile
+Requires-Dist: pyrubberband
+Requires-Dist: scipy
+Requires-Dist: pydub
+Requires-Dist: scikit-learn
+Requires-Dist: ipython
+Requires-Dist: essentia
+Requires-Dist: matplotlib
+Requires-Dist: sounddevice
