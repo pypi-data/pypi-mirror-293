@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: navigate-at-scale
+Version: 0.0.0
+Summary: A navigate plugin for high-throughput imaging with robotics.
+Author: The Dean Lab, UT Southwestern Medical Center
+Project-URL: Source, https://github.com/TheDeanLab/navigate-at-scale
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mecademicpy ==2.1.0
+Requires-Dist: matplotlib-inline ==0.1.3
+Requires-Dist: PyYAML ==6.0
+Requires-Dist: pyserial ==3.5
+Requires-Dist: PIPython ==2.6.0.1
+Requires-Dist: pythonnet ==3.0.3
+Requires-Dist: fsspec ==2022.8.2 ; sys_platform != "darwin"
+Requires-Dist: fsspec ==2022.5.0 ; sys_platform == "darwin"
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-xvfb ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: ipykernel ; extra == 'dev'
+Requires-Dist: jupyterlab ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: nbconvert ; extra == 'docs'
+Requires-Dist: sphinx <6.0.0 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: sphinx-issues ; extra == 'docs'
+Requires-Dist: sphinx-design ; extra == 'docs'
+Requires-Dist: pyyaml ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme ==0.10.0rc2 ; extra == 'docs'
+Requires-Dist: sphinx-toolbox ; extra == 'docs'
+
+<h1 align="center">
+<img src="https://github.com/TheDeanLab/navigate-plugin-template/blob/main/plugin-icon.jpg" width="200" height="200"/>
+
+navigate-at-scale
+	
+<h2 align="center">
+	A plugin for high-throughput microscopy. 
+</h2>
+</h1>
+
+**navigate-at-scale** is a plugin for **navigate**, which aims to enable high-throughput
+microscopy. It is designed to work with a Mecademic Meca500 robotic arm and a Thorlabs
+HDR50 rotation stage. The plugin provides a user-friendly interface for setting up and 
+running high-throughput imaging experiments.
+
+**Authors**
+- Sai Bommisetty
+- Joy Camposagrado
+- James Harrigan
+- Rayyan Sappayani
+- Abhijeet Kulkarni
+- Besher Nusair

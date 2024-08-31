@@ -1,0 +1,5 @@
+[console_scripts]
+navigate-at-scale = autonomous_robotic_sample_handling.main:main
+
+[navigate.plugins]
+navigate_at_plugin = autonomous_robotic_sample_handling
