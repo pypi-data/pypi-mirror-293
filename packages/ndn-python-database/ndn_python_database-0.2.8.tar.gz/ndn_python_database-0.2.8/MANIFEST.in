@@ -1,0 +1,2 @@
+include docs/version.py
+include docs/requirements.txt
