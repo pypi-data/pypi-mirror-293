@@ -1,0 +1,2 @@
+[navigate.plugins]
+constant_velocity = ConstantVelocityAcquisitionPlugin.constant_velocity_acquisition:ConstantVelocityAcquisitionMode

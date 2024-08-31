@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: navigate-constant-velocity
+Version: 0.0.1
+Summary: A navigate plugin for imaging in a constant velocity format.
+Author: The Dean Lab, UT Southwestern Medical Center
+License: MIT License
+        
+        Copyright (c) 2023 Dean Lab
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Source, https://github.com/TheDeanLab/navigate-constant-velocity-acquisition
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">
+<img src="https://github.com/TheDeanLab/navigate-plugin-template/blob/main/plugin-icon.jpg" width="200" height="200"/>
+
+navigate-constant-velocity-acquisition
+	
+<h2 align="center">
+	A navigate plugin for imaging in a constant velocity format.
+</h2>
+</h1>
+
+### Background
+
+When acquiring large z-stacks, the time it takes to move the stage between slices can 
+be a significant bottleneck. Often, stage movement is initiated with a serial command,
+the stages accelerates, moves, and decelerates before sending a return serial 
+command to notify the software that the stage has reached the desired position. 
+Altogether, this can add a significant amount of time to each image acquisition, 
+which accumulates over the course of a large z-stack.
+
+### Approach
+
+The **navigate-constant-velocity-acquisition** is a plugin for **navigate** which 
+improves the image acquisition rate for large z-stacks by using a constant velocity
+approach.  The plugin is designed to operate with Applied Scientific Instrumentation 
+scan-optimized stages which maintain a constant velocity during long-range movements.
+The [SCAN](https://asiimaging.com/docs/scan_module?s[]=sync) module is necessary.
+
+The plugin will move the stages to a position before the start of the z-stack and 
+trigger constant velocity movement. When the stage reaches the desired start 
+position and is operating at the correct velocity, the stage triggers the operation 
+of the software. The software then acquires images at the desired z-slice intervals
+according to the stage velocity, camera integration and readout time, etc.
