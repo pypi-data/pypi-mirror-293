@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+ocrmypdf_easyocr/__init__.py
+ocrmypdf_easyocr/_cv.py
+ocrmypdf_easyocr/_easyocr.py
+ocrmypdf_easyocr/_pdf.py
+ocrmypdf_easyocr/pdf.ttf
+ocrmypdf_easyocr/py.typed
+ocrmypdf_easyocr.egg-info/PKG-INFO
+ocrmypdf_easyocr.egg-info/SOURCES.txt
+ocrmypdf_easyocr.egg-info/dependency_links.txt
+ocrmypdf_easyocr.egg-info/entry_points.txt
+ocrmypdf_easyocr.egg-info/requires.txt
+ocrmypdf_easyocr.egg-info/top_level.txt
+tests/test_basic.py

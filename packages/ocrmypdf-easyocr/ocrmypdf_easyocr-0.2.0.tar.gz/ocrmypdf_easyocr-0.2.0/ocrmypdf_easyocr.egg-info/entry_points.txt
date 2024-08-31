@@ -1,0 +1,2 @@
+[ocrmypdf]
+ocrmypdf = ocrmypdf_easyocr
