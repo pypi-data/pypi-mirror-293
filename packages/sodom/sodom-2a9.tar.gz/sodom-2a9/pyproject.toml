@@ -1,0 +1,44 @@
+[build-system]
+requires = ['setuptools==69.0.2']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'sodom'
+description = 'HTML via Python'
+readme = {file = 'README.md', content-type = 'text/markdown'}
+authors = [
+    {name = 'Dmitry Protasov', email = 'inbox@protaz.ru'},
+]
+keywords = ['framework', 'templating', 'template', 'html', 'python', 'html5', 'dsl']
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
+    'Operating System :: OS Independent',
+
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.12',
+
+    'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Text Processing :: Markup :: HTML',
+]
+dynamic = ['version', 'optional-dependencies']
+
+[project.urls]
+Homepage = 'https://codeberg.org/protasov/sodom'
+PyPi = 'https://pypi.org/project/sodom/'
+Source = 'https://codeberg.org/protasov/sodom'
+
+[tool.setuptools]
+packages = [
+    'sodom',
+]
+
+[tool.setuptools.dynamic]
+version = {attr = 'sodom.version.__version__'}
+
+[tool.setuptools.dynamic.optional-dependencies]
+cli = {file = ['requirements.cli.txt']}
+test = {file = ['requirements.test.txt']}
+build = {file = ['requirements.build.txt']}
