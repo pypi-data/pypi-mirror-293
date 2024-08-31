@@ -1,0 +1,10 @@
+sensevoice/sense_voice.py,sha256=zTp2YX_6RpAgK0hU2cwDIrLDE3AAOqZESsnTCQTlDQ8,3488
+sensevoice/onnx/fsmn_vad_ort_session.py,sha256=W_cJ6nzfBiCjnrBipNEjHItsADAvnPb6NSLYRvwZdU0,3467
+sensevoice/onnx/sense_voice_ort_session.py,sha256=ltRiIGpaUp57g5fClvFWgIzn5YT9jKqv5uu9U0WACKQ,6055
+sensevoice/utils/frontend.py,sha256=ap_zZxJ_xLeQ6BHEGggOzP8pe7S8fKFugXm53E8zkJU,5496
+sensevoice/utils/fsmn_vad.py,sha256=ObbcKT6h1IWwDY5rQSRvy0yLAPeUDTKU5w0oNaERmmo,34689
+sensevoice_onnx-1.1.0.dist-info/METADATA,sha256=GjA0iAil7eHa09BbLR6VuoW7XgZBE8kkwNYqLiT0Pq8,4189
+sensevoice_onnx-1.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+sensevoice_onnx-1.1.0.dist-info/entry_points.txt,sha256=r7sLCqwf-X7DcRNngolv0039hOb8P-Rle1UHR9ui62Q,60
+sensevoice_onnx-1.1.0.dist-info/top_level.txt,sha256=xlOrkJJpNzL3LEPH0fhLS03JJWms-r69CCfMUCUkABw,11
+sensevoice_onnx-1.1.0.dist-info/RECORD,,
