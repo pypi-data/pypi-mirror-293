@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: loadimg
+Version: 0.2.1
+Summary: a python package for loading images
+Home-page: https://github.com/not-lain/loadimg
+Author-email: hhichri60@gmail.com
+License: Apache 2.0 License
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.9
+Requires: setuptools
+Requires: wheel
+Requires: typing
+Requires: pillow
+Requires: numpy
+Requires: requests
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# loadimg
+
+A python package for loading images
+
+## How to use
+Installation
+```
+pip install loadimg
+```
+Usage
+```python
+from loadimg import load_img
+load_img(any_img_type_here,output_type="pil") 
+```
+Supported types
+- Currently supported input types - numpy, pillow, str(both path and url), base64
+- Currently supported output types - numpy, pillow, str, base64
+
+![loadimg](https://github.com/not-lain/loadimg/blob/main/loadimg.png?raw=true)
