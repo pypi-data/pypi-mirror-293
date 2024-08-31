@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cosyvoice/__init__.py
+cosyvoice/version.py
+cosyvoice.egg-info/PKG-INFO
+cosyvoice.egg-info/SOURCES.txt
+cosyvoice.egg-info/dependency_links.txt
+cosyvoice.egg-info/top_level.txt
