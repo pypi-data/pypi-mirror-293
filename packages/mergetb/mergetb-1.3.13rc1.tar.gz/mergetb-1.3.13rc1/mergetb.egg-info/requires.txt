@@ -1,0 +1,8 @@
+betterproto>=2.0.0b6
+grpclib>=0.4.7
+paramiko>=3.4.0
+validators>=0.33.0
+timeout-timer>=0.2.0
+pwinput>=1.0.3
+googleapis-common-protos>=1.63.0
+mergetbapi>=v1.3.9
