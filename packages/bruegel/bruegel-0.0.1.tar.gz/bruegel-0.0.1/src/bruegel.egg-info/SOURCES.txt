@@ -1,0 +1,13 @@
+.gitignore
+dist.sh
+pyproject.toml
+src/bruegel/index.css
+src/bruegel/index.js
+src/bruegel/interactive.py
+src/bruegel/plot.py
+src/bruegel.egg-info/PKG-INFO
+src/bruegel.egg-info/SOURCES.txt
+src/bruegel.egg-info/dependency_links.txt
+src/bruegel.egg-info/entry_points.txt
+src/bruegel.egg-info/requires.txt
+src/bruegel.egg-info/top_level.txt
