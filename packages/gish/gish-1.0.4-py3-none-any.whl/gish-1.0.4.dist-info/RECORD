@@ -1,0 +1,9 @@
+gish/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gish/cli.py,sha256=yiTH88hPVjqoQ6apDkPG--T8hTidyt8XsDgfiEq7hg4,1452
+gish/config.py,sha256=gG4Bmz0vI1hg1PbNerWAt48X6m3wlbEjVLumPuov2No,322
+gish/profiles.py,sha256=hQRC3Mrg98G78eslXVzqc6vJQwUgSx50ShNPvgwty5o,5086
+gish-1.0.4.dist-info/METADATA,sha256=p-ydNOTQmW77h5htzmDYXNQ3w3xk8TPKxqYVv0SOkmM,689
+gish-1.0.4.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+gish-1.0.4.dist-info/entry_points.txt,sha256=i8Uc-1OZy-xcDKwZzFz68OD-Ru40TToKLjWtHRmfRy8,38
+gish-1.0.4.dist-info/top_level.txt,sha256=ZbHRuAqGEPOftf52kSL_E0ilWtmeLdtL5UfJtx0y9Xg,5
+gish-1.0.4.dist-info/RECORD,,
