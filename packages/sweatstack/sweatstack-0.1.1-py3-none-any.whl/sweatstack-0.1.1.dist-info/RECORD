@@ -1,0 +1,10 @@
+sweatstack/__init__.py,sha256=tiVfgKlswRPaDMEy0gA7u8rveqEYZTA_kyB9lJ3J6Sc,21
+sweatstack/cli.py,sha256=MYLNcWbOdceqKJ3S0Pe8dwHXEeYsGJNjQoYUXpMTftA,333
+sweatstack/client.py,sha256=WF2bvHPNeimbmjKN35y3mo2XCaFrxjYY40BVEN_Ox1M,13491
+sweatstack/ipython_init.py,sha256=zBGUlMFkdpLvsNpOpwrNaKRUpUZhzaICvH8ODJgMPcI,229
+sweatstack/schemas.py,sha256=OFKl_ghbJ2yI_GgyW96NaXgh4aRf362i51FXnB_GRQk,6237
+sweatstack/sweatshell.py,sha256=EpoTWjHTnrjlXrTOTlQE-JavlrAo1-hIgBR-6tU453I,1046
+sweatstack-0.1.1.dist-info/METADATA,sha256=SQSf7rqI7uLOip68c_IVYPDkzgXllIfG2gB7mj_O2zs,5089
+sweatstack-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+sweatstack-0.1.1.dist-info/entry_points.txt,sha256=4R7Yl632SrVr3PlLvL--0XyHOPYn0OCPtxEBblrn0vw,132
+sweatstack-0.1.1.dist-info/RECORD,,
