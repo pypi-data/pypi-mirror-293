@@ -1,0 +1,6 @@
+README.md
+setup.py
+testHelloWorldpkg.egg-info/PKG-INFO
+testHelloWorldpkg.egg-info/SOURCES.txt
+testHelloWorldpkg.egg-info/dependency_links.txt
+testHelloWorldpkg.egg-info/top_level.txt
