@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: image_packed_blur_kakasw
+Version: 0.2
+Summary: A simple image processing package
+Home-page: https://github.com/kkawan/image_packed_blur_kakasw
+Author: Kakasw
+Author-email: kawan.shigueo.cp@gmail.com
+Requires-Dist: Pillow
+
