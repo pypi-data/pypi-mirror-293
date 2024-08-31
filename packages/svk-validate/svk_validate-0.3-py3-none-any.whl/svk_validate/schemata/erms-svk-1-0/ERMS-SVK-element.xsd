@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Namn:		ERMS-SVK-element
+Version:	1.0
+Ändrad:		2024-08-20
+Ändrad av:	Henrik Vitalis
+ -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="https://xml.svenskakyrkan.se/ERMS-SVK-element"
+	xmlns:erms="https://DILCIS.eu/XML/ERMS"
+	targetNamespace="https://xml.svenskakyrkan.se/ERMS-SVK-element" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<xs:import namespace="https://DILCIS.eu/XML/ERMS" schemaLocation="../erms-3-0-0/ERMS_v3.xsd"/>
+
+	<xs:complexType name="agentsType">
+		<xs:sequence>
+			<xs:element ref="erms:agent" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- ########################################## -->
+	
+	<xs:element name="initiative">
+		<xs:simpleType>
+			<xs:restriction base="xs:token">
+				<xs:enumeration value="externt"/>
+				<xs:enumeration value="eget"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<!-- ########################################## -->
+	
+	<xs:element name="relatedObjects">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="relatedObject" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="objectName" type="xs:token">
+							</xs:element>
+							<xs:element name="objectId" type="xs:token" minOccurs="0">
+							</xs:element>
+							<xs:element name="deliveringSystemId" type="xs:token" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="typeOfObject">
+							<xs:simpleType>
+								<xs:restriction base="xs:token">
+									<xs:enumeration value="project"/>
+									<xs:enumeration value="realEstate"/>
+								</xs:restriction>
+							</xs:simpleType>	
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- ########################################## -->
+	
+	<xs:element name="svkNotes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="svkNote" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="noteText" type="xs:string"/>
+							<xs:element name="agents" type="agentsType"/>
+							<xs:element ref="erms:dates"/>
+						</xs:sequence>
+						<xs:attribute name="typeOfNote">
+							<xs:simpleType>
+								<xs:restriction base="xs:token">
+									<xs:enumeration value="arkivanteckning"/>
+									<xs:enumeration value="generell anteckning"/>
+									<xs:enumeration value="intern anteckning"/>
+									<xs:enumeration value="expedieringsanteckning"/>
+									<xs:enumeration value="chattanteckning"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ########################################## -->
+	
+	<xs:element name="contractInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="externalReference" type="xs:token" minOccurs="0"/>
+				<xs:element name="callOffValue" type="callOffValueType" minOccurs="0"/>
+				<xs:element name="contractValue" type="contractValueType" minOccurs="0"/>
+				<xs:element name="typeOfAgreement" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:token">
+							<xs:enumeration value="avtal"/>
+							<xs:enumeration value="kontrakt"/>
+							<xs:enumeration value="licens"/>
+							<xs:enumeration value="uppgörelse"/>
+							<xs:enumeration value="överenskommelse"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element ref="erms:dates" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="callOffValueType">
+		<xs:simpleContent>
+			<xs:extension base="xs:integer">
+				<xs:attribute name="currency" type="xs:token" use="optional" default="SEK" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="contractValueType">
+		<xs:simpleContent>
+			<xs:extension base="xs:integer">
+				<xs:attribute name="currency" type="xs:token" use="optional" default="SEK"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<!-- ########################################## -->
+	
+	<xs:element name="auditLogEvents">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="auditLogEvent" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="eventTime" type="xs:dateTime"/>
+							<xs:element name="user" type="xs:token"/>
+							<xs:element name="scope">
+								<xs:simpleType>
+									<xs:restriction base="xs:token">
+										<xs:enumeration value="ankomstdatum"/>
+										<xs:enumeration value="ansvarig"/>
+										<xs:enumeration value="anteckning"/>
+										<xs:enumeration value="avsändare"/>
+										<xs:enumeration value="beskrivning"/>
+										<xs:enumeration value="beslut"/>
+										<xs:enumeration value="dokumentnummer"/>
+										<xs:enumeration value="dokumentreferens"/>
+										<xs:enumeration value="dokumentstatus"/>
+										<xs:enumeration value="dokumenttitel"/>
+										<xs:enumeration value="expedieringsdatum"/>
+										<xs:enumeration value="fastighet"/>
+										<xs:enumeration value="fil"/>
+										<xs:enumeration value="form"/>
+										<xs:enumeration value="handling"/>
+										<xs:enumeration value="handlingstyp"/>
+										<xs:enumeration value="initiativ"/>
+										<xs:enumeration value="klassificering"/>
+										<xs:enumeration value="kommentar"/>
+										<xs:enumeration value="medhandläggare"/>
+										<xs:enumeration value="mottagare"/>
+										<xs:enumeration value="nyckelord"/>
+										<xs:enumeration value="projekt"/>
+										<xs:enumeration value="riktning"/>
+										<xs:enumeration value="sekretess"/>
+										<xs:enumeration value="status"/>
+										<xs:enumeration value="ärende"/>
+										<xs:enumeration value="ärendemening"/>
+										<xs:enumeration value="ärendenummer"/>
+										<xs:enumeration value="ärendepart"/>
+										<xs:enumeration value="ärendereferens"/>
+										<xs:enumeration value="ärendestatus"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="action">
+								<xs:simpleType>
+									<xs:restriction base="xs:token">
+										<xs:enumeration value="create"/>
+										<xs:enumeration value="read"/>
+										<xs:enumeration value="update"/>
+										<xs:enumeration value="delete"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="valueBeforeChange" type="xs:string" minOccurs="0"/>
+							<xs:element name="valueAfterChange" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- ########################################## -->
+
+
+	
+	<xs:element name="workflows">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="workflow" maxOccurs="unbounded">
+					<xs:complexType>					
+						<xs:sequence>
+							<xs:element name="workflowName" type="xs:token" minOccurs="0"/>
+							<xs:element name="workflowStatus" type="workflowStatusType"/>
+							<xs:element name="workflowPriority" type="xs:token" minOccurs="0"/>
+							<xs:element name="agents" type="agentsType"/>
+							<xs:element ref="erms:dates"/>
+							<xs:element name="workflowMessage" type="xs:string"/>
+							<xs:element name="workflowNotes" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="workflowNote" type="workflowNoteType" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="workflowRecipients" type="workflowRecipientsType"/>
+						</xs:sequence>
+						<xs:attribute name="typeOfWorkflow">
+							<xs:simpleType>
+								<xs:restriction base="xs:token">
+									<xs:enumeration value="approval"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:simpleType name="workflowStatusType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="approved"/>
+			<xs:enumeration value="unapproved"/>
+			<xs:enumeration value="open"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="workflowNoteType">
+		<xs:sequence>
+			<xs:element name="workflowNoteText" type="xs:string"/>
+			<xs:element ref="erms:dates"/>
+			<xs:element name="agents" type="agentsType"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="workflowRecipientsType">
+		<xs:sequence>
+			<xs:element name="workflowRecipient" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="agents" type="agentsType"/>
+						<xs:element ref="erms:dates"/>
+						<xs:element name="recipientStatus" type="workflowStatusType"/>
+						<xs:element name="recipientComment" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- ########################################## -->
+	
+	<xs:element name="svkAppendix">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="erms:appendix"/>
+				<!-- Här börjar Svenska kyrkans anpassning av typen appendixType i ERMS -->
+				<xs:element name="fileInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="erms:dates"/>
+							<xs:element name="versionNumber" type="xs:integer" minOccurs="0"/>
+							<xs:element name="variant" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:token">
+										<xs:enumeration value="display"/>
+										<xs:enumeration value="production"/>
+										<xs:enumeration value="preservation"/>
+										<xs:enumeration value="public"/>
+										<xs:enumeration value="signed"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element ref="auditLogEvents" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="signatureInfo" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="erms:dates"/>
+							<!-- initierat, frist -->
+							<xs:element ref="erms:agent"/>
+							<!-- signatureInitiatedBy -->
+							<xs:element name="signatureStatus" type="xs:token" />
+							<!-- Slutförd -->
+							<xs:element name="signatureFileHash">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:token">
+											<xs:attribute name="algorithm" type="xs:token"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="signatories">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="signatory" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element ref="erms:agent"/>
+													<xs:element ref="erms:dates"/>
+													<xs:element name="signatoryComment" type="xs:string" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<!-- Här slutar Svenska kyrkans anpassning av appendixType i ERMS -->
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
