@@ -1,0 +1,11 @@
+README.md
+index.py
+setup.cfg
+setup.py
+plover_undo_tools.egg-info/PKG-INFO
+plover_undo_tools.egg-info/SOURCES.txt
+plover_undo_tools.egg-info/dependency_links.txt
+plover_undo_tools.egg-info/entry_points.txt
+plover_undo_tools.egg-info/requires.txt
+plover_undo_tools.egg-info/top_level.txt
+plover_undo_tools.egg-info/zip-safe
