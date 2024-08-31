@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/chippapi/__init__.py
+src/chippapi/api.py
+src/chippapi.egg-info/PKG-INFO
+src/chippapi.egg-info/SOURCES.txt
+src/chippapi.egg-info/dependency_links.txt
+src/chippapi.egg-info/requires.txt
+src/chippapi.egg-info/top_level.txt
+tests/test.py

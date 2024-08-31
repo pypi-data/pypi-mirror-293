@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: chippapi
+Version: 1.0.1
+Summary: A module for interacting with the Chipp API
+Home-page: https://github.com/skilledkitten/chippapi
+Author: skilledkitten
+Author-email: me@skilledkitten.dev
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
+
+# ChippAPI
+-> This is a simple python wrapper for [Chipp API](https://chipp.ai/).
+
+## Installation
+```bash
+pip install chippapi
+```
+
+## Usage
+```python
+import chippapi
+
+chippapi.api_key = "YOUR_API_KEY"
+chippapi.id = "YOUR_ID"
+
+response = chippapi.chat(prompt="Hello, how are you?")
+print(response)
+```
+
+## License
+-> This project is licensed under the Attribution-NoDerivatives 4.0 International License - see the [LICENSE](LICENSE) file for details.
+
