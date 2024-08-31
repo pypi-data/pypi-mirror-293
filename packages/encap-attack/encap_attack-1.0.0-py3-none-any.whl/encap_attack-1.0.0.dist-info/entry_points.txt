@@ -1,0 +1,2 @@
+[console_scripts]
+encap-attack = encap_attack.tool:cli
