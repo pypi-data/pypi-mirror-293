@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: LatinDeckCreator
+Version: 0.0.3
+Summary: A package using pywhitakers to create Latin flashcard decks.
+Home-page: UNKNOWN
+Author: Forrest Zeng
+Author-email: forrestzengmusic@gmail.com
+License: Apache 2.0
+Keywords: Latin translation whitakers flashcards
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pywhitakers
+
+# latindeckcreator
+
