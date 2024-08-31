@@ -1,0 +1,14 @@
+---
+
+# observable types
+
+data:
+  
+  # ALL
+  - name: ALL
+    description: "Asymmetry probing longitudinally polarised beam / longitudinally polarised target dependance"
+    unit_group: NONE
+  # ALU
+  - name: ALU
+    description: "Asymmetry probing longitudinally polarised target dependance keeping unpolarised beam"
+    unit_group: NONE  
