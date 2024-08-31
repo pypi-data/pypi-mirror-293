@@ -1,0 +1,3 @@
+include budgetmanager/templates/budgetmanager/*
+include budgetmanager/static/budgetmanager/img/*
+include budgetmanager/static/budgetmanager/js/*
