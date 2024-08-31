@@ -1,0 +1,12 @@
+versallm/__init__.py,sha256=uGNCA5LHsem7KOCqAiQnkQY2x4XbqGrz7MWCT7VncrE,32
+versallm/llms/anthropic_client.py,sha256=nR0SlDV4fKQlZOwG-qnxn8lpjEogTr0Y-_NTXBGao6M,6374
+versallm/llms/base.py,sha256=Zp6A-1-J4yqMMcWCtgNGQBHy_FldmJJqWedAOQkFDZI,6162
+versallm/llms/groq_client.py,sha256=vF5K9eaoPdVN7wAtMGXr7OPwq43cmu6tN83HPY5-Skg,514
+versallm/llms/openai_client.py,sha256=a28VCTvral1jZA013-IM8B5x7XXseR06Rt6IrGRzkr8,461
+versallm/utils/memory.py,sha256=HBN9pUZU8dZCQ0VZfADKs9JC5t_801NyqVjhpogJ27w,547
+versallm/utils/response.py,sha256=Y3MKdi0dYHTnniQkeFWZiHSzGAlrLVrmfoqcbgM9NP8,345
+versallm/utils/types.py,sha256=H54MNkecsKsYgbmKw-yQRlg45lRjOnY73D6rHctpbhs,316
+versallm-0.1.1.dist-info/LICENSE,sha256=BZK6B5ATNDqQrFTwxzJWVq2c8HIBeS9WOJZeDk0kUMM,1068
+versallm-0.1.1.dist-info/METADATA,sha256=gbpLhh7LT5vifTkuctRvg7C9sKyz9J38rahCuzq1xbo,5398
+versallm-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+versallm-0.1.1.dist-info/RECORD,,
