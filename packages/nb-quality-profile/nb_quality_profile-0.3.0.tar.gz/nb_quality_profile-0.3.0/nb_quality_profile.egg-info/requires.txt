@@ -1,0 +1,17 @@
+nbformat
+isort
+jupytext
+click
+deepmerge
+lxml
+markdown
+pandas==2.2.1
+matplotlib==3.7.5
+numpy<2
+spacy==3.7.5
+scikit-learn==1.4.0
+readtime
+list-imports
+pytest-codeblocks
+radon
+pyflakes
