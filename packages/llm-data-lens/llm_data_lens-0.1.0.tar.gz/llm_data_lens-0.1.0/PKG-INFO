@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: llm-data-lens
+Version: 0.1.0
+Summary: A Python package for calculating key metrics to assess LLM performance in various tasks, including extracting structured dataa.
+License: MIT
+Author: Elvin Gomez
+Author-email: 3lv27.dev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: scikit-learn (>=1.5.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+
+
