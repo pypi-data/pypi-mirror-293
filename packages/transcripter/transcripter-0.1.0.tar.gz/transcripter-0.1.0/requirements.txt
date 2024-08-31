@@ -1,0 +1,8 @@
+flask
+redis
+redisearch
+python-dotenv
+youtube-transcript-api
+python-youtube
+pyyaml
+loguru
