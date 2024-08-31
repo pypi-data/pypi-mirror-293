@@ -1,0 +1,216 @@
+Metadata-Version: 2.1
+Name: binned-hawkes-multilayer
+Version: 0.0.5
+Summary: A binned Hawkes process for dynamic multilayer graphs.
+Author: Matthew Sit
+Author-email: matthew.sit22@imperial.ac.uk
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib ==3.6.0
+Requires-Dist: numpy ==1.22.4
+Requires-Dist: scipy ==1.7.3
+Requires-Dist: typing
+Requires-Dist: nptyping
+Requires-Dist: networkx ==2.8.6
+Requires-Dist: pytype
+
+<a id="binned_hawkes_multilayer.proposed"></a>
+
+# A binned Hawkes process for dynamic multilayer graphs
+
+Copyright 2024 Matthew Sit
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+<a id="binned_hawkes_multilayer.proposed.ProposedModel"></a>
+
+## Usage example
+
+See https://github.com/mattsit/binned-hawkes-multilayer/blob/main/pkg_demo.py
+
+## Model
+
+```python
+class ProposedModel()
+```
+
+The proposed model.
+
+**Arguments**:
+
+- `node` - Name of the node being fit.
+- `layer` - Layer being fit.
+- `regularization` - d-order neighborhood for regularized mutual excitement.
+- `self_excite_time_shifts` - Set of shifts for shifted self excitement.
+- `multilayer_excite` - Whether or not to use multilayer contextual excitement.
+
+<a id="binned_hawkes_multilayer.proposed.ProposedModel.get_params"></a>
+
+### get\_params
+
+```python
+def get_params(
+    params: Optional[NDArray] = None
+) -> Tuple[float, float, NDArray, NDArray, NDArray]
+```
+
+Gets the trained or custom params and formats the flat tuple into triplet.
+
+**Arguments**:
+
+- `params` - Custom list of params.
+  If None, uses the trained self.params.
+  
+
+**Returns**:
+
+  (baseline, beta, alpha mutual excite list, alpha multilayer excite list, alpha self excite list)
+
+<a id="binned_hawkes_multilayer.proposed.ProposedModel.lmda"></a>
+
+### lmda
+
+```python
+def lmda(node_Yts: List[NDArray],
+         layer_Yts: Optional[List[NDArray]] = None,
+         params=None) -> NDArray
+```
+
+Conditional intensity function lambda.
+
+**Arguments**:
+
+- `node_Yts` - list of the event data for each node, same order as `self.sorted_node_list`.
+- `layer_Yts` - list of the event data for each layer, same order as `Layer`.
+- `params` - (baseline, beta, alpha list)
+
+<a id="binned_hawkes_multilayer.proposed.ProposedModel.init_params"></a>
+
+### init\_params
+
+```python
+def init_params(sorted_node_list: List[str], intralayer_network: nx.Graph)
+```
+
+Initializes the parameters.
+
+**Arguments**:
+
+- `sorted_node_list` - The graph's full vertex set as an alphabetized list.
+- `intralayer_network` - The intralayer network structure.
+
+<a id="binned_hawkes_multilayer.proposed.ProposedModel.fit"></a>
+
+### fit
+
+```python
+def fit(node_Yts: List[NDArray],
+        layer_Yts: List[NDArray],
+        sorted_node_list: List[str],
+        intralayer_network: nx.Graph,
+        enable_basinhopping: bool = True)
+```
+
+Fits the model to the data.
+
+**Arguments**:
+
+- `node_Yts` - list of the event data for each node, same order as `self.sorted_node_list`.
+- `layer_Yts` - list of the event data for each layer, same order as `Layer`.
+- `sorted_node_list` - The graph's full vertex set as an alphabetized list.
+- `intralayer_network` - The intralayer network structure.
+- `enable_basinhopping` - Whether to enable basinhopping or just a single iteration of optimization.
+
+## Model evaluation
+
+<a id="binned_hawkes_multilayer.residual_analysis.binned_to_continuous"></a>
+
+### binned\_to\_continuous
+
+```python
+def binned_to_continuous(Yt: NDArray, burn_in: int = 0)
+```
+
+Draws event times uniformly within each bin to create a continuous surrogate.
+
+Following Gerhard and Gerstner (2010): https://arxiv.org/abs/1011.4188.
+
+**Arguments**:
+
+- `Yt` - Yt for one node.
+- `burn_in` - Units of time of data from the beginning to discard.
+
+<a id="binned_hawkes_multilayer.residual_analysis.pvals"></a>
+
+### pvals
+
+```python
+def pvals(cont_Yt: NDArray, lmda: NDArray) -> NDArray
+```
+
+Computes the upper-tail p-values of the compensator transformed event times.
+
+**Arguments**:
+
+- `cont_Yt` - Output from `binned_to_continuous`; continuous surrogate representing one node.
+- `lmda` - CIF for each unit of time, for one node.
+  
+
+**Returns**:
+
+  [p_ik for k in each index in cont_Yt], with node i being that of the single cont_Yt passed in.
+
+<a id="binned_hawkes_multilayer.residual_analysis.kstest"></a>
+
+### kstest
+
+```python
+def kstest(pvals: NDArray) -> float
+```
+
+Performs the KS test.
+
+**Arguments**:
+
+- `pvals` - Output of `pvals()`.
+
+<a id="binned_hawkes_multilayer.residual_analysis.visualize_continuous"></a>
+
+### visualize\_continuous
+
+```python
+def visualize_continuous(cont_Yt: NDArray)
+```
+
+Scatter plot to visualize continuous surrogate Yt.
+
+**Arguments**:
+
+- `cont_Yt` - Output from `binned_to_continuous`; continuous surrogate representing one node.
+
+<a id="binned_hawkes_multilayer.residual_analysis.visualize_pval_hist"></a>
+
+### visualize\_pval\_hist
+
+```python
+def visualize_pval_hist(pvals: NDArray)
+```
+
+Histogram of pvals.
+
+**Arguments**:
+
+- `pvals` - Output of pvals.
+
