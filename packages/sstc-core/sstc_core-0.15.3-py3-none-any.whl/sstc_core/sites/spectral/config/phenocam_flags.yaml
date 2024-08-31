@@ -1,0 +1,63 @@
+flag_disable_for_processing: 
+  value: False
+  weight: 1
+flag_sun_altitude_low_20deg:
+  value: False
+  weight: 0.25
+flag_shadows: 
+  value: False
+  weight: 0.5
+flag_haze: 
+  value: False
+  weight: 0.5          
+flag_high_brightness:
+  value: False
+  weight: 0.25
+flag_low_brightness:
+  value: False
+  weight: 0.25
+flag_obstructions:
+  value: False
+  weight: 0.5
+flag_clouds: 
+  value: False
+  weight: 1
+flag_fog:
+  value: False
+  weight: 1
+flag_water_drops:
+  value: False
+  weight: 1
+flag_heavy_rain: 
+  value: False
+  weight: 1
+flag_snow: 
+  value: False
+  weight: 1
+flag_ice:
+  value: False 
+  weight: 1
+flag_dirt: 
+  value: False
+  weight: 1
+flag_birds: 
+  value: False
+  weight: 1
+flag_insects: 
+  value: False
+  weight: 1
+flag_glare: 
+  value: False
+  weight: 0.5
+flag_blur:
+  value: False
+  weight: 1
+flag_mount_loose:
+  value: False
+  weight: 1
+flag_camera_error:
+  value: False
+  weight: 1
+flag_other: 
+  value: False
+  weight: 1
