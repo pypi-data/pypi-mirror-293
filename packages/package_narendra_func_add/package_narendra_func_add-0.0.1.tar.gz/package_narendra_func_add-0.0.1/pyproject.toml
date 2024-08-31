@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "package_narendra_func_add"
+version = "0.0.1"
+description = "A sample test package"
+authors = ["Narendra Sai <nsai.devops@gmail.com>"]
+readme = "README.md"
+packages = [{include = "package"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
