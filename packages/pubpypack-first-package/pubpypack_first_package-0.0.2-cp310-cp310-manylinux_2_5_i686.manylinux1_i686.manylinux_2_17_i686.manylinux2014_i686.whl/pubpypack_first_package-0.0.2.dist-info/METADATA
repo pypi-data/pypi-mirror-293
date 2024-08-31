@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pubpypack-first-package
+Version: 0.0.2
+Summary: Test all your prompt strategies and quickly iterate to improve your genai case
+Home-page: https://github.com/LucianoBatista
+Author: Luciano Batista
+Author-email: "Luciano Batista" <luciano.batista@gmail.com>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: termcolor<2,>=1.1.0
+
+# Prompt Experimentation
+
+This package will help you to test different prompt strategies.
+
+## Installation
+
+```shell
+python -m pip install first-python-package
+```
