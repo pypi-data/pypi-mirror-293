@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "datatoword"
+version = "0.7.0"
+description = "一個將資料轉換為文本的小工具，可提升 RAG 查詢的效率。"
+authors = ["nick <nickchen1998@gmail.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+homepage = "https://github.com/nickchen1998/DataToWord"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.14"
+langchain-openai = "^0.1.22"
+langchain-community = "^0.2.12"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+poetry2setup = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
