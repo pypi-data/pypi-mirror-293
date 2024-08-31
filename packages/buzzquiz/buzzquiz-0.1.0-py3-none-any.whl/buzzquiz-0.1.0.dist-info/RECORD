@@ -1,0 +1,10 @@
+buzzquiz/__init__.py,sha256=HMDRdtNdaaXbI-miCOyULL56Q0L9TBlqK7xJmQcVkVY,51
+buzzquiz/buzz.py,sha256=x1is7qdXRCYb6ggGZI-4bv05v4V_tBMo1OP0Cl8iewM,2048
+buzzquiz/controllers.py,sha256=Cwq2uOypSzK7PzyUmYTNrfxclKoraOtkq_zk17rR40I,3519
+buzzquiz/games.py,sha256=adlygNtPtSW3nGR2K7leL9RRm-DpKcIXbhHx5ujKKsY,2734
+buzzquiz/lights.py,sha256=FJU99H5cm-eGCCzK947pwt-RsHCaogF8Xs3MX2ZYt-Q,6771
+buzzquiz/reader.py,sha256=luANRSgTTeLZ67mTurfPD56ziUqJg-Fb1RJfWGRoaxk,14602
+buzzquiz-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+buzzquiz-0.1.0.dist-info/METADATA,sha256=9P-6HlK5hHQjKaIZ21TcdwiFkLa6Wf-Ttl7Tk1lNPfI,1069
+buzzquiz-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+buzzquiz-0.1.0.dist-info/RECORD,,
