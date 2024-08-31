@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README_PyPI.md
+requirements.txt
+setup.py
+imgs/welcome.gif
+myawesomeeda.egg-info/PKG-INFO
+myawesomeeda.egg-info/SOURCES.txt
+myawesomeeda.egg-info/dependency_links.txt
+myawesomeeda.egg-info/requires.txt
+myawesomeeda.egg-info/top_level.txt
