@@ -1,0 +1,9 @@
+setup.py
+kapaaudp2/__init__.py
+kapaaudp2/kapaaudp2.py
+kapaaudp2/szmcx (3).py
+kapaaudp2/wymcp.py
+kapaaudp2.egg-info/PKG-INFO
+kapaaudp2.egg-info/SOURCES.txt
+kapaaudp2.egg-info/dependency_links.txt
+kapaaudp2.egg-info/top_level.txt
