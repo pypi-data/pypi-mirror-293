@@ -1,0 +1,12 @@
+agentmatrix/MultiAgentSystem.py,sha256=DpVAQxRWE7o1XJQ46j1ga8UXTEUhCg_rGTRjpam1WuY,1095
+agentmatrix/__init__.py,sha256=mFRUL16Hzx7I_X8-PZ_9XwqnQqydLIeQz918Ucr4mcs,47
+agentmatrix/agents/__init__.py,sha256=eugVik_MmYiteZ_rUkr91GOBwroVfyFUljxYbzYSvhc,78
+agentmatrix/agents/base_agent.py,sha256=-pHvWnQZ9zAdGEN8u3Qdfio15y4d3EllvqDh2ifK0qs,553
+agentmatrix/agents/duckduckgo_agent.py,sha256=qL1FuB7kGrvjTCLr7Pnuh7AbRuNXWAcY2tkdG_PMwyg,1261
+agentmatrix/agents/llm_agent.py,sha256=1w4Ubn4SQ9Ct3mNXK98G7tAmRPqv4ZonppBXBwS6d_s,2460
+agentmatrix/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agentmatrix/utils/helpers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agentmatrix-0.1.0.dist-info/METADATA,sha256=R3wZfnS-co6nN5sUtouq1QqVUiIZUG2YzoLmnMhE3tA,1802
+agentmatrix-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+agentmatrix-0.1.0.dist-info/top_level.txt,sha256=eRpcqxBnTTMcfEzd21z642yP9ZAbpJ8B9I21omS-2-U,12
+agentmatrix-0.1.0.dist-info/RECORD,,
