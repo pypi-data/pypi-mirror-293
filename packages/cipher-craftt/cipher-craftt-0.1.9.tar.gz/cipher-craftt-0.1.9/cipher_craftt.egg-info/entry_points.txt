@@ -1,0 +1,2 @@
+[console_scripts]
+generate-password = cipher_craftt.cli:main
