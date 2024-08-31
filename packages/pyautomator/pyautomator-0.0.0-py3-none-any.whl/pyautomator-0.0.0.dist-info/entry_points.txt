@@ -1,0 +1,3 @@
+[console_scripts]
+pyautomator=pyautomator.cli:app
+
