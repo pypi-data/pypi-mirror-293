@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+taggerdb/__init__.py
+taggerdb/taggerdb.py
+taggerdb.egg-info/PKG-INFO
+taggerdb.egg-info/SOURCES.txt
+taggerdb.egg-info/dependency_links.txt
+taggerdb.egg-info/top_level.txt
