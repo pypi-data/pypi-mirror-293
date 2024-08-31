@@ -1,0 +1,6 @@
+[plover.dictionary]
+fold-py = plover_custom_folding.PythonFoldingDictionary:PythonFoldingDictionary
+py2 = plover_custom_folding.PythonDictionary:PythonDictionary
+
+[plover.extension]
+EngineGetterExtension = plover_custom_folding.EngineGetterExtension:EngineGetterExtension
