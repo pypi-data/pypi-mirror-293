@@ -1,0 +1,69 @@
+from .request_utils import *
+import aiohttp
+
+async def async_get_json_response(response, response_result=None, load_nested_json=True):
+    response_json = None
+    if response.content_type == 'application/json':
+        try:
+            # Extract the JSON content from the response
+            response_json = await response.json()  # Correct usage with parentheses
+        except Exception as e:
+            print(f"Failed to decode JSON response: {e}")
+            response_json = await response.text()  # Fallback to raw text if JSON fails
+
+    if isinstance(response_json, dict):
+        response_json = response_json.get(response_result, response_json)
+    
+    if load_nested_json and response_json:
+        response_json = load_inner_json(response_json)
+    
+    return response_json
+
+async def async_get_response(response, response_result=None, raw_response=False, load_nested_json=True):
+    if raw_response:
+        return response
+    json_response = await async_get_json_response(response, response_result=response_result, load_nested_json=load_nested_json)
+    if json_response:
+        return json_response
+    text_response = await response.text()
+    return text_response or response
+
+async def getAsyncRequest(url, data=None, headers=None, endpoint=None, status_code=False):
+    async with aiohttp.ClientSession() as session:
+        values = get_values_js(url=url, data=data, headers=headers, endpoint=endpoint)
+        async with session.get(**values) as response:
+            if status_code:
+                return {"result": await async_get_json_response(response), "status_code": response.status}
+            else:
+                return await async_get_json_response(response)
+
+async def postAsyncRequest(url, data=None, headers=None, endpoint=None, status_code=False):
+    async with aiohttp.ClientSession() as session:
+        values = get_values_js(url=url, data=data, headers=headers, endpoint=endpoint)
+        async with session.post(**values) as response:
+            if status_code:
+                return {"result": await async_get_json_response(response), "status_code": response.status}
+            else:
+                return await async_get_json_response(response)
+
+async def asyncMakeRequest(url, data=None, headers=None, get_post=None, endpoint=None, status_code=False, raw_response=False, response_result=None, load_nested_json=True):
+    if get_post.upper() == 'POST':
+        return await postAsyncRequest(url, data=data, headers=headers, endpoint=endpoint, status_code=status_code)
+    elif get_post.upper() == 'GET':
+        return await getAsyncRequest(url, data=data, headers=headers, endpoint=endpoint, status_code=status_code)
+    else:
+        raise ValueError(f"Unsupported HTTP method: {get_post}")
+
+async def asyncPostRequest(url, data, headers=None, endpoint=None, status_code=False, raw_response=False, response_result=None, load_nested_json=True):
+    return await asyncMakeRequest(url, data=data, headers=headers, endpoint=endpoint, get_post='POST', status_code=status_code, raw_response=raw_response, response_result=response_result, load_nested_json=load_nested_json)
+
+async def asyncGetRequest(url, data, headers=None, endpoint=None, status_code=False, raw_response=False, response_result=None, load_nested_json=True):
+    return await asyncMakeRequest(url, data=data, headers=headers, endpoint=endpoint, get_post='GET', status_code=status_code, raw_response=raw_response, response_result=response_result, load_nested_json=load_nested_json)
+
+async def asyncGetRpcRequest(url, method=None,params=None,jsonrpc=None,id=None,headers=None, endpoint=None, status_code=False, raw_response=False, response_result=None, load_nested_json=True):
+    data = getRpcData(method=method,params=params,jsonrpc=jsonrpc,id=id)
+    return await asyncGetRequest(url, data, headers=headers, endpoint=endpoint, status_code=status_code, raw_response=raw_response, response_result=response_result, load_nested_json=load_nested_json)
+
+async def asyncPostRpcRequest(url, method=None,params=None,jsonrpc=None,id=None,headers=None, endpoint=None, status_code=False, raw_response=False, response_result=None, load_nested_json=True):
+    data = getRpcData(method=method,params=params,jsonrpc=jsonrpc,id=id)
+    return await asyncPostRequest(url, data, headers=headers, endpoint=endpoint, status_code=status_code, raw_response=raw_response, response_result=response_result, load_nested_json=load_nested_json)
