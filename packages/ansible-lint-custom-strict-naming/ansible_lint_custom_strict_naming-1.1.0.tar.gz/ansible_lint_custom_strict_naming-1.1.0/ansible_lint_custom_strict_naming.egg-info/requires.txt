@@ -1,0 +1,3 @@
+
+[:sys_platform != "Windows"]
+ansible-lint>=6.24.0
