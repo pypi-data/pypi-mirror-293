@@ -1,0 +1,6 @@
+[console_scripts]
+hms-awsecs=hms_utils.awsecs:main
+hms-awsenv=hms_utils.awsenv:main
+hms-config=hms_utils.hmsconfig:main
+publish-to-pypi=dcicutils.scripts.publish_to_pypi:main
+
