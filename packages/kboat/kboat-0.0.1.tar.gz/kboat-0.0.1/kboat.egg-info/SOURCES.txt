@@ -1,0 +1,8 @@
+setup.py
+kboat/__init__.py
+kboat/my.py
+kboat.egg-info/PKG-INFO
+kboat.egg-info/SOURCES.txt
+kboat.egg-info/dependency_links.txt
+kboat.egg-info/not-zip-safe
+kboat.egg-info/top_level.txt
