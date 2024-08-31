@@ -1,0 +1,33 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Akun sudah dikonfigurasi"
+        },
+        "error": {
+            "invalid_credentials": "Autentikasi tidak valid",
+            "unknown": "Kesalahan tak terduga"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "Kunci API",
+                    "api_user": "ID pengguna API Habitica",
+                    "name": "Ganti nama pengguna Habitica. Nama ini akan digunakan untuk aksi",
+                    "url": "URL"
+                }
+            }
+        }
+    },
+    "services": {
+        "api_call": {
+            "fields": {
+                "name": {
+                    "name": "Nama"
+                },
+                "path": {
+                    "name": "Jalur"
+                }
+            }
+        }
+    }
+}
