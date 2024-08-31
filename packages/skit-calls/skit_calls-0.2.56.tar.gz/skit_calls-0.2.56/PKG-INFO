@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: skit-calls
+Version: 0.2.56
+Summary: Library to fetch calls from a given environment.
+Home-page: https://github.com/skit-ai/skit-calls
+License: GPL-3.0-only
+Author: ltbringer
+Author-email: amresh.venugopal@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: aiobotocore (==2.14.0)
+Requires-Dist: aiofiles (==0.8.0)
+Requires-Dist: aiohttp (>=3.10.4,<4.0.0)
+Requires-Dist: attrs (==24.2.0)
+Requires-Dist: botocore (>=1.35.0,<1.35.8)
+Requires-Dist: dvc[s3] (==3.55.1)
+Requires-Dist: loguru (==0.5.3)
+Requires-Dist: numpy (>=1.22.0,<2.0.0)
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.3,<3.0.0)
+Requires-Dist: pydash (>=6.0.0,<7.0.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tqdm (==4.66.3)
+Project-URL: Repository, https://github.com/skit-ai/skit-calls
