@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: keras-spark
+Version: 0.8
+Summary: seamless support for spark datasets in keras fit() and .redict()
+Author: christian sommeregger
+Author-email: csommeregger@gmail.com
+Requires-Dist: keras
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyspark
+
+seamless support for spark datasets in keras fit() and .redict()

@@ -1,0 +1,9 @@
+keras_spark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keras_spark/core.py,sha256=QwiOcgrFiJtLMsozSPouQgw7IwquBR5ES13B34iikSo,7743
+keras_spark/model.py,sha256=b5bV3OVscLZO5uNNoESJyfTKrarbolRP-Fbyxir9rjw,1003
+keras_spark/test_core.py,sha256=z-PZ5_Qo0nLT4jp7duO-RanjatXJzL9QZmD54N2qE-o,5912
+keras_spark/test_model.py,sha256=5WzdZMtXX7chAw96VbVtVV8iY3zl5D5EPLQsHkr9i3M,9004
+keras_spark-0.8.dist-info/METADATA,sha256=IKHgN-XkjO-SGc51dmRgGI86D9InK35xVpSjNE3QFb8,373
+keras_spark-0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+keras_spark-0.8.dist-info/top_level.txt,sha256=9zPleaqrr1xXHd8Mwn8jgsORs9Nne5Uha6Ot2uZA9x0,12
+keras_spark-0.8.dist-info/RECORD,,
