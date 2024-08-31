@@ -1,0 +1,61 @@
+/******************************************************************************
+  This file is part of PyTango (http://pytango.rtfd.io)
+
+  Copyright 2006-2012 CELLS / ALBA Synchrotron, Bellaterra, Spain
+  Copyright 2013-2014 European Synchrotron Radiation Facility, Grenoble, France
+
+  Distributed under the terms of the GNU Lesser General Public License,
+  either version 3 of the License, or (at your option) any later version.
+  See LICENSE.txt for more info.
+******************************************************************************/
+
+#include "precompiled_header.hpp"
+#include <tango/tango.h>
+
+#include "exception.h"
+
+extern bopy::object PyTango_DevFailed;
+
+namespace PyAttrConfEventData
+{
+static boost::shared_ptr<Tango::AttrConfEventData> makeAttrConfEventData()
+{
+    Tango::AttrConfEventData *result = new Tango::AttrConfEventData;
+    return boost::shared_ptr<Tango::AttrConfEventData>(result);
+}
+
+static void set_errors(Tango::AttrConfEventData &event_data, bopy::object &dev_failed)
+{
+    Tango::DevFailed df;
+    bopy::object errors = dev_failed.attr("args");
+    sequencePyDevError_2_DevErrorList(errors.ptr(), event_data.errors);
+}
+}; // namespace PyAttrConfEventData
+
+void export_attr_conf_event_data()
+{
+    bopy::class_<Tango::AttrConfEventData>("AttrConfEventData", bopy::init<const Tango::AttrConfEventData &>())
+
+        .def("__init__", bopy::make_constructor(PyAttrConfEventData::makeAttrConfEventData))
+
+        // The original Tango::AttrConfEventData structure has a 'device' field.
+        // However, if we returned this directly we would get a different
+        // python device each time. So we are doing our weird things to make
+        // sure the device returned is the same where the read action was
+        // performed. So we don't return Tango::AttrConfEventData::device directly.
+        // See callback.cpp
+        .setattr("device", bopy::object())
+        .def_readwrite("attr_name", &Tango::AttrConfEventData::attr_name)
+        .def_readwrite("event", &Tango::AttrConfEventData::event)
+
+        .setattr("attr_conf", bopy::object())
+
+        .def_readwrite("err", &Tango::AttrConfEventData::err)
+        .def_readwrite("reception_date", &Tango::AttrConfEventData::reception_date)
+        .add_property(
+            "errors",
+            make_getter(&Tango::AttrConfEventData::errors, bopy::return_value_policy<bopy::copy_non_const_reference>()),
+            &PyAttrConfEventData::set_errors)
+
+        .def("get_date", &Tango::AttrConfEventData::get_date, bopy::return_internal_reference<>());
+}
