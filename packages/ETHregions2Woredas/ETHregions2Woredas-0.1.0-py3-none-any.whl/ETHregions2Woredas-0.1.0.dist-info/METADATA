@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ETHregions2Woredas
+Version: 0.1.0
+Summary: A package containing code parser and json of regions, zones, and woredas data
+Home-page: https://github.com/gashawdemlew/ETHregions2Woredas
+Author: Gashaw Demlew
+Author-email: gashudemman@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
