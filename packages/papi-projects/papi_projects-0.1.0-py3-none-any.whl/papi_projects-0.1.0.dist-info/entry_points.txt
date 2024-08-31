@@ -1,0 +1,4 @@
+[console_scripts]
+collate-toggl-hours=scripts.collatetogglhours:main
+create-toggl-project=scripts.createtogglproject:main
+
