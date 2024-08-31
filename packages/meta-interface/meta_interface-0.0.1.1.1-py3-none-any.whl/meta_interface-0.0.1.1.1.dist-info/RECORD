@@ -1,0 +1,9 @@
+interface/__init__.py,sha256=lGq9itcZpmkuXxw0Pe9HslkPld7-RlMBOasjJIcjLaY,109
+interface/interface.py,sha256=xKtL8crTyxZzBeFxSPn-VFVNcCTs9xCEOsHEIMPOeGk,5133
+interface/interface.pyi,sha256=MP7coO3w-Tg_g7B_2Oh7bm3CC0AkT3oOl_Hb74xU0nA,55
+interface/labels.py,sha256=q2JF95aiVi3GUUSKMrhWLRvcQ2Ac9FF8D9gQ9A3-Q-E,2242
+meta_interface-0.0.1.1.1.dist-info/LICENSE,sha256=a1HyC2vmQHsBV09RbKC4JqVsuYMaOAJJ59_OzNpi3cQ,1065
+meta_interface-0.0.1.1.1.dist-info/METADATA,sha256=HYm8uB9QfcIdM-dwAZiH2EKZWf6TH6pqvo1EZYcS7J0,6214
+meta_interface-0.0.1.1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+meta_interface-0.0.1.1.1.dist-info/top_level.txt,sha256=zOpVlEVgOVEtSJbr2TSrpPC7Ww32_FHQjkotVALzduU,10
+meta_interface-0.0.1.1.1.dist-info/RECORD,,
