@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: renovate_31075_sample
+Version: 0.0.0
+Summary: Sample Python package for Renovate discussion https://github.com/renovatebot/renovate/discussions/31075.
+Home-page: https://github.com/Enkidu-Aururu/31075
+Author: Ivan Latka
+License-File: LICENSE
+
