@@ -1,0 +1,2257 @@
+2024-08-30 10:24:58,066 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:24:58,070 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:24:58,070 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:24:58,070 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:24:58,070 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:24:58,087 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:24:58,087 [DEBUG] CSVParser: Loading history data from not_existing_likely.csv
+2024-08-30 10:24:58,118 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:24:58,124 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:24:58,125 [DEBUG] CSVParser: Last date in file: not_existing_budget.csv for 
+2024-08-30 10:24:58,125 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:24:58,130 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:24:58,142 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:24:58,142 [DEBUG] CSVParser: Last date in file: not_existing_painting.csv for 
+2024-08-30 10:26:05,926 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:26:05,930 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:26:05,930 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:26:05,930 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:26:05,930 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:26:05,955 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:26:05,956 [DEBUG] CSVParser: Loading history data from not_existing_six.csv
+2024-08-30 10:26:05,981 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:26:05,984 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:26:06,024 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:26:06,024 [DEBUG] CSVParser: Last date in file: not_existing_for.csv for 
+2024-08-30 10:26:06,024 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:26:06,028 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:26:06,029 [DEBUG] CSVParser: Last date in file: not_existing_before.csv for 
+2024-08-30 10:31:31,384 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:31:31,386 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:31:31,386 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:31:31,387 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:31:31,387 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:31:31,417 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:31:31,417 [DEBUG] CSVParser: Loading history data from not_existing_later.csv
+2024-08-30 10:31:31,428 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:31:31,434 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:31:31,477 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:31:31,477 [DEBUG] CSVParser: Last date in file: not_existing_win.csv for 
+2024-08-30 10:31:31,478 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:31:31,483 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:31:31,483 [DEBUG] CSVParser: Last date in file: not_existing_first.csv for 
+2024-08-30 10:33:06,258 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:06,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:06,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:06,263 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:33:06,263 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:33:06,285 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:06,286 [DEBUG] CSVParser: Loading history data from not_existing_four.csv
+2024-08-30 10:33:06,308 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:06,312 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:06,347 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:06,347 [DEBUG] CSVParser: Last date in file: not_existing_draw.csv for 
+2024-08-30 10:33:06,361 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:06,362 [DEBUG] CSVParser: Last date in file: not_existing_miss.csv for 
+2024-08-30 10:33:06,362 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:33:50,731 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:50,739 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:50,739 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:50,739 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:33:50,739 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:33:50,760 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:50,760 [DEBUG] CSVParser: Loading history data from not_existing_Republican.csv
+2024-08-30 10:33:50,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:50,779 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:50,818 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:50,819 [DEBUG] CSVParser: Last date in file: not_existing_sense.csv for 
+2024-08-30 10:33:50,820 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:33:50,820 [DEBUG] CSVParser: Last date in file: not_existing_expect.csv for 
+2024-08-30 10:33:50,821 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:34:14,781 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:34:14,781 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:34:14,788 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:34:14,809 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:34:14,810 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:34:14,811 [DEBUG] CSVParser: Loading history data from not_existing_four.csv
+2024-08-30 10:34:14,825 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:34:14,825 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:34:14,851 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:34:14,854 [DEBUG] CSVParser: Last date in file: not_existing_grow.csv for 
+2024-08-30 10:34:14,877 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:34:14,877 [DEBUG] CSVParser: Last date in file: not_existing_possible.csv for 
+2024-08-30 10:34:14,878 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:54:59,412 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:54:59,414 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:54:59,440 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:54:59,441 [DEBUG] CSVParser: Loading history data from not_existing_interview.csv
+2024-08-30 10:54:59,513 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:54:59,538 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:54:59,546 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:54:59,633 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:54:59,634 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 10:54:59,654 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:54:59,654 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:54:59,655 [DEBUG] CSVParser: Last date in file: not_existing_yeah.csv for 
+2024-08-30 10:54:59,655 [DEBUG] CSVParser: Last date in file: not_existing_yeah.csv for 
+2024-08-30 10:54:59,656 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:54:59,656 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:57:09,708 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:57:09,709 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:57:09,727 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:57:09,737 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:57:09,738 [DEBUG] CSVParser: Loading history data from not_existing_right.csv
+2024-08-30 10:57:09,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:57:09,805 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:57:09,895 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:57:09,896 [DEBUG] CSVParser: Last date in file: not_existing_test.csv for 
+2024-08-30 10:57:09,896 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:57:09,897 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:57:09,897 [DEBUG] CSVParser: Last date in file: not_existing_include.csv for 
+2024-08-30 10:58:13,761 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:58:13,762 [DEBUG] CSVParser: Loading history data from not_existing_half.csv
+2024-08-30 10:58:13,770 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:58:13,773 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:58:13,874 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:58:13,874 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:58:13,901 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:58:13,955 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:58:14,014 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:58:14,015 [DEBUG] CSVParser: Last date in file: not_existing_return.csv for 
+2024-08-30 10:58:14,015 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 10:58:14,020 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:58:14,021 [DEBUG] CSVParser: Last date in file: not_existing_score.csv for 
+2024-08-30 10:59:45,448 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:59:45,449 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 10:59:45,491 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:59:45,504 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:59:45,505 [DEBUG] CSVParser: Loading history data from not_existing_tree.csv
+2024-08-30 10:59:45,537 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:59:45,592 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:59:45,664 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:59:45,665 [DEBUG] CSVParser: Last date in file: not_existing_cell.csv for 
+2024-08-30 10:59:45,713 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 10:59:45,715 [DEBUG] CSVParser: Last date in file: not_existing_PM.csv for 
+2024-08-30 10:59:45,716 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:01:25,315 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:01:25,316 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:01:25,355 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:01:25,356 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:01:25,357 [DEBUG] CSVParser: Loading history data from not_existing_boy.csv
+2024-08-30 11:01:25,405 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:01:25,443 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:01:25,507 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:01:25,508 [DEBUG] CSVParser: Last date in file: not_existing_enough.csv for 
+2024-08-30 11:01:25,535 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:01:25,536 [DEBUG] CSVParser: Last date in file: not_existing_lead.csv for 
+2024-08-30 11:01:25,537 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:11:02,538 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:11:02,539 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:11:02,580 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:11:02,580 [DEBUG] CSVParser: Loading history data from not_existing_firm.csv
+2024-08-30 11:11:02,623 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:11:02,643 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:11:02,669 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:11:02,670 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:11:02,670 [DEBUG] CSVParser: Last date in file: not_existing_these.csv for 
+2024-08-30 11:11:02,671 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:11:02,757 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:11:02,758 [DEBUG] CSVParser: Last date in file: not_existing_hand.csv for 
+2024-08-30 11:12:03,859 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:12:03,860 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:12:03,871 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:12:03,872 [DEBUG] CSVParser: Loading history data from not_existing_mission.csv
+2024-08-30 11:12:03,894 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:12:03,945 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:12:03,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:12:04,069 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:12:04,070 [DEBUG] CSVParser: Last date in file: not_existing_whose.csv for 
+2024-08-30 11:12:04,085 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:12:04,085 [DEBUG] CSVParser: Last date in file: not_existing_without.csv for 
+2024-08-30 11:12:04,086 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:16:30,033 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:30,034 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:16:30,094 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:30,094 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:30,095 [DEBUG] CSVParser: Loading history data from not_existing_standard.csv
+2024-08-30 11:16:30,177 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:30,190 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:30,250 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:30,251 [DEBUG] CSVParser: Last date in file: not_existing_baby.csv for 
+2024-08-30 11:16:30,288 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:30,289 [DEBUG] CSVParser: Last date in file: not_existing_conference.csv for 
+2024-08-30 11:16:30,290 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:16:52,385 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,388 [DEBUG] CSVParser: Loading history data from not_existing_phone.csv
+2024-08-30 11:16:52,394 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,394 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,394 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:16:52,394 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:16:52,406 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,555 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,557 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,593 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,593 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,594 [DEBUG] CSVParser: Last date in file: not_existing_opportunity.csv for 
+2024-08-30 11:16:52,594 [DEBUG] CSVParser: Last date in file: not_existing_opportunity.csv for 
+2024-08-30 11:16:52,647 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:16:52,649 [DEBUG] CSVParser: Last date in file: not_existing_service.csv for 
+2024-08-30 11:16:52,649 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:17:49,309 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:17:49,313 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:17:49,341 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:17:49,343 [DEBUG] CSVParser: Loading history data from not_existing_civil.csv
+2024-08-30 11:17:49,406 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:17:49,428 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:17:49,429 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:17:49,443 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:17:49,443 [DEBUG] CSVParser: Last date in file: not_existing_beyond.csv for 
+2024-08-30 11:17:49,446 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:17:49,497 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:17:49,498 [DEBUG] CSVParser: Last date in file: not_existing_reduce.csv for 
+2024-08-30 11:18:51,902 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:18:51,903 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:18:51,951 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:18:51,955 [DEBUG] CSVParser: Loading history data from not_existing_good.csv
+2024-08-30 11:18:51,992 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:18:52,033 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:18:52,038 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:18:52,050 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:18:52,051 [DEBUG] CSVParser: Last date in file: not_existing_money.csv for 
+2024-08-30 11:18:52,051 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:18:52,115 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:18:52,116 [DEBUG] CSVParser: Last date in file: not_existing_weight.csv for 
+2024-08-30 11:19:14,556 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:19:14,558 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:19:14,578 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:19:14,580 [DEBUG] CSVParser: Loading history data from not_existing_half.csv
+2024-08-30 11:19:14,639 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:19:14,671 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:19:14,672 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:19:14,691 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:19:14,692 [DEBUG] CSVParser: Last date in file: not_existing_family.csv for 
+2024-08-30 11:19:14,693 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:19:14,738 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:19:14,739 [DEBUG] CSVParser: Last date in file: not_existing_line.csv for 
+2024-08-30 11:20:44,848 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:20:44,849 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:20:44,869 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:20:44,870 [DEBUG] CSVParser: Loading history data from not_existing_place.csv
+2024-08-30 11:20:44,916 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:20:44,945 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:20:44,958 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:20:45,033 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:20:45,034 [DEBUG] CSVParser: Last date in file: not_existing_course.csv for 
+2024-08-30 11:20:45,050 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:20:45,050 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:20:45,050 [DEBUG] CSVParser: Last date in file: not_existing_air.csv for 
+2024-08-30 11:20:45,050 [DEBUG] CSVParser: Last date in file: not_existing_air.csv for 
+2024-08-30 11:20:45,051 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:20:45,051 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:25:03,412 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:03,413 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:25:03,445 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:03,446 [DEBUG] CSVParser: Loading history data from not_existing_us.csv
+2024-08-30 11:25:03,517 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:03,546 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:03,546 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:03,549 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:03,607 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:03,608 [DEBUG] CSVParser: Last date in file: not_existing_raise.csv for 
+2024-08-30 11:25:03,635 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:03,636 [DEBUG] CSVParser: Last date in file: not_existing_well.csv for 
+2024-08-30 11:25:03,637 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:25:50,667 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:50,669 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:25:50,696 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:50,697 [DEBUG] CSVParser: Loading history data from not_existing_citizen.csv
+2024-08-30 11:25:50,715 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:50,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:50,810 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:50,920 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:50,920 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:50,920 [DEBUG] CSVParser: Last date in file: not_existing_soon.csv for 
+2024-08-30 11:25:50,920 [DEBUG] CSVParser: Last date in file: not_existing_soon.csv for 
+2024-08-30 11:25:50,922 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:25:50,923 [DEBUG] CSVParser: Last date in file: not_existing_management.csv for 
+2024-08-30 11:25:50,923 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:27:31,560 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:27:31,561 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:27:31,606 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:27:31,607 [DEBUG] CSVParser: Loading history data from not_existing_sometimes.csv
+2024-08-30 11:27:31,635 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:27:31,692 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:27:31,694 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:27:31,699 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:27:31,700 [DEBUG] CSVParser: Last date in file: not_existing_eight.csv for 
+2024-08-30 11:27:31,701 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:27:31,729 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:27:31,730 [DEBUG] CSVParser: Last date in file: not_existing_difficult.csv for 
+2024-08-30 11:28:42,054 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:28:42,056 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:28:42,078 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:28:42,079 [DEBUG] CSVParser: Loading history data from not_existing_sense.csv
+2024-08-30 11:28:42,141 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:28:42,158 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:28:42,169 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:28:42,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:28:42,271 [DEBUG] CSVParser: Last date in file: not_existing_use.csv for 
+2024-08-30 11:28:42,278 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:28:42,278 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:28:42,279 [DEBUG] CSVParser: Last date in file: not_existing_teacher.csv for 
+2024-08-30 11:28:42,279 [DEBUG] CSVParser: Last date in file: not_existing_teacher.csv for 
+2024-08-30 11:28:42,280 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:28:42,280 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:29:47,579 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:29:47,581 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:29:47,627 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:29:47,628 [DEBUG] CSVParser: Loading history data from not_existing_create.csv
+2024-08-30 11:29:47,666 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:29:47,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:29:47,692 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:29:47,727 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:29:47,728 [DEBUG] CSVParser: Last date in file: not_existing_forget.csv for 
+2024-08-30 11:29:47,728 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:29:47,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:29:47,794 [DEBUG] CSVParser: Last date in file: not_existing_authority.csv for 
+2024-08-30 11:30:47,819 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:30:47,820 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:30:47,852 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:30:47,853 [DEBUG] CSVParser: Loading history data from not_existing_across.csv
+2024-08-30 11:30:47,937 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:30:47,958 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:30:47,964 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:30:47,965 [DEBUG] CSVParser: Last date in file: not_existing_mention.csv for 
+2024-08-30 11:30:47,966 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:30:47,968 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:30:48,039 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:30:48,042 [DEBUG] CSVParser: Last date in file: not_existing_night.csv for 
+2024-08-30 11:42:18,466 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:42:18,467 [DEBUG] CSVParser: Loading history data from not_existing_large.csv
+2024-08-30 11:42:18,467 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:42:18,468 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:42:18,470 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:42:18,471 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:42:18,472 [DEBUG] CSVParser: Last date in file: not_existing_church.csv for 
+2024-08-30 11:42:18,471 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:42:18,472 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:42:18,472 [DEBUG] CSVParser: Last date in file: not_existing_big.csv for 
+2024-08-30 11:42:18,473 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:42:18,474 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,772 [DEBUG] CSVParser: Loading history data from not_existing_great.csv
+2024-08-30 11:45:09,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,772 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:45:09,777 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,778 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,778 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,778 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,778 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 11:45:09,778 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 11:45:09,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:09,780 [DEBUG] CSVParser: Last date in file: not_existing_top.csv for 
+2024-08-30 11:45:09,780 [DEBUG] CSVParser: Last date in file: not_existing_top.csv for 
+2024-08-30 11:45:09,781 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:45:09,781 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:45:23,399 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:23,400 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:45:23,401 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:23,402 [DEBUG] CSVParser: Loading history data from not_existing_stock.csv
+2024-08-30 11:45:23,402 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:23,403 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:23,403 [DEBUG] CSVParser: Last date in file: not_existing_summer.csv for 
+2024-08-30 11:45:23,407 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:23,407 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:23,407 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:45:23,407 [DEBUG] CSVParser: Last date in file: not_existing_address.csv for 
+2024-08-30 11:45:23,408 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:46:51,821 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,822 [DEBUG] CSVParser: Loading history data from not_existing_speech.csv
+2024-08-30 11:46:51,823 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,824 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,824 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,824 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:46:51,828 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,829 [DEBUG] CSVParser: Last date in file: not_existing_fish.csv for 
+2024-08-30 11:46:51,832 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,832 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:46:51,834 [DEBUG] CSVParser: Last date in file: not_existing_manage.csv for 
+2024-08-30 11:46:51,834 [DEBUG] CSVParser: Last date in file: not_existing_manage.csv for 
+2024-08-30 11:46:51,835 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:46:51,835 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:56:59,256 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:56:59,257 [DEBUG] CSVParser: Loading history data from not_existing_parent.csv
+2024-08-30 11:56:59,260 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:56:59,260 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:56:59,261 [DEBUG] CSVParser: Last date in file: not_existing_different.csv for 
+2024-08-30 11:56:59,261 [DEBUG] CSVParser: Last date in file: not_existing_check.csv for 
+2024-08-30 11:56:59,261 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:56:59,261 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 11:56:59,261 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 11:56:59,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:56:59,262 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 11:56:59,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,824 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,824 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,825 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 12:06:56,826 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,826 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,827 [DEBUG] CSVParser: Last date in file: not_existing_send.csv for 
+2024-08-30 12:06:56,826 [DEBUG] CSVParser: Loading history data from not_existing_final.csv
+2024-08-30 12:06:56,829 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:06:56,834 [DEBUG] CSVParser: Last date in file: not_existing_quality.csv for 
+2024-08-30 12:06:56,834 [DEBUG] CSVParser: Last date in file: not_existing_quality.csv for 
+2024-08-30 12:06:56,835 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 12:06:56,835 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 12:10:56,659 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:10:56,660 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:10:56,661 [DEBUG] CSVParser: Loading history data from not_existing_computer.csv
+2024-08-30 12:10:56,664 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:10:56,665 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:10:56,665 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:10:56,666 [DEBUG] CSVParser: Last date in file: not_existing_loss.csv for 
+2024-08-30 12:10:56,666 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:10:56,666 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 12:10:56,669 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:10:56,669 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:10:56,670 [DEBUG] CSVParser: Last date in file: not_existing_fire.csv for 
+2024-08-30 12:10:56,670 [DEBUG] CSVParser: Last date in file: not_existing_fire.csv for 
+2024-08-30 12:10:56,671 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 12:10:56,671 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 12:40:02,522 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,523 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,524 [DEBUG] CSVParser: Loading history data from not_existing_fill.csv
+2024-08-30 12:40:02,528 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,528 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 12:40:02,529 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,529 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,529 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,529 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,530 [DEBUG] CSVParser: Last date in file: not_existing_article.csv for 
+2024-08-30 12:40:02,532 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,532 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:40:02,532 [DEBUG] CSVParser: Last date in file: not_existing_role.csv for 
+2024-08-30 12:40:02,532 [DEBUG] CSVParser: Last date in file: not_existing_role.csv for 
+2024-08-30 12:40:02,532 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 12:40:02,532 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 12:56:39,511 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,512 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,512 [DEBUG] CSVParser: Loading history data from not_existing_very.csv
+2024-08-30 12:56:39,514 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,515 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 12:56:39,520 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,520 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,520 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,520 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,524 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,524 [DEBUG] CSVParser: Last date in file: not_existing_since.csv for 
+2024-08-30 12:56:39,525 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 12:56:39,544 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:56:39,544 [DEBUG] CSVParser: Last date in file: not_existing_important.csv for 
+2024-08-30 12:58:27,967 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,970 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,970 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 12:58:27,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,974 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,975 [DEBUG] CSVParser: Last date in file: not_existing_commercial.csv for 
+2024-08-30 12:58:27,976 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,980 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,980 [DEBUG] CSVParser: Loading history data from not_existing_put.csv
+2024-08-30 12:58:27,980 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,991 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,991 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 12:58:27,991 [DEBUG] CSVParser: Last date in file: not_existing_meeting.csv for 
+2024-08-30 12:58:27,991 [DEBUG] CSVParser: Last date in file: not_existing_meeting.csv for 
+2024-08-30 12:58:27,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 12:58:27,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:02:11,634 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,635 [DEBUG] CSVParser: Loading history data from not_existing_structure.csv
+2024-08-30 13:02:11,639 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,639 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:02:11,640 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,642 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,643 [DEBUG] CSVParser: Last date in file: not_existing_ground.csv for 
+2024-08-30 13:02:11,644 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,644 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,646 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,652 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,652 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:11,652 [DEBUG] CSVParser: Last date in file: not_existing_store.csv for 
+2024-08-30 13:02:11,652 [DEBUG] CSVParser: Last date in file: not_existing_store.csv for 
+2024-08-30 13:02:11,653 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:02:11,653 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:02:46,557 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:46,562 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:46,562 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:46,563 [DEBUG] CSVParser: Last date in file: not_existing_light.csv for 
+2024-08-30 13:02:46,564 [DEBUG] CSVParser: Loading history data from not_existing_evening.csv
+2024-08-30 13:02:46,565 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:46,579 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:46,579 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:46,588 [DEBUG] CSVParser: Last date in file: not_existing_goal.csv for 
+2024-08-30 13:02:46,588 [DEBUG] CSVParser: Last date in file: not_existing_goal.csv for 
+2024-08-30 13:02:46,589 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:46,591 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:02:46,591 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:02:46,616 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:02:46,617 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:04:44,622 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:04:44,623 [DEBUG] CSVParser: Loading history data from not_existing_rest.csv
+2024-08-30 13:04:44,624 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:04:44,624 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:04:44,626 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:04:44,625 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:04:44,626 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:04:44,627 [DEBUG] CSVParser: Last date in file: not_existing_program.csv for 
+2024-08-30 13:04:44,634 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:04:44,634 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:04:44,634 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:04:44,635 [DEBUG] CSVParser: Last date in file: not_existing_office.csv for 
+2024-08-30 13:04:44,635 [DEBUG] CSVParser: Last date in file: not_existing_office.csv for 
+2024-08-30 13:04:44,636 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:04:44,636 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:04:44,634 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,128 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,129 [DEBUG] CSVParser: Loading history data from not_existing_large.csv
+2024-08-30 13:05:35,134 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,137 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,137 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,138 [DEBUG] CSVParser: Last date in file: not_existing_purpose.csv for 
+2024-08-30 13:05:35,139 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,139 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:05:35,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,144 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,144 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:05:35,150 [DEBUG] CSVParser: Last date in file: not_existing_food.csv for 
+2024-08-30 13:05:35,150 [DEBUG] CSVParser: Last date in file: not_existing_food.csv for 
+2024-08-30 13:05:35,151 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:05:35,151 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:06:02,015 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,016 [DEBUG] CSVParser: Loading history data from not_existing_seat.csv
+2024-08-30 13:06:02,020 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,022 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,022 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,022 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,022 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,022 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:06:02,025 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,025 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,025 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:06:02,026 [DEBUG] CSVParser: Last date in file: not_existing_and.csv for 
+2024-08-30 13:06:02,026 [DEBUG] CSVParser: Last date in file: not_existing_risk.csv for 
+2024-08-30 13:06:02,026 [DEBUG] CSVParser: Last date in file: not_existing_risk.csv for 
+2024-08-30 13:06:02,028 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:06:02,028 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:11:07,605 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,605 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,606 [DEBUG] CSVParser: Loading history data from not_existing_name.csv
+2024-08-30 13:11:07,606 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,607 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:11:07,612 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,614 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,619 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,619 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,619 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,619 [DEBUG] CSVParser: Last date in file: not_existing_program.csv for 
+2024-08-30 13:11:07,619 [DEBUG] CSVParser: Last date in file: not_existing_program.csv for 
+2024-08-30 13:11:07,619 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:11:07,621 [DEBUG] CSVParser: Last date in file: not_existing_want.csv for 
+2024-08-30 13:11:07,621 [DEBUG] CSVParser: Last date in file: not_existing_want.csv for 
+2024-08-30 13:11:07,622 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:11:07,622 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:12:40,394 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,395 [DEBUG] CSVParser: Loading history data from not_existing_argue.csv
+2024-08-30 13:12:40,398 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,398 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,399 [DEBUG] CSVParser: Last date in file: not_existing_drug.csv for 
+2024-08-30 13:12:40,398 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:12:40,400 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,400 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,400 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,400 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,408 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,408 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:12:40,409 [DEBUG] CSVParser: Last date in file: not_existing_loss.csv for 
+2024-08-30 13:12:40,409 [DEBUG] CSVParser: Last date in file: not_existing_loss.csv for 
+2024-08-30 13:12:40,409 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:12:40,409 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:14:54,762 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,763 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,763 [DEBUG] CSVParser: Loading history data from not_existing_song.csv
+2024-08-30 13:14:54,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,766 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:14:54,769 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,769 [DEBUG] CSVParser: Last date in file: not_existing_evidence.csv for 
+2024-08-30 13:14:54,770 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,770 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,772 [DEBUG] CSVParser: Last date in file: not_existing_as.csv for 
+2024-08-30 13:14:54,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:14:54,773 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:15:40,787 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,788 [DEBUG] CSVParser: Loading history data from not_existing_later.csv
+2024-08-30 13:15:40,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,794 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,795 [DEBUG] CSVParser: Last date in file: not_existing_decade.csv for 
+2024-08-30 13:15:40,796 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,798 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,798 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,798 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,798 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:15:40,798 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:15:40,800 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,800 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:15:40,800 [DEBUG] CSVParser: Last date in file: not_existing_between.csv for 
+2024-08-30 13:15:40,800 [DEBUG] CSVParser: Last date in file: not_existing_between.csv for 
+2024-08-30 13:15:40,800 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:15:40,800 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:18:18,331 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,334 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,334 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,334 [DEBUG] CSVParser: Loading history data from not_existing_policy.csv
+2024-08-30 13:18:18,335 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,336 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:18:18,337 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,338 [DEBUG] CSVParser: Last date in file: not_existing_if.csv for 
+2024-08-30 13:18:18,338 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,338 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,345 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,345 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:18,346 [DEBUG] CSVParser: Last date in file: not_existing_citizen.csv for 
+2024-08-30 13:18:18,346 [DEBUG] CSVParser: Last date in file: not_existing_citizen.csv for 
+2024-08-30 13:18:18,347 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:18:18,347 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:18:54,420 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:54,420 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:54,421 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:18:54,421 [DEBUG] CSVParser: Loading history data from not_existing_assume.csv
+2024-08-30 13:18:54,421 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:54,423 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:54,423 [DEBUG] CSVParser: Last date in file: not_existing_at.csv for 
+2024-08-30 13:18:54,426 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:54,427 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:54,427 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:54,427 [DEBUG] CSVParser: Last date in file: not_existing_value.csv for 
+2024-08-30 13:18:54,427 [DEBUG] CSVParser: Last date in file: not_existing_value.csv for 
+2024-08-30 13:18:54,428 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:18:54,428 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:18:54,428 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:18:54,428 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,950 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,952 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,952 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:20:35,953 [DEBUG] CSVParser: Loading history data from not_existing_every.csv
+2024-08-30 13:20:35,956 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,957 [DEBUG] CSVParser: Last date in file: not_existing_support.csv for 
+2024-08-30 13:20:35,960 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,961 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,963 [DEBUG] CSVParser: Last date in file: not_existing_computer.csv for 
+2024-08-30 13:20:35,963 [DEBUG] CSVParser: Last date in file: not_existing_computer.csv for 
+2024-08-30 13:20:35,963 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,963 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:20:35,963 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:20:35,963 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:38:12,777 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,778 [DEBUG] CSVParser: Loading history data from not_existing_model.csv
+2024-08-30 13:38:12,783 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,784 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,784 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,785 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:38:12,785 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:38:12,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,792 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,792 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,793 [DEBUG] CSVParser: Last date in file: not_existing_ten.csv for 
+2024-08-30 13:38:12,793 [DEBUG] CSVParser: Last date in file: not_existing_ten.csv for 
+2024-08-30 13:38:12,797 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,797 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,797 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,797 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,798 [DEBUG] CSVParser: Last date in file: not_existing_natural.csv for 
+2024-08-30 13:38:12,798 [DEBUG] CSVParser: Last date in file: not_existing_natural.csv for 
+2024-08-30 13:38:12,798 [DEBUG] CSVParser: Last date in file: not_existing_natural.csv for 
+2024-08-30 13:38:12,798 [DEBUG] CSVParser: Last date in file: not_existing_natural.csv for 
+2024-08-30 13:38:12,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:38:12,799 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:38:12,799 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:38:12,799 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:38:12,799 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:39:23,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,772 [DEBUG] CSVParser: Loading history data from not_existing_message.csv
+2024-08-30 13:39:23,778 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,778 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,778 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,778 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:39:23,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,787 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,787 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,787 [DEBUG] CSVParser: Last date in file: not_existing_situation.csv for 
+2024-08-30 13:39:23,787 [DEBUG] CSVParser: Last date in file: not_existing_situation.csv for 
+2024-08-30 13:39:23,792 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,792 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,792 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,792 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,793 [DEBUG] CSVParser: Last date in file: not_existing_certain.csv for 
+2024-08-30 13:39:23,793 [DEBUG] CSVParser: Last date in file: not_existing_certain.csv for 
+2024-08-30 13:39:23,793 [DEBUG] CSVParser: Last date in file: not_existing_certain.csv for 
+2024-08-30 13:39:23,793 [DEBUG] CSVParser: Last date in file: not_existing_certain.csv for 
+2024-08-30 13:39:23,793 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:39:23,793 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:39:23,793 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:39:23,793 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:39:23,795 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,795 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:39:23,795 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:46,993 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:46,994 [DEBUG] CSVParser: Loading history data from not_existing_election.csv
+2024-08-30 13:40:46,997 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:46,998 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:46,998 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:46,999 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:40:46,999 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:40:47,003 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,003 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,003 [DEBUG] CSVParser: Last date in file: not_existing_kitchen.csv for 
+2024-08-30 13:40:47,003 [DEBUG] CSVParser: Last date in file: not_existing_kitchen.csv for 
+2024-08-30 13:40:47,005 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,005 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,005 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,008 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,008 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,008 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,011 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,011 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,011 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,011 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:40:47,012 [DEBUG] CSVParser: Last date in file: not_existing_far.csv for 
+2024-08-30 13:40:47,012 [DEBUG] CSVParser: Last date in file: not_existing_far.csv for 
+2024-08-30 13:40:47,012 [DEBUG] CSVParser: Last date in file: not_existing_far.csv for 
+2024-08-30 13:40:47,012 [DEBUG] CSVParser: Last date in file: not_existing_far.csv for 
+2024-08-30 13:40:47,013 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:40:47,013 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:40:47,013 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:40:47,013 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:47:48,210 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,211 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:47:48,211 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,212 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,212 [DEBUG] CSVParser: Loading history data from not_existing_you.csv
+2024-08-30 13:47:48,214 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,214 [DEBUG] CSVParser: Last date in file: not_existing_plant.csv for 
+2024-08-30 13:47:48,214 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,217 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,217 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,224 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,224 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:47:48,224 [DEBUG] CSVParser: Last date in file: not_existing_time.csv for 
+2024-08-30 13:47:48,224 [DEBUG] CSVParser: Last date in file: not_existing_time.csv for 
+2024-08-30 13:47:48,225 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:47:48,225 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:49:08,201 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,202 [DEBUG] CSVParser: Loading history data from not_existing_after.csv
+2024-08-30 13:49:08,201 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,212 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,213 [DEBUG] CSVParser: Last date in file: not_existing_computer.csv for 
+2024-08-30 13:49:08,214 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,214 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,217 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,217 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,218 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:49:08,218 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:49:08,222 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,222 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,225 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,225 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,225 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:49:08,225 [DEBUG] CSVParser: Last date in file: not_existing_public.csv for 
+2024-08-30 13:49:08,225 [DEBUG] CSVParser: Last date in file: not_existing_public.csv for 
+2024-08-30 13:49:08,225 [DEBUG] CSVParser: Last date in file: not_existing_public.csv for 
+2024-08-30 13:49:08,226 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:49:08,226 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:49:08,226 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:50:47,695 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,696 [DEBUG] CSVParser: Loading history data from not_existing_themselves.csv
+2024-08-30 13:50:47,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,701 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:50:47,701 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 13:50:47,707 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,707 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,707 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,707 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,707 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,708 [DEBUG] CSVParser: Last date in file: not_existing_any.csv for 
+2024-08-30 13:50:47,708 [DEBUG] CSVParser: Last date in file: not_existing_any.csv for 
+2024-08-30 13:50:47,714 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,714 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,714 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,721 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,721 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,721 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,721 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 13:50:47,721 [DEBUG] CSVParser: Last date in file: not_existing_by.csv for 
+2024-08-30 13:50:47,721 [DEBUG] CSVParser: Last date in file: not_existing_by.csv for 
+2024-08-30 13:50:47,721 [DEBUG] CSVParser: Last date in file: not_existing_by.csv for 
+2024-08-30 13:50:47,721 [DEBUG] CSVParser: Last date in file: not_existing_by.csv for 
+2024-08-30 13:50:47,722 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:50:47,722 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:50:47,722 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 13:50:47,722 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:00:04,223 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,223 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,227 [DEBUG] CSVParser: Loading history data from not_existing_meet.csv
+2024-08-30 14:00:04,230 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,230 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:00:04,238 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,238 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,238 [DEBUG] CSVParser: Last date in file: not_existing_guy.csv for 
+2024-08-30 14:00:04,238 [DEBUG] CSVParser: Last date in file: not_existing_guy.csv for 
+2024-08-30 14:00:04,239 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,239 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,241 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,241 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,248 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,248 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,248 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:00:04,249 [DEBUG] CSVParser: Last date in file: not_existing_may.csv for 
+2024-08-30 14:00:04,249 [DEBUG] CSVParser: Last date in file: not_existing_may.csv for 
+2024-08-30 14:00:04,249 [DEBUG] CSVParser: Last date in file: not_existing_may.csv for 
+2024-08-30 14:00:04,249 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:00:04,249 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:00:04,249 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:02:04,785 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,788 [DEBUG] CSVParser: Loading history data from not_existing_since.csv
+2024-08-30 14:02:04,796 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,796 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,802 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,802 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,802 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,803 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:02:04,803 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:02:04,803 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:02:04,823 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,823 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,823 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,823 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,824 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:02:04,824 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:02:04,824 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:02:04,824 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:02:04,832 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,832 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,832 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,832 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,832 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,838 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,838 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,838 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,838 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,838 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,838 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,850 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,850 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,850 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,850 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,850 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,850 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,850 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:02:04,851 [DEBUG] CSVParser: Last date in file: not_existing_have.csv for 
+2024-08-30 14:02:04,851 [DEBUG] CSVParser: Last date in file: not_existing_have.csv for 
+2024-08-30 14:02:04,851 [DEBUG] CSVParser: Last date in file: not_existing_have.csv for 
+2024-08-30 14:02:04,851 [DEBUG] CSVParser: Last date in file: not_existing_have.csv for 
+2024-08-30 14:02:04,851 [DEBUG] CSVParser: Last date in file: not_existing_have.csv for 
+2024-08-30 14:02:04,851 [DEBUG] CSVParser: Last date in file: not_existing_have.csv for 
+2024-08-30 14:02:04,851 [DEBUG] CSVParser: Last date in file: not_existing_have.csv for 
+2024-08-30 14:02:04,852 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:02:04,852 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:02:04,852 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:02:04,852 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:02:04,852 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:02:04,852 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:02:04,852 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:03:28,692 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,697 [DEBUG] CSVParser: Loading history data from not_existing_Mr.csv
+2024-08-30 14:03:28,717 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,717 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,724 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,724 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,724 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,725 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:03:28,725 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:03:28,725 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:03:28,732 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,732 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,732 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,732 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,733 [DEBUG] CSVParser: Last date in file: not_existing_skin.csv for 
+2024-08-30 14:03:28,733 [DEBUG] CSVParser: Last date in file: not_existing_skin.csv for 
+2024-08-30 14:03:28,733 [DEBUG] CSVParser: Last date in file: not_existing_skin.csv for 
+2024-08-30 14:03:28,733 [DEBUG] CSVParser: Last date in file: not_existing_skin.csv for 
+2024-08-30 14:03:28,742 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,742 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,742 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,742 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,742 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,750 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,750 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,750 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,750 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,750 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,750 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:03:28,760 [DEBUG] CSVParser: Last date in file: not_existing_item.csv for 
+2024-08-30 14:03:28,760 [DEBUG] CSVParser: Last date in file: not_existing_item.csv for 
+2024-08-30 14:03:28,760 [DEBUG] CSVParser: Last date in file: not_existing_item.csv for 
+2024-08-30 14:03:28,760 [DEBUG] CSVParser: Last date in file: not_existing_item.csv for 
+2024-08-30 14:03:28,760 [DEBUG] CSVParser: Last date in file: not_existing_item.csv for 
+2024-08-30 14:03:28,760 [DEBUG] CSVParser: Last date in file: not_existing_item.csv for 
+2024-08-30 14:03:28,760 [DEBUG] CSVParser: Last date in file: not_existing_item.csv for 
+2024-08-30 14:03:28,761 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:03:28,761 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:03:28,761 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:03:28,761 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:03:28,761 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:03:28,761 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:03:28,761 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:04:25,725 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,726 [DEBUG] CSVParser: Loading history data from not_existing_bit.csv
+2024-08-30 14:04:25,732 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,732 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,736 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,736 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,736 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,742 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:04:25,742 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:04:25,742 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:04:25,748 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,748 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,748 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,748 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,748 [DEBUG] CSVParser: Last date in file: not_existing_investment.csv for 
+2024-08-30 14:04:25,748 [DEBUG] CSVParser: Last date in file: not_existing_investment.csv for 
+2024-08-30 14:04:25,748 [DEBUG] CSVParser: Last date in file: not_existing_investment.csv for 
+2024-08-30 14:04:25,748 [DEBUG] CSVParser: Last date in file: not_existing_investment.csv for 
+2024-08-30 14:04:25,754 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,754 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,754 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,754 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,754 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:04:25,766 [DEBUG] CSVParser: Last date in file: not_existing_plan.csv for 
+2024-08-30 14:04:25,766 [DEBUG] CSVParser: Last date in file: not_existing_plan.csv for 
+2024-08-30 14:04:25,766 [DEBUG] CSVParser: Last date in file: not_existing_plan.csv for 
+2024-08-30 14:04:25,766 [DEBUG] CSVParser: Last date in file: not_existing_plan.csv for 
+2024-08-30 14:04:25,766 [DEBUG] CSVParser: Last date in file: not_existing_plan.csv for 
+2024-08-30 14:04:25,766 [DEBUG] CSVParser: Last date in file: not_existing_plan.csv for 
+2024-08-30 14:04:25,766 [DEBUG] CSVParser: Last date in file: not_existing_plan.csv for 
+2024-08-30 14:04:25,767 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:04:25,767 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:04:25,767 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:04:25,767 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:04:25,767 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:04:25,767 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:04:25,767 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:06:53,929 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,930 [DEBUG] CSVParser: Loading history data from not_existing_example.csv
+2024-08-30 14:06:53,937 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,937 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,955 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,955 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,955 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,957 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:06:53,957 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:06:53,957 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:06:53,966 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,966 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,966 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,966 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,967 [DEBUG] CSVParser: Last date in file: not_existing_land.csv for 
+2024-08-30 14:06:53,967 [DEBUG] CSVParser: Last date in file: not_existing_land.csv for 
+2024-08-30 14:06:53,967 [DEBUG] CSVParser: Last date in file: not_existing_land.csv for 
+2024-08-30 14:06:53,967 [DEBUG] CSVParser: Last date in file: not_existing_land.csv for 
+2024-08-30 14:06:53,972 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,972 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,972 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,972 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,972 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,984 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,984 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,984 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,984 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,984 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,984 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,984 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:06:53,985 [DEBUG] CSVParser: Last date in file: not_existing_foot.csv for 
+2024-08-30 14:06:53,985 [DEBUG] CSVParser: Last date in file: not_existing_foot.csv for 
+2024-08-30 14:06:53,985 [DEBUG] CSVParser: Last date in file: not_existing_foot.csv for 
+2024-08-30 14:06:53,985 [DEBUG] CSVParser: Last date in file: not_existing_foot.csv for 
+2024-08-30 14:06:53,985 [DEBUG] CSVParser: Last date in file: not_existing_foot.csv for 
+2024-08-30 14:06:53,985 [DEBUG] CSVParser: Last date in file: not_existing_foot.csv for 
+2024-08-30 14:06:53,985 [DEBUG] CSVParser: Last date in file: not_existing_foot.csv for 
+2024-08-30 14:06:53,986 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:06:53,986 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:06:53,986 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:06:53,986 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:06:53,986 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:06:53,986 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:06:53,986 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:18,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,812 [DEBUG] CSVParser: Loading history data from not_existing_media.csv
+2024-08-30 14:07:18,818 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,818 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,823 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,823 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,823 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,823 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:07:18,823 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:07:18,823 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:07:18,831 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,831 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,831 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,831 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,832 [DEBUG] CSVParser: Last date in file: not_existing_fight.csv for 
+2024-08-30 14:07:18,832 [DEBUG] CSVParser: Last date in file: not_existing_fight.csv for 
+2024-08-30 14:07:18,832 [DEBUG] CSVParser: Last date in file: not_existing_fight.csv for 
+2024-08-30 14:07:18,832 [DEBUG] CSVParser: Last date in file: not_existing_fight.csv for 
+2024-08-30 14:07:18,839 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,839 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,839 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,839 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,839 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,846 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,846 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,846 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,846 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,846 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,846 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:18,855 [DEBUG] CSVParser: Last date in file: not_existing_laugh.csv for 
+2024-08-30 14:07:18,855 [DEBUG] CSVParser: Last date in file: not_existing_laugh.csv for 
+2024-08-30 14:07:18,855 [DEBUG] CSVParser: Last date in file: not_existing_laugh.csv for 
+2024-08-30 14:07:18,855 [DEBUG] CSVParser: Last date in file: not_existing_laugh.csv for 
+2024-08-30 14:07:18,855 [DEBUG] CSVParser: Last date in file: not_existing_laugh.csv for 
+2024-08-30 14:07:18,855 [DEBUG] CSVParser: Last date in file: not_existing_laugh.csv for 
+2024-08-30 14:07:18,855 [DEBUG] CSVParser: Last date in file: not_existing_laugh.csv for 
+2024-08-30 14:07:18,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:18,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:18,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:18,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:18,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:18,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:18,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:32,072 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,072 [DEBUG] CSVParser: Loading history data from not_existing_including.csv
+2024-08-30 14:07:32,078 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,078 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,083 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,083 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,083 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,083 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:07:32,083 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:07:32,083 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:07:32,090 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,090 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,090 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,090 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,091 [DEBUG] CSVParser: Last date in file: not_existing_for.csv for 
+2024-08-30 14:07:32,091 [DEBUG] CSVParser: Last date in file: not_existing_for.csv for 
+2024-08-30 14:07:32,091 [DEBUG] CSVParser: Last date in file: not_existing_for.csv for 
+2024-08-30 14:07:32,091 [DEBUG] CSVParser: Last date in file: not_existing_for.csv for 
+2024-08-30 14:07:32,096 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,096 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,096 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,096 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,096 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,103 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,103 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,103 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,103 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,103 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,103 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,111 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,111 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,111 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,111 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,111 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,111 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,111 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:07:32,112 [DEBUG] CSVParser: Last date in file: not_existing_relate.csv for 
+2024-08-30 14:07:32,112 [DEBUG] CSVParser: Last date in file: not_existing_relate.csv for 
+2024-08-30 14:07:32,112 [DEBUG] CSVParser: Last date in file: not_existing_relate.csv for 
+2024-08-30 14:07:32,112 [DEBUG] CSVParser: Last date in file: not_existing_relate.csv for 
+2024-08-30 14:07:32,112 [DEBUG] CSVParser: Last date in file: not_existing_relate.csv for 
+2024-08-30 14:07:32,112 [DEBUG] CSVParser: Last date in file: not_existing_relate.csv for 
+2024-08-30 14:07:32,112 [DEBUG] CSVParser: Last date in file: not_existing_relate.csv for 
+2024-08-30 14:07:32,117 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:32,117 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:32,117 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:32,117 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:32,117 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:32,117 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:07:32,117 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:15:09,447 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,448 [DEBUG] CSVParser: Loading history data from not_existing_itself.csv
+2024-08-30 14:15:09,455 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,455 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,462 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,462 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,462 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,463 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:15:09,463 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:15:09,463 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:15:09,471 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,471 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,471 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,471 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,472 [DEBUG] CSVParser: Last date in file: not_existing_lead.csv for 
+2024-08-30 14:15:09,472 [DEBUG] CSVParser: Last date in file: not_existing_lead.csv for 
+2024-08-30 14:15:09,472 [DEBUG] CSVParser: Last date in file: not_existing_lead.csv for 
+2024-08-30 14:15:09,472 [DEBUG] CSVParser: Last date in file: not_existing_lead.csv for 
+2024-08-30 14:15:09,479 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,479 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,479 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,479 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,479 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,487 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,487 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,487 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,487 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,487 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,487 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,495 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,495 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,495 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,495 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,495 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,495 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,495 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:15:09,496 [DEBUG] CSVParser: Last date in file: not_existing_wear.csv for 
+2024-08-30 14:15:09,496 [DEBUG] CSVParser: Last date in file: not_existing_wear.csv for 
+2024-08-30 14:15:09,496 [DEBUG] CSVParser: Last date in file: not_existing_wear.csv for 
+2024-08-30 14:15:09,496 [DEBUG] CSVParser: Last date in file: not_existing_wear.csv for 
+2024-08-30 14:15:09,496 [DEBUG] CSVParser: Last date in file: not_existing_wear.csv for 
+2024-08-30 14:15:09,496 [DEBUG] CSVParser: Last date in file: not_existing_wear.csv for 
+2024-08-30 14:15:09,496 [DEBUG] CSVParser: Last date in file: not_existing_wear.csv for 
+2024-08-30 14:15:09,498 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:15:09,498 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:15:09,498 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:15:09,498 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:15:09,498 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:15:09,498 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:15:09,498 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:24:45,763 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,764 [DEBUG] CSVParser: Loading history data from actual_history_state_chart.png
+2024-08-30 14:24:45,936 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,936 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,937 [DEBUG] CSVParser: Loading history data from not_existing_stock.csv
+2024-08-30 14:24:45,937 [DEBUG] CSVParser: Loading history data from not_existing_stock.csv
+2024-08-30 14:24:45,943 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,943 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,943 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,950 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,950 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,950 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,950 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,950 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:24:45,950 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:24:45,950 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:24:45,950 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:24:45,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,963 [DEBUG] CSVParser: Last date in file: not_existing_body.csv for 
+2024-08-30 14:24:45,963 [DEBUG] CSVParser: Last date in file: not_existing_body.csv for 
+2024-08-30 14:24:45,963 [DEBUG] CSVParser: Last date in file: not_existing_body.csv for 
+2024-08-30 14:24:45,963 [DEBUG] CSVParser: Last date in file: not_existing_body.csv for 
+2024-08-30 14:24:45,963 [DEBUG] CSVParser: Last date in file: not_existing_body.csv for 
+2024-08-30 14:24:45,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,981 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,981 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,981 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,981 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,981 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,981 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,981 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,989 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,989 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,989 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,989 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,989 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,989 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,989 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,989 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:24:45,990 [DEBUG] CSVParser: Last date in file: not_existing_technology.csv for 
+2024-08-30 14:24:45,990 [DEBUG] CSVParser: Last date in file: not_existing_technology.csv for 
+2024-08-30 14:24:45,990 [DEBUG] CSVParser: Last date in file: not_existing_technology.csv for 
+2024-08-30 14:24:45,990 [DEBUG] CSVParser: Last date in file: not_existing_technology.csv for 
+2024-08-30 14:24:45,990 [DEBUG] CSVParser: Last date in file: not_existing_technology.csv for 
+2024-08-30 14:24:45,990 [DEBUG] CSVParser: Last date in file: not_existing_technology.csv for 
+2024-08-30 14:24:45,990 [DEBUG] CSVParser: Last date in file: not_existing_technology.csv for 
+2024-08-30 14:24:45,990 [DEBUG] CSVParser: Last date in file: not_existing_technology.csv for 
+2024-08-30 14:24:45,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:24:45,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:24:45,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:24:45,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:24:45,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:24:45,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:24:45,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:24:45,992 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:27:30,552 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,552 [DEBUG] CSVParser: Loading history data from actual_history_state_chart.png
+2024-08-30 14:27:30,745 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,749 [DEBUG] CSVParser: Loading history data from not_existing_degree.csv
+2024-08-30 14:27:30,763 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,763 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,782 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,782 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,782 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,788 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:27:30,788 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:27:30,788 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:27:30,817 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,817 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,817 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,817 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,818 [DEBUG] CSVParser: Last date in file: not_existing_military.csv for 
+2024-08-30 14:27:30,818 [DEBUG] CSVParser: Last date in file: not_existing_military.csv for 
+2024-08-30 14:27:30,818 [DEBUG] CSVParser: Last date in file: not_existing_military.csv for 
+2024-08-30 14:27:30,818 [DEBUG] CSVParser: Last date in file: not_existing_military.csv for 
+2024-08-30 14:27:30,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,833 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,844 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,844 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,844 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,844 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,844 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,844 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,854 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:27:30,855 [DEBUG] CSVParser: Last date in file: not_existing_day.csv for 
+2024-08-30 14:27:30,855 [DEBUG] CSVParser: Last date in file: not_existing_day.csv for 
+2024-08-30 14:27:30,855 [DEBUG] CSVParser: Last date in file: not_existing_day.csv for 
+2024-08-30 14:27:30,855 [DEBUG] CSVParser: Last date in file: not_existing_day.csv for 
+2024-08-30 14:27:30,855 [DEBUG] CSVParser: Last date in file: not_existing_day.csv for 
+2024-08-30 14:27:30,855 [DEBUG] CSVParser: Last date in file: not_existing_day.csv for 
+2024-08-30 14:27:30,855 [DEBUG] CSVParser: Last date in file: not_existing_day.csv for 
+2024-08-30 14:27:30,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:27:30,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:27:30,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:27:30,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:27:30,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:27:30,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:27:30,857 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:36:54,689 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,691 [DEBUG] CSVParser: Loading history data from not_existing_action.csv
+2024-08-30 14:36:54,698 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,698 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,707 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:36:54,707 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:36:54,707 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:36:54,716 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,716 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,716 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,716 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,717 [DEBUG] CSVParser: Last date in file: not_existing_church.csv for 
+2024-08-30 14:36:54,717 [DEBUG] CSVParser: Last date in file: not_existing_church.csv for 
+2024-08-30 14:36:54,717 [DEBUG] CSVParser: Last date in file: not_existing_church.csv for 
+2024-08-30 14:36:54,717 [DEBUG] CSVParser: Last date in file: not_existing_church.csv for 
+2024-08-30 14:36:54,723 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,723 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,723 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,723 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,723 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,735 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,735 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,735 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,735 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,735 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,735 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,743 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,743 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,743 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,743 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,743 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,743 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,743 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:36:54,744 [DEBUG] CSVParser: Last date in file: not_existing_current.csv for 
+2024-08-30 14:36:54,744 [DEBUG] CSVParser: Last date in file: not_existing_current.csv for 
+2024-08-30 14:36:54,744 [DEBUG] CSVParser: Last date in file: not_existing_current.csv for 
+2024-08-30 14:36:54,744 [DEBUG] CSVParser: Last date in file: not_existing_current.csv for 
+2024-08-30 14:36:54,744 [DEBUG] CSVParser: Last date in file: not_existing_current.csv for 
+2024-08-30 14:36:54,744 [DEBUG] CSVParser: Last date in file: not_existing_current.csv for 
+2024-08-30 14:36:54,744 [DEBUG] CSVParser: Last date in file: not_existing_current.csv for 
+2024-08-30 14:36:54,745 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:36:54,745 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:36:54,745 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:36:54,745 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:36:54,745 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:36:54,745 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:36:54,745 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:39:39,803 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,804 [DEBUG] CSVParser: Loading history data from current_automation_Kevin_Reed.csv
+2024-08-30 14:39:39,941 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,941 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,942 [DEBUG] CSVParser: Loading history data from not_existing_send.csv
+2024-08-30 14:39:39,942 [DEBUG] CSVParser: Loading history data from not_existing_send.csv
+2024-08-30 14:39:39,948 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,948 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,948 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,953 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,953 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,953 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,953 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,954 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:39:39,954 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:39:39,954 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:39:39,954 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:39:39,960 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,960 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,960 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,960 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,960 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,961 [DEBUG] CSVParser: Last date in file: not_existing_receive.csv for 
+2024-08-30 14:39:39,961 [DEBUG] CSVParser: Last date in file: not_existing_receive.csv for 
+2024-08-30 14:39:39,961 [DEBUG] CSVParser: Last date in file: not_existing_receive.csv for 
+2024-08-30 14:39:39,961 [DEBUG] CSVParser: Last date in file: not_existing_receive.csv for 
+2024-08-30 14:39:39,961 [DEBUG] CSVParser: Last date in file: not_existing_receive.csv for 
+2024-08-30 14:39:39,967 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,967 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,967 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,967 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,967 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,967 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,978 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:39:39,979 [DEBUG] CSVParser: Last date in file: not_existing_five.csv for 
+2024-08-30 14:39:39,979 [DEBUG] CSVParser: Last date in file: not_existing_five.csv for 
+2024-08-30 14:39:39,979 [DEBUG] CSVParser: Last date in file: not_existing_five.csv for 
+2024-08-30 14:39:39,979 [DEBUG] CSVParser: Last date in file: not_existing_five.csv for 
+2024-08-30 14:39:39,979 [DEBUG] CSVParser: Last date in file: not_existing_five.csv for 
+2024-08-30 14:39:39,979 [DEBUG] CSVParser: Last date in file: not_existing_five.csv for 
+2024-08-30 14:39:39,979 [DEBUG] CSVParser: Last date in file: not_existing_five.csv for 
+2024-08-30 14:39:39,979 [DEBUG] CSVParser: Last date in file: not_existing_five.csv for 
+2024-08-30 14:39:39,981 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:39:39,981 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:39:39,981 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:39:39,981 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:39:39,981 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:39:39,981 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:39:39,981 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:39:39,981 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:42:24,059 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,060 [DEBUG] CSVParser: Loading history data from current_automation_Joseph_Mcclure.csv
+2024-08-30 14:42:24,223 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,223 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,225 [DEBUG] CSVParser: Loading history data from not_existing_significant.csv
+2024-08-30 14:42:24,225 [DEBUG] CSVParser: Loading history data from not_existing_significant.csv
+2024-08-30 14:42:24,231 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,231 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,231 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,237 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,237 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,237 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,237 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,237 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:42:24,237 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:42:24,237 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:42:24,237 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:42:24,245 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,245 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,245 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,245 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,245 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,246 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 14:42:24,246 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 14:42:24,246 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 14:42:24,246 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 14:42:24,246 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 14:42:24,252 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,252 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,252 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,252 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,252 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,252 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,257 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,257 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,257 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,257 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,257 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,257 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,257 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,263 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:42:24,264 [DEBUG] CSVParser: Last date in file: not_existing_civil.csv for 
+2024-08-30 14:42:24,264 [DEBUG] CSVParser: Last date in file: not_existing_civil.csv for 
+2024-08-30 14:42:24,264 [DEBUG] CSVParser: Last date in file: not_existing_civil.csv for 
+2024-08-30 14:42:24,264 [DEBUG] CSVParser: Last date in file: not_existing_civil.csv for 
+2024-08-30 14:42:24,264 [DEBUG] CSVParser: Last date in file: not_existing_civil.csv for 
+2024-08-30 14:42:24,264 [DEBUG] CSVParser: Last date in file: not_existing_civil.csv for 
+2024-08-30 14:42:24,264 [DEBUG] CSVParser: Last date in file: not_existing_civil.csv for 
+2024-08-30 14:42:24,264 [DEBUG] CSVParser: Last date in file: not_existing_civil.csv for 
+2024-08-30 14:42:24,266 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:42:24,266 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:42:24,266 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:42:24,266 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:42:24,266 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:42:24,266 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:42:24,266 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:42:24,266 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:43:54,070 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,071 [DEBUG] CSVParser: Loading history data from current_automation_Joshua_Ortiz.csv
+2024-08-30 14:43:54,235 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,235 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,236 [DEBUG] CSVParser: Loading history data from not_existing_available.csv
+2024-08-30 14:43:54,236 [DEBUG] CSVParser: Loading history data from not_existing_available.csv
+2024-08-30 14:43:54,242 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,242 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,242 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,247 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,247 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,247 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,247 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,247 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:43:54,247 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:43:54,247 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:43:54,247 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:43:54,253 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,253 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,253 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,253 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,253 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,254 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:43:54,254 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:43:54,254 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:43:54,254 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:43:54,254 [DEBUG] CSVParser: Last date in file: not_existing_perform.csv for 
+2024-08-30 14:43:54,259 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,259 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,259 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,259 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,259 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,259 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,264 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,264 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,264 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,264 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,264 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,264 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,264 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,269 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:43:54,270 [DEBUG] CSVParser: Last date in file: not_existing_reach.csv for 
+2024-08-30 14:43:54,270 [DEBUG] CSVParser: Last date in file: not_existing_reach.csv for 
+2024-08-30 14:43:54,270 [DEBUG] CSVParser: Last date in file: not_existing_reach.csv for 
+2024-08-30 14:43:54,270 [DEBUG] CSVParser: Last date in file: not_existing_reach.csv for 
+2024-08-30 14:43:54,270 [DEBUG] CSVParser: Last date in file: not_existing_reach.csv for 
+2024-08-30 14:43:54,270 [DEBUG] CSVParser: Last date in file: not_existing_reach.csv for 
+2024-08-30 14:43:54,270 [DEBUG] CSVParser: Last date in file: not_existing_reach.csv for 
+2024-08-30 14:43:54,270 [DEBUG] CSVParser: Last date in file: not_existing_reach.csv for 
+2024-08-30 14:43:54,271 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:43:54,271 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:43:54,271 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:43:54,271 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:43:54,271 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:43:54,271 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:43:54,271 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:43:54,271 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:46:18,946 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:18,947 [DEBUG] CSVParser: Loading history data from current_automation_Brian_Webb.csv
+2024-08-30 14:46:19,082 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,082 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,083 [DEBUG] CSVParser: Loading history data from not_existing_past.csv
+2024-08-30 14:46:19,083 [DEBUG] CSVParser: Loading history data from not_existing_past.csv
+2024-08-30 14:46:19,089 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,089 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,089 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,094 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,094 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,094 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,094 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,094 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:46:19,094 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:46:19,094 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:46:19,094 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Last date in file: not_existing_if.csv for 
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Last date in file: not_existing_if.csv for 
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Last date in file: not_existing_if.csv for 
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Last date in file: not_existing_if.csv for 
+2024-08-30 14:46:19,107 [DEBUG] CSVParser: Last date in file: not_existing_if.csv for 
+2024-08-30 14:46:19,114 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,114 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,114 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,114 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,114 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,114 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,119 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,119 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,119 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,119 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,119 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,119 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,119 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,127 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,127 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,127 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,127 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,127 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,127 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,127 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,127 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:46:19,129 [DEBUG] CSVParser: Last date in file: not_existing_herself.csv for 
+2024-08-30 14:46:19,129 [DEBUG] CSVParser: Last date in file: not_existing_herself.csv for 
+2024-08-30 14:46:19,129 [DEBUG] CSVParser: Last date in file: not_existing_herself.csv for 
+2024-08-30 14:46:19,129 [DEBUG] CSVParser: Last date in file: not_existing_herself.csv for 
+2024-08-30 14:46:19,129 [DEBUG] CSVParser: Last date in file: not_existing_herself.csv for 
+2024-08-30 14:46:19,129 [DEBUG] CSVParser: Last date in file: not_existing_herself.csv for 
+2024-08-30 14:46:19,129 [DEBUG] CSVParser: Last date in file: not_existing_herself.csv for 
+2024-08-30 14:46:19,129 [DEBUG] CSVParser: Last date in file: not_existing_herself.csv for 
+2024-08-30 14:46:19,130 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:46:19,130 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:46:19,130 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:46:19,130 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:46:19,130 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:46:19,130 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:46:19,130 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:46:19,130 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:47:13,858 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:13,859 [DEBUG] CSVParser: Loading history data from current_automation_Mark_Rhodes.csv
+2024-08-30 14:47:13,997 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:13,997 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:13,998 [DEBUG] CSVParser: Loading history data from not_existing_song.csv
+2024-08-30 14:47:13,998 [DEBUG] CSVParser: Loading history data from not_existing_song.csv
+2024-08-30 14:47:14,004 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,004 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,004 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,009 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,009 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,009 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,009 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,009 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:47:14,009 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:47:14,009 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:47:14,009 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:47:14,017 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,017 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,017 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,017 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,017 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,018 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 14:47:14,018 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 14:47:14,018 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 14:47:14,018 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 14:47:14,018 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 14:47:14,026 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,026 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,026 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,026 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,026 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,026 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,032 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,032 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,032 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,032 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,032 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,032 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,032 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,037 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,037 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,037 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,037 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,037 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,037 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,037 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,037 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:47:14,038 [DEBUG] CSVParser: Last date in file: not_existing_require.csv for 
+2024-08-30 14:47:14,038 [DEBUG] CSVParser: Last date in file: not_existing_require.csv for 
+2024-08-30 14:47:14,038 [DEBUG] CSVParser: Last date in file: not_existing_require.csv for 
+2024-08-30 14:47:14,038 [DEBUG] CSVParser: Last date in file: not_existing_require.csv for 
+2024-08-30 14:47:14,038 [DEBUG] CSVParser: Last date in file: not_existing_require.csv for 
+2024-08-30 14:47:14,038 [DEBUG] CSVParser: Last date in file: not_existing_require.csv for 
+2024-08-30 14:47:14,038 [DEBUG] CSVParser: Last date in file: not_existing_require.csv for 
+2024-08-30 14:47:14,038 [DEBUG] CSVParser: Last date in file: not_existing_require.csv for 
+2024-08-30 14:47:14,039 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:47:14,039 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:47:14,039 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:47:14,039 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:47:14,039 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:47:14,039 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:47:14,039 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:47:14,039 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:49:33,947 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:33,947 [DEBUG] CSVParser: Loading history data from current_automation_Glenn_Higgins_DVM.csv
+2024-08-30 14:49:34,087 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,087 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,089 [DEBUG] CSVParser: Loading history data from not_existing_agree.csv
+2024-08-30 14:49:34,089 [DEBUG] CSVParser: Loading history data from not_existing_agree.csv
+2024-08-30 14:49:34,096 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,096 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,096 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,102 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,102 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,102 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,102 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,102 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:49:34,102 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:49:34,102 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:49:34,102 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Last date in file: not_existing_region.csv for 
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Last date in file: not_existing_region.csv for 
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Last date in file: not_existing_region.csv for 
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Last date in file: not_existing_region.csv for 
+2024-08-30 14:49:34,122 [DEBUG] CSVParser: Last date in file: not_existing_region.csv for 
+2024-08-30 14:49:34,132 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,132 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,132 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,132 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,132 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,132 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,140 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,152 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,152 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,152 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,152 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,152 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,152 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,152 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,152 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:49:34,153 [DEBUG] CSVParser: Last date in file: not_existing_couple.csv for 
+2024-08-30 14:49:34,153 [DEBUG] CSVParser: Last date in file: not_existing_couple.csv for 
+2024-08-30 14:49:34,153 [DEBUG] CSVParser: Last date in file: not_existing_couple.csv for 
+2024-08-30 14:49:34,153 [DEBUG] CSVParser: Last date in file: not_existing_couple.csv for 
+2024-08-30 14:49:34,153 [DEBUG] CSVParser: Last date in file: not_existing_couple.csv for 
+2024-08-30 14:49:34,153 [DEBUG] CSVParser: Last date in file: not_existing_couple.csv for 
+2024-08-30 14:49:34,153 [DEBUG] CSVParser: Last date in file: not_existing_couple.csv for 
+2024-08-30 14:49:34,153 [DEBUG] CSVParser: Last date in file: not_existing_couple.csv for 
+2024-08-30 14:49:34,155 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:49:34,155 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:49:34,155 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:49:34,155 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:49:34,155 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:49:34,155 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:49:34,155 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:49:34,155 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:50:49,613 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,613 [DEBUG] CSVParser: Loading history data from current_automation_Eric_Coleman.csv
+2024-08-30 14:50:49,752 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,753 [DEBUG] CSVParser: Loading history data from not_existing_discover.csv
+2024-08-30 14:50:49,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,759 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,764 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,764 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,764 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,765 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:50:49,765 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:50:49,765 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 14:50:49,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,771 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,772 [DEBUG] CSVParser: Last date in file: not_existing_kind.csv for 
+2024-08-30 14:50:49,772 [DEBUG] CSVParser: Last date in file: not_existing_kind.csv for 
+2024-08-30 14:50:49,772 [DEBUG] CSVParser: Last date in file: not_existing_kind.csv for 
+2024-08-30 14:50:49,772 [DEBUG] CSVParser: Last date in file: not_existing_kind.csv for 
+2024-08-30 14:50:49,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,791 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 14:50:49,792 [DEBUG] CSVParser: Last date in file: not_existing_listen.csv for 
+2024-08-30 14:50:49,792 [DEBUG] CSVParser: Last date in file: not_existing_listen.csv for 
+2024-08-30 14:50:49,792 [DEBUG] CSVParser: Last date in file: not_existing_listen.csv for 
+2024-08-30 14:50:49,792 [DEBUG] CSVParser: Last date in file: not_existing_listen.csv for 
+2024-08-30 14:50:49,792 [DEBUG] CSVParser: Last date in file: not_existing_listen.csv for 
+2024-08-30 14:50:49,792 [DEBUG] CSVParser: Last date in file: not_existing_listen.csv for 
+2024-08-30 14:50:49,792 [DEBUG] CSVParser: Last date in file: not_existing_listen.csv for 
+2024-08-30 14:50:49,797 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:50:49,797 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:50:49,797 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:50:49,797 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:50:49,797 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:50:49,797 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 14:50:49,797 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:01,516 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,517 [DEBUG] CSVParser: Loading history data from current_automation_Ms._Veronica_Martin.csv
+2024-08-30 15:42:01,671 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,672 [DEBUG] CSVParser: Loading history data from not_existing_hospital.csv
+2024-08-30 15:42:01,677 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,677 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,682 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,682 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,682 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,683 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:42:01,683 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:42:01,683 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:42:01,690 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,690 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,690 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,690 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,691 [DEBUG] CSVParser: Last date in file: not_existing_ago.csv for 
+2024-08-30 15:42:01,691 [DEBUG] CSVParser: Last date in file: not_existing_ago.csv for 
+2024-08-30 15:42:01,691 [DEBUG] CSVParser: Last date in file: not_existing_ago.csv for 
+2024-08-30 15:42:01,691 [DEBUG] CSVParser: Last date in file: not_existing_ago.csv for 
+2024-08-30 15:42:01,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,709 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,709 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,709 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,709 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,709 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,709 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,715 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,715 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,715 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,715 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,715 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,715 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,715 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:01,716 [DEBUG] CSVParser: Last date in file: not_existing_trial.csv for 
+2024-08-30 15:42:01,716 [DEBUG] CSVParser: Last date in file: not_existing_trial.csv for 
+2024-08-30 15:42:01,716 [DEBUG] CSVParser: Last date in file: not_existing_trial.csv for 
+2024-08-30 15:42:01,716 [DEBUG] CSVParser: Last date in file: not_existing_trial.csv for 
+2024-08-30 15:42:01,716 [DEBUG] CSVParser: Last date in file: not_existing_trial.csv for 
+2024-08-30 15:42:01,716 [DEBUG] CSVParser: Last date in file: not_existing_trial.csv for 
+2024-08-30 15:42:01,716 [DEBUG] CSVParser: Last date in file: not_existing_trial.csv for 
+2024-08-30 15:42:01,717 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:01,717 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:01,717 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:01,717 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:01,717 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:01,717 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:01,717 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:21,696 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,696 [DEBUG] CSVParser: Loading history data from current_automation_Anthony_Irwin.csv
+2024-08-30 15:42:21,829 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,830 [DEBUG] CSVParser: Loading history data from not_existing_concern.csv
+2024-08-30 15:42:21,872 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,872 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,878 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,878 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,878 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,879 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:42:21,879 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:42:21,879 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:42:21,886 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,886 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,886 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,886 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,886 [DEBUG] CSVParser: Last date in file: not_existing_interest.csv for 
+2024-08-30 15:42:21,886 [DEBUG] CSVParser: Last date in file: not_existing_interest.csv for 
+2024-08-30 15:42:21,886 [DEBUG] CSVParser: Last date in file: not_existing_interest.csv for 
+2024-08-30 15:42:21,886 [DEBUG] CSVParser: Last date in file: not_existing_interest.csv for 
+2024-08-30 15:42:21,892 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,892 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,892 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,892 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,892 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,900 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,900 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,900 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,900 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,900 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,900 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,907 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,907 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,907 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,907 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,907 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,907 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,907 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:42:21,908 [DEBUG] CSVParser: Last date in file: not_existing_drive.csv for 
+2024-08-30 15:42:21,908 [DEBUG] CSVParser: Last date in file: not_existing_drive.csv for 
+2024-08-30 15:42:21,908 [DEBUG] CSVParser: Last date in file: not_existing_drive.csv for 
+2024-08-30 15:42:21,908 [DEBUG] CSVParser: Last date in file: not_existing_drive.csv for 
+2024-08-30 15:42:21,908 [DEBUG] CSVParser: Last date in file: not_existing_drive.csv for 
+2024-08-30 15:42:21,908 [DEBUG] CSVParser: Last date in file: not_existing_drive.csv for 
+2024-08-30 15:42:21,908 [DEBUG] CSVParser: Last date in file: not_existing_drive.csv for 
+2024-08-30 15:42:21,909 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:21,909 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:21,909 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:21,909 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:21,909 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:21,909 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:42:21,909 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:44:29,568 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,568 [DEBUG] CSVParser: Loading history data from current_automation_Benjamin_Parker.csv
+2024-08-30 15:44:29,678 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,678 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,679 [DEBUG] CSVParser: Loading history data from not_existing_former.csv
+2024-08-30 15:44:29,679 [DEBUG] CSVParser: Loading history data from not_existing_former.csv
+2024-08-30 15:44:29,683 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,683 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,683 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,688 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:44:29,688 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:44:29,688 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:44:29,688 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 15:44:29,695 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,695 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,695 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,695 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,695 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,696 [DEBUG] CSVParser: Last date in file: not_existing_product.csv for 
+2024-08-30 15:44:29,696 [DEBUG] CSVParser: Last date in file: not_existing_product.csv for 
+2024-08-30 15:44:29,696 [DEBUG] CSVParser: Last date in file: not_existing_product.csv for 
+2024-08-30 15:44:29,696 [DEBUG] CSVParser: Last date in file: not_existing_product.csv for 
+2024-08-30 15:44:29,696 [DEBUG] CSVParser: Last date in file: not_existing_product.csv for 
+2024-08-30 15:44:29,701 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,701 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,701 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,701 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,701 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,701 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,706 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,712 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,712 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,712 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,712 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,712 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,712 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,712 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,712 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 15:44:29,713 [DEBUG] CSVParser: Last date in file: not_existing_experience.csv for 
+2024-08-30 15:44:29,713 [DEBUG] CSVParser: Last date in file: not_existing_experience.csv for 
+2024-08-30 15:44:29,713 [DEBUG] CSVParser: Last date in file: not_existing_experience.csv for 
+2024-08-30 15:44:29,713 [DEBUG] CSVParser: Last date in file: not_existing_experience.csv for 
+2024-08-30 15:44:29,713 [DEBUG] CSVParser: Last date in file: not_existing_experience.csv for 
+2024-08-30 15:44:29,713 [DEBUG] CSVParser: Last date in file: not_existing_experience.csv for 
+2024-08-30 15:44:29,713 [DEBUG] CSVParser: Last date in file: not_existing_experience.csv for 
+2024-08-30 15:44:29,713 [DEBUG] CSVParser: Last date in file: not_existing_experience.csv for 
+2024-08-30 15:44:29,714 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:44:29,714 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:44:29,714 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:44:29,714 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:44:29,714 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:44:29,714 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:44:29,714 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 15:44:29,714 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:05:26,864 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,865 [DEBUG] CSVParser: Loading history data from current_automation_Steven_Rowland_DVM.csv
+2024-08-30 16:05:26,954 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,954 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,955 [DEBUG] CSVParser: Loading history data from not_existing_rather.csv
+2024-08-30 16:05:26,955 [DEBUG] CSVParser: Loading history data from not_existing_rather.csv
+2024-08-30 16:05:26,958 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,958 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,958 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,962 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,962 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:05:26,962 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:05:26,962 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:05:26,962 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Last date in file: not_existing_leave.csv for 
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Last date in file: not_existing_leave.csv for 
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Last date in file: not_existing_leave.csv for 
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Last date in file: not_existing_leave.csv for 
+2024-08-30 16:05:26,968 [DEBUG] CSVParser: Last date in file: not_existing_leave.csv for 
+2024-08-30 16:05:26,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,973 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,977 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,982 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,982 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,982 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,982 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,982 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,982 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,982 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,982 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:05:26,983 [DEBUG] CSVParser: Last date in file: not_existing_realize.csv for 
+2024-08-30 16:05:26,983 [DEBUG] CSVParser: Last date in file: not_existing_realize.csv for 
+2024-08-30 16:05:26,983 [DEBUG] CSVParser: Last date in file: not_existing_realize.csv for 
+2024-08-30 16:05:26,983 [DEBUG] CSVParser: Last date in file: not_existing_realize.csv for 
+2024-08-30 16:05:26,983 [DEBUG] CSVParser: Last date in file: not_existing_realize.csv for 
+2024-08-30 16:05:26,983 [DEBUG] CSVParser: Last date in file: not_existing_realize.csv for 
+2024-08-30 16:05:26,983 [DEBUG] CSVParser: Last date in file: not_existing_realize.csv for 
+2024-08-30 16:05:26,983 [DEBUG] CSVParser: Last date in file: not_existing_realize.csv for 
+2024-08-30 16:05:26,984 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:05:26,984 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:05:26,984 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:05:26,984 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:05:26,984 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:05:26,984 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:05:26,984 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:05:26,984 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:14:29,581 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,582 [DEBUG] CSVParser: Loading history data from current_automation_Russell_Jenkins.csv
+2024-08-30 16:14:29,679 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,679 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,680 [DEBUG] CSVParser: Loading history data from not_existing_growth.csv
+2024-08-30 16:14:29,680 [DEBUG] CSVParser: Loading history data from not_existing_growth.csv
+2024-08-30 16:14:29,684 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,684 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,684 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,688 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,689 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:14:29,689 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:14:29,689 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:14:29,689 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:14:29,694 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,694 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,694 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,694 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,694 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,695 [DEBUG] CSVParser: Last date in file: not_existing_enough.csv for 
+2024-08-30 16:14:29,695 [DEBUG] CSVParser: Last date in file: not_existing_enough.csv for 
+2024-08-30 16:14:29,695 [DEBUG] CSVParser: Last date in file: not_existing_enough.csv for 
+2024-08-30 16:14:29,695 [DEBUG] CSVParser: Last date in file: not_existing_enough.csv for 
+2024-08-30 16:14:29,695 [DEBUG] CSVParser: Last date in file: not_existing_enough.csv for 
+2024-08-30 16:14:29,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,700 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,705 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,705 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,705 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,705 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,705 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,705 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,705 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,711 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,711 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,711 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,711 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,711 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,711 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,711 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,711 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:14:29,712 [DEBUG] CSVParser: Last date in file: not_existing_off.csv for 
+2024-08-30 16:14:29,712 [DEBUG] CSVParser: Last date in file: not_existing_off.csv for 
+2024-08-30 16:14:29,712 [DEBUG] CSVParser: Last date in file: not_existing_off.csv for 
+2024-08-30 16:14:29,712 [DEBUG] CSVParser: Last date in file: not_existing_off.csv for 
+2024-08-30 16:14:29,712 [DEBUG] CSVParser: Last date in file: not_existing_off.csv for 
+2024-08-30 16:14:29,712 [DEBUG] CSVParser: Last date in file: not_existing_off.csv for 
+2024-08-30 16:14:29,712 [DEBUG] CSVParser: Last date in file: not_existing_off.csv for 
+2024-08-30 16:14:29,712 [DEBUG] CSVParser: Last date in file: not_existing_off.csv for 
+2024-08-30 16:14:29,713 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:14:29,713 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:14:29,713 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:14:29,713 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:14:29,713 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:14:29,713 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:14:29,713 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:14:29,713 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:16:08,525 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,526 [DEBUG] CSVParser: Loading history data from current_automation_Renee_Martin.csv
+2024-08-30 16:16:08,716 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,717 [DEBUG] CSVParser: Loading history data from not_existing_even.csv
+2024-08-30 16:16:08,742 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,742 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,764 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,764 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,764 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,764 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:16:08,764 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:16:08,764 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:16:08,787 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,787 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,787 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,787 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,788 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 16:16:08,788 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 16:16:08,788 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 16:16:08,788 [DEBUG] CSVParser: Last date in file: not_existing_call.csv for 
+2024-08-30 16:16:08,800 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,800 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,800 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,800 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,800 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,822 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,822 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,822 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,822 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,822 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,822 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,835 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,835 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,835 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,835 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,835 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,835 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,835 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:16:08,836 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 16:16:08,836 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 16:16:08,836 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 16:16:08,836 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 16:16:08,836 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 16:16:08,836 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 16:16:08,836 [DEBUG] CSVParser: Last date in file: not_existing_someone.csv for 
+2024-08-30 16:16:08,838 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:16:08,838 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:16:08,838 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:16:08,838 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:16:08,838 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:16:08,838 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:16:08,838 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:29,631 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,631 [DEBUG] CSVParser: Loading history data from current_automation_Thomas_Casey.csv
+2024-08-30 16:17:29,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,776 [DEBUG] CSVParser: Loading history data from not_existing_far.csv
+2024-08-30 16:17:29,776 [DEBUG] CSVParser: Loading history data from not_existing_far.csv
+2024-08-30 16:17:29,781 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,781 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,781 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,786 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:17:29,786 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:17:29,786 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:17:29,786 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:17:29,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,794 [DEBUG] CSVParser: Last date in file: not_existing_say.csv for 
+2024-08-30 16:17:29,794 [DEBUG] CSVParser: Last date in file: not_existing_say.csv for 
+2024-08-30 16:17:29,794 [DEBUG] CSVParser: Last date in file: not_existing_say.csv for 
+2024-08-30 16:17:29,794 [DEBUG] CSVParser: Last date in file: not_existing_say.csv for 
+2024-08-30 16:17:29,794 [DEBUG] CSVParser: Last date in file: not_existing_say.csv for 
+2024-08-30 16:17:29,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,799 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,804 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,804 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,804 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,804 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,804 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,804 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,804 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,811 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:29,812 [DEBUG] CSVParser: Last date in file: not_existing_question.csv for 
+2024-08-30 16:17:29,812 [DEBUG] CSVParser: Last date in file: not_existing_question.csv for 
+2024-08-30 16:17:29,812 [DEBUG] CSVParser: Last date in file: not_existing_question.csv for 
+2024-08-30 16:17:29,812 [DEBUG] CSVParser: Last date in file: not_existing_question.csv for 
+2024-08-30 16:17:29,812 [DEBUG] CSVParser: Last date in file: not_existing_question.csv for 
+2024-08-30 16:17:29,812 [DEBUG] CSVParser: Last date in file: not_existing_question.csv for 
+2024-08-30 16:17:29,812 [DEBUG] CSVParser: Last date in file: not_existing_question.csv for 
+2024-08-30 16:17:29,812 [DEBUG] CSVParser: Last date in file: not_existing_question.csv for 
+2024-08-30 16:17:29,813 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:29,813 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:29,813 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:29,813 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:29,813 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:29,813 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:29,813 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:29,813 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:55,637 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,638 [DEBUG] CSVParser: Loading history data from current_automation_Kristen_Wilson.csv
+2024-08-30 16:17:55,752 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,753 [DEBUG] CSVParser: Loading history data from not_existing_measure.csv
+2024-08-30 16:17:55,760 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,760 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,765 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,766 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:17:55,766 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:17:55,766 [DEBUG] CSVParser: Loading history data from non_existent_file.csv
+2024-08-30 16:17:55,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,772 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,774 [DEBUG] CSVParser: Last date in file: not_existing_relationship.csv for 
+2024-08-30 16:17:55,774 [DEBUG] CSVParser: Last date in file: not_existing_relationship.csv for 
+2024-08-30 16:17:55,774 [DEBUG] CSVParser: Last date in file: not_existing_relationship.csv for 
+2024-08-30 16:17:55,774 [DEBUG] CSVParser: Last date in file: not_existing_relationship.csv for 
+2024-08-30 16:17:55,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,780 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,786 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,793 [DEBUG] CSVParser: Initializing CSV Parser
+2024-08-30 16:17:55,794 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 16:17:55,794 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 16:17:55,794 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 16:17:55,794 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 16:17:55,794 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 16:17:55,794 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 16:17:55,794 [DEBUG] CSVParser: Last date in file: not_existing_morning.csv for 
+2024-08-30 16:17:55,795 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:55,795 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:55,795 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:55,795 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:55,795 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:55,795 [DEBUG] CSVParser: Data already stored for today, skipping save
+2024-08-30 16:17:55,795 [DEBUG] CSVParser: Data already stored for today, skipping save
