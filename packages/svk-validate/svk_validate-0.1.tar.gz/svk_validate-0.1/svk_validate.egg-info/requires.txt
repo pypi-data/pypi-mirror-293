@@ -1,0 +1,6 @@
+click
+saxonche
+lxml
+
+[test]
+pytest

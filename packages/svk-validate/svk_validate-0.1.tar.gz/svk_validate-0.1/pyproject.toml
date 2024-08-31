@@ -1,0 +1,28 @@
+[project]
+name = "svk-validate"
+version = "0.1"
+description = "A simple tool for validating XML-files against Church of Sweden's adaptation of ERMS."
+readme = "README.md"
+authors = [{name = "Svenska kyrkans arkiv i Uppsala"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click",
+    "saxonche",
+    "lxml"
+]
+
+[project.urls]
+Homepage = "https://github.com/svkau/svk-validate"
+Changelog = "https://github.com/svkau/svk-validate/releases"
+Issues = "https://github.com/svkau/svk-validate/issues"
+CI = "https://github.com/svkau/svk-validate/actions"
+
+[project.scripts]
+svk-validate = "svk_validate.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
