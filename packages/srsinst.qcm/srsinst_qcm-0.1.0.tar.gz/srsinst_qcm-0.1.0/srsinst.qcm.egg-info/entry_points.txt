@@ -1,0 +1,2 @@
+[console_scripts]
+qcm = srsinst.qcm.__main__:main
