@@ -1,0 +1,1 @@
+select n_live_tup from pg_stat_user_tables where relname = %s

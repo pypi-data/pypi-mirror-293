@@ -1,0 +1,1 @@
+alter session set nls_timestamp_tz_format='YYYY-MM-DD"T"HH24:MI:SSXFFTZH:TZM'

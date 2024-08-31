@@ -1,0 +1,1 @@
+select dbms_assert.sql_object_name(:tabname) from dual

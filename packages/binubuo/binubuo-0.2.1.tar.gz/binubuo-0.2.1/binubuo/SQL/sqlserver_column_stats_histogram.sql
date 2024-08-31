@@ -1,0 +1,1 @@
+DBCC SHOW_STATISTICS('{schema_name}.{table_name}', '{column_name}') with histogram;

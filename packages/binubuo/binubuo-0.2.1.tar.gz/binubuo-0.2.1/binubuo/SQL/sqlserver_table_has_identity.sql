@@ -1,0 +1,1 @@
+select OBJECTPROPERTY(OBJECT_ID(?), 'TableHasIdentity');

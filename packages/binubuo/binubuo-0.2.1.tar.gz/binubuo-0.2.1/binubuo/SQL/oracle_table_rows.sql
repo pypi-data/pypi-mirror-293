@@ -1,0 +1,1 @@
+select nvl(num_rows, 0) from user_tables where table_name = :tabname

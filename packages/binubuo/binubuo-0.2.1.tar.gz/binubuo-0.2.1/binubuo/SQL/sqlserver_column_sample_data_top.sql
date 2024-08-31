@@ -1,0 +1,1 @@
+select top 75 [{r_col_name}] from {r_schema_name}.{r_table_name} where [{r_col_name}] is not null

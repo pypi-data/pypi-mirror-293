@@ -1,0 +1,1 @@
+SELECT reltuples AS estimate FROM pg_class WHERE relname = %s;

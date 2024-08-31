@@ -1,0 +1,1 @@
+select json_agg({r_col_name} order by o_idr asc)  from (select cast(xmin::text as integer) as o_idr, {r_col_name} from {r_table_name}  tablesample system ({r_table_sample_size}) where {r_col_name} is not null order by cast(xmin::text as integer) asc limit 100) as ctid_ordr;
