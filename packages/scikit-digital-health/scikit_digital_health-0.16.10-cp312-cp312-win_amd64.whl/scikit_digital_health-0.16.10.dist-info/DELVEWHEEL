@@ -1,0 +1,2 @@
+Version: 1.8.1
+Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-l51g6wyt\\cp312-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-l51g6wyt\\cp312-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-l51g6wyt\\cp312-win_amd64\\built_wheel\\scikit_digital_health-0.16.10-cp312-cp312-win_amd64.whl']
