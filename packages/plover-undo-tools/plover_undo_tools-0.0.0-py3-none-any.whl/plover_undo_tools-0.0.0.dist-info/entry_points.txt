@@ -1,0 +1,4 @@
+[plover.command]
+clrtrans = index:clrtrans
+undo_with = index:undo_with
+undoable = index:undoable
