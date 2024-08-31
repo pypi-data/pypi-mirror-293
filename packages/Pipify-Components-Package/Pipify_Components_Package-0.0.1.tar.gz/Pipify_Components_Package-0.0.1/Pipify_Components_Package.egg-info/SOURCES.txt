@@ -1,0 +1,9 @@
+README.md
+setup.py
+Pipify_Components_Package/__init__.py
+Pipify_Components_Package/rabbitmq_adapter.py
+Pipify_Components_Package.egg-info/PKG-INFO
+Pipify_Components_Package.egg-info/SOURCES.txt
+Pipify_Components_Package.egg-info/dependency_links.txt
+Pipify_Components_Package.egg-info/requires.txt
+Pipify_Components_Package.egg-info/top_level.txt
