@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_html.py,sha256=U1YRl1anT3lJwKuZUVLF2R0jlyP4R5wnTEDv9bB3ZX4,4068
+tests/test_md.py,sha256=5GpnQ7f2DwORzTwPSBJnLvXCl2DRc-98jfC-EH7z-AA,3015
+tgentity/__init__.py,sha256=o9KVjXBabiTnoH_hP_8prV79l8K45RaOlhPrDaed0yw,95
+tgentity/escapers.py,sha256=-72qdjZ8LM_C1QJU_Iz5-uf_vyePevq_Z4rHEIkCt5M,774
+tgentity/mod.py,sha256=iNGEpcIuzfkdpmhdRNOjh3cYgOEOU21ezo20Dyx733k,4142
+tgentity/serializers.py,sha256=YgttZVKdaHfcTcw9qJe2cMQXizya57PG2yHSqWADudE,2960
+tgentity/types.py,sha256=UcFo3XSwx7K-dG4kLmYKG8tCaMp8O5vUME_FjGwTZ-Y,2003
+TgEntity_Updated-0.4.0.dist-info/LICENSE,sha256=4ZStr73GBjLJDFXjyptW8eiqoOybGQ-HBg5I0C3sX8k,1064
+TgEntity_Updated-0.4.0.dist-info/METADATA,sha256=9Oq5tZsn82ZD1W5UtnHNwScllW8nYpF9tjDUBYdUmxU,3181
+TgEntity_Updated-0.4.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+TgEntity_Updated-0.4.0.dist-info/top_level.txt,sha256=asXSiK2yKXHiubcDUqp8lVJXhde6hY2nYTo2GW9u1NQ,15
+TgEntity_Updated-0.4.0.dist-info/RECORD,,
