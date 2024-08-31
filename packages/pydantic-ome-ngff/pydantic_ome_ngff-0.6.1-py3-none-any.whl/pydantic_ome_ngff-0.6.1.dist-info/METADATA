@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: pydantic-ome-ngff
+Version: 0.6.1
+Summary: Pydantic models for the OME-NGFF file format.
+Project-URL: Documentation, https://janeliascicomp.github.io/pydantic-ome-ngff
+Project-URL: Issues, https://github.com/janeliascicomp/pydantic-ome-ngff/issues
+Project-URL: Source, https://github.com/janeliascicomp/pydantic-ome-ngff
+Author-email: Davis Vann Benntt <davis.v.bennett@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: ngff,ome-ngff,pydantic,zarr
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.9
+Requires-Dist: pydantic-zarr==0.7.0
+Description-Content-Type: text/markdown
+
+# pydantic-ome-ngff
+## about
+Pydantic models for [OME-NGFF](https://ngff.openmicroscopy.org/) metadata. Version [0.4](https://ngff.openmicroscopy.org/0.4/index.html) is supported. Read the documentation for the latest release [here](https://janeliascicomp.github.io/pydantic-ome-ngff/).
+
+## installation
+
+```bash
+pip install -U pydantic-ome-ngff
+```
+
+## development
+
+1. clone this repo
+2. install [hatch](https://hatch.pypa.io/latest/)
+4. run `pre-commit install` to install [pre-commit hooks](https://github.com/JaneliaSciComp/pydantic-ome-ngff/blob/main/.pre-commit-config.yaml)
+5. edit the code
+6. run tests with `hatch run:test run`
