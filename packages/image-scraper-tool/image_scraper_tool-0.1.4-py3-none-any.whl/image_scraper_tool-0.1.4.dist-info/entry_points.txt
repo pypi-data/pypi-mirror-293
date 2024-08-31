@@ -1,0 +1,2 @@
+[console_scripts]
+image-scraper = image_scraper_tool.custom_image_extractor:google_image_search

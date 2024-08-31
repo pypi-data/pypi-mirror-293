@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: image-scraper-tool
+Version: 0.1.4
+Summary: A package to search Google Images and extract image URLs.
+Home-page: https://github.com/NeginBabaiha/image-url-extraction
+Author: Negin Babaiha, Philipp Münker
+Author-email: negin.babaiha@scai.fraunhofer.de
+Project-URL: Bug Tracker, https://github.com/NeginBabaiha/image-url-extraction/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+Requires-Dist: pandas
+
+# Image Scraper Tool
+
+`image-scraper-tool` is a Python package that allows users to search for images on Google and extract image URLs along with metadata.
+
+## Features
+
+- Search for images based on a query
+- Extract image URLs, thumbnails, and metadata
+- Export data to an Excel file
+
+## Installation
+
+```bash
+pip install image-scraper-tool
