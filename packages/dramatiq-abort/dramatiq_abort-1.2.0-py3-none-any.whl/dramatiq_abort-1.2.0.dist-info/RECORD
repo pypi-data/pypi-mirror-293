@@ -1,0 +1,12 @@
+dramatiq_abort/__init__.py,sha256=yhCIVzLBpiX9raXrykwL-S6zOW7wTCx_X6ODUucaL4E,242
+dramatiq_abort/abort_manager.py,sha256=rR4g1lhstqP5zB7o-Z4Oeg_jwEemeNQ31ju9Gr-F4KE,5291
+dramatiq_abort/backend.py,sha256=TVN9D1aTN_RNv6rknWeJ0KADzAhJRegh9-8zLGFgoig,2012
+dramatiq_abort/middleware.py,sha256=OC54Huptyv4S7iFiJAF5uuNvKLuRTID2stHC1Yv0ZuI,8468
+dramatiq_abort/backends/__init__.py,sha256=kDsfPHyQZ_Ba63R5rdJD3RqF0ATEyATrtLPcI8biZHw,364
+dramatiq_abort/backends/redis.py,sha256=5Vn08p9eOguDg7joM4_nI9JNDaqljJLhrBvW5_IpCjY,2973
+dramatiq_abort/backends/stub.py,sha256=msie63pGdyS6u4i0_3Im9ZX7aXXDrFotPCVcfGqi1yI,1179
+dramatiq_abort-1.2.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+dramatiq_abort-1.2.0.dist-info/METADATA,sha256=Yr0hjl43QbjXpHpaYvcA_yb28s1tpvMrMxLXX6yBklE,2856
+dramatiq_abort-1.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dramatiq_abort-1.2.0.dist-info/top_level.txt,sha256=V_O3gRS4Xv6mNt0JGCVpfaO9hT3K40yva4ptm2kURCs,15
+dramatiq_abort-1.2.0.dist-info/RECORD,,
