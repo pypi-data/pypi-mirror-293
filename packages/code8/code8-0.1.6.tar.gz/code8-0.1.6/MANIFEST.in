@@ -1,0 +1,4 @@
+include code8/templates/*.html
+include code8/static/*.css
+include README.md
+include LICENSE
