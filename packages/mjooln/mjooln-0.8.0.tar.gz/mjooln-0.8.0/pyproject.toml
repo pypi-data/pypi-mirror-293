@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "mjooln"
+version = "0.8.0"
+description = ""
+authors = ["Vemund Halmø Aarstrand <vemundaa@gmail.com>"]
+readme = "README"
+homepage = "https://mjooln.readthedocs.org"
+repository = "https://gitlab.com/vemundaa/mjooln"
+documentation = "https://mjooln.readthedocs.org"
+license = "MIT"
+keywords = ['json', 'path', 'file', 'folder', 'file handling',
+    'encryption', 'compression', 'aes', 'gzip', 'uuid', 'utc',
+    'md5 checksum', 'data engineering', 'data science', 'data lake',
+    'microservice']
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyyaml = "^6.0"
+python-dateutil = "^2.8.2"
+pytz = "^2024"
+cryptography = "^43"
+simplejson = "^3.18.1"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+pytest = "^8.3.2"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^5.3.0"
+sphinx-rtd-theme = "^1.0.0"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
