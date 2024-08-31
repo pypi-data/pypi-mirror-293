@@ -1,0 +1,7 @@
+auth_aws_profile/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth_aws_profile/auth_aws_profile.py,sha256=Vg2Lckh0XDf-8W3UJiewQgJct9iXiXaO4SrGVUos-7E,9741
+auth_aws_profile-0.2.0.dist-info/entry_points.txt,sha256=vVxeIcciTZaqMrQqhBDLFnp6fgfz-xGMWak-osJGgTM,75
+auth_aws_profile-0.2.0.dist-info/LICENSE,sha256=UuIpN4jdKGmNhCYCII6ZYWCynkfQCjnZ00uLvpCcSsk,1067
+auth_aws_profile-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+auth_aws_profile-0.2.0.dist-info/METADATA,sha256=ZFIHn0Wr_LDLzJAmC_r7Btc_N0ZidCtyBb_-nFVPfko,2782
+auth_aws_profile-0.2.0.dist-info/RECORD,,

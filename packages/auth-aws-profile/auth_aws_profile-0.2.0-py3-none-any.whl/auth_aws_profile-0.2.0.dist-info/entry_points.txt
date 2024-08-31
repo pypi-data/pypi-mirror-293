@@ -1,0 +1,3 @@
+[console_scripts]
+auth-aws-profile=auth_aws_profile.auth_aws_profile:main
+
