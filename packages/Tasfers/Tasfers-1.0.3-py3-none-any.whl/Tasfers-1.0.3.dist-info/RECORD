@@ -1,0 +1,11 @@
+src/__init__.py,sha256=HMu34QvwwfdB58sLEeKlnk5FCZ9Htsl6jaipPljFbNA,213
+src/async_funcs.py,sha256=g_V2q-fEmYrZGHyfD0yglyakOMqG8gC_wHCryDbLsjI,670
+src/sync_funcs.py,sha256=RlZmNMCZmKaA0BeY62tdst7gYgfsfob3NsldykiAItI,1184
+tasfers/Encrypt.py,sha256=cytOAkA-otKXJTyPwD-RBbRDq_gitHiIxYr7gbbn7Bo,7572
+tasfers/__init__.py,sha256=h_NaK-OBdhi_9Ug3pT3GsX2B8_wu0WQ7Wx-WuK85BAI,467
+tasfers/async_funcs.py,sha256=c1ja5Wz_X-RBJNo5HHIcKruu-syawZayw8f7QZoKa0g,2483
+tasfers/sync_funcs.py,sha256=U7BSRFhISp0U0EmJbX3STj44Kim_0A_VQAo2yP37j6I,1182
+Tasfers-1.0.3.dist-info/METADATA,sha256=visOwTJbXxuACadyd0z2ROrq1DXGEaviD26Dlpuu248,234
+Tasfers-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Tasfers-1.0.3.dist-info/top_level.txt,sha256=XfVzz18qwCQSRr_PG9OrVcjuIzEdQhEKm-Y06ByIPXk,8
+Tasfers-1.0.3.dist-info/RECORD,,
