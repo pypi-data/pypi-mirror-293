@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nada-test
+Version: 0.6.0
+Summary: Nillion Nada Test Framework
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: lint
+Requires-Dist: pylint <3.3,>=2.17 ; extra == 'lint'
+

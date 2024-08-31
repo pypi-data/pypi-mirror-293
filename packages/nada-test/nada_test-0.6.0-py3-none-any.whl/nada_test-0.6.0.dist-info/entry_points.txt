@@ -1,0 +1,2 @@
+[console_scripts]
+nada-test = nada_test.cli:main
