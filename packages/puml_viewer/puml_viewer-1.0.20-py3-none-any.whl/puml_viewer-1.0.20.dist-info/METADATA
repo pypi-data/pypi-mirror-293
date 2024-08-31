@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: puml_viewer
+Version: 1.0.20
+Summary: viewer for PlantUML files
+Author-email: Fernando Ontiveros <feronti@gmail.com>
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: Flask ==3.0.3

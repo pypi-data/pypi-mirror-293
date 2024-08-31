@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantUML Diagrams</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .file-list {
+            display: grid; 
+            grid-template-columns: 
+            repeat(4, 1fr); 
+            gap: 20px;
+        }
+
+        .imgx {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .image-container {
+            display: none;
+            text-align: center;
+        }
+
+        .image-tile {
+            background: #f8f8f8;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .image-tile:hover {
+            border-color: #007BFF; /* Change border color on hover */
+            transform: scale(1.05); /* Slightly scale up the image */
+        }
+
+        .image-thumbnail {
+            width: 300px; 
+            height: auto; 
+            border: 2px solid #ccc; 
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="file-list" class="file-list">
+        {% for file in png_files %}
+            <div class="image-tile" >
+                <a href="#" onclick="showImage('{{ file }}')">
+                    <img class="image-thumbnail"
+                        src="/images/{{ file }}" 
+                        alt="{{ file }}" >
+                </a>
+                <p>{{ file }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="image-container" id="image-container">
+        <div>
+          <button onclick="goBack()">Back to List</button>
+        </div>
+        <div>
+          <img id="displayed-image" src="" alt="Selected Image">
+        </div>
+    </div>
+
+    <script>
+        let currentFile = '';
+        let lastModified = 0;
+
+        function showImage(file) {
+            currentFile = file;
+            document.getElementById('displayed-image').src = '/images/' + file;
+    
+            document.getElementById('file-list').style.display = 'none';
+            document.getElementById('image-container').style.display = 'block';
+            checkFile();
+        }
+
+        function goBack() {
+            document.getElementById('file-list').style.display = 'block';
+            document.getElementById('image-container').style.display = 'none';
+            location.reload(true);
+        }
+
+        function checkFile() {
+            fetch('/check_file/' + currentFile)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.last_modified && data.last_modified !== lastModified) {
+                        lastModified = data.last_modified;
+                        document.getElementById('displayed-image').src = '/images/' + currentFile + '?' + new Date().getTime(); // Cache busting
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+
+            setTimeout(checkFile, 1000); // Check every  second
+        }
+    </script>
+</body>
+</html>
