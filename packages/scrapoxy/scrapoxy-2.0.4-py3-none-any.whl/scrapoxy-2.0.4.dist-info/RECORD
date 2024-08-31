@@ -1,0 +1,11 @@
+scrapoxy/__init__.py,sha256=zWy2YDq-hm3yGWV07NLFEomPgXatMhYiFcaGt2g6eys,251
+scrapoxy/api.py,sha256=DeDSAGmt4U2YeHs1xs98vd75P0Mm8MpL6OPv-zomXcs,1961
+scrapoxy/blacklist.py,sha256=UH0fCmLRqW_GDo1NrckyGChB3La0XwPqLNchdUUGBnw,2665
+scrapoxy/proxy.py,sha256=STbQfWBVSb7zoDIZBEk3_TMBSR_Fr4WuhraWwypv4QE,1422
+scrapoxy/scale.py,sha256=Oh3a8EcMeUeVjR0wx8eBWgSrsj4fmtHaLlHGNjI4OSo,1309
+scrapoxy/sticky.py,sha256=Q5ty7PCGQZNPsxuiEe670HONwOs6KDTS-opC2dGSM20,495
+scrapoxy-2.0.4.dist-info/LICENCE,sha256=JBblHnjdLWMDFylkvIHKo5H-oThf0l3DNfjnRR9eA-I,1094
+scrapoxy-2.0.4.dist-info/METADATA,sha256=xmTFdPjASxIyKrlFNNjlRi0Xs4WvGj3kBHR_Zw5JCn0,304
+scrapoxy-2.0.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+scrapoxy-2.0.4.dist-info/top_level.txt,sha256=d2F07PTr8dhbbUuh_UTfEJmJt_rDHXFQjhJ7ZY8-Wg4,9
+scrapoxy-2.0.4.dist-info/RECORD,,

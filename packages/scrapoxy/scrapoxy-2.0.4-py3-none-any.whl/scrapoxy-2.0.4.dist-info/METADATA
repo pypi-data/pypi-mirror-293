@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: scrapoxy
+Version: 2.0.4
+Summary: Python API for Scrapoxy
+Home-page: https://github.com/fabienvauchelles/scrapoxy
+Author: Fabien Vauchelles
+Author-email: fabien@vauchelles.com
+Keywords: crawler,crawling,scrapoxy,scrapy,scraper,scraping,webscraping,proxy
+License-File: LICENCE
+
