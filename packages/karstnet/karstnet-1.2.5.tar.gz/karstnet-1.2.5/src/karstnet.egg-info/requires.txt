@@ -1,0 +1,16 @@
+numpy
+matplotlib
+networkx
+scipy
+mplstereonet
+
+[dev]
+pycodestyle
+pytest
+pytest-cov
+coveralls
+sphynx
+numpydoc
+sphinx_rtd_theme
+build
+twine
