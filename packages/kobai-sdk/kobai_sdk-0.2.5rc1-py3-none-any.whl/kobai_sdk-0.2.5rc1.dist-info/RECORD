@@ -1,0 +1,10 @@
+kobai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kobai/databricks_client.py,sha256=iSR6Z5t8M-qa2KnLVnAVvAm90F-HBSWYVgNEmygv-LI,1742
+kobai/demo_tenant_client.py,sha256=wlNc-bdI2wotRXo8ppUOalv4hYdBlek_WzJNARZV-AE,9293
+kobai/spark_client.py,sha256=UNG-9MP_H7mmG1WGmiC9SJamLEqZZEEhkHPn9dUcjEE,669
+kobai/tenant_client.py,sha256=zk-DwaBdlCXHBCO-67kn2AFsBbBZkU5-ocLD64W9K58,33494
+kobai_sdk-0.2.5rc1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+kobai_sdk-0.2.5rc1.dist-info/METADATA,sha256=MSmAeDjaHW4Hl79ld912T98SEjdhnmikeqg5lj1QTeE,15823
+kobai_sdk-0.2.5rc1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+kobai_sdk-0.2.5rc1.dist-info/top_level.txt,sha256=ns1El3BrTTHKvoAgU1XtiSaVIudYeCXbEEUVY8HFDZ4,6
+kobai_sdk-0.2.5rc1.dist-info/RECORD,,
