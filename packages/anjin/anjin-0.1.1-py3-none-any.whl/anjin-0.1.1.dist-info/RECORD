@@ -1,0 +1,9 @@
+anjin/__init__.py,sha256=2OWesisRkfB8VKroTBsyQKCJlJRRQqPf3-wGgTr42N0,51
+anjin/__main__.py,sha256=_by-WSCTdgsQKpkkOz62MaMBO60gl4sqNzm32Yp5GRk,47
+anjin/changelog_registry.py,sha256=oAIWlMh0BxrBu4YDGAAQl6pN5IGfSxAGNA9jDbUNC0s,298
+anjin/config.py,sha256=IkvjCArwh2Hq1yv0lgHPNv_EOsb8EjTuSQNdBEm_GGE,241
+anjin/release_notes.py,sha256=mXTkBwWgRgh3PiPzyBnzzoq6G-2Z-ud-HSma9JSnp9I,14479
+anjin-0.1.1.dist-info/METADATA,sha256=2ZkulQtfckIwus6tdCTMKSfvJpPOmmvSM5prE42WrOQ,1345
+anjin-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+anjin-0.1.1.dist-info/entry_points.txt,sha256=E1IdWfKWMd6H7POiZV2jxanpYiFh0uJYvpWuTCkIdN0,37
+anjin-0.1.1.dist-info/RECORD,,
