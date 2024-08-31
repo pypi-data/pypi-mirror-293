@@ -1,0 +1,12 @@
+gh_manager/__init__.py,sha256=UE9WO-f91ySfQL_wCRFTUchGf4Fa1h61KkxcDpGZ6r8,570
+gh_manager/delete_repo.py,sha256=LxL77UoCzAtMD1uZafXWz21B7EIcT_TjgPdOwLPfGvg,1359
+gh_manager/github_token_manager.py,sha256=IwqoKM2JAShlu-7WJPFu28fNXpXZgxwGjwkIhKnhPRk,4040
+gh_manager/org_username_add.py,sha256=-A8cqiM9suqjNXIKJ4FWBD5LuCjGfbO7pMBHwGv84vA,1410
+gh_manager/repo_file_add.py,sha256=oon9Z24nOWCMJi2eSPmHLSJoouGCK4AigZpX0GnVbQQ,2071
+gh_manager/repo_file_update.py,sha256=K97s2fxQ6dJV-C4MshkgkWbbUys_iCRjgl2vRJlyuC8,2253
+gh_manager-0.1.0.dist-info/LICENSE,sha256=MAJZSGbWQa8peRArywhJUlijjtZa1CpNCVO6Xwy0Bww,1070
+gh_manager-0.1.0.dist-info/METADATA,sha256=YAeDVKvRipA82L9NR_hxZw6vl7QRXEsD26nKTEtkO4Y,1023
+gh_manager-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+gh_manager-0.1.0.dist-info/entry_points.txt,sha256=8lV9CViD1W7YylZS1LA9BFduEcxrl6wJc6tFDLnI0UU,244
+gh_manager-0.1.0.dist-info/top_level.txt,sha256=MWaF5y5b-Z-c_FR0Q3sTJd6QOni85kubsqstzzcR9PE,11
+gh_manager-0.1.0.dist-info/RECORD,,
