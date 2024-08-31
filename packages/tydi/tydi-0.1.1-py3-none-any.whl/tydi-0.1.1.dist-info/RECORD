@@ -1,0 +1,9 @@
+tydi/__init__.py,sha256=Jq40ykDkedeeubrMbQ1xDIdTEKLuvhhoRLuq3fCelcA,200
+tydi/dispatch.py,sha256=gEjt5ejnHsIkFQFtSIjadKVfWUpNGDNTwDPaUnTxux8,303
+tydi/multi_dispatch.py,sha256=zi0NN34W-m6OHrzRpaXyxqgxH3Y1zJo-sVwVXLjp4Cg,2073
+tydi/overload.py,sha256=pXwPWYrSq88b21Em7jFAtzJXRbm90XFmxD97D_BUxlM,230
+tydi/register.py,sha256=eOW2Hovld8iosyQtFzshZ-qNVwgZ8-kqJDeC1VHPmzg,295
+tydi-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tydi-0.1.1.dist-info/METADATA,sha256=EmEWPg_2ROdAVDhxVxkwG-NEtYkZ5RY-d32z_PuLLZ8,625
+tydi-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tydi-0.1.1.dist-info/RECORD,,
