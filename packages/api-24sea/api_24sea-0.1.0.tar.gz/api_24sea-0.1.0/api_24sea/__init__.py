@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""The `api_24sea` package contains modules that are aimed at helping a user
+interact with the 24SEA API.
+
+The modules are:
+
+- :mod:`api_24sea.datasignals`: Contains the :class:`DataSignals` class, which
+    is an accessor for transforming data signals from the 24SEA API into
+    pandas DataFrames.
+
+Besides the modules, the package also contains the :mod:`api_24sea.version`
+module, which contains the version number of the package.
+"""
+
+from . import datasignals
+
+__all__ = ["datasignals"]
