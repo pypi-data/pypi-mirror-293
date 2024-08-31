@@ -1,0 +1,2 @@
+include templates/index.html
+include static/styles.css
