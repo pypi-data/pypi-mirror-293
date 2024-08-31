@@ -1,0 +1,9 @@
+pycoupang/__init__.py,sha256=9cK45NHeuK2tq5YJgdczzZdtiBeFRcXz5B_O7hVIS2w,33
+pycoupang/base.py,sha256=9GDsW03iy3kV0eJtm-3e_O_kfRVYmMLf79PU5fn2X00,338
+pycoupang/client.py,sha256=o7RpQx4aLQUcqk63mEsXm_phKfIUVX8MrhIYP5Yme5c,2367
+pycoupang/product.py,sha256=gFnkekAmp1qICjaRuRkhaDfCczv-wYqfslJAxBPi0aE,3793
+python_coupang-0.1.1.dist-info/LICENSE,sha256=bq0gk2RH3osKiypnLp2PLoeGxiyAl8Pq5gzygy8qdeY,1065
+python_coupang-0.1.1.dist-info/METADATA,sha256=Z5fNn2LVWzpfLq5l2akKtBj6TnF-agmKA7EW8AGYtSg,3723
+python_coupang-0.1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+python_coupang-0.1.1.dist-info/top_level.txt,sha256=2CpAtodtuH0_APprsi7qorLQg3ijxc-sCG4rO-3-TiU,10
+python_coupang-0.1.1.dist-info/RECORD,,
