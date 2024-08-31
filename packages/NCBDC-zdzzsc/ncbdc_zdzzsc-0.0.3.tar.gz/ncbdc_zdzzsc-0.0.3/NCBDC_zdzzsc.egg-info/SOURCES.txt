@@ -1,0 +1,7 @@
+setup.py
+NCBDC_zdzzsc/__init__.py
+NCBDC_zdzzsc/calculate.py
+NCBDC_zdzzsc.egg-info/PKG-INFO
+NCBDC_zdzzsc.egg-info/SOURCES.txt
+NCBDC_zdzzsc.egg-info/dependency_links.txt
+NCBDC_zdzzsc.egg-info/top_level.txt
