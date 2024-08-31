@@ -1,0 +1,9 @@
+*.pdf
+*.swp
+*.pyc
+build/
+__pycache__/
+src/momapy/demo/.ipynb_checkpoints/*
+.pdm-python
+tests/
+dist/
