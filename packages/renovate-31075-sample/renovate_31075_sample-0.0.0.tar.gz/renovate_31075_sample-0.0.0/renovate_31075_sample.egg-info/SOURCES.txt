@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+renovate_31075_sample.egg-info/PKG-INFO
+renovate_31075_sample.egg-info/SOURCES.txt
+renovate_31075_sample.egg-info/dependency_links.txt
+renovate_31075_sample.egg-info/top_level.txt
