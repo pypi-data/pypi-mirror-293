@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "function-add"
+version = "0.1.0"
+description = "function add"
+authors = ["narendrasai316 <narendrasai316@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "function-add", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+package-narendra = "^0.0.1"
+
+[tool.poetry.scripts]
+function-add-manage = 'function-add.manage:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
