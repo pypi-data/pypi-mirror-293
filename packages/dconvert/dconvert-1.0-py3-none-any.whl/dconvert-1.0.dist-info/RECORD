@@ -1,0 +1,10 @@
+dconvert/__init__.py,sha256=_ObI6k9ldc6TTiivdLEaY185g51ngRnzFXxNr53osOs,1395
+dconvert/__main__.py,sha256=0mGXS1qWnmfd6mpivLc7bvOmUqIGEGR7kzbnyp-WEWk,1988
+dconvert/cli.py,sha256=8l3p26F0swlkQhevT45UQKBNo75C8kVOKgcDv_GSua0,3930
+dconvert/dconvert.py,sha256=qDsHwZOb0rxbb7MlIZjDPysbF6hocys4dWjpP17pspg,5086
+dconvert-1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+dconvert-1.0.dist-info/METADATA,sha256=-pozy8kXsG1mLYklITYA9YMNW-oBW-rbunOktHBQN8U,4401
+dconvert-1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+dconvert-1.0.dist-info/entry_points.txt,sha256=42gboz3e4FAt9g3gxpZrjlDAkxuZ9S6d-5VLsa_5qLg,52
+dconvert-1.0.dist-info/top_level.txt,sha256=WAdXRNwmlXgQXcMLCbdaUZZ_VcIiSzDAL-Vvdsb7NxM,9
+dconvert-1.0.dist-info/RECORD,,
