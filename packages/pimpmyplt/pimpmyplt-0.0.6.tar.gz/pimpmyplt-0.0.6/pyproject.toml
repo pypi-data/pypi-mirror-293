@@ -1,0 +1,114 @@
+[tool.poetry]
+name = "pimpmyplt"
+version = "0.0.6"
+description = "Pimp up my matplotlib plots"
+authors = ["Daniel Müller <acct.d-mueller@mailbox.org>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.9.2"
+mypy = "^1.11.2"
+ruff = "^0.6.2"
+pytest = "^8.3.2"
+pytest-mpl = "^0.17.0"
+bump-my-version = "^0.26.0"
+
+
+[tool.bumpversion]
+current_version = "0.0.6"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = ["{major}.{minor}.{patch}"]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+ignore_missing_files = false
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+allow_dirty = false
+commit = true
+message = "Bump version: {current_version} → {new_version}"
+commit_args = ""
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = "version = \"{current_version}\""
+replace = "version = \"{new_version}\""
+
+[[tool.bumpversion.files]]
+filename = "src/pimpmyplt/__init__.py"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.mypy]
+ignore_missing_imports = true
+strict = true
+warn_unreachable = true
+
+[tool.ruff]
+fix = true
+show-fixes = true
+output-format = "concise"
+
+[tool.ruff.lint]
+extend-select = [
+    "ANN", # flake8-annotations
+    "B",   # flake8-bugbear for typical bugs
+    "BLE", # flake8-blind-except
+    "C4",  # flake8-comprehensions for better comprehensions
+    "C90", # mccabe too detect complex code
+    "COM", # flake8-comma for comma style
+    "DTZ", # flake8-datetimez
+    "E",   # pycodestyle errors
+    "EM",  # flake8-errmsg for better error messages
+    "ERA", # flake8-eradicate/eradicate to detect commented out code
+    "F",   # pyflakes
+    "FIX", # flake8-fixme to find FIXME, TODO, etc.
+    "I",   # isort
+    "ICN", # flake8-import-conventions 
+    "ISC", # flake8-implicit-str-concat for long strings
+    "NPY", # Numpy rules
+    "PD",  # Pandas rules
+    "PIE", # flake8-pie for clean code
+    "PL",  # Pylint
+    "PT",  # Pytest
+    "PTH", # Pathlib
+    "PYI", # More type hinting stub files
+    "Q",   # flake8-quotes for quotes style
+    "RET", # flake8-return for better return statements
+    "RUF", # ruff checks
+    "S",   # Security checks
+    "SIM", # flake8-simplify
+    "SLF", # flake8-self for private member access
+    "T20", # flake8-print for print statements
+    "TCH", # flake8-type-checking
+    "TID", # flake8-tidy-imports
+    "TRY", # tryceratops for better try/except
+    "UP",  # pyupgrade to keep python up to date
+    "W",   # Warnings
+]
+ignore = [
+    "ANN101", # Missing type annotation for self, is deprecated
+    "ANN102", # Missing type annotation for cls, is deprecated
+]
+unfixable = [
+    "ERA", # do not autoremove commented out code
+]
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.ruff.lint.extend-per-file-ignores]
+"tests/**/*.py" = [
+    "S101",    # asserts allowed in tests...
+    "ARG",     # Unused function args -> fixtures nevertheless are functionally relevant...
+    "FBT",     # Don't care about booleans as positional arguments in tests, e.g. via @pytest.mark.parametrize()
+    "PLR2004", # Magic value used in comparison, ...
+]
