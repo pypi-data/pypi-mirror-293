@@ -1,0 +1,13 @@
+cli.py,sha256=FT3escjDjL6_EsRrxN9HUOMVYqeCp6YLmZt9VKn8Y_I,5110
+main.py,sha256=2zXOGycOQexF9LfgThMAKWYf39ZfNhRTw45qlkBl7h8,5539
+core/db.py,sha256=JynDn95rj-lYzaQgXhjhNFPwFX0Les4tpcI5H_9_-rw,2060
+core/commands/delete.py,sha256=lmgtoNu6eZLj8HO82DyiOmHB_QrQfyOKRoLCuOMNdb4,446
+core/commands/get.py,sha256=s4kd91Y4Xv6gsKu3Rh0Pu8US-oGcAHJ7VmEmntfzwas,506
+core/commands/list.py,sha256=ndi_ka1j23wTGsNr7tNpmX9HSJGw5XHMze5m90fk30w,1536
+core/commands/store.py,sha256=MjKkOADwZkpwN6YGh2r4ffo7NaMvDXsO2MZlfD85Fns,1502
+core/commands/update.py,sha256=q0lQPOAvnrDaKpasZrByc1KXCQ9t8LsL1_c4TrvL-4c,746
+keybin-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+keybin-1.0.0.dist-info/METADATA,sha256=VVQxZoS1W6710XnScoP0ReuBBTARwCt5XqVG0wgmBQ8,4374
+keybin-1.0.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+keybin-1.0.0.dist-info/top_level.txt,sha256=7lQEbSQRneIDlZtcm7BG2RuXvYsKzfFWvJpbhbg5vKc,14
+keybin-1.0.0.dist-info/RECORD,,
