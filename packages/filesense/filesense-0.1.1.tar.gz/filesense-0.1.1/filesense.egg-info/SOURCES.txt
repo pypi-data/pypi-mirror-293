@@ -1,0 +1,9 @@
+README.md
+setup.py
+filesense/__init__.py
+filesense/file_renamer.py
+filesense.egg-info/PKG-INFO
+filesense.egg-info/SOURCES.txt
+filesense.egg-info/dependency_links.txt
+filesense.egg-info/requires.txt
+filesense.egg-info/top_level.txt
