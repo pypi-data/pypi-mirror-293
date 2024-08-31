@@ -1,0 +1,11 @@
+SSLSocket/__init__.py,sha256=pG-YPVG0gJIJ6s4xcAz9S_CnUxpUcz33wl9eNUSgxGk,20
+SSLSocket/exceptions.py,sha256=fUm6gLI8tb7s-M0GU3U2xzrokPJwysXtM8hc8GOl3vk,868
+SSLSocket/utils.py,sha256=wOqCN8i7RmfcbesgK705zM02fdXF4EDIblyU7jpxuVY,15303
+SSLSocket/cert/55dfe063.0,sha256=kK86LzQZN_c-MF7OGlQpybnUTfklwE3RfCwMtE2l4bQ,1489
+SSLSocket/cert/rootCA.crt,sha256=WgaRhaWuu71nXWFOhZV__zauwpc2RWs7JIyR2GO_Bw8,1057
+SSLSocket/cert/rootCA.key,sha256=zYaIm0IUY4387c_z5ZvDIFAYzNlOQS-GwHbv-OSrXGw,1862
+SSLSocket/cert/rootCA.pem,sha256=kK86LzQZN_c-MF7OGlQpybnUTfklwE3RfCwMtE2l4bQ,1489
+SSLSocket-0.0.0.7.dist-info/METADATA,sha256=cm5zmRsSF08tG4DAVRzNINO02CnssZtjv5rwxuS8ctA,2092
+SSLSocket-0.0.0.7.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+SSLSocket-0.0.0.7.dist-info/top_level.txt,sha256=TbBqVnfmF74AcaEQsPRq67HyJpdjzBR7xXCDf_yYCwQ,10
+SSLSocket-0.0.0.7.dist-info/RECORD,,
