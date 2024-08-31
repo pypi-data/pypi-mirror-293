@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: openap-pypi-framework
+Version: 0.1.0
+Summary: 
+Author: Savan Rupani
+Author-email: savan.rupani@outlook.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# openap-pypi-framework
+This is a sample Python project designed to build and deploy a Python package.
+
+# Install Homebrew
+
+# Install and configure pyenv
+
+# Insatll and configure python
+
+# Create virtual environment
+pyenv virtualenv 3.11.8 openap-pypi-framework
+
+# Activate virtual environment
+pyenv activate openap-pypi-framework
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install poetry
+pip install poetry
+
+# Create pyproject.toml file
+
+# Install python packages using poetry
+
+# pre-commit setup
+
