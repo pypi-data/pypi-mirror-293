@@ -1,0 +1,10 @@
+pandas>=2.1.0
+numpy
+tqdm
+
+[test]
+pytest
+pytest-cov
+validate_version_code
+random_csv_generator>=1.0.2
+pytest-readme
