@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: es_simple
+Version: 0.0.3
+Summary: A package for query ElasticSearch and parse response easy
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: Achilles Xu <achilles@hukaa.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# es_simple
+
+A package for query ElasticSearch and parse response easy.
+
+## Usage
+
+```python
+import es_simple
+import time
+qb = es_simple.QueryBuilder("hostname:*live*", # query string
+                            int(time.time() * 1000 - 3600 * 1000), "start timestamp in ms"
+                            int(time.time() * 1000), # end timestamp in ms
+                            "5m", # interval
+                            "log_timestamp")  # timestamp field
+  
+
+qb.add_metric("avg_tcp_re_rate", "avg", "tcp_re_rate")
+qb.add_metric("avg_cpu", "avg", "cpu_idle")
+qb.add_date_histogram_bucket("ts")
+qb.add_terms_bucket("nodename", "nodename", "20", {"tcp_re_rerate": "desc"})
+
+es_query = qb.build()
+
+print(es_query)
+```
+
