@@ -1,0 +1,10 @@
+citext/__init__.py,sha256=WTJ8DbhvcOLI1aSPpigP7r8HCjERIIUyPFei16POkOY,167
+citext/_version.py,sha256=BGgbj7AHZwtVw29XgDIjcG5woR-f3jQy2X-ArcRT22E,411
+citext/apps.py,sha256=wB7unjgtQsGsK6DGtqDvmZZfWocG0y72MthP3D8oCQE,164
+citext/baker_generators.py,sha256=zmvsN6QfYb1TKzxFJ3Sy9Tkw43QigzQyyCp4ixNmvec,496
+citext/fields.py,sha256=ElpVU9xBQ9NjNzsyq7-Jr-ynTq9hsPXpmwnVA51A8qg,779
+citext/lookups.py,sha256=TbFGwbdCW55hydCrPTEYFBTQmMSJkHVYWoWUbb8AMHo,1403
+django_citext-1.0.2.dist-info/LICENSE,sha256=ex8yjJ1Y1JdeGe16_plE2TQ4Pb_13LkzlkavK5PUxA8,1518
+django_citext-1.0.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+django_citext-1.0.2.dist-info/METADATA,sha256=4R3sBgWzOrFCZ0kjGKRLEJicfbTztnFtfn67UkbvfxU,3015
+django_citext-1.0.2.dist-info/RECORD,,
