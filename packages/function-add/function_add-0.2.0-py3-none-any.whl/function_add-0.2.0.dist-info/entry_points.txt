@@ -1,0 +1,3 @@
+[console_scripts]
+function-add-manage=function-add.manage:main
+
