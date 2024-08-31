@@ -1,0 +1,9 @@
+picows/picows.pxd,sha256=6vUNH09J3NAE0-RGGhoi-Ao6rf79ZxEzYA1x_S4p4x8,3077
+picows/picows.cpython-38-darwin.so,sha256=gZF7_4pLhdZKkFyMtJravwh4hzipxEtFXoTJIYX-bfM,473672
+picows/__init__.py,sha256=CTj0opAEB4_bArofWjqhBjW7X3f3yo1sI4egoRNxIWg,453
+picows/picows.pyx,sha256=T6Idr1_YOFqvmPAeGr4scb2OXmDmnZyGIChwWyTLws0,50392
+picows-1.1.1.dist-info/RECORD,,
+picows-1.1.1.dist-info/LICENSE,sha256=1Nzi2NQ9y-QstuqB_i9UJJFbx0Q9C9RExn8li2GKI3A,1105
+picows-1.1.1.dist-info/WHEEL,sha256=SS8wZQ_elz938EY5TNUnzxR874OALmiuBVF9xaKZcqU,107
+picows-1.1.1.dist-info/top_level.txt,sha256=hUbNrhLiUJGRlf0OcYhDotazR5iQ87-5WHc8Qasz0pQ,7
+picows-1.1.1.dist-info/METADATA,sha256=hzcj65nk6pOmtyuC1fE4Q1U5Gb9Ys50UOY4X9BbVdIk,7325
