@@ -1,0 +1,75 @@
+Metadata-Version: 2.3
+Name: smftools
+Version: 0.1.0
+Summary: Single Molecule Footprinting Analysis in Python.
+Project-URL: Source, https://github.com/jkmckenna/smftools
+Author: Joseph McKenna
+Maintainer-email: Joseph McKenna <jkmckenna@berkeley.edu>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: anndata,chromatin-accessibility,machine-learning,nanopore,protein-dna-binding,single-locus,single-molecule-footprinting
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.9
+Requires-Dist: anndata>=0.10.0
+Requires-Dist: biopython>=1.79
+Requires-Dist: cython>=0.29.28
+Requires-Dist: networkx>=3.2
+Requires-Dist: numpy<2,>=1.22.0
+Requires-Dist: pandas>=1.4.2
+Requires-Dist: pomegranate>1.0.0
+Requires-Dist: pysam>=0.19.1
+Requires-Dist: scanpy>=1.9
+Requires-Dist: scikit-learn>=1.0.2
+Requires-Dist: scipy>=1.7.3
+Requires-Dist: seaborn>=0.11
+Requires-Dist: tqdm
+Provides-Extra: base-tests
+Requires-Dist: pytest; extra == 'base-tests'
+Requires-Dist: pytest-cov; extra == 'base-tests'
+Provides-Extra: doc
+Requires-Dist: ipython>=7.20; extra == 'doc'
+Requires-Dist: matplotlib!=3.6.1; extra == 'doc'
+Requires-Dist: myst-nb>=1; extra == 'doc'
+Requires-Dist: myst-parser>=2; extra == 'doc'
+Requires-Dist: nbsphinx>=0.9; extra == 'doc'
+Requires-Dist: readthedocs-sphinx-search; extra == 'doc'
+Requires-Dist: setuptools; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints>=1.25.2; extra == 'doc'
+Requires-Dist: sphinx-book-theme>=1.1.0; extra == 'doc'
+Requires-Dist: sphinx-copybutton; extra == 'doc'
+Requires-Dist: sphinx-design; extra == 'doc'
+Requires-Dist: sphinx>=7; extra == 'doc'
+Requires-Dist: sphinxcontrib-bibtex; extra == 'doc'
+Requires-Dist: sphinxext-opengraph; extra == 'doc'
+Provides-Extra: torch
+Requires-Dist: pomeganate>=1.0.0; extra == 'torch'
+Requires-Dist: torch>=1.9.0; extra == 'torch'
+Provides-Extra: torch-tests
+Requires-Dist: pomeganate>=1.0.0; extra == 'torch-tests'
+Requires-Dist: pytest; extra == 'torch-tests'
+Requires-Dist: pytest-cov; extra == 'torch-tests'
+Requires-Dist: torch>=1.9.0; extra == 'torch-tests'
+Description-Content-Type: text/markdown
+
+# smftools
+A tool for processing raw sequencing data for single molecule footprinting experiments at single genomic loci.
+
+## Dependencies
+The following tools need to be installed and configured:
+1) [Dorado](https://github.com/nanoporetech/dorado) -> For standard/modified basecalling and alignment. Can be attained by downloading and configuring nanopore MinKnow software.
+2) [Samtools](https://github.com/samtools/samtools) -> For working with SAM/BAM files
+3) [Minimap2](https://github.com/lh3/minimap2) -> The aligner used by Dorado
+4) [Modkit](https://github.com/nanoporetech/modkit) -> Extracting summary statistics and read level methylation calls from modified BAM files
