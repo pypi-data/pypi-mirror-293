@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Namn:		ERMS-SVK-ARENDE.xsd
+Version:	1.0
+Ändrad:		2024-08-20
+Ändrad av:	Henrik Vitalis
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="https://xml.svenskakyrkan.se/ERMS-SVK-ARENDE"
+	xmlns:erms="https://DILCIS.eu/XML/ERMS"
+	xmlns:svk = "https://xml.svenskakyrkan.se/ERMS-SVK-element"
+	targetNamespace="https://xml.svenskakyrkan.se/ERMS-SVK-ARENDE" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<xs:import namespace="https://DILCIS.eu/XML/ERMS" schemaLocation="../erms-3-0-0/ERMS_v3.xsd"/>
+	<xs:import namespace="https://xml.svenskakyrkan.se/ERMS-SVK-element"
+			   schemaLocation="ERMS-SVK-element.xsd"/>
+	
+	<xs:element name="ermsSvkArende">
+		<xs:annotation>
+			<xs:documentation xml:lang="sv">Elementet innehåller de anpassningar av ERMS som Svenska kyrkan använder för diarieärenden.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="ermsSvkAggregation">
+					<xs:annotation>
+						<xs:documentation>Anpassningar av elementet aggregation i ERMS</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="svk:initiative" minOccurs="0"/>
+							<xs:element ref="svk:relatedObjects" minOccurs="0"/>
+							<xs:element ref="svk:svkNotes" minOccurs="0"/>
+							<xs:element ref="svk:auditLogEvents" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ermsSvkRecord">
+					<xs:annotation>
+						<xs:documentation>Anpassningar av elementet record i ERMS</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="svk:relatedObjects" minOccurs="0"/>
+							<xs:element ref="svk:svkNotes" minOccurs="0"/>
+							<xs:element ref="svk:contractInfo" minOccurs="0"/>
+							<xs:element ref="svk:workflows" minOccurs="0"/>
+							<xs:element ref="svk:svkAppendix" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="svk:auditLogEvents" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+			<xs:attribute name="schemaVersion" type="xs:token" use="required"/>
+			<xs:attribute name="ermsSchemaVersion" type="xs:token" use="required"/>
+			<xs:attribute name="elementSchemaVersion" type="xs:decimal" use="required"/>
+			<xs:attribute name="schematronVersion" type="xs:decimal" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
