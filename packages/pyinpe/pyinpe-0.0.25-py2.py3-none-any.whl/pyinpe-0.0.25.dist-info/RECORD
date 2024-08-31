@@ -1,0 +1,13 @@
+pyinpe/OGCapiFeatures.py,sha256=YMDkVM4XAbBviTwpY7yrwLupqgde29yRKvsdM5xqRn4,8965
+pyinpe/WFS.py,sha256=1TUk110vzU1cdE9kk-MuwMMZcLi6dpArb-mJKnMFLA8,9714
+pyinpe/__init__.py,sha256=XoAC7Zho2MPEl0QKLS9jrfNJsCs1VQnLvQO-pMKtCME,128
+pyinpe/common.py,sha256=0GJ03Fp0aUdoUUNNbJkDVJ3-slb3Lgtp3UpJ3evFkto,89
+pyinpe/pyinpe.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+pyinpe/__assets__/config.json,sha256=tsxHwKwoD6fbAz8vBneXPB1QX_8YgXoOhBrAqyZunE8,1765
+pyinpe/__assets__/geocode.csv,sha256=8YkZjr-NIqslzsduJLv7-eIP1jW44HojrHGjYbkSXEQ,161167
+pyinpe-0.0.25.dist-info/LICENSE,sha256=DUEoWCfKPSIducym1lWAljmn1jhAmxjW1k4H3kJ7SMQ,1070
+pyinpe-0.0.25.dist-info/METADATA,sha256=StQbgjR57Oi_rPhYVYjptYwLjT_NfKWu7YwFzFt9LJ4,1348
+pyinpe-0.0.25.dist-info/WHEEL,sha256=WDDPHYzpiOIm6GP1C2_8y8W6q16ICddAgOHlhTje9Qc,109
+pyinpe-0.0.25.dist-info/entry_points.txt,sha256=tQ7w6KHd5SzN2GV0Y9KgkjWaPMw0qUZxChiQ4SxTQuk,43
+pyinpe-0.0.25.dist-info/top_level.txt,sha256=ifLNf3LC3nJZE-KYvMTXEV1MsvWyWLqkOgIS5BRWNas,7
+pyinpe-0.0.25.dist-info/RECORD,,
