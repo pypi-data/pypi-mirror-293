@@ -1,0 +1,6 @@
+scikit-fuzzy
+numpy
+pandas
+swmmio
+pyswmm
+matplotlib
