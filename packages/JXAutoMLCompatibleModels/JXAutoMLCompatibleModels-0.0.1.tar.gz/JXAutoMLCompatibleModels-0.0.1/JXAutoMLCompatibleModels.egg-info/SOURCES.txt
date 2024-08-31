@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+local_test.py
+requirements.txt
+setup.py
+JXAutoMLCompatibleModels/Stacking.py
+JXAutoMLCompatibleModels.egg-info/PKG-INFO
+JXAutoMLCompatibleModels.egg-info/SOURCES.txt
+JXAutoMLCompatibleModels.egg-info/dependency_links.txt
+JXAutoMLCompatibleModels.egg-info/top_level.txt
