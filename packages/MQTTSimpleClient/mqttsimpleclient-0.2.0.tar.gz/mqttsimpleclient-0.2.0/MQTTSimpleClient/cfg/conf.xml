@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<root>
+    <cartouche>
+        <customer type="str">ManzIT</customer>
+        <software>
+            <author type="str">RiccardoFilomena</author>
+            <version_number type="str">1.0.0.0</version_number>
+            <date type="str">2024-01-22</date>
+        </software>
+        <machine>
+            <model type="str">VARTAPilot2</model>
+            <serial_number type="str">XXXXXXXX</serial_number>
+        </machine>
+    </cartouche>
+    <log>
+        <folder>
+            <path type="str">log</path>
+            <name type="str">Application.log</name>
+        </folder>
+        <formatter type="str">%(asctime)s - %(name)s - %(levelname)s - %(message)s</formatter>
+        <RotatingFileHandler>
+            <file_size type="float">1e7</file_size>
+            <backup_count type="int">10</backup_count>
+        </RotatingFileHandler>
+    </log>
+    <broker_mqtt>
+        <address type="str">10.7.76.9</address>
+        <port type="int">1883</port>
+        <client_id_influxdb_ingestion type="str">CliendIdInfluxDbIngestion</client_id_influxdb_ingestion>
+        <client_id_file_ingestion type="str">CliendIdFileIngestion</client_id_file_ingestion>
+        <topic>
+            <plc_to_server type="str">FastLogger</plc_to_server>
+            <run_process type="str">RunProcess</run_process>
+            <ping type="str">Ping</ping>
+            <server_alive type="str">ServerAlive</server_alive>
+            <server_log type="str">ServerLog</server_log>
+        </topic>
+        <keep_alive type="int">60</keep_alive>
+        <send_package type="bool">True</send_package>
+    </broker_mqtt>
+    <batch_files>
+        <InfluxDB type="str">C:\\smartProductionKit\\Programs\\influxdb\\InfluxDB_backup_rev02.bat</InfluxDB>
+        <PostgreSQL type="str">tbd</PostgreSQL>
+    </batch_files>
+    <backup>
+        <DB>
+            <source_path type="str">\\SPK-SERVER01\Backup\DBs</source_path>
+            <destination_path type="str">D:\DATI_VARTA\DBs\DB_Backup</destination_path>
+        </DB>
+        <File>
+            <source_path type="str">\\SPK-SERVER01\Backup\File</source_path>
+            <destination_path type="str">D:\DATI_VARTA\File\File_Backup</destination_path>
+        </File>
+
+        <log_path type="str">log</log_path>
+        <log_file type="str">Backup.log</log_file>
+    </backup>
+    <API>
+        <folder type="str">api</folder>
+        <name type="str">api.txt</name>
+        <triggers>
+            <ClientStart type="str">ClientStart.txt</ClientStart>
+            <Ping type="str">Ping.txt</Ping>
+            <ServerOnline type="str">ServerOnline.txt</ServerOnline>
+            <RecoverStarted type="str">RecoverStarted.txt</RecoverStarted>
+            <RecoverComplete type="str">RecoverComplete.txt</RecoverComplete>
+            <RecoverNOTComplete type="str">RecoverNOTComplete.txt</RecoverNOTComplete>
+        </triggers>
+    </API>
+</root>
