@@ -1,0 +1,6 @@
+unidecode>=1.3
+
+[dev]
+flakes
+pytest
+pytest-cov
