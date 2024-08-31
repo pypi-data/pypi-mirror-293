@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/ohaws/__init__.py
+src/ohaws.egg-info/PKG-INFO
+src/ohaws.egg-info/SOURCES.txt
+src/ohaws.egg-info/dependency_links.txt
+src/ohaws.egg-info/requires.txt
+src/ohaws.egg-info/top_level.txt
+src/ohaws/s3/main.py
