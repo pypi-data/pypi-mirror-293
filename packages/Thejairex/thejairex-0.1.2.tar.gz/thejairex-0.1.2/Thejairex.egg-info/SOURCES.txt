@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+Thejairex/__init__.py
+Thejairex/agent.py
+Thejairex/proxy.py
+Thejairex.egg-info/PKG-INFO
+Thejairex.egg-info/SOURCES.txt
+Thejairex.egg-info/dependency_links.txt
+Thejairex.egg-info/requires.txt
+Thejairex.egg-info/top_level.txt
