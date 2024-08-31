@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+py.typed
+pyproject.toml
+iouopt/__init__.py
+iouopt/journal.py
+iouopt.egg-info/PKG-INFO
+iouopt.egg-info/SOURCES.txt
+iouopt.egg-info/dependency_links.txt
+iouopt.egg-info/requires.txt
+iouopt.egg-info/top_level.txt

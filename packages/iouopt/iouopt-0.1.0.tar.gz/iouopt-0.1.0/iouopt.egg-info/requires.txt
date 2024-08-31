@@ -1,0 +1,6 @@
+networkx>=3.0
+
+[ci]
+black
+isort
+mypy
