@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: SNulk
+Version: 0.1.0
+Summary: SNulk provides a means to submit a large number of templated records to a table on a ServiceNow instance based on provided data. The table, instance, template, and data are all customizable and intended to be modified to fit the situation.
+Project-URL: Homepage, https://github.com/ServiceNow/SNulk
+Project-URL: Repository, https://github.com/ServiceNow/SNulk
+Author-email: "sigmund.gorski" <sigmund.gorski@servicenow.com>
+Maintainer-email: "sigmund.gorski" <sigmund.gorski@servicenow.com>
+License: MIT License
+        
+        Copyright (c) 2024 ServiceNow, Inc.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: SNulk,ServiceNow,pysnc
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11.4
+Requires-Dist: certifi>=2024.8.30
+Requires-Dist: jsonpickle>=3.0.3
+Requires-Dist: openpyxl>=3.1.2
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: pysnc>=1.1.5
+Requires-Dist: ruamel-yaml>=0.18.6
+Requires-Dist: selenium>=4.18.1
+Requires-Dist: xlsxwriter>=3.2.0
+Description-Content-Type: text/markdown
+
+# SNulk
+
+## THIS IS A PLACEHOLDER - ACTUAL PROJECT COMING SOON
