@@ -1,0 +1,15 @@
+negromate/songs/__init__.py,sha256=7JwT5P98Pk47KwqiOfmCh2k2UE2IBSJ8e8ZT9YRr2C8,126
+negromate/songs/karaoke_templates.py,sha256=5YSOIfi4Ukfq5JTan0Fdum9u3i5ZDLcfV-SGySYqpuo,3183
+negromate/songs/loader.py,sha256=AjUmspPsL0IMrGtrKyOvnyc2qFiiTF9eDhVfC6xEPkA,6097
+negromate/songs/utils.py,sha256=Wthrs8ddNalNegWk6T2c6V-AdCqpwmdR0hL0jwBMriU,1286
+negromate/songs/commands/__init__.py,sha256=uPyutJ-a0FiNC41VH3r_-vtOoEAMeJJVwKVZcpVMj-k,3655
+negromate/songs/commands/config.py,sha256=0OD3Tykd3AduiFbQyeiEBdV9Qw5C9h7AyZWLme3PCLY,527
+negromate/songs/commands/songs.py,sha256=B3K5fxbVxhoWkqDPFPOZz-I8AtBMeZbI4XQv2Scz1rM,2131
+negromate/songs/commands/thumbnail.py,sha256=uEZVM3Giv7NFQ9C6tkJi7PvyH0CfiZxDiUkwnJCFrSI,607
+negromate.songs-1.5.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+negromate.songs-1.5.dist-info/METADATA,sha256=dMzGQqNx2QyjWEFWSBXTQhiGbFE-Z4_t8w4QJcolFok,3039
+negromate.songs-1.5.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+negromate.songs-1.5.dist-info/entry_points.txt,sha256=TqlnQnKvcsdqRAS1OGxTLYXxzXQlWft_BOEcYA7l77s,209
+negromate.songs-1.5.dist-info/top_level.txt,sha256=lHeRRGaQnJJUrT_q-Tp_q411sTidf2oHs2CrzMBu7dc,10
+negromate.songs-1.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+negromate.songs-1.5.dist-info/RECORD,,
