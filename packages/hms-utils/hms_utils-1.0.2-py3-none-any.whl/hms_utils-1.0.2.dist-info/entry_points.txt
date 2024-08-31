@@ -1,0 +1,4 @@
+[console_scripts]
+awsenv=dmichaels.awsenv:main
+publish-to-pypi=dcicutils.scripts.publish_to_pypi:main
+
