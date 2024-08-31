@@ -1,0 +1,16 @@
+scitools-iris>=3.0.2
+eccodes>=1.6.1
+
+[dev]
+mo_pack
+pre-commit
+
+[test]
+codecov
+filelock
+nox
+requests
+iris-sample-data
+pytest
+pytest-cov
+pytest-mock

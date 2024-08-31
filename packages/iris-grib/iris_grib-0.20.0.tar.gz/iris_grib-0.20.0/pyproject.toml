@@ -1,0 +1,192 @@
+# See https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+
+[build-system]
+# Defined by PEP 518
+requires = [
+    "setuptools>=64",
+    "setuptools_scm>=8.0",
+]
+# Defined by PEP 517
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    {name = "Iris-grib Contributors", email = "scitools.pub@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Unix",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+description = "Functionality for converting between weather/climate datasets stored as GRIB files and SciTools-Iris Cubes"
+dynamic = [
+    "dependencies",
+    "optional-dependencies",
+    "readme",
+    "version",
+]
+keywords = [
+    "iris",
+    "GRIB",
+    "data-analysis",
+    "earth-science",
+    "meteorology",
+]
+license = {text = "BSD-3-Clause"}
+name = "iris-grib"
+requires-python = ">=3.10"
+
+[project.urls]
+Code = "https://github.com/SciTools/iris-grib"
+Discussions = "https://github.com/SciTools/iris-grib/discussions"
+Documentation = "https://iris-grib.readthedocs.io/en/stable/"
+Issues = "https://github.com/SciTools/iris-grib/issues"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements/pypi-core.txt"}
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[tool.setuptools.dynamic.optional-dependencies]
+dev = {file = "requirements/pypi-optional-dev.txt"}
+test = {file = "requirements/pypi-optional-test.txt"}
+
+[tool.setuptools.packages.find]
+include = ["iris_grib*"]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/iris_grib/_version.py"
+local_scheme = "dirty-tag"
+version_scheme = "release-branch-semver"
+
+#------------------------------------------------------------------------------
+
+[tool.coverage.run]
+# See https://coverage.readthedocs.io/en/latest/config.html
+branch = true
+source = [
+    "src/iris_grib",
+]
+omit = [
+    "src/iris_grib/tests/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if __name__ == .__main__.:"
+]
+
+[tool.codespell]
+# See https://github.com/codespell-project/codespell/tree/master?tab=readme-ov-file#using-a-config-file
+ignore-words-list = "alpha-numeric,assertIn,degreee,discontiguities,lazyness,meaned,nin"
+skip = "./CODE_OF_CONDUCT.md,_build,*.css,*.ipynb,*.js,*.html,*.svg,*.xml,.git,generated"
+
+[tool.check-manifest]
+ignore = [
+    "src/iris_grib/_version.py",
+]
+
+[tool.mypy]
+# See https://mypy.readthedocs.io/en/stable/config_file.html
+ignore_missing_imports = true
+warn_unused_configs = true
+warn_unreachable = true
+enable_error_code = ["ignore-without-code", "truthy-bool"]
+exclude = [
+    'noxfile\.py',
+    'docs/conf\.py'
+]
+strict = false  # Default value, make true when introducing type hinting.
+
+[tool.pytest.ini_options]
+# See https://docs.pytest.org/en/stable/reference/customize.html
+addopts = [
+    "--doctest-continue-on-failure",
+    "--doctest-modules",
+    "-ra",
+    "--strict-config",
+    "--strict-markers",
+    "-v",
+]
+doctest_optionflags = "NORMALIZE_WHITESPACE ELLIPSIS NUMBER"
+# configure settings as recommended by repo-review:
+log_cli = "True"
+log_cli_level = "INFO"
+minversion = "6.0"
+testpaths = "src/iris_grib"
+xfail_strict = "True"
+
+[tool.repo-review]
+ignore = [
+    # https://learn.scientific-python.org/development/guides/style/#MY102
+    "MY102",  # MyPy show_error_codes deprecated
+    # https://learn.scientific-python.org/development/guides/style/#MY105
+    "MY105",  # MyPy redundant-expr deprecated
+    # https://learn.scientific-python.org/development/guides/style/#PC170
+    "PC170",  # Uses PyGrep hooks
+    # https://learn.scientific-python.org/development/guides/style/#PC180
+    "PC180",  # Uses prettier
+    # https://learn.scientific-python.org/development/guides/pytest/#PP309
+    "PP309",  # Filter warnings specified
+]
+
+[tool.ruff]
+# Exclude the following, in addition to the standard set of exclusions.
+# https://docs.astral.sh/ruff/settings/#exclude
+line-length = 88
+src = [
+    "src",
+    "docs",
+]
+
+[tool.ruff.format]
+docstring-code-format = true
+preview = false
+
+[tool.ruff.lint]
+ignore = [
+    # NOTE: Non-permanent exclusions should be added to the ".ruff.toml" file.
+
+    # flake8-commas (COM)
+    # https://docs.astral.sh/ruff/rules/#flake8-commas-com
+    "COM812",  # Trailing comma missing.
+    "COM819",  # Trailing comma prohibited.
+
+    # flake8-implicit-str-concat (ISC)
+    # https://docs.astral.sh/ruff/rules/single-line-implicit-string-concatenation/
+    # NOTE: This rule may cause conflicts when used with "ruff format".
+    "ISC001",  # Implicitly concatenate string literals on one line.
+    ]
+preview = false
+select = [
+    "ALL",
+
+    # pydocstyle (D)
+    # https://docs.astral.sh/ruff/rules/multi-line-summary-first-line/
+    "D212",  # Multi-line docstring summary should start at the first line
+]
+
+[tool.ruff.lint.isort]
+force-sort-within-sections = true
+known-first-party = ["iris_grib"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
