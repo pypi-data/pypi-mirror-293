@@ -1,0 +1,10 @@
+rerole_lib/__init__.py,sha256=D7Db4mkpeHRWMkN-hZ38QWEaOQpTnDN5L-YmwM18cl4,29
+rerole_lib/ability.py,sha256=r8GwbeUZFByIfp2v0_GfvSEhVx9dopQM8jC06--kVus,1159
+rerole_lib/character.py,sha256=mQi7FyPw63wiGSC4vEsPaIoitUKLY-yXb5uDde21IaA,6733
+rerole_lib/effect.py,sha256=yA_dBDM_lH4v-90yc1-yZxe9VdTdmCAcPBQWjO3oA7Q,4311
+rerole_lib/save.py,sha256=ErTw12rtZb-aXOAKxewUBj2Tvc0kF1sZFRcX-JpHQdQ,365
+rerole_lib/skill.py,sha256=TPzqVqByLOUqpd-4K-dNpAZVk4-haeamxrSVmpLzGoM,2891
+rerole_lib/utils.py,sha256=KGT-Lo8WipWdLqiGPhUNGnZ7PtUW390C2ThRufOYEhM,4058
+rerole_lib-0.7.0.dist-info/METADATA,sha256=1IkTWL5HGzuGk7T2SVa47UVcXASUU0TItfQR6Coxdlk,1316
+rerole_lib-0.7.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rerole_lib-0.7.0.dist-info/RECORD,,
