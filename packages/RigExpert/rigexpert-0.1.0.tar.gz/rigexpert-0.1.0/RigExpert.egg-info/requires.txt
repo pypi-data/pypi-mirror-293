@@ -1,0 +1,11 @@
+matplotlib
+mypy
+numpy
+scikit-rf
+
+[dev]
+build
+flake8
+isort
+pre-commit
+pylint

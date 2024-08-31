@@ -1,0 +1,2 @@
+[console_scripts]
+RigExpert = RigExpert:main
