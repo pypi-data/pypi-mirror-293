@@ -1,0 +1,9 @@
+api_24sea/__init__.py,sha256=ZJECWb8vy34bHiQ3keF6RjRQnSJOeXkPnf8rPZSflK8,517
+api_24sea/utils.py,sha256=QJ9nlCMmLfDSc7ldjPtvdywLaqd4aP6ZCmIdV1U2ZIg,1935
+api_24sea/version.py,sha256=c9lN1fWqCzE_EJTzOu0yDAG2g2Tib3Li_SIuxhxwwbE,1674
+api_24sea/datasignals/__init__.py,sha256=djK7OPgzkxER_E6CLsdURhjjp1cN9uxFlij2ss_EvPk,12676
+api_24sea/datasignals/schemas.py,sha256=TvMpcV8c9iS1RKG--qHR_wF25ZNfYnqefMzlEEpMkx4,3084
+api_24sea-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+api_24sea-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+api_24sea-0.1.0.dist-info/METADATA,sha256=mbJ86d5Umz44PNmq54D6oLNfMmgWqTqm39sZz5cawEo,4484
+api_24sea-0.1.0.dist-info/RECORD,,
