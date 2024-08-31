@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PyWeChatBot.egg-info/PKG-INFO
+PyWeChatBot.egg-info/SOURCES.txt
+PyWeChatBot.egg-info/dependency_links.txt
+PyWeChatBot.egg-info/requires.txt
+PyWeChatBot.egg-info/top_level.txt
+wechatbot/__init__.py
+wechatbot/wechat_bot.py
