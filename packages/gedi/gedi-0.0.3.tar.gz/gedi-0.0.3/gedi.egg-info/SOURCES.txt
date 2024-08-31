@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+gedi/__init__.py
+gedi/augmentation.py
+gedi/benchmark.py
+gedi/features.py
+gedi/generator.py
+gedi/plotter.py
+gedi/run.py
+gedi.egg-info/PKG-INFO
+gedi.egg-info/SOURCES.txt
+gedi.egg-info/dependency_links.txt
+gedi.egg-info/requires.txt
+gedi.egg-info/top_level.txt
