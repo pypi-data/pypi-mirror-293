@@ -1,0 +1,8 @@
+lchat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lchat/__main__.py,sha256=znYz-UyukqJBm9l1L4i2R4kbXPN8kdaeWlhb95aiv_c,1677
+lchat/app.py,sha256=WQaiplzmQgXB-5Hjl4ltT-a087ZTEa7uHHMKD-GV0uU,8715
+lchat-0.2.0.dist-info/entry_points.txt,sha256=8zCly_ktyW8gHObw6ajZTlevYCEf117V0e2U4lb3f-4,45
+lchat-0.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+lchat-0.2.0.dist-info/METADATA,sha256=shZkupJ_sSSO42Qa61lBtgTnHxzFajejGFFeTAJv7aE,1881
+lchat-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+lchat-0.2.0.dist-info/RECORD,,
