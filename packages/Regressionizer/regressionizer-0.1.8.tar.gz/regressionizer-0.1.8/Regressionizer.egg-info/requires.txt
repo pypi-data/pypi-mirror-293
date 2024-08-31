@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+plotly
+datetime
+QuantileRegression>=0.1.4
+OutlierIdentifiers>=0.1.2
