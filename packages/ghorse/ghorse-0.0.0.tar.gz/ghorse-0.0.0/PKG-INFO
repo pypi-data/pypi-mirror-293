@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ghorse
+Version: 0.0.0
+Summary: Python graph C extension.
+Author-email: Eric Wang <ericwangyy@g.ucla.edu>
+License: MIT License
+Keywords: graph
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# ghorse
+
+Python graph C extension.

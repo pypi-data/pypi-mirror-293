@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools >= 63.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghorse"
+version = "0.0.0"
+requires-python = ">=3.10"
+authors = [{ name = "Eric Wang", email = "ericwangyy@g.ucla.edu" }]
+description = "Python graph C extension."
+readme = "README.md"
+license = { text = "MIT License" }
+keywords = ["graph"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.ruff]
+src = ["src"]
+lint.select = ["E", "F", "I", "N", "D"]
+lint.ignore = ["D107", "D203", "D213"]
+extend-exclude = ["docs/", "tests/"]
+
+[tool.isort]
+profile = "black"
