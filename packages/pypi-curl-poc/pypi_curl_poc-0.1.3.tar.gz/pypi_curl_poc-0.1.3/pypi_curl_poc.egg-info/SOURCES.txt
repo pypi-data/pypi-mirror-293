@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pypi-curl-poc/__init__.py
+pypi_curl_poc.egg-info/PKG-INFO
+pypi_curl_poc.egg-info/SOURCES.txt
+pypi_curl_poc.egg-info/dependency_links.txt
+pypi_curl_poc.egg-info/requires.txt
+pypi_curl_poc.egg-info/top_level.txt
