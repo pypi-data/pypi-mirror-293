@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: NCBDC_zdzzsc
+Version: 0.0.3
+Summary: 自用，切勿下载
+Home-page: https://github.com/yourusername/NCBDC_zdzzsc
+Author: 孙畅
+Author-email: zdzzsc@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# My Library
+
+竞赛自用库函数，切勿下载，下载也没啥用。。。
+
+
+## Installation
+
+
+pip install NCBDC-zdzzsc
+import NCBDC_zdzzsc
