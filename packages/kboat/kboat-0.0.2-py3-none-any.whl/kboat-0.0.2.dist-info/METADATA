@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kboat
+Version: 0.0.2
+Summary: PYPI tutorial package creation written by TeddyNote
+Home-page: https://github.com/somsaetang/kboat
+Author: somsaetnag
+Author-email: somsaetang@naver.com
+Keywords: kboat,경정
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+
