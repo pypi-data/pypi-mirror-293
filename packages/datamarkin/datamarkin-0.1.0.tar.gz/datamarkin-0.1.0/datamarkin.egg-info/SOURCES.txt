@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+datamarkin/__init__.py
+datamarkin/core.py
+datamarkin.egg-info/PKG-INFO
+datamarkin.egg-info/SOURCES.txt
+datamarkin.egg-info/dependency_links.txt
+datamarkin.egg-info/top_level.txt
