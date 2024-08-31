@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+algomock/__init__.py
+algomock/generator.py
+algomock/utils.py
+algomock.egg-info/PKG-INFO
+algomock.egg-info/SOURCES.txt
+algomock.egg-info/dependency_links.txt
+algomock.egg-info/top_level.txt
+tests/__init__.py
+tests/test_generator.py
