@@ -1,0 +1,13 @@
+datatoword/__init__.py,sha256=Uo7ciYgiWqQ6D2Ocjj0vMYNRqIxmBrCL3X3D3A3Kcvo,35
+datatoword/conftest.py,sha256=u5WX_hEWroH4E-sA6znaBnW-NqCVRSzAdP24aaAo9fE,503
+datatoword/datatoword.py,sha256=uBRhNV24Didt_Ijt1oj8yxAxV16AMw9yAqvhTfbgIP0,1568
+datatoword/loaders/__init__.py,sha256=IfiOniY3Sk1454pOVHA8vmKNdAmLFo0YBAkJ1IgzJkU,1987
+datatoword/loaders/csv.py,sha256=Txvkh65sIBaiFB-z6c4v8Ce3nQAo4IEVCcwDCjMSrBA,2281
+datatoword/loaders/factory.py,sha256=U24P70MacBPD-h6TSrHpFLOi_0WrsYAlOg-L4570Ihc,751
+datatoword/loaders/json.py,sha256=2TRlrqKiPyfNAEL-f2lSNCQtCumnRYpsvU59JhH99OE,2332
+datatoword/loaders/tests.py,sha256=W-kBW-GuhC3fXiTnh-aDcxPjDmPZAl9c-F2FcRwZMyU,3422
+datatoword/tests.py,sha256=imOvrI4DpjgiR6EdS1BsQOz05zKFMs8PSmKdrXwkCRc,1073
+datatoword-0.7.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datatoword-0.7.0.dist-info/METADATA,sha256=3XijYjmVb4Nzpx7UpsDx00fpO2TSvtYTSw3Ny1QfJDY,1867
+datatoword-0.7.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+datatoword-0.7.0.dist-info/RECORD,,
