@@ -1,0 +1,11 @@
+README.md
+setup.py
+scrapeall/__init__.py
+scrapeall/parse.py
+scrapeall/utils.py
+scrapeall.egg-info/PKG-INFO
+scrapeall.egg-info/SOURCES.txt
+scrapeall.egg-info/dependency_links.txt
+scrapeall.egg-info/requires.txt
+scrapeall.egg-info/top_level.txt
+tests/__init__.py
