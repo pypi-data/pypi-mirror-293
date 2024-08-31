@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/cli.py
+src/main.py
+src/core/db.py
+src/core/commands/delete.py
+src/core/commands/get.py
+src/core/commands/list.py
+src/core/commands/store.py
+src/core/commands/update.py
+src/keybin.egg-info/PKG-INFO
+src/keybin.egg-info/SOURCES.txt
+src/keybin.egg-info/dependency_links.txt
+src/keybin.egg-info/requires.txt
+src/keybin.egg-info/top_level.txt

@@ -1,0 +1,31 @@
+[project]
+name = "keybin"
+version = "1.0.0"
+authors = [
+  { name="Yeshwant Kuriyavar", email="yeshwa916@gmail.com" },
+]
+description = "keybin is a command-line interface tool built with python for secure management of API and secret keys using the Panega Vault service."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "certifi==2024.7.4",
+    "charset-normalizer==3.3.2",
+    "dnspython==2.6.1",
+    "idna==3.8",
+    "pangea==0.1.0",
+    "pymongo==4.8.0",
+    "pyperclip==1.9.0",
+    "python-dotenv==1.0.1",
+    "requests==2.32.3",
+    "urllib3==2.2.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/Yeva916/keybin"
+Issues = "https://github.com/Yeva916/keybin/issues"
+
