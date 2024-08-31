@@ -1,0 +1,5 @@
+adb.py
+main_adb.egg-info/PKG-INFO
+main_adb.egg-info/SOURCES.txt
+main_adb.egg-info/dependency_links.txt
+main_adb.egg-info/top_level.txt
