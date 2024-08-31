@@ -1,0 +1,11 @@
+python_recipy-0.1.9.dist-info/METADATA,sha256=nlIuyUVgFILUhBKIuDYUxn9gCFdU2xqbtG1cDeeCeAk,12140
+python_recipy-0.1.9.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+python_recipy-0.1.9.dist-info/licenses/LICENSE,sha256=dLNEpDKIKDyniWs42Fm9a5EDURC7nGmFavvGCgH_ZeQ,611
+recipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recipy/json_ld.py,sha256=TvSGJ8EYNgipuKJEGb9AsCzJVi3Mk7Sm5enGpvdi7mQ,14157
+recipy/latex.py,sha256=tJIzFqPjH8ZsfFhEMnpW4wckikLXa22HrT5Y7nSwtAI,5199
+recipy/markdown.py,sha256=IS0v1c-7ndMv2PU32VphmKSx3-milnazM1zf5Qv9Dgw,7197
+recipy/models.py,sha256=Br2Bc3MEVWl4Ib_R9AiMzRnGGjmgsK2HJqpJda9W4Z8,3259
+recipy/pdf.py,sha256=N_kR6tCF2xP8wPWZR_E0bikwm7GTM_KL-o1_BMRCGrA,2164
+recipy/utils.py,sha256=LVjAiY58PeWNbK_8IuCX6mYFVcX9qUeMr9l0HbtvNcE,5020
+python_recipy-0.1.9.dist-info/RECORD,,
