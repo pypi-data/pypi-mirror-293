@@ -1,0 +1,8 @@
+pyproject.toml
+readme.md
+sqlitestorage/__init__.py
+sqlitestorage/storage.py
+sqlitestorage.egg-info/PKG-INFO
+sqlitestorage.egg-info/SOURCES.txt
+sqlitestorage.egg-info/dependency_links.txt
+sqlitestorage.egg-info/top_level.txt
