@@ -1,0 +1,10 @@
+README.md
+setup.py
+fut_card_creator/__init__.py
+fut_card_creator/fut_card_creator.py
+fut_card_creator/utils.py
+fut_card_creator.egg-info/PKG-INFO
+fut_card_creator.egg-info/SOURCES.txt
+fut_card_creator.egg-info/dependency_links.txt
+fut_card_creator.egg-info/requires.txt
+fut_card_creator.egg-info/top_level.txt
