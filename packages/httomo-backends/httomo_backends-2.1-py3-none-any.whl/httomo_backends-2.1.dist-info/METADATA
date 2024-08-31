@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: httomo-backends
+Version: 2.1
+Summary: Supplementary files for HTTomo backends.
+Author: Garry ODonnell, Jacob Williamson
+Author-email: Daniil Kazantsev <daniil.kazantsev@diamond.ac.uk>, Yousef Moazzam <yousef.moazzam@diamond.ac.uk>, Jessica Verschoyle <jessica.verschoyle@diamond.ac.uk>, Naman Gera <naman.gera@diamond.ac.uk>, scientificsoftware@diamond.ac.uk
+License: BSD-3-Clause
+Project-URL: repository, https://github.com/DiamondLightSource/httomo-backends
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+
+# httomo-backends
+test for httomo-backends package
