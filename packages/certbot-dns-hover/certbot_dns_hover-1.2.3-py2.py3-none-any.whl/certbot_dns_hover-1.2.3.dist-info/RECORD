@@ -1,0 +1,10 @@
+certbot_dns_hover/HoverClient.py,sha256=K0FS6h42hn4uJ5h37CbytFgXrK70fGoaFWQu8Q41tyg,22622
+certbot_dns_hover/__init__.py,sha256=KrF-X2FKSMifppAffVdHPZj-skHuGV4c_dxYU02LWA0,3258
+certbot_dns_hover/dns_hover.py,sha256=8JXga50Q-AiAhgKpE_eebVENItCs6t5vTR7sC8Wnnf8,3638
+certbot_dns_hover/dns_hover_test.py,sha256=Sk-u2JbTM_Qgsvc-YUSbapjMwciVOnW7Bm68u57Yau4,5939
+certbot_dns_hover-1.2.3.dist-info/LICENSE.txt,sha256=LMXecVrlqXbwhvukkwiAyeQhkUFz_IURG_9RTUdXEj8,10786
+certbot_dns_hover-1.2.3.dist-info/METADATA,sha256=kpngiq3AeVmi62ixds428uaRdHrkaBFfw_8WG9bES1Q,6928
+certbot_dns_hover-1.2.3.dist-info/WHEEL,sha256=fS9sRbCBHs7VFcwJLnLXN1MZRR0_TVTxvXKzOnaSFs8,110
+certbot_dns_hover-1.2.3.dist-info/entry_points.txt,sha256=XRYL1J6EiBBj8YxUoDJeYPIEWOv6CwUteHt_v84-huM,72
+certbot_dns_hover-1.2.3.dist-info/top_level.txt,sha256=_lhv0RGFWeByPSpdTa5BmolhHXUvgOxL70Xkql4oYqE,18
+certbot_dns_hover-1.2.3.dist-info/RECORD,,
