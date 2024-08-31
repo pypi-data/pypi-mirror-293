@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: helloworld_by_shaukat
+Version: 0.0.1
+Summary: A simple helloworld package.
+Author: Shaukat Ali Khan
+Author-email: youngdevelopersk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+ A simple helloworld package to test package deployment on pypi.

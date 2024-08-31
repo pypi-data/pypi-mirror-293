@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+template.py
+helloworld_by_shaukat.egg-info/PKG-INFO
+helloworld_by_shaukat.egg-info/SOURCES.txt
+helloworld_by_shaukat.egg-info/dependency_links.txt
+helloworld_by_shaukat.egg-info/top_level.txt
