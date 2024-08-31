@@ -1,0 +1,3 @@
+[console_scripts]
+code8 = code8.cli:main
+
