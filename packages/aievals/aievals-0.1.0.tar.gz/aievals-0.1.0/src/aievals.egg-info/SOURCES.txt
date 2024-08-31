@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/aievals/__ini__.py
+src/aievals/main.py
+src/aievals.egg-info/PKG-INFO
+src/aievals.egg-info/SOURCES.txt
+src/aievals.egg-info/dependency_links.txt
+src/aievals.egg-info/top_level.txt
+tests/test_main.py
