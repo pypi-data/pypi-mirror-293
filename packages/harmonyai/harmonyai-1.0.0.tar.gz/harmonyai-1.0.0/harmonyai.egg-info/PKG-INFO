@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: harmonyai
+Version: 1.0.0
+Summary: A package for nothing
+Author: petteer1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: SpeechRecognition
+Requires-Dist: pygame
+Requires-Dist: gTTS
+Requires-Dist: beautifulsoup4
+Requires-Dist: spotipy
+Requires-Dist: requests
+Requires-Dist: pyaudio
+Requires-Dist: distutils-pytest
+Requires-Dist: pycaw
+Requires-Dist: comtypes
+
+# A conversational chatbot Harmony AI
