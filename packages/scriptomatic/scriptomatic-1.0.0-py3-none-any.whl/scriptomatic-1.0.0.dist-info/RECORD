@@ -1,0 +1,6 @@
+src/llm.py,sha256=pr4umbgDwLxnvRln4yTTlcX8Bcio_ZMSoDOjve7REro,13041
+src/scriptomatic.py,sha256=E3GR5cl_uc9OieM4A7BvOgLJjWSBy-CjefL-NtMxCgM,8198
+scriptomatic-1.0.0.dist-info/METADATA,sha256=GvkXN_gTtOKZvYm8MxcAQ8U2pzjWH2FosvMPVGl86Og,1106
+scriptomatic-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+scriptomatic-1.0.0.dist-info/entry_points.txt,sha256=LwElH_lFg0QyoKeBnI-bLvj4YOBno-OEMngubNaa3SM,44
+scriptomatic-1.0.0.dist-info/RECORD,,
