@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gh_manager
+Version: 0.1.0
+Summary: A versatile toolkit for managing GitHub repositories, users, and personal access tokens.
+Home-page: https://github.com/yourusername/gh_manager
+Author: Greg Chism
+Author-email: Greg Chism <gchism@arizona.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/Gchism94/gh_manager
+Keywords: GitHub,repository management,automation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.0.0
+
+# gh_manager
+ The package `gh_manager` is a versatile toolkit for managing GitHub repositories, users, and personal access tokens. It provides easy-to-use functions and command-line tools for common tasks such as repository management, user administration, token handling, and scope verification, streamlining GitHub workflows for developers and administrators.
+ 

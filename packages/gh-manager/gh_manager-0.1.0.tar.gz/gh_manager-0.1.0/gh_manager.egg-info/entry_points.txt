@@ -1,0 +1,6 @@
+[console_scripts]
+add-file = gh_manager.repo_file_add:main
+add-user = gh_manager.org_username_add:main
+delete-repo = gh_manager.delete_repo:main
+github-token = gh_manager.github_token_manager:main
+update-file = gh_manager.repo_file_update:main

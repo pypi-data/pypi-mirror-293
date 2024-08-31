@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gh_manager"
+version = "0.1.0"
+description = "A versatile toolkit for managing GitHub repositories, users, and personal access tokens."
+authors = [
+    { name = "Greg Chism", email = "gchism@arizona.edu" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["GitHub", "repository management", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+
+dependencies = [
+    "requests>=2.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Gchism94/gh_manager"
+
+# Entry points for command-line scripts
+[project.scripts]
+delete-repo = "gh_manager.delete_repo:main"
+add-user = "gh_manager.org_username_add:main"
+add-file = "gh_manager.repo_file_add:main"
+update-file = "gh_manager.repo_file_update:main"
+github-token = "gh_manager.github_token_manager:main"
