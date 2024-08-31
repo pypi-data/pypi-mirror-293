@@ -1,0 +1,29 @@
+[project]
+name = "pypomp"
+version = "0.0.1"
+authors = [
+    { name = "Kevin Tan", email = "kevtan@wharton.upenn.edu" },
+    { name = "Jun Chen", email = "chenjunc@umich.edu" },
+    { name = "Jesse Wheeler", email = "jeswheel@umich.edu" },
+    { name = "Edward Ionides", email = "ionides@umich.edu" },
+]
+maintainers = [
+    { name = "Edward Ionides", email = "ionides@umich.edu" },
+    { name = "Kevin Tan", email = "kevtan@wharton.upenn.edu" },
+]
+description = "Modeling and inference using partially observed Markov process (POMP) models"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ionides/pomp-py"
+Issues = "https://github.com/ionides/pomp-py/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
