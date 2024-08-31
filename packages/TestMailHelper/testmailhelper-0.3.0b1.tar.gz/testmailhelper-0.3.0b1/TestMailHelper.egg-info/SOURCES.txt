@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+TestMailHelper.egg-info/PKG-INFO
+TestMailHelper.egg-info/SOURCES.txt
+TestMailHelper.egg-info/dependency_links.txt
+TestMailHelper.egg-info/requires.txt
+TestMailHelper.egg-info/top_level.txt
+testmailhelper/__init__.py
+testmailhelper/client.py
