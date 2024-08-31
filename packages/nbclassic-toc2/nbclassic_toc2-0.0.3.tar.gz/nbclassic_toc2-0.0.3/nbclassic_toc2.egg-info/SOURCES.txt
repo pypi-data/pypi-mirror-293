@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+jupyter-config/toc2.json
+nbclassic_toc2.egg-info/PKG-INFO
+nbclassic_toc2.egg-info/SOURCES.txt
+nbclassic_toc2.egg-info/dependency_links.txt
+nbclassic_toc2.egg-info/not-zip-safe
+nbclassic_toc2.egg-info/requires.txt
+nbclassic_toc2.egg-info/top_level.txt
+static/toc2/main.css
+static/toc2/main.js
+static/toc2/toc2.js
