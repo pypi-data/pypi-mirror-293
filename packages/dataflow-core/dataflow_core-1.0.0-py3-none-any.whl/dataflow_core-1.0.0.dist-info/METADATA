@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dataflow-core
+Version: 1.0.0
+Summary: Dataflow core package
+Home-page: UNKNOWN
+Author: Dataflow
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sqlalchemy
+Requires-Dist: boto3
+
+UNKNOWN
+
+
