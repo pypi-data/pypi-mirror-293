@@ -1,0 +1,9 @@
+types-aiobotocore
+botocore-stubs
+
+[:python_version < "3.12"]
+typing-extensions>=4.1.0
+
+[aiobotocore]
+aiobotocore==2.13.1
+botocore==1.34.131
