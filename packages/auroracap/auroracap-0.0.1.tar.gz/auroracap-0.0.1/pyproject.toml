@@ -1,0 +1,18 @@
+[project]
+name = "auroracap"
+version = "0.0.1"
+authors = [
+  { name="Wenhao Chai", email="wchai@uw.edu" },
+]
+description = "Source code of AuroraCap"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://huggingface.co/Reself/AuroraCap-7B-VID"
+Issues = "https://huggingface.co/Reself/AuroraCap-7B-VID"
