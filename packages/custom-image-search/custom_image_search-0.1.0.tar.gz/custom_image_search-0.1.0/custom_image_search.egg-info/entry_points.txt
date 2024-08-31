@@ -1,0 +1,2 @@
+[console_scripts]
+custom-image-search = custom_image_search.custom_image_search:custom_image_search
