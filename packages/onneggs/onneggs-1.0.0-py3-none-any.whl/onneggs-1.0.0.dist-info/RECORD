@@ -1,0 +1,13 @@
+onneggs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onneggs/__main__.py,sha256=tCFTpMELxhHrDR1mERfEmvX858gG5nRi05fmUSWPX1s,781
+onneggs/convert_to_egg.py,sha256=J9suYJlXQrTGfnUf7cVEbgjk7mZN2Nz5Z3otiFiv52o,2129
+onneggs/convert_to_onnx.py,sha256=IHoqk_dttKn9QHaTVQcMDJSt-Ta1fDm4yptqydiAtjA,5384
+onneggs/egg_conversion_strategies.py,sha256=C4oZw28bqD17KrXsrEuKXm6mIxbaU04iU8kGTWwgCOY,2930
+onneggs/folder.py,sha256=5XKuDEkY3WfWUo8HuV5wDbv0WKUPtGcCkJn7lsSk50A,326
+onneggs/folding_test_generator.py,sha256=YQVSElfDwwnVVdAr6qTVTy1oMKdw49LdtCb9CLNKV88,1852
+onneggs/helpers.py,sha256=A7PSHe5qOfOaJOEqHINAl9fWZDtfVkG6ZiibAxrpDrk,479
+onneggs/onnx_tracking.py,sha256=mYlBczitOdVpDw5WTKMy0iuM2XHY_PuWRvquHcQrG8c,160
+onneggs/singleton_hell.py,sha256=D7tfIT-drM79eVTk-pkGD4uIGr1n_hjqDNAv3SlPx1w,1739
+onneggs-1.0.0.dist-info/METADATA,sha256=BIkejVmvmeL66D3aqJzUewE3EeOlz7merBJhwS92SOo,1485
+onneggs-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+onneggs-1.0.0.dist-info/RECORD,,
