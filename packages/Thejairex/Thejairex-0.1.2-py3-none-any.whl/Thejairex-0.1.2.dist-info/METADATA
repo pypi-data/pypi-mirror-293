@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Thejairex
+Version: 0.1.2
+Summary: My personal package
+Author: Thejaiex
+Author-email: yairjesus777@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: fake-useragent
+Requires-Dist: requests
+
