@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: holobit
+Version: 0.1.0
+Summary: A quantum holographic library for simulating and visualizing quantum states.
+Home-page: https://github.com/Alphonsus411/holobit
+Author: Adolfo González Hernández
+Author-email: adolfogonzal@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+# Holobit: A Quantum Holographic Library
+
+## Introduction
+Holobit is a Python library designed to simulate and visualize quantum states using holographic principles. It integrates quark interactions, gluon dynamics, fractal projections, and more, within a dodecahedral structure governed by the golden ratio.
+
+## Installation
+To install Holobit, clone the repository and run:
+pip install -e
+
+
+## Usage
+Here is a simple example to create and visualize a Holobit system:
+
+```python
+from holobit import HolobitFractalSystem
+
+# Initialize a Holobit system with 3 dimensions and 5 iterations
+system = HolobitFractalSystem(dimensions=3, iterations=5)
+
+# Simulate interactions
+system.simulate_interactions()
+
+# Visualize the system
+system.visualize_system()
+
+
+
