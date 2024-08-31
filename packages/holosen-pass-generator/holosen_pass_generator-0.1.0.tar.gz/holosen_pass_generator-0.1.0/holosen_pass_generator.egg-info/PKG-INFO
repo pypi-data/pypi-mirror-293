@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: holosen-pass-generator
+Version: 0.1.0
+Summary: A simple Python library to generate 3 type of password
+Home-page: https://github.com/badrnezhad/password-generator
+Author: Python Knight
+Author-email: holosenpythonknight@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Password Generator
+
+A simple Python library to generate 3 type of password.
+1) Simple
+2) Medium
+3) Complex
+
+## Installation
+
+```bash
+pip install holosen-pass-generator
