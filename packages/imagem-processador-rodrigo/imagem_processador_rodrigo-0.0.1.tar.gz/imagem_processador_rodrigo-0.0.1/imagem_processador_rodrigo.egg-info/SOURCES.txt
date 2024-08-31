@@ -1,0 +1,10 @@
+README.md
+setup.py
+imagem_processador_rodrigo.egg-info/PKG-INFO
+imagem_processador_rodrigo.egg-info/SOURCES.txt
+imagem_processador_rodrigo.egg-info/dependency_links.txt
+imagem_processador_rodrigo.egg-info/requires.txt
+imagem_processador_rodrigo.egg-info/top_level.txt
+package_rodrigo/__init__.py
+package_rodrigo/file2_name.py
+package_rodrigo/processador.py.py
