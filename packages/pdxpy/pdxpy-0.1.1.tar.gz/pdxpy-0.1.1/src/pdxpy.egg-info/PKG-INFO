@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pdxpy
+Version: 0.1.1
+Summary: A small package to convert python data structures to Pdxscript.
+Author-email: Rskhm <rskhm.3@gmail.com>
+Project-URL: Homepage, https://github.com/xxxAnn/pdxpy
+Project-URL: Issues, https://github.com/xxxAnn/pdxpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pdxpy
+
+Converter for Python data structures to pdxscript.
+
+For example, 
+```
+"test_effect": {
+    "if": [
+        {
+            "limit": {
+                "NOT": {
+                    "has_variable": "some_variable"
+                }
+            }
+        },
+        {
+            "set_variable": "some_variable"
+        }
+    ]
+}
+```
+
+gets converted to 
+
+```
+test_effect = {
+    if = {
+        limit = {
+            NOT = { 
+                has_variable = some_variable
+            }
+        }
+        set_variable = some_variable
+    }
+}
+```
