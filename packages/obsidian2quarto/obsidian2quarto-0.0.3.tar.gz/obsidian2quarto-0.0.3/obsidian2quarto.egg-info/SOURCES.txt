@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+obsidian2quarto/__init__.py
+obsidian2quarto/_modidx.py
+obsidian2quarto/core.py
+obsidian2quarto.egg-info/PKG-INFO
+obsidian2quarto.egg-info/SOURCES.txt
+obsidian2quarto.egg-info/dependency_links.txt
+obsidian2quarto.egg-info/entry_points.txt
+obsidian2quarto.egg-info/not-zip-safe
+obsidian2quarto.egg-info/requires.txt
+obsidian2quarto.egg-info/top_level.txt
