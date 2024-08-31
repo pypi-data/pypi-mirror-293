@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"main"
+
+
+import sys
+
+
+from obx.errors  import errors
+from obx.persist import skel
+from obx.main    import cmnd, enable, scan, wrap
+from obx.parse   import parse
+from obx.runtime import Cfg
+from obx.utils   import modnames
+
+
+from obx import modules
+
+
+def main():
+    "main"
+    parse(Cfg, " ".join(sys.argv[1:]))
+    skel()
+    enable(print)
+    Cfg.dis = Cfg.sets.dis
+    Cfg.mod += "," + ",".join(modnames(modules))
+    scan(Cfg.mod, modules)
+    cmnd(Cfg.otxt, print)
+
+
+if __name__ == "__main__":
+    wrap(main)
+    errors()
