@@ -1,0 +1,9 @@
+numpy
+pandas>=2.2.0
+scipy
+
+[dev]
+pre-commit
+pytest
+pytest-cov
+versioneer
