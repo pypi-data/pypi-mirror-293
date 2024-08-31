@@ -1,0 +1,5 @@
+[console_scripts]
+obsidian2quarto = obsidian2quarto.core:obsidian2quarto
+
+[nbdev]
+obsidian2quarto = obsidian2quarto._modidx:d
