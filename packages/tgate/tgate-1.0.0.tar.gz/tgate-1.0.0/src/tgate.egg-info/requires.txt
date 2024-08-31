@@ -1,0 +1,5 @@
+diffusers>=0.29.0
+transformers
+DeepCache==0.1.1
+torch
+accelerate
