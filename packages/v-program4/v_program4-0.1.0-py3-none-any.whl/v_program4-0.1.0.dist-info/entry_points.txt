@@ -1,0 +1,2 @@
+[console_scripts]
+v-program4-cli = v_program4.cli:main
