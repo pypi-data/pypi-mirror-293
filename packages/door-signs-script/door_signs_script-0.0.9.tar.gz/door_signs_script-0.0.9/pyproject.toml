@@ -1,0 +1,27 @@
+[project]
+name = "door_signs_script"
+version = "0.0.9"
+authors = [
+  { name="Adam Hetherwick", email="adamhetherwick@gmail.com" },
+]
+maintainers = [
+    {name = 'Adam Hetherwick', email = 'adamhetherwick@gmail.com'},
+    {name = 'Patrick Huck', email = 'phuck@lbl.gov'}
+]
+description = "LBL used package for automatic door sign creation"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ['pandas==1.5.2', 'pdfrw==0.4', 'PyPDF2==3.0.1', 'reportlab==4.2.2']
+license = {file = 'LICENSE'}
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/AJHetherwick/Door_Signs"

@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/door_signs_script/Door_Sign_Script_General.py
+src/door_signs_script/__init__.py
+src/door_signs_script.egg-info/PKG-INFO
+src/door_signs_script.egg-info/SOURCES.txt
+src/door_signs_script.egg-info/dependency_links.txt
+src/door_signs_script.egg-info/requires.txt
+src/door_signs_script.egg-info/top_level.txt
