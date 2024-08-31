@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+plover_custom_folding/EngineGetterExtension.py
+plover_custom_folding/PythonDictionary.py
+plover_custom_folding/PythonFoldingDictionary.py
+plover_custom_folding/__init__.py
+plover_custom_folding.egg-info/PKG-INFO
+plover_custom_folding.egg-info/SOURCES.txt
+plover_custom_folding.egg-info/dependency_links.txt
+plover_custom_folding.egg-info/entry_points.txt
+plover_custom_folding.egg-info/requires.txt
+plover_custom_folding.egg-info/top_level.txt
+plover_custom_folding.egg-info/zip-safe
+plover_custom_folding/lib/Rule.py
+plover_custom_folding/lib/builder.py
+plover_custom_folding/lib/util.py

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: plover-custom-folding
+Version: 0.0.0
+Summary: Define custom folding rules (e.g., prefix folds)
+Keywords: plover plover_plugin
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: plover>=4.0.0-rc2
