@@ -1,0 +1,7 @@
+protobuf>=4.21.0
+
+[test]
+pytest-cov
+pylint
+flake8
+black
