@@ -1,0 +1,16 @@
+black[jupyter]>=21
+
+[dev]
+build==1
+twine==5
+
+[test]
+flake8==7
+flake8-docstrings==1.7
+jupyterlab>=4
+mypy==1
+notebook>=7
+pep8-naming==0.14
+playwright==1.46
+pytest==8
+tox==4
