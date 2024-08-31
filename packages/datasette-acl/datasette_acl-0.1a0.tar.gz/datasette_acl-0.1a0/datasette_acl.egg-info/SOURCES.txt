@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+datasette_acl/__init__.py
+datasette_acl.egg-info/PKG-INFO
+datasette_acl.egg-info/SOURCES.txt
+datasette_acl.egg-info/dependency_links.txt
+datasette_acl.egg-info/entry_points.txt
+datasette_acl.egg-info/requires.txt
+datasette_acl.egg-info/top_level.txt
+datasette_acl/templates/table_acls.html
+tests/test_acl.py
