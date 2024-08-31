@@ -1,0 +1,11 @@
+Click
+openai
+requests
+Pillow
+gitpython
+flask
+PyQt5
+setuptools
+paramiko
+cryptography
+markdown
