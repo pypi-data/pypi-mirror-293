@@ -1,0 +1,13 @@
+grafap/__init__.py,sha256=tzMbFBpTYIgnJUllKipS8_mEdiioR97llnHhKDMmnK4,22
+grafap/auth.py,sha256=0tQSgj3lP7cWXW3UOjNkqebHlCQ8-46_6r8e3o7LGN4,8150
+grafap/grafap.py,sha256=UgLR0oNUuwVBby0HIbrFnGdj0nz1JyRrVrq3KKAWS8c,165
+grafap/lists.py,sha256=5jS7C9wXLfKuNbNqlMzKsEJElZW2opeJxJvA8s_lYP0,6970
+grafap/onenote.py,sha256=VbZCnqRDbjm9cxi5Icfdu8L9Mmp8CSuY50PDno3e_Ek,2549
+grafap/sites.py,sha256=lZr-wgnEO1cHqylMxsukJ9JRMyn_rhYk1QjpEDPUcfk,1234
+grafap/termstore.py,sha256=zRRtNSr4zPQKm6HWWWOvncLFpgoeFvbKtdwOZ2bGKnQ,881
+grafap/users.py,sha256=_maN5VbWmtePByO2s39wyrJATboOrPIWsfjQJ22f8Ys,6718
+grafap-0.1.4.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+grafap-0.1.4.dist-info/METADATA,sha256=rBUv-3uAECUGUEN-WrJ6yJPGLmhnLc19-u45PWlDlJE,5911
+grafap-0.1.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+grafap-0.1.4.dist-info/top_level.txt,sha256=R2uU1wbrX5SiebLhx3jo_uhUh09e6kzk0P8jX7hpfyA,7
+grafap-0.1.4.dist-info/RECORD,,
