@@ -1,0 +1,8 @@
+setup.py
+knotification/__init__.py
+knotification/__main__.py
+knotification.egg-info/PKG-INFO
+knotification.egg-info/SOURCES.txt
+knotification.egg-info/dependency_links.txt
+knotification.egg-info/requires.txt
+knotification.egg-info/top_level.txt
