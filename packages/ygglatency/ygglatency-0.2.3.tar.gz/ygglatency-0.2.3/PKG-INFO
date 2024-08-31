@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ygglatency
+Version: 0.2.3
+Summary: Find the fastest Yggdrasil peers.
+Home-page: http://github.com/zquestz/ygglatency
+Author: quest
+Author-email: quest@mac.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: icmplib
+
+ygglatency
+==========
+
+Find the fastest Yggdrasil peers. https://yggdrasil-network.github.io/.
+
+Install/Usage
+-------------
+
+- pip install ygglatency
+- ygglatency
