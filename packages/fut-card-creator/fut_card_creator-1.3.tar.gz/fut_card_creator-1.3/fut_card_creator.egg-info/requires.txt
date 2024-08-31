@@ -1,0 +1,4 @@
+Pillow>=8.0.0
+requests>=2.0.0
+fuzzywuzzy[speedup]>=0.18.0
+python-Levenshtein>=0.12.0
