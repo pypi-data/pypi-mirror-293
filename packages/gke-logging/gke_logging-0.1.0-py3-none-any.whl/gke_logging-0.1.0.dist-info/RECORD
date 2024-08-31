@@ -1,0 +1,10 @@
+gke_logging/__init__.py,sha256=XUevPXgzw64b-juNfpOEajoLhywxDCvmvkpQyd2H8yY,101
+gke_logging/asgi.py,sha256=3havPWqRCD93a9E8D9ykG8G9kYm-33w4EHpiS1p9x54,6131
+gke_logging/context.py,sha256=cjGq7sGd_Lw3Krc2iE2pd-o7eP0zxaG7LMuWuqvIhJU,1837
+gke_logging/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gke_logging/pylogging.py,sha256=Sg6hkTMGcjIBhnQoFfkAGYQx-OCEBINETleiehWh8o4,2722
+gke_logging/types.py,sha256=nnUYYBUigOw53BWIHGpLHU8nHJNZshLcTTfgK8hLb_E,2994
+gke_logging-0.1.0.dist-info/LICENSE,sha256=6eaM2YlwRWmmOnTaN5l3eKG-QlsfBoinLUfF0H2VZ4w,1066
+gke_logging-0.1.0.dist-info/METADATA,sha256=o1Gi0NQumrrUt80aUd_ITd1wcj3LtQFzMoCGOiM8X8c,5677
+gke_logging-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gke_logging-0.1.0.dist-info/RECORD,,
