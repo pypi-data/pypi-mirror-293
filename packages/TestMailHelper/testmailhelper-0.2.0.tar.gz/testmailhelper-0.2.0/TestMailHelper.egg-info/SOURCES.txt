@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+.github/workflows/publish.yaml
+TestMailHelper.egg-info/PKG-INFO
+TestMailHelper.egg-info/SOURCES.txt
+TestMailHelper.egg-info/dependency_links.txt
+TestMailHelper.egg-info/requires.txt
+TestMailHelper.egg-info/top_level.txt
+testmailhelper/__init__.py
+testmailhelper/client.py
+testmailhelper/__pycache__/__init__.cpython-312.pyc
+testmailhelper/__pycache__/client.cpython-312.pyc
