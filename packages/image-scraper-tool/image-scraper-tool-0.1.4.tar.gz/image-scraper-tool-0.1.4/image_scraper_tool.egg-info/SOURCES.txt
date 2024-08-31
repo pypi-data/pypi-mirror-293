@@ -1,0 +1,10 @@
+README.md
+setup.py
+image_scraper_tool/__init__.py
+image_scraper_tool/custom_image_extractor.py
+image_scraper_tool.egg-info/PKG-INFO
+image_scraper_tool.egg-info/SOURCES.txt
+image_scraper_tool.egg-info/dependency_links.txt
+image_scraper_tool.egg-info/entry_points.txt
+image_scraper_tool.egg-info/requires.txt
+image_scraper_tool.egg-info/top_level.txt
