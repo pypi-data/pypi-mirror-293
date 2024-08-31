@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+DataPromptAI.egg-info/PKG-INFO
+DataPromptAI.egg-info/SOURCES.txt
+DataPromptAI.egg-info/dependency_links.txt
+DataPromptAI.egg-info/requires.txt
+DataPromptAI.egg-info/top_level.txt
