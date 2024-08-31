@@ -1,0 +1,7 @@
+pulumi_aws_tags/__init__.py,sha256=RBFJzSesBU9JAuRT8Lce2Qd9AxnndhNalPWmEVfapag,123
+pulumi_aws_tags/autotag.py,sha256=O1iPQpLM3f5xDtGAC1cLKN4e_K2lnKuTiIPne8aKqOw,999
+pulumi_aws_tags/taggable.py,sha256=d5C6UqB-0RrsAoluMQ55rQ5rHGYcB_o1KRAdyDsn49A,1684
+pulumi_aws_tags-0.10.0.dist-info/METADATA,sha256=5O6lV1tYMiXSfJCuDigxe_ZHb1oo_1-LIC3s69PwWps,1174
+pulumi_aws_tags-0.10.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+pulumi_aws_tags-0.10.0.dist-info/top_level.txt,sha256=6NVatx2azVHSfHFR9XcSoNMaxjMA1ovqzI6K41jkdkE,16
+pulumi_aws_tags-0.10.0.dist-info/RECORD,,
