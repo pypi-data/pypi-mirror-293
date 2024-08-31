@@ -1,0 +1,16 @@
+litedoc-0.1.0.dev20240830123414.dist-info/METADATA,sha256=cYddKOoV3kOgfXqANT2heEy4qUGNWUq7cvxHQuUcwYs,5872
+litedoc-0.1.0.dev20240830123414.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+litedoc-0.1.0.dev20240830123414.dist-info/licenses/LICENSE,sha256=QMvs_YwS2kFcECfF5X09F5jNmtNCCMLGaioDhSerXlI,1071
+litedoc/__init__.py,sha256=Ox12MdbGC45lXwocH3d4gmuZ19fLSAwc7IwvqbljNCk,225
+litedoc/__main__.py,sha256=YI2NoGSiXE2e4r2bIxaz52yoflYmFapAGfytS3bIEl4,2870
+litedoc/docstring/__init__.py,sha256=Gmr-fg5xn1seA--vgseI9wKqlvTU6eF2iBn8N3aoz6o,224
+litedoc/docstring/docstring.py,sha256=OD5RveCw4HZYHVBRqTIKtC7mi_fUUwmZMNipgJf23MM,4682
+litedoc/docstring/parser.py,sha256=IAxP00RZUzWd12m4b7kOXYeWW0cg5BsZ16wzmYayAaY,5314
+litedoc/i18n.py,sha256=f1XhV9fMQjhgTMZw8slvzIADdRu8-g6ruBTv1Wr7uT8,3533
+litedoc/output.py,sha256=6idxMAkiwoDFd8hSuskVxcQlRFrRWP_JJPVfaqXJqL4,4639
+litedoc/style/__init__.py,sha256=Eb4vHtiOBOmj5yWokf7j__81fsF5tsR2OatnRo0zrBA,224
+litedoc/style/markdown.py,sha256=LqCvDCu_Z3NMNC1Lf_kttY8RHzO5qFRQwHo08Hw1-EU,1719
+litedoc/syntax/astparser.py,sha256=_kdYspFVsYNUfLWibWsDRp6OYTQsfTQ_IRI4VtuzDm8,15322
+litedoc/syntax/node.py,sha256=EGBCpnCPmrD5LOEV9dsp2EC5RDbcC-Raaoy9y5LfXbo,10843
+litedoc/version.py,sha256=HVqoYRYRq_PSEG3LX_4lkCMDMrm3RUVBf9iBTiyGGWo,550
+litedoc-0.1.0.dev20240830123414.dist-info/RECORD,,
