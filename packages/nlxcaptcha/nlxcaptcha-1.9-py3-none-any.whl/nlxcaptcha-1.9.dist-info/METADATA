@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nlxcaptcha
+Version: 1.9
+Summary: Tell "iPad Kids" and "Non-iPad Kids" apart using OpenAI API in this easy-to-integrate captcha.
+Home-page: https://github.com/nlckysolutions/NLX-Captcha
+Author: Nlcky Solutions
+Author-email: nicky@nlcky.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: tk
+Requires-Dist: sv-ttk
+
