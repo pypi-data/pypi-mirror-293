@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+v_program4/__init__.py
+v_program4/__main__.py
+v_program4/cli.py
+v_program4.egg-info/PKG-INFO
+v_program4.egg-info/SOURCES.txt
+v_program4.egg-info/dependency_links.txt
+v_program4.egg-info/entry_points.txt
+v_program4.egg-info/requires.txt
+v_program4.egg-info/top_level.txt
