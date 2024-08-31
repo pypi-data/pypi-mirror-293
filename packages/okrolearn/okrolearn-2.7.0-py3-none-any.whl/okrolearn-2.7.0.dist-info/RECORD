@@ -1,0 +1,14 @@
+okrolearn/__about__.py,sha256=gHTvDvxknEdXdezPjkjqu5dilAXxfQnWhhXJArbGOAo,832
+okrolearn/__innit__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+okrolearn/dataloader.py,sha256=vhc3FJ5GLhhXszp7bBA-fZBpAgeWu9DFR50Ts1KAArc,2584
+okrolearn/dataset.py,sha256=eJxXDLRSxaZJyjewKzff9UrVHZ75FzO2QPTN8adb76I,1819
+okrolearn/okrolanalysis.py,sha256=bBtGVhg-XY2M1Tl0R52OQBnsjIzibcBvYgYHDfHgZg4,11353
+okrolearn/okrolearn.py,sha256=Ek9BcJNV-QpoBAWnIv2QqRD-CBzA2aqcgW7K9vyKfD8,139970
+okrolearn/okroltext.py,sha256=Ja60OT-nfT0P2VjaxI9-fVtMgkiyOywNFPCr0-92Kv4,1474
+okrolearn/okrolvision.py,sha256=bKdmhtyVfCpNFNnL_pS3A4HCErRPA94bKDZqtn-xFbM,15450
+okrolearn/optimizers.py,sha256=EGtxJC1eg-bl06fvv9xi2dVuCvdUxjqv_vPmwygQChA,4972
+okrolearn/tensor.py,sha256=492iOR_qoQRc6un2CETt_bJfLc_bvDic4IKYBEVVMMc,39912
+okrolearn-2.7.0.dist-info/METADATA,sha256=OHsoOXCQOmpHB1Ckqv6mTvJdOlp0IDQewEgicWUi4lM,2036
+okrolearn-2.7.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+okrolearn-2.7.0.dist-info/licenses/LICENSE,sha256=mQcIJ4E-jP6i_qBHDF4WajiCgtoskjDwXtGbIxjrwZU,1082
+okrolearn-2.7.0.dist-info/RECORD,,
