@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: door_signs_script
+Version: 0.0.9
+Summary: LBL used package for automatic door sign creation
+Author-email: Adam Hetherwick <adamhetherwick@gmail.com>
+Maintainer-email: Adam Hetherwick <adamhetherwick@gmail.com>, Patrick Huck <phuck@lbl.gov>
+Project-URL: Homepage, https://github.com/AJHetherwick/Door_Signs
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas==1.5.2
+Requires-Dist: pdfrw==0.4
+Requires-Dist: PyPDF2==3.0.1
+Requires-Dist: reportlab==4.2.2
+
+LBNL notebook for accelerated door sign creation
+
+Testing information is in the tests folder.
+
+Instructions for how to test and debug parts of the script can be found in tests/instructions.
+
+For other advice or input, email my personal email adamhetherwick@gmail.com
+
+08/30/2024
