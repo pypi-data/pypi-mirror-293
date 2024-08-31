@@ -1,0 +1,16 @@
+pyyaml>=6.0
+numpy<2
+scipy
+svgwrite
+svgpathtools
+psutil
+matplotlib
+CairoSVG
+nicegui
+trimesh
+libigl
+pyrender
+cgal
+
+[:platform_system == "Windows"]
+wmi
