@@ -1,0 +1,5 @@
+numpy
+matplotlib
+tqdm>=4.66.4
+plotbin
+joblib>=1.1.1
