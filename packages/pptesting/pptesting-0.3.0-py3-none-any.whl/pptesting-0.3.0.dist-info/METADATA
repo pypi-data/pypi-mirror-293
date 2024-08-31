@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pptesting
+Version: 0.3.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+In this project I have a simple Hello World program which will be packaged and distributed to different locations.
