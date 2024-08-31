@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hexamind"
+version = "0.3"
+description = "Hexamind library to implement RAG solutions"
+readme ={ file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.10"
+authors = [
+    {name = "Julien Fresnel", email = "julien.fresnel@hexamind.ai"},
+    {name = "Max Beales", email = "max.beales@hexamind.ai"},
+    {name = "Alexandre Fleutelot", email = "alexandre.fleutelot@hexamind.ai"},
+    {name = "Quentin Fever", email = "quentin.fever@hexamind.ai"},
+    {name = "Louis Mucha", email = "louis.mucha@hexamind.ai"},
+    {name = "Yves Peligry", email = "yves.peligry@hexamind.ai"},
+]
+
+dependencies = [
+        "beautifulsoup4==4.12.3",
+        "chromadb==0.5.0",
+        "elasticsearch==8.12.1",
+        "mistralai==0.3.0",
+        "mistral_common==1.2.1",
+        "openai==1.31.0",
+        "python_docx==1.1.0",
+        "Requests==2.32.3",
+        "setuptools==68.2.2",
+        "mammoth==1.7.1",
+        "Markdown==3.6",
+]
+
+[project.scripts]
+hexamind-env = "hexamind.cli:main"
