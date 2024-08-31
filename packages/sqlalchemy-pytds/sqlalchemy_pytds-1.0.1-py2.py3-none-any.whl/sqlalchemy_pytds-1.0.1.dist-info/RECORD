@@ -1,0 +1,10 @@
+sqlalchemy_pytds/__init__.py,sha256=1JMKTvCQ3Fmn2e6k2cABWErfqoVIXfIJ8UtW75P1Vno,145
+sqlalchemy_pytds/connector.py,sha256=g-I1lNIiVIFguS19BFru3FkPSMEAGVJ-7o-xo4zYmP0,4338
+sqlalchemy_pytds/dialect.py,sha256=LygrAxwo6EBe1pJBmrmjdKdIZZ8PD64ITBxrD5O_T1M,6449
+sqlalchemy_pytds/requirements.py,sha256=XU1KuKBpOsDLOdEHcvz77wcvJgQfXmsK1oPt5emzUWY,5689
+sqlalchemy_pytds-1.0.1.dist-info/LICENSE,sha256=1q5zV6eF0hfUtq1TFjccuSDABoec7G3TrOd6eJFIV-Q,1086
+sqlalchemy_pytds-1.0.1.dist-info/METADATA,sha256=UYP4LaIySEU8uhkPjZ-GOTWww7KI-1npOQXJNmfUEMI,802
+sqlalchemy_pytds-1.0.1.dist-info/WHEEL,sha256=WDDPHYzpiOIm6GP1C2_8y8W6q16ICddAgOHlhTje9Qc,109
+sqlalchemy_pytds-1.0.1.dist-info/entry_points.txt,sha256=Jbzf2UfqTNoIQN2oJ2gHXAuhcTsNLn020Q8LY23PMyI,77
+sqlalchemy_pytds-1.0.1.dist-info/top_level.txt,sha256=vlDsdgZP5RBe_PCE3iyvjUl_h9asG4Wy-HWw6db4_6Q,17
+sqlalchemy_pytds-1.0.1.dist-info/RECORD,,
