@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "vinayaga"
+version = "0.2.2"  # Update to new version
+description = "A description of your package"
+authors = ["Arasu <arasu6262@gmail.com>"]
+readme = "README.md"
+packages = ["vinayaga"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]

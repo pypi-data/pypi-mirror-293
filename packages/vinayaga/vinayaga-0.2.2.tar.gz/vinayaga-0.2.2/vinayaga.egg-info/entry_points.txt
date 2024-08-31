@@ -1,0 +1,2 @@
+[console_scripts]
+vinayaga = vinayaga.__main__:main

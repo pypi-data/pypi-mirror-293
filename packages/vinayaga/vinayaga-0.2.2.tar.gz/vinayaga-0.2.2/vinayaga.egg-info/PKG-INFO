@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vinayaga
+Version: 0.2.2
+Summary: A simple Python package for hypothesis training.
+Author: Arasu
+Author-email: arasu6262@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
