@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+dconvert/__init__.py
+dconvert/__main__.py
+dconvert/cli.py
+dconvert/dconvert.py
+dconvert.egg-info/PKG-INFO
+dconvert.egg-info/SOURCES.txt
+dconvert.egg-info/dependency_links.txt
+dconvert.egg-info/entry_points.txt
+dconvert.egg-info/requires.txt
+dconvert.egg-info/top_level.txt
