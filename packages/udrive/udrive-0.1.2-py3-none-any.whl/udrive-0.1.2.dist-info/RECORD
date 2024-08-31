@@ -1,0 +1,15 @@
+udrive/__init__.py,sha256=rsUJ9Es9zmEZk688fXr8awHv21oxjfY4HPn5R2jXxOw,192
+udrive/discovery.py,sha256=blnbPp_P6YbIoQUXTrJeCe3eX6_M5alvBYHGxfOcBho,6661
+udrive/protocol.py,sha256=Vp2UjqMsB0KrtIpNSZu9R3AZZKphSVQeTV_ODYMS6kA,12874
+udrive/remote_object.py,sha256=LEjADF0fmuggIWDPL4WRvBFz7SPYpa2hTi0UmZ98hwE,9955
+udrive/serial_transport.py,sha256=O0Mym2QnC0eRQyMAQodLSyKID1LhNw1oHpMtk8lXPi8,4289
+udrive/shell.py,sha256=mpuXxB49SQHL0x6sGVPwou2JhF4Wmq32spVAGwzq4QY,5258
+udrive/tcp_transport.py,sha256=fn_3phi6rghmf8TlmRG-eX2ojB-sSdmUWA4QoIMwAWk,3341
+udrive/udp_transport.py,sha256=5Dgwa3A-f8bmNJRW0gTnQQqAq8sBv_hRz7yq3MlVGh8,2042
+udrive/usbbulk_transport.py,sha256=C5ZYbsiL8rUuqPXJk6ZvJkRfODILVSaUjs6FfnVxFwI,8629
+udrive/utils.py,sha256=AW7WnlwRYS9shXRG0Lho8p_KmsmAhsMW3hokOwAXQcE,7854
+udrive-0.1.2.dist-info/LICENSE,sha256=fTvZjlUSUdQLtpvi2k1-5Q5hz2JEnOGDJ6qLyHVHiSM,1073
+udrive-0.1.2.dist-info/METADATA,sha256=HrX-U0zUJkXoGVaTx4c5c-JPPRL9GdDpRToJ-AjyVBk,2449
+udrive-0.1.2.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+udrive-0.1.2.dist-info/top_level.txt,sha256=zrxvNZSBEFeCAMAF7QGCPrBhk5JfWrVSNaoet9qlCiI,7
+udrive-0.1.2.dist-info/RECORD,,
