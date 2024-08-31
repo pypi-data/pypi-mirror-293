@@ -1,0 +1,273 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-11 22:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: src/validata_ui/app/views.py:86
+msgid "Autre schéma"
+msgstr ""
+
+#: src/validata_ui/app/views.py:96
+msgid "Paramètre 'schema_name' invalide"
+msgstr ""
+
+#: src/validata_ui/app/views.py:106
+msgid "Erreur de traitement du catalogue"
+msgstr ""
+
+#: src/validata_ui/app/templates/home.html:39 src/validata_ui/app/views.py:108
+msgid "Catalogue indisponible"
+msgstr ""
+
+#: src/validata_ui/app/views.py:151
+msgid "Erreur dans la récupération des informations de schéma"
+msgstr ""
+
+#: src/validata_ui/app/views.py:158
+msgid "Le schéma fourni n'est pas un fichier JSON valide"
+msgstr ""
+
+#: src/validata_ui/app/views.py:165
+msgid "Une erreur est survenue en récupérant le schéma)"
+msgstr ""
+
+#: src/validata_ui/app/views.py:297
+msgid "Colonne inconnue"
+msgstr ""
+
+#: src/validata_ui/app/views.py:306
+msgid "Cette colonne n'est pas définie dans le schema"
+msgstr ""
+
+#: src/validata_ui/app/templates/home.html:2 src/validata_ui/app/views.py:569
+msgid "Accueil"
+msgstr ""
+
+#: src/validata_ui/app/views.py:572
+msgid "Rapport de validation"
+msgstr ""
+
+#: src/validata_ui/app/views.py:648
+msgid "l'encodage du fichier est invalide. Veuillez le corriger."
+msgstr ""
+
+#: src/validata_ui/app/views.py:697
+msgid "problème de connexion"
+msgstr ""
+
+#: src/validata_ui/app/views.py:699
+msgid "format JSON incorrect"
+msgstr ""
+
+#: src/validata_ui/app/views.py:701
+msgid "le catalogue ne respecte pas le schéma de référence"
+msgstr ""
+
+#: src/validata_ui/app/views.py:786
+msgid "URL non fournie"
+msgstr ""
+
+#: src/validata_ui/app/views.py:790
+msgid "service de génération non configuré"
+msgstr ""
+
+#: src/validata_ui/app/views.py:810
+msgid "contactez votre administrateur"
+msgstr ""
+
+#: src/validata_ui/app/views.py:960
+msgid "Vous n'avez pas indiqué d'URL à valider"
+msgstr ""
+
+#: src/validata_ui/app/views.py:985 src/validata_ui/app/views.py:994
+msgid "Vous n'avez pas indiqué de fichier à valider"
+msgstr ""
+
+#: src/validata_ui/app/views.py:1012
+msgid "Combinaison de paramètres non supportée"
+msgstr ""
+
+#: src/validata_ui/app/templates/base_template.html:16
+msgid "Validata"
+msgstr ""
+
+#: src/validata_ui/app/templates/base_template.html:30
+msgid "Signaler un problème"
+msgstr ""
+
+#: src/validata_ui/app/templates/base_template.html:71
+#, python-format
+msgid ""
+"%(validata_clickable)s est une initiative d'%(opendatafrance_clickable)s "
+"développée par %(multi_clickable)s."
+msgstr ""
+
+#: src/validata_ui/app/templates/base_template.html:91
+msgid "version"
+msgstr ""
+
+#: src/validata_ui/app/templates/home.html:15
+msgid "Choisissez un schéma"
+msgstr ""
+
+#: src/validata_ui/app/templates/home.html:26
+#: src/validata_ui/app/templates/home.html:76
+msgid "Valider un fichier"
+msgstr ""
+
+#: src/validata_ui/app/templates/home.html:45
+msgid "Schéma à la carte"
+msgstr ""
+
+#: src/validata_ui/app/templates/home.html:47
+msgid ""
+"Indiquez ici l'URL d'un schéma que vous souhaitez utiliser pour valider "
+"un fichier."
+msgstr ""
+
+#: src/validata_ui/app/templates/home.html:66
+msgid "Le schéma doit être au format"
+msgstr ""
+
+#: src/validata_ui/app/templates/home.html:100
+msgid "Utiliser"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_form.html:30
+msgid "Exemples"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_form.html:45
+msgid "Exemple : .xlsx, .xls, .ods, .csv, .tsv, etc. Taille maximum : 10Mo"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_form.html:49
+msgid "Prendre en compte les majuscules et miniscules dans les noms de colonnes :"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_form.html:52
+#: src/validata_ui/app/templates/validation_form.html:74
+#: src/validata_ui/app/templates/validation_form.html:99
+msgid ""
+"Pour prendre en compte le respect des majuscules et minuscules dans "
+"l'écriture des noms de colonnes de votre jeu de données à valider, "
+"laisser cochée cette case"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_form.html:55
+#: src/validata_ui/app/templates/validation_form.html:77
+#: src/validata_ui/app/templates/validation_form.html:102
+msgid "Valider le fichier"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_form.html:67
+msgid "Exemple : .xlsx, .xls, .ods, .csv, .tsv, etc."
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_form.html:71
+#: src/validata_ui/app/templates/validation_form.html:96
+msgid "Prendre en compte les majuscules et miniscules dans les noms de colonnes"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_form.html:89
+msgid "Choisissez un fichier tabulaire d'exemple"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_macros.html:51
+msgid "Ligne"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_macros.html:52
+msgid "Colonne"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_macros.html:53
+msgid "Valeur"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_macros.html:54
+msgid "Erreur"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_macros.html:128
+#: src/validata_ui/app/templates/validation_report.html:124
+msgid "Erreurs de structure"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_macros.html:135
+msgid "Aucune erreur de structure"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_macros.html:147
+#: src/validata_ui/app/templates/validation_report.html:141
+msgid "Aucune erreur de contenu"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:30
+msgid "Validation effectuée"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:35
+msgid "Télécharger en PDF"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:54
+msgid "Fichier"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:57
+msgid "valide"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:59
+msgid "invalide"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:81
+msgid "1 recommandation"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:83
+msgid "recommandations"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:89
+#: src/validata_ui/app/templates/validation_report.html:143
+msgid "Aucune erreur détectée"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:94
+msgid "Total"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:96
+msgid "1 erreur détectée"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:98
+msgid "erreurs détectées"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:111
+msgid "Recommandations"
+msgstr ""
+
+#: src/validata_ui/app/templates/validation_report.html:112
+msgid ""
+"Afin d'assurer la conformité optimale de vos données par rapport au "
+"schéma, merci de prendre en compte les recommandations ci-dessous"
+msgstr ""
+
