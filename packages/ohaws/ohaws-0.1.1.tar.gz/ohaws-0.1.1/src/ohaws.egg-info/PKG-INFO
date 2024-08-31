@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ohaws
+Version: 0.1.1
+Summary: Helper package for aws and boto3
+Author-email: Aiden Fine <aiden03fine@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: boto3>=1.35.9
+Requires-Dist: typing>=3.7.4.3
+
+# ohaws
+
+A Python library that makes boto3 easier
+
+## Version history
+
+0.1.0 - Inital release/start of project
