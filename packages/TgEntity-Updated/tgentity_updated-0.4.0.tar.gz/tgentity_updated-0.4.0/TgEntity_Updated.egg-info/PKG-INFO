@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: TgEntity_Updated
+Version: 0.4.0
+Summary: Telegram entity parser
+Home-page: https://github.com/KumaTea/tgentity
+Download-URL: https://github.com/KumaTea/tgentity/releases/latest
+Author: KumaTea
+Author-email: KumaTea <mail@kmtea.eu>
+Maintainer-email: KumaTea <mail@kmtea.eu>
+License: MIT License
+        
+        Copyright (c) 2023 KumaTea
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/KumaTea
+Project-URL: Repository, https://github.com/KumaTea/tgentity
+Keywords: telegram,entity,entities,parser,html,markdown,v2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TgEntity
+
+Convert Telegram entities to HTML or Markdown.
+
+This project is a rewrite of
+[@telegraf/entity](https://github.com/telegraf/entity)
+in Python.
+
+`pip install tgentity`
+
+### Usage
+
+```python
+from tgentity import to_markdown_v2, to_html
+
+html = to_html(message)
+markdown = to_markdown_v2(message)
+```
+
+* Aliases
+  * `to_md` = `to_markdown_v2`
+  * `to_markdown` = `to_markdown_v2`

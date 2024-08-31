@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TgEntity_Updated.egg-info/PKG-INFO
+TgEntity_Updated.egg-info/SOURCES.txt
+TgEntity_Updated.egg-info/dependency_links.txt
+TgEntity_Updated.egg-info/top_level.txt
+tests/__init__.py
+tests/test_html.py
+tests/test_md.py
+tgentity/__init__.py
+tgentity/escapers.py
+tgentity/mod.py
+tgentity/serializers.py
+tgentity/types.py
