@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pycoupang/__init__.py
+pycoupang/base.py
+pycoupang/client.py
+pycoupang/product.py
+python_coupang.egg-info/PKG-INFO
+python_coupang.egg-info/SOURCES.txt
+python_coupang.egg-info/dependency_links.txt
+python_coupang.egg-info/requires.txt
+python_coupang.egg-info/top_level.txt
