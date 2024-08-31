@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+altered_deckfmt/__init__.py
+altered_deckfmt/decoder.py
+altered_deckfmt/encoder.py
+altered_deckfmt/exceptions.py
+altered_deckfmt/logging_config.py
+altered_deckfmt/models.py
+altered_deckfmt/utils.py
+altered_deckfmt.egg-info/PKG-INFO
+altered_deckfmt.egg-info/SOURCES.txt
+altered_deckfmt.egg-info/dependency_links.txt
+altered_deckfmt.egg-info/top_level.txt
+tests/tests.py
