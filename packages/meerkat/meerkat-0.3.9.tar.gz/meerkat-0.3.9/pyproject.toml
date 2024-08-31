@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meerkat"
+version = "0.3.9"
+description = "A program for reciprocal space reconstruction"
+readme = "README.md"
+authors = [
+    {name = "Arkadiy Simonov", email = "aglietto@gmail.com"},
+    {name = "Dmitry Logvinovich"}
+]
+urls = { "Homepage" = "https://github.com/aglie/meerkat.git" }
+keywords = ["crystallography", "single crystal", "reciprocal space reconstruction"]
+classifiers = []
+
+dependencies = ['fabio', 'h5py', 'numpy']
