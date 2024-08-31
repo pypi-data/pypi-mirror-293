@@ -1,0 +1,8 @@
+scrapeall/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapeall/parse.py,sha256=78xsAVW2sfmAV2KFTe06TIOthfb0BNizjw42dZ7JHiI,3530
+scrapeall/utils.py,sha256=zHpLSnJzPCiwceKM8BSzM7Xc5UVlvy4vUn1Y8eevAJM,241
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapeall-0.1.2.dist-info/METADATA,sha256=0HTMhYR2cCsm_KcBQ9B28iRB2oRA66qZsT_ey5NoI8w,4789
+scrapeall-0.1.2.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+scrapeall-0.1.2.dist-info/top_level.txt,sha256=geC36KsFKEE0mfSZop77gXKrBUh8PBrHvLsj64487gg,16
+scrapeall-0.1.2.dist-info/RECORD,,
