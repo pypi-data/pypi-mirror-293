@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: publish_poetry_test
+Version: 0.0.5
+Summary: Publish_Poetry
+Home-page: UNKNOWN
+Author: ORION
+Author-email: datacollection@liferaftinc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Publishing to PyPI using Poetry
+
+
