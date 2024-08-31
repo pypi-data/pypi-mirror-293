@@ -1,0 +1,8 @@
+django_er_diagram/__init__.py,sha256=_QtnlPNq28ABqHzC3neNrhEoc141jmTDSHoQef1OKDA,65
+django_er_diagram/management/commands/generate_diagrams.py,sha256=7mINfEugx3vDbxzizwALd5N2GURkzPjp46-yE_76Rfg,8563
+django_er_diagram/settings.py,sha256=1wGFr7weDBHaIvkqVjINsK2PKYuFiTRAxIt7QEPslBM,204
+django_er_diagram/templates/er_diagram_template.md,sha256=NKy8jfI8Wmo5ISIxRbMB9luZtBtDHQDFQaaKcFuQN48,33
+django_er_diagram-2.6.0.dist-info/LICENSE,sha256=-BOVFOqK_Cg8aiRREoKwNGmEVRI1KeBUgAMr7zr-SKA,1072
+django_er_diagram-2.6.0.dist-info/METADATA,sha256=IrDIs2g6B4XW8ZrHroEi4nw5wGgmQwbOFUaXS4kegOE,1888
+django_er_diagram-2.6.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_er_diagram-2.6.0.dist-info/RECORD,,
