@@ -1,0 +1,6 @@
+inflect
+conformer
+hydra-core
+gdown
+wget
+openai-whisper
