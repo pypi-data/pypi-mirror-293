@@ -1,0 +1,12 @@
+ocrmypdf_easyocr/__init__.py,sha256=mQYA_xa76wptHiUIs1lqbfe6rs3hH-Q5wkRi-sYngiU,7264
+ocrmypdf_easyocr/_cv.py,sha256=SrCpdEawiB0_2CFd6DAuGvGEFbXScuv0ur7lMk5-858,1047
+ocrmypdf_easyocr/_easyocr.py,sha256=aLRrFAMYH0QFeMBCNbUA1ribsWpC1nxbJ3AoI9dMYQ8,724
+ocrmypdf_easyocr/_pdf.py,sha256=Q0Tlnh-2q6CQ5fXvGHXfItBvD7GdFIi0Hc4yj60OkuI,10203
+ocrmypdf_easyocr/pdf.ttf,sha256=x4RUIJJaI9iO2DCmOVe4r4Wmao2vjZ_JDoQ2c7LvGlk,572
+ocrmypdf_easyocr/py.typed,sha256=y__I7G6sVyIAGQ5zNGsj8UAsGNBoc8rR9X8r46_Fv_M,27
+ocrmypdf_easyocr-0.2.0.dist-info/LICENSE,sha256=Q0WvNqn85LTeI8ElikzEqExWuLdyI2cslzzxnCAVes0,1063
+ocrmypdf_easyocr-0.2.0.dist-info/METADATA,sha256=TUk1PB1pRcICiELmFcDWJQSSj04kWXlk9IV29QY8XAM,2391
+ocrmypdf_easyocr-0.2.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+ocrmypdf_easyocr-0.2.0.dist-info/entry_points.txt,sha256=zInELmCdAGUD1k_gwAeALu71juYPhdycMTCY1hAvR0E,39
+ocrmypdf_easyocr-0.2.0.dist-info/top_level.txt,sha256=qMVtf-sGQL9qtIYBv9q9z-uB2abxdlphsJpL_9D-ReE,17
+ocrmypdf_easyocr-0.2.0.dist-info/RECORD,,
