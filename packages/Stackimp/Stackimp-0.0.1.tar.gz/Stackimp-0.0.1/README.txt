@@ -1,0 +1,1 @@
+This is very simple implementaion of stack

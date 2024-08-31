@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Stackimp
+Version: 0.0.1
+Summary: A implementaion of stack
+Home-page: 
+Author: Kishan Chauhan
+Author-email: kishanchauhan2006.25@gmail.com
+License: MIT
+Keywords: stack
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is very simple implementaion of stack
+
+Change Log
+==========
+
+0.0.1 (30/8/2024)
+------------------
+-First Release
+
