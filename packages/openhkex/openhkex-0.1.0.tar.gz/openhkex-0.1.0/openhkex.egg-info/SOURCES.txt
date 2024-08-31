@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+openhkex/__init__.py
+openhkex.egg-info/PKG-INFO
+openhkex.egg-info/SOURCES.txt
+openhkex.egg-info/dependency_links.txt
+openhkex.egg-info/top_level.txt
+openhkex/parser/__init__.py
+openhkex/web_request/__init__.py
