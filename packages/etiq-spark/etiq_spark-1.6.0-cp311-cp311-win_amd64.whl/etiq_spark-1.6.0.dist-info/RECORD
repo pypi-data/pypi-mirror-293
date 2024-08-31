@@ -1,0 +1,6 @@
+etiq/spark.cp311-win_amd64.pyd,sha256=l6lNhsvZZiNKluY__eXLeEIfjWYcoyigHDHQrQDDYcY,1420288
+etiq/spark.pyi,sha256=Ss3EzORoYFQ91sy_qjM5uoMR9cYHYGiFI1Y0jLRDz98,1532
+etiq_spark-1.6.0.dist-info/METADATA,sha256=pSJ2SXV64rWOb_FmKeXlmeXGzgCaSw8f4ME6FP1qNpM,2071
+etiq_spark-1.6.0.dist-info/WHEEL,sha256=0CIU8rT5pj94K2N3_nH5rmqTO8FEDUu1YYMsT5C5dio,96
+etiq_spark-1.6.0.dist-info/top_level.txt,sha256=qdr7hqmhoEm6vftJCKRQZkVYQ0cN3rklxzEqdyOkrus,5
+etiq_spark-1.6.0.dist-info/RECORD,,
