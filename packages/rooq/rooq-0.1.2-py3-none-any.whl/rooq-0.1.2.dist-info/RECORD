@@ -1,0 +1,9 @@
+rooq/__init__.py,sha256=XWjv92dv1cuSFPjiuKAuJX2B5ksHUK9uDPlIo9_SIeU,49
+rooq/app.py,sha256=cVFc2x1de685v8rlhXfJONIUZY0KrUwuAPC44d9IHG0,2549
+rooq/templates/index.html,sha256=OoEQqI59uCHsyH0wd1H0zx0Ynv9-sT36Ls2DcZhEjmE,5263
+rooq-0.1.2.dist-info/LICENSE,sha256=7IV98lAi3jI-Q_RlYgihkTX_7HqHNhKFiYB4DJEq0GM,1082
+rooq-0.1.2.dist-info/METADATA,sha256=gpKpXRN7m1EB1TDyVnvuxqLg2ntPoZBodXI7e4LFEFE,842
+rooq-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rooq-0.1.2.dist-info/entry_points.txt,sha256=U0E8VFtEejfWNlRHlP6LRIWdQeCeNUUmtnY7sFcI8T8,39
+rooq-0.1.2.dist-info/top_level.txt,sha256=hXBEC_DTHfFNq2fgrLAFkqvtt0pjzvXZPOEMiheOIN0,5
+rooq-0.1.2.dist-info/RECORD,,
