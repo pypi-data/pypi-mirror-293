@@ -1,0 +1,10 @@
+connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connector/sql_helper_connector.py,sha256=ZNm0F8dIvp8JBmCWtv5O6pPAKKlAc0KpNkwGDcpMnk0,2845
+connector/util.py,sha256=e67XMv-KMXjcNstA35aUFmVrvuSi6mydps4pKeBCs3c,1178
+connector/worker_agent.py,sha256=31kamgsre3KgWXXUpJs5efhNUrXIUxfwFAtrm0zBWB8,4331
+sql_helper_connector-0.1.4.dist-info/LICENSE,sha256=aO3XjUoXEe8CvemK0aWknTMavesNP7x8Gnt_8ol_gys,1087
+sql_helper_connector-0.1.4.dist-info/METADATA,sha256=jBvAVfdfGjwmO-5fADqkLektwEohvTmxUH3CqBjOrfE,801
+sql_helper_connector-0.1.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sql_helper_connector-0.1.4.dist-info/entry_points.txt,sha256=dX4lhqdeZgaVLhlQJ-FRblezczTAfw2fWFkmRsvH36M,90
+sql_helper_connector-0.1.4.dist-info/top_level.txt,sha256=HEljM61yJAAWyh7-0xWg29ObfG1bd407h2_wBfp0G-g,10
+sql_helper_connector-0.1.4.dist-info/RECORD,,
