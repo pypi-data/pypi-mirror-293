@@ -1,0 +1,2 @@
+include code8/templates/index.html
+include code8/static/styles.css

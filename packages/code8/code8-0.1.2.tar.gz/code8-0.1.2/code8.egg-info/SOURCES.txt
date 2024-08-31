@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+code8/__init__.py
+code8/cli.py
+code8/config_ui.py
+code8/test_generator.py
+code8.egg-info/PKG-INFO
+code8.egg-info/SOURCES.txt
+code8.egg-info/dependency_links.txt
+code8.egg-info/entry_points.txt
+code8.egg-info/requires.txt
+code8.egg-info/top_level.txt
+code8/static/styles.css
+code8/templates/index.html
