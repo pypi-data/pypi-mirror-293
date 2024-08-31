@@ -1,0 +1,19 @@
+dm-tree
+gym==0.15.3
+lz4
+matplotlib
+numpy==1.23.5
+pandas
+pybind11
+pytest
+ray==1.6.0
+scipy
+scikit-image
+tabulate
+torch
+typing
+PyYAML
+
+[:platform_machine == "x86_64"]
+opencv-python
+tensorboardx
