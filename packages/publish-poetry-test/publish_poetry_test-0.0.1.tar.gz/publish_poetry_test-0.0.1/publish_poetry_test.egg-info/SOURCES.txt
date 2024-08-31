@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+publish_poetry_test/__init__.py
+publish_poetry_test/test.py
+publish_poetry_test.egg-info/PKG-INFO
+publish_poetry_test.egg-info/SOURCES.txt
+publish_poetry_test.egg-info/dependency_links.txt
+publish_poetry_test.egg-info/top_level.txt
