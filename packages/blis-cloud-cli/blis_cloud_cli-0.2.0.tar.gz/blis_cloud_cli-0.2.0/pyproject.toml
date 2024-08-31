@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "blis-cloud-cli"
+version = "0.2.0"
+description = "Command-line tool for the BLIS web-based lab information system."
+authors = ["Mitchell Rysavy <mitchell.rysavy@gmail.com>"]
+homepage = "https://c4gblis.org/"
+repository = "https://github.com/C4G/blis-cloud-cli"
+readme = "README.md"
+license = "MIT"
+packages = [{include = "blis_cli"}]
+
+
+[tool.poetry.scripts]
+blis = "blis_cli.blis:main"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "~= 8.0.3"
+colorama = "~= 0.4.4"
+docker = "~= 5.0.3"
+Jinja2 = "~= 3.0.3"
+psutil = "~= 5.9.0"
+requests = "~= 2.25.1"
+PyYAML = "~= 5.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
