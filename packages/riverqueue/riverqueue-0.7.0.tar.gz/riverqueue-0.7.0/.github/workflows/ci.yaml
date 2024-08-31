@@ -1,0 +1,167 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+env:
+  # Database to connect to that can create other databases with `CREATE DATABASE`.
+  ADMIN_DATABASE_URL: postgres://postgres:postgres@localhost:5432
+
+  # A suitable name/URL for non-test database.
+  DATABASE_NAME: river_dev
+  DATABASE_URL: postgres://postgres:postgres@127.0.0.1:5432/river_dev
+
+  # Test database.
+  TEST_DATABASE_NAME: river_test
+  TEST_DATABASE_URL: postgres://postgres:postgres@127.0.0.1:5432/river_test
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:latest
+        env:
+          POSTGRES_PASSWORD: postgres
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 2s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rye
+        uses: eifinger/setup-rye@v3
+
+      # Needed for River's CLI. There is a version of Go on Actions' base image,
+      # but it's old and can't read modern `go.mod` annotations correctly.
+      - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+          check-latest: true
+
+      - name: Rye sync
+        run: rye sync
+
+      - name: Build
+        run: rye build
+
+      - name: Install River CLI
+        run: go install github.com/riverqueue/river/cmd/river@latest
+
+      - name: Create database
+        run: psql --echo-errors --quiet -c '\timing off' -c "CREATE DATABASE ${TEST_DATABASE_NAME};" ${ADMIN_DATABASE_URL}
+
+      - name: river migrate-up
+        run: river migrate-up --database-url "$TEST_DATABASE_URL"
+
+      - name: Test
+        run: rye test
+
+  examples_run:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:latest
+        env:
+          POSTGRES_PASSWORD: postgres
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 2s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rye
+        uses: eifinger/setup-rye@v3
+
+      # Needed for River's CLI. There is a version of Go on Actions' base image,
+      # but it's old and can't read modern `go.mod` annotations correctly.
+      - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+          check-latest: true
+
+      - name: Rye sync
+        run: rye sync
+
+      - name: Install River CLI
+        run: go install github.com/riverqueue/river/cmd/river@latest
+
+      - name: Create database
+        run: psql --echo-errors --quiet -c '\timing off' -c "CREATE DATABASE ${DATABASE_NAME};" ${ADMIN_DATABASE_URL}
+
+      - name: river migrate-up
+        run: river migrate-up --database-url "$DATABASE_URL"
+
+      - name: Run examples
+        run: rye run python3 -m examples.all
+
+  format_lint_and_type_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rye
+        uses: eifinger/setup-rye@v3
+
+      - name: Rye sync
+        run: rye sync
+
+      - name: Format check
+        run: rye fmt --check
+
+      - name: Lint
+        run: rye lint
+
+      - name: Type check
+        run: make type-check
+
+  sqlc_generates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    env:
+      BIN_PATH: /home/runner/bin
+      SQLC_VERSION: 1.27.0
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create BIN_PATH and add to PATH
+        run: |
+          mkdir -p "$BIN_PATH"
+          echo "$BIN_PATH" >> $GITHUB_PATH
+
+      - name: Install sqlc
+        run: |
+          curl -L https://github.com/kyleconroy/sqlc/releases/download/v${{ env.SQLC_VERSION }}/sqlc_${{ env.SQLC_VERSION }}_linux_amd64.tar.gz | tar -xz -C $BIN_PATH
+          chmod +x $BIN_PATH/sqlc
+
+      - name: Generate sqlc
+        run: make generate/sqlc
+
+      - name: Run sqlc diff
+        run: |
+          echo "Please make sure that all sqlc changes are checked in!"
+          git diff --exit-code

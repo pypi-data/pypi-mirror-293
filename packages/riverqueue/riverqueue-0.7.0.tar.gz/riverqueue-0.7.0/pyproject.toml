@@ -1,0 +1,44 @@
+[project]
+name = "riverqueue"
+version = "0.7.0"
+description = "Python insert-only client for River."
+authors = [
+    { name = "Eric Hauser", email = "ewhauser@gmail.com" },
+    { name = "Brandur Leach", email = "brandur@brandur.org" }
+]
+dependencies = [
+    "sqlalchemy>=2.0.30",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Changelog = "https://github.com/riverqueue/riverqueue-python/blob/master/CHANGELOG.md"
+Documentation = "https://riverqueue.com/docs"
+Homepage = "https://riverqueue.com"
+Issues = "https://github.com/riverqueue/riverqueue-python/issues"
+Repository = "https://github.com/riverqueue/riverqueue-python.git"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.2.1",
+    "psycopg2-binary>=2.9.9",
+    "mypy>=1.10.0",
+    "asyncpg>=0.29.0",
+    "greenlet>=3.0.3",
+    "pytest-asyncio>=0.23.7",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/riverqueue"]
+
+[tool.ruff]
+exclude = ["./src/riverqueue/driver/riversqlalchemy/dbsqlc"]
