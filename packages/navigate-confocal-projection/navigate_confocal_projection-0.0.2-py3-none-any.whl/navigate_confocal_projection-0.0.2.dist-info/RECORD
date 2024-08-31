@@ -1,0 +1,16 @@
+ConfocalProjectionPlugin/__init__.py,sha256=QQiHLEVrbsDQ37XM0Bfgy0ApKvX5-AAcko8KRIiHWvc,36
+ConfocalProjectionPlugin/confocal_projection_acquisition.py,sha256=IrZbHuo4bOuwfhhGxuxTy6kelGE-DN-Juskf5oiW0e8,4216
+ConfocalProjectionPlugin/plugin_config.yml,sha256=ydPQP4pDYYqHHoxq6kFoQ5pKYFfHfz3YSaEGort9XCQ,158
+ConfocalProjectionPlugin/controller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ConfocalProjectionPlugin/controller/confocal_projection_controller.py,sha256=pXykMn54ROo2zz3R40gT1gMVoh4YsZhGbPxGMgwRhrg,6696
+ConfocalProjectionPlugin/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ConfocalProjectionPlugin/model/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ConfocalProjectionPlugin/model/features/confocal_projection.py,sha256=haC6hvIzW4-rYtVpNBQol0taYn1iQU1DaeZj8p0rbK0,11205
+ConfocalProjectionPlugin/view/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ConfocalProjectionPlugin/view/confocal_projection_frame.py,sha256=Z7DsEWSYDnc2SKCuJO4Uayd4azn5WchPds72dp9g6sQ,7475
+navigate_confocal_projection-0.0.2.dist-info/LICENSE,sha256=3LFtfkPkKoKe1LIAMbHBqWVaZyynrZU-ldh741avPkY,1086
+navigate_confocal_projection-0.0.2.dist-info/METADATA,sha256=bgRyaPgBLuw3WyVREL9UOSr_4nB1UAZ7YvOoOgqEE34,3829
+navigate_confocal_projection-0.0.2.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+navigate_confocal_projection-0.0.2.dist-info/entry_points.txt,sha256=FyvpbRRw4E-H9QrEO4GUmshcr2jF_XXbI4pl700kRUU,132
+navigate_confocal_projection-0.0.2.dist-info/top_level.txt,sha256=jP6OX92MzCg-RX0dBmCQmRWKfl6b0Ya8IyCuXHBDsEU,25
+navigate_confocal_projection-0.0.2.dist-info/RECORD,,
