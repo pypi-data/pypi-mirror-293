@@ -1,0 +1,9 @@
+PKG-INFO,sha256=kbfKGoGG9DlBNlkhkHLiSKbEP9xJrYKJynY1_fIAY8E,266
+pyproject.toml,sha256=T8Ob04cHyoPNErjNwxtXhiU_BPCAK-8cSHdj-SpKemk,431
+giayolo/__init__.py,sha256=kXxjpKgiQFB0QEhL8nT984PrHuK5BoqHZMsNo7-jdG4,1453
+giayolo/__version__.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+giayolo/YoloxModels/best_ckpt.pth,sha256=LpZiqLY7wYTrcf0fapm7Fn2DIrU2E2DA45EQOXkP5E8,71834181
+giayolo/YoloxModels/combat.pt,sha256=lp9Y5hMp4jrA9nUZsA-CQ3XuUR00lBp6N2TDwtbWyZQ,22502435
+giayolo-0.0.3.dist-info/METADATA,sha256=kbfKGoGG9DlBNlkhkHLiSKbEP9xJrYKJynY1_fIAY8E,266
+giayolo-0.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+giayolo-0.0.3.dist-info/RECORD,,
