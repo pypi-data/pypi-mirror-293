@@ -1,0 +1,17 @@
+mapepire_python/base_job.py,sha256=byTbc9jjiLftuGm6xgIASjweHPvGs6vMSfPBUBi3Wwo,1153
+mapepire_python/data_types.py,sha256=WjJrOQPHQMtPrv2syM_xSgMSylqfOjlIoCORILZkSZ4,6659
+mapepire_python/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mapepire_python/query_manager.py,sha256=myyPOLRub2MRbxx9j0PbWYg76YHuq85o9opynTKbAxY,2353
+mapepire_python/ssl.py,sha256=PyecTrKQn4vVFvxsNs0Q68bNK-l1MvvzZLnj64CmJbY,620
+mapepire_python/version.py,sha256=q_9uB9WWkqCjks0siAltWEIy5CVwZdDMlInZebftmko,407
+mapepire_python/client/query.py,sha256=xQwO-hu8K94k0-cdObNWrU_tH5fkctWR8LxaGc_Sg-U,4986
+mapepire_python/client/sql_job.py,sha256=W4fmNbYoW0q7VwheyBMPdm32dL0GfV_mZ730KlkFY0c,5626
+mapepire_python/client/websocket.py,sha256=chDJ2D2B70dkzHwEyEQflSQl5nlvbxeGkmWUaUjIiA4,1314
+mapepire_python/pool/pool_client.py,sha256=LHRD692UQo-OGLIkTelKh5s0Ji-8A9b09SmMFqRR1HU,4554
+mapepire_python/pool/pool_job.py,sha256=wu0cVk5Gu6PIqVkFwSXbcLti43RoJI8r6CUP0Iqv6dY,10188
+mapepire_python/pool/pool_query.py,sha256=uf4ywbTO5bwehLUlJRu2U7owqZcNFMtdly3rJFWClJA,4900
+mapepire_python-0.1.5.dist-info/LICENSE,sha256=YvuKOpYh3COIF0yqq-nCMXtpS7mh1GyYvPVlW2j1G-M,11359
+mapepire_python-0.1.5.dist-info/METADATA,sha256=2zKU8WFcq9zptAzRkn86aVvc9htRRFzd48mZe9FZ_B4,28955
+mapepire_python-0.1.5.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+mapepire_python-0.1.5.dist-info/top_level.txt,sha256=J41xe6UH-ueP4KTS1BB3U-6FVTSca56t_Uxwa13Uwkw,16
+mapepire_python-0.1.5.dist-info/RECORD,,
