@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pythOnmarg"
+version = "0.0.1"
+dependencies = [
+    "geopandas",
+    "pandas",
+    "xlrd"
+]
+requires-python = ">=3.9"
+authors = [
+    {name = "William Conley", email = "william@cconley.ca"}
+]
+description = "A package for accessing and working with the Ontario Marginalization Index."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
