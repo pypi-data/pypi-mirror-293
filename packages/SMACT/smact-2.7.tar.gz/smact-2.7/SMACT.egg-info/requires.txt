@@ -1,0 +1,8 @@
+scipy
+numpy<2
+spglib
+pymatgen<2024.8.8,>=2024.2.20
+ase
+pandas
+pathos
+typing-extensions
