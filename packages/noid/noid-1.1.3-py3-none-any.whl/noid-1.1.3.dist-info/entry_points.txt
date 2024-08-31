@@ -1,0 +1,2 @@
+[console_scripts]
+noid = noid.pynoid:main
