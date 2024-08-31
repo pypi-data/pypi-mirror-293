@@ -1,0 +1,49 @@
+ #Info necessary for each hardware
+environment:
+#microscope is the center of the environment
+# All values are in mm
+  robot:
+    # All design-based approach. Not necessarily implemented for non-trivial
+    # geometries. Robot base is the reference
+    position: [0,0,0]
+    robot_base_plate_height: 9.77
+  motor:
+    # Also design-based.
+    # Distance from the center of the robot to the center of the motor.
+    units: 20
+  microscope:
+    # Mecaportal position to the end effector. The magnetic location in the
+    # WRF.
+    x: 167.5
+    y: -181.5
+    z: 219.75
+    R1: 90
+    R2: 0
+    R3: -90
+  loading_zone:
+    flag: True
+    # If True, the robot will use the manual pose values indicated below.
+    # If False, uses the design-based approach above.
+    pose:
+      x: 259.0
+      y: 0
+      z: 159.8
+      Rx: 0
+      Ry: 90
+      Rz: 0
+  components:
+    vial_height_from_carousel: 86.06
+    carousel_height_from_table: 60.45
+    vial_attack_distance_from_carousel: 193.294
+    trf_from_wrf_cartesian: [190,0,308,0,90,0]
+    trf_to_gripper_edge: 59
+    trf_to_gripper_bottom: 22.14
+    MEPG_thickness: 18.14
+    sample_height: 90
+    shear_distance: 50
+    tolerance_up: 1
+    tolerance_forward: 12
+    
+
+
+

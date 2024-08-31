@@ -1,0 +1,11 @@
+name: Autonomous Robotic Sample Handling
+view: Tab # Tab or Popup if has an GUI
+
+
+###################################################################
+# how to add plugin device in the .navigate/configuration.yaml file
+#
+# robot_arm:
+#   hardware:
+#     type: PluginDevice
+###################################################################

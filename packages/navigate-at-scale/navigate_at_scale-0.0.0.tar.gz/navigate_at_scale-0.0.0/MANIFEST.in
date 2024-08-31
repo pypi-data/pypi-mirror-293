@@ -1,0 +1,6 @@
+recursive-include autonomous_robotic_sample_handling *.yml
+recursive-include autonomous_robotic_sample_handling *.yaml
+recursive-include autonomous_robotic_sample_handling *.dll
+recursive-include autonomous_robotic_sample_handling *.png
+
+include VERSION

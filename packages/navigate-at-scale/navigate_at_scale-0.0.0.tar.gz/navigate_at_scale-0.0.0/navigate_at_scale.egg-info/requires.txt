@@ -1,0 +1,32 @@
+mecademicpy==2.1.0
+matplotlib-inline==0.1.3
+PyYAML==6.0
+pyserial==3.5
+PIPython==2.6.0.1
+pythonnet==3.0.3
+
+[:sys_platform != "darwin"]
+fsspec==2022.8.2
+
+[:sys_platform == "darwin"]
+fsspec==2022.5.0
+
+[dev]
+pytest
+pytest-xvfb
+pytest-cov
+pre-commit
+ipykernel
+jupyterlab
+
+[docs]
+numpydoc
+nbconvert
+sphinx<6.0.0
+sphinx_rtd_theme
+sphinx-copybutton
+sphinx-issues
+sphinx-design
+pyyaml
+pydata_sphinx_theme==0.10.0rc2
+sphinx-toolbox
