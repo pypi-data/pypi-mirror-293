@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: unique_image_processing
+Version: 0.1.0
+Summary: Um pacote para processamento de imagens
+Author: Fabiano Navarro
+Author-email: nav.info.suporte@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
