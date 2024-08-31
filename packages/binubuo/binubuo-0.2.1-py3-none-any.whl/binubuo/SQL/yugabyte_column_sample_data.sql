@@ -1,0 +1,1 @@
+select json_agg({r_col_name})  from {r_table_name}  where {r_col_name} is not null order by random() limit {r_table_sample_size};

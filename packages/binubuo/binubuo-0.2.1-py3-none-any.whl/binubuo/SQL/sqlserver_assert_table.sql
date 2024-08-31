@@ -1,0 +1,1 @@
+select isnull((SELECT 1 FROM INFORMATION_SCHEMA.TABLES where  TABLE_NAME = ?), 0)

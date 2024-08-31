@@ -1,0 +1,1 @@
+select json_arrayagg({r_col_name} returning clob) from {r_table_name} sample ({r_table_sample_size}) order by rowid

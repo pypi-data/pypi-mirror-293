@@ -1,0 +1,1 @@
+select count(*) from user_col_comments where table_name = :tabname

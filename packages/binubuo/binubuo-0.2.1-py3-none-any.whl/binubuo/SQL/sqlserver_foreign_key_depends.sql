@@ -1,0 +1,12 @@
+SELECT PK.TABLE_NAME AS foreign_table_name
+		, pkc.column_name AS foreign_column_name
+		, pkc2.COLUMN_NAME
+    FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS C
+    INNER JOIN INFORMATION_SCHEMA.TABLE_CONSTRAINTS FK
+        ON C.CONSTRAINT_NAME = FK.CONSTRAINT_NAME
+    INNER JOIN INFORMATION_SCHEMA.TABLE_CONSTRAINTS PK
+        ON C.UNIQUE_CONSTRAINT_NAME = PK.CONSTRAINT_NAME
+	inner join information_schema.constraint_column_usage PKC on pk.CONSTRAINT_NAME = pkc.CONSTRAINT_NAME
+	inner join information_schema.constraint_column_usage PKC2 on fk.CONSTRAINT_NAME = PKC2.CONSTRAINT_NAME
+where
+	FK.TABLE_NAME=?

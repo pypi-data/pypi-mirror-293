@@ -1,0 +1,1 @@
+select ordinal_position, column_name from information_schema.columns cols where cols.table_name = %s order by ordinal_position asc

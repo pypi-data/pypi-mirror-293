@@ -1,0 +1,1 @@
+SELECT last_analyze FROM pg_stat_all_tables where relname = %s;

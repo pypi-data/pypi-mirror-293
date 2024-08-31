@@ -1,0 +1,1 @@
+select [{r_col_name}] from {r_schema_name}.{r_table_name} tablesample ({r_table_sample_size} percent) where [{r_col_name}] is not null
