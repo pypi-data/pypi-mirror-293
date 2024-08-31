@@ -1,0 +1,10 @@
+keywordsai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keywordsai/__main__.py,sha256=6SaYERF8B5vGPJs9ghJC3e31TgrBj2cweGtJ8VgrfiM,28
+keywordsai/decorators.py,sha256=zjH3EU6fMtiQYusM5Io-901jBWKZZ6llSb6VUe3Tpfo,852
+keywordsai/main.py,sha256=N4LHtdmfjjs12eW_KmkO6js8YqlKO0BkCJMCYH7d-GY,100
+keywordsai/utils/bgcolors.py,sha256=O_FdI7A5-SHg7fzS4EM8Ygu4LdqxpAPlD99bQFfOlNE,228
+keywordsai/utils/debug_print.py,sha256=y6dekKVl1qES8zQFBSikTorUClBK5AiIFdddZ6ozD04,904
+keywordsai-0.1.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+keywordsai-0.1.2.dist-info/METADATA,sha256=SiOERPRrs03ZmZgbO5QDMFTIDA1YuD3_YfcGEzKH17w,944
+keywordsai-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+keywordsai-0.1.2.dist-info/RECORD,,
