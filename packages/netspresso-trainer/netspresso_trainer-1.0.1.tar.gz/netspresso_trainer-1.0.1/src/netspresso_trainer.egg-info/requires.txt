@@ -1,0 +1,17 @@
+torch==1.13.0
+torchvision==0.14.0
+numpy
+pillow
+tqdm
+omegaconf
+opencv-python
+tensorboard
+fvcore
+safetensors
+loguru>=0.6.0
+datasets
+gradio==3.50.2
+torch_tb_profiler
+scipy
+pandas
+requests
