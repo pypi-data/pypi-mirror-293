@@ -1,0 +1,12 @@
+hmmCDR/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hmmCDR/hmmCDR.py,sha256=UOdqfj3DdU3S9Eo3p93dDQmccF19i23DtJaITrFMGzc,15276
+hmmCDR/hmmCDRparse.py,sha256=epvHa7RkzcEega9Uys8DzPXbLSfAwgAESMr57quXpM8,3421
+hmmCDR/hmmCDRprior.py,sha256=QzIMbBD-9yCy_qydzpPMByh1V0xw1PEuZSMTdRUt6ug,9348
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unittest_hmmCDR_parser.py,sha256=DYcu_o4CZcdE5pk5MVbGf_WJHhsDR2bm6i2VO5ySRSI,13232
+hmmCDR-0.1.1.dist-info/LICENSE,sha256=D3QWLIl1F1RCLTXIi4AFWEPZEr-EwCrNO7U7pC6_Vgc,1074
+hmmCDR-0.1.1.dist-info/METADATA,sha256=p5YyM0TffvEMifYg2x9oo_b_c1FVlJwSbVwss8WYTAA,13359
+hmmCDR-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hmmCDR-0.1.1.dist-info/entry_points.txt,sha256=pmUyIPra4WfMcIhMztEMi3uQtnVUbc1DSNTJzXJyiuo,84
+hmmCDR-0.1.1.dist-info/top_level.txt,sha256=bI5mUll-ySREQv7BybaJwU69X398cv82s0Wb34q_feM,13
+hmmCDR-0.1.1.dist-info/RECORD,,
