@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+holobit.egg-info/PKG-INFO
+holobit.egg-info/SOURCES.txt
+holobit.egg-info/dependency_links.txt
+holobit.egg-info/requires.txt
+holobit.egg-info/top_level.txt
