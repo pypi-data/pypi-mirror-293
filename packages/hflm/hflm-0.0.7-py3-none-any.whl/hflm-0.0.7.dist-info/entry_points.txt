@@ -1,0 +1,3 @@
+[console_scripts]
+lmgen = hflm.lm_gen.__main__:lm_gen
+lmprob = hflm.lm_prob.__main__:lm_prob
