@@ -1,0 +1,10 @@
+README.md
+setup.py
+webpic/__init__.py
+webpic/main.py
+webpic.egg-info/PKG-INFO
+webpic.egg-info/SOURCES.txt
+webpic.egg-info/dependency_links.txt
+webpic.egg-info/entry_points.txt
+webpic.egg-info/requires.txt
+webpic.egg-info/top_level.txt
