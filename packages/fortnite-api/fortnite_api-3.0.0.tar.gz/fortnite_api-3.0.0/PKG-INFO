@@ -1,0 +1,190 @@
+Metadata-Version: 2.1
+Name: fortnite-api
+Version: 3.0.0
+Summary: A python wrapper for Fortnite-API.com
+Author-email: Luc1412 <Luc1412.lh@gmail.com>, Trevor Flahardy <trevorflahardy@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2019-present Luc1412
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Home Page, https://github.com/Fortnite-API/py-wrapper
+Project-URL: Issues, https://github.com/Fortnite-API/py-wrapper/issues
+Project-URL: Documentation, https://fortnite-api.readthedocs.io/en/rewrite/
+Keywords: fortnite,fortnite-api.com,shop,cosmetics,fortnite api,fortnite shop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.22.0
+Requires-Dist: aiohttp<4.0.0,>=3.9.0
+Requires-Dist: typing_extensions
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-asyncio; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: python-dotenv; extra == "tests"
+Requires-Dist: pytest-mock; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinxcontrib_trio; extra == "docs"
+Requires-Dist: sphinxcontrib-websupport; extra == "docs"
+Requires-Dist: typing-extensions; extra == "docs"
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: discord.py; extra == "dev"
+Requires-Dist: pyright; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: speed
+Requires-Dist: orjson; extra == "speed"
+
+# Sync/Async Python wrapper for [Fortnite-API.com](https://fortnite-api.com)
+
+[![Support](https://discordapp.com/api/guilds/621452110558527502/widget.png?style=shield)](https://discord.gg/T4tyYDK)
+![GitHub issues](https://img.shields.io/github/issues/Fortnite-API/py-wrapper?logo=github)
+[![PyPI](https://img.shields.io/pypi/v/fortnite-api)](https://pypi.org/project/fortnite-api)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fortnite-api?label=python%20version&logo=python&logoColor=yellow)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/fortnite-api)](https://pypi.org/project/fortnite-api)
+[![Documentation](https://img.shields.io/readthedocs/fortnite-api)](https://fortnite-api.readthedocs.io/)
+
+Welcome to the Fortnite API Python wrapper! This library offers a complete **async** and **sync** wrapper around the endpoints of [Fortnite-API.com](https://fortnite-api.com)
+
+The library's focus is to provide a simple and easy-to-use interface to interact with the API. The library is designed to be as user-friendly as possible, and it is easy to get started with. If you have any questions or need help, feel free to join the [official Discord server](https://discord.gg/T4tyYDK).
+
+## Installation
+
+Note that **Python 3.8 or higher is required.**
+
+```sh
+# Linux/macOS
+python3 -m pip install fortnite-api
+
+# Windows
+py -3 -m pip install fortnite-api
+```
+
+To install the developer version, you can use the following command:
+
+```sh
+git clone https://github.com/Fortnite-API/py-wrapper
+cd py-wrapper
+python3 -m pip install .
+```
+
+### Optional Dependencies
+
+- `speed`: An optional dependency that installs [`orjson`](https://github.com/ijl/orjson) for faster JSON serialization and deserialization.
+
+```sh
+# Linux/macOS
+python3 -m pip install fortnite-api[speed]
+
+# Windows
+py -3 -m pip install fortnite-api[speed]
+```
+
+## API Key
+
+For most endpoints, you do not need an API key. However, some endpoints, such as fetching statistics, require an API key. To use these endpoints, you need to set the `api_key` parameter in the constructor.
+
+```python
+import asyncio
+import fortnite_api
+
+async def main():
+    async with fortnite_api.Client(api_key="your_api_key") as client:
+        stats = await client.fetch_br_stats(name='some_username')
+        print(stats)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+### Generating an API Key
+
+You can generate an API key on <https://dash.fortnite-api.com/account> by logging in with your Discord account.
+
+## Quick Example
+
+### Asynchronous Example
+
+```python
+import asyncio
+import fortnite_api 
+
+async def main() -> None:
+    async with fortnite_api.Client() as client:
+        all_cosmetics: fortnite_api.CosmeticsAll = await client.fetch_cosmetics_all()
+
+        for br_cosmetic in all_cosmetics.br:
+            print(br_cosmetic.name) 
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+### Synchronous Example
+
+```python
+import fortnite_api
+
+def main() -> None:
+    client = fortnite_api.SyncClient()
+    all_cosmetics: fortnite_api.CosmeticsAll = client.fetch_cosmetics_all()
+
+    for br_cosmetic in all_cosmetics.br:
+        print(br_cosmetic.name)
+
+if __name__ == "__main__":
+    main()
+```
+
+More examples can be found in the `examples/` directory of the repository.
+
+## Links
+
+- [Python Wrapper Documentation](https://fortnite-api.readthedocs.io/en/rewrite/)
+- [FortniteAPI API Documentation](https://fortnite-api.com)
+- [Official Discord Server](https://discord.gg/T4tyYDK)
+
+## Contribute
+
+Every type of contribution is appreciated.
+
+## Licenses
+
+- Fortnite-API Wrapper (MIT) [License](https://github.com/Fortnite-API/py-wrapper/blob/master/LICENSE)
+- requests (Apache) [License](https://github.com/psf/requests/blob/master/LICENSE)
+- aiohttp (Apache) [License](https://github.com/aio-libs/aiohttp/blob/6a5ab96bd9cb404b4abfd5160fe8f34a29d941e5/LICENSE.txt)
