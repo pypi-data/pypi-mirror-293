@@ -1,0 +1,14 @@
+funcnodes/__init__.py,sha256=xaDRmj5jGZ1wUVD7ik7KatwgeKaXCMDOZBQiuuyQGU0,1786
+funcnodes/__main__.py,sha256=OzuDEI_i-JapM15rK2_Z6soNh_c27WcT7lrYuXFXR7I,7509
+funcnodes/worker/__init__.py,sha256=qrCMWJzh2AjNzdd_oG7r3eXLZzsyB0Lsh03egalh7XA,427
+funcnodes/worker/external_worker.py,sha256=nj31vxxO4VqN9RptoivAr3zAPTfQMd1ceNhQJDs17t0,1755
+funcnodes/worker/loop.py,sha256=a7H3_npNRN4ekXC5eY7UhVCtkk6pzoth00Uaf6eHdFY,3610
+funcnodes/worker/remote_worker.py,sha256=P1Gvyzb8Wul2C2so6jzr4rUbf6NYmEEcy9-jCmF86r0,3257
+funcnodes/worker/websocket.py,sha256=ZgsuFqssE3jaoJ92uCsDpI-X_jdBS06GYwXb2c72rlI,8172
+funcnodes/worker/worker.py,sha256=7Waxc2jRBIPr2KBltEJO8QCoICXaZyCEgWSDFmLA_V0,38477
+funcnodes/worker/worker_manager.py,sha256=o-OA0nBzIvS3j5bAxAAejQ-u8NFq5ifk3MdtF_La3U4,29751
+funcnodes-0.4.2.dist-info/LICENSE,sha256=pSlL8vki2RRQb9JDxH64o3VOadh2crh5sIocWPe6W54,1070
+funcnodes-0.4.2.dist-info/METADATA,sha256=dFaHeBLQ3dsPOcTxNHHZ5hKjQ3Xpr-o7JG7bFTMSsfM,13397
+funcnodes-0.4.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+funcnodes-0.4.2.dist-info/entry_points.txt,sha256=sj7Ob84G1jxzs9A9gjjbZjzIsl8pfk12eHKdXrZKD0I,53
+funcnodes-0.4.2.dist-info/RECORD,,
