@@ -1,0 +1,12 @@
+code8/__init__.py,sha256=fb8qdnY-sSe7cf8yohr_U2Em-ZQ9PllTIGm4fMuOU_8,21
+code8/cli.py,sha256=ct9IVXI1mR8PtXzTNXDPzDv4JbaEcKL5p1nJjYiLzmU,498
+code8/config_ui.py,sha256=lcBVRT2DwLGGiloEtNnYT5M6n9MOngUPgMCa0s_XLGU,4511
+code8/test_generator.py,sha256=5zjYtgo0p5z2uUaY-sJc-a0rLqoHchHR5w8Q7uvwJiI,3276
+code8/static/styles.css,sha256=FMYPiL68oquLSGRIC0RQE7byZ5kP55qGe1T9bTdzIiY,11131
+code8/templates/index.html,sha256=WlutdG2JLqauFc8CEGOMDrdRz67SQR97we91RkNvw2c,30964
+code8-0.1.5.dist-info/LICENSE,sha256=7IV98lAi3jI-Q_RlYgihkTX_7HqHNhKFiYB4DJEq0GM,1082
+code8-0.1.5.dist-info/METADATA,sha256=rePih5b4nD8DKx3PtuLzCokGpPxEyzcIgQMO3tBan8U,1332
+code8-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+code8-0.1.5.dist-info/entry_points.txt,sha256=ABrFAMpHbCloEjRs7HPx5Uhztnk82TVbb58iBHTf3Pg,42
+code8-0.1.5.dist-info/top_level.txt,sha256=0f_qeD_77EAxjlA9suAQdD1Ln3CePAs2tcHhm0TSqV4,6
+code8-0.1.5.dist-info/RECORD,,
