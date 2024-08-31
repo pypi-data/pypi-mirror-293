@@ -1,0 +1,11 @@
+numpy
+scipy
+scikit-learn
+joblib
+pandas
+pylsl
+pyxdf
+matplotlib
+seaborn
+wheel
+pyriemann
