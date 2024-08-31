@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: BythonJ
+Version: 0.0.1
+Summary: Python interpreter allowing braces instead of colons
+Author: Jaryl
+Author-email: jaryl.ee.ry@gmail.com
+Keywords: python,interpreter,bython,braces
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
