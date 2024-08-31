@@ -1,0 +1,155 @@
+Metadata-Version: 2.3
+Name: mddrt
+Version: 0.0.8
+Summary: Package for Multi-Dimension Directly Rooted Trees visualization
+Project-URL: Homepage, https://github.com/nicoabarca/mddrt
+Project-URL: Issues, https://github.com/nicoabarca/mddrt/issues
+License: MIT License
+        
+        Copyright (c) 2024 Nicolás Abarca
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.9
+Requires-Dist: graphviz
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+# Multi-Dimensional DRT Visualizer
+This Python package allows users to visualize Directed Rooted Trees (DRTs) that represent various dimensions of data derived from event logs. It provides tools to create graphical representations of these multi-dimensional trees, enabling deeper insights into process behaviors and relationships. The diagrams are generated via [Graphviz](https://www.graphviz.org).
+
+
+# Installation
+This package runs under Python 3.9+, use [pip](https://pip.pypa.io/en/stable/) to install.
+```sh
+pip install mddrt
+```
+To render and save generated diagrams, you will also need to install [Graphviz](https://www.graphviz.org)
+
+# Quickstart
+
+### Format event log
+Using `mddrt.log_formatter` you can format your own initial event log with the corresponding column names based on [pm4py](https://pm4py.fit.fraunhofer.de) standard way of naming logs columns.
+
+The format dictionary to pass as argument to this function needs to have the following structure:
+```py
+{
+    "case:concept:name": <Case Id>, # required
+    "concept:name": <Activity Id>, # required
+    "time:timestamp": <Timestamp>, # required
+    "start_timestamp": <Start Timestamp>, # optional
+    "org:resource": <Resource>, # optional
+    "cost:total": <Cost>, # optional
+}
+```
+
+Each value of the dictionary needs to match the corresponding column name of the initial event log. If `start_timestamp`, `org:resource` and `cost:total` are not present in your event log, you can leave its values as blank strings.
+
+```py
+import mddrt
+import pandas as pd
+
+raw_event_log = pd.read_csv("raw_event_log.csv")
+
+format_dictionary = {
+    "case:concept:name": "Case ID",
+    "concept:name": "Activity",
+    "time:timestamp": "Complete",
+    "start_timestamp": "Start",
+    "org:resource": "Resource",
+    "cost:total": "Cost",
+}
+
+event_log = mddrt.log_formatter(raw_event_log, format_dictionary)
+
+```
+### Discover Multi-Dimensional DRT
+
+```py
+drt = mddrt.discover_multi_dimensional_drt(
+    event_log,
+    calculate_cost=True,
+    calculate_time=True,
+    calculate_flexibility=True,
+    calculate_quality=True,
+    group_activities=False,
+)
+```
+
+### Automatic group of activities 
+```py
+grouped_drt = mddrt.group_drt_activities(drt)
+```
+
+### Get the DRT diagram string representation
+```py
+mddrt_string = mpdfg.get_multi_dimension_drt_string(
+    multi_dimensional_drt,
+    visualize_time=True,
+    visualize_cost=True,
+    visualize_quality=True,
+    visualize_flexibility=True
+)
+```
+
+### View the generated DRT diagram
+Allows the user to view the diagram in interactive Python environments like Jupyter and Google Colab.
+
+```py
+mpdfg.view_multi_dimensional_drt(
+    multi_dimensional_drt
+    visualize_time=True,
+    visualize_cost=True,
+    visualize_quality=True,
+    visualize_flexibility=True,
+    node_measures=["total"], # accepts also "consumed" and "remaining"
+    arc_measures=[], # accepts "avg", "min" and "max", or you can keep this argument empty
+    format="svg" # Format value should be a valid image extension like 'jpg', 'png', 'jpeq' or 'webp
+)
+```
+> **WARNING**
+> Not all output file formats of Graphviz are available to display in environments like Jupyter Notebook or Google Colab.
+
+### Save the generated DRT diagram
+
+```py
+mpdfg.save_vis_multi_dimensional_drt(
+    multi_dimensional_drt
+    file_path="diagram",
+    visualize_time=True,
+    visualize_cost=True,
+    visualize_quality=True,
+    visualize_flexibility=True,
+    node_measures=["total"], # accepts also "consumed" and "remaining"
+    arc_measures=[], # accepts "avg", "min" and "max", or you can keep this argument empty
+    format="svg", # or pdf, webp, svg, etc.
+)
+```
+
+# Examples
+
+Checkout [Examples](https://github.com/nicoabarca/mddrt/blob/main/examples) to see the package being used to visualize an event log of a mining process.
