@@ -1,0 +1,10 @@
+cffi
+click
+cryptography
+getmac
+ipaddress
+packaging
+pycparser
+pyOpenSSL
+pyproject_hooks
+scapy
