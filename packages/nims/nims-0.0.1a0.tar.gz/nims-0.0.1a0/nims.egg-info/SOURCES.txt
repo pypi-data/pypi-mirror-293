@@ -1,0 +1,6 @@
+setup.py
+nims.egg-info/PKG-INFO
+nims.egg-info/SOURCES.txt
+nims.egg-info/dependency_links.txt
+nims.egg-info/requires.txt
+nims.egg-info/top_level.txt

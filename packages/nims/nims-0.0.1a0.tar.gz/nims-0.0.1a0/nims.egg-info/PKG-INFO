@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nims
+Version: 0.0.1a0
+Author: t
+Requires-Python: >=3.6
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.3; extra == "dev"
+Requires-Dist: flake8>=3.9.0; extra == "dev"
