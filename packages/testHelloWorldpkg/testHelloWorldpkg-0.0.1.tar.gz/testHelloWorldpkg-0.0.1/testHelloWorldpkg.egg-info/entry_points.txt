@@ -1,0 +1,2 @@
+[console_scripts]
+mypkg = testHelloWorldpkg.app:main
