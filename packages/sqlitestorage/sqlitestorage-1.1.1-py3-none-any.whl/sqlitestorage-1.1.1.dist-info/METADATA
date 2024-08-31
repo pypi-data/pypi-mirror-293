@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sqlitestorage
+Version: 1.1.1
+Summary: SQLite storage for aiogram bots.
+Author-email: osf4 <12y98431c29y4@mail.ru>
+Project-URL: Homepage, https://github.com/osf4/sqlitestorage
+Project-URL: Issues, https://github.com/osf4/sqlitestorage/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# SQLiteStorage
+SQLite storage is a small module that allows you to use SQLite as aiogram storage.
+
+# Install
+```pip install sqlitestorage```
+
+# Usage
+```from sqlitestorage import SQLiteStorage```
+
+....
+
+```dp = Dispatcher(storage = SQLiteStorage('users.db'))```
+
+
+Thanks [KurimuzonAkuma](https://github.com/KurimuzonAkuma) for his [gist](https://gist.github.com/KurimuzonAkuma/683eec4d62e111578a42608d4485fc27)
