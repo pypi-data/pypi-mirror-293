@@ -1,0 +1,2 @@
+[console_scripts]
+wordlemini = wordlemini._cli:parse
