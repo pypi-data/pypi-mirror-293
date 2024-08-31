@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+connector/__init__.py
+connector/sql_helper_connector.py
+connector/util.py
+connector/worker_agent.py
+sql_helper_connector.egg-info/PKG-INFO
+sql_helper_connector.egg-info/SOURCES.txt
+sql_helper_connector.egg-info/dependency_links.txt
+sql_helper_connector.egg-info/entry_points.txt
+sql_helper_connector.egg-info/requires.txt
+sql_helper_connector.egg-info/top_level.txt
