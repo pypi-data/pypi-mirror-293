@@ -1,0 +1,11 @@
+README.md
+setup.py
+crushon/__init__.py
+crushon/client.py
+crushon.egg-info/PKG-INFO
+crushon.egg-info/SOURCES.txt
+crushon.egg-info/dependency_links.txt
+crushon.egg-info/requires.txt
+crushon.egg-info/top_level.txt
+crushon/lib/__init__.py
+crushon/lib/characters.py
