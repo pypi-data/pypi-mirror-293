@@ -1,0 +1,10 @@
+README.md
+setup.py
+sage/__init__.py
+sage/clone.py
+sage/folder_structure_view.py
+sage_directory.egg-info/PKG-INFO
+sage_directory.egg-info/SOURCES.txt
+sage_directory.egg-info/dependency_links.txt
+sage_directory.egg-info/requires.txt
+sage_directory.egg-info/top_level.txt
