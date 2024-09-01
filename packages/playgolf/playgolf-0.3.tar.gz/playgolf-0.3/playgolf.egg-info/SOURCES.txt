@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+data/playgolf_data.csv
+data/playgolf_test.csv
+playgolf/__init__.py
+playgolf/playgolf.py
+playgolf.egg-info/PKG-INFO
+playgolf.egg-info/SOURCES.txt
+playgolf.egg-info/dependency_links.txt
+playgolf.egg-info/requires.txt
+playgolf.egg-info/top_level.txt
