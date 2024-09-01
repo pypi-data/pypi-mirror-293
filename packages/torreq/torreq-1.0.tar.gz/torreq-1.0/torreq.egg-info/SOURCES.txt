@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+torreq/__init__.py
+torreq/onion_requests.py
+torreq.egg-info/PKG-INFO
+torreq.egg-info/SOURCES.txt
+torreq.egg-info/dependency_links.txt
+torreq.egg-info/requires.txt
+torreq.egg-info/top_level.txt
