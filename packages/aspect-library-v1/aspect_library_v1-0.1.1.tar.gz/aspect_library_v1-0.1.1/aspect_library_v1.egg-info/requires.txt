@@ -1,0 +1,5 @@
+pandas
+deep_translator
+unlimited_machine_translator
+pyabsa
+nltk
