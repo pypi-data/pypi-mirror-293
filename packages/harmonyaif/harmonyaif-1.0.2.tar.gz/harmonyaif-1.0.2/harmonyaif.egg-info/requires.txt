@@ -1,0 +1,10 @@
+SpeechRecognition
+pygame
+gTTS
+beautifulsoup4
+spotipy
+requests
+pyaudio
+distutils-pytest
+pycaw
+comtypes

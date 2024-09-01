@@ -1,0 +1,8 @@
+setup.py
+harmonyai/__init__.py
+harmonyai/main.py
+harmonyaif.egg-info/PKG-INFO
+harmonyaif.egg-info/SOURCES.txt
+harmonyaif.egg-info/dependency_links.txt
+harmonyaif.egg-info/requires.txt
+harmonyaif.egg-info/top_level.txt
