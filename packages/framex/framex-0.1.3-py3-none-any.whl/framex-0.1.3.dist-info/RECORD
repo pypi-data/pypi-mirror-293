@@ -1,0 +1,15 @@
+framex/__init__.py,sha256=rO73T5fJxhs0t6Qzc_WMgKQx3fj0Fd9cubHPEgqH6h0,77
+framex/_dicts/__init__.py,sha256=3-mDSMDeUVURj1BDtY67Er7jaDo05NSnrQHMOSWq5KQ,400
+framex/_dicts/_all.py,sha256=LjU72VHGfNvi7S1qNp402Vmf5thgU5OH_RnwjsHswm4,238
+framex/_dicts/_constants.py,sha256=tdvnL2qOD41QbfELs18hYtDk9CUuO5YL7Wh7im7lhqE,175
+framex/_dicts/_github.py,sha256=42Gn5ugBgFT2V87nTOBTtUfHjpgj2rcrGK_oDTeWlaI,814
+framex/_dicts/_local.py,sha256=Y-PAeMDKI7M7arEublIHQUtQgp3Nq9lFYlGgVGtF1UI,212
+framex/cli/tools.py,sha256=8ehC9Ca3u1NBQZEKV4lRBxZDUaWD0wLkc9U1_AHyb1w,1340
+framex/datasets/__init__.py,sha256=oTlZpDyeAnANn5mIZzrPN2vf9PNCOt_f6li-qQT-vuU,83
+framex/datasets/_cli.py,sha256=Pmflw_Lhmdv7UIGFgr1caT3pZC1Fy0n9Nzw6L32Sviw,2880
+framex/datasets/_core.py,sha256=NwEX65wLo9NhPrabDSuPtnJh0sBfxUWnhtEB5Eiameo,2622
+framex-0.1.3.dist-info/entry_points.txt,sha256=ZPL1hKw4bPfjKmaS0wXpn3cUYR-vmcMWyTROKQ7jVLI,44
+framex-0.1.3.dist-info/LICENSE,sha256=_lLk_jL2x0SoWTOqFXAHyjiTsMi0qd2QWukZcpqC56w,1058
+framex-0.1.3.dist-info/METADATA,sha256=Cvyv85Wr-DA7MC5Wim48Q6saX-HE6mpWnHHjGs98XO8,2865
+framex-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+framex-0.1.3.dist-info/RECORD,,
