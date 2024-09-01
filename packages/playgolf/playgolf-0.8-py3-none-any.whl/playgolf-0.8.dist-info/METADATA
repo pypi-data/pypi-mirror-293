@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: playgolf
+Version: 0.8
+Summary: a package for S algorithm implementation with datasets included
+Home-page: UNKNOWN
+Author: Raghul
+Author-email: raghulares@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+
+UNKNOWN
+
