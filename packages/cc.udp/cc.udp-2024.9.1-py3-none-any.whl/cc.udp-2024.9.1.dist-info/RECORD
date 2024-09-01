@@ -1,0 +1,7 @@
+cc/udp/__init__.py,sha256=79Ih1151rfcqZdr7F8HSZSTs_iT2SKd1xCkehMsXeXs,19
+cc/udp/core.py,sha256=AeGE6ivoqdcL8rabJQaO0v3cHvaztumhfqlsC4Ii3-U,4025
+cc.udp-2024.9.1.dist-info/LICENSE,sha256=VGSh-JYb7sLRRUMQ3n1WOunHROTlrfKdWbhyKDJHcdA,1090
+cc.udp-2024.9.1.dist-info/METADATA,sha256=E-KWeXkfaJrJlOmSaFffL8Y8e3-GRJnnFbF7t0jhLNc,765
+cc.udp-2024.9.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+cc.udp-2024.9.1.dist-info/top_level.txt,sha256=o5YPSLsfk-ISzR6mI7m1ilDZOh6HbwFyuMB8NIJKUPE,3
+cc.udp-2024.9.1.dist-info/RECORD,,
