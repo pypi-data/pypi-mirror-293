@@ -1,0 +1,7 @@
+setup.py
+qr2fa.egg-info/PKG-INFO
+qr2fa.egg-info/SOURCES.txt
+qr2fa.egg-info/dependency_links.txt
+qr2fa.egg-info/entry_points.txt
+qr2fa.egg-info/requires.txt
+qr2fa.egg-info/top_level.txt

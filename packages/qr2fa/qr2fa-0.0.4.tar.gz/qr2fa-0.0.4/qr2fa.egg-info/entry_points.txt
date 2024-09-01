@@ -1,0 +1,2 @@
+[console_scripts]
+qr2fa = qr2fa:main
