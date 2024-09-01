@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: coherent.deps
+Version: 0.1.1
+Author-Email: "Jason R. Coombs" <jaraco@jaraco.com>
+Summary: Utilities for resolving imports to dependencies.
+Requires-Python: >= 3.8
+Provides-Extra: test
+Provides-Extra: doc
+Project-URL: Source, https://github.com/coherent-oss/coherent.deps
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+
