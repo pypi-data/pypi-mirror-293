@@ -1,0 +1,8 @@
+testHelloWorldpkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testHelloWorldpkg/app.py,sha256=5fAKWSeKMispK-m1yGXK_qmdPXXPze87kXcU8CsVWoY,110
+testHelloWorldpkg/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testHelloWorldpkg/utils/data.py,sha256=sZKTvyGN6HygYdZhDf7TtuUSMuIusGY973dEnRcNVw8,49
+testHelloWorldpkg-0.0.5.dist-info/METADATA,sha256=qpJ5RrKEPy_04PZp53VXssJFaxDvFFI_a3exGGfrVsI,341
+testHelloWorldpkg-0.0.5.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+testHelloWorldpkg-0.0.5.dist-info/top_level.txt,sha256=I-z5ZbM5YaqB80sL4jObRuq_5VPXbayH4wP38gmd1Gw,18
+testHelloWorldpkg-0.0.5.dist-info/RECORD,,
