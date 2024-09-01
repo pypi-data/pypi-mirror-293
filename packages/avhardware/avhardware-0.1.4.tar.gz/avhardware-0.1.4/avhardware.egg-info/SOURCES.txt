@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+avhardware/__init__.py
+avhardware/context.pyx
+avhardware/libavhw.pxd
+avhardware.egg-info/PKG-INFO
+avhardware.egg-info/SOURCES.txt
+avhardware.egg-info/dependency_links.txt
+avhardware.egg-info/requires.txt
+avhardware.egg-info/top_level.txt
+avhardware/cuda/__init__.pxd
+avhardware/cuda/cvt_color.cu
+avhardware/cuda/cvt_color.h
