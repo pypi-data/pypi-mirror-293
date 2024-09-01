@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ratatosk-errands
+Version: 0.1
+Summary: errands for ratatosk
+Home-page: https://github.com/vagabond-systems/pasture
+Author: (~)
+Requires-Dist: pydantic==2.8.2
