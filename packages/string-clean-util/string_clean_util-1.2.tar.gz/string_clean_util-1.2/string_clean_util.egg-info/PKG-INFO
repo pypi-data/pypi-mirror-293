@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: string-clean-util
+Version: 1.2
+Summary: A library that cleans up common string artifacts from strings
+Home-page: 
+Author: JB-102
+Description-Content-Type: text/markdown
+
+Simple cleans the string
