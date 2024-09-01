@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "nicegui-highcharts"
+version = "2.0.0"
+description = "Add Highcharts elements to your NiceGUI app."
+authors = ["Zauberzeug GmbH <info@zauberzeug.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/zauberzeug/nicegui-highcharts"
+keywords = ["charts", "highcharts", "gui", "ui", "web"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nicegui = "^2.0.0"
+docutils = "0.20.1"  # fixes the error "Package docutils (0.21.post1) not found."
+
+[build-system]
+requires = [
+    "setuptools>=30.3.0,<50",
+    "poetry-core>=1.0.0"
+]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+python_version = "3.8"
+
+[tool.ruff]
+indent-width = 4
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "I",  # isort
+    "E",  # pycodestyle
+    "W",  # pycodestyle
+    "B",  # bugbear
+    "F",  # pyflakes
+    "UP", # pyupgrade
+    "RUF", # ruff
+    "PL", # pylint
+]
+fixable = [
+    "I",  # isort
+]
+ignore = [
+    "PLR0913",  # too-many-arguments
+]
