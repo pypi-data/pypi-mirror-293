@@ -1,0 +1,3 @@
+[console_scripts]
+mhs = myhumbleself.app:main
+myhumbleself = myhumbleself.app:main
