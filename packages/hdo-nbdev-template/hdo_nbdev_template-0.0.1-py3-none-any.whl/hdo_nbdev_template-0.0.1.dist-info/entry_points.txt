@@ -1,0 +1,2 @@
+[nbdev]
+hdo_nbdev_template = hdo_nbdev_template._modidx:d
