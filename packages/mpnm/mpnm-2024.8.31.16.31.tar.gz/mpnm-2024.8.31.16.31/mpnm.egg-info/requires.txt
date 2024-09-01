@@ -1,0 +1,8 @@
+numpy
+numba
+pypardiso
+scipy
+meshio
+vtk
+pandas
+scikit-learn
