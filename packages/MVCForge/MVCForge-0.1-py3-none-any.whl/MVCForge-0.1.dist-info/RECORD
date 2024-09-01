@@ -1,0 +1,10 @@
+mvcforge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mvcforge/generator.py,sha256=u6MUJjNZ2GrA5UJJLpOAjth2a-G4SbNTizClXrO6vQk,4185
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_generator.py,sha256=G8D8iUo3LWIQZaIJRmEnO6TAXu7QVVuvjrKuIy-uiRk,526
+MVCForge-0.1.dist-info/LICENSE,sha256=AB4GRyjW_jIsDC4qi3PV9wQsZblK3LvYyp9jJuHfpSM,1074
+MVCForge-0.1.dist-info/METADATA,sha256=HoCb2MlkZq-Frb2PfsQIXuCDtHYLJnJV7Guz5vBLg0Y,402
+MVCForge-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+MVCForge-0.1.dist-info/entry_points.txt,sha256=R40EBV8izbTOq9Q0H07V9sM5luAqzQcHB-FjKocBJNw,53
+MVCForge-0.1.dist-info/top_level.txt,sha256=QRUPgnO3Jfu6QNveeC5C-p26Tw1pZh1GD5orZ_OlWWA,15
+MVCForge-0.1.dist-info/RECORD,,
