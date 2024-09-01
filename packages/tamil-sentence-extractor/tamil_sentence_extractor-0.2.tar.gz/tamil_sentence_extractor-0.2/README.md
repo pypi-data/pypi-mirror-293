@@ -1,0 +1,52 @@
+# Tamil Sentence Extractor
+
+Tamil Sentence Extractor is a simple Python module designed to extract Tamil sentences from a mixed-language text. This tool is particularly useful when you need to isolate Tamil text from a larger body of content that may include multiple languages.
+
+## Installation
+
+You can install Tamil Sentence Extractor using pip:
+
+```bash
+pip install tamil_sentence_extractor
+```
+
+## Usage
+
+Here's an example of how to use the `extract_tamil_sentences` function:
+
+```python
+from tamil_sentence_extractor import extract_tamil_sentences
+
+# Sample input text containing mixed languages
+input_text = "யாதும் ஊரே யாவரும் கேளிர், means The world is one family in English. जीवन में மாற்றம் ஒன்றே மாறாதது यानी परिवर्तन ही स्थिर है। Telugu లో ఈ పదం అంటే మార్పు మాత్రమే స్థిరంగా ఉంటుంది Malayalam യാതും ഊരെ എല്ലാവരും സുഹൃത്താണ് എന്നതിനെക്കുറിച്ച് നമ്മൾ കണക്കാക്കിയാലോ"
+
+# Extract Tamil sentences
+tamil_sentences = extract_tamil_sentences(input_text)
+
+# Print the extracted Tamil sentences
+print(tamil_sentences)
+```
+
+### Example Output
+
+```bash
+யாதும் ஊரே யாவரும் கேளிர், மாற்றம் ஒன்றே மாறாதது
+```
+
+## Features
+
+- **Extract Tamil Sentences**: Isolates Tamil sentences from a text that includes multiple languages.
+- **Simple Integration**: Easy to integrate into existing Python projects.
+
+## Requirements
+
+- Python 3.6 or higher
+
+## Contributing
+
+If you have suggestions for improvements, feel free to fork the repository and submit a pull request. Contributions are always welcome!
+
+## Author
+
+- **Sathishkumar K**  
+  Email: sathish30062002@gmail.com

@@ -1,0 +1,8 @@
+README.md
+setup.py
+tamil_sentence_extractor/__init__.py
+tamil_sentence_extractor/extractor.py
+tamil_sentence_extractor.egg-info/PKG-INFO
+tamil_sentence_extractor.egg-info/SOURCES.txt
+tamil_sentence_extractor.egg-info/dependency_links.txt
+tamil_sentence_extractor.egg-info/top_level.txt
