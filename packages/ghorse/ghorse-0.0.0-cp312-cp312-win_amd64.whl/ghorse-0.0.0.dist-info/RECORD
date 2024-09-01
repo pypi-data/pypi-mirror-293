@@ -1,0 +1,12 @@
+ghorse/__init__.py,sha256=J_UEcC5GCPXb9ozbJUMf1IUSxfKX3EOgzg8sTO6GD8E,236
+ghorse/_functional.py,sha256=RMTzAvzKpYG9_YgZRPjB2Y1PL_ZOzxB0k3FpFLF3R0Q,209
+ghorse/_ghorse.cp312-win_amd64.pyd,sha256=Rlm-YMArgYNkTJzxmfuYd4rMNy6-ecmxDnj_vlszq1Y,11264
+ghorse/_ghorse/include/ghorse/freeze.h,sha256=WytieW8d_urGrwZhM_X-4YgY0F7aMSM_Q8u96ofhO-I,199
+ghorse/_ghorse/include/ghorse/graph.h,sha256=5NfrPlpBpeuzVomDROyhOV6U1sWf_jTN8UTqEP2FMpk,632
+ghorse/_ghorse/src/freeze.c,sha256=z9IDK1dm5KZJkIXC3GO_B1BP0I4C5Dv2GsG8HFvFh24,144
+ghorse/_ghorse/src/graph.c,sha256=SkL5dU9m_R98QudfsDniTuwAmJ-sG7HNqCyiPimv5J0,621
+ghorse/_ghorse/src/module.c,sha256=2JoqJO49A8OS1ps6lkx5kVOCH_qxA7C8WJl1L_Mid5Y,1613
+ghorse-0.0.0.dist-info/METADATA,sha256=fWpjToT2BwD6hnaC5iPgOeQ4izPf1g4yZIeJj7gxZqQ,537
+ghorse-0.0.0.dist-info/WHEEL,sha256=CFQT9QaC1PTjSyMQm-QqihzjdOkLw2DWpQ0UenUT19o,101
+ghorse-0.0.0.dist-info/top_level.txt,sha256=3wnuen2dRZCp2jG53OXOgR3hNUzhsp66wydrh2ef9Ko,7
+ghorse-0.0.0.dist-info/RECORD,,
