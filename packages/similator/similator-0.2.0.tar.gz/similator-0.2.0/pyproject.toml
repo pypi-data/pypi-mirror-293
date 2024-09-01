@@ -1,0 +1,47 @@
+[build-system]
+requires = ["maturin>=1.7.1"]
+build-backend = "maturin"
+
+[project]
+name = "similator"
+version = "0.2.0"
+description = "A powerful text similarity module with Rust optimizations."
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Diego San Andres Vasco", email = "sanandresvascodiego@gmail.com"},
+]
+keywords = [
+    "similarity",
+    "similar",
+    "fuzzy",
+    "validate",
+    "search",
+    "compare",
+    "text"
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+dynamic = ["version"]
+
+[tool.maturin]
+python-source = "src"
+module-name = "similator._rst_similator"
+features = ["pyo3/extension-module"]
+
+[project.optional-dependencies]
+# Dependencies for development and testing
+dev = [
+    "pytest",
+    "maturin",
+    "furo",
+    "sphinx",
+    "twine>=5.1.1",
+    "myst-parser",
+    "sphinx-autodoc-typehints"
+]
