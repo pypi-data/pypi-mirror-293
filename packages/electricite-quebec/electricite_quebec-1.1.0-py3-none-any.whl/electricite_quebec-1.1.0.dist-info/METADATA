@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: electricite-quebec
+Version: 1.1.0
+Summary: A Python package to fetch data from Hydro Quebec API.
+Home-page: https://electricite-quebec.info/
+Author: Behdad Ehsani
+Author-email: behdad.ehsani@hec.ca
+Keywords: hydro quebec api electricity data
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: requests (>=2.25.1)
+
