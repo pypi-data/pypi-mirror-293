@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CupDefs/__init__.py,sha256=9yfwmtzzAgAs8FYBijIrqgReYQR8R0zrZusGatAcisk,40
+CupDefs/init.py,sha256=5LTnkp5iSGBnX0Ui2MJkpOJnw_R_GiUHeGRt9ZfYOxk,482
+CupDefs/logger.py,sha256=SR3pSk7TjQloMGJ8SM5S34-UiroZGPi9bBunioxbS1c,3003
+CupDefs/logo,sha256=17a4WkmyZWz8rKjzzei06_dQHXKTBaQhJN8fvnH9S98,623
+CupDefs/utils.py,sha256=FA5TrAqX6bH9tkBkr2kW2YAMub9_fcCsxIXzKmqjOJM,905
+CupDefs/vars.py,sha256=Helui2NO4N4lrJp2Pg-enlE91M_2GWO_CbT8ZVcBIkg,188
+CupDefs/vergen.py,sha256=2nuCVOZ_ZNxyvZD1wuRjyPGvvbj29sFSm2VjquoTH-Y,1067
+CupDefs-1.1.dist-info/METADATA,sha256=407Vp2h1rQHcfI-Z6jC1GiwPthFbxxd6h97wCh3K8LU,11521
+CupDefs-1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+CupDefs-1.1.dist-info/top_level.txt,sha256=TvQct74Nm7VuPwLO4Bx9lSEZVrg96I6jPI8bes7OXOo,17
+CupDefs-1.1.dist-info/RECORD,,
