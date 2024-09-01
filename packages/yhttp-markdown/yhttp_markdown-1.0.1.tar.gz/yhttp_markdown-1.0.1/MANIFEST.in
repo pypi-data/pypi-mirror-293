@@ -1,0 +1,4 @@
+recursive-include yhttp/markdown/templates *
+recursive-include yhttp/markdown/static *
+recursive-include yhttp/markdown/styles *
+recursive-include yhttp/markdown/defaultmetadata *
