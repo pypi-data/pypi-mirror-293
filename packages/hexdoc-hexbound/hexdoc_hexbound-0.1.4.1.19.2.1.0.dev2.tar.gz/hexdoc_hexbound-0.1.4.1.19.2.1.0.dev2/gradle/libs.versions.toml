@@ -1,0 +1,65 @@
+[versions]
+# The latest versions are available at https://lambdaurora.dev/tools/import_quilt.html
+minecraft = "1.19.2"
+
+quilt_mappings = "1.19.2+build.21"
+quilt_loader = "0.19.2"
+qsl = "3.0.0-beta.29+1.19.2"
+quilt-fapi = "4.0.0-beta.30+0.76.0-1.19.2"
+qkl = "1.0.0+kt.1.7.20+flk.1.8.5"
+
+kotlin = "1.7.20"
+
+paucal = "0.5.0"
+hexcasting = "0.10.3"
+cca = "5.0.2"
+
+hexal = "9RtpOzVO"
+hexal-hexdoc = "0.2.19"
+dynlights = "2.2.0+1.19.2"
+
+fake-player = "0.5.0"
+mixin-extras = "0.2.0-beta.6"
+geckolib = "3.1.37"
+kettle = "2.2.1+1.19.2"
+
+pkpcpbp = "0.1.0-pre-87"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+quilt_mappings = { module = "org.quiltmc:quilt-mappings", version.ref = "quilt_mappings" }
+quilt_loader = { module = "org.quiltmc:quilt-loader", version.ref = "quilt_loader" }
+
+qsl = { module = "org.quiltmc:qsl", version.ref = "qsl" }
+quilt-fapi = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api", version.ref = "quilt-fapi" }
+
+qkl = { module = "org.quiltmc.quilt-kotlin-libraries:quilt-kotlin-libraries", version.ref = "qkl" }
+
+hexcasting = { module = "at.petra-k.hexcasting:hexcasting-fabric-1.19.2", version.ref = "hexcasting" }
+paucal = { module = "at.petra-k.paucal:paucal-fabric-1.19.2", version.ref = "paucal" }
+cca = { module = "dev.onyxstudios.cardinal-components-api:cardinal-components-api", version.ref = "cca" }
+
+patchouli = { module = "vazkii.patchouli:Patchouli", version = "1.19.2-77-FABRIC" }
+
+hexal = { module = "maven.modrinth:hexal", version.ref = "hexal" }
+dynlights = { module = "dev.lambdaurora:lambdynamiclights", version.ref = "dynlights" }
+
+fake-player = { module = "dev.cafeteria:fake-player-api", version.ref = "fake-player" }
+mixin-extras = { module = "com.github.llamalad7.mixinextras:mixinextras-fabric", version.ref = "mixin-extras" }
+geckolib = { module = "software.bernie.geckolib:geckolib-quilt-1.19", version.ref = "geckolib" }
+kettle = { module = "coffee.cypher.kettle:kettle", version.ref = "kettle" }
+
+pkpcpbp = { module="at.petra-k.pkpcpbp:PKPCPBP", version.ref="pkpcpbp" }
+
+[bundles]
+kotlin = ["qkl"]
+qsl = ["quilt-fapi", "qsl"]
+hexcasting = ["paucal", "hexcasting"]
+optionals = ["hexal", "dynlights"]
+
+[plugins]
+quilt_loom = { id = "org.quiltmc.loom", version = "1.2.+" }
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "kotlin" }
+nexus = { id = "io.github.gradle-nexus.publish-plugin", version = "1.1.0" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

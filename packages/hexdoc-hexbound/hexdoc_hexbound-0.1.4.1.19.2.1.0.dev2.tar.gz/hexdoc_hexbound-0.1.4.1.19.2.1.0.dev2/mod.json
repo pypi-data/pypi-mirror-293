@@ -1,0 +1,15 @@
+{
+    "core": {
+        "name": "hexbound",
+        "version": "0.1.4+1.19.2",
+        "repository": "https://github.com/object-Object/hexbound/"
+    },
+    "platforms": {
+        "modrinth": {
+            "id": "rKZ6fcjp"
+        },
+        "curseforge": {
+            "id": "1034001"
+        }
+    }
+}
