@@ -1,0 +1,10 @@
+parsera/__init__.py,sha256=Tu9IFqgAdxbccKDH09ncUZT2Bm68Z3DVFHLz9BqTcjg,120
+parsera/engine/model.py,sha256=phDSfldJ1i18mjqGFOPJn6M6qM42FssNiJiBNYyrY1Y,3386
+parsera/engine/simple_extractor.py,sha256=iDfUyFLTrWcwF5n7YUepMV5DBQO_9sM4t5h2KUmJye4,4146
+parsera/main.py,sha256=Vcem3iN0vFrtZ6YTUwa1FPi_AoCdGJvm13Z7f32WZPs,4299
+parsera/page.py,sha256=lcCFfAI1BERXWbsrBZOpaPr6xIojnEx1EjrAN8BH8gk,4584
+parsera/utils.py,sha256=Uv11ScW-Rssr8lZXJspq_LFtmDEuYnl5Rh8FeCkaKfQ,230
+parsera-0.1.7.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+parsera-0.1.7.dist-info/METADATA,sha256=q02Mo2jGRFf7hoOZPGFiYTTOk0XxL1TitZQ5iJMLgtQ,5600
+parsera-0.1.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+parsera-0.1.7.dist-info/RECORD,,
