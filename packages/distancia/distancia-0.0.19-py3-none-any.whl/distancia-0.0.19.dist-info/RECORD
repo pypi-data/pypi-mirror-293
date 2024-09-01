@@ -1,0 +1,15 @@
+distancia/__init__.py,sha256=yDcJNVbNhR7wCLS5PeU9nG2pCaGDXxYxT3HOlV6ksFI,1162
+distancia/distance.py,sha256=LG5GnqwAcuxQiL2Q-tqimckRrhAMNx-ef2MwyUCfMNM,31273
+distancia/distancia.py,sha256=A5MJD8-rqaTllVlV9NxNwJZmRxNmRE1bVDCLFUzeZKg,29506
+distancia/graphDistance.py,sha256=dBXQDLKoGD0kIfR314n1AAgjBJ4-Z9cWxGFV55IucEk,12536
+distancia/lossFunction.py,sha256=Y2thTe0gTbBMSKZKWd9QpiEsURZbDzmJHfxckqdUwl0,9281
+distancia/sample.py,sha256=RSr7-78xrklc-3Qlrlp17DCl7YElB12FqYN9aWNwiww,1760
+distancia/similarity.py,sha256=eChlnibzzdhOcgrdzqxbJZL7n6dLD4WhwdouQk-o4vQ,22711
+distancia/timeSeriesDistance.py,sha256=VRZ9drWP2wd5Z-gqG7zeraIgHlDx0y-O_cWsl6CGMGA,6809
+distancia/tools.py,sha256=vSsHhabNHynYXvACzKmrlb2G0t24um4CRmcCNEeNdAU,6037
+distancia-0.0.19.dist-info/LICENSE.txt,sha256=GvzKiCjTNsu_2UCrkZ6n-2B8wPM6RbfLuIuqYBT2Ros,12
+distancia-0.0.19.dist-info/METADATA,sha256=5C37IUTL3NZWK0Qk7KPLglP_dlE6ACkFEQv47ukXiHA,4349
+distancia-0.0.19.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+distancia-0.0.19.dist-info/entry_points.txt,sha256=ODp4z62pfm0ZyxWa87OY-frCg8FoVEJ7nXDxmsMrjgo,53
+distancia-0.0.19.dist-info/top_level.txt,sha256=aQW-mWkD6V4SquTlqSI4LLORkIMhJmeK0wuz_4zrdI4,10
+distancia-0.0.19.dist-info/RECORD,,
