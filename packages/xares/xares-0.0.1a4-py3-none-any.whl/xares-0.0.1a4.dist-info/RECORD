@@ -1,0 +1,15 @@
+tasks/crema_d/crema_d_task.py,sha256=jVW6eLsBsYaj2PX-tTenSUTS-60yn0i7dJMGVeTJj0g,3386
+tasks/esc50/esc50_task.py,sha256=uT7UC26qprTIXDtHAY91tDiyU1c4cciS3Ip7qDIL3KE,3603
+tasks/librispeech_male_female/librispeech_male_female_task.py,sha256=_YM2hUcfYa2I5VR28YriYPmx_UaKPBHRAUhi24lU3ms,3907
+tasks/vocalsound/vocalsound_task.py,sha256=x1XKyadIJadSiOIlnr6148l2jlekG_ESzoRiDxDjyPI,3784
+xares/audio_encoder_base.py,sha256=DoyGUSuKQN5ToldAM6AHwm0fmAGFd9CNhM04_eCVcb0,2523
+xares/audiowebdataset.py,sha256=P1AeYg78OTY_R7fUW_0RTFbq8JRE-4CQzfpyzWWFgf8,19253
+xares/models.py,sha256=KvqyERgyEuY5fMi7cs2xjitQnowo6QYptxX3WI8Iq2o,1441
+xares/task_base.py,sha256=iAJjQf7j2j5eqB4DvaB2YGTGZb4MBp-Ia66hy84O0Ns,6038
+xares/trainer.py,sha256=iLBGLzlJszW9kYMFicuj7OKHdMwmM7P2de0Ycro5g78,4458
+xares/utils.py,sha256=gOAJ1t_0QOsyaoNw9xuW7NBFbd078osii74Wcl_N2fI,874
+xares-0.0.1a4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+xares-0.0.1a4.dist-info/METADATA,sha256=haC_bxhLO7w8rQQ37o6b90vlJrkGy8XV_I6Tc1tYTok,17965
+xares-0.0.1a4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+xares-0.0.1a4.dist-info/top_level.txt,sha256=nb4Sj3P_pXLioWkNYp422DqhRiUN6OsZ34bUus6h-nI,12
+xares-0.0.1a4.dist-info/RECORD,,
