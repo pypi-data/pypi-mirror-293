@@ -1,0 +1,2 @@
+[console_scripts]
+vocali = vocal:cli.cli
