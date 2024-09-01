@@ -1,0 +1,5 @@
+setup.py
+dasdetect.egg-info/PKG-INFO
+dasdetect.egg-info/SOURCES.txt
+dasdetect.egg-info/dependency_links.txt
+dasdetect.egg-info/top_level.txt
