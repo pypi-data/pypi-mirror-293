@@ -1,0 +1,8 @@
+README.md
+setup.py
+tivwordnet/__init__.py
+tivwordnet/tiv_wordnet.py
+tivwordnet.egg-info/PKG-INFO
+tivwordnet.egg-info/SOURCES.txt
+tivwordnet.egg-info/dependency_links.txt
+tivwordnet.egg-info/top_level.txt
