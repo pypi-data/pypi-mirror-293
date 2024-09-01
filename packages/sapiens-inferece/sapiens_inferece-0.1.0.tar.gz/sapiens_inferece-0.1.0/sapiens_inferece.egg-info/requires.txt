@@ -1,0 +1,8 @@
+torch
+opencv-python
+torchvision
+huggingface_hub
+
+[export]
+onnx
+onnxruntime

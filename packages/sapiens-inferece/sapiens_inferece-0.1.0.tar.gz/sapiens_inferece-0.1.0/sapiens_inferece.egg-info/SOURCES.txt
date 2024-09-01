@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+sapiens/__init__.py
+sapiens/common.py
+sapiens/depth.py
+sapiens/detector.py
+sapiens/normal.py
+sapiens/predictor.py
+sapiens/segmentation.py
+sapiens_inferece.egg-info/PKG-INFO
+sapiens_inferece.egg-info/SOURCES.txt
+sapiens_inferece.egg-info/dependency_links.txt
+sapiens_inferece.egg-info/requires.txt
+sapiens_inferece.egg-info/top_level.txt
