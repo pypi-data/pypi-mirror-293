@@ -1,0 +1,8 @@
+README.md
+setup.py
+xik_tools.egg-info/PKG-INFO
+xik_tools.egg-info/SOURCES.txt
+xik_tools.egg-info/dependency_links.txt
+xik_tools.egg-info/entry_points.txt
+xik_tools.egg-info/requires.txt
+xik_tools.egg-info/top_level.txt
