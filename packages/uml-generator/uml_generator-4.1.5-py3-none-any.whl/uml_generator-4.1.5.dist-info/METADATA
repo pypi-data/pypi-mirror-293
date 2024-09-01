@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: uml-generator
+Version: 4.1.5
+Summary: A tool to generate UML diagrams from project files.
+Home-page: https://github.com/SIIR3X/python-uml-generator
+Author: SIIR3X
+Author-email: siir3xs@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: plantuml==0.3.0
+
+# UML Generator - Python
+
+[![PyPI version](https://badge.fury.io/py/uml-generator.svg)](https://pypi.org/project/uml-generator/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/SIIR3X/python-uml-generator/blob/main/LICENSE)
+
+A tool to generate UML diagrams from project files.
+
+![UML](./examples/uml_example.png)
+
+
+## Description
+
+UML Generator is a Python tool available on PyPI that allows you to generate UML diagrams from your project's source. 
+This tool is designed to help developers quickly visualize the structure and relationships within their codebase, 
+making it easier to understand and communicate the architecture of the project.
+
+The tool analyzes your project's files, identifies classes, interfaces, and their relationships, and generates UML 
+diagrams in PNG format. This makes it particularly useful for small projects where a fast and straightforward way to 
+document the software architecture is needed.
+
+Currently, UML Generator only supports projects written in Java. Future updates may include support for additional 
+programming languages.
+
+
+## Installation
+
+You can install this tool via pip:
+```bash
+pip install uml-generator
+```
+
+
+## Dependencies
+
+This project uses the following dependencies:
+
+- **Python:** >= 3.12.4
+- **plantuml:** == 0.3.0
+- **pytest:** (dev dependency): 8.3.2
+
+
+## Usage
+
+```Python
+from uml_generator import *
+
+def example():
+    project_directory = "/examples/project_example/"
+    language_type = LANGUAGES.JAVA
+    output_file = "/examples/example_uml"
+
+    generate_uml(project_directory, language_type, output_file)
+```
+
+
+## Methods
+
+### generate_uml(project_directory, language_type, output_file)
+
+Generates a UML diagram from a project directory.
+
+**Parameters:**
+
+* **project_directory (string)** - The directory path of the project to analyze.
+* **language_type (string)** - The programming language used in the project. This should be one of the constants 
+defined in the LANGUAGES class (e.g., LANGUAGES.JAVA).
+* **output_file (string)** - The file path where the UML diagram should be saved.
+
+**Returns:**
+
+This function does not return a value. It generates a UML diagram, converts it to PlantUML code, and saves the diagram 
+to the specified output file.
+
+**Notes:**
+
+* The `project_directory` parameter should point to the root directory of the project you wish to analyze.
+* The `language_type parameter must be one of the constants defined in the LANGUAGES class. Currently, only Java 
+is supported (LANGUAGES.JAVA). 
+* The output will be saved in PNG format, as specified by the `output_file` path.
+
+The `LANGUAGES` class, defined in `src/uml_generator/types/languages.py`, contains constants representing the supported 
+programming languages for UML generation. This ensures consistency and reduces the likelihood of errors when specifying 
+the language type.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
