@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+hdo_nbdev_template/__init__.py
+hdo_nbdev_template/_modidx.py
+hdo_nbdev_template/core.py
+hdo_nbdev_template/utils.py
+hdo_nbdev_template.egg-info/PKG-INFO
+hdo_nbdev_template.egg-info/SOURCES.txt
+hdo_nbdev_template.egg-info/dependency_links.txt
+hdo_nbdev_template.egg-info/entry_points.txt
+hdo_nbdev_template.egg-info/not-zip-safe
+hdo_nbdev_template.egg-info/requires.txt
+hdo_nbdev_template.egg-info/top_level.txt
