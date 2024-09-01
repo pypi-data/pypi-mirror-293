@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+string_clean_util/__init__.py
+string_clean_util/string_clean_util.py
+string_clean_util.egg-info/PKG-INFO
+string_clean_util.egg-info/SOURCES.txt
+string_clean_util.egg-info/dependency_links.txt
+string_clean_util.egg-info/top_level.txt
