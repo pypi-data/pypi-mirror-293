@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: jaxlem
+Version: 0.1.4
+Summary: LEM slope stability analysis using JAX
+Home-page: https://github.com/amavrits/jax-lem
+Author: Antonis Mavritsakis
+Author-email: amavrits@gmail.com
+License: MIT
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: jax
+Requires-Dist: jaxtyping
+Requires-Dist: jax-tqdm
+Requires-Dist: optax
+Requires-Dist: jaxopt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Provides-Extra: dev
+
+# jaxlem
+
+jaxlem is a Python implementation of LEM slope stability built upon JAX.
+
+## Content
+
+So far, the project includes the following features:
+* Slope stability analysis with undrained shear strength.
+* Calculation of the FoS using vmap over potential failure circles.
+* Calculation of the FoS using Gradient Descent.
+* Reliability analysis with Random Fields using Monte Carlo via vmap.
+* Reliability analysis with Random Fields using FORM.
+
