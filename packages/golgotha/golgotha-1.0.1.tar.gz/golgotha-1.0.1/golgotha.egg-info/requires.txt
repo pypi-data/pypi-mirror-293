@@ -1,0 +1,7 @@
+regex
+
+[dev]
+types-regex
+ruff
+mypy
+pyright

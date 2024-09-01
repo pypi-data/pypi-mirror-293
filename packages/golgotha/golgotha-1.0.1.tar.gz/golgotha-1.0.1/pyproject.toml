@@ -1,0 +1,38 @@
+[project]
+name = "golgotha"
+version = "1.0.1"
+dependencies = ["regex"]
+requires-python = ">= 3"
+authors = [
+  {name = "Wyatt S Carpenter"}
+]
+maintainers = [
+  {name = "Wyatt S Carpenter"}
+]
+description = "A preprocessor to define new operators in any programming language."
+readme = "readme.md"
+keywords = ["preprocessor", "operators", "infix", "prefix", "postfix", "syntax", "💀", "🔣"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+  "License :: OSI Approved :: MIT No Attribution License (MIT-0)", # The text of this license is not included in the repo, but I, Wyatt Carpenter, agree to license the project under MIT-0 as well as CC0.
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Code Generators",
+  "Topic :: Software Development :: Pre-processors",
+]
+
+[project.urls]
+Homepage = "https://github.com/wyattscarpenter/golgotha"
+Documentation = "https://github.com/wyattscarpenter/golgotha/blob/master/readme.txt"
+Repository = "https://github.com/wyattscarpenter/golgotha.git"
+Issues = "https://github.com/wyattscarpenter/golgotha/issues"
+
+[project.scripts]
+golgotha = "golgotha:main"
+
+[project.optional-dependencies]
+# these packages will let you actually build this python program. Also, my build system is just running pypi.bat.
+dev = ["types-regex", "ruff", "mypy", "pyright"] #these are just my dev dependencies... I put them all in the pipeline for the build so they can all check the correctness of the program. You should also have git installed (to use the git diff, and optionally wsl (to run sdiff on windows) (Windows-Subsystem-for-Linux — not to be confused with apt's wsl, which is different) — but there is no way to notate that.
