@@ -1,0 +1,12 @@
+sapiens/__init__.py,sha256=UvKuGXFM_V9jJsLvkwOK3vIzb1mSIPtL59iud3A9j2M,231
+sapiens/common.py,sha256=7JR8Mrr1eK0tIZEgdbNAVMmwS5iOK_1N83wRBnMCqL4,2383
+sapiens/depth.py,sha256=18kcgfWE4uIcOIjTmf_d6AOUsftJpXb0W7jNog0Uu2c,3085
+sapiens/detector.py,sha256=GbnkOnSGNkY675kbjTc8UtJGrU0Tib_52gjjG6wEZTU,1701
+sapiens/normal.py,sha256=doIc9o9NNqoZ7XHDvHn7Nlh1L5jo0Jsc_FqGtET2UyI,3057
+sapiens/predictor.py,sha256=8Gb2npLBNQoTbicpTMSQEgaxKiGGSJmKtSgtJI21Zfs,6023
+sapiens/segmentation.py,sha256=Bsx180o6ivM9nqBjX0OtcmiUS0IeAxXrl5Gj2xPuIDs,3936
+sapiens_inferece-0.1.0.dist-info/LICENSE,sha256=Pupw6xOMGx1u92hjEs2CtVDjUwr8lWpwMr_F4kPRwSM,1089
+sapiens_inferece-0.1.0.dist-info/METADATA,sha256=CBbI2Vi6tmtXEavTNuhM2f71z7y7_iXH1SlxtDpadh4,1941
+sapiens_inferece-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+sapiens_inferece-0.1.0.dist-info/top_level.txt,sha256=wZ0odCaa8j1HJmpciiKGKatr7EfGmfj20FuWVE_o5x4,8
+sapiens_inferece-0.1.0.dist-info/RECORD,,
