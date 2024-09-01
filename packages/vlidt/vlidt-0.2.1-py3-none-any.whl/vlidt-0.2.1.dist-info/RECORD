@@ -1,0 +1,11 @@
+vlidt/__init__.py,sha256=tTJRfCb5Y0D1nz4J-jacr6LNlGOl-OfO7Jvd-bQyWrg,91
+vlidt/abc.py,sha256=DiY9amGC_O3HlQJ80nRPYJqW4itSSukC7qsm42wXL9Q,202
+vlidt/base.py,sha256=qLzbFkIn-siMBJHlEmdFcCHmuOO1uTe0VP83Nq2bgHQ,557
+vlidt/fast.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlidt/lazy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlidt/lump.py,sha256=kPlzRTVa80NiiHGCpozLCJrf8wd9ZzXC7aOzfOgYXHE,1183
+vlidt/utils.py,sha256=id8NAuF2SazWcfms42hhUloERRuH7KrBddfSTusJZZo,526
+vlidt/validation.py,sha256=uAD-W4L3tetZpdkk-E1bftWsQvoowubK27rWvjitCBc,280
+vlidt-0.2.1.dist-info/METADATA,sha256=bG46moKyQkQ6sgTilY9hl5y69cEn9tmzuxKKYitHhfA,2785
+vlidt-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vlidt-0.2.1.dist-info/RECORD,,
