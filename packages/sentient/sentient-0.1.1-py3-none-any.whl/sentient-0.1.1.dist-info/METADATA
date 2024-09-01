@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: sentient
+Version: 0.1.1
+Summary: 
+Author: nischalj10
+Author-email: nischalj10@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: agentops (>=0.3.10,<0.4.0)
+Requires-Dist: aiohttp (>=3.10.2,<4.0.0)
+Requires-Dist: boto3 (>=1.34.157,<2.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: instructor (>=1.4.0,<2.0.0)
+Requires-Dist: langsmith (>=0.1.104,<0.2.0)
+Requires-Dist: litellm (>=1.42.9,<2.0.0)
+Requires-Dist: nltk (>=3.9.1,<4.0.0)
+Requires-Dist: openai (>=1.40.1,<2.0.0)
+Requires-Dist: pdfplumber (==0.11.2)
+Requires-Dist: playwright-stealth (>=1.0.6,<2.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: pytest-playwright (>=0.5.1,<0.6.0)
+Requires-Dist: python-json-logger (>=2.0.7,<3.0.0)
+Requires-Dist: ruff (>=0.5.6,<0.6.0)
+Requires-Dist: setuptools (>=72.1.0,<73.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: termcolor (>=2.4.0,<3.0.0)
+Requires-Dist: tiktoken (>=0.7.0,<0.8.0)
+Requires-Dist: typing-extensions (>=4.12.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# sentient - browser controlling agents in 3 lines of code
+
+### setup
+
+1. install sentient `pip install sentient`
+
+
+2. start chrome in dev mode - in a seaparate terminal, use the command to start a chrome instance and do necesssary logins if needed
+
+for mac, use command -
+
+```bash
+sudo /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+```
+
+for linux -
+
+```bash
+google-chrome --remote-debugging-port=9222
+```
+
+for windows -
+
+```bash
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
+```
+
+4. setup open ai api key in a .env file `OPENAI_API_KEY="sk-proj-"`
+
+5. run the agent
+
+```python
+from sentient import sentient
+import asyncio
+
+asyncio.run(sentient.invoke("play shape of you on youtube"))
+```
+#### citations
+
+a bunch of amazing work in the space has inspired this.
