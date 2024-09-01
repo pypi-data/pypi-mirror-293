@@ -1,0 +1,10 @@
+jsonype/__init__.py,sha256=nsgs3RTGJJ-fBb1TAuIJqAnis2SqS068Q-8IvbxP5og,2003
+jsonype/base_types.py,sha256=eChToAqibM-94hcT8jxT2ndiGOO43935iN_fHC0rR28,229
+jsonype/basic_from_json_converters.py,sha256=bgR3awUkgd2c5d_kgsOwb6f7sJ3V4UEb5f19037sz9k,16379
+jsonype/basic_to_json_converters.py,sha256=eUMaGjV66dIHUgkZXTNseLmhOx2t2us3dTL_BYOF-8w,4203
+jsonype/named_tuple_converters.py,sha256=WCS0Ifztpp1DRC84vgaFGcIDxhjKbhta8RK-9hqzbFE,4188
+jsonype/typed_json.py,sha256=Ju62UiAI52FtM1AG7VlGItjKwF5BI5AIK2jqAT85xKo,5122
+jsonype-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+jsonype-0.2.0.dist-info/METADATA,sha256=huA097o-Oh-TvnUCqCoR91RR8ZwH-zZxypeBcz5mOyg,2372
+jsonype-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jsonype-0.2.0.dist-info/RECORD,,
