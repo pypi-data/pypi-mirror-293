@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ETHregions2Woredas/__init__.py
+ETHregions2Woredas/data.json
+ETHregions2Woredas.egg-info/PKG-INFO
+ETHregions2Woredas.egg-info/SOURCES.txt
+ETHregions2Woredas.egg-info/dependency_links.txt
+ETHregions2Woredas.egg-info/top_level.txt
