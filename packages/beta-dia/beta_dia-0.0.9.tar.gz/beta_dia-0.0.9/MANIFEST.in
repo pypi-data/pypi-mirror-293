@@ -1,0 +1,10 @@
+graft beta_dia
+prune beta_dia/private_ablation
+prune beta_dia/private_training
+exclude beta_dia/main.py
+exclude beta_dia/main_core.py
+
+prune paper
+prune scripts
+
+# recursive-include pyarmor_runtime_000000 *
