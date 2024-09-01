@@ -1,0 +1,8 @@
+playgolf_package/__init__.py,sha256=e2SPzJpJWJF0BJ4uEi75Pjmf7FdVHg34noiyR5C0cNM,484
+playgolf_package/decision_tree.py,sha256=zsCuDp1SWZdKfdf54ZasCdVwp2oFT_BR0YnG74oDKXc,2808
+playgolf_package/playgolf_data.csv,sha256=-pwQaXMyd4QIjdgcDxTQ2cPT3aESmqoptfLw_r4UHoc,438
+playgolf_package/playgolf_test.csv,sha256=50vnyi6WqwQEBPDi8kotCeAy8MApWR47xTKRZNt6zPk,414
+playgolf_package-0.3.dist-info/METADATA,sha256=sS88sLUi7Icvw8FlcCT6u58kQoTKtCMtBtMAYEij1DU,230
+playgolf_package-0.3.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+playgolf_package-0.3.dist-info/top_level.txt,sha256=rMVQzTfj0HA0f13detIFZVsAHlt5P2nMRwoqAZOIsVc,17
+playgolf_package-0.3.dist-info/RECORD,,
