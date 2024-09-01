@@ -1,0 +1,17 @@
+humid-0.1.0.dist-info/METADATA,sha256=_MYuWrKKO2q3EAOwECVCMq7dhzm5auo07hqEwU_ZsD0,1789
+humid-0.1.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+humid/__init__.py,sha256=j92jZp6tcFHj2LZ23UYsHM75lbXbBygnJLWX2f7TOO8,51
+humid/__main__.py,sha256=rIeN7uze1fa3VcnnswkocC-OsSsWoV4ArcM3oCBJt4o,47
+humid/core.py,sha256=_9eniLbjid8KMRsR2CZubmfFPOS7bVRPR4cmzmBpJeE,1405
+humid/helpers.py,sha256=LBNLgNKRLoczNHruEpr6gDk8B8UAL4JA8lSphjOszXk,573
+humid/words/age.py,sha256=B6X3NQy48gWgIsfdomnkIdBfXRuRo1BJT5T0Phn_tSQ,774
+humid/words/color.py,sha256=mA5Rs8FHnq0ctzpvN1IeB256JeSjknDs0kR0pDuk4sY,696
+humid/words/material.py,sha256=jouxN7dnRuGm3PilznPZEHSbIuPROzYC7abvttobzOs,715
+humid/words/opininion.py,sha256=9K7_E7njlr7iIjsSiQWFYCnWlr0d6P2iRxCv2HYfC_w,795
+humid/words/origin.py,sha256=RcwoJseVZyXGoTwAapTqcCoZScIBGLIKUIY-5e21CBo,784
+humid/words/pokemon.py,sha256=Z65t_Yffw9Rao6UnDJdWeV0dr-wHC2oROGaXW7B-KU4,6443
+humid/words/purpose.py,sha256=LsxuXfNcvWcg5iLI7znxksKZh_gYVAcJW0zwlmMKfXM,809
+humid/words/quantity.py,sha256=KAa_ZgCBKUN-qbx8wVf3463s4inc7_Ch5ia5yf3L0CE,703
+humid/words/shape.py,sha256=qvHfreJG3jIWaGMVxB2JUFrcfg2q2TdpSHDVPCIxcnQ,811
+humid/words/size.py,sha256=nDgdWWDTA8ZPiAKNamNUSWDDsjCz4cXD6RemwA8ZGMA,709
+humid-0.1.0.dist-info/RECORD,,
