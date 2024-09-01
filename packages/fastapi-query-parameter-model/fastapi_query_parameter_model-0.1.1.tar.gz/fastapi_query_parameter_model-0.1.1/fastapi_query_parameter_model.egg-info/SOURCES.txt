@@ -1,0 +1,9 @@
+README.md
+setup.py
+fastapi-query-parameter-model/__init__.py
+fastapi-query-parameter-model/query_parameter_model.py
+fastapi_query_parameter_model.egg-info/PKG-INFO
+fastapi_query_parameter_model.egg-info/SOURCES.txt
+fastapi_query_parameter_model.egg-info/dependency_links.txt
+fastapi_query_parameter_model.egg-info/requires.txt
+fastapi_query_parameter_model.egg-info/top_level.txt
