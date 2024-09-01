@@ -1,0 +1,17 @@
+mail_configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mail_configuration/admin.py,sha256=HIaS45xpz6jczGAarhsrv5jyN26ZqpWkJaOZPVKa1g4,615
+mail_configuration/apps.py,sha256=k8HNy9keD1wRGqfKagj0BxKbUDtZrVykBam04jKStwo,168
+mail_configuration/constants.py,sha256=FRKdQoYkSIXoLp6xquCNZIB7a3bWCgrXskbIuWdlWhY,70
+mail_configuration/models.py,sha256=JwSiG0CGKLoJKQn3Y4kPyK9mHtNB5of09X3ux2-VwNw,3389
+mail_configuration/serializers.py,sha256=0mqO_wqwxf-ClQyil4vFvoZieYbuyxdtY2MmSNirBzI,225
+mail_configuration/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+mail_configuration/utils.py,sha256=xiyVfzcN6ji0aDsoNHza0dR0HEi8DLmgyX46vX-vB-g,796
+mail_configuration/views.py,sha256=k3HJ7M895mYXYaBhtfXWx_724rY8TLPQSoquG_UN-Gg,5331
+mail_configuration/migrations/0001_initial.py,sha256=uKZOsOXigHhlIbTsL9YOGv-3poQ_RIl6EqyRtC9pqk4,3079
+mail_configuration/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mail_configuration-1.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+mail_configuration-1.0.1.dist-info/METADATA,sha256=6TQVvaNfiNY10TLTJeZmzTkaDCdPvGErC3BlfDJ84jw,7788
+mail_configuration-1.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+mail_configuration-1.0.1.dist-info/entry_points.txt,sha256=96AqPf0dkqCEwwek-Ivc9qh9wNV_aKV0bHFh28CMZas,65
+mail_configuration-1.0.1.dist-info/top_level.txt,sha256=DAGLqpOXuSAP1rbm2fdBLEYUFdnGJ__4Vp5t2k5xxGY,19
+mail_configuration-1.0.1.dist-info/RECORD,,
