@@ -1,0 +1,45 @@
+Metadata-Version: 2.3
+Name: lucide-fasthtml
+Version: 0.0.1
+Summary: Lucide icons for FastHTML
+Project-URL: Documentation, https://github.com/curtis-allan/lucide-fasthtml#readme
+Project-URL: Issues, https://github.com/curtis-allan/lucide-fasthtml/issues
+Project-URL: Source, https://github.com/curtis-allan/lucide-fasthtml
+Author-email: Curtis Allan <curtisjallan98@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: fasthtml,icons,lucide
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: python-fasthtml
+Description-Content-Type: text/markdown
+
+# lucide-fasthtml
+
+[![PyPI - Version](https://img.shields.io/pypi/v/lucide-fasthtml.svg)](https://pypi.org/project/lucide-fasthtml)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lucide-fasthtml.svg)](https://pypi.org/project/lucide-fasthtml)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install lucide-fasthtml
+```
+
+## License
+
+`lucide-fasthtml` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
