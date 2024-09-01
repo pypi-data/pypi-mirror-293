@@ -1,0 +1,15 @@
+LICENSE,sha256=pIXLv2M9EMNMwAFnciYtA3QHesUg-LxXn8WobOzb38c,1071
+README.md,sha256=Oj7rLjwE0-_RUYoaCSow_GT3Ai11UGA_UwdnAed4c3E,2709
+pg_rls/__init__.py,sha256=x9HtupcU82GseSiE230GlHQXb7qEzBQtgfKA86euGMM,101
+pg_rls/alembic/__init__.py,sha256=f94q0oxmEXsKjqMPXuGtEapfKaQfAKBTFakcn1SOnDg,121
+pg_rls/alembic/comparator.py,sha256=AMzwZb6jPibiysJqYC0eQmv2Gk1mlb35tC_y-ml8qlo,2614
+pg_rls/alembic/operations/__init__.py,sha256=FeSnk5S_Ecdu1v0jCXw1ZWJ4aUEtbMSV2drxnGv7DLE,156
+pg_rls/alembic/operations/policy.py,sha256=OURdl7tswkX0oUnN2sziVR5V_m7YD3A9JIiAbAg7qRo,5211
+pg_rls/alembic/operations/policy_sql.py,sha256=CpHnpeMRw3iWQkHYXtxfYEUJqafmDVjrm96ILNPY3AI,1602
+pg_rls/alembic/operations/rls.py,sha256=_qpb-hmq-Qm3I-NFVtzfNg1RSA1c6NXB1UPLFjNoXnA,1911
+pg_rls/policy.py,sha256=MjkdmgsHhs4Zg1kIBMmPM-PgtDyFJLiNB0XPjjGFMWI,800
+pg_rls/sqlalchemy.py,sha256=1T6yVhg19_x-l6P1VTdsunPvX64LfwPj2ThUYpdMt3k,1444
+pg_rls_sqlalchemy-0.1.2.dist-info/LICENSE,sha256=pIXLv2M9EMNMwAFnciYtA3QHesUg-LxXn8WobOzb38c,1071
+pg_rls_sqlalchemy-0.1.2.dist-info/METADATA,sha256=VDf8lhO9L5grD6Ek_TsGRxQsDmrynh9RzuX0aut6qWQ,3143
+pg_rls_sqlalchemy-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pg_rls_sqlalchemy-0.1.2.dist-info/RECORD,,
