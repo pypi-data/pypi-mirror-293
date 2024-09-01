@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sutowebdav
+Version: 0.1.0
+Summary: 
+Author: hsn
+Author-email: hsn1919810@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.2,<0.28.0)
+Description-Content-Type: text/markdown
+
+# SutoWebDav
+A simple asynchronous WebDAV client in Python.
+## Installation
+Install using pip:
+```bash
+pip install sutowebdav
+```
+## Quick Start
+```python
+import asyncio
+from sutowebdav.client import DavClient
+async def main():
+    with DavClient('https://webdav.your-domain.com', username='myuser', password='mypass') as webdav:
+        # Do some stuff:
+        await webdav.mkdir('some_dir')
+        await webdav.rmdir('another_dir')
+        await webdav.download('remote/path/to/file', 'local/target/file')
+        await webdav.upload('local/path/to/file', 'remote/target/file')
+asyncio.run(main())
+```
+
+
