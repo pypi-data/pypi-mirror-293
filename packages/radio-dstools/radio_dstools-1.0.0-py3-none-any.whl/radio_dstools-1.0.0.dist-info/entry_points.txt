@@ -1,0 +1,13 @@
+[console_scripts]
+_dstools-avg-baselines=dstools.cli.avg_baselines:main
+_dstools-combine-spws=dstools.cli.combine_spws:main
+_dstools-rotate=dstools.cli.fix_phasecentre:main
+dstools-askap-preprocess=dstools.cli.askap_preprocess:main
+dstools-cal=dstools.cli.cal:main
+dstools-extract-ds=dstools.cli.extract_ds:main
+dstools-model-field=dstools.cli.model_field:main
+dstools-plot-ds=dstools.cli.plot_ds:main
+dstools-remove-source=dstools.cli.remove_source:main
+dstools-setup=dstools.cli.setup:main
+dstools-subtract-model=dstools.cli.subtract_model:main
+
