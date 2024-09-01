@@ -1,0 +1,10 @@
+wheel
+matplotlib
+meshcat
+notebook
+numpy
+pybullet
+pynput
+sympy
+scipy
+pyside6
