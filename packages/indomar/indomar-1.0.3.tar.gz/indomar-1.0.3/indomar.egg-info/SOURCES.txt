@@ -1,0 +1,8 @@
+setup.py
+idm/__init__.py
+idm/idm.py
+indomar.egg-info/PKG-INFO
+indomar.egg-info/SOURCES.txt
+indomar.egg-info/dependency_links.txt
+indomar.egg-info/entry_points.txt
+indomar.egg-info/top_level.txt
