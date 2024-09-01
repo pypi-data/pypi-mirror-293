@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+pythonspinners/AsteriskProcessing.py
+pythonspinners/SampleProgram.py
+pythonspinners/SimpleLoadingScreen.py
+pythonspinners/__init__.py
+pythonspinners.egg-info/PKG-INFO
+pythonspinners.egg-info/SOURCES.txt
+pythonspinners.egg-info/dependency_links.txt
+pythonspinners.egg-info/top_level.txt
