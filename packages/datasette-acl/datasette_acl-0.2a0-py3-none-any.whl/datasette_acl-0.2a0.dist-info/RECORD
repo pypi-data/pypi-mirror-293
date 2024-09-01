@@ -1,0 +1,8 @@
+datasette_acl/__init__.py,sha256=Qtk_EAVvMsIL0oKu4EEKr_-PLoH6-lcWKifATYcCvBA,21530
+datasette_acl/templates/table_acls.html,sha256=CHCjIyefU7DQpKmSXAZhwct7P_TUfNlGbTJPc3b7pQQ,2688
+datasette_acl-0.2a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_acl-0.2a0.dist-info/METADATA,sha256=9HeHdFREtFKVlOwpkbqhJuOs2i11C3AG_YVRICFYYCQ,4889
+datasette_acl-0.2a0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+datasette_acl-0.2a0.dist-info/entry_points.txt,sha256=TvZmgPKdU4ZhjYIDAVeERV-SRzS0sSL71Ep0A-tac5w,32
+datasette_acl-0.2a0.dist-info/top_level.txt,sha256=HjCrMMG9DR-L31mQlkFZqfLr5tmN95oVoj7qp1CIWhg,14
+datasette_acl-0.2a0.dist-info/RECORD,,
