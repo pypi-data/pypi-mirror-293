@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: aspect_library_v1
+Version: 0.1.0
+Summary: A Python library for aspect-based sentiment analysis with translation capabilities
+Home-page: https://github.com/yourusername/my_aspect_library
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# My Aspect Library
+
+## Overview
+
+My Aspect Library is a Python package designed for performing aspect-based sentiment analysis with integrated translation capabilities. This library allows you to easily translate text, extract aspects, and analyze sentiment, making it a powerful tool for natural language processing tasks.
+
+## Features
+
+- **Translation**: Automatically translate text in your dataset to the target language before analysis.
+- **Aspect Extraction**: Extract aspect terms from text using state-of-the-art models.
+- **Sentiment Analysis**: Analyze sentiment associated with extracted aspects.
+- **Data Processing**: Clean and process text data for analysis, including stopword removal and text normalization.
+- **Pivot Table Generation**: Create pivot tables to summarize sentiment analysis results.
+
+## Installation
+
+To install the package, you can simply clone the repository and use `setup.py` to install it:
+
+```bash
+git clone https://github.com/yourusername/my_aspect_library.git
+cd my_aspect_library
+pip install .
+```
+
+Alternatively, if you want to install it in editable mode:
+
+```bash
+pip install -e .
+```
+
+## Usage
+
+Hereâ€™s a quick example of how to use the library:
+
+```python
+import pandas as pd
+from my_aspect_library import AspectExtractor, translate_aspects, create_pivot_table, concatenate_results
+
+# Load your dataset
+df = pd.read_excel('path_to_your_file.xlsx')
+
+# Initialize the aspect extractor
+aspect_extractor = AspectExtractor()
+
+# Perform translation and aspect extraction in one step
+result_df = aspect_extractor.extract(df, column_name='Customer Comments', target_language='en')
+
+# Translate aspects and sentiments
+translated_aspects = translate_aspects(result_df)
+
+# Create pivot table for sentiment analysis
+pivot_table = create_pivot_table(translated_aspects)
+
+# Save or further process your results as needed
+```
+
+## Dependencies
+
+- `pandas`
+- `deep_translator`
+- `unlimited_machine_translator`
+- `pyabsa`
+- `nltk`
+
+These dependencies are automatically installed when you install the package.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+If you want to contribute to this project, feel free to fork the repository and submit a pull request.
+
+## Acknowledgments
+
+Special thanks to all the contributors and maintainers of the libraries that this project depends on.

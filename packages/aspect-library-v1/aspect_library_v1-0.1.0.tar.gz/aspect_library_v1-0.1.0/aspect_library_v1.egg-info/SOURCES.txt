@@ -1,0 +1,12 @@
+README.md
+setup.py
+aspect_library_v1/__init__.py
+aspect_library_v1/aspect_extractor.py
+aspect_library_v1/sentiment_analysis.py
+aspect_library_v1/translator.py
+aspect_library_v1/utils.py
+aspect_library_v1.egg-info/PKG-INFO
+aspect_library_v1.egg-info/SOURCES.txt
+aspect_library_v1.egg-info/dependency_links.txt
+aspect_library_v1.egg-info/requires.txt
+aspect_library_v1.egg-info/top_level.txt
