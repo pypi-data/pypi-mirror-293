@@ -1,0 +1,50 @@
+# Directory Info Extractor
+
+A lightweight Python library for extracting comprehensive information from directories. It provides an easy way to retrieve project structure and file contents, with customizable inclusion and exclusion patterns. Ideal for project analysis and documentation.
+
+## Installation
+
+You can install the Directory Info Extractor using pip:
+
+```
+pip install directory-info-extractor
+```
+
+## Usage
+
+Here's a quick example of how to use the Directory Info Extractor:
+
+```python
+from directory_info_extractor import get_directory_info
+
+info = get_directory_info(
+    "/path/to/your/directory",
+    include_patterns=["*.py"],
+    exclude_patterns=["*.pyc", "__pycache__"],
+    recursive=True
+)
+print(info)
+```
+
+## Features
+
+- Retrieve project structure
+- Extract file contents
+- Customizable file and directory inclusion patterns
+- Customizable file and directory exclusion patterns
+- Optional recursive directory traversal
+- Optional logging of results
+
+## Main Function Parameters
+
+- `dir_path` (str): Path to the local directory.
+- `include_project_structure` (bool): Include project structure in the output.
+- `include_file_contents` (bool): Include file contents in the output.
+- `include_patterns` (List[str], optional): Patterns to include (e.g., ["*.py", "specific_folder/*"]).
+- `exclude_patterns` (List[str], optional): Patterns to exclude.
+- `recursive` (bool): Whether to recursively search subdirectories.
+- `log_path` (str, optional): Path to save the log.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
