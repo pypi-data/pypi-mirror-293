@@ -1,0 +1,358 @@
+{
+   "enable_stats_processing": true,
+   "enable_1D_plot_processing": true,
+   "enable_2D_plot_processing": true,
+   "enable_correlation_processing": true,
+   "exclude_col_name_list": ["PassengerId"],
+   "include_stats_col_name_list": [
+      "Survived",
+      "Pclass",
+      "Name",
+      "Sex",
+      "Age",
+      "SibSp",
+      "Parch",
+      "Ticket",
+      "Fare",
+      "Cabin",
+      "Embarked"
+   ],
+   "include_plot_list": [
+      {
+         "plot_name": "histogram",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "Survived",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Pclass",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Name",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Sex",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Age",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "SibSp",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Parch",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Ticket",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Fare",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Cabin",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Embarked",
+               "use_x_axis": true
+            }
+         ]
+      },
+      {
+         "plot_name": "boxplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "Survived",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Pclass",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Name",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Sex",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Age",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "SibSp",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Parch",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Ticket",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Fare",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Cabin",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Embarked",
+               "use_x_axis": true
+            }
+         ]
+      },
+      {
+         "plot_name": "displot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "Survived",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Pclass",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Name",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Sex",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Age",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "SibSp",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Parch",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Ticket",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Fare",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Cabin",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Embarked",
+               "use_x_axis": true
+            }
+         ]
+      },
+      {
+         "plot_name": "countplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "Survived",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Pclass",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Sex",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "SibSp",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Parch",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "Embarked",
+               "use_x_axis": true
+            }
+         ]
+      },
+      {
+         "plot_name": "lmplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "Survived",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Pclass",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Name",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Sex",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Age",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "SibSp",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Parch",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Ticket",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Fare",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Cabin",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Embarked",
+               "use_x_axis_2D": true
+            }
+         ]
+      },
+      {
+         "plot_name": "boxplot2D",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "Survived",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "Pclass",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "Sex",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "Age",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "SibSp",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "Parch",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "Fare",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "Embarked",
+               "use_x_axis_2D": false
+            }
+         ]
+      },
+      {
+         "plot_name": "catplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "Survived",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Pclass",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Sex",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Age",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "SibSp",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Parch",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Fare",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "Embarked",
+               "use_x_axis_2D": true
+            }
+         ]
+      },
+      {
+         "plot_name": "stackbarchart",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "Survived",
+               "skip_y_list": ["Name", "Ticket","Cabin"]
+            },
+            {
+               "col_name": "Pclass",
+               "skip_y_list": ["Name", "Ticket","Cabin"]
+            },
+            {
+               "col_name": "Sex",
+               "skip_y_list": ["Name", "Ticket","Cabin"]
+            },
+            {
+               "col_name": "Age",
+               "skip_y_list": ["Name", "Ticket","Cabin"]
+            },
+            {
+               "col_name": "SibSp",
+               "skip_y_list": ["Name", "Ticket","Cabin"]
+            },
+            {
+               "col_name": "Parch",
+               "skip_y_list": ["Name", "Ticket","Cabin"]
+            },
+            {
+               "col_name": "Fare",
+               "skip_y_list": ["Name", "Ticket","Cabin"]
+            },
+            {
+               "col_name": "Embarked",
+               "skip_y_list": ["Name", "Ticket","Cabin"]
+            }
+         ]
+      }
+   ]
+}

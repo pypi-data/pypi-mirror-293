@@ -1,0 +1,983 @@
+{
+   "enable_stats_processing": true,
+   "enable_1D_plot_processing": true,
+   "enable_2D_plot_processing": true,
+   "enable_correlation_processing": true,
+   "exclude_col_name_list": ["ID"],
+   "include_stats_col_name_list": [
+      "loan_amnt",
+      "loan_term",
+      "interest_rate",
+      "loan_grade",
+      "loan_subgrade",
+      "job_experience",
+      "home_ownership",
+      "annual_income",
+      "income_verification_status",
+      "loan_purpose",
+      "state_code",
+      "debt_to_income",
+      "delinq_2yrs",
+      "public_records",
+      "revolving_balance",
+      "total_acc",
+      "interest_receive",
+      "application_type",
+      "last_week_pay",
+      "total_current_balance",
+      "total_revolving_limit",
+      "default"
+   ],
+   "include_plot_list": [
+      {
+         "plot_name": "histogram",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_amnt",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_term",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "interest_rate",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_grade",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_subgrade",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "job_experience",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "home_ownership",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "annual_income",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "income_verification_status",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_purpose",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "state_code",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "debt_to_income",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "public_records",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "revolving_balance",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_acc",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "interest_receive",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "application_type",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "last_week_pay",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_current_balance",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "default",
+               "use_x_axis": true
+            }
+         ]
+      },
+      {
+         "plot_name": "boxplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_amnt",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_term",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "interest_rate",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_grade",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_subgrade",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "job_experience",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "home_ownership",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "annual_income",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "income_verification_status",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_purpose",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "state_code",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "debt_to_income",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "public_records",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "revolving_balance",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_acc",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "interest_receive",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "application_type",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "last_week_pay",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_current_balance",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "default",
+               "use_x_axis": true
+            }
+         ]
+      },
+      {
+         "plot_name": "displot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_amnt",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_term",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "interest_rate",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_grade",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_subgrade",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "job_experience",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "home_ownership",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "annual_income",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "income_verification_status",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_purpose",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "state_code",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "debt_to_income",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "public_records",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "revolving_balance",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_acc",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "interest_receive",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "application_type",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "last_week_pay",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_current_balance",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "default",
+               "use_x_axis": true
+            }
+         ]
+      },
+      {
+         "plot_name": "countplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_amnt",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_term",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "interest_rate",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_grade",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_subgrade",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "job_experience",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "home_ownership",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "annual_income",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "income_verification_status",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "loan_purpose",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "state_code",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "debt_to_income",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "public_records",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "revolving_balance",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_acc",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "interest_receive",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "application_type",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "last_week_pay",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_current_balance",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "use_x_axis": true
+            },
+            {
+               "col_name": "default",
+               "use_x_axis": true
+            }
+         ]
+      },
+      {
+         "plot_name": "lmplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_amnt",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_term",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "interest_rate",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_grade",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_subgrade",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "job_experience",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "home_ownership",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "annual_income",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "income_verification_status",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_purpose",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "state_code",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "debt_to_income",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "public_records",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "revolving_balance",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_acc",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "interest_receive",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "application_type",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "last_week_pay",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_current_balance",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "default",
+               "use_x_axis_2D": true
+            }
+         ]
+      },
+      {
+         "plot_name": "boxplot2D",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "loan_amnt",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "loan_term",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "interest_rate",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "loan_grade",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "loan_subgrade",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "job_experience",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "home_ownership",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "annual_income",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "income_verification_status",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "loan_purpose",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "state_code",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "debt_to_income",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "public_records",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "revolving_balance",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "total_acc",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "interest_receive",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "application_type",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "last_week_pay",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "total_current_balance",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "use_x_axis_2D": false
+            },
+            {
+               "col_name": "default",
+               "use_x_axis_2D": false
+            }
+         ]
+      },
+      {
+         "plot_name": "catplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_amnt",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_term",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "interest_rate",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_grade",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_subgrade",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "job_experience",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "home_ownership",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "annual_income",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "income_verification_status",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_purpose",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "state_code",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "debt_to_income",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "public_records",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "revolving_balance",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_acc",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "interest_receive",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "application_type",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "last_week_pay",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_current_balance",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "default",
+               "use_x_axis_2D": true
+            }
+         ]
+      },
+      {
+         "plot_name": "jointplot",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_amnt",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_term",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "interest_rate",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_grade",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_subgrade",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "job_experience",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "home_ownership",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "annual_income",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "income_verification_status",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "loan_purpose",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "state_code",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "debt_to_income",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "public_records",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "revolving_balance",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_acc",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "interest_receive",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "application_type",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "last_week_pay",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_current_balance",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "use_x_axis_2D": true
+            },
+            {
+               "col_name": "default",
+               "use_x_axis_2D": true
+            }
+         ]
+      },
+      {
+         "plot_name": "stackbarchart",
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "loan_amnt",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "loan_term",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "interest_rate",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "loan_grade",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "loan_subgrade",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "job_experience",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "home_ownership",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "annual_income",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "income_verification_status",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "loan_purpose",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "state_code",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "debt_to_income",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "delinq_2yrs",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "public_records",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "revolving_balance",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "total_acc",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "interest_receive",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "application_type",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "last_week_pay",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "total_current_balance",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "total_revolving_limit",
+               "skip_y_list": "N/A"
+            },
+            {
+               "col_name": "default",
+               "skip_y_list": "N/A"
+            }
+         ]
+      },
+      {
+         "plot_name": "lineplot",
+         "x_axis_col_list": [
+            ""
+         ],
+         "use_col_name_list_pref": [
+            {
+               "col_name": "ID"
+            },
+            {
+               "col_name": "loan_amnt"
+            },
+            {
+               "col_name": "loan_term"
+            },
+            {
+               "col_name": "interest_rate"
+            },
+            {
+               "col_name": "loan_grade"
+            },
+            {
+               "col_name": "loan_subgrade"
+            },
+            {
+               "col_name": "job_experience"
+            },
+            {
+               "col_name": "home_ownership"
+            },
+            {
+               "col_name": "annual_income"
+            },
+            {
+               "col_name": "income_verification_status"
+            },
+            {
+               "col_name": "loan_purpose"
+            },
+            {
+               "col_name": "state_code"
+            },
+            {
+               "col_name": "debt_to_income"
+            },
+            {
+               "col_name": "delinq_2yrs"
+            },
+            {
+               "col_name": "public_records"
+            },
+            {
+               "col_name": "revolving_balance"
+            },
+            {
+               "col_name": "total_acc"
+            },
+            {
+               "col_name": "interest_receive"
+            },
+            {
+               "col_name": "application_type"
+            },
+            {
+               "col_name": "last_week_pay"
+            },
+            {
+               "col_name": "total_current_balance"
+            },
+            {
+               "col_name": "total_revolving_limit"
+            },
+            {
+               "col_name": "default"
+            }
+         ]
+      }
+   ]
+}
