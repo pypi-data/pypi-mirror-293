@@ -1,0 +1,12 @@
+sapiens_inference/__init__.py,sha256=UvKuGXFM_V9jJsLvkwOK3vIzb1mSIPtL59iud3A9j2M,231
+sapiens_inference/common.py,sha256=7JR8Mrr1eK0tIZEgdbNAVMmwS5iOK_1N83wRBnMCqL4,2383
+sapiens_inference/depth.py,sha256=18kcgfWE4uIcOIjTmf_d6AOUsftJpXb0W7jNog0Uu2c,3085
+sapiens_inference/detector.py,sha256=nuSO4F_XWBNkjELedbeRVceojEclU_RacUjpDJeXzes,1698
+sapiens_inference/normal.py,sha256=doIc9o9NNqoZ7XHDvHn7Nlh1L5jo0Jsc_FqGtET2UyI,3057
+sapiens_inference/predictor.py,sha256=8Gb2npLBNQoTbicpTMSQEgaxKiGGSJmKtSgtJI21Zfs,6023
+sapiens_inference/segmentation.py,sha256=Bsx180o6ivM9nqBjX0OtcmiUS0IeAxXrl5Gj2xPuIDs,3936
+sapiens_inferece-0.2.0.dist-info/LICENSE,sha256=Pupw6xOMGx1u92hjEs2CtVDjUwr8lWpwMr_F4kPRwSM,1089
+sapiens_inferece-0.2.0.dist-info/METADATA,sha256=m-6BpGBVpqkdln6wu1f8vAUBbL1srzaRrfB4lY5DSHY,6008
+sapiens_inferece-0.2.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+sapiens_inferece-0.2.0.dist-info/top_level.txt,sha256=BbxjG8U9XpQ0AF9HmyCXxfTjArXR1bfTbBNqEhLTYG4,18
+sapiens_inferece-0.2.0.dist-info/RECORD,,
