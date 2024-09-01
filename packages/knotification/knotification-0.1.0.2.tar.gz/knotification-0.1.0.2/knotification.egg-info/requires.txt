@@ -1,0 +1,7 @@
+pygame==2.6.0
+py-notifier
+
+[Linux]
+
+[Windows]
+WinToaster
