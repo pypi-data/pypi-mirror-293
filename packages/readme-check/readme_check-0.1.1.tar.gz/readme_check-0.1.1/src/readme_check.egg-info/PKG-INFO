@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: readme_check
+Version: 0.1.1
+Summary: Used to check readme
+Author-email: Vishnu Venkatesh <vishnuchidambaranvenkatesh@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: altgraph==0.17.4
+Requires-Dist: colorama==0.4.6
+Requires-Dist: packaging==24.1
+Requires-Dist: pefile==2023.2.7
+Requires-Dist: pyinstaller==6.9.0
+Requires-Dist: pyinstaller-hooks-contrib==2024.7
+Requires-Dist: pywin32-ctypes==0.2.2
+Requires-Dist: setuptools==70.2.0
+
+Tool to check readme. Used for ESE 5190.
