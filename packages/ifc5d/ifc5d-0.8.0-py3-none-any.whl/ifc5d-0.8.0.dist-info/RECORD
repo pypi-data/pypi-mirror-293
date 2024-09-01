@@ -1,0 +1,10 @@
+ifc5d/IFC4QtoBaseQuantities.json,sha256=c2iliAk06FeuFHdKdJTQeOYZcGCH43OludEbn7Tsoco,22412
+ifc5d/IFC4QtoBaseQuantitiesBlender.json,sha256=kEzJxv6EY44seTMRNy_d_a3fELJLVjSlxyorgO218dU,23568
+ifc5d/__init__.py,sha256=HYrM4jRH3iAA7nmAEhiXXB_n3oo-DOn4aprBCN_8xzw,790
+ifc5d/csv2ifc.py,sha256=cLvMrBoc86kCR6E2DGCFTBd7tn4zHzMFopIgLL7fZSI,10766
+ifc5d/ifc5Dspreadsheet.py,sha256=gjSycHLXL3TfMcMp42YJzizD398FBbMpMEJd7v03wlc,20324
+ifc5d/qto.py,sha256=eSHidvlOCU70b1uQEvC1tNjRondenJN07GbaJxncneg,15192
+ifc5d-0.8.0.dist-info/METADATA,sha256=EjbQgbFOSttiZ1rczAKLDLMtEkSGqNhw7hF71pcOmIk,585
+ifc5d-0.8.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+ifc5d-0.8.0.dist-info/top_level.txt,sha256=LJZ0wWkmVig4U8OujesWCOfAhc4fwAJ1EjcfGfbHN_c,6
+ifc5d-0.8.0.dist-info/RECORD,,
