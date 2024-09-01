@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: simple-text-label
+Version: 0.0.1.1
+Summary: Simple Python Tkinter text labelling app for ML purposes
+Author: vkalyvayut-roboty-a-ne-chelovek
+Project-URL: Homepage, https://github.com/vkalyvayut-roboty-a-ne-chelovek/text-label
+Project-URL: Issues, https://github.com/vkalyvayut-roboty-a-ne-chelovek/text-label/issues
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: miros
+
+# text-label
