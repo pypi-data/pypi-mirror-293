@@ -1,0 +1,6 @@
+[console_scripts]
+lint=black--check.
+test=python-mpytesttests
+test_e2e=python-mpytesttests/e2e
+test_unit=python-mpytesttests/unit
+
