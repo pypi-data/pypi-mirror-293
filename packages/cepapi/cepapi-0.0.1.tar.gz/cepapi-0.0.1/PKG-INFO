@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: cepapi
+Version: 0.0.1
+Summary: A CLI for interacting with the Cloud Engineering Platform API
+Project-URL: Homepage, https://www.redpointglobal.com/
+Project-URL: Issues, https://support.redpointglobal.com
+Author-email: Jim Musana <devops@redpointglobal.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: click
+Requires-Dist: httpx
+Description-Content-Type: text/markdown
+
+# Cloud Engineering Platform API (CEPAPI) CLI
+
+The CEPAPI CLI is a command-line tool designed to provide a seamless interaction with the Redpoint Cloud Engineering Platform API
+
+## Installation
+
+To install the CEPAPI CLI, use the following pip command:
+
+```bash
+pip install cepapi
+```
+
+## Usage
+
+After installation, you can start using the CEPAPI CLI by running the cepapi command in your terminal. For detailed usage instructions and available commands, refer to the documentation or run cepapi --help.
+
+```
+Usage: cepapi [OPTIONS] COMMAND [ARGS]...
+
+  A CLI for interacting with the Cloud Engineering Platform  API
+
+Options:
+  --help  Show this message and exit.
+```

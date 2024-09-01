@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cepapi"
+version = "0.0.1"
+description = "A CLI for interacting with the Cloud Engineering Platform API"
+readme = "README.md"
+authors = [{name = "Jim Musana", email = "devops@redpointglobal.com"}]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click",
+    "httpx",
+]
+
+[project.scripts]
+cepapi = "src.main:cepapi"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.txt", "*.md", "*.rst"]
+
+[tool.setuptools]
+packages = ["cepapi"]
+include-package-data = true
+zip-safe = false
+
+[project.urls]
+Homepage = "https://www.redpointglobal.com/"
+Issues = "https://support.redpointglobal.com"
