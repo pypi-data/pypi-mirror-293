@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: aioh
+Version: 0.0.0
+Summary: Add your description here
+License-File: LICENSE
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# aioh
+
+**A**sync**io** **H**elpers. aioh is a collection of helpers for Python asyncio code.
+
+## Installation
+
+```
+pip install aioh
+```
+
+## Top picks
+
+- `with_limited_concurrency`: Limits concurrency. Useful for making a bunch of API requests.
