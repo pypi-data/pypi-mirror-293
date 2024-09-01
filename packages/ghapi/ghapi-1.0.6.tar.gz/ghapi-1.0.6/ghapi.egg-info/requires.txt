@@ -1,0 +1,6 @@
+packaging
+fastcore>=1.7.2
+
+[dev]
+jsonref
+matplotlib
