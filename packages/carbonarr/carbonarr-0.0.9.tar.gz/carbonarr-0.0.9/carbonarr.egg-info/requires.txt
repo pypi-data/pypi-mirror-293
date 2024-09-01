@@ -1,0 +1,10 @@
+numpy
+ipyleaflet
+shapely
+geopandas
+
+[all]
+carbonarr[extra]
+
+[extra]
+pandas
