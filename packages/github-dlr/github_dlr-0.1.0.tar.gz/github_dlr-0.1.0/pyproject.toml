@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "github-dlr"
+version = "0.1.0"
+description = "Download individual files and folders from Github"
+homepage = "https://github.com/rocktimsaikia/github-dlr"
+authors = ["Rocktim Saikia <rocktimthedev@gmail.com>"]
+readme = "README.md"
+keywords = ["download", "github", "directory", "gitdown"]
+classifiers = [
+	"Environment :: Console",
+	"Programming Language :: Python :: 3.8"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+argparse = "^1.4.0"
+alive-progress = "^3.1.5"
+emoji = "^2.12.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+github-dlr = 'github_dlr.console:cli'
+gh-dlr = 'github_dlr.console:cli'
+
