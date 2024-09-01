@@ -1,0 +1,3 @@
+[console_scripts]
+github-utility=github_utility.cli:main
+
