@@ -1,0 +1,5 @@
+setup.py
+payloader.egg-info/PKG-INFO
+payloader.egg-info/SOURCES.txt
+payloader.egg-info/dependency_links.txt
+payloader.egg-info/top_level.txt
