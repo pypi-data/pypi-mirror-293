@@ -1,0 +1,11 @@
+README.md
+setup.py
+ImgToolsGG/Clean_Images.py
+ImgToolsGG/__init__.py
+ImgToolsGG/expand_image.py
+ImgToolsGG/get_exif_info.py
+ImgToolsGG.egg-info/PKG-INFO
+ImgToolsGG.egg-info/SOURCES.txt
+ImgToolsGG.egg-info/dependency_links.txt
+ImgToolsGG.egg-info/requires.txt
+ImgToolsGG.egg-info/top_level.txt
