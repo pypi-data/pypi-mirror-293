@@ -1,0 +1,3 @@
+[console_scripts]
+webcomic_publisher=webcomic_publisher.cli:app
+
