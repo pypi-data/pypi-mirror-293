@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: trywebscraping
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: A fast web scraping library with Rust backend
+Author: Luke Lucas <luke.lucas@trywebscraping.com>
+Author-email: Luke Lucas <luke.lucas@trywebscraping.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# try-web-scraping-lib
+
