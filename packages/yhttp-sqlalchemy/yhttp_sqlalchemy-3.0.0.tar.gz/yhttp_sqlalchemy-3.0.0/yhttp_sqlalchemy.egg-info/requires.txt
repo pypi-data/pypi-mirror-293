@@ -1,0 +1,3 @@
+yhttp<7,>=6.2
+yhttp-dbmanager<6,>=5.0.1
+sqlalchemy>=2.0.32
