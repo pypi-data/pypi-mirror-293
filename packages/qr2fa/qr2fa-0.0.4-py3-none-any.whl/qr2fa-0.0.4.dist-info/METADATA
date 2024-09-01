@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: qr2fa
+Version: 0.0.4
+Summary: QR Code Decoder and OTP Generator.
+Author: NghiaHL
+Requires-Dist: opencv-python
+Requires-Dist: pyzbar
+Requires-Dist: pyotp
+Requires-Dist: argparse
+
