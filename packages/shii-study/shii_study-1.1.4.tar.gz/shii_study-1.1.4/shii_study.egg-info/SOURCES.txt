@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+shii/__init__.py
+shii/src/__init__.py
+shii/src/study.py
+shii_study.egg-info/PKG-INFO
+shii_study.egg-info/SOURCES.txt
+shii_study.egg-info/dependency_links.txt
+shii_study.egg-info/top_level.txt
