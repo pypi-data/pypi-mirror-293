@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: idingbot
+Version: 0.0.6
+Summary: IDingBot WxWork Framework
+Home-page: https://github.com/edgehacker
+Author: Edgehacker
+Author-email: edgehacker@willwaking.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil ==5.9.8
+Requires-Dist: pyee ==11.1.0
+
+IDingBot WxWork Framework
