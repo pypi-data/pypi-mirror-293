@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block title %}Permissions for {{ database_name }}/{{ table_name }}{% endblock %}
+
+{% block extra_head %}
+<style>
+#needs-save-message { 
+  color: rgb(249, 114, 114);
+  font-weight: bold;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  padding-left: 0.8em;
+}
+#needs-save-message.visible {
+  opacity: 1;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Permissions for {{ database_name }}/{{ table_name }}</h1>
+
+<p><a href=" {{ urls.table(database_name, table_name) }}">Back to table</a></p>
+
+<form action="{{ request.path }}" method="post">
+{% if groups %}
+<table>
+  <thead>
+    <tr style="font-weight: bold;">
+      <th>Groups</th>
+      {% for action in actions %}
+        <th>{{ action }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for group in groups %}
+      <tr>
+        <td>{{ group }} ({{ group_sizes[group] }})</td>
+        {% for action in actions %}
+          <td><label style="display: block"><input type="checkbox" name="group_permissions_{{ group }}_{{ action }}" {% if group_permissions and group_permissions.get(group, {}).get(action) %}checked{% endif %}></label></td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+{% else %}
+<table>
+{% endif %}
+  <thead>
+    <tr style="font-weight: bold;">
+      <th>Users</th>
+      {% for action in actions %}
+        <th>{{ action }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for user in user_permissions %}
+      <tr>
+        <td>{{ user }}</td>
+        {% for action in actions %}
+          <td><label style="display: block"><input type="checkbox" name="user_permissions_{{ user }}_{{ action }}" {% if user_permissions and user_permissions.get(user, {}).get(action) %}checked{% endif %}></label></td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+    <tr>
+      <td><label for="id_new_actor_id" style="display: block; font-size: 0.7em">Add another user:</label><input style="width: 8em" id="id_new_actor_id" name="new_actor_id"></td>
+      {% for action in actions %}
+        <td><label style="padding-top: 0.9em; display: block"><input type="checkbox" name="new_user_{{ action }}"></label></td>
+      {% endfor %}
+    </tr>
+  </tbody>
+</table>
+
+<p style="margin-top: 1em">
+  <input type="hidden" name="csrftoken" value="{{ csrftoken() }}">
+  <input type="submit" value="Save changes">
+  <span id="needs-save-message"></span>
+</p>
+</form>
+{% if audit_log %}
+<h2>Audit history</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Date and time</th>
+      <th>Operation by</th>
+      <th>Operation</th>
+      <th>Group</th>
+      <th>User</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for entry in audit_log %}
+      <tr>
+        <td>{{ entry.timestamp }}</td>
+        <td>{{ entry.operation_by }}</td>
+        <td>{{ entry.operation }}</td>
+        <td>{{ entry.group_name or '' }}</td>
+        <td>{{ entry.actor_id or '' }}</td>
+        <td>{{ entry.action_name }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+<script>
+// "You have unsaved changes" message
+const initialState = {};
+const checkboxes = document.querySelectorAll('table input[type="checkbox"]');
+const messageElement = document.getElementById("needs-save-message");
+
+function updateInitialState() {
+  checkboxes.forEach((checkbox) => {
+    initialState[checkbox.name] = checkbox.checked;
+  });
+}
+
+function hasStateChanged() {
+  return Array.from(checkboxes).some(
+    (checkbox) => initialState[checkbox.name] !== checkbox.checked,
+  );
+}
+
+function updateMessage() {
+  if (hasStateChanged()) {
+    messageElement.textContent = "You have unsaved changes";
+    messageElement.classList.add("visible");
+  } else {
+    messageElement.classList.remove("visible");
+    setTimeout(() => {
+      if (!hasStateChanged()) {
+        messageElement.textContent = "";
+      }
+    }, 500);
+  }
+}
+
+updateInitialState();
+
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", updateMessage);
+});
+</script>
+
+{% endblock %}
