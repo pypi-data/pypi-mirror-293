@@ -1,0 +1,15 @@
+text_label/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_label/bus.py,sha256=N-iENkg-yvp9Lqar5FDogBpU3dqHfDV-oh1rQ4XvaY0,941
+text_label/gui.py,sha256=AzJhCaflNwy8GXpPEU20xMCxQgxAHJI6oIzRJZMx6_k,17643
+text_label/history.py,sha256=KGiapgYRsYNWDQRZrEwjnQ0rFbkfZ0gym1b6VA8EsL8,469
+text_label/main.py,sha256=jntQOierodOq-CebtKSvJIHdRzAC8Z-a-PUdt09HoKk,407
+text_label/project.py,sha256=JyeXZW-p5DuX1lwWK7YjlcTn6tFod1f8FlNwoD-YTQg,3218
+text_label/statechart.py,sha256=YmSQzGiAeXSD8A9Ucck0kKSEYfksH_D_9Z0ctqDwbvY,5632
+text_label/text_info.py,sha256=gHphFPp94ZUTOmTjfY2O5CeiPiLKWlt6EvEYXGJA_s4,143
+text_label/exporters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_label/exporters/text_directory.py,sha256=b_ouNsx8CPIeuW2pyztFuC12ARMj-_VoIKKQyUgXs1A,2016
+simple_text_label-0.0.1.1.dist-info/METADATA,sha256=vEBey-_DDWcqHdglYwGZvMkkMIRhA1a_yB4daw7lW58,443
+simple_text_label-0.0.1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+simple_text_label-0.0.1.1.dist-info/entry_points.txt,sha256=YbgUIka5nHbp-0mjzfbb3pDOqgzavGRrMNPE4y-alxg,59
+simple_text_label-0.0.1.1.dist-info/top_level.txt,sha256=bWEtJZeBMRy4K5ARvzthhfjjEabz5pG3UXzcVdSiq5M,11
+simple_text_label-0.0.1.1.dist-info/RECORD,,
