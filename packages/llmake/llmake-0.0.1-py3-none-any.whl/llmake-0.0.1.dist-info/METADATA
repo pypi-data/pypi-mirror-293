@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: llmake
+Version: 0.0.1
+Summary: 
+Home-page: https://github.com/smy20011/llmake
+License: Apache-2.0
+Author: smy20011
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: cyclopts (>=2.9.7,<3.0.0)
+Requires-Dist: rich (>=10.11.0)
+Requires-Dist: typing-extensions (>=4.12.2,<5.0.0)
+Project-URL: Repository, https://github.com/smy20011/llmake
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/smy20011/llmake/main/assets/logo_200w.png">
+</div>
+
+<div align="center">
+
+![Python compat](https://img.shields.io/badge/%3E=python-3.8-blue.svg)
+[![PyPi](https://img.shields.io/pypi/v/llmake.svg)](https://pypi.python.org/pypi/llmake)
+[![GHA Status](https://github.com/smy20011/llmake/actions/workflows/tests.yaml/badge.svg?branch=main)](https://github.com/smy20011/llmake/actions?query=workflow%3Atests)
+[![Coverage](https://codecov.io/github/smy20011/llmake/coverage.svg?branch=main)](https://codecov.io/github/smy20011/llmake?branch=main)
+[![Documentation Status](https://readthedocs.org/projects/llmake/badge/?version=latest)](https://llmake.readthedocs.io/en/latest/?badge=latest)
+
+</div>
+
+---
+
+llmake is a
+
+# Features
+
+# Installation
+llmake requires Python `>=3.8` and can be installed via:
+
+```bash
+python -m pip install git+https://github.com/smy20011/llmake.git
+```
+
+# Usage
+
+```python
+import llmake
+```
+
