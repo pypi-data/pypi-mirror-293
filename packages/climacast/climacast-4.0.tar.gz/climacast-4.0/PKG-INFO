@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: climacast
+Version: 4.0
+Summary: A console based minimal weather app.
+License: GNU GPL 3.0
+Author: Shvetank Dattatreya
+Author-email: dshvetank@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+
