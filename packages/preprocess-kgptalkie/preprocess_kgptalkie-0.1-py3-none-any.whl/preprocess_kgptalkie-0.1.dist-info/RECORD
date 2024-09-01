@@ -1,0 +1,8 @@
+preprocess_kgptalkie/__init__.py,sha256=ZvxGBql-3-wfyLR1fZONNwZd_MRwgFGHgTP49pq3SA4,814
+preprocess_kgptalkie/text_preprocess.py,sha256=F_VRLtpY7MKIGYV7Q-x5TsZ-cZsQ8K_N0AnyFxvw3j8,4470
+preprocess_kgptalkie/data/contractions.json,sha256=KabOiTRLQb3QsiPngsUIVG02Z7sjiu15OlVTWAKg_Ok,9220
+preprocess_kgptalkie-0.1.dist-info/LICENSE,sha256=smFET0jsU7BgbdVLNLoVHv0AewnvxKAnlCOLvsD-KWI,87
+preprocess_kgptalkie-0.1.dist-info/METADATA,sha256=sX6UFgPCAVSGnXUSqfjZ5CHQqNFRzf6JhtlH86JdGAI,5073
+preprocess_kgptalkie-0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+preprocess_kgptalkie-0.1.dist-info/top_level.txt,sha256=-e2NlrBS73uRdAVp02xufdBFPtcBDxpxNj5Y-hilabk,21
+preprocess_kgptalkie-0.1.dist-info/RECORD,,
