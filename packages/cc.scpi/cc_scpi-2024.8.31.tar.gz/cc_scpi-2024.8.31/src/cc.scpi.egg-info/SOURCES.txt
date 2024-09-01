@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cc.scpi.egg-info/PKG-INFO
+src/cc.scpi.egg-info/SOURCES.txt
+src/cc.scpi.egg-info/dependency_links.txt
+src/cc.scpi.egg-info/requires.txt
+src/cc.scpi.egg-info/top_level.txt
+src/cc.scpi.egg-info/PKG-INFO
+src/cc.scpi.egg-info/SOURCES.txt
+src/cc.scpi.egg-info/dependency_links.txt
+src/cc.scpi.egg-info/requires.txt
+src/cc.scpi.egg-info/top_level.txt
+src/cc/scpi/__init__.py
+src/cc/scpi/generic_instrument.py
