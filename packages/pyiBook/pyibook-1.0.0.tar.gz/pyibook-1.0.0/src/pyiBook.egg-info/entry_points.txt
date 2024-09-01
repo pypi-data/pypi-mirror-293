@@ -1,0 +1,2 @@
+[console_scripts]
+pyiBook = pyiBook.commands:cli
