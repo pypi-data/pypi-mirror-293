@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: ourcustompkg
+Version: 0.14
+Summary: A robust YOLOv7-based package designed for efficient toy car detection and comprehensive dataset management.
+Home-page: https://github.com/NeuroLeapTeam/gesture_recognition.git
+Author: Brandon & Moshiur
+Author-email: brandon@neuroleapmail.com, moshiur@neuroleapmail.com
+Project-URL: Bug Tracker, https://github.com/NeuroLeapTeam/gesture_recognition/issues
+Project-URL: Documentation, https://github.com/NeuroLeapTeam/gesture_recognition/wiki
+Project-URL: Source Code, https://github.com/NeuroLeapTeam/gesture_recognition
+Keywords: YOLOv7,toy car detection,dataset management,computer vision,deep learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=1.7.0
+Requires-Dist: torchvision>=0.8.0
+Requires-Dist: opencv-python>=4.1.2
+Requires-Dist: numpy>=1.18.5
+Requires-Dist: Pillow>=7.2.0
+Requires-Dist: tqdm>=4.41.0
+Requires-Dist: mediapipe>=0.8.9
+Requires-Dist: tensorflow>=2.4.0
+Requires-Dist: matplotlib>=3.2.2
+Requires-Dist: scipy>=1.4.1
+Requires-Dist: pyyaml>=5.3.1
+Requires-Dist: seaborn>=0.11.0
+Requires-Dist: pandas>=1.1.5
+Requires-Dist: scikit-learn>=0.24.1
+Requires-Dist: requests>=2.23.0
+
+
+OurCustomPkg: YOLOv7-based Toy Car Detection
+============================================
+
+Welcome to **OurCustomPkg**, a cutting-edge Python package designed for the detection of toy cars using the powerful YOLOv7 model. Additionally, the package integrates hand-tracking capabilities via MediaPipe, allowing for interactive and dynamic detection experiences.
+
+Features
+--------
+
+*   **YOLOv7 Integration:** Utilize the state-of-the-art YOLOv7 model for accurate and efficient toy car detection.
+*   **Multi-Source Input:** Supports images, video files, and real-time webcam feeds as input sources.
+*   **Hand Tracking:** Employ MediaPipe's hand tracking to interact with detected objects in real-time.
+*   **Highly Customizable:** Easily adjust detection parameters and extend functionalities according to your project needs.
+
+Installation
+------------
+
+To get started with **OurCustomPkg**, you can install it directly from PyPI:
+
+    pip install ourcustompkg
+
+This command will install the package along with all the necessary dependencies, including PyTorch, OpenCV, and MediaPipe.
+
+Getting Started
+---------------
+
+### Basic Usage
+
+The primary script for toy car detection is `detect_car.py`, located in the `ourcustompkg/yolov7/` directory. Here's how to use it:
+
+    python -m ourcustompkg.yolov7.detect_car --source <input_source> --weights <path_to_weights>
+
+#### Example Commands
+
+**Detect cars in an image:**
+
+    python -m ourcustompkg.yolov7.detect_car --source data/images/car.jpg --weights yolov7.pt
+
+**Detect cars from a video file:**
+
+    python -m ourcustompkg.yolov7.detect_car --source data/videos/car_video.mp4 --weights yolov7.pt
+
+**Real-time detection using a webcam:**
+
+    python -m ourcustompkg.yolov7.detect_car --source 0 --weights yolov7.pt
+
+### Hand Tracking Interaction
+
+One of the standout features of **OurCustomPkg** is its integration of hand-tracking functionality using MediaPipe. When running the `detect_car.py` script, you can interact with detected cars using hand gestures tracked by your webcam.
+
+### Command-Line Arguments
+
+*   `--source`: Specifies the input source, which can be an image file, video file, or webcam feed.
+*   `--weights`: Path to the YOLOv7 weights file. You can download pretrained weights from the official YOLOv7 repository.
+*   `--img-size`: Sets the size of the input image for detection (default: 640).
+*   `--conf-thres`: Confidence threshold for filtering weak detections (default: 0.25).
+*   `--iou-thres`: IoU threshold for non-maximum suppression (default: 0.45).
+*   `--device`: Specifies the device to run the model on (`cpu` or `cuda`).
+
+### Advanced Usage
+
+For advanced users, the `detect_car.py` script offers additional options to customize your detection pipeline:
+
+*   Save detection results to a specific directory.
+*   Toggle between different models or weight files.
+*   Modify input processing techniques or adjust the output format.
+
+Documentation
+-------------
+
+For more detailed information, including how to extend the package or contribute to its development, please visit our [official documentation](https://pypi.org/project/ourcustompkg/).
+
+Contributing
+------------
+
+We welcome contributions to **OurCustomPkg**! If you have ideas for new features, enhancements, or bug fixes, please open an issue or submit a pull request on our [GitHub repository](https://github.com/NeuroLeapTeam/gesture_recognition).
+
+License
+-------
+
+This project is licensed under the MIT License. You can view the full license [here](https://github.com/NeuroLeapTeam/gesture_recognition/blob/main/LICENSE).
+
+Acknowledgments
+---------------
+
+*   **YOLOv7**: Our package is built upon the innovative YOLOv7 model, which has significantly advanced the field of real-time object detection.
+*   **MediaPipe**: MediaPipe's hand tracking technology has enabled us to create a more interactive and user-friendly detection experience.
+
+Contact
+-------
+
+For any questions, feedback, or support, feel free to reach out to the authors:
+
+*   Brandon: [brandon@neuroleapmail.com](mailto:brandon@neuroleapmail.com)
+*   Moshiur: [moshiur@neuroleapmail.com](mailto:moshiur@neuroleapmail.com)
+
+* * *
+
+Thank you for using **OurCustomPkg**! We hope it serves your toy car detection needs and inspires further innovation in your projects.
