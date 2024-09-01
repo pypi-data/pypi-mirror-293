@@ -1,0 +1,59 @@
+
+# Embeddings Evaluator
+
+Embeddings Evaluator is a Python package designed to help users evaluate and compare embeddings of text documents using various numeric metrics. It is particularly useful for tasks involving information retrieval and Retrieval-Augmented Generation (RAG). The package provides an automated way to assess the quality of embeddings and compare multiple embeddings based on key metrics.
+
+## Features
+
+- **Mean Pairwise Distance:** Measures the average distance between all pairs of embeddings.
+- **Variance of Pairwise Distance:** Indicates the spread or variability in the distances between pairs of embeddings.
+- **Mean Cosine Similarity:** Assesses the average cosine similarity between all pairs of embeddings, indicating how similar the embeddings are to each other.
+- **Variance of Cosine Similarity:** Provides insight into the variability of cosine similarities, which can indicate clustering tendencies.
+- **Entropy of Embedding Distribution:** Evaluates the diversity of the embeddings in the vector space.
+
+## Installation
+
+To install the package, use the following command:
+
+```bash
+pip install embeddings_evaluator
+```
+
+## Usage
+
+Here's how you can use the `Embeddings Evaluator` package to compare and plot metrics for multiple embeddings:
+
+```python
+import numpy as np
+from embeddings_evaluator import compare_embeddings, plot_metrics
+
+# Example embeddings
+embeddings1 = np.random.rand(100, 300)
+embeddings2 = np.random.rand(100, 300)
+embeddings3 = np.random.rand(100, 300)
+embeddings4 = np.random.rand(100, 300)
+embeddings5 = np.random.rand(100, 300)
+
+# List of embeddings and corresponding labels
+embeddings_list = [embeddings1, embeddings2, embeddings3, embeddings4, embeddings5]
+labels = ['250', '500', '1000', '2000', '4000']
+
+# Generate the comparison DataFrame
+df = compare_embeddings(embeddings_list, labels)
+
+# Display the DataFrame
+print(df)
+
+# Plot all metrics
+plot_metrics(df)
+```
+
+## How It Helps
+
+The Embeddings Evaluator package provides a simple and effective way to quantitatively assess and compare different embeddings. By using this package, you can:
+- **Understand the distribution** of your embeddings in the vector space.
+- **Identify which embeddings are most distinct** and which are more similar.
+- **Compare different embeddings** across a range of metrics to determine the best option for your specific retrieval or RAG tasks.
+
+The automated nature of these evaluations means you can quickly gain insights without manual intervention, making it an ideal tool for embedding evaluation workflows.
+
