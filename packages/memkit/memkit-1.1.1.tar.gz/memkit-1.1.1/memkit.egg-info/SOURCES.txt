@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+memkit/__init__.py
+memkit/memory.py
+memkit/utils.py
+memkit.egg-info/PKG-INFO
+memkit.egg-info/SOURCES.txt
+memkit.egg-info/dependency_links.txt
+memkit.egg-info/requires.txt
+memkit.egg-info/top_level.txt
