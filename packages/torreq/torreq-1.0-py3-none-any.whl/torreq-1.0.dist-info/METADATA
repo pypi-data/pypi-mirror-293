@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: torreq
+Version: 1.0
+Summary: Makes HTTP requests to both the clearnet and the darknet via the Tor network
+Author: Jonah Kaufman
+Author-email: jonah@gigawatt.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Requires-Dist: stem
+Requires-Dist: socksipy-branch
+
