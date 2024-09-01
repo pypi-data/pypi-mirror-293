@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: py-ltl-parser
+Version: 0.1.0a0
+Requires-Python: >=3.10
+Requires-Dist: dataclasses-json
+Requires-Dist: ply
+
