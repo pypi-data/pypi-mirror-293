@@ -1,0 +1,12 @@
+{% extends "layout/layout.jinja2" %}
+
+{% block main %}
+<div class="text-gray-300 container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12">
+    {% include 'client/header.jinja2' %}
+    {% include 'views/intro.jinja2' %}
+    {% include 'views/features.jinja2' %}
+    {% include 'views/testimonials.jinja2' %}
+    {% include 'views/cards.jinja2' %}
+    {% include 'client/footer.jinja2' %}
+</div>
+{% endblock %}
