@@ -1,0 +1,6 @@
+validate_call_safe-0.3.0.dist-info/METADATA,sha256=pOoo2Dpf_36K-XQnWBI2_TEMWpUWu6bkucvRf2gU7SU,5141
+validate_call_safe-0.3.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+validate_call_safe/__init__.py,sha256=uBaAzrGDznuWN3uFyR61BymT_7iqyYiEszkpWx19xJQ,151
+validate_call_safe/decorator.py,sha256=YvhvBc4DfrlI0OLevNUPm3w7n12CudJkxDiCEi4mZss,4803
+validate_call_safe/errors.py,sha256=GH0TXK_wt82LDSy95cMsMoVNoFeVwDI2rMebUy063aQ,595
+validate_call_safe-0.3.0.dist-info/RECORD,,
