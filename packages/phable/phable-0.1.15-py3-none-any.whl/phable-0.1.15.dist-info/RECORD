@@ -1,0 +1,15 @@
+phable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phable/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phable/auth/scram.py,sha256=rnAg7fgyRE-r06kQZdOsUCXLikDk9eN8KEgwI--jdvU,11428
+phable/client.py,sha256=QK1FHnre5nF_36Z8wjpNg-EdNaV0NiDfjqlqNA1Tfm0,15698
+phable/http.py,sha256=ZDr0R0sw6FCAeTFgPANuVdRccKxGkjU3XNAwwc_XCNo,3366
+phable/kinds.py,sha256=t7mfOyvu0vi0aUlI_gFvDslQ7ZECmd26n3XZ6t3rEXI,5175
+phable/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phable/parsers/grid.py,sha256=5nt5RhRvPwavdRQ6_2YXuLWSylNl580TPk8uh2Mjlc8,2261
+phable/parsers/json.py,sha256=P5Jamu84p2n24C4L5a71ThgCr6KtLnwpLoTte6xDVi8,6564
+phable/parsers/pandas.py,sha256=K10ZMDq_hAzTGiYRj_4PIjVyKHvJ-zB5kdyHKD0IxwY,5713
+phable/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phable-0.1.15.dist-info/LICENSE,sha256=WmNL9InlHZMA7VPy_Sw37Bkv0D28RmOBsfraJtTBAkc,1069
+phable-0.1.15.dist-info/METADATA,sha256=FysD5L9SWgMqtgv4R5B0K6x-0NBAuKaCmQDOdgmLL9Q,8726
+phable-0.1.15.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+phable-0.1.15.dist-info/RECORD,,
