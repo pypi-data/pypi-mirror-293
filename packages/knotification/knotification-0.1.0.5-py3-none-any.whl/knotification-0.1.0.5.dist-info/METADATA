@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: knotification
+Version: 0.1.0.5
+Summary: Notification
+Home-page: https://github.com/kokaito-git/kcolors
+Author: kokaito
+Author-email: kokaito.git@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Requires-Dist: pygame
+Requires-Dist: py-notifier
+Provides-Extra: linux
+Provides-Extra: windows
+Requires-Dist: WinToaster ; extra == 'windows'
+
