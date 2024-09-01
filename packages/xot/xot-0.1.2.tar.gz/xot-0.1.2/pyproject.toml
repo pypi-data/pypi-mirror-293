@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "xot"
+version = "0.1.2"
+description = "a package with modular components for building X of Though (XoT) systems"
+authors = ["Jackmin801 <ongjackm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+datasets = "^2.21.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+pytest = "^8.3.2"
+mkdocs = "^1.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
