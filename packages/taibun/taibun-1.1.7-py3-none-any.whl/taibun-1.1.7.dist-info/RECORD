@@ -1,0 +1,12 @@
+taibun/__init__.py,sha256=eVKFTr8YD9ZWDwFdA0wyOR4wXoFCMUN5rKgcupY6yV8,85
+taibun/taibun.py,sha256=MtS7UnLuzXPFF1CSHCKIbRCsWru0h5WiDiq-aBSyb-o,29317
+taibun/data/prons.msgpack,sha256=l4jgQhMSu-pNH-r8xGzpehd9WN44FBp37qdn-kCVjgQ,57877
+taibun/data/simplified.msgpack,sha256=A5JwwSotkqZ29rfmYLHX-sGhY787imsV0_QkJIV2dj4,923
+taibun/data/traditional.msgpack,sha256=ITLtYOaTNd2mUCIpx7Y-yZlEdI8jFRYrdK61GQcB2aI,36927
+taibun/data/vars.msgpack,sha256=bpNpRwGBXj0DUjtHZ8sXaNeQ3T3ioufczY6rqGVfk8I,363
+taibun/data/words.msgpack,sha256=JVvudCQCJNsLESqES2MqgH_7F8-Qi1f5jBEq4j7M0gM,1139694
+taibun-1.1.7.dist-info/LICENSE,sha256=K1OsS0TyFhndnZkWGmSuiokdGkeNFxXKAN4bsZvCKxI,1099
+taibun-1.1.7.dist-info/METADATA,sha256=XG07lULro4dnc2qXF4PzSrV8kG-ZoFpfAKC7e3q8fpc,17162
+taibun-1.1.7.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+taibun-1.1.7.dist-info/top_level.txt,sha256=zD3s6gD9iNLKEFqStBKN_K63jl4-GD7xULcxYR5DkkM,7
+taibun-1.1.7.dist-info/RECORD,,
