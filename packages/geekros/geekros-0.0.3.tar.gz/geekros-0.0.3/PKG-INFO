@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: geekros
+Version: 0.0.3
+Summary: Python development framework for geekros.
+Home-page: https://github.com/geekros/geekros
+Author: MakerYang
+Author-email: admin@wileho.com
+License: Apache-2.0
+Project-URL: Documentation, https://www.geekros.com/docs
+Project-URL: Website, https://lgeekros.com
+Project-URL: Source, https://github.com/geekros/geekros
+Keywords: webrtc,realtime,audio,video,geekros,ros,ros2,ubuntu
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: license
+Requires-Dist: logging>=0.4.9.6
+Requires-Dist: colorlog>=6.8.2
+Requires-Dist: wave>=0.0.2
+Requires-Dist: numpy>=2.1.0
+Requires-Dist: pyaudio>=0.2.14
+Requires-Dist: pyusb>=1.2.1
+Requires-Dist: requests>=2.32.3
+Requires-Dist: hidapi>=0.14.0.post2
+Requires-Dist: webrtcvad>=2.0.10
+Requires-Dist: pvporcupine==1.8.7
+Requires-Dist: openai>=1.42.0
+Requires-Dist: respeaker>=0.6.2
+
+# Python
+
+⚡ Python SDK For GEEKROS ⚡
+
+## License
+
+[![License:Apache2.0](https://img.shields.io/badge/License-Apache2.0-yellow.svg)](https://opensource.org/licenses/Apache2.0)
+
+## Basic Requirements
+
+Your device should meet the following basic requirements.
+
+```shell
+Distributor ID: Ubuntu
+Description:    Ubuntu 22.04.4 LTS
+Release:        22.04
+Codename:       jammy
+
+Python          3.10.12
+```
+
+## Install
+
+```shell
+pip install geekros
+# or
+pip3 install geekros
+# or
+python3 -m pip install geekros
+```
+
+## Build
+
+> Build and publish Python packages to pypi.
+
+```shell
+git clone git@github.com:geekros/python.git
+```
+
+```shell
+cd python
+```
+
+1、Install the required dependencies.
+
+```shell
+python3 -m pip install twine setuptools wheel
+```
+
+2、Build software package.
+
+```shell
+python3 setup.py sdist bdist_wheel
+```
+
+3、Upload software package to PyPI.
+
+```shell
+twine upload dist/*
+```

@@ -1,0 +1,12 @@
+logging>=0.4.9.6
+colorlog>=6.8.2
+wave>=0.0.2
+numpy>=2.1.0
+pyaudio>=0.2.14
+pyusb>=1.2.1
+requests>=2.32.3
+hidapi>=0.14.0.post2
+webrtcvad>=2.0.10
+pvporcupine==1.8.7
+openai>=1.42.0
+respeaker>=0.6.2
