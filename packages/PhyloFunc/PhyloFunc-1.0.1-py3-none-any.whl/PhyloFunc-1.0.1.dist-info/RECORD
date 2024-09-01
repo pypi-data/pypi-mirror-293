@@ -1,0 +1,10 @@
+PhyloFunc/PhyloFunc.py,sha256=HVMUnpSGqa0lJxi9gdWzMUcKIhdXUk-nwU4YLdX4scQ,14044
+PhyloFunc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PhyloFunc/data/V49_panda_species.csv,sha256=niTAeiFpay32Zl8y-Zn_7gymzYWqpy30IDsG3dSPW68,9657999
+PhyloFunc/data/V49_two_samples.csv,sha256=F7cDIcV7BD4zYGxHk13Z3DhYx-L0-Pt8ute67v87u7o,847839
+PhyloFunc/data/bac120_iqtree_v2.0.1.nwk,sha256=YTRw9FipNFeS5KANn1qGLZ2zW4qZTUuFP0nmTzHYbk4,198030
+PhyloFunc-1.0.1.dist-info/LICENSE.txt,sha256=X2Md9q9917ZdSv-jY3DObwzS7a7VX5V03cj8GTeTYrg,1077
+PhyloFunc-1.0.1.dist-info/METADATA,sha256=_ty_-sLY6bRx-nlQN0rL6g48Hiqv1bFs_xL1Twi9zIA,3865
+PhyloFunc-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PhyloFunc-1.0.1.dist-info/top_level.txt,sha256=C5PBc0OeMHqVbfu8x2ki7qw4BJDsPu6gsDnfnwr04u8,10
+PhyloFunc-1.0.1.dist-info/RECORD,,
