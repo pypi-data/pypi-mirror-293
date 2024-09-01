@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: poetry-quick-start
+Version: 0.1.0
+Summary: 
+Author: poetry quick start author
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: google (>=3.0.0,<4.0.0)
+Requires-Dist: grpcio (>=1.66.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-quick-start"
+version = "0.1.0"
+description = ""
+authors = ["poetry quick start author"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google = "^3.0.0"
+grpcio = "^1.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
