@@ -1,0 +1,125 @@
+# My Library
+
+
+สรุปภาษาไทย ตัวหลักของ library นี้ ใด้แก่ ij() และ ji()
+หรือถ้าให้ง่ายที่สุด เอาโค้ดตัวอย่างไปลองรันใด้เลย
+################################################
+#Working example
+#This run should be the easiest to understand.
+from iprint import *
+a = 'icecomet'
+
+ij(); ij(); ij()
+ij('--------------------------------------------',c=ct.blue)
+ij(a)
+ij(a,'i'); ij(a,'t'); ij(a,'l') #The second attribute can contain 3 characters: i>value, l>len, t>type.
+ij('--------------------------------------------',c=ct.blue)
+ij(a,'tl') #Arrange them any way you want.
+ij('--------------------------------------------',c=ct.blue)
+ij(a,'itl') #Arrange them any way you want.
+ij('--------------------------------------------',c=ct.blue)
+ij('--------------------------------------------',c=ct.greenk)
+######################################################################################
+ji(end=' >> '); ji(end=' >> '); ji()
+ij('--------------------------------------------',c=ct.sky)
+ji('icecomet',c=ct.red)
+ji('luna',c=ct.blue)
+ji('luna')
+ji('icecomet')
+ji('luna')
+ji('luna')
+################################################
+สำหรับตัว ij()
+    จะทำงานคล้ายๆคำสั่งปริ้น ij('หวัดดีชาวไทย') ก็จะเป็นคำสั่งปริ้นตามปกติ(แต่สีเขียว)
+    แต่ที่พิเศษคือ เพิ่ม mode ใด้ ij('หวัดดีชาวไทย',mode) #โหมดจะใส่หรือไม่ใส่ก็ใด้
+        มีให้เลือก 3 โหมด ; 
+            'i' = print('หวัดดีชาวไทย')
+            't' = print(type('หวัดดีชาวไทย'))
+            'l' = print(len('หวัดดีชาวไทย'))
+        วิธีประกาศ
+            ij('หวัดดีชาวไทย','tli') mode จะใส่กี่ตัวหรือเรียงยังไงก็ใด้ โปรแกรมจะทำงานตามลำดับนั้น
+    ถ้าอยากจะเปลี่ยนสี ให้เพิ่มตัวแปรว่า
+สำหรับ ji():
+    การทำงานตามนี้เลย
+    def ji(a='',c=ct.jiset,end='\n'):
+        global ji_round
+        if a not in ji_round.keys():
+            ji_round[a] = (0,c)
+        print(ji_round[a][1]+f"Tag '{a}' Passed : "+str(ji_round[a][0])+ct.set,end=end)
+        ji_round[a] = (ji_round[a][0]+1,ji_round[a][1])
+
+
+
+in iprint:
+    for debug
+    Have function ij() and ji()
+    Try running the code below, you should understand it faster than reading the description.;
+        from iprint import *
+        a = 'icecomet'
+
+        ij(); ij(); ij()
+        ij('--------------------------------------------',c=ct.blue)
+        ij(a)
+        ij(a,'i'); ij(a,'t'); ij(a,'l') #The second attribute can contain 3 characters: i>value, l>len, t>type.
+        ij('--------------------------------------------',c=ct.blue)
+        ij(a,'tl') #Arrange them any way you want.
+        ij('--------------------------------------------',c=ct.blue)
+        ij(a,'itl') #Arrange them any way you want.
+        ij('--------------------------------------------',c=ct.blue)
+        ij('--------------------------------------------',c=ct.greenk)
+        ######################################################################################
+        ji(end=' >> '); ji(end=' >> '); ji()
+        ij('--------------------------------------------',c=ct.sky)
+        ji('icecomet',c=ct.red)
+        ji('luna',c=ct.blue)
+        ji('luna')
+        ji('icecomet')
+        ji('luna')
+        ji('luna')
+
+
+    this code for both function;
+        ij_round = 0
+        ji_round = 0
+
+        def ij(a='',mode=None,c=ct.ijset,end='\n'):
+            global ij_round
+            if a=='':
+                print(c+'Passed : '+str(ij_round)+ct.set,end=end)
+                ij_round += 1
+            elif mode is None or mode =='':
+                print(f'{c}{a}'+ct.set,end=end)
+                return a
+            else :
+                for i in mode:
+                    if i == 'l':
+                        print(f'{c}จำนวน : {len(a)}'+ct.set,end=end)
+                    elif i == 't':
+                        print(f'{c}ประเภท : {type(a)}'+ct.set,end=end)
+                    elif i == 'i':
+                        print(f'{c}{a}'+ct.set,end=end)
+                return a
+        def ji(a='',c=ct.jiset,end='\n'):
+            global ji_round
+            print(c+f"Tag '{a}' Passed : "+str(ji_round)+ct.set,end=end)
+            ji_round += 1
+
+
+for icolor:
+    ct = object that collect colorText code
+    example ;
+        ct.red = "\033[91m"
+        ct.green =  "\033[92m"
+        ct.set = "\033[0m" #Default color
+    use_case example ; #plese run code below
+        import icolor
+        print(ct.red+"This text'color is red"+ct.set)
+        print("And this text'color is Default")
+
+    cH = HEX color
+    example :
+        cH.main.red = "#FF0000"
+        cH.main.blue = "#0000FF"
+        cH.other.cream = "FFF599"
+    use_case example ; The method of use is the same as ct 
+
