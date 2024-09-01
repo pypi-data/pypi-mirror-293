@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "auroracap"
+version = "0.0.4"
+authors = [
+  { name="Wenhao Chai", email="reselfchai@gmail.com" },
+]
+description = "Source code of AuroraCap"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://huggingface.co/Reself/AuroraCap-7B-VID"
+Issues = "https://huggingface.co/Reself/AuroraCap-7B-VID"
