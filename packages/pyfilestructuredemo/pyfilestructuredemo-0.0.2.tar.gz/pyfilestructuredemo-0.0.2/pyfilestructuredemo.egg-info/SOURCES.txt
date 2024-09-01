@@ -1,0 +1,9 @@
+setup.py
+pyfilestructuredemo/__init__.py
+pyfilestructuredemo/add.py
+pyfilestructuredemo.egg-info/PKG-INFO
+pyfilestructuredemo.egg-info/SOURCES.txt
+pyfilestructuredemo.egg-info/dependency_links.txt
+pyfilestructuredemo.egg-info/top_level.txt
+pyfilestructuredemo/SearchDirectory/__init__.py
+pyfilestructuredemo/SearchDirectory/getPath.py
