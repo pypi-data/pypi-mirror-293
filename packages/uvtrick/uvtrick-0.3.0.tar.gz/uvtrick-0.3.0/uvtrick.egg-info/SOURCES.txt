@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tests/test_basics.py
+uvtrick/__init__.py
+uvtrick.egg-info/PKG-INFO
+uvtrick.egg-info/SOURCES.txt
+uvtrick.egg-info/dependency_links.txt
+uvtrick.egg-info/requires.txt
+uvtrick.egg-info/top_level.txt
