@@ -1,0 +1,6 @@
+torch
+lovely-numpy>=0.2.13
+
+[dev]
+nbdev
+twine
