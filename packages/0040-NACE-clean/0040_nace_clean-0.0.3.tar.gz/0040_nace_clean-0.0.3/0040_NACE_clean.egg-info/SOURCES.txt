@@ -1,0 +1,9 @@
+README.md
+setup.py
+0040_NACE_clean/0040_NACE_clean.py
+0040_NACE_clean/__init__.py
+0040_NACE_clean/color_codes.py
+0040_NACE_clean.egg-info/PKG-INFO
+0040_NACE_clean.egg-info/SOURCES.txt
+0040_NACE_clean.egg-info/dependency_links.txt
+0040_NACE_clean.egg-info/top_level.txt
