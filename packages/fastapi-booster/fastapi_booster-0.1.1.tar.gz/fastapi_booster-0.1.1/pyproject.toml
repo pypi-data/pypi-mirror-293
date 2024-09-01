@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-booster"
+version = "0.1.1"
+description = ""
+authors = ["ulfaric <ryf0510@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.112.1"}
+sqlalchemy = "^2.0.32"
+colorlog = "^6.8.2"
+pyjwt = "^2.9.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+bcrypt = "==4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
