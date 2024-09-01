@@ -1,0 +1,11 @@
+self_unzip_html/__init__.py,sha256=uav57XpLz8y79aE6LANYqnmfNM08gtKIncQENZBDFOE,14676
+self_unzip_html/crypto.py,sha256=bHERlSC0Oxd5Yjq4sMzTrWyomTP1xSWYpKqlVOYCp6M,1817
+self_unzip_html/minified_js.py,sha256=1AY4T7lClErJK2hP1No0cpoeeINFwXAJgzIWfBUGW8w,6655
+self_unzip_html/static_js.py,sha256=6GBBBEV6PpS0ucQZcoHclEmvYpp1oBc_fa6fIGlZ1fw,2202
+self_unzip_html/template.html,sha256=39QueOfu0bzhVgSMNr3WayMq5KAwvdumbHia9JRQoac,464
+self_unzip_html-0.2.1.dist-info/LICENSE,sha256=bbSVKh1ngBh7-Mh_Xfk69Flx_5Q9JnvsQArHe_AXhok,1063
+self_unzip_html-0.2.1.dist-info/METADATA,sha256=OcJCB2mKVEW3jsi-2oWxZ3gYQoWe1VlDxPXKzwBrrBM,8896
+self_unzip_html-0.2.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+self_unzip_html-0.2.1.dist-info/entry_points.txt,sha256=VClUFdO4gqOnwL0RX6cz4J-JcWXrP3I7QS1BfT9o3RU,99
+self_unzip_html-0.2.1.dist-info/top_level.txt,sha256=QVuDi7ZAcNy8F4Ul1lqB4v7GFtoyYRdUqudiEltWL_g,16
+self_unzip_html-0.2.1.dist-info/RECORD,,
