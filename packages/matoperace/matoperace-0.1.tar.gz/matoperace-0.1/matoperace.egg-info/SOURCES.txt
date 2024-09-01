@@ -1,0 +1,9 @@
+setup.py
+matoperace/__init__.py
+matoperace/matfunkce.py
+matoperace.egg-info/PKG-INFO
+matoperace.egg-info/SOURCES.txt
+matoperace.egg-info/dependency_links.txt
+matoperace.egg-info/top_level.txt
+test_matoperace/__init__.py
+test_matoperace/test_matoperace.py
