@@ -1,0 +1,7 @@
+langchain_community
+pypdf
+google-generativeai
+pillow
+docx2txt
+unstructured
+python-pptx
