@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "ml_prm"
+version = "0.1.0"
+description = "A Python package for machine learning projects including model training and evaluation."
+authors = ["Arasu <arasu6262@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+scikit-learn = "^0.24"
+numpy = "^1.21"
+scipy = "^1.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+black = "*"
+flake8 = "*"
+
+[tool.poetry.scripts]
+ml-prm = "ml_prm.cli:main"

@@ -1,0 +1,10 @@
+# Include the README file
+include README.md
+
+# Include the LICENSE file
+include LICENSE
+
+# Include any other important files (e.g., configuration files, examples)
+include *.txt
+include *.md
+include ml_prm/*.py

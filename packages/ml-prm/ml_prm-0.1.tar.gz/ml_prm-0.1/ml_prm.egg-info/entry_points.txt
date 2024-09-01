@@ -1,0 +1,2 @@
+[console_scripts]
+ml-prm = ml_prm.cli:main

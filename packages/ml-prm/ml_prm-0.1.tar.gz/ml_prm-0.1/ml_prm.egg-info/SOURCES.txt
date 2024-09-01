@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+ml_prm.egg-info/PKG-INFO
+ml_prm.egg-info/SOURCES.txt
+ml_prm.egg-info/dependency_links.txt
+ml_prm.egg-info/entry_points.txt
+ml_prm.egg-info/requires.txt
+ml_prm.egg-info/top_level.txt
+v_program6/__init__.py
+v_program6/__main__.py

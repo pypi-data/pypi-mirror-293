@@ -1,0 +1,12 @@
+scikit-learn>=0.24
+numpy>=1.21
+scipy>=1.7
+
+[dev]
+pytest
+black
+flake8
+
+[excel]
+openpyxl
+pandas
