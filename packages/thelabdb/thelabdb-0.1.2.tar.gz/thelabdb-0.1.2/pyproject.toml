@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "thelabdb"
+version = "0.1.2"
+description = "Django DB Utilities"
+authors = ["thelab <thelabdev@thelab.co>"]
+license = "ISC"
+readme = "README.md"
+homepage = "https://gitlab.com/thelabnyc/thelab-db"
+repository = "https://gitlab.com/thelabnyc/thelab-db"
+documentation = "https://thelabnyc.gitlab.io/thelab-db"
+packages = [
+    { include = "thelabdb" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = ">=4.2.0"
+cryptography = ">=43.0.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+coverage = "^7.6.1"
+tox = "^4.18.0"
+psycopg = {extras = ["binary"], version = "^3.2.1"}
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6.0"
+pymdown-extensions = "^10.8.1"
+mkdocs-material = "^9.5.33"
+mkdocs-awesome-pages-plugin = "^2.9.3"
+mkdocs-section-index = "^0.3.9"
+mkdocs-pagenav-generator = {git = "https://github.com/Andre601/mkdocs-pagenav-generator", rev = "acb5b1561695e8f69d67fda029779f40e4b0beef"}
+mkautodoc = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+annotated_tag = true
+gpg_sign = true
+tag_format = "v$version"
+update_changelog_on_bump = true
+changelog_merge_prerelease = true
+version_provider = "poetry"
+version_scheme = "pep440"
+version_files = [
+    "pyproject.toml:version",
+]
+pre_bump_hooks = [
+    "pre-commit run --all-files || true",
+]
+post_bump_hooks = [
+    "git push origin master $CZ_POST_CURRENT_TAG_VERSION"
+]
