@@ -1,0 +1,98 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "h8app"
+description = "Core components of The Python Hexagonal (h8) Framework"
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">=3.12"
+license = {"file" = "LICENSE.md"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+authors = [
+    {name = "Juan Cerezo", email = "jcerezo.dev@proton.me"},
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+]
+
+lint = [
+  "black",
+  "pylint",
+  "pyright",
+  "isort",
+  "autoflake",
+  "radon"
+]
+
+dev = [
+    "pre-commit",
+    "h8app[test]",
+    "h8app[lint]",
+]
+
+ci = [
+  "pre-commit",
+  "h8app[test]",
+  "h8app[lint]"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["h8app"]
+# namespaces = true
+
+[tool.setuptools.dynamic]
+version = {attr = "h8app.__version__"}
+
+[tool.pyright]
+typeCheckingMode = "standard"
+useLibraryCodeForTypes = true
+verboseOutput = false
+ignore = [
+    ".git",
+    "**/__pycache__",
+    "**/\\.*",
+    "build",
+]
+
+[tool.black]
+line-length = 110
+force-exclude = """
+/(
+\\.git
+| build
+| data
+)/
+"""
+
+[tool.isort]
+profile = "black"
+line_length = 110
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
+
+[tool.autoflake]
+ignore-init-module-imports = true
+remove-all-unused-imports = true
+remove-duplicate-keys = true
+in-place = true
+recursive = true
+
+
+
+# ... other project metadata fields as specified in:
+#     https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
