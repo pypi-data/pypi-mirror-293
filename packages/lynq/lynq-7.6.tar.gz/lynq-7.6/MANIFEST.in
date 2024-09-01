@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include lynq/_backendutils *
+recursive-include lynq/_dependencies *
