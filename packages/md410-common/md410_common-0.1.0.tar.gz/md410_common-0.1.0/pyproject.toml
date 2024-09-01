@@ -1,0 +1,11 @@
+[project]
+name = "md410-common"
+version = "0.1.0"
+description = "Common libraries for applications related to Lions MD410"
+readme = "readme.md"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3>=1.35.10",
+    "python-dotenv",
+    "rich>=13.8.0",
+]
