@@ -1,0 +1,9 @@
+edispatcher/__init__.py,sha256=mrwb5stF_4jZLdRMzB8eDkBvlP-fdjp1hnRom6xaFdU,71
+edispatcher/edispatcher.py,sha256=AaobxBb9dOvxIWEPYG3Qis378Efb-T2MI-7A5pMxwv4,3910
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_event_dispatcher.py,sha256=fpQjrB5Ci7Z0v9Rs2p4TVCvkS2_6LHW1lqkHa28vpLg,1286
+edispatcher-0.1.0.dist-info/LICENSE,sha256=sI73AVrtckNNqcK9iq1V2tzxODc_GNLnsmqYy8FG04Q,1063
+edispatcher-0.1.0.dist-info/METADATA,sha256=-CvikRb4WETRRNflSdV7TfF53fFl4k45VrhGymH2SzA,880
+edispatcher-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+edispatcher-0.1.0.dist-info/top_level.txt,sha256=8Df3FccPTWU7MOkofsNFMSyQTzV0HeobFcDUxCjyymQ,18
+edispatcher-0.1.0.dist-info/RECORD,,
