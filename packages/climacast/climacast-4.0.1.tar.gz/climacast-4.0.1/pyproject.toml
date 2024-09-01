@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "climacast"
+version = "4.0.1"
+description = "A console based minimal weather app."
+authors = ["Shvetank Dattatreya <dshvetank@gmail.com>"]
+license = "GNU GPL 3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
