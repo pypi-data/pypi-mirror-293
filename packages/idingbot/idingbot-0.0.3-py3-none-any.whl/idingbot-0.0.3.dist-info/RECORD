@@ -1,0 +1,12 @@
+constant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+constant/interface.py,sha256=Xekus1i7q_PrvskMH4Ty-FN8jeP9J6aYDZIl_Ew7S5s,1085
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/core.py,sha256=JwkbKkFNDfNCwc-oTbMafLBvRPVx8-Pm26pZ6rwS3Hc,5465
+core/extension.py,sha256=D7KV_phF80x4Zc4K2E3clFN39sdhe3DMCG3pfDYFYwo,1954
+core/log.py,sha256=egFRh5_eXr1iOiHaniN0xhSYgzKHWA4yyhFQC2W5b9k,246
+dll/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idingbot-0.0.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+idingbot-0.0.3.dist-info/METADATA,sha256=svNNCct2bMfbAFc6HuHUAhlGAq1l0ePkEfPBXGQ9HiE,372
+idingbot-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+idingbot-0.0.3.dist-info/top_level.txt,sha256=7DaRbg0f95Q2DZ75uzhVXPLRQdJQg_RESFtoKTRcOLo,18
+idingbot-0.0.3.dist-info/RECORD,,
