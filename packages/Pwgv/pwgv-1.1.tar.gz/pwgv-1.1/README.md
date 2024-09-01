@@ -1,0 +1,140 @@
+`Pwgv(len_pw,  num_pw)`
+
+* `len_pw` – параметр создания количество знаков у пароля
+* `num_pw` – параметр создания количество паролей в списке
+
+> __Поумалчанию__ парамет `len_pw` -> __8__, а у парамет `num_pw` -> __1__
+# Генерация
+### __Pwgv__`.set_nglp(low, upp, dig, pun)`
+
+генерирует новый пароль в __список__
+
+Подключения и совмещения символов для генераций паролей:
+* __Строки__ `low`(lower), `upp`(upper)
+* __Числа__ `dig`(digits)
+* __Спецсимволы__ `pun`(punctuation)
+
+### __Pwgv__`.get_nglp()`
+
+выводит результат нового сгенерированного пароля, баллов и проценты виде __списка__
+
+Код:
+```python
+pass = Pwgv(8, 1)
+pass.set_nglp(False, False)
+pass_l = pass.get_nglp()
+print(pass_l)
+
+```
+
+Вывод пароль в список __без Числа__ и __Спецсимволы__:
+```
+['cjktzwYv']
+```
+> Поумалчанию у __ВСЕХ пораметров__ стоит на значения __True__
+
+# Записи
+$${\color{red}Натестировке}$$
+> Текстовый дакумент имейт имя файла __password.txt__
+
+### __Pwgv__`.nglp_record()`
+
+записывает список пароля в __текстовом документе__
+
+Код:
+```python
+pass = Pwgv(8, 1)
+pass.set_nglp(False, False)
+pass_l = pass.get_nglp()
+print(pass_l)
+pass.nglp_record()
+```
+
+Вывод результата в __текстовый документ__:
+```
+__NEW_PASSWORD__
+
+bohXxHBE
+
+```
+
+### __Pwgv__`.points_record()`
+записывает список пароля и баллов в __текстовом документе__
+
+Код:
+```python
+pass = Pwgv(8, 1)
+pass.set_nglp(False, False)
+pass.points_nglp()
+pass_l = pass.get_nglp()
+print(pass_l)
+pass.points_record()
+```
+Вывод результата в __текстовый документ__:
+```
+__NEW_PASSWORD_POINT__
+
+DQGvNydi 1
+
+```
+> Прежде чем вызвать метод `.points_record()` нужно вызвать метод проверки `.points_nglp()`
+
+### __Pwgv__`.percentage_record()`
+записывает список пароля, баллов и проценты в __текстовом документе__
+
+Код:
+```python
+pass = Pwgv(8, 1)
+pass.set_nglp(False, False)
+pass.points_nglp()
+pass.percent_nglp()
+pass_l = pass.get_nglp()
+print(pass_l)
+pass.percentage_record()
+```
+
+Вывод результата в __текстовый документ__:
+```
+__NEW_PASSWORD_PERCENT__
+
+AxVONnYj 12%
+
+```
+> Прежде чем вызвать метод `.percentage_record()` нужно вызвать метод проверки `.points_nglp()` и `.percent_nglp()`
+# Проверки
+### __Pwgv__`.points_nglp()`
+проверяет пароль, выводит виде баллов и храниться вложенном списке
+ 
+Код:
+```python
+pass = Pwgv(8, 1)
+pass.set_nglp(False, False)
+pass.points_nglp()
+pass_l = pass.get_nglp()
+print(pass_l)
+```
+
+Вывод:
+```
+[['DQGvNydi', 1]]
+```
+
+### __Pwgv__`.percent_nglp()`
+> Прежде чем использовать `.percent_nglp()` нужно вызвать метод `.points_nglp()`
+
+проверяет пароль, выводит виде баллов, процентах и храниться вложенном списке
+
+Код:
+```python
+pass = Pwgv(8, 1)
+pass.set_nglp(False, False)
+pass.points_nglp()
+pass.percent_nglp()
+pass_l = pass.get_nglp()
+print(pass_l)
+```
+
+Вывод:
+```
+[['AxVONnYj', 1, 12]]
+```
