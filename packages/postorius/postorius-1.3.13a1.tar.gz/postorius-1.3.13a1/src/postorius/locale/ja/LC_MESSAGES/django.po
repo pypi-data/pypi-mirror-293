@@ -1,0 +1,3489 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Shohei Kusakata <shohei@kusakata.com>, 2020, 2021, 2022.
+# Shuuji TAKAHASHI (shuuji3) <shuuji3@gmail.com>, 2020.
+# Matsubara <matsubara.cc@mie-u.ac.jp>, 2023, 2024.
+# 総情バイト <cc-staff1.cc@mie-u.ac.jp>, 2023.
+# SATOH Fumiyasu <fumiyas@osstech.co.jp>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-07 18:11-0700\n"
+"PO-Revision-Date: 2024-07-02 19:19+0000\n"
+"Last-Translator: SATOH Fumiyasu <fumiyas@osstech.co.jp>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/gnu-mailman/"
+"postorius/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: forms/domain_forms.py:34
+#, python-format
+msgid ""
+"The domain from which you want the web UI to be served from. This can be "
+"same or different from the Mail Host. You can edit the list of available web "
+"hosts <a href=\"%s\">here</a>."
+msgstr ""
+"ウェブ UI を公開するドメイン名。メールドメイン名と同じにすることも別にするこ"
+"ともできます。<a href=\"%s\""
+">こちら</a>から利用するウェブホストのリストを編集できます。"
+
+#: forms/domain_forms.py:46 forms/list_forms.py:100
+#: templates/postorius/domain/index.html:21
+msgid "Mail Host"
+msgstr "メールホスト"
+
+#: forms/domain_forms.py:48 forms/domain_forms.py:69
+msgid "Please enter a domain name"
+msgstr "ドメイン名を入力してください"
+
+#: forms/domain_forms.py:49 forms/domain_forms.py:70
+msgid "Please enter a valid domain name."
+msgstr "正しいドメイン名を入力してください。"
+
+#: forms/domain_forms.py:53
+msgid ""
+"The domain for your mailing lists. For example when you want lists like "
+"testing@example.com, enter example.com here."
+msgstr ""
+"メーリングリストのドメイン。例えば testing@example.com という名前のリストにし"
+"たい場合、example.com と入力してください。"
+
+#: forms/domain_forms.py:57 templates/postorius/domain/index.html:22
+#: templates/postorius/index.html:88
+msgid "Description"
+msgstr "説明"
+
+#: forms/domain_forms.py:59 templates/postorius/domain/index.html:23
+msgid "Alias Domain"
+msgstr "エイリアスドメイン"
+
+#: forms/domain_forms.py:61 forms/domain_forms.py:93
+msgid "Please enter a valid domain name or nothing."
+msgstr "正しいドメイン名を入れるか空にしてください。"
+
+#: forms/domain_forms.py:64
+msgid "Normally empty.  Used only for unusual Postfix configs."
+msgstr "通常は空にします。Postfix の設定が特殊なときだけ使います。"
+
+#: forms/domain_forms.py:67 templates/postorius/domain/index.html:24
+msgid "Web Host"
+msgstr "ウェブホスト"
+
+#: forms/domain_forms.py:83
+msgid "Please enter a valid domain name"
+msgstr "正しいドメイン名を入力してください"
+
+#: forms/domain_forms.py:111
+msgid "Owner's Email"
+msgstr "オーナーのメールアドレス"
+
+#: forms/fields.py:36
+msgid "Regular"
+msgstr "通常"
+
+#: forms/fields.py:37
+msgid "Plain Text Digests"
+msgstr "プレーンテキストダイジェスト"
+
+#: forms/fields.py:38
+msgid "MIME Digests"
+msgstr "MIME ダイジェスト"
+
+#: forms/fields.py:39
+msgid "Summary Digests"
+msgstr "サマリーダイジェスト"
+
+#: forms/fields.py:44 forms/list_forms.py:164
+msgid "Enabled"
+msgstr "有効"
+
+#: forms/fields.py:45 forms/list_forms.py:165
+msgid "Disabled"
+msgstr "無効"
+
+#: forms/fields.py:46
+msgid "Disabled by Owner"
+msgstr "オーナーによって無効"
+
+#: forms/fields.py:47
+msgid "Disabled by Bounces"
+msgstr "バウンスによって無効"
+
+#: forms/fields.py:51
+msgid "Hold for moderation"
+msgstr "保留 (審査待ち)"
+
+#: forms/fields.py:52
+msgid "Reject (with notification)"
+msgstr "拒否 (通知あり)"
+
+#: forms/fields.py:53
+msgid "Discard (no notification)"
+msgstr "破棄 (通知なし)"
+
+#: forms/fields.py:54
+msgid "Accept immediately (bypass other rules)"
+msgstr "即座に承認 (他のルールを無視)"
+
+#: forms/fields.py:55
+msgid "Default processing"
+msgstr "デフォルト処理"
+
+#: forms/fields.py:138
+msgid "Make at least one selection"
+msgstr "どれかひとつは選択してください"
+
+#: forms/fields.py:149 templates/postorius/lists/summary.html:54
+msgid "Delivery mode"
+msgstr "配信形式"
+
+#: forms/fields.py:151
+msgid ""
+"If you select digests , you'll get posts bundled together (usually one per "
+"day but possibly more on busy lists), instead of singly when they're sent. "
+"Your mail reader may or may not support MIME digests. In general MIME "
+"digests are preferred, but if you have a problem reading them, select plain "
+"text digests. Summary Digests are currently equivalent to MIME Digests."
+msgstr ""
+"ダイジェストを選択した場合、それぞれの投稿が個別に送信されるかわりにまとめて"
+"配信されます (基本的に1日1通ですが投稿が多いリストの場合はそれ以上届く可能性"
+"があります)。使用しているメールリーダーによっては MIME ダイジェストに対応して"
+"いないことがあります。通常は MIME ダイジェストが推奨されますが、ダイジェスト"
+"を読めない場合、プレーンテキストダイジェストを選択してください。サマリーダイ"
+"ジェストは MIME ダイジェストと同じです。"
+
+#: forms/fields.py:173 templates/postorius/lists/summary.html:53
+msgid "Delivery status"
+msgstr "配信ステータス"
+
+#: forms/fields.py:175
+msgid ""
+"Set this option to Enabled to receive messages posted to this mailing list. "
+"Set it to Disabled if you want to stay subscribed, but don't want mail "
+"delivered to you for a while (e.g. you're going on vacation). If you disable "
+"mail delivery, don't forget to re-enable it when you come back; it will not "
+"be automatically re-enabled."
+msgstr ""
+"メーリングリストに投稿されたメッセージを受け取るには有効に設定してください。"
+"リストに入会したままで、しばらくの間メールを受け取りたくない場合 (例えば休暇"
+"に出かける場合など)、無効に設定してください。メールの配信を無効にするときは、"
+"メールを受け取るには再度有効にする必要があるので注意してください。自動で有効"
+"になることはありません。"
+
+#: forms/fields.py:188
+msgid "Moderation"
+msgstr "審査設定"
+
+#: forms/fields.py:190 forms/list_forms.py:1300
+#: templatetags/membership_helpers.py:84
+msgid "List default"
+msgstr "リストのデフォルト"
+
+#: forms/fields.py:192
+msgid ""
+"Default action to take when this member posts to the list. \n"
+"List default -- follow the list's default member action. \n"
+"Hold -- This holds the message for approval by the list moderators. \n"
+"Reject -- this automatically rejects the message by sending a bounce notice "
+"to the post's author. The text of the bounce notice can be configured by "
+"you. \n"
+"Discard -- this simply discards the message, with no notice sent to the "
+"post's author. \n"
+"Accept -- accepts any postings without any further checks. \n"
+"Default Processing -- run additional checks and accept the message. \n"
+msgstr ""
+"このメンバーがリストに投稿したときに実行されるデフォルトの処理。\n"
+"リストのデフォルト: リストのデフォルトのメンバー処理に従います。\n"
+"保留: リストのモデレーターによる審査のためにメッセージを保留します。\n"
+"拒否: 投稿者にバウンス通知を送ることで自動的にメッセージを拒否します。バウン"
+"ス通知の文面はテンプレートで設定できます。\n"
+"破棄: 単にメッセージを破棄し、投稿者には何も通知しません。\n"
+"承認: これ以上のチェックを行わずに投稿を承認します。\n"
+"デフォルト処理: 追加のチェックを実行し、その結果によりメッセージの扱いを判断"
+"します。 \n"
+
+#: forms/list_forms.py:43
+msgid "Daily"
+msgstr "毎日"
+
+#: forms/list_forms.py:44
+msgid "Weekly"
+msgstr "毎週"
+
+#: forms/list_forms.py:45
+msgid "Quarterly"
+msgstr "3ヶ月毎"
+
+#: forms/list_forms.py:46
+msgid "Monthly"
+msgstr "毎月"
+
+#: forms/list_forms.py:47
+msgid "Yearly"
+msgstr "毎年"
+
+#: forms/list_forms.py:51
+msgid "Only mailinglist administrators"
+msgstr "メーリングリストの管理者のみ"
+
+#: forms/list_forms.py:52
+msgid "Mailinglist administrators and members"
+msgstr "メーリングリストの管理者とメンバー"
+
+#: forms/list_forms.py:53
+msgid "Anyone"
+msgstr "誰でも"
+
+#: forms/list_forms.py:68 templates/postorius/user/subscriptions.html:22
+msgid "List Name"
+msgstr "リストの名前"
+
+#: forms/list_forms.py:71
+msgid "Please enter a name for your list."
+msgstr "リストの名前を入力してください。"
+
+#: forms/list_forms.py:72
+msgid "Please enter a valid list name."
+msgstr "正しいリスト名を入力してください。"
+
+#: forms/list_forms.py:77
+msgid "Initial list owner address"
+msgstr "最初のリストオーナーのアドレス"
+
+#: forms/list_forms.py:79
+msgid "Please enter the list owner's email address."
+msgstr "リストのオーナーのメールアドレスを入力してください。"
+
+#: forms/list_forms.py:85
+msgid "Advertise this list?"
+msgstr "メーリングリスト名を公開しますか?"
+
+#: forms/list_forms.py:86
+msgid "Please choose a list type."
+msgstr "メーリングリストのタイプを選択してください。"
+
+#: forms/list_forms.py:89
+msgid "Advertise this list in list index"
+msgstr "メーリングリスト名を公開する"
+
+#: forms/list_forms.py:90
+msgid "Hide this list in list index"
+msgstr "メーリングリスト名を非公開にする"
+
+#: forms/list_forms.py:94 forms/list_forms.py:1139
+msgid "Short Description"
+msgstr "簡易説明"
+
+#: forms/list_forms.py:104
+msgid "Choose an existing Domain."
+msgstr "既存のドメインを選択してください。"
+
+#: forms/list_forms.py:105
+msgid "Choose a valid Mail Host"
+msgstr "有効なメールドメインを選択してください"
+
+#: forms/list_forms.py:110
+msgid "List Style"
+msgstr "メーリングリストの形式"
+
+#: forms/list_forms.py:114
+msgid "Choose a List Style."
+msgstr "メーリングリストの形式を選択してください。"
+
+#: forms/list_forms.py:115
+msgid "Choose a valid List Style."
+msgstr "有効なメーリングリストの形式を選択してください。"
+
+#: forms/list_forms.py:120
+msgid "Site admin has not created any domains"
+msgstr "サイト管理者はドメインを作成していません"
+
+#: forms/list_forms.py:134
+msgid "Please enter a valid listname"
+msgstr "有効なメーリングリスト名を入力してください"
+
+#: forms/list_forms.py:169 forms/list_forms.py:207
+msgid "Your email address"
+msgstr "あなたのメールアドレス"
+
+#: forms/list_forms.py:175
+msgid ""
+"Subscribing via \"Primary Address\" will change subscription address when "
+"you change your primary address."
+msgstr ""
+"メインメールアドレスを変更すると、入会しているアドレスも自動で変更されます。"
+
+#: forms/list_forms.py:179 forms/list_forms.py:210 forms/member_forms.py:30
+#: forms/system.py:38
+msgid "Please enter an email address."
+msgstr "メールアドレスを入力してください。"
+
+#: forms/list_forms.py:180 forms/list_forms.py:211 forms/member_forms.py:31
+#: forms/system.py:39
+msgid "Please enter a valid email address."
+msgstr "正しいメールアドレスを入力してください。"
+
+#: forms/list_forms.py:185 forms/list_forms.py:216
+msgid "Your name (optional)"
+msgstr "あなたの名前 (任意)"
+
+#: forms/list_forms.py:198 forms/list_forms.py:1427 views/list.py:546
+msgid "Primary Address ({})"
+msgstr "{} (メインメールアドレス)"
+
+#: forms/list_forms.py:233
+msgid "Open"
+msgstr "開放"
+
+#: forms/list_forms.py:234 templates/postorius/domain/template_delete.html:27
+#: templates/postorius/lists/template_delete.html:24
+msgid "Confirm"
+msgstr "確認"
+
+#: forms/list_forms.py:235
+msgid "Moderate"
+msgstr "審査"
+
+#: forms/list_forms.py:236
+msgid "Confirm, then moderate"
+msgstr "確認後に審査"
+
+#: forms/list_forms.py:246
+msgid "Subscription Policy"
+msgstr "入会ポリシー"
+
+#: forms/list_forms.py:249
+msgid ""
+"Open: Subscriptions are added automatically\n"
+"Confirm: Subscribers need to confirm the subscription using an email sent to "
+"them\n"
+"Moderate: Moderators will have to authorize each subscription manually.\n"
+"Confirm then Moderate: First subscribers have to confirm, then a moderator "
+"needs to authorize."
+msgstr ""
+"開放: 入会は自動的に行なわれます。\n"
+"確認: 入会者が自分宛に送信されるメールを参照して入会を確認する必要がありま"
+"す。\n"
+"審査: モデレーターが手動で入会申請を承認する必要があります。\n"
+"確認後に審査: まず入会者が確認し、次にモデレーターが審査する必要があります。"
+
+#: forms/list_forms.py:260
+msgid "Un-Subscription Policy"
+msgstr "退会ポリシー"
+
+#: forms/list_forms.py:263
+msgid ""
+"Open: Un-Subscriptions happen automatically\n"
+"Confirm: Subscribers need to confirm the un-subscription using an email sent "
+"to them\n"
+"Moderate: Moderators will have to authorize each un-subscription manually.\n"
+"Confirm then Moderate: First subscribers have to confirm, then a moderator "
+"needs to authorize."
+msgstr ""
+"開放: 退会は自動的に行われます。\n"
+"確認: 入会者が自分宛に送信されるメールを参照して退会を確認する必要がありま"
+"す。\n"
+"審査: モデレーターが手動で退会申請を審査する必要があります。\n"
+"確認後に審査: まず入会者が確認し、次にモデレーターが審査する必要があります。"
+
+#: forms/list_forms.py:278 forms/list_forms.py:777
+#: templates/postorius/lists/held_messages.html:31
+#: templates/postorius/lists/held_messages.html:122
+#: templates/postorius/lists/pending_confirmations.html:37
+#: templates/postorius/lists/subscription_requests.html:43
+msgid "Discard"
+msgstr "破棄"
+
+#: forms/list_forms.py:279
+msgid "List Admins"
+msgstr "メーリングリスト管理者"
+
+#: forms/list_forms.py:280
+msgid "Site Admin"
+msgstr "サイト管理者"
+
+#: forms/list_forms.py:284 forms/list_forms.py:316 forms/list_forms.py:327
+#: forms/list_forms.py:338 forms/list_forms.py:467 forms/list_forms.py:477
+#: forms/list_forms.py:526 forms/list_forms.py:657 forms/list_forms.py:664
+#: forms/list_forms.py:717 forms/list_forms.py:807 forms/list_forms.py:818
+#: forms/list_forms.py:838 forms/list_forms.py:858 forms/list_forms.py:923
+#: forms/list_forms.py:962 forms/list_forms.py:979 forms/list_forms.py:1057
+#: forms/list_forms.py:1068 forms/list_forms.py:1082 forms/list_forms.py:1094
+#: forms/list_forms.py:1108 forms/list_forms.py:1131 forms/list_forms.py:1193
+#: forms/list_forms.py:1202 forms/list_forms.py:1226 forms/list_forms.py:1298
+#: forms/user_forms.py:63
+msgid "Yes"
+msgstr "はい"
+
+#: forms/list_forms.py:284 forms/list_forms.py:316 forms/list_forms.py:327
+#: forms/list_forms.py:338 forms/list_forms.py:467 forms/list_forms.py:477
+#: forms/list_forms.py:526 forms/list_forms.py:657 forms/list_forms.py:664
+#: forms/list_forms.py:717 forms/list_forms.py:807 forms/list_forms.py:818
+#: forms/list_forms.py:838 forms/list_forms.py:858 forms/list_forms.py:923
+#: forms/list_forms.py:962 forms/list_forms.py:979 forms/list_forms.py:1057
+#: forms/list_forms.py:1068 forms/list_forms.py:1082 forms/list_forms.py:1094
+#: forms/list_forms.py:1108 forms/list_forms.py:1131 forms/list_forms.py:1193
+#: forms/list_forms.py:1202 forms/list_forms.py:1226 forms/list_forms.py:1299
+#: forms/user_forms.py:63
+msgid "No"
+msgstr "いいえ"
+
+#: forms/list_forms.py:286
+msgid "Process Bounces"
+msgstr "バウンス処理"
+
+#: forms/list_forms.py:288
+msgid ""
+"Specifies whether or not this list should do automatic bounce processing."
+msgstr "このリストが自動バウンス処理を行うかどうかを指定します。"
+
+#: forms/list_forms.py:295
+msgid "Bounce score threshold"
+msgstr "バウンススコアの基準値"
+
+#: forms/list_forms.py:298
+msgid ""
+"This is the bounce score above which a member's subscription  will be "
+"automatically disabled. When the subscription is  re-enabled, their bounce "
+"score will be reset to zero."
+msgstr "メンバーへの配信が自動的に無効になるバウンススコアです。配信を再度有効にする"
+"と、バウンススコアはゼロにリセットされます。"
+
+#: forms/list_forms.py:305
+msgid "Bounce info stale after"
+msgstr "バウンス情報の有効期間"
+
+#: forms/list_forms.py:308
+msgid ""
+"The number of days after which a member's bounce information is considered "
+"stale. If no new bounces have been received in the interim, the bounce score "
+"is reset to zero. This value must be an integer. "
+msgstr ""
+"バウンス情報が古いと判断される日数。この日数が経過しても新しいバウンスがない"
+"場合、バウンススコアはゼロにリセットされます。この値は整数でなければなりませ"
+"ん。 "
+
+#: forms/list_forms.py:318
+msgid "Notify owner on bounce increment"
+msgstr "バウンススコア増加時にオーナーに通知"
+
+#: forms/list_forms.py:320
+msgid ""
+"This option controls whether or not the list owner is notified when a "
+"member's bounce score is incremented, but to a value less than their bounce "
+"threshold. "
+msgstr "このオプションは、メンバーのバウンススコアが増加した場合 "
+"(かつ基準値未満のとき) に、リストオーナーに通知するかどうかを制御します。 "
+
+#: forms/list_forms.py:329
+msgid "Notify owner on disable"
+msgstr "無効化時にオーナーに通知"
+
+#: forms/list_forms.py:331
+msgid ""
+"This option controls whether or not the list owner is notified when a "
+"member's subscription is automatically disabled due to their bounce "
+"threshold being reached. "
+msgstr ""
+"このオプションは、バウンススコアのしきい値に達したメンバーへの配信が自動的に"
+"無効になった場合に、リストオーナーに通知するかどうかを制御します。 "
+
+#: forms/list_forms.py:340
+msgid "Notify owner on removal"
+msgstr "退会時にオーナーに通知"
+
+#: forms/list_forms.py:342
+msgid ""
+"This option controls whether or not the list owner is notified when a member "
+"is removed from the list after their disabled notifications have been "
+"exhausted. "
+msgstr ""
+"このオプションは、メンバーが無効化された後の無効化通知も届けられずメンバーが"
+"退会させられる際に、リストオーナーに通知するかどうかを制御します。 "
+
+#: forms/list_forms.py:351
+msgid "Forward unrecognized bounces"
+msgstr "識別できないバウンスの転送"
+
+#: forms/list_forms.py:353
+msgid ""
+"Discard: Unrecognized bounces will be discarded\n"
+"List Admins: Send to the list owners and moderators\n"
+"Site Admin: Send to the site's configured site_owner"
+msgstr ""
+"破棄: 識別できないバウンスは破棄されます。\n"
+"リスト管理者: リストのオーナーとモデレーターに送信する。\n"
+"サイト管理者: 設定されたサイトのオーナーに送信する。"
+
+#: forms/list_forms.py:360
+msgid "Bounce disabled warnings interval"
+msgstr "バウンスによる無効化の警告間隔"
+
+#: forms/list_forms.py:362
+msgid "The number of days between each disabled notification."
+msgstr "無効にされた各通知の間の日数。"
+
+#: forms/list_forms.py:367
+msgid "Bounce disable warnings"
+msgstr "バウンスによる無効化の警告"
+
+#: forms/list_forms.py:370
+msgid ""
+"The number of notices a disabled member will receive before their address is "
+"removed from the mailing list's roster. Set this to 0 to immediately remove "
+"an address from the list once their bounce score exceeds the threshold. This "
+"value must be an integer. "
+msgstr ""
+"無効化されたメンバーのアドレスがメーリングリストから退会されるまでの通知回数"
+"。これを 0 に設定すると、バウンススコアが基準値を超えると、そのアドレスは即座"
+"にメーリングリストから退会されます。この値は整数でなければなりません。 "
+
+#: forms/list_forms.py:387
+msgid "Public archives"
+msgstr "公開アーカイブ"
+
+#: forms/list_forms.py:388
+msgid "Private archives"
+msgstr "非公開アーカイブ"
+
+#: forms/list_forms.py:389
+msgid "Do not archive this list"
+msgstr "このリストをアーカイブしない"
+
+#: forms/list_forms.py:393
+msgid "Plain text"
+msgstr "プレーンテキスト"
+
+#: forms/list_forms.py:394
+msgid "Markdown text"
+msgstr "Markdown テキスト"
+
+#: forms/list_forms.py:400
+msgid "Archive policy"
+msgstr "アーカイブポリシー"
+
+#: forms/list_forms.py:401
+msgid "Policy for archiving messages for this list"
+msgstr "このリストのメッセージをアーカイブするためのポリシー"
+
+#: forms/list_forms.py:406
+msgid "Active archivers"
+msgstr "使用するアーカイブシステム"
+
+#: forms/list_forms.py:414
+msgid "Archive Rendering mode"
+msgstr "アーカイブのレンダリングモード"
+
+#: forms/list_forms.py:416
+msgid ""
+"This option enables rendering of emails in archiver as rich text with "
+"formatting based on markup in the email.\n"
+"Currently, this option is only supported by Hyperkitty."
+msgstr ""
+"このオプションを使用すると、メール内のマークアップに基づく書式設定で、アーカ"
+"イブ内のメールをリッチテキストとしてレンダリングできます。\n"
+"現在、このオプションはハイパーキティでのみサポートされています。"
+
+#: forms/list_forms.py:453
+msgid "Acceptable aliases"
+msgstr "使用可能なエイリアス"
+
+#: forms/list_forms.py:456
+msgid ""
+"This is a list, one per line, of addresses and regexps matching addresses "
+"that are acceptable in To: or Cc: in lieu of the list posting address when "
+"`require_explicit_destination' is enabled.  Entries are either email "
+"addresses or regexps matching email addresses.  Regexps are entries "
+"beginning with `^' and are matched against every recipient address in the "
+"message. The matching is performed with Python's re.match() function, "
+"meaning they are anchored to the start of the string."
+msgstr ""
+"これはメールアドレスとアドレスにマッチする正規表現のリストです。「明示的な宛"
+"先設定」が有効になっている場合、To: や Cc: の投稿アドレスの代わりとして使用で"
+"きます。 正規表現は「^」で始まるエントリーを記述し、メッセージ中の全ての宛先"
+"アドレスとマッチします。マッチングは Python の re.match() 関数で行われ、文字"
+"列の先頭から走査されます。"
+
+#: forms/list_forms.py:469
+msgid "Require Explicit Destination"
+msgstr "明示的な宛先設定"
+
+#: forms/list_forms.py:471
+msgid ""
+"This checks to ensure that the list posting address or an acceptable alias "
+"explicitly appears in a To: or Cc: header in the post."
+msgstr ""
+"投稿の To: または Cc: ヘッダーに、リストの投稿アドレスまたは使用可能なエイリ"
+"アスが明示的に指定されていることを確認します。"
+
+#: forms/list_forms.py:479
+msgid "Administrivia"
+msgstr "投稿アドレス宛の申請を保留"
+
+#: forms/list_forms.py:481
+msgid ""
+"Administrivia tests will check postings to see whether it's really meant as "
+"an administrative request (like subscribe, unsubscribe, etc), and will add "
+"it to the administrative requests queue, notifying the administrator of the "
+"new request, in the process."
+msgstr ""
+"本来は -request アドレス宛に送るべき各種申請 (入会、退会など) がメーリングリ"
+"ストの投稿アドレスに送られたときに保留します。"
+
+#: forms/list_forms.py:490
+msgid "Default action to take when a member posts to the list"
+msgstr "メンバーがリストに投稿したときのデフォルト処理"
+
+#: forms/list_forms.py:492
+msgid "Please choose a default member action."
+msgstr "デフォルトのメンバーの処理を選択してください。"
+
+#: forms/list_forms.py:497
+msgid ""
+"Default action to take when a member posts to the list.\n"
+"Hold: This holds the message for approval by the list moderators.\n"
+"Reject: this automatically rejects the message by sending a bounce notice to "
+"the post's author. The text of the bounce notice can be configured by you.\n"
+"Discard: this simply discards the message, with no notice sent to the post's "
+"author.\n"
+"Accept: accepts any postings without any further checks.\n"
+"Default Processing: run additional checks and accept the message."
+msgstr ""
+"メンバーがリストに投稿したときのデフォルト処理。\n"
+"保留: リストのモデレーターによる審査のためにメッセージを保留します。\n"
+"拒否: 投稿者にバウンス通知を送ることで自動的にメッセージを拒否します。バウン"
+"ス通知の文面はテンプレートで設定できます。\n"
+"破棄: 単にメッセージを破棄し、投稿者には何も通知しません。\n"
+"承認: これ以上のチェックを行わずに投稿を承認します。\n"
+"デフォルト処理: 追加のチェックを実行し、その結果によりメッセージの扱いを判断"
+"します。"
+
+#: forms/list_forms.py:512
+msgid "Default action to take when a non-member posts to the list"
+msgstr "非メンバーがリストに投稿したときのデフォルト処理"
+
+#: forms/list_forms.py:514
+msgid "Please choose a default non-member action."
+msgstr "デフォルトの非メンバーの処理を選択してください。"
+
+#: forms/list_forms.py:519
+msgid ""
+"When a post from a non-member is received, the message's sender is matched "
+"against the list of explicitly accepted, held, rejected (bounced), and "
+"discarded addresses. If no match is found, then this action is taken."
+msgstr ""
+"非メンバーからの投稿を受信すると、投稿者のメールアドレスが下記の投稿を承認・"
+"保留・拒否・破棄する非メンバーのリストと照合されます。それらリストと一致しな"
+"い場合、この処理が適用されます。"
+
+#: forms/list_forms.py:528
+msgid "Emergency Moderation"
+msgstr "緊急時の投稿処理"
+
+#: forms/list_forms.py:530
+msgid ""
+"When this option is enabled, all list traffic is emergency moderated, i.e. "
+"held for moderation. Turn this option on when your list is experiencing a "
+"flamewar and you want a cooling off period. "
+msgstr ""
+"このオプションを有効にすると、 リストへの投稿をすべて緊急に制限し、審査のため"
+"に保留します。リストが炎上していて、冷却期間が必要なときにこのオプションを有"
+"効にしてください。 "
+
+#: forms/list_forms.py:538
+msgid "Maximum message size"
+msgstr "最大メッセージサイズ"
+
+#: forms/list_forms.py:541
+msgid ""
+"The maximum allowed message size in KB. This can be used to prevent emails "
+"with large attachments. A size of 0 disables the check."
+msgstr ""
+"最大許容メッセージサイズ (kB 単位)。大きな添付ファイルを持つメールを防止する"
+"ために利用できます。0 を指定するとチェックが無効になります。"
+
+#: forms/list_forms.py:548
+msgid "Maximum number of recipients"
+msgstr "最大宛先数"
+
+#: forms/list_forms.py:551
+msgid ""
+"If a post has this many or more explicit recipients (To: and Cc:), the post "
+"will be held for moderation. This can be used to prevent mass mailings from "
+"being accepted. A value of 0 disables the check."
+msgstr ""
+"この数以上の宛先 (To: と Cc:) が明示されている場合、その投稿は審査のために保"
+"留されます。これは大量のメールを受け付けないようにするために使用できます。0 "
+"を設定するとチェックを無効にします。"
+
+#: forms/list_forms.py:568
+msgid "Accept these non-members"
+msgstr "投稿を承認する非メンバー"
+
+#: forms/list_forms.py:571
+msgid ""
+"This is a list, one per line, of regexps matching addresses that are allowed "
+"to post to this mailing list without subscribing to the list. Entries are "
+"regexps beginning with `^' and are matched against the sender addresses in "
+"the message. While non-regexp addresses can be entered here, it is preferred "
+"to add the address as a nonmember and set the nonmember's Moderation to "
+"Default Processing."
+msgstr ""
+"メーリングリストに入会せずにこのメーリングリストへの投稿を許可するアドレスに"
+"マッチする正規表現のリストです。入力項目は「^」で始まる正規表現で、メッセージ"
+"中の差出人アドレスとマッチします。正規表現以外のアドレスをここに入力すること"
+"もできますが、メールアドレスを非メンバーとして登録し、非メンバーの投稿処理を"
+"「デフォルト処理」に設定する方法を推奨します。"
+
+#: forms/list_forms.py:583
+msgid "Hold these non-members"
+msgstr "投稿を保留する非メンバー"
+
+#: forms/list_forms.py:586
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are held automatically. Entries are regexps beginning with `^' "
+"and are matched against the sender addresses in the message. While non-"
+"regexp addresses can be entered here, it is preferred to add the address as "
+"a nonmember and set the nonmember's Moderation to Hold."
+msgstr ""
+"これは非メンバーのアドレスにマッチする正規表現のリストです。項目は「^」で始ま"
+"る正規表現で、メッセージ中の送信者アドレスとマッチします。正規表現以外のアド"
+"レスをここに入力することもできますが、そのアドレスを非メンバーとして追加し、"
+"非メンバーの投稿処理を保留に設定することをお勧めします。"
+
+#: forms/list_forms.py:597
+msgid "Reject these non-members"
+msgstr "投稿を拒否する非メンバー"
+
+#: forms/list_forms.py:600
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are rejected with notice to the sender. Entries are regexps "
+"beginning with `^' and are matched against the sender addresses in the "
+"message. While non-regexp addresses can be entered here, it is preferred to "
+"add the address as a nonmember and set the nonmember's Moderation to Reject."
+msgstr ""
+"非メンバーのアドレスにマッチする正規表現を1行に1つずつ並べたリストです。その"
+"アドレスからの投稿は送信者に通知された上で拒否されます。入力項目は「^」で始ま"
+"る正規表現で、メッセージ中の送信者アドレスと照合されます。正規表現以外のアド"
+"レスをここに入力することもできますが、そのアドレスを非メンバーとして追加し、"
+"非メンバーの投稿処理を「拒否」に設定することをお勧めします。"
+
+#: forms/list_forms.py:612
+msgid "Discard these non-members"
+msgstr "投稿を破棄する非メンバー"
+
+#: forms/list_forms.py:615
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are discarded automatically. Entries are regexps beginning with "
+"`^' and are matched against the sender addresses in the message. While non-"
+"regexp addresses can be entered here, it is preferred to add the address as "
+"a nonmember and set the nonmember's Moderation to Discard."
+msgstr ""
+"これは非メンバーのアドレスにマッチする正規表現を 1 行に 1 "
+"つずつ並べたリストで、 これらのアドレスからの投稿は自動的に捨てられます。項目"
+"は「^」で始まる正規表現で、メッセージ中の送信者アドレスとマッチします。正規表"
+"現以外のアドレスをここに入力することもできますが、そのアドレスを非メンバーと"
+"して追加し、非メンバーの投稿処理を「破棄」に設定することをお勧めします。"
+
+#: forms/list_forms.py:639
+msgid "Invalid alias regexp: {}: {}"
+msgstr "無効なエイリアス正規表現: {}: {}"
+
+#: forms/list_forms.py:646
+msgid "Invalid alias email: {}"
+msgstr "エイリアスのメールアドレスが無効です: {}"
+
+#: forms/list_forms.py:660
+msgid "Enable Digests"
+msgstr "ダイジェストを有効化"
+
+#: forms/list_forms.py:661
+msgid "Should Mailman enable digests for this MailingList?"
+msgstr "Mailmanはこのメーリングリストのダイジェストを有効にしますか?"
+
+#: forms/list_forms.py:667
+msgid "Send Digest Periodically"
+msgstr "ダイジェストを定期的に送信"
+
+#: forms/list_forms.py:668
+msgid "Should Mailman send out digests periodically?"
+msgstr "Mailmanは定期的にダイジェストを送りますか?"
+
+#: forms/list_forms.py:674
+msgid "Digest Volume Frequency"
+msgstr "ダイジェストの発行頻度"
+
+#: forms/list_forms.py:676
+msgid ""
+"At what frequency should Mailman increment the digest volume number and "
+"reset the issue number?"
+msgstr "Mailmanはどのような頻度で新しい巻に更新し、号数をリセットしますか?"
+
+#: forms/list_forms.py:681
+msgid "Digest size threshold"
+msgstr "ダイジェストサイズのしきい値"
+
+#: forms/list_forms.py:683
+msgid "How big in Kb should a digest be before it gets sent out?"
+msgstr ""
+"ダイジェストを送信する前に、Kb単位でどのくらいの大きさにする必要がありますか?"
+
+#: forms/list_forms.py:694
+msgid "DMARC mitigation action"
+msgstr "DMARC の緩和処理"
+
+#: forms/list_forms.py:698
+msgid "Please choose a DMARC mitigation action."
+msgstr "DMARC の緩和処理を選択してください。"
+
+#: forms/list_forms.py:701
+msgid "No DMARC mitigations"
+msgstr "DMARC の緩和なし"
+
+#: forms/list_forms.py:702
+msgid "Replace From: with list address"
+msgstr "From: をリストのアドレスに置き換える"
+
+#: forms/list_forms.py:705
+msgid "Wrap the message in an outer message From: the list."
+msgstr "From: をリストの投稿用アドレスにして投稿メッセージを添付する"
+
+#: forms/list_forms.py:707
+msgid "Reject the message"
+msgstr "メッセージを拒否する"
+
+#: forms/list_forms.py:708
+msgid "Discard the message"
+msgstr "メッセージを破棄する"
+
+#: forms/list_forms.py:711
+msgid ""
+"The action to apply to messages From: a domain publishing a DMARC policy of "
+"reject or quarantine or to all messages if DMARC Mitigate unconditionally is "
+"True."
+msgstr ""
+"From: のドメインの DMARC ポリシーが reject または quarantine だった場合、また"
+"は「DMARC 対策を無条件に実施」が「はい」に設定されている場合の動作。"
+
+#: forms/list_forms.py:720
+msgid "DMARC Mitigate unconditionally"
+msgstr "DMARC 対策を無条件に実施"
+
+#: forms/list_forms.py:722
+msgid ""
+"If DMARC mitigation action is munge_from or wrap_message, should it apply to "
+"all messages regardless of the DMARC policy of the From: domain."
+msgstr ""
+"DMARC の緩和処理が「From: をリストのアドレスに置き換える」または「From: をリ"
+"ストの投稿用アドレスにして投稿メッセージを添付する」の場合、From: ドメインの "
+"DMARC ポリシーに関係なく、すべてのメッセージに適用する。"
+
+#: forms/list_forms.py:728
+msgid "DMARC Addresses"
+msgstr "DMARC アドレス"
+
+#: forms/list_forms.py:731
+msgid ""
+"Email addresses and regexps matching email addresses, one per line. Regexps "
+"begin with '^' as in '^.*@example\\.com'. DMARC mitigation action will apply "
+"to posts From: an address matching, case insensitevely, one of these "
+"addresses or patterns regardless of the From: domain's DMARC policy."
+msgstr ""
+"メールアドレスと、メールアドレスにマッチする正規表現を 1 行に 1 "
+"つずつ記載してください。正規表現は「^.*@example\\."
+"com」のように「^」で始めます。DMARC の緩和処理は、From: ドメインの DMARC "
+"ポリシーに関係なく、大文字・"
+"小文字を区別せずにこれらのアドレスまたはパターンに一致する From: "
+"アドレスの投稿に適用されます。"
+
+#: forms/list_forms.py:739
+msgid "DMARC rejection notice"
+msgstr "DMARC 拒否通知"
+
+#: forms/list_forms.py:743
+msgid ""
+"Text to replace the default reason in any rejection notice to be sent when "
+"DMARC mitigation action of reject applies."
+msgstr ""
+"DMARC の緩和処理によって、メッセージが拒否される際の、拒否通知内容を設定しま"
+"す。"
+
+#: forms/list_forms.py:748
+msgid "DMARC wrapped message text"
+msgstr "DMARC ラップされたメッセージテキスト"
+
+#: forms/list_forms.py:752
+msgid ""
+"Text to be added as a separate text/plain MIME part preceding the original "
+"message part in the wrapped message when DMARC mitigation action of wrap "
+"message applies."
+msgstr ""
+"DMARC の緩和処理であるメール内添付が適用される場合、添付されたメッセージのオ"
+"リジナルメッセージ部分の前に、別の text/plain MIME パートとして追加されるテキ"
+"スト。"
+
+#: forms/list_forms.py:760 templates/postorius/lists/summary.html:146
+#: templates/postorius/lists/summary.html:155
+#: templatetags/membership_helpers.py:78
+msgid "None"
+msgstr "なし"
+
+#: forms/list_forms.py:761
+msgid "Individual"
+msgstr "個人"
+
+#: forms/list_forms.py:762
+msgid "Full"
+msgstr "全て"
+
+#: forms/list_forms.py:766
+msgid ""
+"\n"
+"    None: No personalization.\n"
+"\n"
+"    Individual: Everyone gets a unique copy of the message, and there are "
+"a           few more substitution variables, but no headers are modified.\n"
+"\n"
+"    Full: All of the 'individual' personalization plus recipient "
+"header           modification. "
+msgstr ""
+"\n"
+"    なし: 個々にメッセージを変更することはできません。\n"
+"\n"
+"    個人: 個々にヘッダー以外のメッセージを変更することができます。\n"
+"\n"
+"    全て: ヘッダーも含め、全文を個々に変更することができます。 "
+
+#: forms/list_forms.py:778 templates/postorius/lists/held_messages.html:30
+#: templates/postorius/lists/held_messages.html:121
+#: templates/postorius/lists/subscription_requests.html:46
+msgid "Reject"
+msgstr "拒否"
+
+#: forms/list_forms.py:779
+msgid "Forward"
+msgstr "転送"
+
+#: forms/list_forms.py:780
+msgid "Preserve"
+msgstr "保存"
+
+#: forms/list_forms.py:784
+msgid ""
+"Action to take on messages which have no content\n"
+"after filtering.\n"
+" Discard = silently discard the message.\n"
+" Reject = discard the message and notify the sender.\n"
+" Forward = forward the message to the list owner(s).\n"
+" Preserve = save the message in qfiles/bad.\n"
+msgstr ""
+"フィルター処理後、内容が完全に空になったメッセージに取るべき処理。\n"
+" 破棄: 静かにメッセージを破棄する。\n"
+" 拒否: メッセージを破棄し、送信者に通知する。\n"
+" 転送: メッセージをリストのオーナーに転送する。\n"
+" 保存: メッセージを qfiles/bad に保存する。\n"
+
+#: forms/list_forms.py:803
+msgid "Personalize"
+msgstr "パーソナライズ"
+
+#: forms/list_forms.py:810
+msgid "Anonymous list"
+msgstr "匿名リスト"
+
+#: forms/list_forms.py:812
+msgid ""
+"Hide the sender of a message, replacing it with the list address (Removes "
+"From, Sender and Reply-To fields)"
+msgstr ""
+"メッセージの送信者を隠し、メーリングリストのアドレスに置き換えます (元の "
+"From:、Sender:、Reply-To: ヘッダーは削除します)"
+
+#: forms/list_forms.py:821
+msgid "Include RFC2369 headers"
+msgstr "RFC 2369 ヘッダーを含める"
+
+#: forms/list_forms.py:823
+msgid ""
+"Yes is highly recommended. RFC 2369 defines a set of List-* headers that are "
+"normally added to every message sent to the list membership. These greatly "
+"aid end-users who are using standards compliant mail readers. They should "
+"normally always be enabled. However, not all mail readers are standards "
+"compliant yet, and if you have a large number of members who are using non-"
+"compliant mail readers, they may be annoyed at these headers. You should "
+"first try to educate your members as to why these headers exist, and how to "
+"hide them in their mail clients. As a last resort you can disable these "
+"headers, but this is not recommended (and in fact, your ability to disable "
+"these headers may eventually go away)."
+msgstr ""
+"「はい」を推奨します。RFC 2369 は List-*: ヘッダー群を定義しており、リストメ"
+"ンバーに送られるすべてのメッセージに追加することを想定しています。これらは標"
+"準に準拠したメールソフトを使っているエンドユーザーを大いに助けるものです。通"
+"常は常に有効にしておくべきです。しかし、まだすべてのメールソフトが標準に準拠"
+"しているわけではありませんし、非準拠のメールソフトを使っているメンバーが多数"
+"いる場合は、これらのヘッダーに悩まされるかもしれません。まず、これらのヘッダ"
+"ーがなぜ存在するのか、メールソフトでどのように非表示にするのかについて、メン"
+"バーを教育する努力をすべきです。最後の手段として、これらのヘッダーを無効にす"
+"ることもできますが、これは推奨されません "
+"(実際、これらのヘッダーを無効にする機能はいずれなくなるかもしれません)。"
+
+#: forms/list_forms.py:841
+msgid "Include the list post header"
+msgstr "List-Post: ヘッダーを含める"
+
+#: forms/list_forms.py:843
+msgid ""
+"This can be set to no for announce lists that do not wish to include the "
+"List-Post header because posting to the list is discouraged."
+msgstr ""
+"「いいえ」に設定することで List-Post: ヘッダーが追加されなくなります。メン"
+"バーからの投稿を想定していないアナウンス専用のメーリングリストでは「いいえ」"
+"に設定してください。"
+
+#: forms/list_forms.py:849
+msgid "Explicit reply-to address"
+msgstr "明示的な Reply-To: アドレス"
+
+#: forms/list_forms.py:852
+msgid ""
+"This option allows admins to set an explicit Reply-to address. It is only "
+"used if the reply-to is set to use an explicitly set header"
+msgstr ""
+"このオプションにより、管理者は明示的な Reply-To: アドレスを設定することができ"
+"ます。これは Reply-To: が明示的に設定されたヘッダーを使うように設定されている"
+"場合にのみ使われます"
+
+#: forms/list_forms.py:861
+msgid "First strip Reply-To"
+msgstr "投稿の Reply-To: を除去"
+
+#: forms/list_forms.py:863
+msgid ""
+"Should any existing Reply-To: header found in the original message be "
+"stripped? If so, this will be done regardless of whether an explict Reply-"
+"To: header is added by Mailman or not."
+msgstr ""
+"元のメッセージにある既存の Reply-To: ヘッダーを取り除きますか? これは "
+"Mailman による明示的な Reply-To: ヘッダーの設定処理より前に行われます。"
+
+#: forms/list_forms.py:869 forms/list_forms.py:875
+msgid "Reply goes to list"
+msgstr "メーリングリストへの返信設定"
+
+#: forms/list_forms.py:872
+msgid "Please choose a reply-to action."
+msgstr "返信処理を選択してください。"
+
+#: forms/list_forms.py:874
+msgid "No Munging"
+msgstr "返信設定を変更しない"
+
+#: forms/list_forms.py:876
+msgid "Explicit Reply-to header set"
+msgstr "明示的に Reply-To: ヘッダーを設定"
+
+#: forms/list_forms.py:877
+msgid "Explicit Reply-to set; no Cc added"
+msgstr "明示的に Reply-To: ヘッダーを設定 (Cc: は追加しない)"
+
+#: forms/list_forms.py:880
+msgid ""
+"Where are replies to list messages directed? No Munging is strongly "
+"recommended for most mailing lists. \n"
+"This option controls what Mailman does to the Reply-To: header in messages "
+"flowing through this mailing list. When set to No Munging, no Reply-To: "
+"header is added by Mailman, although if one is present in the original "
+"message, it is not stripped. Setting this value to either Reply to List, "
+"Explicit Reply, or Reply Only causes Mailman to insert a specific Reply-To: "
+"header in all messages, overriding the header in the original message if "
+"necessary (Explicit Reply inserts the value of reply_to_address). Explicit "
+"Reply-to set; no Cc added is useful forannounce-only lists where you want to "
+"avoid someone replying to the list address. There are many reasons not to "
+"introduce or override the Reply-To: header. One is that some posters depend "
+"on their own Reply-To: settings to convey their valid return address. "
+"Another is that modifying Reply-To: makes it much more difficult to send "
+"private replies. See <a href=\"http://marc.merlins.org/netrants/reply-to-"
+"harmful.html\">`Reply-To' Munging Considered Harmful</a> for a general "
+"discussion of this issue. See <a href=\"http://marc.merlins.org/netrants/"
+"reply-to-useful.html\">`Reply-To' Munging Considered Useful</a> for a "
+"dissenting opinion. Some mailing lists have restricted posting privileges, "
+"with a parallel list devoted to discussions. Examples are `patches' or "
+"`checkin' lists, where software changes are posted by a revision control "
+"system, but discussion about the changes occurs on a developers mailing "
+"list. To support these types of mailing lists, select Explicit Reply and set "
+"the Reply-To: address option to point to the parallel list."
+msgstr ""
+"メーリングリストへの返信はどこにするべきでしょうか? ほどんどのメーリングリス"
+"トでは、返信設定を行わないことを推奨します。\n"
+"このオプションは、このメーリングリストを流れるメッセージの Reply-To: ヘッダー"
+"に対して Mailman が行う処理を制御します。「返信設定を変更しない」を設定したと"
+"き、Reply-To: ヘッダーは Mailman によって追加されません。元のメッセージに存在"
+"する場合も削除されません。この値を「メーリングリストへの返信」「明示的に "
+"Reply-To: ヘッダーを設定」「明示的に Reply-To: ヘッダーを設定 (Cc: は追加しな"
+"い)」に設定すると、Mailman はすべてのメッセージに特定の Reply-To: ヘッダーを"
+"挿入し、必要に応じて元のメッセージのヘッダーを上書きします (「明示的に Reply-"
+"To: ヘッダーを設定」は「明示的な Reply-To: アドレス」の値を挿入します)。「明"
+"示的に Reply-To: ヘッダーを設定 (Cc: は追加しない)」は、誰かがリストのアドレ"
+"スに返信することを避けたいアナウンス専用リストに便利です。Reply-To: ヘッダー"
+"を付け加えたり変更するべきではない理由はたくさんあります。 ひとつは、Reply-"
+"To: により返信先を指定したい人がいるということです。また、Reply-To: を変更す"
+"ると個人的な返信が 面倒になるという理由もあります。「<a href=\"http://marc."
+"merlins.org/netrants/reply-to-harmful.html\">`Reply-To' Munging Considered "
+"Harmful</a>」でこの件に関する総括的な議論を読むことができます。これに対する反"
+"論は「 <a href=\"http://marc.merlins.org/netrants/reply-to-useful."
+"html\">Reply-To Munging Considered Useful</a>」にありますので参考にしてくださ"
+"い。メーリングリストによっては投稿を制限し、別に議論用の リストを設置すること"
+"もあります。例としては「patches」や「checkin」リスト があります。これらのリス"
+"トは、ソフトウェアの変更がリビジョン管理システム (RCS) から投稿されます。しか"
+"し、変更についての議論は別の開発者メーリングリストで行われます。このような"
+"メーリングリストの運用ならば「明示的に Reply-To: ヘッダーを設定」を設定し、"
+"「明示的な Reply-To: アドレス」に議論用のメーリングリストの投稿アドレスを設定"
+"してください。"
+
+#: forms/list_forms.py:914
+msgid "Pipeline"
+msgstr "パイプライン"
+
+#: forms/list_forms.py:920
+msgid "Type of pipeline you want to use for this mailing list"
+msgstr "このメーリングリストに使用するパイプラインのタイプ"
+
+#: forms/list_forms.py:926
+msgid "Filter content"
+msgstr "コンテンツの除去・通過"
+
+#: forms/list_forms.py:928
+msgid ""
+"Should Mailman filter the content of list traffic according to the settings "
+"below?\n"
+"<b>None of the settings below have any effect if this is No.</b>"
+msgstr ""
+"Mailman は以下の設定に従ってメーリングリストへの投稿内容をフィルターする必要"
+"がありますか?\n"
+"<strong>これが「いいえ」の場合、以下の設定はどれも効果がありません。</strong>"
+
+#: forms/list_forms.py:934
+msgid "Filter types"
+msgstr "除去対象の種別"
+
+#: forms/list_forms.py:937
+msgid ""
+"MIME types to filter from the incoming posts. A list of common types can be "
+"found <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Basics_of_HTTP/MIME_types/Common_types\">here </a>"
+msgstr ""
+"投稿から除去するパートを MIME タイプで指定します。一般的なタイプのリストは、"
+"<a href=\"https://developer.mozilla.org/ja-JP/docs/Web/HTTP/Basics_of_HTTP/"
+"MIME_types/Common_types\">こちら</a>でご覧いただけます"
+
+#: forms/list_forms.py:943
+msgid "Filter extensions"
+msgstr "除去対象の拡張子"
+
+#: forms/list_forms.py:945
+msgid "Extensions to filter from the incoming posts."
+msgstr "投稿から除去するパートを拡張子で指定します。"
+
+#: forms/list_forms.py:948
+msgid "Pass types"
+msgstr "通過対象の種別"
+
+#: forms/list_forms.py:951
+msgid ""
+"MIME types to allow in the incoming posts. A list of common types can be "
+"found <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Basics_of_HTTP/MIME_types/Common_types\">here </a>"
+msgstr ""
+"投稿に許可するパートを MIME タイプで指定します。一般的なタイプのリストは、<a "
+"href=\"https://developer.mozilla.org/ja-JP/docs/Web/HTTP/Basics_of_HTTP/"
+"MIME_types/Common_types\">こちら</a>でご覧いただけます"
+
+#: forms/list_forms.py:957
+msgid "Pass extensions"
+msgstr "通過対象の拡張子"
+
+#: forms/list_forms.py:959
+msgid "Extensions to allow in the incoming posts."
+msgstr "投稿を許可するパートを拡張子で指定します。"
+
+#: forms/list_forms.py:965
+msgid "Collapse alternatives"
+msgstr "代替コンテンツ群の統合"
+
+#: forms/list_forms.py:967
+msgid ""
+"Should Mailman collapse multipart/alternative to its first part content?"
+msgstr ""
+"multipart/alternative のメールの場合に、最初のパートにあるコンテンツだけ残し"
+"ますか?"
+
+#: forms/list_forms.py:975
+msgid "Filter Action"
+msgstr "除去後の処理"
+
+#: forms/list_forms.py:982
+msgid "Convert html to plaintext"
+msgstr "HTML をプレーンテキストに変換"
+
+#: forms/list_forms.py:984
+msgid ""
+"Should Mailman convert text/html parts to plain text? This conversion "
+"happens after MIME attachments have been stripped."
+msgstr ""
+"Mailman は text/html 部分をプレーンテキストに変換しますか? この変換は MIME の"
+"添付ファイルが取り除かれた後に行われます。"
+
+#: forms/list_forms.py:997
+msgid "Respond and continue processing"
+msgstr "自動応答して処理を続ける"
+
+#: forms/list_forms.py:998
+msgid "Respond and discard message"
+msgstr "自動応答してメッセージを破棄"
+
+#: forms/list_forms.py:999
+msgid "No automatic response"
+msgstr "自動応答なし"
+
+#: forms/list_forms.py:1004
+msgid "Autorespond to list owner"
+msgstr "オーナーからの自動応答"
+
+#: forms/list_forms.py:1006
+msgid ""
+"Should Mailman send an auto-response to emails sent to the -owner address?"
+msgstr ""
+"Mailman は -owner アドレスへのメール送信者に自動応答メッセージを送りますか?"
+
+#: forms/list_forms.py:1011
+msgid "Autoresponse owner text"
+msgstr "オーナーから自動応答する文章"
+
+#: forms/list_forms.py:1014
+msgid "Auto-response text to send to -owner emails."
+msgstr "-owner アドレスへの送信者に返す自動応答に含めるテキスト。"
+
+#: forms/list_forms.py:1019
+msgid "Autorespond postings"
+msgstr "投稿時の自動応答"
+
+#: forms/list_forms.py:1021
+msgid "Should Mailman send an auto-response to mailing list posters?"
+msgstr "Mailman はメーリングリスト投稿者に自動応答メッセージを送りますか?"
+
+#: forms/list_forms.py:1025
+msgid "Autoresponse postings text"
+msgstr "投稿者へ自動応答する文章"
+
+#: forms/list_forms.py:1028
+msgid "Auto-response text to send to mailing list posters."
+msgstr "メーリングリスト投稿者に返す自動応答に含めるテキスト。"
+
+#: forms/list_forms.py:1033
+msgid "Autorespond requests"
+msgstr "申請時の自動応答"
+
+#: forms/list_forms.py:1035
+msgid ""
+"Should Mailman send an auto-response to emails sent to the -request address? "
+"If you choose yes, decide whether you want Mailman to discard the original "
+"email, or forward it on to the system as a normal mail command."
+msgstr ""
+"Mailman は -request アドレスへのメール送信者に自動応答メッセージを送ります"
+"か? 自動応答する場合、Mailman に元のメールを破棄させたいのか、それとも通常の"
+"メールコマンドとしてシステムに転送させたいのかを決めてください。"
+
+#: forms/list_forms.py:1042
+msgid "Autoresponse request text"
+msgstr "申請者へ自動応答する文章"
+
+#: forms/list_forms.py:1045
+msgid "Auto-response text to send to -request emails."
+msgstr "-request アドレスへの申請者に返す自動応答に含めるテキスト。"
+
+#: forms/list_forms.py:1048
+msgid "Autoresponse grace period"
+msgstr "自動応答の猶予期間"
+
+#: forms/list_forms.py:1050
+msgid ""
+"Number of days between auto-responses to either the mailing list or -"
+"request/-owner address from the same poster. Set to zero (or negative) for "
+"no grace period (i.e. auto-respond to every message)."
+msgstr ""
+"同一の送信者からの投稿や -request/-owner アドレス宛の申請に対して自動応答する"
+"までの日数。猶予期間を設定しない (つまり、すべてのメッセージに自動応答する) "
+"場合はゼロ (またはマイナス) に設定します。"
+
+#: forms/list_forms.py:1060
+msgid "Notify users of held messages"
+msgstr "保留メッセージをユーザーに通知"
+
+#: forms/list_forms.py:1062
+msgid ""
+"Should Mailman notify users about their messages held for approval. If you "
+"say 'No', no notifications will be sent to users about the pending approval "
+"on their messages."
+msgstr ""
+"投稿メッセージが保留 (審査待ち) されたときに投稿者に通知しますか?「いいえ」に"
+"設定すると、審査待ちを知らせるメッセージはユーザーに送られません。"
+
+#: forms/list_forms.py:1071 forms/list_forms.py:1305
+msgid "Send welcome message"
+msgstr "挨拶メッセージを送信"
+
+#: forms/list_forms.py:1073
+msgid ""
+"Send welcome message to newly subscribed members? Turn this off only if you "
+"plan on subscribing people manually and don't want them to know that you did "
+"so. Setting this to No is most useful for transparently migrating lists from "
+"some other mailing list manager to Mailman.\n"
+"The text of Welcome message can be set via the Templates tab."
+msgstr ""
+"新規入会メンバーに挨拶のメッセージを送信しますか? 手動で入会されたことをメン"
+"バーに通知したくないときは「いいえ」にしてください。「いいえ」の設定は、他の"
+"メーリングリストマネージャーから Mailman へメーリングリストを透過的に移行する"
+"場合に便利です。\n"
+"挨拶のメッセージのテキストはテンプレートタブで設定できます。"
+
+#: forms/list_forms.py:1085
+msgid "Send goodbye message"
+msgstr "お別れのメッセージを送る"
+
+#: forms/list_forms.py:1087
+msgid ""
+"Send goodbye message to newly unsubscribed members? Turn this off only if "
+"you plan on unsubscribing people manually and don't want them to know that "
+"you did so.\n"
+"The text of Goodbye message can be set via the Templates tab."
+msgstr ""
+"新しく退会したメンバーにお別れのメッセージを送りますか? 手動で退会されたこと"
+"をメンバーに通知したくないときは「いいえ」にしてください。\n"
+"お別れのメッセージのテキストはテンプレートタブで設定できます。"
+
+#: forms/list_forms.py:1096
+msgid "Admin immed notify"
+msgstr "すぐに管理者に通知"
+
+#: forms/list_forms.py:1098
+msgid ""
+"Should the list moderators get immediate notice of new requests, as well as "
+"daily notices about collected ones? List moderators (and list "
+"administrators) are sent daily reminders of requests pending approval, like "
+"subscriptions to a moderated list, or postings that are being held for one "
+"reason or another. Setting this option causes notices to be sent immediately "
+"on the arrival of new requests as well. "
+msgstr ""
+"メーリングリストのモデレーターは新しい申請の即時通知を受けますか? モデレー"
+"ター (およびオーナー) には、審査待ちの申請 (管理対象リストへの入会申請や、何"
+"らかの理由で保留されている投稿など) のリマインダーが毎日送られます。このオプ"
+"ションを設定すると、新しい申請が届いたしたときにもすぐに通知が送られるように"
+"なります。 "
+
+#: forms/list_forms.py:1110
+msgid "Notify admin of membership changes"
+msgstr "メンバー変更を管理者に通知"
+
+#: forms/list_forms.py:1112
+msgid "Should administrator get notices of subscribes and unsubscribes?"
+msgstr "入会と退会の通知を管理者が受け取りますか?"
+
+#: forms/list_forms.py:1119
+msgid "Not Moderated"
+msgstr "審査なし"
+
+#: forms/list_forms.py:1120
+msgid "Moderated but allows for open posting"
+msgstr "審査制、ただし公開投稿可能"
+
+#: forms/list_forms.py:1121
+msgid "Moderated"
+msgstr "審査済み"
+
+#: forms/list_forms.py:1133
+msgid "Show list on index page"
+msgstr "一覧ページにリストを表示"
+
+#: forms/list_forms.py:1135
+msgid "Choose whether to include this list on the list of all lists"
+msgstr "このリストを全メーリングリストの一覧に掲載するかどうかを選択します"
+
+#: forms/list_forms.py:1142
+msgid ""
+"This description is used when the mailing list is listed with other mailing "
+"lists, or in headers, and so forth. It should be as succinct as you can get "
+"it, while still identifying what the list is."
+msgstr ""
+"この説明は、メーリングリストが他のメーリングリストと一緒に表示されるときや、"
+"ヘッダーなどで使われます。そのメーリングリストが何であるかがわかるように、で"
+"きるだけ簡潔に記述してください。"
+
+#: forms/list_forms.py:1149
+msgid "Long Description"
+msgstr "詳細説明"
+
+#: forms/list_forms.py:1150
+msgid "A longer description of this mailing list."
+msgstr "このメーリングリストについての詳しい説明。"
+
+#: forms/list_forms.py:1155
+msgid "Display name"
+msgstr "表示名"
+
+#: forms/list_forms.py:1157
+msgid "Display name is the name shown in the web interface."
+msgstr "表示名はウェブインターフェイスに表示される名前です。"
+
+#: forms/list_forms.py:1160
+msgid "Subject prefix"
+msgstr "件名プレフィックス"
+
+#: forms/list_forms.py:1165
+msgid "Preferred Language"
+msgstr "推奨言語"
+
+#: forms/list_forms.py:1171
+msgid "Members List Visibility"
+msgstr "メンバーリストの可視性"
+
+#: forms/list_forms.py:1176
+msgid "Who is allowed to see members list for this MailingList?"
+msgstr "誰がこのメーリングリストのメンバーリストを見ることができますか?"
+
+#: forms/list_forms.py:1195
+msgid "Gateway to mail"
+msgstr "メーリングリストに転送"
+
+#: forms/list_forms.py:1197
+msgid ""
+"Flag indicating that posts to the linked newsgroup should be gated to the "
+"list"
+msgstr ""
+"リンク先のニュースグループへの投稿をリストに転送するかどうかを指定します"
+
+#: forms/list_forms.py:1204
+msgid "Gateway to news"
+msgstr "ニュースグループへの転送"
+
+#: forms/list_forms.py:1206
+msgid ""
+"Flag indicating that posts to the list should be gated to the linked "
+"newsgroup."
+msgstr ""
+"リンク先のリストへの投稿をニュースグループに転送するかどうかを指定します。"
+
+#: forms/list_forms.py:1211
+msgid "Linked Newsgroup"
+msgstr "関連するニュースグループ"
+
+#: forms/list_forms.py:1213
+msgid "The name of the linked newsgroup."
+msgstr "関連するニュースグループの名前。"
+
+#: forms/list_forms.py:1216
+msgid "Newsgroup moderation"
+msgstr "ニュースグループの審査"
+
+#: forms/list_forms.py:1221
+msgid "The moderation policy for the linked newsgroup, if there is one."
+msgstr "関連するニュースグループの審査ポリシーがある場合。"
+
+#: forms/list_forms.py:1228
+msgid "NNTP Include subject prefix "
+msgstr "NNTPに件名プレフィックスを適用 "
+
+#: forms/list_forms.py:1230
+msgid ""
+"Flag indicating whether the list's \"Subject Prefix\" should be included in "
+"posts gated to usenet."
+msgstr ""
+"Usenetに転送される投稿にリストの「件名のプレフィックス」を含めるかどうかを指"
+"定します。"
+
+#: forms/list_forms.py:1240
+msgid "Emails to mass subscribe"
+msgstr "一括入会するメールアドレス"
+
+#: forms/list_forms.py:1242
+msgid ""
+"The following formats are accepted:\n"
+"jdoe@example.com\n"
+"&lt;jdoe@example.com&gt;\n"
+"John Doe &lt;jdoe@example.com&gt;\n"
+"\"John Doe\" &lt;jdoe@example.com&gt;\n"
+"jdoe@example.com (John Doe)\n"
+"Use the last three to associate a display name with the address\n"
+msgstr ""
+"以下のフォーマットがご利用いただけます:\n"
+"jdoe@example.com\n"
+"&lt;jdoe@example.com&gt;\n"
+"John Doe &lt;jdoe@example.com&gt;\n"
+"\"John Doe\" &lt;jdoe@example.com&gt;\n"
+"jdoe@example.com (John Doe)\n"
+"最後の3つは、表示名とアドレスを関連付けるために使用します。\n"
+
+#: forms/list_forms.py:1253
+msgid "Pre confirm"
+msgstr "事前確認"
+
+#: forms/list_forms.py:1257
+msgid "If checked, users will not have to confirm their subscription."
+msgstr "チェックを入れると、ユーザーは入会するかを確認する必要がなくなります。"
+
+#: forms/list_forms.py:1263
+msgid "Pre approved"
+msgstr "事前承認済み"
+
+#: forms/list_forms.py:1267
+msgid ""
+"If checked, moderators will not have to approve the subscription request."
+msgstr "チェックした場合、モデレーターは申請を審査する必要はありません。"
+
+#: forms/list_forms.py:1274
+msgid "Pre Verified"
+msgstr "検証済み"
+
+#: forms/list_forms.py:1278
+msgid ""
+"If checked, users will not have to verify that their email address is valid."
+msgstr ""
+"チェックを入れると、ユーザーは自分のメールアドレスが有効かどうかを確認する必"
+"要がなくなります。"
+
+#: forms/list_forms.py:1285
+msgid "Invitation"
+msgstr "招待"
+
+#: forms/list_forms.py:1289
+msgid ""
+"If checked, the other checkboxes are ignored and the users will be sent an "
+"invitation to join the list and will be subscribed upon acceptance thereof."
+msgstr ""
+"チェックした場合、他のチェックボックスは無視され、ユーザーにはメーリングリス"
+"トへの招待メールが送られ、それを承諾した時点でメンバーに登録されます。"
+
+#: forms/list_forms.py:1307
+msgid ""
+"If set to \"Yes\" or \"No\", List's default setting of send_welcome_message "
+"will be ignored for these subscribers and a welcome message will be sent or "
+"not sent based on the choice."
+msgstr ""
+"「はい」または「いいえ」に設定するとそれに従い、リストのデフォルト (「挨拶"
+"メッセージを送信」設定) は無視されます。"
+
+#: forms/list_forms.py:1328
+msgid "Emails to Unsubscribe"
+msgstr "退会するメールアドレス"
+
+#: forms/list_forms.py:1329
+msgid "Add one email address on each line"
+msgstr "各行にメールアドレスを1つずつ追加します"
+
+#: forms/list_forms.py:1345
+msgid "Default antispam action"
+msgstr "デフォルトのアンチスパム処理"
+
+#: forms/list_forms.py:1350
+msgid "Header"
+msgstr "ヘッダー"
+
+#: forms/list_forms.py:1351
+msgid "Email header to filter on (case-insensitive)."
+msgstr "フィルターするメールヘッダー (大文字・小文字の区別なし)。"
+
+#: forms/list_forms.py:1353
+msgid "Please enter a header."
+msgstr "ヘッダーを入力してください。"
+
+#: forms/list_forms.py:1354
+msgid "Please enter a valid header."
+msgstr "有効なヘッダーを入力してください。"
+
+#: forms/list_forms.py:1358
+msgid "Pattern"
+msgstr "パターン"
+
+#: forms/list_forms.py:1360
+msgid "Regular expression matching the header's value (case-insensitive)."
+msgstr "ヘッダーの値にマッチする正規表現 (大文字・小文字の区別なし)。"
+
+#: forms/list_forms.py:1364
+msgid "Please enter a pattern."
+msgstr "パターンを入力してください。"
+
+#: forms/list_forms.py:1365
+msgid "Please enter a valid pattern."
+msgstr "有効なパターンを入力してください。"
+
+#: forms/list_forms.py:1369 templates/postorius/domain/index.html:26
+msgid "Action"
+msgstr "処理"
+
+#: forms/list_forms.py:1370
+msgid "Please enter a valid action."
+msgstr "有効な処理を入力してください。"
+
+#: forms/list_forms.py:1373
+msgid "Action to take when a header matches"
+msgstr "ヘッダーが一致した場合に取るべき処理"
+
+#: forms/list_forms.py:1408
+msgid "Select Email"
+msgstr "メールアドレスを選択"
+
+#: forms/list_forms.py:1434
+msgid "Data"
+msgstr "データ"
+
+#: forms/member_forms.py:28
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: forms/member_forms.py:35 forms/user_forms.py:341
+msgid "Display Name"
+msgstr "表示名"
+
+#: forms/member_forms.py:37
+msgid "Please enter a display name."
+msgstr "表示名を入力してください。"
+
+#: forms/system.py:32
+msgid "Add ban"
+msgstr "ブロックを追加"
+
+#: forms/system.py:34
+msgid ""
+"You can ban a single email address or use a regular expression to match "
+"similar email addresses."
+msgstr ""
+"単一のメールアドレスをブロックすることも、正規表現を使って類似したメールアド"
+"レスにマッチさせてブロックすることもできます。"
+
+#: forms/user_forms.py:70
+msgid "Receive own postings"
+msgstr "自分の投稿を受け取る"
+
+#: forms/user_forms.py:72
+msgid ""
+"Ordinarily, you will get a copy of every message you post to the list. If "
+"you don't want to receive this copy, set this option to No."
+msgstr ""
+"通常、あなたがメーリングリストに投稿するすべてのメッセージのコピーを受け取り"
+"ます。このコピーを受け取りたくない場合は、このオプションを「いいえ」に設定し"
+"てください。"
+
+#: forms/user_forms.py:80
+msgid "Acknowledge posts"
+msgstr "確認メールを受け取る"
+
+#: forms/user_forms.py:82
+msgid "Receive acknowledgement mail when you send mail to the list?"
+msgstr "メーリングリストにメールを送信した際に、確認メールを受け取りますか?"
+
+#: forms/user_forms.py:88
+msgid "Hide address"
+msgstr "アドレスを隠す"
+
+#: forms/user_forms.py:90
+msgid ""
+"When other members allowed to view the list membership, your email address "
+"is normally shown. If you do not want your email address to show up on this "
+"membership roster, select Yes for this option."
+msgstr ""
+"他のメンバーがメンバー一覧の閲覧を許可した場合、通常はあなたのメールアドレス"
+"が表示されます。メールアドレスを一覧に表示させたくない場合は、「はい」を選択"
+"してください。"
+
+#: forms/user_forms.py:99
+msgid "Receive list copies (possible duplicates)"
+msgstr "メーリングリストのコピーを受け取る (重複の可能性あり)"
+
+#: forms/user_forms.py:101
+msgid ""
+"When you are listed explicitly in the To: or Cc: headers of a list message, "
+"you can opt to not receive another copy from the mailing list. Select Yes to "
+"receive copies. Select No to avoid receiving copies from the mailing list"
+msgstr ""
+"リストメッセージのTo:またはCc:ヘッダーに明示的にリストされている場合、メーリ"
+"ングリストからのコピーを受け取らないようにすることができます。コピーを受け取"
+"るには「はい」を選択します。メーリングリストからコピーを受け取らないようにす"
+"るには、「いいえ」を選択します"
+
+#: forms/user_forms.py:112
+msgid "Preferred language"
+msgstr "使用言語"
+
+#: forms/user_forms.py:114
+msgid ""
+"Preferred language for your interactions with Mailman. When this is set, it "
+"will override the MailingList's preferred language. This affects which "
+"language is used for your email notifications and such."
+msgstr ""
+"Mailman とのやりとりに使用する優先言語。これを設定するとメーリングリストの優"
+"先言語を上書きします。これはメール通知などに使用される言語に影響します。"
+
+#: forms/user_forms.py:170
+msgid "Cannot set delivery_status to {}"
+msgstr "delivery_statusを{}に設定できません"
+
+#: forms/user_forms.py:268
+msgid "Verified"
+msgstr "確認済み"
+
+#: forms/user_forms.py:269
+msgid "Specifies whether or not this email address is verified"
+msgstr "メールアドレスを確認するかどうかを指定します"
+
+#: forms/validators.py:39
+#, python-brace-format
+msgid "Invalid: \"{0}\" should be either email or UUID"
+msgstr "無効です: 「{0}」はメールアドレスか UUID であるべきです"
+
+#: models.py:43
+msgid ""
+"Note: Do not add any secret content in templates as they are publicly "
+"accessible.\n"
+"You can use these variables in the templates. \n"
+"$hyperkitty_url: Permalink to archived message in Hyperkitty  - only in list:"
+"member:regular:footer and list:member:regular:header\n"
+"$listname: Name of the Mailing List e.g. ant@example.com \n"
+"$list_id: The List-ID header e.g. ant.example.com \n"
+"$display_name: Display name of the mailing list e.g. Ant \n"
+"$short_listname: Local part of the listname e.g. ant \n"
+"$domain: The domain part of the listname e.g. example.com \n"
+"$description: The mailing list's short description text \n"
+"$info: The mailing list's longer descriptive text \n"
+"$request_email: The email address for -request address \n"
+"$owner_email: The email address for -owner address \n"
+"$site_email: The email address to reach the owners of the site \n"
+"$language: The two letter language code for list's preferred language e.g. "
+"fr, en, de \n"
+"Some templates accept additional variables. See <a href=\"https://docs."
+"mailman3.org/projects/mailman/en/latest/src/mailman/rest/docs/templates."
+"html#templated-texts\">this doc</a> \n"
+msgstr ""
+"注意: テンプレートは一般に公開されるため、テンプレート内に秘密のコンテンツを"
+"追加しないでください。\n"
+"テンプレートでは以下の変数を使用できます。\n"
+"$hyperkitty_url: Hyperkitty のアーカイブメッセージへのリンク (list:member:"
+"regular:footer、list:member:regular:header 内のみ)\n"
+"$listname: メーリングリストの名前 (例: ant@example.com)\n"
+"$list_id: List-IDヘッダー (例: ant.example.com)\n"
+"$display_name: メーリングリストの表示名 (例: Ant)\n"
+"$short_listname: リスト名のローカル部分 (例: ant)\n"
+"$domain: リスト名のドメイン部分 (例: example.com)\n"
+"$description: メーリングリストの簡易説明文\n"
+"$info: メーリングリストの説明テキスト \n"
+"$request_email: 申請用のメールアドレス \n"
+"$owner_email: オーナーのメールアドレス \n"
+"$site_email: サイトのオーナーに連絡するためのメールアドレス \n"
+"$language: メーリングリストの優先言語の2文字の言語コード (例: fr、en、de) \n"
+"いくつかのテンプレートはほかの変数も使用可能です。<a href=\"https://docs."
+"mailman3.org/projects/mailman/en/latest/src/mailman/rest/docs/templates."
+"html#templated-texts\">こちらの文書を参照</a>。 \n"
+
+#: models.py:80
+msgid "owner"
+msgstr "オーナー"
+
+#: models.py:81
+msgid "member"
+msgstr "メンバー"
+
+#: models.py:82
+msgid "nonmember"
+msgstr "非メンバー"
+
+#: models.py:83
+msgid "moderator"
+msgstr "モデレーター"
+
+#: models.py:261
+msgid "Choose the template you want to customize."
+msgstr "カスタマイズしたいテンプレートを選択します。"
+
+#: models.py:271
+msgid ""
+"Language for the template, this should be the list's preferred language."
+msgstr ""
+"テンプレートの言語、これはメーリングリストの優先言語でなければなりません。"
+
+#: template_list.py:28
+msgid ""
+"Sent to the list administrators when moderator approval for a posting is "
+"required."
+msgstr ""
+"投稿に対してモデレーターの審査が必要な場合に、リスト管理者に送信されます。"
+
+#: template_list.py:34
+msgid ""
+"Sent to the list administrators when moderator approval for a subscription "
+"request is required."
+msgstr ""
+"入会申請に対するモデレーターの審査が必要な場合に、リスト管理者に送信されま"
+"す。"
+
+#: template_list.py:40
+msgid ""
+"Sent to the list administrators when moderator approval for an "
+"unsubscription request is required."
+msgstr ""
+"退会申請に対するモデレーターの審査が必要な場合に、リスト管理者に送信されま"
+"す。"
+
+#: template_list.py:46
+msgid ""
+"Sent to the list administrators to notify them when a new member has been "
+"subscribed."
+msgstr "新しいメンバーが入会したときにリスト管理者に通知されます。"
+
+#: template_list.py:52
+msgid ""
+"Sent to the list administrators when a bounce message in an unrecognized "
+"format has been received."
+msgstr ""
+"識別できない形式のバウンスメッセージを受信した場合に、リスト管理者に送信され"
+"ます。"
+
+#: template_list.py:58
+msgid "Sent to the list administrators from the 'mailman notify' command."
+msgstr "「mailman notify」コマンドからリスト管理者に送られます。"
+
+#: template_list.py:64
+msgid ""
+"Sent to the list administrators to notify them when a member's bounce score "
+"is incremented."
+msgstr "メンバーのバウンススコアが上昇したときに、リスト管理者に送信されます。"
+
+#: template_list.py:70
+msgid ""
+"Sent to the list administrators to notify them when a member's delivery is "
+"disabled due to excessive bounces."
+msgstr ""
+"バウンスが多すぎるためにメンバーの配信が無効になった場合に、リスト管理者に通"
+"知するために送信されます。"
+
+#: template_list.py:76
+msgid ""
+"Sent to the list administrators to notify them when a member has been "
+"unsubscribed."
+msgstr "メンバーが退会したことを通知するために、リスト管理者に送信されます。"
+
+#: template_list.py:79
+msgid "The footer for a digest message."
+msgstr "ダイジェストメッセージのフッター。"
+
+#: template_list.py:80
+msgid "The header for a digest message."
+msgstr "ダイジェストメッセージのヘッダー。"
+
+#: template_list.py:84
+msgid ""
+"The digest “masthead”; i.e. a common introduction for all digest messages."
+msgstr "ダイジェストメッセージに共通する紹介文。"
+
+#: template_list.py:89
+msgid "The footer for a regular (non-digest) message."
+msgstr "通常の(ダイジェストでない)メッセージのフッター。"
+
+#: template_list.py:93
+msgid "The header for a regular (non-digest) message."
+msgstr "通常の(non-digest)メッセージのヘッダー。"
+
+#: template_list.py:98
+msgid ""
+"The message sent to subscribers when a subscription confirmation is required."
+msgstr "入会確認が必要なときに入会者に送信されるメッセージ。"
+
+#: template_list.py:104
+msgid ""
+"The message sent to subscribers when an unsubscription confirmation is "
+"required."
+msgstr "退会の確認が必要な場合に入会者に送信されるメッセージ。"
+
+#: template_list.py:110
+msgid "The message sent to subscribers when they are invited to join a list."
+msgstr "メーリングリストへの招待時に入会者に送られるメッセージ。"
+
+#: template_list.py:116
+msgid "The notice sent to a member when they unsubscribe from a mailing list."
+msgstr "メーリングリストから退会する際にメンバーに送られる通知。"
+
+#: template_list.py:122
+msgid ""
+"The notice sent to a poster when their message is being held for moderator "
+"approval."
+msgstr ""
+"メッセージがモデレーターの審査のために保留されているときに、投稿者に送られる"
+"通知。"
+
+#: template_list.py:128
+msgid ""
+"Sent to a user when the maximum number of autoresponses has been reached for "
+"that day."
+msgstr "その日の自動応答数が上限に達したときにユーザーに送信されます。"
+
+#: template_list.py:134
+msgid ""
+"Notice sent to a poster when their message has been received by the mailing "
+"list."
+msgstr "投稿者のメッセージがメーリングリストに届いたときに送られる通知。"
+
+#: template_list.py:140
+msgid ""
+"A bounce probe sent to a member when their subscription has been disabled "
+"due to bounces."
+msgstr ""
+"バウンスが原因でメーリングリストの配信が無効化されている際に、メンバーに送信"
+"されるバウンスプローブ。"
+
+#: template_list.py:146
+msgid ""
+"Notice sent to a poster when their message has been rejected by the list’s "
+"moderator."
+msgstr ""
+"メッセージがメーリングリストのモデレーターによって拒否されたときに投稿者に送"
+"られる通知。"
+
+#: template_list.py:152
+msgid ""
+"Notice sent to a poster when their message has been rejected automatically."
+msgstr "メッセージが自動的に拒否されたときに投稿者に送られる通知。"
+
+#: template_list.py:158
+msgid ""
+"The notice sent to a member when they are subscribed to the mailing list."
+msgstr "メンバーがメーリングリストに入会したときに送られる通知。"
+
+#: template_list.py:164
+msgid ""
+"The notice sent to a member when their membership has been disabled due to "
+"excessive bounces."
+msgstr "過剰なバウンスにより無効化された場合にメンバーに送られる通知。"
+
+#: templates/403.html:5
+msgid "Forbidden"
+msgstr "アクセス禁止"
+
+#: templates/404.html:5
+msgid "Page not found"
+msgstr "ページが見つかりません"
+
+#: templates/404.html:6
+msgid "This page either doesn't exist, or it moved somewhere else."
+msgstr "このページは存在しないか、別の場所に移動しました。"
+
+#: templates/500.html:18
+msgid "Server error"
+msgstr "サーバーエラー"
+
+#: templates/500.html:19
+msgid "An error occurred while processing your request."
+msgstr "申請の処理中にエラーが発生しました。"
+
+#: templates/postorius/bans.html:5 templates/postorius/bans.html:10
+msgid "Global Bans"
+msgstr "サイト全体のブロック設定"
+
+#: templates/postorius/base.html:28
+msgid "Mailman logo"
+msgstr "Mailman ロゴ"
+
+#: templates/postorius/base.html:34 templates/postorius/base.html:117
+#: templates/postorius/lists/summary.html:110
+msgid "Sign In"
+msgstr "ログイン"
+
+#: templates/postorius/base.html:38 templates/postorius/base.html:121
+msgid "Sign Up"
+msgstr "登録"
+
+#: templates/postorius/base.html:53 templates/postorius/base.html:130
+#: templates/postorius/base.html:158
+msgid "Account"
+msgstr "アカウント"
+
+#: templates/postorius/base.html:57 templates/postorius/base.html:134
+#: templates/postorius/base.html:162
+msgid "Mailman settings"
+msgstr "Mailman 設定"
+
+#: templates/postorius/base.html:62 templates/postorius/base.html:139
+#: templates/postorius/base.html:167
+msgid "Posting activity"
+msgstr "投稿情報"
+
+#: templates/postorius/base.html:68 templates/postorius/base.html:144
+#: templates/postorius/base.html:173
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: templates/postorius/base.html:78
+msgid "Lists"
+msgstr "リスト"
+
+#: templates/postorius/base.html:84 templates/postorius/domain/index.html:5
+#: templates/postorius/domain/index.html:11
+msgid "Domains"
+msgstr "ドメイン"
+
+#: templates/postorius/base.html:90
+msgid "Bans"
+msgstr "ブロック"
+
+#: templates/postorius/base.html:96
+msgid "System Information"
+msgstr "システム情報"
+
+#: templates/postorius/base.html:102 templates/postorius/menu/list_nav.html:51
+#: templates/postorius/user/all.html:8 templates/postorius/user/all.html:13
+msgid "Users"
+msgstr "ユーザー"
+
+#: templates/postorius/base.html:109 templates/postorius/lists/summary.html:33
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: templates/postorius/base.html:197
+msgid "Postorius Documentation"
+msgstr "Postorius ドキュメント"
+
+#: templates/postorius/base.html:201
+msgid "Postorius Version"
+msgstr "Postorius バージョン"
+
+#: templates/postorius/base.html:204
+msgid "Happy Mailman Day!"
+msgstr "Happy Mailman Day!"
+
+#: templates/postorius/domain/confirm_delete.html:5
+msgid "Confirm domain removal"
+msgstr "ドメイン削除の確認"
+
+#: templates/postorius/domain/confirm_delete.html:13
+msgid "Confirm deletion"
+msgstr "削除の確認"
+
+#: templates/postorius/domain/confirm_delete.html:17
+msgid "Are you sure you want to permanently delete"
+msgstr "永続的に削除してもよろしいですか"
+
+#: templates/postorius/domain/confirm_delete.html:21
+#, python-format
+msgid ""
+"\n"
+"        This would delete %(size)s lists, some of which are:\n"
+"      "
+msgstr ""
+"\n"
+"        これは、%(size)s のリストを削除することになります:\n"
+"      "
+
+#: templates/postorius/domain/confirm_delete.html:33
+#: templates/postorius/domain/index.html:59
+#: templates/postorius/domain/template_index.html:35
+#: templates/postorius/lists/confirm_delete.html:5
+#: templates/postorius/lists/members.html:159
+#: templates/postorius/lists/members.html:170
+#: templates/postorius/lists/template_list.html:33
+#: templates/postorius/menu/list_nav.html:89
+msgid "Delete"
+msgstr "削除"
+
+#: templates/postorius/domain/confirm_delete.html:34
+#: templates/postorius/domain/template_delete.html:28
+#: templates/postorius/lists/confirm_delete.html:25
+#: templates/postorius/lists/confirm_remove_role.html:23
+#: templates/postorius/lists/confirm_removeall_subscribers.html:22
+#: templates/postorius/lists/template_delete.html:25
+#: templates/postorius/user/confirm_delete.html:23
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: templates/postorius/domain/edit.html:6
+#: templates/postorius/domain/edit.html:12
+msgid "Edit domain"
+msgstr "ドメインを編集"
+
+#: templates/postorius/domain/edit.html:17
+#: templates/postorius/lists/template_update.html:20
+#: templates/postorius/user/manage.html:16
+#: templates/postorius/user/manage.html:46
+#: templates/postorius/user/manage.html:82
+msgid "Update"
+msgstr "更新"
+
+#: templates/postorius/domain/index.html:14
+msgid "Add Domain"
+msgstr "ドメインを追加"
+
+#: templates/postorius/domain/index.html:25
+#: templates/postorius/menu/list_nav.html:57
+#: templates/postorius/menu/list_nav.html:63
+msgid "Owners"
+msgstr "オーナー"
+
+#: templates/postorius/domain/index.html:38
+#: templates/postorius/domain/index.html:58
+#: templates/postorius/domain/template_index.html:34
+#: templates/postorius/lists/template_list.html:32
+msgid "Edit"
+msgstr "編集"
+
+#: templates/postorius/domain/index.html:50
+msgid "remove"
+msgstr "削除"
+
+#: templates/postorius/domain/index.html:54
+msgid "Add"
+msgstr "追加"
+
+#: templates/postorius/domain/index.html:57
+#: templates/postorius/domain/template_add.html:6
+#: templates/postorius/domain/template_delete.html:6
+#: templates/postorius/domain/template_index.html:6
+#: templates/postorius/domain/template_index.html:11
+#: templates/postorius/lists/template_add.html:7
+#: templates/postorius/lists/template_delete.html:7
+#: templates/postorius/lists/template_list.html:7
+#: templates/postorius/lists/template_update.html:7
+#: templates/postorius/menu/list_nav.html:71 templatetags/nav_helpers.py:39
+msgid "Templates"
+msgstr "テンプレート"
+
+#: templates/postorius/domain/index.html:67
+msgid "No domains yet."
+msgstr "ドメインはまだありません。"
+
+#: templates/postorius/domain/new.html:6
+msgid "Add domain"
+msgstr "ドメインを追加"
+
+#: templates/postorius/domain/new.html:12
+msgid "Add a new domain"
+msgstr "新しいドメインを追加"
+
+#: templates/postorius/domain/new.html:17
+msgid "Create domain"
+msgstr "ドメインを作成"
+
+#: templates/postorius/domain/owners.html:6
+msgid "Add domain owner "
+msgstr "ドメインオーナーの追加 "
+
+#: templates/postorius/domain/owners.html:12
+msgid "Add a new owner to"
+msgstr "新しいオーナーを追加"
+
+#: templates/postorius/domain/template_add.html:17
+#: templates/postorius/domain/template_delete.html:16
+#: templates/postorius/lists/template_delete.html:13
+#: templates/postorius/lists/template_update.html:13
+#, python-format
+msgid "Template '%(name)s'"
+msgstr "テンプレート「%(name)s」"
+
+#: templates/postorius/domain/template_add.html:25
+#: templates/postorius/lists/template_add.html:16
+#: templates/postorius/user/address_preferences.html:64
+#: templates/postorius/user/subscription_preferences.html:75
+msgid "Save"
+msgstr "保存"
+
+#: templates/postorius/domain/template_delete.html:11
+msgid "Delete Template"
+msgstr "テンプレートの削除"
+
+#: templates/postorius/domain/template_delete.html:22
+#, python-format
+msgid ""
+"\n"
+"           Are you sure you want to delete the \"%(name)s\" template\n"
+"           for domain \"%(identifier)s\"?\n"
+"           "
+msgstr ""
+"\n"
+"           本当にドメイン「%(name)s」のテンプレート「%(identifier)s」を\n"
+"           削除してもよろしいですか?\n"
+"           "
+
+#: templates/postorius/domain/template_index.html:16
+#: templates/postorius/lists/template_list.html:15
+msgid "New Template"
+msgstr "新しいテンプレート"
+
+#: templates/postorius/domain/template_index.html:25
+#: templates/postorius/lists/template_list.html:24
+msgid "Template Name"
+msgstr "テンプレートの名前"
+
+#: templates/postorius/domain/template_index.html:45
+#: templates/postorius/lists/template_list.html:41
+msgid "No Templates."
+msgstr "テンプレートはありません。"
+
+#: templates/postorius/errors/generic.html:5
+msgid "Something went wrong"
+msgstr "エラーが発生しました"
+
+#: templates/postorius/fragments/bans.html:14
+msgid "Ban email"
+msgstr "メールアドレスをブロック"
+
+#: templates/postorius/fragments/bans.html:22
+msgid "Currently banned addresses"
+msgstr "現在ブロックしているアドレス"
+
+#: templates/postorius/fragments/bans.html:35
+msgid "Un-ban this address"
+msgstr "このアドレスのブロックを解除します"
+
+#: templates/postorius/fragments/bans.html:46
+msgid "No addresses are currently banned."
+msgstr "現在、ブロックしているアドレスはありません。"
+
+#: templates/postorius/index.html:6
+msgid "List Index"
+msgstr "メーリングリスト一覧"
+
+#: templates/postorius/index.html:12
+msgid "Mailing Lists"
+msgstr "メーリングリスト"
+
+#: templates/postorius/index.html:20
+msgid "Role: "
+msgstr "役割: "
+
+#: templates/postorius/index.html:41
+msgid "Owner"
+msgstr "オーナー"
+
+#: templates/postorius/index.html:46
+msgid "Moderator"
+msgstr "モデレーター"
+
+#: templates/postorius/index.html:51
+msgid "Member"
+msgstr "メンバー"
+
+#: templates/postorius/index.html:56
+msgid "Non-member"
+msgstr "非メンバー"
+
+#: templates/postorius/index.html:59
+msgid "All"
+msgstr "すべて"
+
+#: templates/postorius/index.html:72
+msgid "Create New Domain"
+msgstr "新しいドメインの作成"
+
+#: templates/postorius/index.html:74
+msgid "Create New List"
+msgstr "新しいリストの作成"
+
+#: templates/postorius/index.html:86
+msgid "List name"
+msgstr "リスト名"
+
+#: templates/postorius/index.html:87
+msgid "Post address"
+msgstr "投稿アドレス"
+
+#: templates/postorius/index.html:98
+msgid "unadvertised"
+msgstr "非公開"
+
+#: templates/postorius/index.html:110
+msgid ""
+"Only lists that you are owner, moderator or subscriber for are shown here. "
+"Click to <a href=\"?all-lists\"> see all lists</a>."
+msgstr ""
+"ここには、あなたがオーナー、モデレーター、またはメンバーであるリストのみが表"
+"示されます。クリックして <a href=\"?all-lists\"> すべてのリストを表示</a>しま"
+"す。"
+
+#: templates/postorius/index.html:114
+msgid "Only admins see unadvertised lists in the list index."
+msgstr ""
+"管理者だけがメーリングリスト一覧で非公開のメーリングリストを見ることができま"
+"す。"
+
+#: templates/postorius/index.html:120
+msgid "There are currently no mailing lists."
+msgstr "現在メーリングリストは存在しません。"
+
+#: templates/postorius/lists/bans.html:8
+msgid "Banned addresses"
+msgstr "ブロックされたアドレス"
+
+#: templates/postorius/lists/confirm_delete.html:13
+msgid "Are you sure you want to permanently delete this list?"
+msgstr "このリストを永久に削除してもよろしいですか?"
+
+#: templates/postorius/lists/confirm_delete.html:14
+msgid "All settings and membership data will be lost!"
+msgstr "すべての設定とメンバーデータは失われます!"
+
+#: templates/postorius/lists/confirm_delete.html:20
+#, python-format
+msgid ""
+"\n"
+"                Delete %(listname)s\n"
+"                "
+msgstr ""
+"\n"
+"                %(listname)s を削除する\n"
+"                "
+
+#: templates/postorius/lists/confirm_remove_role.html:5
+msgid "Confirm remove role"
+msgstr "役割の削除の確認"
+
+#: templates/postorius/lists/confirm_remove_role.html:15
+#, python-format
+msgid "Remove %(address)s as %(role_translated)s?"
+msgstr "%(role_translated)sとして%(address)sを削除しますか?"
+
+#: templates/postorius/lists/confirm_remove_role.html:19
+msgid "Are you sure?"
+msgstr "よろしいですか?"
+
+#: templates/postorius/lists/confirm_remove_role.html:22
+#, python-format
+msgid " Remove %(role_translated)s"
+msgstr " %(role_translated)s を削除"
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:6
+msgid "Unsubscribe all members"
+msgstr "全メンバーの退会"
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:14
+#, python-format
+msgid ""
+"\n"
+"        Warning! This will remove every member from %(listname)s!\n"
+"    "
+msgstr ""
+"\n"
+"        警告! これにより、%(listname)s からすべてのメンバーが退会されます!\n"
+"    "
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:21
+#: templates/postorius/lists/mass_removal.html:17
+#: templates/postorius/lists/members.html:63
+msgid "Remove ALL members"
+msgstr "すべてのメンバーを退会"
+
+#: templates/postorius/lists/confirm_token.html:12
+#, python-format
+msgid ""
+"\n"
+"    Confirm subscription of %(addr)s to %(name)s(%(listid)s):\n"
+"    "
+msgstr ""
+"\n"
+"    %(name)s (%(listid)s) への %(addr)s の参加を確認します:\n"
+"    "
+
+#: templates/postorius/lists/confirm_token.html:16
+#, python-format
+msgid ""
+"\n"
+"    Confirm unsubscription of %(addr)s from %(name)s(%(listid)s):\n"
+"    "
+msgstr ""
+"\n"
+"    %(name)s (%(listid)s) から %(addr)s の退会を確認します:\n"
+"    "
+
+#: templates/postorius/lists/confirm_token.html:20
+#, python-format
+msgid ""
+"\n"
+"    Confirm token %(token)s:\n"
+"    "
+msgstr ""
+"\n"
+"    トークン %(token)s を確認します:\n"
+"    "
+
+#: templates/postorius/lists/header_matches.html:7
+#: templates/postorius/menu/list_nav.html:88
+msgid "Header filters"
+msgstr "ヘッダーフィルター"
+
+#: templates/postorius/lists/header_matches.html:68
+#: templates/postorius/lists/memberoptions.html:20
+#: templates/postorius/lists/memberoptions.html:28
+#: templates/postorius/lists/settings.html:30
+#: templates/postorius/user/list_options.html:28
+#: templates/postorius/user/mailman_settings.html:23
+msgid "Save changes"
+msgstr "変更を保存する"
+
+#: templates/postorius/lists/header_matches.html:70
+msgid "Changes pending, click on the button to save them."
+msgstr ""
+"変更はまだ保存されていません、ボタンをクリックすると変更が保存されます。"
+
+#: templates/postorius/lists/held_messages.html:11
+#: templates/postorius/menu/list_nav.html:42
+msgid "Held messages"
+msgstr "保留メッセージ"
+
+#: templates/postorius/lists/held_messages.html:27
+msgid "Perform action on selected messages"
+msgstr "選択したメッセージに処理を実行する"
+
+#: templates/postorius/lists/held_messages.html:29
+#: templates/postorius/lists/held_messages.html:120
+#: templates/postorius/lists/subscription_requests.html:42
+msgid "Accept"
+msgstr "許可"
+
+#: templates/postorius/lists/held_messages.html:34
+msgid "Click the message's subject for more options."
+msgstr "メッセージの件名をクリックして追加のオプションを設定"
+
+#: templates/postorius/lists/held_messages.html:41
+msgid "Subject"
+msgstr "件名"
+
+#: templates/postorius/lists/held_messages.html:42
+msgid "Sender"
+msgstr "送信者"
+
+#: templates/postorius/lists/held_messages.html:43
+msgid "Reason"
+msgstr "理由"
+
+#: templates/postorius/lists/held_messages.html:44
+msgid "Size"
+msgstr "サイズ"
+
+#: templates/postorius/lists/held_messages.html:45
+msgid "Hold Date"
+msgstr "保留した日"
+
+#: templates/postorius/lists/held_messages.html:57
+#: templates/postorius/lists/held_messages.html:65
+msgid "No Subject"
+msgstr "件名なし"
+
+#: templates/postorius/lists/held_messages.html:95
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#: templates/postorius/lists/held_messages.html:106
+msgid "Set member moderation"
+msgstr "メンバーのモデレーションを設定する"
+
+#: templates/postorius/lists/held_messages.html:112
+msgid "Rejection reason:"
+msgstr "拒否理由:"
+
+#: templates/postorius/lists/held_messages.html:115
+msgid ""
+"Reason sent to the sender for message rejection. For other actions, this is "
+"ignored."
+msgstr ""
+"メッセージ拒否のために送信者に送られる理由。他の処理では、これは無視されま"
+"す。"
+
+#: templates/postorius/lists/held_messages.html:129
+msgid "Show Headers"
+msgstr "ヘッダーを表示する"
+
+#: templates/postorius/lists/held_messages.html:137
+msgid "There are currently no held messages."
+msgstr "現在、保留されているメッセージはありません。"
+
+#: templates/postorius/lists/held_messages.html:144
+msgid "Message could not be retrieved"
+msgstr "メッセージが取得できませんでした"
+
+#: templates/postorius/lists/mass_removal.html:14
+msgid "Remove listed users"
+msgstr "リストアップされたユーザーを退会"
+
+#: templates/postorius/lists/mass_subscribe.html:7
+#: templates/postorius/menu/list_nav.html:79
+#: templates/postorius/menu/list_nav.html:83
+msgid "Mass subscribe"
+msgstr "一括入会"
+
+#: templates/postorius/lists/mass_subscribe.html:16
+msgid "Subscribe users"
+msgstr "一括入会"
+
+#: templates/postorius/lists/memberoptions.html:7
+#: templates/postorius/user/list_options.html:7
+msgid "Member options"
+msgstr "メンバーオプション"
+
+#: templates/postorius/lists/memberoptions.html:15
+msgid "No Preferences Available"
+msgstr "選択不可"
+
+#: templates/postorius/lists/memberoptions.html:16
+msgid "You are not the owner for this list"
+msgstr "あなたはこのメーリングリストのオーナーではありません"
+
+#: templates/postorius/lists/members.html:8
+msgid "List members"
+msgstr "メンバーリスト"
+
+#: templates/postorius/lists/members.html:44
+msgid "Search members..."
+msgstr "メンバー検索…"
+
+#: templates/postorius/lists/members.html:60
+msgid "CSV Export"
+msgstr "CSV エクスポート"
+
+#: templates/postorius/lists/members.html:62
+msgid "Remove Selected"
+msgstr "選択したものを退会"
+
+#: templates/postorius/lists/members.html:78
+#: templates/postorius/user/address_preferences.html:32
+#: templates/postorius/user/manage.html:61
+#: templates/postorius/user/manage.html:97
+msgid "Address"
+msgstr "メールアドレス"
+
+#: templates/postorius/lists/members.html:82
+#: templates/postorius/user/subscriptions.html:24
+msgid "Delivery Mode"
+msgstr "配信形式"
+
+#: templates/postorius/lists/members.html:85
+msgid "Moderation Action"
+msgstr "審査処理"
+
+#: templates/postorius/lists/members.html:90
+msgid "Bounce Score"
+msgstr "バウンススコア"
+
+#: templates/postorius/lists/members.html:116
+msgid "Masked per the user request"
+msgstr "ユーザーリクエストごとにマスク"
+
+#: templates/postorius/lists/new.html:6 templates/postorius/lists/new.html:17
+msgid "Create list"
+msgstr "リストの作成"
+
+#: templates/postorius/lists/new.html:12
+msgid "Create a new list"
+msgstr "新しいメーリングリストを作成する"
+
+#: templates/postorius/lists/pending_confirmations.html:19
+#: templates/postorius/lists/subscription_requests.html:21
+msgid "E-Mail Address"
+msgstr "メールアドレス"
+
+#: templates/postorius/lists/pending_confirmations.html:20
+#: templates/postorius/lists/subscription_requests.html:23
+msgid "Actions"
+msgstr "処理"
+
+#: templates/postorius/lists/pending_confirmations.html:38
+#: templates/postorius/lists/subscription_requests.html:44
+msgid "Ban"
+msgstr "ブロック"
+
+#: templates/postorius/lists/pending_confirmations.html:48
+#: templates/postorius/lists/subscription_requests.html:57
+msgid "There are currently no subscription requests for this list."
+msgstr "現在このメーリングリストへの入会申請はありません。"
+
+#: templates/postorius/lists/settings.html:7
+#: templates/postorius/menu/list_nav.html:72
+msgid "Settings"
+msgstr "設定"
+
+#: templates/postorius/lists/subscription_requests.html:22
+msgid "Date"
+msgstr "日付"
+
+#: templates/postorius/lists/subscription_requests.html:45
+msgid "Rejection reason"
+msgstr "拒否理由"
+
+#: templates/postorius/lists/summary.html:10
+#: templates/postorius/menu/list_nav.html:10
+msgid "Info"
+msgstr "情報"
+
+#: templates/postorius/lists/summary.html:23
+msgid "To contact the list owners, use the following email address:"
+msgstr ""
+"メーリングリストのオーナーに連絡するには次のメールアドレスを使用してください:"
+
+#: templates/postorius/lists/summary.html:29
+msgid "You have to sign in to visit the archives of this list."
+msgstr "このリストのアーカイブを見るにはログインが必要です。"
+
+#: templates/postorius/lists/summary.html:35
+#, python-format
+msgid ""
+"\n"
+"            <a class=\"btn btn-primary\" "
+"href=\"%(hyperkitty_list_url)s\">Archives</a>\n"
+"          "
+msgstr ""
+"\n"
+"            <a class=\"btn btn-primary\" href=\"%(hyperkitty_list_url)s\">"
+"アーカイブ</a>\n"
+"          "
+
+#: templates/postorius/lists/summary.html:47
+#: templates/postorius/lists/summary.html:104
+msgid "Subscription / Unsubscription"
+msgstr "入会 / 退会"
+
+#: templates/postorius/lists/summary.html:52
+#: templates/postorius/user/subscriptions.html:23
+msgid "Subscription Address"
+msgstr "入会者アドレス"
+
+#: templates/postorius/lists/summary.html:55
+#: templates/postorius/user/all.html:37
+msgid "Manage"
+msgstr "管理"
+
+#: templates/postorius/lists/summary.html:56
+#: templates/postorius/lists/summary.html:77
+msgid "Unsubscribe"
+msgstr "退会"
+
+#: templates/postorius/lists/summary.html:63
+#: templates/postorius/user/subscription_preferences.html:49
+msgid "Primary Address"
+msgstr "メインメールアドレス"
+
+#: templates/postorius/lists/summary.html:71
+msgid "Manage Subscription"
+msgstr "入会管理"
+
+#: templates/postorius/lists/summary.html:86
+msgid "Subscribe to this list"
+msgstr "このリストに入会する"
+
+#: templates/postorius/lists/summary.html:88
+#, python-format
+msgid ""
+"\n"
+"                To subscribe you can send an email with 'subscribe' in the "
+"subject to\n"
+"                <a href=\"mailto:%(address)s?"
+"subject=Subscribe\">%(address)s</a>\n"
+"                or use the form below:\n"
+"            "
+msgstr ""
+"\n"
+"                リストに入会するには件名に「subscribe」と書いたメールを\n"
+"                  <a href=\"mailto:%(address)s?"
+"subject=Subscribe\">%(address)s</a>\n"
+"                  に送信するか、あるいは下のフォームを使ってください:\n"
+"            "
+
+#: templates/postorius/lists/summary.html:96
+#: templates/postorius/lists/summary.html:124
+msgid "Subscribe"
+msgstr "入会"
+
+#: templates/postorius/lists/summary.html:100
+msgid ""
+"You have a subscription request pending. If you don't hear back soon, please "
+"contact the list owners."
+msgstr ""
+"入会申請は審査中です。すぐに返信がない場合は、リストオーナーにご連絡くださ"
+"い。"
+
+#: templates/postorius/lists/summary.html:105
+msgid ""
+"\n"
+"        To subscribe or unsubscribe from this list, please sign in first.\n"
+"        If you have not previously signed in, you may need to set up an "
+"account\n"
+"        with the appropriate email address.\n"
+"        "
+msgstr ""
+"\n"
+"        リストに入会あるいは退会するにはまずログインしてください。\n"
+"        ログインしたことがない場合、適切なメールアドレス使って\n"
+"        アカウントを登録する必要があります。\n"
+"        "
+
+#: templates/postorius/lists/summary.html:116
+msgid ""
+"\n"
+"          You can also subscribe without creating an account.\n"
+"          If you wish to do so, please use the form below.\n"
+"          "
+msgstr ""
+"\n"
+"          アカウントを作成しなくてもリストに入会することができます。\n"
+"        そうしたい場合は、下のフォームを使ってください。\n"
+"          "
+
+#: templates/postorius/lists/summary.html:134
+msgid "List metrics"
+msgstr "メトリクスの一覧"
+
+#: templates/postorius/lists/summary.html:136
+msgid "Created at"
+msgstr "作成日"
+
+#: templates/postorius/lists/summary.html:141
+msgid "Last post at"
+msgstr "最終投稿日"
+
+#: templates/postorius/lists/summary.html:150
+msgid "Digest last sent at"
+msgstr "最後にダイジェストが送信された日"
+
+#: templates/postorius/lists/summary.html:159
+msgid "Volume"
+msgstr "巻"
+
+#: templates/postorius/lists/template_delete.html:19
+#, python-format
+msgid ""
+"\n"
+"     Are you sure you want to delete the \"%(name)s\" template\n"
+"     from list \"%(identifier)s\"?\n"
+"     "
+msgstr ""
+"\n"
+"     リスト「%(identifier)s」から「%(name)s」\n"
+"      テンプレートを削除しますか?\n"
+"     "
+
+#: templates/postorius/menu/list_nav.html:14
+msgid "Subscription requests"
+msgstr "入会申請"
+
+#: templates/postorius/menu/list_nav.html:19
+#: templates/postorius/menu/list_nav.html:30
+msgid "Pending Approval"
+msgstr "審査中の入会申請"
+
+#: templates/postorius/menu/list_nav.html:22
+#: templates/postorius/menu/list_nav.html:33
+msgid "Pending Confirmation"
+msgstr "確認中の申請"
+
+#: templates/postorius/menu/list_nav.html:25
+#: templates/postorius/menu/list_nav.html:36
+msgid "Unsubscription Requests"
+msgstr "審査中の退会申請"
+
+#: templates/postorius/menu/list_nav.html:54
+#: templates/postorius/menu/list_nav.html:60
+#: templates/postorius/menu/list_nav.html:67
+msgid "Members"
+msgstr "メンバー"
+
+#: templates/postorius/menu/list_nav.html:55
+#: templates/postorius/menu/list_nav.html:61
+msgid "Non-Members"
+msgstr "非メンバー"
+
+#: templates/postorius/menu/list_nav.html:56
+#: templates/postorius/menu/list_nav.html:62
+msgid "Moderators"
+msgstr "モデレーター"
+
+#: templates/postorius/menu/list_nav.html:76
+msgid "Mass operations"
+msgstr "一括処理"
+
+#: templates/postorius/menu/list_nav.html:80
+#: templates/postorius/menu/list_nav.html:84
+msgid "Mass removal"
+msgstr "一括退会"
+
+#: templates/postorius/menu/list_nav.html:87
+msgid "Ban List"
+msgstr "ブロックリスト"
+
+#: templates/postorius/menu/user_nav.html:4
+msgid "Mailman Settings"
+msgstr "Mailman 設定"
+
+#: templates/postorius/menu/user_nav.html:7
+#: templates/postorius/user/manage.html:49
+#: templates/postorius/user/subscriptions.html:8 templatetags/nav_helpers.py:43
+msgid "Subscriptions"
+msgstr "入会"
+
+#: templates/postorius/menu/user_nav.html:8
+msgid "Global Mailman preferences"
+msgstr "Mailman の全体設定"
+
+#: templates/postorius/menu/user_nav.html:9
+msgid "Address-based preferences"
+msgstr "アドレスごとの設定"
+
+#: templates/postorius/menu/user_nav.html:10
+msgid "List-based preferences"
+msgstr "リストごとの設定"
+
+#: templates/postorius/system_information.html:6
+msgid "System Configuration"
+msgstr "システム設定"
+
+#: templates/postorius/system_information.html:11
+msgid "Mailman System"
+msgstr "Mailman システム"
+
+#: templates/postorius/system_information.html:23
+msgid "Queues"
+msgstr "キュー"
+
+#: templates/postorius/user/address_preferences.html:8
+#: templates/postorius/user/subscription_preferences.html:7
+msgid "Subscription preferences"
+msgstr "入会設定"
+
+#: templates/postorius/user/address_preferences.html:17
+#: templates/postorius/user/mailman_settings.html:17
+#: templates/postorius/user/subscription_preferences.html:17
+msgid "No preferences available"
+msgstr "利用可能な設定はありません"
+
+#: templates/postorius/user/address_preferences.html:18
+#: templates/postorius/user/mailman_settings.html:19
+#: templates/postorius/user/subscription_preferences.html:19
+msgid ""
+"You are not yet subscribed to any lists, so you have no Mailman preferences."
+msgstr ""
+"あなたはまだどのリストにも入会していないので、Mailmanの設定もありません。"
+
+#: templates/postorius/user/address_preferences.html:20
+msgid "Each email address can have specific Mailman preferences."
+msgstr "各メールアドレスは特定の Mailman 設定を持つことができます。"
+
+#: templates/postorius/user/address_preferences.html:21
+msgid ""
+"Any options showing as not set here inherit at runtime from your global "
+"preferences (viewable on other tab)"
+msgstr ""
+"ここで設定されていないと表示されているオプションは、実行時にグローバル環境設"
+"定 (他のタブで表示可能) から継承されます"
+
+#: templates/postorius/user/all.html:20
+msgid "Search"
+msgstr "検索"
+
+#: templates/postorius/user/all.html:35
+msgid "User"
+msgstr "ユーザー"
+
+#: templates/postorius/user/all.html:36
+msgid "Created"
+msgstr "作成"
+
+#: templates/postorius/user/confirm_delete.html:9
+#: templates/postorius/user/confirm_delete.html:13
+#: templates/postorius/user/confirm_delete.html:22
+#: templates/postorius/user/manage.html:141
+msgid "Delete Account"
+msgstr "アカウントを削除"
+
+#: templates/postorius/user/confirm_delete.html:17
+msgid ""
+"Are you sure you want to delete this account? This will remove the account "
+"along with all its subscriptions."
+msgstr ""
+"本当にこのアカウントを削除しますか? これでアカウントとすべての入会が削除され"
+"ます。"
+
+#: templates/postorius/user/list_options.html:14
+msgid "Subscription options for"
+msgstr "メンバーオプション"
+
+#: templates/postorius/user/list_options.html:15
+#: templates/postorius/user/subscription_preferences.html:22
+msgid ""
+"Any options showing as not set inherit at runtime from your global or "
+"address specific preferences (viewable on other tabs)"
+msgstr ""
+"未設定と表示されたオプションは、グローバルまたはアドレス固有の環境設定 (他の"
+"タブで表示可能) から実行時に継承されます"
+
+#: templates/postorius/user/list_options.html:19
+msgid "Use this form to change the email used for this subscription"
+msgstr ""
+"この入会に使用するメールアドレスを変更するには、このフォームを使用してくださ"
+"い"
+
+#: templates/postorius/user/list_options.html:23
+msgid "Change email used for subscription"
+msgstr "入会に使用するメールアドレスを変更する"
+
+#: templates/postorius/user/mailman_settings.html:7
+msgid "Subscription settings"
+msgstr "入会設定"
+
+#: templates/postorius/user/manage.html:8
+msgid "Manage user"
+msgstr "ユーザーの管理"
+
+#: templates/postorius/user/manage.html:18
+msgid "Addresses"
+msgstr "アドレス"
+
+#: templates/postorius/user/manage.html:28
+msgid "Email"
+msgstr "メールアドレス"
+
+#: templates/postorius/user/manage.html:60
+#: templates/postorius/user/manage.html:96
+msgid "List"
+msgstr "リスト"
+
+#: templates/postorius/user/manage.html:62
+#: templates/postorius/user/manage.html:98
+#: templates/postorius/user/subscriptions.html:25
+msgid "Role"
+msgstr "役割"
+
+#: templates/postorius/user/manage.html:85
+msgid "User has no subscriptions."
+msgstr "まだ、どのメーリングリストにも参加していません。"
+
+#: templates/postorius/user/manage.html:88
+msgid "Ownerships"
+msgstr "オーナー"
+
+#: templates/postorius/user/manage.html:111
+msgid "User has no ownerships."
+msgstr "まだ、どのメーリングリストにも参加していません。"
+
+#: templates/postorius/user/manage.html:115
+msgid "Web Account"
+msgstr "ウェブアカウント"
+
+#: templates/postorius/user/manage.html:118
+msgid "Username"
+msgstr "ユーザー名"
+
+#: templates/postorius/user/manage.html:122
+msgid "Superuser"
+msgstr "サイト管理者"
+
+#: templates/postorius/user/manage.html:126
+msgid "Last login"
+msgstr "最後のログイン"
+
+#: templates/postorius/user/manage.html:130
+msgid "Date joined"
+msgstr "加入日"
+
+#: templates/postorius/user/manage.html:135
+#: templates/postorius/user/manage.html:138
+msgid "Change password"
+msgstr "パスワードの変更"
+
+#: templates/postorius/user/subscription_preferences.html:21
+msgid "Each list subscription can have specific Mailman preferences."
+msgstr "各リスト入会は特定のMailman設定を持つことができます。"
+
+#: templates/postorius/user/subscription_preferences.html:32
+msgid "Subscription"
+msgstr "入会"
+
+#: templates/postorius/user/subscriptions.html:17
+msgid "You are subscribed to the following mailing lists:"
+msgstr "以下のメーリングリストに入会しています:"
+
+#: templates/postorius/user/subscriptions.html:41
+msgid "You are not yet subscribed to any lists."
+msgstr "まだリストに入会していません。"
+
+#: templatetags/nav_helpers.py:27
+msgid "Header Filters"
+msgstr "ヘッダーフィルター"
+
+#: templatetags/nav_helpers.py:28
+msgid "Banned Addresses"
+msgstr "ブロックされたアドレス"
+
+#: templatetags/nav_helpers.py:29
+msgid "Delete List"
+msgstr "メーリングリストを削除"
+
+#: templatetags/nav_helpers.py:30
+msgid "Held Messages"
+msgstr "保留メッセージ"
+
+#: templatetags/nav_helpers.py:31
+msgid "Mass Removal"
+msgstr "一括退会"
+
+#: templatetags/nav_helpers.py:32
+msgid "Mass Subscription"
+msgstr "一括入会"
+
+#: templatetags/nav_helpers.py:33
+msgid "Subscription Options"
+msgstr "メンバーオプション"
+
+#: templatetags/nav_helpers.py:34
+msgid "List Settings"
+msgstr "メーリングリスト設定"
+
+#: templatetags/nav_helpers.py:35
+msgid "Summary"
+msgstr "概要"
+
+#: templatetags/nav_helpers.py:37
+msgid "Confirm Removal of All Members"
+msgstr "全メンバー退会の確認"
+
+#: templatetags/nav_helpers.py:40
+msgid "Address-based Settings"
+msgstr "アドレスごとの設定"
+
+#: templatetags/nav_helpers.py:41
+msgid "Subscription Settings"
+msgstr "入会の設定"
+
+#: templatetags/nav_helpers.py:42
+msgid "Global Settings"
+msgstr "全体設定"
+
+#: utils.py:41
+msgid "Mailman REST API not available. Please start Mailman core."
+msgstr "Mailman REST APIが利用できません。Mailman coreを起動してください。"
+
+#: views/domain.py:86
+msgid "New Domain registered"
+msgstr "新しいドメインを登録しました"
+
+#: views/domain.py:127
+#, python-format
+msgid "Domain %s updated"
+msgstr "ドメイン %s を更新しました"
+
+#: views/domain.py:130 views/list.py:1032
+msgid "Please check the errors below"
+msgstr "以下のエラーを確認してください"
+
+#: views/domain.py:154
+#, python-format
+msgid "The domain %s has been deleted."
+msgstr "ドメイン %s を削除しました。"
+
+#: views/domain.py:160
+#, python-format
+msgid "The domain could not be deleted: %s"
+msgstr "ドメインは削除できませんでした: %s"
+
+#: views/domain.py:182
+msgid "Added {} as an owner for {}"
+msgstr "{} のオーナーとして{}を追加しました"
+
+#: views/domain.py:217
+msgid "{} is not an owner for {}"
+msgstr "{}は{}のオーナーではありません"
+
+#: views/domain.py:227
+msgid "Removed {} as an owner for {}"
+msgstr "オーナー {} をドメイン {} から削除しました"
+
+#: views/generic.py:116
+msgid "The email {} has been banned."
+msgstr "メールアドレス {} をブロックしました。"
+
+#: views/generic.py:122 views/generic.py:137 views/list.py:1574
+#, python-format
+msgid "An error occurred: %s"
+msgstr "エラーが発生しました: %s"
+
+#: views/generic.py:125 views/generic.py:139
+#, python-format
+msgid "Invalid data: %s"
+msgstr "無効なデータ: %s"
+
+#: views/generic.py:132
+msgid "The email {} has been un-banned"
+msgstr "メールアドレス {} をブロック解除しました"
+
+#: views/list.py:151
+msgid "List {}s"
+msgstr "リスト{}s"
+
+#: views/list.py:168
+msgid "Add {}"
+msgstr "{}を追加します"
+
+#: views/list.py:171
+msgid "No {}s were found matching the search."
+msgstr "検索に一致する{}は見つかりませんでした。"
+
+#: views/list.py:174
+msgid "List has no {}s"
+msgstr "リストには{}がありません"
+
+#: views/list.py:186
+msgid "The selected members have been unsubscribed"
+msgstr "選択したメンバーを退会しました"
+
+#: views/list.py:207
+#, python-brace-format
+msgid "{email} has been added with the role {role}"
+msgstr "{email} を役割 {role} で追加しました"
+
+#: views/list.py:257
+msgid "Member does not exist"
+msgstr "メンバーが存在しません"
+
+#: views/list.py:283
+msgid "The member's preferences have been updated."
+msgstr "メンバーのオプションを更新しました。"
+
+#: views/list.py:293
+msgid "No change to the member's moderation."
+msgstr "メンバーの審査設定に変更はありません。"
+
+#: views/list.py:309
+msgid "The member's moderation settings have been updated."
+msgstr "メンバーの審査設定を更新しました。"
+
+#: views/list.py:524
+msgid "You are not subscribed to {}."
+msgstr "{} は入会していません。"
+
+#: views/list.py:539
+msgid "You are already subscribed"
+msgstr "すでに入会済みです"
+
+#: views/list.py:551
+msgid "Subscription changed to {}"
+msgstr "入会を {} に変更しました"
+
+#: views/list.py:556
+msgid "Something went wrong. Please try again. {} {}"
+msgstr "何かエラーが発生しました。もう一度お試しください。{} {}"
+
+#: views/list.py:610
+msgid ""
+"Your subscription request has been submitted and is waiting for moderator "
+"approval."
+msgstr "入会申請が送信され、モデレーターの審査待ちとなっています。"
+
+#: views/list.py:618
+#, python-format
+msgid "You are subscribed to %s."
+msgstr "あなたは %s に入会しています。"
+
+#: views/list.py:623 views/list.py:659
+msgid "Something went wrong. Please try again."
+msgstr "何かエラーが発生しました。もう一度お試しください。"
+
+#: views/list.py:655
+msgid "Please check your inbox for further instructions"
+msgstr "詳細はメール受信箱をご確認ください"
+
+#: views/list.py:679
+msgid "You can only unsubscribe yourself."
+msgstr "退会は自分自身でのみ行えます。"
+
+#: views/list.py:685
+msgid ""
+"You have a pending unsubscription request waiting for moderator approval."
+msgstr "モデレーターの審査待ちの退会申請があります。"
+
+#: views/list.py:696
+msgid ""
+"Your unsubscription request has been submitted and is waiting for moderator "
+"approval."
+msgstr "退会申請が送信され、モデレーターの審査待ちとなっています。"
+
+#: views/list.py:704
+#, python-format
+msgid "%s has been unsubscribed from this list."
+msgstr "%s をこのメーリングリストから退会しました。"
+
+#: views/list.py:741
+#, python-format
+msgid "The address %(address)s has been invited to %(list)s."
+msgstr "メールアドレス %(address)s を %(list)s に招待しました。"
+
+#: views/list.py:746
+#, python-format
+msgid "The address %(address)s has been subscribed to %(list)s."
+msgstr "メールアドレス %(address)s が %(list)s に入会しました。"
+
+#: views/list.py:751
+msgid ""
+" Subscription may be pending address verification, confirmation or approval "
+"as appropriate."
+msgstr ""
+" 入会申請は、メールアドレスの検証と入会の確認待ち、または審査待ちになる場合が"
+"あります。"
+
+#: views/list.py:769 views/list.py:839
+#, python-format
+msgid "The email address %s is not valid."
+msgstr "メールアドレス %s は正しくありません。"
+
+#: views/list.py:808
+msgid "Please fill out the form correctly."
+msgstr "フォームに正しくご記入ください。"
+
+#: views/list.py:826
+#, python-brace-format
+msgid "These addresses {address} have been unsubscribed from {list}."
+msgstr "メールアドレス {address} を {list} から退会しました。"
+
+#: views/list.py:861
+msgid "The selected messages were accepted"
+msgstr "選択したメッセージを受理しました"
+
+#: views/list.py:866
+msgid "The selected messages were rejected"
+msgstr "選択したメッセージを拒否しました"
+
+#: views/list.py:871
+msgid "The selected messages were discarded"
+msgstr "選択したメッセージを破棄しました"
+
+#: views/list.py:874
+msgid "Message could not be found"
+msgstr "メッセージが見つかりません"
+
+#: views/list.py:905
+msgid "The message was accepted"
+msgstr "メッセージを承認しました"
+
+#: views/list.py:908
+msgid "The message was rejected"
+msgstr "メッセージを拒否しました"
+
+#: views/list.py:911
+msgid "The message was discarded"
+msgstr "メッセージを破棄しました"
+
+#: views/list.py:914
+msgid "Held message was not found."
+msgstr "保留されたメッセージは見つかりませんでした。"
+
+#: views/list.py:928
+msgid "Moderation action for {} set to {}"
+msgstr "{} の審査処理を {} に設定しました"
+
+#: views/list.py:936
+msgid "Failed to set moderation action for {}"
+msgstr "{} の審査処理を設定できませんでした"
+
+#: views/list.py:988
+msgid "Choose a Domain"
+msgstr "ドメインを選択"
+
+#: views/list.py:1012
+msgid "List created"
+msgstr "メーリングリストを作成しました"
+
+#: views/list.py:1024
+msgid "Mailing List already exists."
+msgstr "メーリングリストが既に存在します。"
+
+#: views/list.py:1204
+msgid "Subscriptions pending user confirmation"
+msgstr "ユーザーの確認待ちの入会申請"
+
+#: views/list.py:1217
+msgid "Subscriptions pending approval"
+msgstr "審査中の入会申請"
+
+#: views/list.py:1230
+msgid "Un-subscriptions pending approval"
+msgstr "審査中の退会申請"
+
+#: views/list.py:1279
+msgid "The request has been accepted."
+msgstr "申請を承認しました。"
+
+#: views/list.py:1280
+msgid "The request has been rejected."
+msgstr "申請を拒否しました。"
+
+#: views/list.py:1281
+msgid "The request has been discarded."
+msgstr "申請を破棄しました。"
+
+#: views/list.py:1282
+msgid "The request has been defered."
+msgstr "申請を保留しました。"
+
+#: views/list.py:1302
+#, python-format
+msgid "The request was already moderated: %s"
+msgstr "申請はすでに処理済みです: %s"
+
+#: views/list.py:1306
+#, python-format
+msgid "The request could not be moderated: %s"
+msgstr "申請を処理できませんでした: %s"
+
+#: views/list.py:1320
+msgid "List Identity"
+msgstr "リスト識別設定"
+
+#: views/list.py:1321
+msgid "Automatic Responses"
+msgstr "自動応答設定"
+
+#: views/list.py:1322
+msgid "Alter Messages"
+msgstr "メッセージ変更"
+
+#: views/list.py:1323
+msgid "DMARC Mitigations"
+msgstr "DMARC 対策"
+
+#: views/list.py:1324
+msgid "Digest"
+msgstr "ダイジェスト"
+
+#: views/list.py:1325
+msgid "Message Acceptance"
+msgstr "メッセージ受付"
+
+#: views/list.py:1326
+msgid "Archiving"
+msgstr "アーカイブ設定"
+
+#: views/list.py:1327
+msgid "Member Policy"
+msgstr "入退会ポリシー"
+
+#: views/list.py:1328
+msgid "Bounce Processing"
+msgstr "バウンス処理"
+
+#: views/list.py:1329
+msgid "Newsgroup Gateway"
+msgstr "ニュースグループゲートウェイ"
+
+#: views/list.py:1397
+msgid "The settings have been updated."
+msgstr "設定を更新しました。"
+
+#: views/list.py:1400
+msgid "An error occurred: "
+msgstr "エラーが発生しました: "
+
+#: views/list.py:1434
+#, python-format
+msgid "The user %(email)s is not in the %(role)s group"
+msgstr "ユーザー %(email)s は %(role)s グループに属していません"
+
+#: views/list.py:1441
+msgid "Removing the last owner is impossible"
+msgstr "最後のオーナーを削除することはできません"
+
+#: views/list.py:1459
+#, python-format
+msgid "The user could not be removed: %(msg)s"
+msgstr "ユーザーを削除できませんでした: %(msg)s"
+
+#: views/list.py:1465
+#, python-format
+msgid "The user %(address)s has been removed from the %(role)s group."
+msgstr "ユーザー %(address)s を %(role)s グループから削除しました。"
+
+#: views/list.py:1486
+msgid "No member is subscribed to the list currently."
+msgstr "現在、メーリングリストに入会しているメンバーはいません。"
+
+#: views/list.py:1499
+msgid "All members have been unsubscribed from the list."
+msgstr "全メンバーがリストから退会しました。"
+
+#: views/list.py:1578
+msgid "The header matches were successfully modified."
+msgstr "ヘッダーの条件を変更しました。"
+
+#: views/list.py:1585
+msgid "New header"
+msgstr "新しいヘッダー"
+
+#: views/list.py:1586
+msgid "New pattern"
+msgstr "新しいパターン"
+
+#: views/list.py:1618
+msgid "Invalid confirmation token"
+msgstr "無効な確認トークン"
+
+#: views/list.py:1628 views/list.py:1644
+msgid "Token expired or invalid."
+msgstr "トークンの有効期限が切れているか、無効です。"
+
+#: views/rest.py:59
+msgid "Message does not exist"
+msgstr "メッセージが存在しません"
+
+#: views/rest.py:106
+msgid "Attachment does not exist"
+msgstr "添付ファイルが存在しません"
+
+#: views/system.py:31
+msgid "Mailman Core Version"
+msgstr "Mailman Core バージョン"
+
+#: views/system.py:32
+msgid "Mailman Core API Version"
+msgstr "Mailman Core API バージョン"
+
+#: views/system.py:33
+msgid "Mailman Core Python Version"
+msgstr "Mailman Core Python バージョン"
+
+#: views/user.py:103
+msgid "Your preferences have been updated."
+msgstr "設定を更新しました。"
+
+#: views/user.py:106
+msgid "Your preferences did not change."
+msgstr "設定は変更されませんでした。"
+
+#: views/user.py:229
+msgid "Subscription does not exist"
+msgstr "入会は存在しません"
+
+#: views/user.py:457
+msgid "Successfully updated addresses {}"
+msgstr "アドレス {} を更新しました"
+
+#: views/user.py:471
+msgid "Successfully updated memberships for {}"
+msgstr "{} のメンバーシップを更新しました"
+
+#: views/user.py:480
+msgid "Successfully updated user."
+msgstr "ユーザーを更新しました。"
+
+#: views/user.py:490
+msgid "Password updated successfully"
+msgstr "パスワードを更新しました"
+
+#: views/user.py:528
+msgid "Successfully deleted account"
+msgstr "アカウントを削除しました"
