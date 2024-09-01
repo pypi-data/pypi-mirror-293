@@ -1,0 +1,14 @@
+toolspec/__init__.py,sha256=mWWnCROo-yfzqwW79VnSy8s0S9Tt0ZAT6EzcEzgODkQ,153
+toolspec/agent.lst,sha256=hRCrGu3MbqRymjH5mOGYmvr1oELSSUyVMqMpHwEVcB0,2079
+toolspec/binning.py,sha256=c7ge_OcN7jH784JekVVVuBr4t5YQHffc7NZoParcEg4,19811
+toolspec/fitting.py,sha256=aE-bqqHsVCUfqIkhb3Fv31YOwO6ATZRfPfcrIX41rTo,25893
+toolspec/ini.cfg,sha256=No1q0xPBUjN-6AkbL0JvOPipPVFDiYoP5u6bp444_FU,258
+toolspec/measure.py,sha256=c5s_-49FB_lEewT1Awx34TB-KbnNjePJ8y8PIsKrtX8,3174
+toolspec/mining.py,sha256=qsd9Z6URhtgpoA5VWMjDgGv2gGFlXEJ4IItJ3CtlJVI,13502
+toolspec/scorecard.py,sha256=JWwo6njgSCGH9uH8Up3SwnoSF2wtWbKp5JB9pVJkTAU,6331
+toolspec/service.py,sha256=Am8cSFWBRk9-iYl8cInvc8oR9y8RnTldsMfkDrPayYw,9077
+toolspec/util.py,sha256=NQnHC2zQw8cB1XHr0qG6avDdZNnbcaM8EXvaIc3ZUb4,6413
+toolspec-0.0.7.dist-info/METADATA,sha256=eovhDsQtYHqzX3y9Xi9MW_4MzScLuXFxINPOm5EAbCc,678
+toolspec-0.0.7.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+toolspec-0.0.7.dist-info/licenses/LICENSE,sha256=3w8mAAiJ18Oe_XbzP5jw-l67Zviu9Lp6oCYAB8zSZGM,1069
+toolspec-0.0.7.dist-info/RECORD,,
