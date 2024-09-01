@@ -1,0 +1,73 @@
+[project]
+name = "fast-version"
+description = "Fastapi versioning package with accept header"
+authors = [
+    { email = "me@shiriev.ru" },
+    { name = "Artur Shiriev"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4"
+license = "MIT"
+keywords = ["fastapi", "versioning", "accept-header"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Natural Language :: English",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Typing :: Typed",
+]
+dynamic = ["version"]
+dependencies = [
+    "fastapi>=0.100",
+]
+packages = [
+    { include = "fast_version" },
+]
+
+[project.urls]
+repository = "https://github.com/modern-python/fast-version"
+
+[tool.uv]
+dev-dependencies = [
+    "httpx",
+    "pytest",
+    "pytest-cov",
+    "pytest-asyncio",
+    "ruff",
+    "mypy",
+]
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D1", # allow missing docstrings
+    "S101", # allow asserts
+    "TCH", # ignore flake8-type-checking
+    "FBT", # allow boolean args
+    "ANN101", # missing-type-self
+    "D203", # "one-blank-line-before-class" conflicting with D211
+    "D213", # "multi-line-summary-second-line" conflicting with D212
+    "COM812", # flake8-commas "Trailing comma missing"
+    "ISC001", # flake8-implicit-str-concat
+]
+isort.lines-after-imports = 2
+isort.no-lines-before = ["standard-library", "local-folder"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=. --cov-report term-missing"
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
