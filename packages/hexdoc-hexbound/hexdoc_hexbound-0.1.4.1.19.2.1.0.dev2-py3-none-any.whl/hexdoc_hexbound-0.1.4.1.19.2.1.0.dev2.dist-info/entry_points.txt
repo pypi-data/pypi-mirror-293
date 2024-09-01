@@ -1,0 +1,2 @@
+[hexdoc]
+hexbound = hexdoc_hexbound._hooks:HexboundPlugin
