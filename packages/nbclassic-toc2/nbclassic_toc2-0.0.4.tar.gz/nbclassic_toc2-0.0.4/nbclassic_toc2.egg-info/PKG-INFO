@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nbclassic-toc2
+Version: 0.0.4
+Summary: Collect all running headers and display them in a floating window, as a sidebar or with a navigation menu
+Home-page: https://github.com/AnswerDotAI/nbclassic-toc2
+Author: Nbextensions team
+Author-email: info@fast.ai
+License: Apache Software License 2.0
+Keywords: notebook
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: packaging
+
+# nbclassic-toc2
+Collect all running headers and display them in a floating window, as a sidebar or with a navigation menu
