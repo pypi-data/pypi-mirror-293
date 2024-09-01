@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: payloader
+Version: 0.1.0
+Summary: A simple HTTP client for making GET and POST requests
+Author: samhuelt
+Requires-Python: >=3.6
+
