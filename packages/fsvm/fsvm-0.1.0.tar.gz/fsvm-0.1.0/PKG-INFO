@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fsvm
+Version: 0.1.0
+Summary: A scikit-learn compatible Fuzzy Support Vector Machine implementation.
+Author: Jakub Baliński
+Project-URL: Homepage, https://github.com/balins/fsvm
+Project-URL: Documentation, https://balins.github.io/fsvm
+Project-URL: Issues, https://github.com/balins/fsvm/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn>=1.4.2
+Requires-Dist: numpy>=2.1
+
+fsvm - A Fuzzy Support Vector Machine implementation for Python
+============================================================
+
+![tests](https://github.com/balins/fsvm/actions/workflows/python-app.yml/badge.svg)
+[![codecov](https://codecov.io/gh/balins/fsvm/graph/badge.svg?token=L0XPWwoPLw)](https://codecov.io/gh/balins/fsvm)
+![doc](https://github.com/balins/fsvm/actions/workflows/deploy-gh-pages.yml/badge.svg)
+
+`fsvm.FuzzySVC` is a Python module implementing fuzzy support vector machine classifier.
+Its API is fully compatible with scikit-learn.
