@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: playatanu
+Version: 0.0.1
+Summary: machine learning toolkit
+Home-page: https://github.com/playatanu/py-playatanu
+Author: Atanu Debnath
+Author-email: playatanu@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+ANet7
+
+Change Log
+-------------------
+0.0.1 (01/01/2024)
+-------------------
+- First Release
