@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: python-coupang
+Version: 0.1.2
+Summary: A Python client for the Coupang API
+Author: Chris Han
+License: MIT License
+        
+        Copyright (c) 2024 Chris Han
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/christopherhan/python-coupang
+Keywords: coupang,api,client
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
+Requires-Dist: pytest>=6.2.3
+Requires-Dist: python-dotenv>=0.19.0
+
+# PyCoupang
+
+PyCoupang is a Python client library for the Coupang WING API. It provides a simple interface to interact with Coupang's API endpoints.
+
+## Installation
+
+Install PyCoupang using pip:
+
+```bash
+pip install python-coupang
+```
+
+## Usage
+
+To use the PyCoupang library, you need to set up your environment with the necessary credentials. You can get these credentials by registering an application on the [Coupang Developer Portal](https://developers.coupangcorp.com/hc/ko/articles/20288952179993-OpenAPI-Key-%EB%B0%9C%EA%B8%89%EB%B0%9B%EA%B8%B0).
+
+Once you have your credentials, you can set them as environment variables:
+
+```bash
+export COUPANG_ACCESS_KEY=<your_access_key>
+export COUPANG_SECRET_KEY=<your_secret_key>
+export COUPANG_VENDOR_ID=<your_vendor_id>
+```
+
+Alternatively, you can create a `.env` file in your project root with these variables:
+
+```bash
+COUPANG_ACCESS_KEY=<your_access_key>
+COUPANG_SECRET_KEY=<your_secret_key>
+COUPANG_VENDOR_ID=<your_vendor_id>
+```
+
+
+Then, you can use the library in your Python code:
+
+
+```python
+import os
+from dotenv import load_dotenv
+from pycoupang.client import CoupangClient
+
+# Optionally load environment variables if using .env file
+load_dotenv()
+
+client = CoupangClient(
+    access_key=os.getenv('COUPANG_ACCESS_KEY'),
+    secret_key=os.getenv('COUPANG_SECRET_KEY'),
+    vendor_id=os.getenv('COUPANG_VENDOR_ID')
+)
+# list products
+response = client.products.list_products(vendor_id=os.getenv('COUPANG_VENDOR_ID'))
+
+# get a specific product
+response = client.products.get("product_id")
+
+# create a new product
+new_product_data = {
+    # Your product data here
+}
+response = client.products.create(new_product_data)
+```
+
