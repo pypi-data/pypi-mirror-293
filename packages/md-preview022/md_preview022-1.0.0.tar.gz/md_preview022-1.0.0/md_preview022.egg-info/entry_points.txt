@@ -1,0 +1,3 @@
+[console_scripts]
+mdm = mdm.mdm:main
+
