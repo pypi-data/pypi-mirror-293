@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: pygamepal
+Version: 0.9.1
+Summary: A library of classes and helper functions to support game development in Pygame
+Project-URL: Homepage, https://github.com/rik-cross/pygamepal
+Project-URL: Suggestions and bugs, https://github.com/rik-cross/pygamepal/issues
+Author-email: Rik Cross <rik.j.cross@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PygamePal
+
+A library of classes and functions to support game development in Pygame.
+- Simple, beginner-friendly interface.
+- Choose the bits you want to use, and continue to use Pygame for everything else!
+
+### Usage
+
+- Install: `pip install pygamepal`, or
+- Install from local source: `pip install -e [repo path]`
+
+[Add suggestions and bugs here!](https://github.com/rik-cross/pygamepal/issues)
+
+### Getting started
+
+- See the [Documentation](https://pygamepal.readthedocs.io/en/latest/) on readthedocs.org.
+- See the simple [examples](examples/) of functionality used (mostly) individually.
+- See the [Full example](examples/fullExample.py), using lots of PygamePal functionality.
+
+### Licence
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
