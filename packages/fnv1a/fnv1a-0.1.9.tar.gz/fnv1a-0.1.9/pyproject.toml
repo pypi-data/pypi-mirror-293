@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fnv1a"
+version = "0.1.9"
+authors = [
+  { name="plasticuproject", email="plasticuproject@pm.me" },
+]
+description = "64 bit Fnv-1a hash module."
+readme = "README.md"
+keywords = [
+    "fnv", "fnv1a", "64 bit", "hash"]
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta", "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/plasticuproject/fnv1a"
