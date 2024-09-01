@@ -1,0 +1,11 @@
+google_photos_library_api/__init__.py,sha256=W-MQLuefgSvKA6_SHHg9JmWfoetwrhvoA3fFXJ9P4Yc,103
+google_photos_library_api/api.py,sha256=oymU0BCeTQlzpUJVYm0Rjn917m3Aqg74-TlnLeNRoT8,4825
+google_photos_library_api/auth.py,sha256=NEP3si-KLtzYc5hhDjiPoPYL-KblJkcy2C-Uq5pYrZs,5576
+google_photos_library_api/const.py,sha256=heS0rqipVAAw6w0-OD3uCSWf49ABy-OJz4st22xV3Xs,105
+google_photos_library_api/exceptions.py,sha256=VHWjRnP6byFpfWq6wM8VRIaKWQrcn-EpyTewZxMLGyk,556
+google_photos_library_api/model.py,sha256=bhUJTf-Ke6DlDY8T7mo7gQ9CtAJkJuKjoT00sQEk-KA,7802
+google_photos_library_api-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+google_photos_library_api-0.1.1.dist-info/METADATA,sha256=bim2YuaBMDyBEfFV1G3O3Q1g0M2N-3oCoz3VDNsjyY4,1776
+google_photos_library_api-0.1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+google_photos_library_api-0.1.1.dist-info/top_level.txt,sha256=OEab5-nl-kuWWaanZR47ACO5ljFe6ycH32zXbFOBhNw,26
+google_photos_library_api-0.1.1.dist-info/RECORD,,
