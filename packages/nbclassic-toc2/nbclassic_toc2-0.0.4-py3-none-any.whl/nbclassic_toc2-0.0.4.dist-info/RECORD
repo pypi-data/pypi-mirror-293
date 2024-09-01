@@ -1,0 +1,12 @@
+nbclassic_toc2-0.0.4.data/data/etc/jupyter/nbconfig/notebook.d/toc2.json,sha256=OBnx0GFxbhhDDTQ9AibuBkDblA0RskB7M1deTK5t7tg,53
+nbclassic_toc2-0.0.4.data/data/share/jupyter/nbextensions/toc2/main.css,sha256=Zx7BkZ8BkPCJBXAfUKebdsGX9YJeXKSfUt82SNOshVM,3750
+nbclassic_toc2-0.0.4.data/data/share/jupyter/nbextensions/toc2/main.js,sha256=TwzguuR1S_6vDzX8YBnlmweOWvYNAKVtmeEtIITyk6M,8131
+nbclassic_toc2-0.0.4.data/data/share/jupyter/nbextensions/toc2/toc2.js,sha256=s7mpI38vUvhDyKqG3OTmaZh_jOO6GYEzghhhH0EHkn8,33755
+static/toc2/main.css,sha256=Zx7BkZ8BkPCJBXAfUKebdsGX9YJeXKSfUt82SNOshVM,3750
+static/toc2/main.js,sha256=TwzguuR1S_6vDzX8YBnlmweOWvYNAKVtmeEtIITyk6M,8131
+static/toc2/toc2.js,sha256=s7mpI38vUvhDyKqG3OTmaZh_jOO6GYEzghhhH0EHkn8,33755
+nbclassic_toc2-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nbclassic_toc2-0.0.4.dist-info/METADATA,sha256=IpICvm9qY4woTmiFLVv5Q8Q5jmm8VjDdflLQfUZA_kI,933
+nbclassic_toc2-0.0.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+nbclassic_toc2-0.0.4.dist-info/top_level.txt,sha256=ZSyr8N5s1w9m9ysX1kCSA7hJCb6YZCYf62FJQ_LmzGI,7
+nbclassic_toc2-0.0.4.dist-info/RECORD,,
