@@ -1,0 +1,15 @@
+taskmate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskmate/config.py,sha256=M_xWJj2Ev4P67RuAxZHN_wx0r_nkURD8D5-GbS5G2Lg,933
+taskmate/models.py,sha256=twAfa6k9Ez5yvjjuT-8KI2COKUKUSmtNc-55v57pdko,1084
+taskmate/storage.py,sha256=vRnE8cX161zSfVWIAJp4BGLbkZbjbSDkO63Jw_c4Be8,1302
+taskmate/tui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskmate/tui/edit.py,sha256=knzqTuap9EsJ84S0RYTSINR9CYe9XzdZzPs8GqAEqX4,2042
+taskmate/tui/main.py,sha256=2x2ZRiioxARwLFIqgpBVM955_fr_vs0qYAObBrYvkPI,3457
+taskmate/tui/taskapp.tcss,sha256=pdFOAS51CfbPcOF7MLPQG_u4M1Hbr59pNRsHuz2ub-s,590
+taskmate/tui/taskwidget.py,sha256=2sFVoR26XC2dH1ZqYaTKYJF-y1TKO86HlsS_HtF5_M0,657
+taskmate-0.1.0.dist-info/LICENCE.txt,sha256=TwiultY3MlLvptPrNFE-CM-66IIOddBAUTjFV56NduQ,1068
+taskmate-0.1.0.dist-info/METADATA,sha256=aAD6MLiEn-Ykb_e_kZ0DZBctFftghU2Zb-iVZBTIIyM,688
+taskmate-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+taskmate-0.1.0.dist-info/entry_points.txt,sha256=39-Nq6-Wpmk88x6VINqv0mS4yO8RBMm8WC6LG_XUxkk,46
+taskmate-0.1.0.dist-info/top_level.txt,sha256=dfScoDy1Cxmgil-QDH4d-KV3dvu_9bbdctCLWcXMMRs,9
+taskmate-0.1.0.dist-info/RECORD,,

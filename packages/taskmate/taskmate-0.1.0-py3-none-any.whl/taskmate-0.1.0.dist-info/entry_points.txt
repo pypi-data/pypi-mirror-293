@@ -1,0 +1,2 @@
+[console_scripts]
+tm = taskmate.tui.main:main
