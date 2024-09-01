@@ -1,0 +1,15 @@
+license
+setup.py
+geekros/__init__.py
+geekros.egg-info/PKG-INFO
+geekros.egg-info/SOURCES.txt
+geekros.egg-info/dependency_links.txt
+geekros.egg-info/requires.txt
+geekros.egg-info/top_level.txt
+geekros/hardware/__init__.py
+geekros/hardware/microphone/__init__.py
+geekros/hardware/speaker/__init__.py
+geekros/package/__init__.py
+geekros/package/detection/__init__.py
+geekros/utils/__init__.py
+geekros/utils/loging/__init__.py
