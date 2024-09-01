@@ -1,0 +1,11 @@
+jax
+jaxtyping
+jax-tqdm
+optax
+jaxopt
+numpy
+scipy
+matplotlib
+pytest
+
+[dev]
