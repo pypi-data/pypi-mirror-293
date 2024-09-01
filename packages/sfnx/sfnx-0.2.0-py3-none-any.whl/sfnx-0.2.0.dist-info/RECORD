@@ -1,0 +1,10 @@
+sfnx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sfnx/db.py,sha256=NL7rBK_yW7aHGnZjgtJAhgWmTTVfpQs_5RQtB7NMvhE,6792
+sfnx/main.py,sha256=9Dum5NJWs6URz97M8DIwyUR5AIZgimygHQeWOwaFbCk,6987
+sfnx/security.py,sha256=ht0a7VkUDka97SLO5kyY_2dT987owZ_ZY9aAywiT5Hw,2083
+sfnx-0.2.0.dist-info/LICENSE,sha256=cj22hzFzu7sUUhsOKi1cHeMz0pTajIvIK7ok-Gz-PZ8,1053
+sfnx-0.2.0.dist-info/METADATA,sha256=3LZ9fQCn6E2XP3BsVmcfULE9VCK7pgKCoeIJWCfy99s,5019
+sfnx-0.2.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+sfnx-0.2.0.dist-info/entry_points.txt,sha256=SBlyBgnOH4IA1MifEBTx5zIb6G5ABC-sI0cEQRMsHd4,39
+sfnx-0.2.0.dist-info/top_level.txt,sha256=0Sciqx6S0ZSYspbwirpI9vkPiGKBNbyTvOdb-ecmDUk,5
+sfnx-0.2.0.dist-info/RECORD,,
