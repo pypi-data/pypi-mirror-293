@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: valdac
+Version: 0.1.0
+Summary: 
+Author: Rama Krishna Reddy Gade
+Author-email: you@example.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beartype (>=0.18.5,<0.19.0)
+Requires-Dist: dataclasses-json (>=0.6.7,<0.7.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# valdac
