@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+reimport/__init__.py
+reimport/_reimport.py
+reimport_ng.egg-info/PKG-INFO
+reimport_ng.egg-info/SOURCES.txt
+reimport_ng.egg-info/dependency_links.txt
+reimport_ng.egg-info/top_level.txt
+tests/test_callback.py
+tests/test_class.py
+tests/test_failpkg.py
+tests/test_pkg.py
