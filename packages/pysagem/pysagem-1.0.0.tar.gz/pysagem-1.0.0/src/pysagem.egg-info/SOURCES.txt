@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/pysagem/__init__.py
+src/pysagem/animation.py
+src/pysagem/cli.py
+src/pysagem/events.py
+src/pysagem/main.py
+src/pysagem/plotstyle.mplstyle
+src/pysagem/utils.py
+src/pysagem.egg-info/PKG-INFO
+src/pysagem.egg-info/SOURCES.txt
+src/pysagem.egg-info/dependency_links.txt
+src/pysagem.egg-info/entry_points.txt
+src/pysagem.egg-info/requires.txt
+src/pysagem.egg-info/top_level.txt

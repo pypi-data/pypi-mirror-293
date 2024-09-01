@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysagem"
+version = "1.0.0"
+authors = [
+  { name="Igor Felipe", email="igorafelipe@gmail.com" },
+]
+description = "Simulate and visualize biological invasions in dynamic landscapes"
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy",
+    "scipy",
+    "numba",
+    "matplotlib",
+    "palettable",
+    "alive_progress<2.2",
+]
+
+requires-python = ">=3.8, <3.12"
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'Operating System :: OS Independent'
+]
+
+[project.urls]
+Homepage = "https://github.com/iafelipe/pysagem"
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+
+[project.scripts]
+pysagem = "pysagem.main:main"
