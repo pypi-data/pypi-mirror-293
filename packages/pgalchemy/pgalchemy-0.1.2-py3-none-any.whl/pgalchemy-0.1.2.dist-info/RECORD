@@ -1,0 +1,14 @@
+LICENSE,sha256=pIXLv2M9EMNMwAFnciYtA3QHesUg-LxXn8WobOzb38c,1071
+README.md,sha256=nUJJ-CZw2buUk9zCnNvnNPUnI7lZKWFqVghn4WmKNpg,2805
+pgalchemy/__init__.py,sha256=SYrkpnLpdXqdKl6iAGMybog8imY2geONBE9j1luumsA,100
+pgalchemy/alembic/__init__.py,sha256=f94q0oxmEXsKjqMPXuGtEapfKaQfAKBTFakcn1SOnDg,121
+pgalchemy/alembic/comparator.py,sha256=9VpNlB3KrzIYYTthepmhD2pqa0HVoT2jvGt78lidvps,1458
+pgalchemy/alembic/operations/__init__.py,sha256=hMqn71rr-BvT_fiOxZHeIWcvOTyJWK88g2dAS7LooUk,42
+pgalchemy/alembic/operations/rls.py,sha256=_qpb-hmq-Qm3I-NFVtzfNg1RSA1c6NXB1UPLFjNoXnA,1911
+pgalchemy/policy.py,sha256=Jp43E7SVuc7tj2whtx4kpw9g7Ro-JDfHjl9uCKfAHAY,1078
+pgalchemy/policy_sql.py,sha256=CPzG1ZJHYQ3r6Y69Wl9DIVYxlQw9T2idonfx9gPaRkI,1748
+pgalchemy/sqlalchemy.py,sha256=ImWjrFCtG0LYWLc7YtgD1_UbWMr6B145Q56hIDqj6Ww,1881
+pgalchemy-0.1.2.dist-info/LICENSE,sha256=pIXLv2M9EMNMwAFnciYtA3QHesUg-LxXn8WobOzb38c,1071
+pgalchemy-0.1.2.dist-info/METADATA,sha256=GORraUPUplSdktD7PelxhOJohr6s97Cabj0h0QCIEr4,3277
+pgalchemy-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pgalchemy-0.1.2.dist-info/RECORD,,
