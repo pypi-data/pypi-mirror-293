@@ -1,0 +1,32 @@
+[project]
+name = "cpp-meraki"
+version = "0.5.2"
+description =  "C/C++ implementation of Meraki - the Telestai Proof of Work algorithm"
+requires-python = ">=3.8"
+license = {text = "Apache-2.0"}
+authors = [
+    { name = "Ahmed Bodiwala", email = "admin@multicoin.co" },
+]
+classifiers = [
+    'License :: OSI Approved :: Apache Software License',
+    'Programming Language :: C',
+    'Programming Language :: C++',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7'
+]
+readme = "README.md"
+
+[build-system]
+requires = [
+    'setuptools<74',
+    'wheel'
+]
+build-backend = "setuptools.build_meta"
+
+[tool.cibuildwheel]
+skip = "pp*"
+
+[tool.cibuildwheel.macos.environment]
+MACOSX_DEPLOYMENT_TARGET = "10.9"  # required for full C++11 support
