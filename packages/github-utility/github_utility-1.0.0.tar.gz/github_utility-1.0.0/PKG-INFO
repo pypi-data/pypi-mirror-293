@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: github-utility
+Version: 1.0.0
+Summary: A simple Python package for interacting with the GitHub API.
+Author: Shivam Patil
+Author-email: sbpatil5606@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# github-utility
+
+A simple Python package for interacting with the GitHub API.
+
+## Installation
+
+```bash
+pip install github-utility
+```
+
+## Usage
+### Script Based
+```python
+from github_utils import GitHubAPI
+
+# Set your GitHub access token
+access_token = "YOUR_ACCESS_TOKEN"
+
+github_api = GitHubAPI(access_token)
+
+# Get user information
+user_data = github_api.get_user("shivampatil5606")
+print(user_data)
+
+# Create a new issue
+issue_data = github_api.create_issue(
+    owner="owner",
+    repo="repo",
+    title="Test Issue",
+    body="This is a test issue."
+)
+print(issue_data)
+```
+
+### CLI Based
+```bash
+export GITHUB_ACCESS_TOKEN="YOUR_ACCESS_TOKEN"
+
+# To get the user details
+github-utility get-user --username <username>
+
+# To create an issue on GitHub
+github-utility create-issue -o <repo-owner> -r <repo-name> -t <issue-title> -b <issue-body>
+
+```
+

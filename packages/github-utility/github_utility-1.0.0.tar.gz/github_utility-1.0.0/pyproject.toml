@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "github-utility"
+version = "1.0.0"
+description = "A simple Python package for interacting with the GitHub API."
+authors = ["Shivam Patil <sbpatil5606@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+ruff = "^0.6.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+github-utility = "github_utility.cli:main"
+
+
+[tool.ruff]
+target-version = "py38"
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    # pyflakes
+    "F",
+    # pycodestyle
+    "E", "W",
+    # pydocstyle
+    "D2", "D3", "D4",
+    # isort
+    "I",
+    # pep8-naming
+    "N",
+    # pyupgrade
+    "UP",
+    # flake8-2020
+    "YTT",
+    # flake8-bugbear
+    "B",
+    # flake8-comprehensions
+    "C4",
+    # flake8-executable
+    "EXE",
+    # flake8-implicit-str-concat
+    "ISC",
+    # flake8-pyi
+    "PYI",
+    # flake8-return
+    "RET",
+    # flake8-simplify
+    "SIM",
+    # mccabe
+    "C90",
+    # eradicate
+    "ERA",
+    # pylint
+    "PLC", "PLE", "PIE",
+    # tidy imports
+    "TID",
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
