@@ -1,0 +1,9 @@
+libsgd/__init__.py,sha256=jZf2SP8wL4yUC48TuuMkLrEWEuVFo6S903kxIPQ8oH8,33
+libsgd/_sgd.py,sha256=yV3kmRrhPOLOPrfs_3tlFz0LsF9Mcu3DqZM4MY6yEaU,538
+libsgd/sgd.py,sha256=11RJBlezbxuUuN--0AcgloeLQel-tL2J7pj6Zz94_Pc,35566
+libsgd/libs/py38/_sgd.pyd,sha256=F8XbE03B9fte8yFRxxFGcGksFJHWUM_YdFXTdNy8RYo,12113408
+libsgd-0.13.9.dist-info/LICENSE,sha256=ApLbtSq20XrbdHqvce_UnodfC-vk9igEWvKHetxZ5b8,867
+libsgd-0.13.9.dist-info/METADATA,sha256=NOqU4SmshsJqHcgQZ8PrBFqO22asb7wz1Jkrn3V5QS0,648
+libsgd-0.13.9.dist-info/WHEEL,sha256=XlWm58-wLF8kCjJ0V-baAp4duFlhZEUPGoNhRz4D0G4,99
+libsgd-0.13.9.dist-info/top_level.txt,sha256=S9PyJ-tGYDXLXOHiymA3T0oFq2lmxWpxNd0feLzrSWE,7
+libsgd-0.13.9.dist-info/RECORD,,
