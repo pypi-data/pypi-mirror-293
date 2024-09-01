@@ -1,0 +1,23 @@
+from ...._utils import ANSICodeBase
+
+SWAPCOLOR = ANSICodeBase(7)
+BLACK = ANSICodeBase(40)
+RED = ANSICodeBase(41)
+GREEN = ANSICodeBase(42)
+YELLOW = ANSICodeBase(43)
+BLUE = ANSICodeBase(44)
+MAGENTA = ANSICodeBase(45)
+CYAN = ANSICodeBase(46)
+WHITE = ANSICodeBase(47)
+DEFAULT = ANSICodeBase(49)
+LBLACK = ANSICodeBase(100)
+LRED = ANSICodeBase(101)
+LGREEN = ANSICodeBase(102)
+LYELLOW = ANSICodeBase(103)
+LBLUE = ANSICodeBase(104)
+LMAGENTA = ANSICodeBase(105)
+LCYAN = ANSICodeBase(106)
+LWHITE = ANSICodeBase(107)
+
+RESET = ANSICodeBase(0)
+BGRESET = ANSICodeBase(49)
