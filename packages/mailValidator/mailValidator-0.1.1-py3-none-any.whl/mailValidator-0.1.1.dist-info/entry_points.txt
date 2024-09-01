@@ -1,0 +1,2 @@
+[console_scripts]
+mailValidator = mailValidator.terminalScript.script_console:main

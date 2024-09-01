@@ -1,0 +1,18 @@
+Custom License for "mailValidator"
+
+Copyright (c) 2024 Anu T
+
+This software is currently in development and is provided for testing and evaluation purposes only. 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use the Software
+within their code, subject to the following conditions:
+
+1. The Software may not be copied or modified in any form or for any purpose.
+2. The Software may not be distributed, sublicensed, or sold to others.
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+Please note that this license is temporary and a more comprehensive license will be provided in the future.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

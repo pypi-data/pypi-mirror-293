@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: mailValidator
+Version: 0.1.1
+Summary: A package to verify email addresses by checking DNS records and SMTP servers.
+Author: Anu T
+Author-email: mail2packagehandler@gmail.com
+Maintainer: Anu T
+Maintainer-email: mail2packagehandler@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: dnspython>=2.0.0
+Requires-Dist: python-dotenv>=0.21.0
+Requires-Dist: xlsxwriter>=1.3.0
+
+# mailValidator
+
+**Version:** 0.1.1
+
+## Description
+
+`mailValidator` is a Python package designed to verify email addresses by checking DNS records and SMTP servers. It provides a reliable way to validate email addresses without sending actual emails. This package is currently in the testing stage, so it is not recommended for production or development environments.
+
+## Features
+
+- **DNS Verification:** Confirms the existence of the email domain by checking DNS records.
+- **SMTP Verification:** Validates email addresses by connecting to the SMTP server without sending any email.
+- **Logging:** Captures and logs the validation process and results for easy debugging and tracking.
+
+## Installation
+
+To install `mailValidator`, use pip:
+
+```bash
+pip install mailValidator
+
+```
+
+## Usage
+
+### Command-Line Usage:
+
+You can use mailValidator directly from the command line to validate email addresses.
+
+```bash
+mailValidator --emails emails.txt --output results.txt
+
+```
+
+- **--emails:** Specifies the path to a .txt file containing email addresses.
+
+    ```bash
+        mail2Valid@gmail.com
+        test1@examples.com
+        test2@examples.com
+        mail2Valid@catchall.com
+        kadip70201@invalid.com
+    ```
+- **--output:** Specifies the path to save the results (.txt or .xlsx format).
+
+    ```bash
+        Success (200)
+        ---------------
+        mail2Valid@gmail.com: Valid email
+
+        Domain is a catch-all (201)
+        -----------------------------
+        mail2Valid@catchall.com: Valid email but domain is a catch-all.
+
+        Client Errors (400)
+        ---------------------
+        test1@examples.com: Invalid email: The mailbox is unavailable
+        test2@examples.com: Invalid email: The mailbox is unavailable
+
+        Not Found (404)
+        -----------------
+        kadip70201@invalid.com: MX record or domain details not found.
+
+    ```
+
+## Programmatic Usage
+
+You can also use mailValidator programmatically within your Python code:
+
+```bash
+from mailValidator.email_utils import verify_email
+
+email = "example@example.com"
+result = verify_email(email)
+print(result)
+
+```
+
+## License:
+
+```bash
+Custom License for "mailValidator"
+
+Copyright (c) 2024 Anu T
+
+**This software is currently in development and is provided for testing and evaluation purposes only. **
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use the Software
+within their code, subject to the following conditions:
+
+1. The Software may not be copied or modified in any form or for any purpose.
+2. The Software may not be distributed, sublicensed, or sold to others.
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+Please note that this license is temporary and a more comprehensive license will be provided in the future.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+```
+
+
+
+
+### `CHANGELOG.md`
+
+```markdown
+# Changelog
+
+## [0.1.1] - 01-09-2024
+### Added
+- Initial release of the `mailValidator` package.
+- Added DNS and SMTP email verification functionality.
+- Command-line interface for email validation.
+- Logging for email validation processes.
+- Output support for `.txt` and `.xlsx` formats.
+
+## [0.1.0] - 31-08-2024
+### Added
+- Initial testing version of the package released.
