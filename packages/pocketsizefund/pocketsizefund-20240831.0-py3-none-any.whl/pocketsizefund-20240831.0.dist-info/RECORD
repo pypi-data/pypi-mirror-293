@@ -1,0 +1,9 @@
+pocketsizefund/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pocketsizefund/config.py,sha256=kdWn3VAqfdqXVQmUwYNzfLhv5OP1OGt6-TTOqteEhRI,89
+pocketsizefund/data.py,sha256=dcdLgW_P0W9GETdBZQxMNnTFn14zyuCnVDWHrUfIHB8,11218
+pocketsizefund/model.py,sha256=3btjwoewfZg7IfjfyPT-KA72E21yaZCuqEznBXHWdG8,8136
+pocketsizefund/storage.py,sha256=w4H1yO0hCMVyH6xY1fnffY-4Yy65Epbdv5wP0qaJPFE,7538
+pocketsizefund/trade.py,sha256=bgxtBCb534FKIq8nIaVp9OADOfjNTFVNOsdJFug_c_4,6792
+pocketsizefund-20240831.0.dist-info/METADATA,sha256=qt-Oatq9C9aHwFbfKNadqKz7rjZzd8YHsjBW-B04Gf8,584
+pocketsizefund-20240831.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pocketsizefund-20240831.0.dist-info/RECORD,,
