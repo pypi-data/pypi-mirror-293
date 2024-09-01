@@ -1,0 +1,13 @@
+geekros/__init__.py,sha256=1RzYTyfKT9G4xolIOV2ttbdy92Vfq0ngBL8gL13SDVk,1448
+geekros/hardware/__init__.py,sha256=ULIm515dJoSKbv2d2FLOSzVIac6ls8RrrGhnZe5DgqY,778
+geekros/hardware/microphone/__init__.py,sha256=Hm8jQktzOb9rAKnnmgvcS37PNzFTVn9Kde0_kT5H0lg,4239
+geekros/hardware/speaker/__init__.py,sha256=iMlcMOI-X0fJIQnPkUD3aqxP5AMV0Wzyabj3N1kMuyg,649
+geekros/package/__init__.py,sha256=BBVmIRWRGS7dfKqegHmO_S4Bg8t8M-AY5RFHqhvhUkw,709
+geekros/package/detection/__init__.py,sha256=I7l--uq0Jn2y6-wEKgx0C2KDW9HOT_zthNUsnE3VLfo,651
+geekros/utils/__init__.py,sha256=_sHuq-y64Kud0pSLEMx3lXNHWRiVYwizo5P306QVAFQ,696
+geekros/utils/loging/__init__.py,sha256=jCb_NkKRiGlXVQota9VTlksLelt89AnbE5Hw6sYXRH0,2989
+geekros-0.0.3.dist-info/METADATA,sha256=lwgmnpQab5p9eu6PqJ5T247vgM0eExeLIHR1jbzxcOY,2363
+geekros-0.0.3.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+geekros-0.0.3.dist-info/license,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+geekros-0.0.3.dist-info/top_level.txt,sha256=z0JBgHCZGsJSKbTNulBBPJFs79KrfAEWIIyuZkk7uj8,8
+geekros-0.0.3.dist-info/RECORD,,
