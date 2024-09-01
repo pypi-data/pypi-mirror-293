@@ -1,0 +1,9 @@
+setup.py
+scancopy.egg-info/PKG-INFO
+scancopy.egg-info/SOURCES.txt
+scancopy.egg-info/dependency_links.txt
+scancopy.egg-info/not-zip-safe
+scancopy.egg-info/requires.txt
+scancopy.egg-info/top_level.txt
+zhu/__init__.py
+zhu/_main.py
