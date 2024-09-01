@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ansible_playbill/__init__.py
+ansible_playbill/py.typed
+ansible_playbill.egg-info/PKG-INFO
+ansible_playbill.egg-info/SOURCES.txt
+ansible_playbill.egg-info/dependency_links.txt
+ansible_playbill.egg-info/requires.txt
+ansible_playbill.egg-info/top_level.txt

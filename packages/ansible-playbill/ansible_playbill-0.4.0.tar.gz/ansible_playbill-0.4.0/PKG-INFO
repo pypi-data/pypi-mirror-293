@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ansible-playbill
+Version: 0.4.0
+Summary: A library for invoking ansible playbook runs from withing python programs.
+Author-email: Diego Fernando Carrión <diegoc@comet.com>
+Maintainer-email: Comet Deployment Team <deployment-team@comet.com>
+License: Apache License 2.0
+Keywords: ansible,playbook,automation
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: <4.0,>=3.8.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ansible_runner==2.3.3
+Requires-Dist: ansible>=6.7
+Requires-Dist: PyYAML>=6.0
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+
+# Playbill
+A python library for invoking anisble playbooks from within other python
+programs.
