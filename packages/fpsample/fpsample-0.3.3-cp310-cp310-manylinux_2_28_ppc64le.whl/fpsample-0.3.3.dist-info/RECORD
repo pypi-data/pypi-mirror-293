@@ -1,0 +1,7 @@
+fpsample-0.3.3.dist-info/METADATA,sha256=IzqCRFdkXRE4MiPvvc2blbKJSg_zQ31RZ-xlq-Igc2k,8557
+fpsample-0.3.3.dist-info/WHEEL,sha256=MpeaQzbw1BEKk9o00IrdA8x061J4Nk2yHRT324NzCEc,109
+fpsample-0.3.3.dist-info/licenses/LICENSE,sha256=-3_Laux9MTnl-u-C0TbBhJKtchX2sdGpXGdTxKOZ0G0,1065
+fpsample/__init__.py,sha256=OBIHHA0Eb3MJyB6gmc5x0JrFRaieVdnyq8lcL_1K4Ec,23
+fpsample/wrapper.py,sha256=R0gukWTdsOHfl_owPX25DKXt0rrtS8kfWCk0hjlsVMg,6566
+fpsample/fpsample.cpython-310-powerpc64le-linux-gnu.so,sha256=R9DIHvuekD_ZviWBHCS77w1szXdON3uBorcCH15tbUs,964328
+fpsample-0.3.3.dist-info/RECORD,,
