@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: minedag
+Version: 1.2.1
+Summary: Mine realisation of DAG
+Home-page: https://github.com/moff4/minedag
+Author: Komissarov Andrey
+Author-email: Komissar.off.andrey@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mine DAG
+Mine realisation of DAG
+
