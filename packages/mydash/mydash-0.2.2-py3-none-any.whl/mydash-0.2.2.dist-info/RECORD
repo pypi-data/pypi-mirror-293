@@ -1,0 +1,11 @@
+mydash/__init__.py,sha256=sdA9fsMAc7z6sADvGUwhSj0FYZlDZcbbrOcGTGLxNgs,235
+mydash/client.py,sha256=VhDx8clR84iebbgwyYa7vCCeUZmNdGY_bDf-IuGfsmM,6326
+mydash/widgets/__init__.py,sha256=9l6ad1JKFupcs34LS_zFHsdR17KE6-jLDFPfOdqC5wc,218
+mydash/widgets/bar_graph.py,sha256=NmG_6iMKtd5FJ8RDiXzxApF7LpSeJ4P7FeBdyqJuYN4,2075
+mydash/widgets/base.py,sha256=9hRU3TvKALbTyS2IRDIrBcDrVJLcCJU9a5umSx_S0xk,923
+mydash/widgets/image.py,sha256=Ci00eeLpUFm6g0kjM4At89QyGsWWavwffgbzkpGXB9Y,731
+mydash/widgets/text.py,sha256=_mTlCFAggKrrrR6WTKcWViTqRzcc2pFAGux4wGGS6Vk,1960
+mydash-0.2.2.dist-info/METADATA,sha256=rkWL-TrLujUM-6wK1lWuUvC-gS7BhB2Y5oP5fRejXwc,485
+mydash-0.2.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+mydash-0.2.2.dist-info/licenses/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+mydash-0.2.2.dist-info/RECORD,,
