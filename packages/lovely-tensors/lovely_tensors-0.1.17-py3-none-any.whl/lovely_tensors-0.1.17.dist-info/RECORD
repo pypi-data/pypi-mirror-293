@@ -1,0 +1,16 @@
+lovely_tensors/__init__.py,sha256=vS9ZcjkxYaUch-cevjuCx3wiyiHQFyJTIwG0dh0Ak_U,163
+lovely_tensors/_modidx.py,sha256=xr3cIttHwOKFhRgNLVnjbH9ulSG58NTqilyOSkzTNZY,8981
+lovely_tensors/patch.py,sha256=gjIOof2aLy-r4t6KSYn318kQF6aqkxsjoESiKEX1M-g,1967
+lovely_tensors/repr_chans.py,sha256=Tz82cIjT8p8AR2gNsrR0Ewey0FKbDJyfteVEXxmpb3s,3288
+lovely_tensors/repr_plt.py,sha256=EbvXHqGzXquW-oQAcgGG-h5Z7prmlpkJ-O1DDSHuWMg,2928
+lovely_tensors/repr_rgb.py,sha256=Ofrls_cJlMZB3ZqeO7jKACMf5c6Fi_GnGu0ZZMK5M2M,3116
+lovely_tensors/repr_str.py,sha256=6dReJKkvkHo1sdJrGrWe1ikHWulCBgiZ3i4m9UJs9_8,8145
+lovely_tensors/utils/__init__.py,sha256=4zaWoRmEHMwymJF08h80AFnd77ozO2epr-cBh7rZHZk,22
+lovely_tensors/utils/config.py,sha256=-2-X07O3OCbExTiRGig3OHmslmbojAG0Mf8uLbE0S9o,3798
+lovely_tensors/utils/misc.py,sha256=4k1mhrZAgWArcNeVbnCZxYa6pN3DGzP0Nb6wNwOv3QM,371
+lovely_tensors-0.1.17.dist-info/LICENSE,sha256=MUyEt3tXfia0jj8kWKr_EKJfTzquralpAautAq9Exek,1070
+lovely_tensors-0.1.17.dist-info/METADATA,sha256=D1bvKijH_9pQehBL30mYjB-o0v06tHeLhMu6kAuE_Sg,14323
+lovely_tensors-0.1.17.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+lovely_tensors-0.1.17.dist-info/entry_points.txt,sha256=XvbGLIGqHRRe5ePa3OSvjQOMRFHL9B_6MLsH27bbv74,50
+lovely_tensors-0.1.17.dist-info/top_level.txt,sha256=rVy2XbtKg2SHQmH12xzd5TLQUCCu_hVKXC-3LHqIlIA,15
+lovely_tensors-0.1.17.dist-info/RECORD,,
