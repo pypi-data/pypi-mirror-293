@@ -1,0 +1,24 @@
+# yuseful_prompts
+
+## what is this ?
+
+This is a simple python package that uses `ollama` with prompts I'm finding useful for my own projects.
+
+## pre requisites
+
+- `ollama` installed with a model of your chosing referenced in as the `DEFAULT_MODEL` in `yuseful_prompts/useful_prompts.py`
+
+## test
+
+- `python3 -m pytest -v ./yuseful_prompts/test_useful_prompts.py`
+
+### benchmark
+
+As of commit `c016855fc0c629201db4b41a22afdb691cd31420` from August 5 2024, here are a few SLMs I've tested on August 31:
+
+- `llama3.1`     => 40/40 tests correct
+- `hermes3`      => 39/40 tests correct in 102.92s
+- `gemma2:9b`    => 39/40 tests correct in 159.21s
+- `mistral-nemo` => 38/40 tests correct
+- `qwen2:7b`     => 36/40 tests correct
+- `phi3.5`       => 35/40 tests correct
