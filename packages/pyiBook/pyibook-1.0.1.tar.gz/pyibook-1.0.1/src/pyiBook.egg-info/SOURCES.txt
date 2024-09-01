@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyiBook/__init__.py
+src/pyiBook/commands.py
+src/pyiBook/display.py
+src/pyiBook/poccess.py
+src/pyiBook.egg-info/PKG-INFO
+src/pyiBook.egg-info/SOURCES.txt
+src/pyiBook.egg-info/dependency_links.txt
+src/pyiBook.egg-info/entry_points.txt
+src/pyiBook.egg-info/requires.txt
+src/pyiBook.egg-info/top_level.txt
