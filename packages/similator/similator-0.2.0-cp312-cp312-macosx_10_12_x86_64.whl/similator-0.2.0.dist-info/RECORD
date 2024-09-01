@@ -1,0 +1,9 @@
+similator-0.2.0.dist-info/METADATA,sha256=cWY_aansVYWHQ-yfJGQSKSLi5qWUxxRe7b4zeeAiw6U,5547
+similator-0.2.0.dist-info/WHEEL,sha256=u825zbt5upLlh7l4vgtqqeKFGj57HGU8XB8kDjpMPfA,106
+similator-0.2.0.dist-info/licenses/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+similator/memory.py,sha256=sho6Tr6FUWNhLQgl9PwUQ-jpCtdPyAuNo5E8F2w2Lr4,3988
+similator/valid_data.py,sha256=i24V0JevPWtfLvRAobtu9z1ABKn6kiwtSLTUqRuLoIw,3519
+similator/__init__.py,sha256=JUbaIVtriBi-IHgQkGLvQr5rGIEli5vPe_tQlkb9ieo,861
+similator/text_similator.py,sha256=6xkOWHODsAcFq7Am6VU6gdP4wtauM6B0IWk0MkQh8zY,5997
+similator/_rst_similator.cpython-312-darwin.so,sha256=3PFBROPhi74vZhpgQ_OTgcR47a2ZAZDOEf05jI3Y4_U,475432
+similator-0.2.0.dist-info/RECORD,,
