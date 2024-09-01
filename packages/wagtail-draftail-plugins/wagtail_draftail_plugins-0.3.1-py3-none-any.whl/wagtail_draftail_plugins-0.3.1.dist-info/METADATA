@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: wagtail-draftail-plugins
+Version: 0.3.1
+Summary: Commonly used extensions to Wagtail's Draftail editor.
+Home-page: https://gitlab.com/thelabnyc/wagtail-draftail-plugins
+License: ISC
+Author: thelab
+Author-email: thelabdev@thelab.co
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: wagtail (>=5.2)
+Project-URL: Repository, https://gitlab.com/thelabnyc/wagtail-draftail-plugins
+Description-Content-Type: text/x-rst
+
+===============================
+Wagtail Draftail Editor Plugins
+===============================
+
+This library includes some commonly used extensions for the `Wagtail Draftail <http://docs.wagtail.io/en/stable/advanced_topics/customisation/extending_draftail.html>`_ editor. These extensions currently include:
+
+- Superscript text formatting (via the ``<sup>`` HTML tag)
+- Subscript text formatting (via the ``<sub>`` HTML tag)
+- Paragraph text formatting (via the ``<p>`` HTML tag)
+
