@@ -1,0 +1,7 @@
+dante/__init__.py,sha256=ErFdvc755o3LPuVWJwVuL4eLdv09yHgBB2LK2mzF_Eg,221
+dante/asyncdante.py,sha256=xyRu3Kpan3baB1RwG_00qGIRST8B2n9zdcFxbP8GDSo,5005
+dante/base.py,sha256=qjWdB_760ESzJ22BLH6VmuEsXHz0pUqVloxxx50T1po,2209
+dante/sync.py,sha256=9Ha4hX1Vs6ZW-y5pjc1sTdpyuaa9HZlpDUJjKWzn64w,4288
+dante_db-0.0.1.dist-info/METADATA,sha256=Z9Rn5QcM96_OnI917eCfuz4-3BoB2vUaldFTNNcjiUg,6075
+dante_db-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dante_db-0.0.1.dist-info/RECORD,,
