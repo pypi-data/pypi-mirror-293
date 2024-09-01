@@ -1,0 +1,7 @@
+[workspace]
+members = ["bindings/python"]
+
+exclude = ["examples/*"]
+
+default-members = ["rookie-rs", "bindings/python"]
+resolver = "2"
