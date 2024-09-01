@@ -1,0 +1,6 @@
+README.md
+setup.py
+shishu.egg-info/PKG-INFO
+shishu.egg-info/SOURCES.txt
+shishu.egg-info/dependency_links.txt
+shishu.egg-info/top_level.txt

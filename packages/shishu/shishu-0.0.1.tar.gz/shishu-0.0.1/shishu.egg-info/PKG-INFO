@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: shishu
+Version: 0.0.1
+Summary: A small example package
+Author: 语翔
+Author-email: 2708702597@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# shishu
+## 简介
+shishu是一款基于Python的开源的数学计算软件。
+## 安装
+```
+pip install shishu
+```
+## 功能
+shishu目前支持的功能
+- a=sqrt(3) ->一个实数
+a*a -> 实数
+
