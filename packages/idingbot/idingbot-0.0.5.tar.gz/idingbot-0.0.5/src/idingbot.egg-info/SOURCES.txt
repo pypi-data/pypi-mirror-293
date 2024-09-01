@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/idingbot.egg-info/PKG-INFO
+src/idingbot.egg-info/SOURCES.txt
+src/idingbot.egg-info/dependency_links.txt
+src/idingbot.egg-info/requires.txt
+src/idingbot.egg-info/top_level.txt
+src/module/__init__.py
+src/module/constant/__init__.py
+src/module/constant/interface.py
+src/module/core/__init__.py
+src/module/core/core.py
+src/module/core/extension.py
+src/module/core/log.py
+src/module/dll/__init__.py
