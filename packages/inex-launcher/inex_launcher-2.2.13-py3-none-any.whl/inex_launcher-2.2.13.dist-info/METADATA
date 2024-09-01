@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: inex-launcher
+Version: 2.2.13
+Summary: InEx is a lightweight highly configurable Python launcher based on microkernel architecture
+Home-page: https://github.com/speechpro/inex
+Author: Yuri Khokhlov
+Author-email: khokhlov@speechpro.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/speechpro/inex/issues
+Keywords: speechpro inex command-line configuration yaml
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: omegaconf
+Requires-Dist: networkx
+Requires-Dist: pytest
+Requires-Dist: tox
+
+# InEx
+## Lightweight highly configurable Python launcher based on microkernel architecture
