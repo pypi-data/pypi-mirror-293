@@ -1,0 +1,15 @@
+examples/01_basic_image_plot.ipynb,sha256=WbzKMglGBIg6UbmzQa8AwzWnOXFuT2TE8IBST8waZrg,966007
+examples/02_basic_wiggle_plot.ipynb,sha256=JN_0s7tz02Z2D49-nMr5VLLb04wogkn2XE_GwkNqGuI,234717
+examples/03_advanced_plotting_features.ipynb,sha256=CfdWY3oEHpg7usnPYPBECFhMaeJJ5UDnZ6bG-Q-XvhA,898015
+examples/04_plotting_velocities.ipynb,sha256=csq3-DDyFthDc_qHSYhlr-lLAjiG2R8aCrWfRD-iLCc,280323
+examples/05_field_data.ipynb,sha256=atAltHgFTvGkHmbZV-mxn1K-OYqwTvEBei-yWzWLadc,1690661
+examples/data/README,sha256=OihJOkL86ZJvl-jGkTeRuuYdtg7FyPA5e_v4JYEm1lw,492
+examples/data/cmp.npy,sha256=4ZjBH-CQUuF6-wGKNkKb7yINbXpTg-iivoDnAz2T0SQ,230804
+examples/data/vmod.npy,sha256=YwjYRvylvmsgdkN0st0ghQIr2uMlIlfHNp6LfeJZQTM,323360
+seisplot/__init__.py,sha256=at0AUjDPQi-9_-jYuQoKLBVJTcsku16sqbGTqHMhbEo,12313
+seisplot/_seisplt.py,sha256=JhIV8dv7F9u3Xk5aYXWteLiWv4F_lLwAqtMtc4TdGM0,36796
+seisplot-1.1.0.dist-info/LICENSE.md,sha256=RG51X65V_wNLuyG-RGcLXxFsKyZnlH5wNvK_5mMlOag,7560
+seisplot-1.1.0.dist-info/METADATA,sha256=CG4NxHo9rW6tOLiun5YPeUg7AMUP25PMwPbm576l9f0,3514
+seisplot-1.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+seisplot-1.1.0.dist-info/top_level.txt,sha256=fFYGQHQJeIaEHEalBo0uI1Q4sHJjsU69rY0oohoS5tw,18
+seisplot-1.1.0.dist-info/RECORD,,
