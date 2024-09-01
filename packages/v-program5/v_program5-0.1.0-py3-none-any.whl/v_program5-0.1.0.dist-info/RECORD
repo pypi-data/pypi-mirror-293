@@ -1,0 +1,9 @@
+v_program5/__init__.py,sha256=ek3EcPQ-X5nnSqTSz2w1D0uCdumyXDAj_f_GPAQPeCE,27
+v_program5/__main__.py,sha256=fDugdITASv7vlxj2yd92visON8TqNnJXwiCx8XIdN_Y,81
+v_program5/cli.py,sha256=13q5aM05tfJNLMK8KL_Rwu9Qq9Bugn1Wmq9m4U5bDCU,73
+v_program5/ml_model.py,sha256=EGej1_vhQmjjaD--KPpmFnRTGAxAKpPnTNmpP0r49NY,150
+v_program5-0.1.0.dist-info/METADATA,sha256=mS7pcgkJSVTqHorj4hR_Kkk0xA67cVWuL96TL3WsZDM,1326
+v_program5-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+v_program5-0.1.0.dist-info/entry_points.txt,sha256=So4GfMUUV-olhMEB_D9qatidlBULIsPLPHkQgCVaGls,55
+v_program5-0.1.0.dist-info/top_level.txt,sha256=faFDJYRfQ94UT_DaTqVcENVzRsr6UxEsCX1nx_RkGl4,11
+v_program5-0.1.0.dist-info/RECORD,,
