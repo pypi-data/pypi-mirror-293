@@ -1,0 +1,9 @@
+minedag/__init__.py,sha256=ZYcdcm8H3HekITmK0WowUD1MYBX-W_n7N2Erxn88sec,60
+minedag/minedag.py,sha256=xhYBRivAsp7bdkYbXq1Ru3sh_hWX6NZjEHx50dG4ZJI,5899
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mine_dag.py,sha256=tgVVeY0til6GmuvS71ysluzYVFxW_QDh-DVQRXMCC_U,6920
+minedag-1.2.1.dist-info/LICENSE,sha256=7QuO8BJsiYkt3Nn7-CZCQm_Q4kME2fuGWnrfHEkAwP4,1063
+minedag-1.2.1.dist-info/METADATA,sha256=R-Lh_RzHyF_KDB8-xOZShCLREQeyYrXm0CA9LkKrAFs,548
+minedag-1.2.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+minedag-1.2.1.dist-info/top_level.txt,sha256=tSTbOtDEvzEcyHEQ2AiPUZKByE2XsZlYsWUrewLaMAs,14
+minedag-1.2.1.dist-info/RECORD,,
