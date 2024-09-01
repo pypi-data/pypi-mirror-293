@@ -1,0 +1,8 @@
+salgo/__init__.py,sha256=8WV2-59TAluNAbRuNHi73kUW2KadRLtJip-f_uQ4Qtw,62
+salgo/data.csv,sha256=2Vo3SzQHjBZX9eQYErrPlcWi1Tgof1Oe0oifTYrShoI,218
+salgo/data_loader.py,sha256=CHguukmEOphNxtRL6VRUOHK70EsfZkFw4L4hirLuWB8,226
+salgo/trainer.py,sha256=OYoxzWxgjTq7EmLkyLSnf-rascp6U3UKeTbPPSZv9VA,694
+salgo-0.2.dist-info/METADATA,sha256=1LO3FAKDAl5YCWqwZ7S05Mw_2KDuxHaVmo8PDx7-RQM,292
+salgo-0.2.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+salgo-0.2.dist-info/top_level.txt,sha256=RhdkpDMNqOiXDghcQoPbhi8KINCSN035RUkYXrpfnwA,6
+salgo-0.2.dist-info/RECORD,,
