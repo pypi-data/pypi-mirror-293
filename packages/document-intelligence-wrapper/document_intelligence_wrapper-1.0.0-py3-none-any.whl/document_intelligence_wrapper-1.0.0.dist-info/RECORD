@@ -1,0 +1,11 @@
+document_intelligence_wrapper/__init__.py,sha256=9AZQlGGW-UGEG0kHOjaMXtXjOxtlz0WnkZWMW4RC66U,297
+document_intelligence_wrapper/document_intelligence_client.py,sha256=UJfUD-j1kiETDRj15gd-4FhTC3Jim4YjZ0m8VJDoZ2M,1318
+document_intelligence_wrapper/extractors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+document_intelligence_wrapper/extractors/document_processor.py,sha256=ct7RGHUoMKKZdaRiSYCRpjIf9E0zQ508W_r6CwBpFFg,3572
+document_intelligence_wrapper/extractors/extract_utils.py,sha256=pEUzZQlJQbLHZ6kJ4M0ddpaa3LyIlzLN3nj0qiEiKsQ,5127
+document_intelligence_wrapper/extractors/pdf_text_extractor.py,sha256=Mf5tab9yEwIurE-snOub_Tefhyk3sE03xXhEgK724IE,1629
+document_intelligence_wrapper-1.0.0.dist-info/LICENSE,sha256=Rm1p_WkScnM8lrjr_wXJxdFevNehWxjK7luInLhSDj4,1073
+document_intelligence_wrapper-1.0.0.dist-info/METADATA,sha256=Bj--xtYMCwhvCh9v7u3LG2IHfHzNyK5ohKUe-8t_K78,6807
+document_intelligence_wrapper-1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+document_intelligence_wrapper-1.0.0.dist-info/top_level.txt,sha256=aXKI4naTDvkWje1wNcfMI5n2lF55-6qQbvkBo2Oefbo,30
+document_intelligence_wrapper-1.0.0.dist-info/RECORD,,
