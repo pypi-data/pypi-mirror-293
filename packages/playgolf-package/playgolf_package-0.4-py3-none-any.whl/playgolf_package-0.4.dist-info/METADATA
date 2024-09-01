@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: playgolf-package
+Version: 0.4
+Summary: A package for decision tree implementation with datasets included
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+
+UNKNOWN
+
