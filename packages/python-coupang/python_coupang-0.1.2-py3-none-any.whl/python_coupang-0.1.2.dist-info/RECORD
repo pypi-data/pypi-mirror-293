@@ -1,0 +1,12 @@
+pycoupang/__init__.py,sha256=9cK45NHeuK2tq5YJgdczzZdtiBeFRcXz5B_O7hVIS2w,33
+pycoupang/base.py,sha256=9GDsW03iy3kV0eJtm-3e_O_kfRVYmMLf79PU5fn2X00,338
+pycoupang/category.py,sha256=UG0cvjeHdg2NBc3sy3wJOW4nMU7310nkAtjpzt8Xyfc,2153
+pycoupang/client.py,sha256=DK2w9mcKVPisHsWYv6F79t2dVndz5zr7xNYjddPMuzM,2727
+pycoupang/logistics.py,sha256=v6mosP5a4j5HTqpuCFOZlDNGz6Q4N5jkNxEqQqAe3x8,1466
+pycoupang/product.py,sha256=bVMcy50-pbIsFOJgxExg8JDog6WT_sZ5zE-pg9LJpT8,4161
+pycoupang/settlement.py,sha256=IhiGN-y5BHapB5tub3iV3h_6XHEENNhziYGOzpRG-qE,2223
+python_coupang-0.1.2.dist-info/LICENSE,sha256=bq0gk2RH3osKiypnLp2PLoeGxiyAl8Pq5gzygy8qdeY,1065
+python_coupang-0.1.2.dist-info/METADATA,sha256=vOQ6mYCwCoZEETI8UEzDprtqibnu1dRI5dgUlG2Phfk,3753
+python_coupang-0.1.2.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+python_coupang-0.1.2.dist-info/top_level.txt,sha256=2CpAtodtuH0_APprsi7qorLQg3ijxc-sCG4rO-3-TiU,10
+python_coupang-0.1.2.dist-info/RECORD,,
