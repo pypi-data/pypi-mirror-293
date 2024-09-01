@@ -1,0 +1,12 @@
+pyjsx/__init__.py,sha256=FCEQOfzq94cz7ybRT2Q90eNQL03TboW50KqFirpIzLY,216
+pyjsx/__main__.py,sha256=segQjK92aN9gF2p6ety1xT9T59bPJiC6YZJ3Gni0Wlg,553
+pyjsx/auto_setup.py,sha256=72spRVl94FZWlXLE5nKIapgdHPWVOkVOmJcIrccOLzk,55
+pyjsx/codecs.py,sha256=2VTAUJ-WiooxWTJASVY_QP96ZzSQYSdOWu4zv2Pd29A,798
+pyjsx/elements.py,sha256=wvHRdsRbr_DZD54TpfOwTFBc8W5JG1S5bpk1qzkIaX8,1817
+pyjsx/jsx.py,sha256=PI2i-D4XxHca1HI-tk7cLvlWdxmgNw2V-QhMM0tKQ1Q,3238
+pyjsx/tokenizer.py,sha256=tjeYERh5_p_QyL5tPMrsxP_stWulAqmnsHihY8PMnsM,16289
+pyjsx/transpiler.py,sha256=1kcGjyfXu7BhO0G_D5qyg6nXQ6GlLAcxYLMbcHUL0ho,9310
+pyjsx/util.py,sha256=63MI0666TEo41eeIy5dXM8Y0xqfiSUPvvmitNrMO7G8,1163
+python_jsx-0.1.0.dist-info/METADATA,sha256=-a654kwpvzdstmhrWJFpZ0Zu82YnH4BK7VMm6XwYFaA,3258
+python_jsx-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+python_jsx-0.1.0.dist-info/RECORD,,
