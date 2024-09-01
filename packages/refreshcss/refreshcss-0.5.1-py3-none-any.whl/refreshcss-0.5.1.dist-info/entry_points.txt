@@ -1,0 +1,3 @@
+[console_scripts]
+refreshcss=refreshcss.cli:cli
+
