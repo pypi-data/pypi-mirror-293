@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/pydom/__init__.py
+src/pydom/component.py
+src/pydom/element.py
+src/pydom/errors.py
+src/pydom/page.py
+src/pydom/version.py
+src/python_dom.egg-info/PKG-INFO
+src/python_dom.egg-info/SOURCES.txt
+src/python_dom.egg-info/dependency_links.txt
+src/python_dom.egg-info/top_level.txt
+tests/test_nested.py
+tests/test_rendering.py
