@@ -1,0 +1,7 @@
+pygame
+py-notifier
+
+[Linux]
+
+[Windows]
+WinToaster
