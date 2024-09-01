@@ -1,0 +1,82 @@
+[project]
+name = "discontinuitypy"
+dynamic = []
+description = "A python package for identifying and analyzing discontinuities for time series data."
+authors = [
+    { name = "Beforerr", email = "zzj956959688@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+dependencies = [
+    "space-analysis[io]",
+    "beforerr",
+    "xarray[accel]",
+    "xarray_einstats",
+    "polars",
+    "pyarrow",
+    "modin[ray]",
+    "pydantic",
+    "fastcore",
+    "pdpipe",
+    "tqdm",
+    "loguru",
+]
+version = "0.2.0"
+
+[project.optional-dependencies]
+plot = [
+    "matplotlib",
+    "pyspedas",
+    "hvplot",
+    "holoviews",
+]
+
+[project.urls]
+Homepage = "https://beforerr.github.io/discontinuitypy"
+Repository = "https://github.com/Beforerr/discontinuitypy"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pixi.project]
+channels = [
+    "conda-forge",
+]
+platforms = [
+    "osx-arm64",
+]
+
+[tool.pixi.environments]
+default = [
+    "plot",
+]
+
+[tool.pixi.dependencies]
+ipykernel = "*"
+scipy = "*"
+pytables = "*"
+netcdf4 = "*"
+
+[tool.pixi.pypi-dependencies]
+nbdev = "*"
+
+[tool.pixi.pypi-dependencies.beforerr]
+path = "../../src/beforerr_dev"
+editable = true
+
+[tool.pixi.pypi-dependencies.discontinuitypy]
+path = "."
+editable = true
+
+[tool.pixi.pypi-dependencies.space_analysis]
+path = "../../src/space-analysis.py"
+editable = true
+extras = [
+    "io",
+]
