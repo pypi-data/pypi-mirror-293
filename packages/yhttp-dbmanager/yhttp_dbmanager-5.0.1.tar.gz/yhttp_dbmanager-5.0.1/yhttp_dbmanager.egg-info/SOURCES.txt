@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+tests/test_cli.py
+tests/test_dbmanager.py
+tests/test_dburi.py
+tests/test_install.py
+yhttp/ext/dbmanager/__init__.py
+yhttp/ext/dbmanager/cli.py
+yhttp/ext/dbmanager/dbmanager.py
+yhttp/ext/dbmanager/install.py
+yhttp/ext/dbmanager/uri.py
+yhttp_dbmanager.egg-info/PKG-INFO
+yhttp_dbmanager.egg-info/SOURCES.txt
+yhttp_dbmanager.egg-info/dependency_links.txt
+yhttp_dbmanager.egg-info/requires.txt
+yhttp_dbmanager.egg-info/top_level.txt
