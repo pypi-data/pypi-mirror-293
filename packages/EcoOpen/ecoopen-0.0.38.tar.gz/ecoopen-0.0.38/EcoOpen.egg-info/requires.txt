@@ -1,0 +1,12 @@
+habanero
+numpy
+pandas
+scipy
+ollama
+beautifulsoup4
+scikit-learn
+selenium
+webdriver_manager
+tika
+jupyterlab
+lxml
