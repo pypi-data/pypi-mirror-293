@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: dfk_commons
+Version: 0.0.5
+Summary: A package for dfk common functions
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Author-email: jtschuwirth <jtschuwirth@gmail.com>, jeschuwirth <jeschuwirth@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# dfk-commons
