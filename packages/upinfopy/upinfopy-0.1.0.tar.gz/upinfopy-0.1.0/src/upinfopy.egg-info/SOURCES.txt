@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/upinfopy/__init__.py
+src/upinfopy/upinfopy.py
+src/upinfopy.egg-info/PKG-INFO
+src/upinfopy.egg-info/SOURCES.txt
+src/upinfopy.egg-info/dependency_links.txt
+src/upinfopy.egg-info/top_level.txt
+tests/test_upinfopy.py

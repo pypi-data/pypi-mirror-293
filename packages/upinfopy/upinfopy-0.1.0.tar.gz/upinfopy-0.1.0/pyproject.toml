@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "upinfopy"
+version = "0.1.0"
+description = "Python implementation of UpInfo78"
+authors = [{name = "frieda", email = "www778878net@189.cn"}]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/www778878net/UpinfoPy"
+Documentation = "http://www.778878.net/docs/#/upinfopy/"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.poetry.scripts]
+test = "pytest:main"
+
+#pip install build
+#python -m build
+#pip install .
+#pip install pytest
+#pytest
+
