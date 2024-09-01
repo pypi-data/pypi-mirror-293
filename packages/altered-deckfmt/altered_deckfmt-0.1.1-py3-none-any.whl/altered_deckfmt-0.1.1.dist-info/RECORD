@@ -1,0 +1,12 @@
+altered_deckfmt/__init__.py,sha256=Vn4lYuTFKEqtHpxQKPBUYUKlZj_weQkmqGa8PuW4ZHs,313
+altered_deckfmt/decoder.py,sha256=gordf1-AEkWxs5-gHKF_uZmWb5iAjr8ERooUZ3Z3LsY,8318
+altered_deckfmt/encoder.py,sha256=_jeEQzwhNELgE2pkuDpM1ZgkrPlQKtjaKuCzmNlx8OU,6238
+altered_deckfmt/exceptions.py,sha256=WIP5Ca-D_392eullVDOzNh7EBbGpbmCdFvXBqS3xSRI,404
+altered_deckfmt/logging_config.py,sha256=KWiKK3NO4vOxzLQNOsXdhDR_wHN8-dqzzJNXilNiojU,715
+altered_deckfmt/models.py,sha256=W45637jCMO_Fot2NSkl_9RVk-jJ3GMGv4mIghMNz9K8,3446
+altered_deckfmt/utils.py,sha256=0Cps8zhFMnYNi0gl6ekNSb8yylM9fQPf6iW23Eev3uY,4148
+altered_deckfmt-0.1.1.dist-info/LICENSE,sha256=AfBw1icTfByqcg7VBiIlkRrGjzK4gXHkZgmIUNf9Sbo,1080
+altered_deckfmt-0.1.1.dist-info/METADATA,sha256=k0FWRg64Z2i2VFDDJRmkw9SsDCy_MQvWEl06cQMz96E,4031
+altered_deckfmt-0.1.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+altered_deckfmt-0.1.1.dist-info/top_level.txt,sha256=X2FHPKfAvD9tvSKVXV_6ZOkRQtrI5tGSTZw5aXMrjj4,16
+altered_deckfmt-0.1.1.dist-info/RECORD,,
