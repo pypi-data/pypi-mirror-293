@@ -1,0 +1,13 @@
+openapi_client_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openapi_client_builder/main.py,sha256=IQCNy8xOROe2H57m6wM4R_OKLbsGhcE1R-6FKspTEP0,807
+openapi_client_builder/tools/Schemas2type.py,sha256=cUpePMTvVn7318rA3K8QHmPZMOvzPWLwiu7LVLxJqk0,942
+openapi_client_builder/tools/Server2client.py,sha256=8O2Vv709cWJzOLBe6-CcIzE0rL-PJreqFBlJYLeJ3eo,2708
+openapi_client_builder/tools/__init__.py,sha256=7FAf0kAB5XtWh3hEfW6I4nsxfbPI80I0dZ-SePAhYwk,106
+openapi_client_builder/tools/data_flow.py,sha256=zpANSLvY7vRCKHuFKkSReP4fT4UpLpwY-6-GiBXUmXI,744
+openapi_client_builder/tools/template/n.py,sha256=hBUCC_62lNrDtkT2FSfxDQjjzsNAGeYyuncUloqiT4U,1864
+openapi_client_builder/tools/template.py,sha256=U6HS9-mGKOZAawbZZMwahWqliExPWnSL-Ly-m86o45c,1395
+openapi_client_builder-0.1.0.dist-info/LICENSE,sha256=iBTaKeczmzZhzYkJTsxZTsFyF1ANMCsGUSbZnh_I3xI,1065
+openapi_client_builder-0.1.0.dist-info/METADATA,sha256=uTjo_-sgiBxxOXVRrcmtiFKlGUJTsXuPmTVXD72c0XQ,1509
+openapi_client_builder-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+openapi_client_builder-0.1.0.dist-info/entry_points.txt,sha256=tl4SLUZIut4diop1SIycHeNJBCfmsj0T7vOoEb5Ghow,114
+openapi_client_builder-0.1.0.dist-info/RECORD,,
