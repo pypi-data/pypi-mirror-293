@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: playatanu
+Version: 0.0.2
+Summary: machine learning toolkit
+Author: Atanu Debnath
+Author-email: playatanu@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+
+ANet7
+
+Change Log
+-------------------
+0.0.1 (01/01/2024)
+-------------------
+- First Release
