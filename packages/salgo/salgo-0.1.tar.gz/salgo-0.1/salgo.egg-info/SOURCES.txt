@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+findsalgo/__init__.py
+findsalgo/data_loader.py
+findsalgo/trainer.py
+salgo.egg-info/PKG-INFO
+salgo.egg-info/SOURCES.txt
+salgo.egg-info/dependency_links.txt
+salgo.egg-info/requires.txt
+salgo.egg-info/top_level.txt
