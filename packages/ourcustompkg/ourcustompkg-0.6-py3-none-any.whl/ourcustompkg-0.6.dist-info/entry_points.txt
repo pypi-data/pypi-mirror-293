@@ -1,0 +1,2 @@
+[console_scripts]
+detect_car = ourcustompkg.yolov7.detect_car:main
