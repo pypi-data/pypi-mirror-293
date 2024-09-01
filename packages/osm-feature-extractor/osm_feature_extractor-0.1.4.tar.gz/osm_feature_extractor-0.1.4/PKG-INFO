@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: osm-feature-extractor
+Version: 0.1.4
+Summary: Library to extract OSM features and map them to GeoJSON polygons.
+Home-page: https://github.com/diogomatoschaves/osm-feature-extractor
+License: MIT
+Keywords: osm,feature-augmentation,feature-extractor,osm-features
+Author: Diogo Matos Chaves
+Author-email: diogo_chaves@hotmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Rtree (>=1.3.0,<2.0.0)
+Requires-Dist: geopandas (>=1.0.1,<2.0.0)
+Requires-Dist: keplergl (>=0.3.2,<0.4.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=2.0.1,<3.0.0)
+Requires-Dist: ordered-set (>=4.1.0,<5.0.0)
+Requires-Dist: osmium (>=3.7.0,<4.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: pyturf (>=0.6.10,<0.7.0)
+Requires-Dist: scipy (>=1.14.0,<2.0.0)
+Requires-Dist: traittypes (>=0.2.1,<0.3.0)
+Project-URL: Repository, https://github.com/diogomatoschaves/osm-feature-extractor
+Description-Content-Type: text/markdown
+
+# OSM Feature Extractor
+
+## Introduction
+
+Lightweight application to automatically extract features from an OSM file, and map them to 
+user defined GeoJSON polygon(s). The mapped features can then be potentially used for machine learning applications based
+on OSM data. The extracted features can be a `count` for nodes, a `length` for ways and `area` for areas.
+
+For more details on the features that are extracted, check [FEATURES.md](FEATURES.md) and 
+the [OSM wiki](https://wiki.openstreetmap.org/wiki/Map_Features).
+
+Example generated dataframe:
+
+![df](osm_feature_extractor/utils/img/data_frame.png)
+
+Data visualised on a map:
+
+![df](osm_feature_extractor/utils/img/data_kepler.png)
+
+## Usage
+
+After cloning the project into your local machine, you'll need to create a virtual environment with 
+the required packages. This can be achieved easily with [Poetry](https://python-poetry.org/), as it 
+will make sure all the versions are correct, but alternatively it can be installed by other means
+with the `requirements.txt` file provided. At the root directory of the project run:
+
+```shell script
+$ poetry install
+
+$ poetry shell
+```
+
+When all the packages have been installed and the virtual env is activated, you can then run
+the script that will map the features:
+
+```shell script
+$ python osm_feature_extractor/main.py
+```
+
+The above command will run on an included OSM file `isle-of-wight-latest.osm.pbf` and `isle-of-wight.geojson`.
+
+You can go to [configuration file](proj.conf) in order to adjust the app configuration parameters. 
+The main ones are detailed below:
+
+**osm_file**: Name of osm file whose features will be extracted. To download more files visit the 
+[geofabrik](https://download.geofabrik.de/) website. <br>
+**input_polygons_file**: Name of file containing the GeoJSON polygon(s) for which the OSM features will be mapped against. <br>
+**output_file**: Path to the output file where the mapped OSM features are written to. <br>
+
+**Note**: _Large files might take a while to process. It is recommended to use the CLI
+[osmium extract](https://docs.osmcode.org/osmium/latest/osmium-extract.html) tool in order to reduce the OSM file to the 
+area of interest first and then run the feature extractor._
+
+`
+
+
