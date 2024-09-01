@@ -1,0 +1,2 @@
+[console_scripts]
+curve_fitpy = curve_fitpy.curve_fit_py:curve_fit
