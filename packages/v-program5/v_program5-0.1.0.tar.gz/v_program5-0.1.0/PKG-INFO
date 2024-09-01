@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: v-program5
+Version: 0.1.0
+Summary: A Python package for training and predicting with a neural network using backpropagation.
+Author: Arasu
+Author-email: arasu6262@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+# v_program5
+
+v_program5 is a Python package for demonstrating basic package structure and execution. This package includes functionality for loading a dataset, training a Gaussian Naive Bayes model, and evaluating its performance.
+
+## Installation
+
+To install the package, use pip:
+
+```sh
+pip install v_program5

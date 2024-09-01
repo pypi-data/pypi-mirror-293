@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "v-program5"
+version = "0.1.0"
+description = "A neural network package for training and predictions."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+
+[tool.poetry.scripts]
+v-program4-cli = "v_program4.cli:main"
+
+
+[tool.poetry.extras]
+excel = ["pandas", "openpyxl"]

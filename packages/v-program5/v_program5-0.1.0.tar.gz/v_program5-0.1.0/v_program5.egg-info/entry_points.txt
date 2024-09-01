@@ -1,0 +1,2 @@
+[console_scripts]
+v-program5-cli = v_program5.cli:main

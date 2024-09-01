@@ -1,0 +1,13 @@
+# Include the README file
+include README.md
+
+# Include the LICENSE file
+include LICENSE
+
+# Include the __init__.py file in the package directories
+recursive-include v_program5 *.py
+
+# Include any other files you might need, such as data files, configs, etc.
+# Example:
+# include *.txt
+# recursive-include data *
