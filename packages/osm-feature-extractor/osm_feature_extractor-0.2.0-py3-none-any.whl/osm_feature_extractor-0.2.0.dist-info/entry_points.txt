@@ -1,0 +1,3 @@
+[console_scripts]
+osm_feature_extractor=osm_feature_extractor.main:main
+
