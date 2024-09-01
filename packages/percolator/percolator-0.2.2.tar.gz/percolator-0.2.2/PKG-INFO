@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: percolator
+Version: 0.2.2
+Summary: Adds flavor of interactive filtering to the traditional pipe concept of shell
+Home-page: https://github.com/clach04/percolator/tree/mymain
+Author: mooz
+Author-email: stillpedant@gmail.com
+Maintainer: clach04
+License: MIT
+Keywords: anything.el unite.vim dmenu shell pipe filter curses
+Classifier: Environment :: Console :: Curses
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Editors :: Emacs
+Classifier: Topic :: Utilities
+Requires-Dist: six>=1.7.3
+Requires-Dist: windows-curses
+Provides-Extra: cmigemo
+Requires-Dist: cmigemo>=0.1.5; extra == "cmigemo"
+Provides-Extra: all
+Requires-Dist: cmigemo>=0.1.5; extra == "all"
+
+Adds flavor of interactive filtering to the traditional pipe concept of shell.
+Try::
+
+    $ A | percol | B
+
+and you can display the output of command A and filter it interactively and then pass it to command B.
+The interface of percol is highly inspired by anything.el for Emacs.
+
+Full details at https://github.com/clach04/percolator
