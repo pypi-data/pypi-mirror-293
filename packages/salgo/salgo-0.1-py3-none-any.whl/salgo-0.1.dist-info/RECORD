@@ -1,0 +1,8 @@
+findsalgo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+findsalgo/data.csv,sha256=2Vo3SzQHjBZX9eQYErrPlcWi1Tgof1Oe0oifTYrShoI,218
+findsalgo/data_loader.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+findsalgo/trainer.py,sha256=OYoxzWxgjTq7EmLkyLSnf-rascp6U3UKeTbPPSZv9VA,694
+salgo-0.1.dist-info/METADATA,sha256=cEjQvHGQkmh-JRykhXn0hHdlJWMy7ctKrGJckPb3I-Q,292
+salgo-0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+salgo-0.1.dist-info/top_level.txt,sha256=t7TeqaKTSoA8dXgpbbw7_8a950VRPGyzbWuJmIhAcdY,10
+salgo-0.1.dist-info/RECORD,,
