@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mark_json/__init__.py
+mark_json/main.py
+mark_json.egg-info/PKG-INFO
+mark_json.egg-info/SOURCES.txt
+mark_json.egg-info/dependency_links.txt
+mark_json.egg-info/requires.txt
+mark_json.egg-info/top_level.txt
