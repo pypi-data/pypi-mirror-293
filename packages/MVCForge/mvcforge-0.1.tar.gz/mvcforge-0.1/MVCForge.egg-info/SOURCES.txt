@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+MVCForge.egg-info/PKG-INFO
+MVCForge.egg-info/SOURCES.txt
+MVCForge.egg-info/dependency_links.txt
+MVCForge.egg-info/entry_points.txt
+MVCForge.egg-info/top_level.txt
+mvcforge/__init__.py
+mvcforge/generator.py
+tests/__init__.py
+tests/test_generator.py

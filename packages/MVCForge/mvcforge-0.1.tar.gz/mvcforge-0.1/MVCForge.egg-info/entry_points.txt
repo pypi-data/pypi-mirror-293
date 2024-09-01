@@ -1,0 +1,2 @@
+[console_scripts]
+mvcforge = mvcforge.generator:main
