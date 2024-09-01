@@ -1,0 +1,12 @@
+django_admin_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_plugin/admin.py,sha256=uAmlHdzn9lMuJ_gYKXNvMrY0oyRONTWLMUbzYMj7Qug,4693
+django_admin_plugin/apps.py,sha256=ZCFUqYhf7P2LYA-PyzOpHxmAdPGVdEOo1R7Wv2lneHM,198
+django_admin_plugin/settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_plugin/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_plugin/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_plugin/management/commands/init_admin_plugin.py,sha256=sM8T8Q_ZkEEKTOss4jVaE6dyL7rB7-CB0s0In104_gA,1182
+django_admin_plugin-0.1.4.dist-info/LICENSE.md,sha256=w6nP3fb856-w5cgEX83dhV0Hl8Tq7qyGPQQDqWlcjlg,1498
+django_admin_plugin-0.1.4.dist-info/METADATA,sha256=YRneuAfeBqDVnXYCoT5LqquFNajDfp8X-OTw2gVZh6w,1604
+django_admin_plugin-0.1.4.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+django_admin_plugin-0.1.4.dist-info/top_level.txt,sha256=l9lhk6meoyLddapf_2VplzLqyWbuD0dEaSbgbViR_RM,20
+django_admin_plugin-0.1.4.dist-info/RECORD,,
