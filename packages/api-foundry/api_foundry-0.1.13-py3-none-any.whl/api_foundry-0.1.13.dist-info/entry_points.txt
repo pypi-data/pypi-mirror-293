@@ -1,0 +1,4 @@
+[console_scripts]
+install_secret = api_foundry.scripts.install_secret:main
+install_secret_2 = scripts.install_secret:main
+postgres_to_openapi = api_foundry.scripts.postgres_to_openapi:main
