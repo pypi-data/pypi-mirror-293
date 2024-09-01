@@ -1,0 +1,12 @@
+six>=1.7.3
+windows-curses
+
+[all]
+cmigemo>=0.1.5
+pinyin
+
+[cmigemo]
+cmigemo>=0.1.5
+
+[pinyin]
+pinyin
