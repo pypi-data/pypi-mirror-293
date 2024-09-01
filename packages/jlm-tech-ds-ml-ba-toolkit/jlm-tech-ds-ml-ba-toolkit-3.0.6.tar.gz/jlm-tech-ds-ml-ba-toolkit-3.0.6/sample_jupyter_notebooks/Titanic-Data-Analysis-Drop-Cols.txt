@@ -1,0 +1,182 @@
+---Statistical Summary of the Data frame provided---
+
+---first 5 rows of the data frame---
+   PassengerId  Survived  Pclass     Sex    Age  SibSp  Parch   Fare Embarked
+0            1         0       3    male 22.000      1      0  7.250        S
+1            2         1       1  female 38.000      1      0 71.283        C
+2            3         1       3  female 26.000      0      0  7.925        S
+3            4         1       1  female 35.000      1      0 53.100        S
+4            5         0       3    male 35.000      0      0  8.050        S
+
+
+---last 5 rows of the data frame---
+     PassengerId  Survived  Pclass     Sex    Age  SibSp  Parch   Fare Embarked
+886          887         0       2    male 27.000      0      0 13.000        S
+887          888         1       1  female 19.000      0      0 30.000        S
+888          889         0       3  female    NaN      1      2 23.450        S
+889          890         1       1    male 26.000      0      0 30.000        C
+890          891         0       3    male 32.000      0      0  7.750        Q
+
+
+---row/col dimensions of data frame---
+rows = 891 and cols = 9
+
+
+---info about data frame---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 9 columns):
+ #   Column       Non-Null Count  Dtype   
+---  ------       --------------  -----   
+ 0   PassengerId  891 non-null    int64   
+ 1   Survived     891 non-null    int64   
+ 2   Pclass       891 non-null    int64   
+ 3   Sex          891 non-null    category
+ 4   Age          714 non-null    float64 
+ 5   SibSp        891 non-null    int64   
+ 6   Parch        891 non-null    int64   
+ 7   Fare         891 non-null    float64 
+ 8   Embarked     889 non-null    category
+dtypes: category(2), float64(2), int64(5)
+memory usage: 50.8 KB
+
+
+---box plot statistics about data frame numeric cols---
+              count    mean     std   min     25%     50%     75%     max
+PassengerId 891.000 446.000 257.354 1.000 223.500 446.000 668.500 891.000
+Survived    891.000   0.384   0.487 0.000   0.000   0.000   1.000   1.000
+Pclass      891.000   2.309   0.836 1.000   2.000   3.000   3.000   3.000
+Age         714.000  29.699  14.526 0.420  20.125  28.000  38.000  80.000
+SibSp       891.000   0.523   1.103 0.000   0.000   0.000   1.000   8.000
+Parch       891.000   0.382   0.806 0.000   0.000   0.000   0.000   6.000
+Fare        891.000  32.204  49.693 0.000   7.910  14.454  31.000 512.329
+
+
+---box plot statistics about data frame categorical cols---
+         count unique   top freq
+Sex        891      2  male  577
+Embarked   889      3     S  644
+
+
+---list of cols for this data frame---
+Index(['PassengerId', 'Survived', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch',
+       'Fare', 'Embarked'],
+      dtype='object')
+
+
+---unique and nunique items info about data frame per col---
+unique col = Survived
+[0 1]
+
+nunique col = Survived
+2
+
+unique col = Pclass
+[3 1 2]
+
+nunique col = Pclass
+3
+
+unique col = Sex
+['male', 'female']
+Categories (2, object): ['female', 'male']
+
+nunique col = Sex
+2
+
+unique col = Age
+[22.   38.   26.   35.     nan 54.    2.   27.   14.    4.   58.   20.
+ 39.   55.   31.   34.   15.   28.    8.   19.   40.   66.   42.   21.
+ 18.    3.    7.   49.   29.   65.   28.5   5.   11.   45.   17.   32.
+ 16.   25.    0.83 30.   33.   23.   24.   46.   59.   71.   37.   47.
+ 14.5  70.5  32.5  12.    9.   36.5  51.   55.5  40.5  44.    1.   61.
+ 56.   50.   36.   45.5  20.5  62.   41.   52.   63.   23.5   0.92 43.
+ 60.   10.   64.   13.   48.    0.75 53.   57.   80.   70.   24.5   6.
+  0.67 30.5   0.42 34.5  74.  ]
+
+nunique col = Age
+88
+
+unique col = SibSp
+[1 0 3 4 2 5 8]
+
+nunique col = SibSp
+7
+
+unique col = Parch
+[0 1 2 5 3 4 6]
+
+nunique col = Parch
+7
+
+unique col = Fare
+[  7.25    71.2833   7.925   53.1      8.05     8.4583  51.8625  21.075
+  11.1333  30.0708  16.7     26.55    31.275    7.8542  16.      29.125
+  13.      18.       7.225   26.       8.0292  35.5     31.3875 263.
+   7.8792   7.8958  27.7208 146.5208   7.75    10.5     82.1708  52.
+   7.2292  11.2417   9.475   21.      41.5792  15.5     21.6792  17.8
+  39.6875   7.8     76.7292  61.9792  27.75    46.9     80.      83.475
+  27.9     15.2458   8.1583   8.6625  73.5     14.4542  56.4958   7.65
+  29.      12.475    9.       9.5      7.7875  47.1     15.85    34.375
+  61.175   20.575   34.6542  63.3583  23.      77.2875   8.6542   7.775
+  24.15     9.825   14.4583 247.5208   7.1417  22.3583   6.975    7.05
+  14.5     15.0458  26.2833   9.2167  79.2      6.75    11.5     36.75
+   7.7958  12.525   66.6      7.3125  61.3792   7.7333  69.55    16.1
+  15.75    20.525   55.      25.925   33.5     30.6958  25.4667  28.7125
+   0.      15.05    39.      22.025   50.       8.4042   6.4958  10.4625
+  18.7875  31.     113.275   27.      76.2917  90.       9.35    13.5
+   7.55    26.25    12.275    7.125   52.5542  20.2125  86.5    512.3292
+  79.65   153.4625 135.6333  19.5     29.7     77.9583  20.25    78.85
+  91.0792  12.875    8.85   151.55    30.5     23.25    12.35   110.8833
+ 108.9     24.      56.9292  83.1583 262.375   14.     164.8667 134.5
+   6.2375  57.9792  28.5    133.65    15.9      9.225   35.      75.25
+  69.3     55.4417 211.5      4.0125 227.525   15.7417   7.7292  12.
+ 120.      12.65    18.75     6.8583  32.5      7.875   14.4     55.9
+   8.1125  81.8583  19.2583  19.9667  89.1042  38.5      7.725   13.7917
+   9.8375   7.0458   7.5208  12.2875   9.5875  49.5042  78.2667  15.1
+   7.6292  22.525   26.2875  59.4      7.4958  34.0208  93.5    221.7792
+ 106.425   49.5     71.      13.8625   7.8292  39.6     17.4     51.4792
+  26.3875  30.      40.125    8.7125  15.      33.      42.4     15.55
+  65.      32.3208   7.0542   8.4333  25.5875   9.8417   8.1375  10.1708
+ 211.3375  57.      13.4167   7.7417   9.4833   7.7375   8.3625  23.45
+  25.9292   8.6833   8.5167   7.8875  37.0042   6.45     6.95     8.3
+   6.4375  39.4     14.1083  13.8583  50.4958   5.       9.8458  10.5167]
+
+nunique col = Fare
+248
+
+unique col = Embarked
+['S', 'C', 'Q', NaN]
+Categories (3, object): ['C', 'Q', 'S']
+
+nunique col = Embarked
+3
+
+---display any null data summary for all the cols in df---
+PassengerId      0
+Survived         0
+Pclass           0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Fare             0
+Embarked         2
+
+
+---display any null data summary for only null cols in df---
+Age         177
+Embarked      2
+dtype: int64
+
+
+---duplicate data summary---
+0
+
+
+---create statistics on null data for potential imputation---
+          Count  Percentage
+Age         177      19.865
+Embarked      2       0.224
+
+
