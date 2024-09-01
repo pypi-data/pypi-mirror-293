@@ -1,0 +1,7 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aggregator.py,sha256=2htXGvWeOKcmABk8lgxJCCDo9rvKsJQEIBuY9Uu4VcI,1417
+faiss_vector_aggregator-0.2.0.dist-info/LICENSE,sha256=KPvCCIySGzF4TIKB3e8CvLmLpl8-1yxWbJepNwxrEfw,1094
+faiss_vector_aggregator-0.2.0.dist-info/METADATA,sha256=XLIhJE7tye4MDt0213L98__Po5q0Wt4dUm2JzfKXnb8,5680
+faiss_vector_aggregator-0.2.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+faiss_vector_aggregator-0.2.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+faiss_vector_aggregator-0.2.0.dist-info/RECORD,,
