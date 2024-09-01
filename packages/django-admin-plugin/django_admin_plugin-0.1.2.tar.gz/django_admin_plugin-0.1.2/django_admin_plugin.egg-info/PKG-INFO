@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: django-admin-plugin
+Version: 0.1.2
+Summary: Useful plugins to enhance django admin
+Home-page: https://github.com/amin-basiri/django-admin-plugin
+Author: Amin Basiri
+Author-email: amin.bsr99@gmail.com
+License: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 5.1
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: Django>=5.1
+
+# Django Admin Plugin
+
+Django Admin Plugins to enhance django admin abilities
+
+<div>
+  <a href="https://badge.fury.io/py/django-admin-plugin">
+      <img src="https://badge.fury.io/py/django-admin-plugin.svg" alt="Version"/>
+  </a>
+</div>
+
+## Quickstart
+
+1 - Install with `pip`:
+
+```bash
+pip install django-admin-plugin
+```
+
+## Initialize And Sync
+
+1 - Create action button permissions
+```bash
+python manage.py admin_plugin init
+```
