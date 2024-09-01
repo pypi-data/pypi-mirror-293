@@ -1,0 +1,6 @@
+setup.py
+indomaret.egg-info/PKG-INFO
+indomaret.egg-info/SOURCES.txt
+indomaret.egg-info/dependency_links.txt
+indomaret.egg-info/entry_points.txt
+indomaret.egg-info/top_level.txt
