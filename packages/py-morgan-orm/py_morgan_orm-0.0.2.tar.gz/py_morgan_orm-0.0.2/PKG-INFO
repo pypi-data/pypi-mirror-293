@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-morgan-orm
+Version: 0.0.2
+Summary: An easy to use ORM for databases
+Author-email: Vicente Gutiérrez <gtz.rvera@gmail.com>
+Project-URL: Homepage, https://github.com/vcgtz/py-morgan-orm
+Project-URL: Issues, https://github.com/vcgtz/py-morgan-orm/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Morgan ORM for Python
+An easy to use ORM for databases
