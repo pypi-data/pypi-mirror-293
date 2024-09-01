@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: taskmate
+Version: 0.1.0
+Summary: Simple TUI for task management
+Author: Magnus Sommarsjö
+Project-URL: Homepage, https://github.com/magnussommarsjo/taskmate
+Project-URL: Bug Tracker, https://github.com/magnussommarsjo/taskmate/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: textual
+
+# Task Mate
+
+Simple Terminal User Interface application for creating and list tasks.
+
+Start application by running
+
+```bash
+tm
+```
