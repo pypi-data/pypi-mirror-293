@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nugit"
+description = "Easy to setup, simple to use and tasty as nugget pre-commit solution."
+authors = [{ name = "Lev Zlobin", email = "lengthylyova@gmail.com" }]
+dependencies = ["PyYAML >= 6.0.2"]
+license = {file = "LICENSE"}
+readme = "src/nugit/DESC.md"
+keywords = ["python", "git", "pre-commit"]
+classifiers = [
+  "Programming Language :: Python"
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/lengthylyova/nugit"
+Issues = "https://github.com/lengthylyova/nugit/issues"
+
+[project.scripts]
+nugit = "nugit.entrypoints:nugit"
+
+[project.optional-dependencies]
+dev = ["nugit>=1.0.2", "flake8>=7.1.1"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { attr = "nugit.__version__" }
