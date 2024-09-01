@@ -1,0 +1,12 @@
+mpl_typst/__init__.py,sha256=1NH9wxnWW5gWADkQ961EX3iDDy3iThtTXyhZ0InKuZg,2089
+mpl_typst/as_default.py,sha256=TjbPHcx_4xrWa8tVQ1rsgWRfNd7qi2_6O4tG60ChLr0,172
+mpl_typst/backend.py,sha256=2j0UD1cFGUhQJNEGK9M2EAR84tsMABEAkOqquPBMhws,16735
+mpl_typst/prologue.typ,sha256=nCffqDEvkSb5ZiOptZnjABqphISi3KzWk5Sfi2CZ0do,1480
+mpl_typst/typst.py,sha256=PRF792Db1kBFEgDPQgCk5gh3euEkgxjqyMMh8pNxyZA,4658
+mpl_typst/typst_test.py,sha256=hLX8V1g6M7j3lafgQDLBA2z7cChRoyhW08AGCqXk6Wc,432
+mpl_typst-0.1.0.dist-info/LICENSE,sha256=2G5-6WwJXB6j5mWLRTa-xU3G-PK4LuqJW-Mt7CBmp8E,1074
+mpl_typst-0.1.0.dist-info/METADATA,sha256=f1IpWyg94amffMQ6udVZAYjrFNfPbB7eZrHlj8DPgrg,3509
+mpl_typst-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+mpl_typst-0.1.0.dist-info/top_level.txt,sha256=Bc6UA_Jam1EyTtRfp3uxF07DEqDClZPSQrY6LVSJGdA,10
+mpl_typst-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mpl_typst-0.1.0.dist-info/RECORD,,
