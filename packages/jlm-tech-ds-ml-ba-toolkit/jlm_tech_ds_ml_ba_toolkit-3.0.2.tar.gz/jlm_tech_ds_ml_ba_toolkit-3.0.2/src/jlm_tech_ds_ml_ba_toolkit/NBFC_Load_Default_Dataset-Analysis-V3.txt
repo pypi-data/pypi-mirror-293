@@ -1,0 +1,333 @@
+---Statistical Summary of the Data frame provided---
+
+---first 5 rows of the data frame---
+         ID  loan_amnt loan_term  interest_rate loan_subgrade job_experience home_ownership  annual_income income_verification_status        loan_purpose  debt_to_income  delinq_2yrs  public_records  revolving_balance  total_acc  interest_receive application_type  last_week_pay  total_current_balance  total_revolving_limit  default application_level_cnt
+0  72199369       9000   3 years          9.170            B2       <5 Years            OWN      85000.000               Not Verified  debt_consolidation          26.680        0.000           0.000              39519     20.000            59.600       INDIVIDUAL          4.000              95493.000              84100.000        0       low_application
+1  14257956      18000   3 years         13.650            C1       <5 Years            OWN      64000.000                   Verified  debt_consolidation          31.670        0.000           1.000               9783     24.000          3348.250       INDIVIDUAL         95.000             185433.000              13500.000        0       low_application
+2  66216451      16000   3 years          7.260            A4       <5 Years       MORTGAGE     150000.000                   Verified  debt_consolidation          19.700        2.000           0.000              13641     27.000           276.690       INDIVIDUAL         13.000             180519.000              19300.000        0      high_application
+3  46974169      25000   3 years         13.990            C4            NaN       MORTGAGE      59800.000                   Verified  debt_consolidation          37.390        0.000           0.000              35020     35.000          1106.720       INDIVIDUAL         17.000             183208.000              55400.000        0       low_application
+4  46725961      17000   3 years          6.390            A2      10+ years       MORTGAGE      72000.000                   Verified         credit_card           8.920        0.000           0.000              23990     26.000           725.290       INDIVIDUAL         39.000              23990.000              81300.000        0      high_application
+
+
+---last 5 rows of the data frame---
+             ID  loan_amnt loan_term  interest_rate loan_subgrade job_experience home_ownership  annual_income income_verification_status        loan_purpose  debt_to_income  delinq_2yrs  public_records  revolving_balance  total_acc  interest_receive application_type  last_week_pay  total_current_balance  total_revolving_limit  default application_level_cnt
+93169  65577252       3200   3 years          7.260            A4       <5 Years           RENT      85000.000               Not Verified  debt_consolidation          17.110        0.000           0.000               7924     38.000            55.340       INDIVIDUAL         13.000              64635.000              47600.000        0      high_application
+93170    836021       3500   3 years          5.420            A1            NaN       MORTGAGE      57550.000               Not Verified               other          22.640        0.000           0.000              10174     24.000           299.670       INDIVIDUAL        161.000                    NaN                    NaN        1      high_application
+93171  33058720       8000   3 years         13.980            C3      10+ years           RENT     148531.500                   Verified         credit_card          13.040        1.000           0.000               5391     25.000          1150.580       INDIVIDUAL         65.000              94596.000               6500.000        0       low_application
+93172   4060472      35000   3 years         17.770            D1       <5 Years           RENT     100000.000                   Verified  debt_consolidation          17.220        0.000           0.000              24609     45.000          5764.580       INDIVIDUAL         56.000              33759.000              34900.000        1      high_application
+93173   3628127      10000   3 years         15.800            C3       <5 Years           RENT      60000.000                   Verified  debt_consolidation          11.830        0.000           0.000              11285      7.000          2279.360       INDIVIDUAL        104.000              25594.000              12300.000        0    medium_application
+
+
+---row/col dimensions of data frame---
+rows = 93174 and cols = 22
+
+
+---info about data frame---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 93174 entries, 0 to 93173
+Data columns (total 22 columns):
+ #   Column                      Non-Null Count  Dtype   
+---  ------                      --------------  -----   
+ 0   ID                          93174 non-null  int64   
+ 1   loan_amnt                   93174 non-null  int64   
+ 2   loan_term                   93174 non-null  category
+ 3   interest_rate               93174 non-null  float64 
+ 4   loan_subgrade               93174 non-null  category
+ 5   job_experience              88472 non-null  category
+ 6   home_ownership              93174 non-null  category
+ 7   annual_income               93173 non-null  float64 
+ 8   income_verification_status  93174 non-null  category
+ 9   loan_purpose                93174 non-null  category
+ 10  debt_to_income              93174 non-null  float64 
+ 11  delinq_2yrs                 93172 non-null  float64 
+ 12  public_records              93172 non-null  float64 
+ 13  revolving_balance           93174 non-null  int64   
+ 14  total_acc                   93172 non-null  float64 
+ 15  interest_receive            93174 non-null  float64 
+ 16  application_type            93174 non-null  category
+ 17  last_week_pay               91250 non-null  float64 
+ 18  total_current_balance       85788 non-null  float64 
+ 19  total_revolving_limit       85788 non-null  float64 
+ 20  default                     93174 non-null  int64   
+ 21  application_level_cnt       93174 non-null  category
+dtypes: category(8), float64(10), int64(4)
+memory usage: 10.7 MB
+
+
+---box plot statistics about data frame numeric cols---
+                          count         mean          std       min          25%          50%          75%          max
+ID                    93174.000 35050211.389 24149262.074 70735.000 10859832.500 37107507.000 58598949.500 73519746.000
+loan_amnt             93174.000    14733.861     8428.185   500.000     8000.000    13000.000    20000.000    35000.000
+interest_rate         93174.000       13.233        4.369     5.320        9.990       12.990       16.200       28.990
+annual_income         93173.000    75028.259    69454.784  1200.000    45000.000    64000.000    90000.000  9500000.000
+debt_to_income        93174.000       18.128        8.563     0.000       11.930       17.640       23.890      672.520
+delinq_2yrs           93172.000        0.317        0.881     0.000        0.000        0.000        0.000       22.000
+public_records        93172.000        0.196        0.581     0.000        0.000        0.000        0.000       49.000
+revolving_balance     93174.000    16854.469    23689.074     0.000     6433.000    11856.000    20745.000  2560703.000
+total_acc             93172.000       25.249       11.855     1.000       17.000       24.000       32.000      119.000
+interest_receive      93174.000     1747.264     2088.236     0.000      439.880     1070.755     2219.613    23172.310
+last_week_pay         91250.000       58.155       44.327     0.000       22.000       48.000       83.000      291.000
+total_current_balance 85788.000   139252.923   157686.791     0.000    29642.000    79363.500   207160.000  8000078.000
+total_revolving_limit 85788.000    32085.903    47052.515     0.000    14000.000    23700.000    39700.000  9999999.000
+default               93174.000        0.238        0.426     0.000        0.000        0.000        0.000        1.000
+
+
+---box plot statistics about data frame categorical cols---
+                            count unique                 top   freq
+loan_term                   93174      2             3 years  65211
+loan_subgrade               93174     35                  B4   5879
+job_experience              88472      3            <5 Years  40610
+home_ownership              93174      4            MORTGAGE  46445
+income_verification_status  93174      2            Verified  64937
+loan_purpose                93174      4  debt_consolidation  55241
+application_type            93174      2          INDIVIDUAL  93118
+application_level_cnt       93174      3     low_application  44233
+
+
+---list of cols for this data frame---
+Index(['ID', 'loan_amnt', 'loan_term', 'interest_rate', 'loan_subgrade',
+       'job_experience', 'home_ownership', 'annual_income',
+       'income_verification_status', 'loan_purpose', 'debt_to_income',
+       'delinq_2yrs', 'public_records', 'revolving_balance', 'total_acc',
+       'interest_receive', 'application_type', 'last_week_pay',
+       'total_current_balance', 'total_revolving_limit', 'default',
+       'application_level_cnt'],
+      dtype='object')
+
+
+---unique and nunique items info about data frame per col---
+unique col = loan_amnt
+[ 9000 18000 16000 ... 33225 30775 31425]
+
+nunique col = loan_amnt
+1310
+
+unique col = loan_term
+['3 years', '5 years']
+Categories (2, object): ['3 years', '5 years']
+
+nunique col = loan_term
+2
+
+unique col = interest_rate
+[ 9.17 13.65  7.26 13.99  6.39 12.69 11.14  6.49 10.99 12.49 12.29  8.19
+ 20.5  10.75 19.52  6.89 14.65 23.4   8.18 21.48 17.86 17.57 19.19 14.49
+ 10.16 11.99 15.31 13.98  7.89 13.18 10.49 13.33  6.68 11.67 16.99  6.03
+  9.99 13.11 12.35  5.32 25.78 12.99 18.25  6.62  7.9  14.64 18.75 12.05
+ 19.99 14.99 11.71 23.99 15.61 17.14 25.89  6.24 12.85 15.58 11.44 19.24
+ 22.99 15.41  8.9   8.67 17.27 16.55 13.68 14.16  9.67 20.99 11.53 13.43
+ 17.1  24.99 18.55 10.64 19.72 15.7  22.2   8.39 11.22  9.71 16.29 14.46
+ 23.63 12.12  8.38  5.93 18.2  21.99  9.76 20.49 22.47 14.31  7.69 16.24
+  8.88 23.7  15.88 13.53 18.54 18.49 12.61 11.55 10.15 18.84 11.49 19.22
+ 14.33 14.09 14.3  14.48 14.47 21.15 22.15 18.99 20.8  20.2  15.1  12.39
+ 17.77 13.23 15.8  22.4  19.2  15.59 13.48 13.67 14.98 23.28 25.99 17.56
+ 10.38 13.35 26.77 16.78 21.6  18.24  6.92  7.62 21.49 23.26 16.49 19.05
+ 16.2  14.11 19.47 25.57 13.66 16.07  5.99 24.08 15.76 21.   12.59  8.49
+ 15.27 11.48  6.99  9.62 23.76 11.83  7.49 26.06 22.45  9.63 12.68 12.42
+ 11.26  7.12 18.92 10.78 24.5  23.43 21.67 15.22 16.59 16.77 15.23 16.32
+ 14.84 14.7  11.11 27.31 25.8   7.66  9.49  6.54 17.99 12.21 18.85 13.05
+ 25.83 19.97  5.42  9.25 10.36 13.49 20.31 15.99 14.85 15.65 25.28 17.19
+  9.32 14.59 19.03 14.27 22.9  21.98 14.96 17.76 12.92  9.88 23.5  15.37
+  7.88 10.74 10.37 22.06  7.91 23.13 11.97 24.83 11.86 21.27  9.91 14.22
+ 14.83  6.76  7.68 17.58 15.96 28.99 10.59  7.14 14.74 12.53 12.87 12.84
+ 13.57 18.39 22.95 21.7  12.88 14.61 15.2   8.94  9.8   7.51  6.91 17.88
+ 15.95 12.23 10.   11.36 13.92 20.03 14.54 18.67 11.12  8.59 10.65 17.43
+ 12.41 27.88 19.42 21.18 19.74 10.25 17.97  7.74  8.   12.18 13.61 13.44
+ 13.47 14.18 14.91 14.26 11.89  6.17  8.6  22.7  18.64 15.21  6.97 21.36
+ 17.28 15.81 23.83 16.02 16.4  10.96 13.85 16.45 10.62 11.28 15.28 23.1
+ 15.77 21.59 18.3  13.16  5.79 23.33 10.95 28.49 12.8  24.89 14.42  8.32
+ 11.41  9.64 10.33 13.79  7.29 17.34  9.33 15.05 22.11 21.28 14.79 17.49
+ 19.91 21.22 19.29 11.58 10.83 16.69 19.48 11.63  9.2  20.25 14.35 20.62
+ 10.71 20.53  9.01 13.06 14.93 10.39 12.98 11.03 15.68 13.22 14.38 20.3
+ 16.89  9.83 10.91 19.69 22.78 17.39 18.79  7.37 21.97 20.9  16.82 22.48
+ 13.24 16.35 12.73 16.65 11.72 18.17 14.72 19.04 10.08 15.62 14.82 13.55
+ 24.2   9.96 27.49  9.07 13.8  24.7  20.89  9.38 19.79 15.33 10.28 15.83
+ 18.21 16.   24.24 17.93 13.72 15.01 16.63 12.54 17.8  19.89 23.59 15.45
+ 17.06 23.91 22.74 18.78 11.66  6.   14.17 18.53 20.77  7.05 14.12  8.7
+ 16.08 18.61 20.48  9.45 18.62  7.42 16.71 13.87 15.57 14.07 11.34 24.33
+ 22.35 17.26 17.51 20.52 11.59 18.29  7.4  16.28 16.95 14.5  26.99 11.78
+ 11.91  7.43 11.54 13.17 10.2  25.09 19.66 18.04  7.75 10.51 20.11 15.51
+ 21.64 11.46 12.86 14.62 17.74  8.63  8.07 12.09 18.86 13.75 17.66 13.12
+ 21.21 21.74 16.7  19.41 17.04 13.3  12.62 10.14 18.07 23.52 17.22  9.51
+ 24.59 21.82 27.99 14.25 24.76 13.04 20.17 18.43 16.01 12.36 18.91 14.75
+ 18.36]
+
+nunique col = interest_rate
+481
+
+unique col = loan_subgrade
+['B2', 'C1', 'A4', 'C4', 'A2', ..., 'F1', 'G1', 'G5', 'G2', 'G4']
+Length: 35
+Categories (35, object): ['A1', 'A2', 'A3', 'A4', ..., 'G2', 'G3', 'G4', 'G5']
+
+nunique col = loan_subgrade
+35
+
+unique col = job_experience
+['<5 Years', NaN, '10+ years', '6-10 years']
+Categories (3, object): ['10+ years', '6-10 years', '<5 Years']
+
+nunique col = job_experience
+3
+
+unique col = home_ownership
+['OWN', 'MORTGAGE', 'RENT', 'OTHER']
+Categories (4, object): ['MORTGAGE', 'OTHER', 'OWN', 'RENT']
+
+nunique col = home_ownership
+4
+
+unique col = annual_income
+[ 85000.   64000.  150000.  ...  48132.   60168.  148531.5]
+
+nunique col = annual_income
+8667
+
+unique col = income_verification_status
+['Not Verified', 'Verified']
+Categories (2, object): ['Not Verified', 'Verified']
+
+nunique col = income_verification_status
+2
+
+unique col = loan_purpose
+['debt_consolidation', 'credit_card', 'other', 'home_improvement']
+Categories (4, object): ['credit_card', 'debt_consolidation', 'home_improvement', 'other']
+
+nunique col = loan_purpose
+4
+
+unique col = debt_to_income
+[26.68 31.67 19.7  ... 36.9  39.2  39.74]
+
+nunique col = debt_to_income
+3996
+
+unique col = delinq_2yrs
+[ 0.  2.  1.  3.  6.  7.  5. 10.  4.  8.  9. 12. 19. 13. 11. 14. 15. 17.
+ 18. 21. 16. nan 22.]
+
+nunique col = delinq_2yrs
+22
+
+unique col = public_records
+[ 0.  1.  2.  4.  3.  5.  8.  6.  7. 11. 12.  9. 13. 49. 10. nan]
+
+nunique col = public_records
+15
+
+unique col = revolving_balance
+[39519  9783 13641 ...  5908 39626 39737]
+
+nunique col = revolving_balance
+35945
+
+unique col = total_acc
+[ 20.  24.  27.  35.  26.  48.  14.  12.   8.  28.  18.  29.  17.  19.
+  16.  46.  25.  37.  31.  32.  62.  33.  34.  15.  38.  41.  13.  42.
+  23.  47.  54.  22.  11.  40.  67.  56.  21.  57.  10.  30.  52.   7.
+  43.   9.  36.  74.   5.  49.  60.  53.   4.  39.  58.  44.   6.  63.
+  50.  69.  45.  51.  59.  72.  71.  61.  55.  64.  65.  66.  73.  95.
+  88.  87.  75.  68.   3.  76.  77.  79.  85.  84.   1.  81.  80.  89.
+   2.  83.  70.  90.  92.  96.  86.  93.  78. 119.  99.  97.  82.  91.
+ 113.  nan 112.  94. 105.]
+
+nunique col = total_acc
+102
+
+unique col = interest_receive
+[  59.6  3348.25  276.69 ...  299.67 1150.58 5764.58]
+
+nunique col = interest_receive
+69122
+
+unique col = application_type
+['INDIVIDUAL', 'JOINT']
+Categories (2, object): ['INDIVIDUAL', 'JOINT']
+
+nunique col = application_type
+2
+
+unique col = last_week_pay
+[  4.  95.  13.  17.  39.  26.  35.  74.  96.  nan  57.  44.  61.  65.
+  22. 104.   9.  83. 135. 100. 144.  48.  52.  78.  91. 152. 156.  87.
+  31.  30. 170.  18. 118. 143. 161. 126. 109.   0. 157.  43. 122. 187.
+ 139. 209.  70. 131. 113.  56.   8.  92. 148.  82. 130. 117. 108. 165.
+  69. 231. 196. 256. 226. 222. 217. 213.  79.  21. 183. 121. 239. 265.
+ 261. 178. 252. 257. 191. 169. 174. 204. 248. 244. 243. 200. 192. 235.
+ 230. 182. 218. 270. 153. 274. 291.]
+
+nunique col = last_week_pay
+90
+
+unique col = total_current_balance
+[ 95493. 185433. 180519. ...  64635.  94596.  25594.]
+
+nunique col = total_current_balance
+72306
+
+unique col = total_revolving_limit
+[84100. 13500. 19300. ... 16437. 54763. 21606.]
+
+nunique col = total_revolving_limit
+4469
+
+unique col = default
+[0 1]
+
+nunique col = default
+2
+
+---display any null data summary for all the cols in df---
+ID                               0
+loan_amnt                        0
+loan_term                        0
+interest_rate                    0
+loan_subgrade                    0
+job_experience                4702
+home_ownership                   0
+annual_income                    1
+income_verification_status       0
+loan_purpose                     0
+debt_to_income                   0
+delinq_2yrs                      2
+public_records                   2
+revolving_balance                0
+total_acc                        2
+interest_receive                 0
+application_type                 0
+last_week_pay                 1924
+total_current_balance         7386
+total_revolving_limit         7386
+default                          0
+application_level_cnt            0
+
+
+---display any null data summary for only null cols in df---
+job_experience           4702
+annual_income               1
+delinq_2yrs                 2
+public_records              2
+total_acc                   2
+last_week_pay            1924
+total_current_balance    7386
+total_revolving_limit    7386
+dtype: int64
+
+
+---duplicate data summary---
+0
+
+
+---create statistics on null data for potential imputation---
+                       Count  Percentage
+job_experience          4702       5.046
+annual_income              1       0.001
+delinq_2yrs                2       0.002
+public_records             2       0.002
+total_acc                  2       0.002
+last_week_pay           1924       2.065
+total_current_balance   7386       7.927
+total_revolving_limit   7386       7.927
+
+
