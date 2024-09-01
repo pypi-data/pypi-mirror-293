@@ -1,0 +1,12 @@
+langchain
+tiktoken
+langgraph
+beautifulsoup4
+langchain-openai
+langchain-community
+unstructured
+pdfplumber
+python-docx
+pandas
+torch==2.3.0
+torchvision==0.18.0
