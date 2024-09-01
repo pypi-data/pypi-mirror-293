@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: msdparser
+Version: 3.0.0a2
+Summary: Low-level parser for StepMania MSD files (SM, SSC, DWI...)
+Author-email: Ash Garcia <github@garcia.sh>
+License: # MIT License
+        
+        Copyright © 2020 Ash Garcia
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: stepmania,simfile,sm,ssc,dwi
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# msdparser
+
+A comprehensive, pure-Python, speed-optimized MSD parser.
+MSD is the underlying file format
+for the SM and SSC simfile formats used by StepMania,
+as well as a few older formats like DWI.
+
+Full documentation can be found on **[Read the Docs](https://msdparser.readthedocs.io/en/latest/)**.
+
+## Features
+
+- MSD lexer and parser
+- Optional escape sequences (on by default)
+- Optional strict parsing (off by default)
+- Bidirectionally-lossless parsing & serialization (in most cases)
+
+## Installation
+
+`msdparser` is available on PyPI:
+
+```sh
+pip install msdparser
+```
+
+## Quickstart
+
+`parse_msd` takes a **named** _file_ or _string_ argument and yields `MSDParameter` instances:
+
+```python
+>>> msd_data = """
+... #VERSION:0.83;
+... #TITLE:Springtime;
+... #SUBTITLE:;
+... #ARTIST:Kommisar;
+... """
+>>> from msdparser import parse_msd
+>>> for param in parse_msd(string=msd_data):
+...         print(
+...             "key=" + repr(param.key),
+...             "value=" + repr(param.value),
+...         )
+...
+key='VERSION' value='0.83'
+key='TITLE' value='Springtime'
+key='SUBTITLE' value=''
+key='ARTIST' value='Kommisar'
+```
+
+`MSDParameter` instances stringify back to MSD.
+They can be created from a sequence of strings,
+typically the key and value:
+
+```python
+>>> from msdparser import MSDParameter
+>>> pairs = [('TITLE', 'Springtime'), ('ARTIST', 'Kommisar')]
+>>> for key, value in pairs:
+...     print(str(MSDParameter([key, value])))
+...
+#TITLE:Springtime;
+#ARTIST:Kommisar;
+```
+
+Parameters can be stringified exactly how they were parsed
+by calling `serialize` or `stringify` with `exact=True`:
+
+```python
+>>> import codecs
+>>> import filecmp
+>>> from msdparser import MSDParameter, parse_msd
+>>> with codecs.open("tests/testdata/backup.ssc", encoding="utf-8") as infile:
+...     params = list(parse_msd(file=infile))
+...
+>>> with codecs.open("output.ssc", "w", encoding="utf-8") as outfile:
+...     for param in params:
+...         param.serialize(outfile, exact=True)
+...
+>>> filecmp.compare("tests/testdata/backup.ssc", "output.ssc")
+True
+```
+
+## Developing
+
+**msdparser** uses [rye](https://rye.astral.sh) for package management. Create the virtual environment:
+
+```sh
+rye sync
+```
+
+Run the unit tests:
+
+```sh
+rye test
+```
+
+Build the documentation:
+
+```sh
+./.venv/Scripts/activate
+docs/make html
+```
