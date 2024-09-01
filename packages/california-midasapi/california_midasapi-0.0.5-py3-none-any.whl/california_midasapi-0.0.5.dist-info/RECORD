@@ -1,0 +1,12 @@
+california_midasapi/Midas.py,sha256=IXWseuZMyjmrjRUsDTnF6zTdK5unY9aEyJ5vA6Mtp4Q,259
+california_midasapi/__init__.py,sha256=vJ5TBdQy4Y_Irdot-nY65z6KiJ6ChIUUJWn72qXjDsY,95
+california_midasapi/authentication.py,sha256=gLwFQZU_g5BrNfGcuIehzWFHNRYx0HLYIDbWddvrQ5o,1913
+california_midasapi/exception.py,sha256=QKCEOgVZeuRkR2ROLR3XLDHiiwDNU6kR8-z1GEaoqMY,411
+california_midasapi/internal.py,sha256=zg71y7DM4THGXQqs54o4ts8gEm-d2J5rejOE4fYhqQI,1836
+california_midasapi/ratelist.py,sha256=S4xA9K7C-lsuF0dA_wvmEOLW4AsbK3E05N_usKosQCo,1634
+california_midasapi/types.py,sha256=vReS6-kIxCJHL_qoz4y05v2PPWhNevTL57RHGvJS7Is,1478
+california_midasapi-0.0.5.dist-info/LICENSE.md,sha256=NZkJaGFEUwQ-PTuFGV-5FL9nwGnjecf5ET_yvp8iiHg,1070
+california_midasapi-0.0.5.dist-info/METADATA,sha256=r37hPnqXvmMACRx4yqPXqPkq5yqrV7-nwVUzA0ff12U,2691
+california_midasapi-0.0.5.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+california_midasapi-0.0.5.dist-info/top_level.txt,sha256=Fer5VQh5q6gFp5W_Rl1NrRuRLa_a4ptjs1rxyPmsuqM,20
+california_midasapi-0.0.5.dist-info/RECORD,,
