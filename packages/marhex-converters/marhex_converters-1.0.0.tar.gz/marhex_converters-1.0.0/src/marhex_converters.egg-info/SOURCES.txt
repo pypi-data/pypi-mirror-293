@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/marhex_converters/__init__.py
+src/marhex_converters/lang_num.py
+src/marhex_converters.egg-info/PKG-INFO
+src/marhex_converters.egg-info/SOURCES.txt
+src/marhex_converters.egg-info/dependency_links.txt
+src/marhex_converters.egg-info/top_level.txt
