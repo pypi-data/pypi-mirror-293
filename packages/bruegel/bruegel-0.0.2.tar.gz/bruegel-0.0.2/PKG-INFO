@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bruegel
+Version: 0.0.2
+Summary: Modelling (super)(sub)cellular states in spatial transcriptomics
+Author-email: Wouter Saelens <wouter.saelens@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/probabilistic-cell/bruegel
+Project-URL: Bug Tracker, https://github.com/probabilistic-cell/bruegel/issues
+Keywords: visualization
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: ruff; extra == "test"

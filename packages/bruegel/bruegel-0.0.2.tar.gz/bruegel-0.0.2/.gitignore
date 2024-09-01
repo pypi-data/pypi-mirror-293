@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pyo
+# pixi environments
+.pixi
+*.egg-info
+code/*.xlsx
+code/*.png
+output/
+pixi.toml
+pixi.lock
+dist/
