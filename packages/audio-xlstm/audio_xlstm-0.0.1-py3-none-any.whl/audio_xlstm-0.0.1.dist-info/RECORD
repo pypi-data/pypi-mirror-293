@@ -1,0 +1,8 @@
+audio_xlstm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audio_xlstm/lstm_modules.py,sha256=wHvlnCa_41p_H-x0M3c3g3EFoXQDMx0uVF1IL1uifoI,11532
+audio_xlstm/model.py,sha256=JQoJB4vWmr9jm8qmsA9NU3W4FxYiQ-FflMDW7MtRFY8,4473
+audio_xlstm/utils.py,sha256=HM6lF8O7G0cVTckEPfskyyyMKs9yJjkOUghgz2aFR0E,4413
+audio_xlstm-0.0.1.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+audio_xlstm-0.0.1.dist-info/METADATA,sha256=ffRqm-HGX6xcCkNvjRmXPCLMGy_UtoW_PyvIFIprBmc,2513
+audio_xlstm-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+audio_xlstm-0.0.1.dist-info/RECORD,,
