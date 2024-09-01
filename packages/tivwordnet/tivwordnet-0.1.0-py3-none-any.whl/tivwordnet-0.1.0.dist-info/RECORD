@@ -1,0 +1,8 @@
+tivwordnet/__init__.py,sha256=w3s6TUSUfYo1Tv5YCvNwoTWa-WI7fidOOX4Td4ytx5M,37
+tivwordnet/tiv_wordnet.py,sha256=KPAF8WEVpTbTc_qLKJLEBmwEE5KJbSKq3sX5_5xD5vM,3364
+tivwordnet/data/tiv_definitions.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tivwordnet/data/tiv_synsets.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tivwordnet-0.1.0.dist-info/METADATA,sha256=Ov0Zll8CtJ8JLgP5_9CJv_nKcglv5YUEI3b11Y2WdSg,4154
+tivwordnet-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+tivwordnet-0.1.0.dist-info/top_level.txt,sha256=nQTk7xlTaVVzXVwMlQ5VQMigalGPflCqu5ps27MaF2E,11
+tivwordnet-0.1.0.dist-info/RECORD,,
