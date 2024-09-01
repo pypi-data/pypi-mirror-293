@@ -1,0 +1,8 @@
+README.md
+setup.py
+pwp.egg-info/PKG-INFO
+pwp.egg-info/SOURCES.txt
+pwp.egg-info/dependency_links.txt
+pwp.egg-info/entry_points.txt
+pwp.egg-info/requires.txt
+pwp.egg-info/top_level.txt

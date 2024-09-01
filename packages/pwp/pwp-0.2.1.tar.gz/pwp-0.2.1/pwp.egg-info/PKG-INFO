@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pwp
+Version: 0.2.1
+Summary: a pip wrapper that automatically manages requirements.txt
+Home-page: https://github.com/merouanezouaid/pwp
+Author: Kaito
+Author-email: kaito.collabs@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+
+    
+### Pip With Packages (pwp) - by Kaito
+  
+Thanks for installing PWP!
+  
+#### Usage:
+    pwp install <package1> [<package2> ...]
+    pwp uninstall <package1> [<package2> ...]
+  
+Enjoy managing your packages with ease!
