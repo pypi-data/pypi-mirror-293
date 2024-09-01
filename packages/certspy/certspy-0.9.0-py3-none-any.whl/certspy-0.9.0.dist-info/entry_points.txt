@@ -1,0 +1,3 @@
+[console_scripts]
+certspy = certspy.certspy:main
+
