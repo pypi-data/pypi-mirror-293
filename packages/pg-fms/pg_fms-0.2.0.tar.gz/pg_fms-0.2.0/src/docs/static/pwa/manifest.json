@@ -1,0 +1,63 @@
+{
+  "name": "PG-FMS",
+  "short_name": "PG-FMS",
+  "description": "The Purple Geckos File Management System (PG-FMS) is an advanced, Python-based file management solution.",
+  "categories": [
+    "technology",
+    "development",
+    "file management",
+    "python",
+    "pg-fms"
+  ],
+  "lang": "en-US",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#c001fd",
+  "background_color": "#4c00cd",
+  "orientation": "portrait-primary",
+  "display_override": [
+    "minimal-ui",
+    "browser",
+    "fullscreen",
+    "window-controls-overlay"
+  ],
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "../svg/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "url": "/contact",
+      "description": "Contact me.",
+      "icons": [
+        {
+          "src": "/static/svg/logo.svg",
+          "type": "image/svg+xml",
+          "purpose": "any",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/static/img/screen-shot-wide.png",
+      "sizes": "640x1136",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/screen-shot-narrow.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": false
+}
