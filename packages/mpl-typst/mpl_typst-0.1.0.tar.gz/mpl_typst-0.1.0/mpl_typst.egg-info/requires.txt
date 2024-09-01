@@ -1,0 +1,6 @@
+matplotlib
+
+[dev]
+flake8
+isort
+pytest>=7
