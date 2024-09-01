@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+converso_tempO_robert.egg-info/PKG-INFO
+converso_tempO_robert.egg-info/SOURCES.txt
+converso_tempO_robert.egg-info/dependency_links.txt
+converso_tempO_robert.egg-info/top_level.txt
