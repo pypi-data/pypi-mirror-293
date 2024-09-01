@@ -1,0 +1,3 @@
+[console_scripts]
+pythonl=console_script:main
+
