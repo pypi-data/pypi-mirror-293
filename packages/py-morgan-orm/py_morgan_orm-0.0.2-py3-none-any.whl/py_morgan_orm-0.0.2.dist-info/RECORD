@@ -1,0 +1,9 @@
+morgan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+morgan/connection.py,sha256=HUGTV8x0azv3cUV3zIsap5u4bL5Cs0kiVmF-V4nhSMg,3157
+morgan/demo.py,sha256=gSTG08whg6UggflWhD4mIeOUdEf77Y4awElgI3JPRm0,101
+morgan/exceptions.py,sha256=ByjQiGP7-IL-u9v9pbjbQbiqXF2uhi-tvwC7MCmhBm4,494
+py_morgan_orm-0.0.2.dist-info/LICENSE,sha256=oKrE_IN5pw16diH0JJg6ATwiKcf3g0GH2HK6BoZTqpY,1075
+py_morgan_orm-0.0.2.dist-info/METADATA,sha256=dZIvtxsnWRZ1LVeogCqqmzHr6h8HFhJgK3LKNMPvqX8,572
+py_morgan_orm-0.0.2.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+py_morgan_orm-0.0.2.dist-info/top_level.txt,sha256=4LMhy4-4YE2Nj2ZeQ2RXUptc48VS-plvow7rn9VUwuY,7
+py_morgan_orm-0.0.2.dist-info/RECORD,,
