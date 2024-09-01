@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: edispatcher
+Version: 0.1.1
+Summary: A simple event dispatcher implementation in Python
+Home-page: https://github.com/dmtno/edispatcher
+Author: dmtno
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Event Dispatcher
+
+Event Dispatcher is a simple implementation of an event-driven architecture in Python. It allows you to define events, register handlers, and dispatch events to those handlers.
+
+## Features
+
+- Define and dispatch custom events.
+- Register and manage event handlers.
+- Support for custom dispatchers.
+
+## Installation
+
+To install the package, use:
+
+```bash
+pip install edispatcher
+```

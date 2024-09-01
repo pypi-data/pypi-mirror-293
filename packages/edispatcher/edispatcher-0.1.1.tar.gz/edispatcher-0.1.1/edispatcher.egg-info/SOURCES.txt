@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+edispatcher/__init__.py
+edispatcher/edispatcher.py
+edispatcher.egg-info/PKG-INFO
+edispatcher.egg-info/SOURCES.txt
+edispatcher.egg-info/dependency_links.txt
+edispatcher.egg-info/top_level.txt
+tests/__init__.py
+tests/test_event_dispatcher.py
