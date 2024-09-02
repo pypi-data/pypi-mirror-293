@@ -1,0 +1,5 @@
+numpy
+tqdm
+
+[:python_version < "3.10"]
+typing-extensions

@@ -1,0 +1,14 @@
+.flake8
+.gitignore
+README.md
+demo.ipynb
+pyproject.toml
+sample_data.pt
+src/jrmpc/__init__.py
+src/jrmpc/numpy.py
+src/jrmpc/torch.py
+src/jrmpc.egg-info/PKG-INFO
+src/jrmpc.egg-info/SOURCES.txt
+src/jrmpc.egg-info/dependency_links.txt
+src/jrmpc.egg-info/requires.txt
+src/jrmpc.egg-info/top_level.txt
