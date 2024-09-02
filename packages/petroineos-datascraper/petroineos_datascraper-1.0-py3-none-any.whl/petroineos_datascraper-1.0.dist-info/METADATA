@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: petroineos_datascraper
+Version: 1.0
+Summary: Scrapes energy data from UK gov website
+Home-page: https://github.com/programmatick/datascraper
+Author: Assad Khan
+Author-email: assad.beta@gmail.com
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Within module1.py there is a class which has been created to extract the required data from the UK Gov website.
+The cleaned csv should be located under the 'datascraper' directory along with any other output files.
+Please install via the pip command 'pip install petroineos_datascraper'

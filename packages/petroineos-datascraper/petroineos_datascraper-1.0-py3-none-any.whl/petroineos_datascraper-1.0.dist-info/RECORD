@@ -1,0 +1,9 @@
+datascraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datascraper/module1.py,sha256=ezSBtlolJ0nY14OUOGef7WZPMhXQ6N5yISNFfI7cupU,6172
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_module1.py,sha256=mGp5wAZbT1fXWsJj2j34UBWVo-a4DrC7nYkrNoGf0mY,515
+petroineos_datascraper-1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+petroineos_datascraper-1.0.dist-info/METADATA,sha256=B7z6tAAdwrIwLyCSr76g2NW-T8t_MxOTxLvQSc5wg64,639
+petroineos_datascraper-1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+petroineos_datascraper-1.0.dist-info/top_level.txt,sha256=Uvzs2BSP0IBtcy2sWUl6twyImJbpvSBZZxPin2Ouytk,18
+petroineos_datascraper-1.0.dist-info/RECORD,,
