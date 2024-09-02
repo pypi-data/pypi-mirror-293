@@ -1,0 +1,16 @@
+worldnames/__init__.py,sha256=b0upXjwFISgcEUIFXye5mfkVZIRzXAS3Kk6Rqm0ek_k,3000
+worldnames/content.py,sha256=yEwl4r8b807qGGtLVfERfgh4-4NiHvXCe2sp6dsljcU,2849
+worldnames/flow.py,sha256=pHitmpBjGl8jDTPsZ6JHT-JTMzKgLXjtkyYfIHAXa4E,1270
+worldnames/populate.py,sha256=b-ZeXDwZPhuJ-w-Qy_qahP4rm45r5tgcBji4GoFREeM,2330
+worldnames/populatinghelpers.py,sha256=i7H5UxkvxdfuWJ8HH5KzqvSCIYkakhIX_22wxqp-tKM,1477
+worldnames/worldnames.json,sha256=EWsXwopHdKwXdnK16QsV6jjKS8VM0Sx0wxbkb5Eqbmw,26454
+worldnames/databases/__init__.py,sha256=JyqWApPoIovBbnEJWeR0MjL9m3mN0wQosxFCKo6dAgQ,265
+worldnames/databases/customdatatypes.py,sha256=j0bHhwpjLVKD3pP-08GUAje2t8McMGwDQlglo1Ry6rU,4296
+worldnames/databases/my_sql.py,sha256=QrevV5BplhE8BShE8qHeWS6gHlxbAOR-1xFjcln_ML0,4527
+worldnames/databases/sqlite.py,sha256=uGwSp4a1p11zgt0ZC6q8wYhPZR1OTgOnyinG2X9V07E,1920
+worldnames/databases/sqlsharing.py,sha256=TWxoeWjaeKpMtPy2AX_OGTyOWJEtPw6vRvUIiftnvN0,4810
+worldnames/exceptions/__init__.py,sha256=ujQ0rRV2oVFrRzFn7jD2z8w3Ix2_0bmQHr2eBplo_Dg,189
+worldnames-0.0.4.dist-info/METADATA,sha256=PcMbtFFkVPQ8vuWVnaL2TEyOX1niDslgWZGJgwq1P4U,2593
+worldnames-0.0.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+worldnames-0.0.4.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+worldnames-0.0.4.dist-info/RECORD,,
