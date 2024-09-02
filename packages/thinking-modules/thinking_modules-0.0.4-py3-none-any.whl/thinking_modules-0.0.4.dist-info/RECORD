@@ -1,0 +1,11 @@
+thinking_modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thinking_modules/definitions.py,sha256=Og9_YkP5T7Z9vmcWFUJ7MzbzEJa87qrgbHtJ3_P3Wpo,737
+thinking_modules/immutable.py,sha256=oHbbxfaFaV7qP7wUCLL_TWXx2DLSYDK008XLpXlCXZw,765
+thinking_modules/main_module.py,sha256=9SRWJCdbjB8H3n6ouJeC-r0YoCKKmZ3Ctg1-kiMINAA,682
+thinking_modules/model.py,sha256=aBd1Ne3vvemB1-7FtrjGcw9vxAkIK781hb0B7ZJxbLY,6069
+thinking_modules/scan.py,sha256=Djv8EB5V7vYm8xeD822nPzeOgQlqC64Bku62OQtbECI,1856
+thinking_modules-0.0.4.dist-info/LICENSE,sha256=_ObO3k_zPRplhA-quV1-s1QRUQOx1kn2VJfGmrO7KAY,1062
+thinking_modules-0.0.4.dist-info/METADATA,sha256=8GMsaT7BLfIGPKqMtWcFl0DzrU-E5x5zuo8ashzeKJw,6337
+thinking_modules-0.0.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+thinking_modules-0.0.4.dist-info/top_level.txt,sha256=SYvg3cH4oq0Ts_j9UjflgrQ1hGhkGXjl320XgbOXEcQ,17
+thinking_modules-0.0.4.dist-info/RECORD,,
