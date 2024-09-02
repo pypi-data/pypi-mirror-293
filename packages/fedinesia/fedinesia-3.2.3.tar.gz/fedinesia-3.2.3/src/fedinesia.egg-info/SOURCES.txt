@@ -1,0 +1,13 @@
+LICENSE.md
+README.rst
+pyproject.toml
+src/fedinesia/__init__.py
+src/fedinesia/amnesia.py
+src/fedinesia/config.py
+src/fedinesia/util.py
+src/fedinesia.egg-info/PKG-INFO
+src/fedinesia.egg-info/SOURCES.txt
+src/fedinesia.egg-info/dependency_links.txt
+src/fedinesia.egg-info/entry_points.txt
+src/fedinesia.egg-info/requires.txt
+src/fedinesia.egg-info/top_level.txt
