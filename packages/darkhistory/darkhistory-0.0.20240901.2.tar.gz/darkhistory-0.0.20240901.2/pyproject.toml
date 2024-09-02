@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "darkhistory"
+version = "0.0.20240901.2"
+readme = "README.md"
+description = "Base DarkHistory. Used in DM21cm. NN transfer functions available."
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib",
+    "numpy>=1.25.2",
+    "scipy>=1.11.2",
+    "astropy>=5.3",
+    "h5py",
+    "tqdm"
+]
+
+[project.urls]
+Homepage = "https://github.com/hongwanliu/DarkHistory"
+
+[tool.setuptools.packages.find]
+include = [
+    "darkhistory",
+    "examples",
+    "README.md",
+    "LICENSE"
+]
+exclude = [
+    "tests",
+    "dist",
+    "docs",
+    "sphinx",
+    "*.egg-info",
+    "build",
+    "*.pyc",
+    "*.pyo",
+    "__pycache__"
+]
