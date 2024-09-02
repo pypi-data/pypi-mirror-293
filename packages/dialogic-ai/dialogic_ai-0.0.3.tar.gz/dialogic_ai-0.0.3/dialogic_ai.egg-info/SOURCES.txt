@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dialogic_ai.egg-info/PKG-INFO
+dialogic_ai.egg-info/SOURCES.txt
+dialogic_ai.egg-info/dependency_links.txt
+dialogic_ai.egg-info/requires.txt
+dialogic_ai.egg-info/top_level.txt
+dialogicai/__init__.py
+dialogicai/core.py
+dialogicai/utils.py
+tests/__init__.py
+tests/test_core.py
+tests/test_utils.py
