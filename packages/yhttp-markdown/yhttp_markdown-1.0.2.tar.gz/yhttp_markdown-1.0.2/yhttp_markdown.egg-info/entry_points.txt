@@ -1,0 +1,2 @@
+[console_scripts]
+yhttp-markdown = yhttp.markdown.server:app.climain

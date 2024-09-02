@@ -1,0 +1,78 @@
+html, body
+  color: $fg
+  background-color: $bg
+  font-family: Helvetica, Arial, Verdana
+
+
+a
+  background: none
+  text-decoration: none
+  cursor: pointer
+  color: $fg
+  &:visited
+    color: darken($fg, 15%)
+  &:hover
+    color: $mangool
+
+
+/* Scroll Bars */
+::-webkit-scrollbar
+  width: $gutter
+  height: $gutter
+  cursor: pointer
+
+::-webkit-scrollbar-corner
+  background: $bg
+
+::-webkit-scrollbar-track
+  background: $bg
+  border-radius: 5px
+ 
+/* Handle */
+::-webkit-scrollbar-thumb
+  background: $jingool
+  border-radius: 5px
+
+::-webkit-scrollbar-thumb:hover 
+  background: $mangool
+  cursor: pointer
+
+
+header
+  background: lighten($bg, 8%)
+  a
+    &:visited
+      color: $fg
+    &:hover
+      color: $fg
+
+
+footer
+  background-color: $bgverydark
+
+
+nav
+  background-color: $bgverydark
+
+
+#splitter
+  cursor: col-resize
+  background-color: $bgverydark
+
+
+.icon
+  fill: $fg
+
+
+div.codehilite
+  border-radius: 7px
+
+
+button
+  color: $fg
+  svg
+    fill: $fg
+  &:hover svg
+    fill: lighten($fg, 35%)
+  &:focus svg
+    fill: lighten($mangool, 25%)
