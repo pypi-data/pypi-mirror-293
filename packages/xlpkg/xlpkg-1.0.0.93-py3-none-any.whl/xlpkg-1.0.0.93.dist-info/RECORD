@@ -1,0 +1,8 @@
+xlpkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xlpkg/dj_u.py,sha256=JyKtNGQIyDOrktlFaCmmt69Hzz-WG4iL1kjEAc-kWaw,31768
+xlpkg/pub.py,sha256=nuknuHHFfDmsraHzlQXvGZihfGcBKOTCnlWZXYdV53w,11159
+xlpkg/q.py,sha256=IJM-wwxh7Cnc4lm_DZw-wQbf20OqBJ-sLkI2RGthLDU,2037
+xlpkg/x.py,sha256=rCSTB9muhsVqnTAPFPE4cubbFCT0pYfF2cfjGN1MkoI,79407
+xlpkg-1.0.0.93.dist-info/METADATA,sha256=GZzqVMQXlLz_dJP6Y5oy33EYHHiz-24kFTp2U5FpsAQ,532
+xlpkg-1.0.0.93.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+xlpkg-1.0.0.93.dist-info/RECORD,,
