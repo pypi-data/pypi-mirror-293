@@ -1,0 +1,2 @@
+2024-07-15 17:37:40,976:INFO:URL: http://testphp.vulnweb.com/listproducts.php?cat={{64*1}} - Matches: ['64']
+2024-07-15 17:37:49,164:INFO:URL: http://testphp.vulnweb.com/listproducts.php?cat=${{64*1}} - Matches: ['64']
