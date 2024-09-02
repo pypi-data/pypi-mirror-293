@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: render9
+Version: 0.0.101
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
