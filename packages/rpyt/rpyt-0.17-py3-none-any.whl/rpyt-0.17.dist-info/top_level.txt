@@ -1,0 +1,5 @@
+build
+dist
+game
+l10n
+rpyt
