@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Mensaje-CEGM
+Version: 7.0
+Summary: Un paquete de saludos y despedidas.
+Home-page: 
+Author: Carolina Gómez Muñoz
+Author-email: cgomez33@ucol.mx
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=2.1.0
+
+# Mensajes
+
+El paquete de mensajerÃ­a para pruebas de Carolina GÃ³mez MuÃ±oz.
