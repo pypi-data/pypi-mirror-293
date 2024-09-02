@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: WebAssistant
+Version: 0.0.3
+Summary: WebAssistant: Quickly Deploy an AI Assistant Chatbot for your Personal Webpage
+Home-page: https://github.com/shreyanmitra/WebAssistant
+Author: Shreyan Mitra
+Keywords: ai chatbot website-builder gpt-4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gradio
+Requires-Dist: langchain_chroma
+Requires-Dist: langchain_community
+Requires-Dist: langchain_core
+Requires-Dist: langchain_text_splitters
+Requires-Dist: langchainhub
+Requires-Dist: pandas
+Requires-Dist: xmltodict
+Requires-Dist: urllib3
+Requires-Dist: certifi
+
+# WebAssistant
+
+Easily deploy AI assistant chatbot for your personal website.
+
+Fill in the blanks in template.html and add it to your directory.
