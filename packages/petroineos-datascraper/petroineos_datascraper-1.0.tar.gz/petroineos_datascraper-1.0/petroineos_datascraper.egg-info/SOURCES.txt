@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+datascraper/__init__.py
+datascraper/module1.py
+petroineos_datascraper.egg-info/PKG-INFO
+petroineos_datascraper.egg-info/SOURCES.txt
+petroineos_datascraper.egg-info/dependency_links.txt
+petroineos_datascraper.egg-info/top_level.txt
+tests/__init__.py
+tests/test_module1.py
