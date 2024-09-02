@@ -1,0 +1,7 @@
+[cogent3.app]
+dvs_max=diverse_seq.records:dvs_max
+dvs_nmost=diverse_seq.records:dvs_nmost
+
+[console_scripts]
+dvs=diverse_seq.cli:main
+
