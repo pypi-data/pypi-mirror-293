@@ -1,0 +1,5 @@
+pyproject.toml
+byted_goalie_trace_tool.egg-info/PKG-INFO
+byted_goalie_trace_tool.egg-info/SOURCES.txt
+byted_goalie_trace_tool.egg-info/dependency_links.txt
+byted_goalie_trace_tool.egg-info/top_level.txt
