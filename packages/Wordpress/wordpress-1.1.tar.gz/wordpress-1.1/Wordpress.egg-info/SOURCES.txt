@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+Wordpress.egg-info/PKG-INFO
+Wordpress.egg-info/SOURCES.txt
+Wordpress.egg-info/dependency_links.txt
+Wordpress.egg-info/requires.txt
+Wordpress.egg-info/top_level.txt
+wordpress/__init__.py
+wordpress/wordpress.py
