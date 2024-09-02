@@ -1,0 +1,90 @@
+# CipherCraft
+CipherCraft is a versatile and secure password generator designed to help you create strong, memorable passwords with ease. With a range of customizable features and unique tools, CipherCraft ensures your passwords are not only secure but also tailored to your needs.
+
+ ## Key Features
+- **Passphrase Generation**: Generate easy-to-remember passphrases from a customizable wordlist, perfect for both security and memorability.
+- **Password Expiry Checker**: Track the age of your passwords and receive reminders to update them regularly to maintain security.
+- **Entropy Calculation**: Evaluate the strength of your passwords with entropy metrics, providing a numeric value for better security assessment.
+- **Customizable Wordlists**: Use your own wordlists or choose from various pre-defined ones to create unique passphrases.
+- **Password Obfuscation**: Enhance security by obfuscating your passphrases with common letter-to-symbol substitutions.
+- **Data Breach Checker**: Check if your passwords have been compromised in data breaches to avoid using vulnerable passwords.
+- **Secure Password Sharing**: Share passwords securely with time-limited, expiring links to ensure safe transmission.
+- **Password History Management**: Maintain a secure history of generated passwords to prevent reuse and enhance security.
+- **Custom Password Policies**: Define and apply custom password policies to ensure compliance with specific security requirements. 
+- **Password Pronunciation Guide**: Generate passwords that are easy to pronounce, making them simpler to share verbally.
+  
+## Installation
+You can install CipherCraft via PyPI:
+
+```bash
+pip install cipher-craftt
+```
+## Usage
+- To generate a password or passphrase, use the command-line interface:
+
+```bash
+ cipher_craftt --generate-password --length 16 --no-digits --obfuscate
+```
+- To generate a passphrase:
+
+```bash
+cipher_craftt  --generate-passphrase --wordlist path/to/wordlist.txt --num-words 5 --separator '-'
+```
+
+- To record the creation date of a new password:
+
+```bash
+cipher_craftt  --record-password your-new-password
+```
+
+- To check password expiry:
+
+```bash
+cipher_craftt  --check-expiry your-password
+```
+
+- To calculate the entropy of the pasword
+
+```bash
+cipher_craftt --calculate-entropy your-password
+```
+
+- Generate a Password with Obfuscation Level 1:
+
+```bash
+cipher_craftt --generate-password --length 12 --obfuscate 1
+```
+- Generate a Passphrase with Obfuscation Level 2:
+
+```bash
+cipher_craftt --generate-passphrase --wordlist my_wordlist.txt --obfuscate 2
+```
+
+- You can test the data breach checker by running the command:
+
+```bash
+cipher_craftt --check-breach "yourpassword"
+```
+- Encrypt and Share a Password:
+
+```bash
+cipher_craftt --share-password "YourSecurePassword123"
+```
+
+
+- Decrypt the Shared Password:
+
+```bash
+cipher_craftt --decrypt-password "EncryptedPasswordHere" "KeyHere"
+```
+
+```bash
+cipher_craftt --pronunciation-guide your-password 
+```
+
+
+## License
+CipherCraft is licensed under the MIT [License](https://github.com/jarvismayur/Cipher_Craftt/blob/main/LICENSE). See the LICENSE file for details.
+
+## Contact and Issues
+If you have any questions, suggestions, or encounter issues, please feel free to [open an issue](https://github.com/yourusername/cipher-craftt/issues) on the GitHub repository. For direct communication, you can reach out to Mayur Tembhare via [email](mailto:tembharemayur@gmail.com) .
