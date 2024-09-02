@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: zyjared-cli
+Version: 0.1.16
+Summary: zyjared's cli tool
+License: MIT
+Author: zyjared
+Author-email: zyjared@outlook.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyperclip (>=1.9.0,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: typer[all] (>=0.12.3,<0.13.0)
+Requires-Dist: zyjared-color (>=0.5.4,<0.6.0)
+Project-URL: documentation, https://github.com/zyjared/zyjared-cli#readme
+Project-URL: homepage, https://github.com/zyjared/zyjared-cli
+Project-URL: repository, https://github.com/zyjared/zyjared-cli
+Description-Content-Type: text/markdown
+
+# zyjared-cli
+
+## Usage
+
+```sh
+pip install zyjared-cli
+```
+
+```sh
+zycli --help
+```
+
+## List
+
+### config
+
+```sh
+zycli config --help
+
+# zycli config [cli name]
+# zycli config [group.]
+# zycli config [group.name]
+```
+
+```sh
+zycli config --init
+
+# zycli config [cli name] --init
+# zycli config clean --init
+```
+
+example:
+
+```sh
+zycli config clean --init
+```
+
+`zycli.toml` will be created if not exists:
+
+```toml
+[clean]
+dirpath = ""
+pattern = []
+```
+
+### clean
+
+```sh
+zycli clean --help
+```
+
+example:
+
+```sh
+zycli clean test -p "*.py" -p "!folder/*.py"
+```
+
+or use config file:
+
+```sh
+zycli clean
+```
+
+```toml
+# zycli.toml
+[clean]
+dirpath = "test"
+pattern = ["*.py", "!folder/*.py"]
+```
+
+### version
+
+```sh
+zycli version --help
+```
+
+example:
+
+```sh
+zycli version patch [--down]
+```
+
+- `patch`
+- `minor`
+- `major`
+- `alpha`
+- `beta`
+- `rc`
+- `dev`
+
+### push
+
+```sh
+zycli push --help
+```
+
+example:
+
+```sh
+zycli push -m "test" --tag patch
+```
+
+```sh
+zycli push -m "test" --tag patch --amend --retag
+```
+
