@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: MDit
+Version: 0.0.0.dev0
+Requires-Python: >=3.10
+Requires-Dist: IPython
+Requires-Dist: PyProtocol
+Requires-Dist: markdown-it-py
+Requires-Dist: mdit-py-plugins
+Requires-Dist: linkify-it-py
+Requires-Dist: readme-renderer
+Requires-Dist: cmarkgfm
