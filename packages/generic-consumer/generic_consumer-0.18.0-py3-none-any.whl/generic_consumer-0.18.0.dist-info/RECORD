@@ -1,0 +1,10 @@
+generic_consumer/__init__.py,sha256=LkiJ5hsSH6lQQd04Nncy8UA-jiS4yfOLZ_MwoY_l8h0,146
+generic_consumer/generic_consumer.py,sha256=PsQ1hD40Elux7HgmMkOkCc_0oFJtt3rNrkfE2oYAgb0,20669
+generic_consumer/logger.py,sha256=XddKU5Dy0WkOMumcSN2kXVD3JKh_AytMwwBavGjhN20,76
+generic_consumer/passive_consumer.py,sha256=OaqPHyMYvf7dNwPl1vn5VeLjyyPbZ-iOfxhBnTXsGZw,542
+generic_consumer/pipeline.py,sha256=t5Do0K6bGzdIszjPaK0NlUZFp9fNPp0rUNM_JfXpLMo,362
+generic_consumer/signal.py,sha256=Jj6skuKXwfBpxmKceJ1HqSMKzZMosm0kINKQeidQxm0,509
+generic_consumer/strings.py,sha256=ULzR9kNYivBUrfFGg7QjNNroLr2V5rOFrkktlv-yLsk,538
+generic_consumer-0.18.0.dist-info/METADATA,sha256=zLCs5hJc-GdQrdSwSyX7Ame60cFfR-M2sca6vCP7Auo,560
+generic_consumer-0.18.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+generic_consumer-0.18.0.dist-info/RECORD,,
