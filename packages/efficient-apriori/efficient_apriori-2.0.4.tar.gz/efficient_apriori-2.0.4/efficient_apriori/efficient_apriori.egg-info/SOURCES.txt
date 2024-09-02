@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+efficient_apriori/efficient_apriori.egg-info/PKG-INFO
+efficient_apriori/efficient_apriori.egg-info/SOURCES.txt
+efficient_apriori/efficient_apriori.egg-info/dependency_links.txt
+efficient_apriori/efficient_apriori.egg-info/top_level.txt
