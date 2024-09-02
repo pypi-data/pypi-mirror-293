@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyMemRW/__init__.py
+PyMemRW/dellinject.py
+PyMemRW.egg-info/PKG-INFO
+PyMemRW.egg-info/SOURCES.txt
+PyMemRW.egg-info/dependency_links.txt
+PyMemRW.egg-info/top_level.txt
