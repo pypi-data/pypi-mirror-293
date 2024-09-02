@@ -1,0 +1,26 @@
+{% if resume %}
+  <fieldset>
+    <h2>{{ resume.title }}</h2>
+    <table id="result_summary_list">
+      <thead><tr>
+        {% for header in resume.headers %}
+          <th scope="col" class="column-descricao"><div class="text"><span>{{ header }}</span></div></th>
+        {% endfor %}
+      </tr></thead>
+      <tbody>
+      {% for linha in resume.data %}
+      	<tr>
+        {% for cell in linha %}
+          <td>{{ cell }}</td>
+        {% endfor %}
+        </tr>
+      {% endfor %}
+      </tbody>
+      <tfoot><tr>
+        {% for footer in resume.footers %}
+          <th scope="col" class="column-descricao"><div class="text"><span>{{ footer }}</span></div></th>
+        {% endfor %}
+      </tr></tfoot>
+    </table>
+  </fieldset>
+{% endif %}
