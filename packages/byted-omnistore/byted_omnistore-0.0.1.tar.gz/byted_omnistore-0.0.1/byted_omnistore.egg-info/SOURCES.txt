@@ -1,0 +1,5 @@
+pyproject.toml
+byted_omnistore.egg-info/PKG-INFO
+byted_omnistore.egg-info/SOURCES.txt
+byted_omnistore.egg-info/dependency_links.txt
+byted_omnistore.egg-info/top_level.txt
