@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/opcom/__init__.py
+src/opcom/__main__.py
+src/opcom.egg-info/PKG-INFO
+src/opcom.egg-info/SOURCES.txt
+src/opcom.egg-info/dependency_links.txt
+src/opcom.egg-info/requires.txt
+src/opcom.egg-info/top_level.txt
