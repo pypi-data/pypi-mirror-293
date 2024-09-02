@@ -1,0 +1,14 @@
+cpi/__init__.py,sha256=SWi5ct4jTtJ2nqLQ0IXn5H74EB65ZbAPS_4QImzNJjE,5771
+cpi/cli.py,sha256=LsYT2aZr41W26ODAY5XBHPI2WypunNMPzD5RrFu6KFk,1811
+cpi/cpi.db,sha256=vQDEBuGRHoqtVVBQsmUAAIHCv2GchAmxIvq5XmQ6C24,62631936
+cpi/defaults.py,sha256=Mq1-fkB8jfhHoThsPba9lWj-XeZ_L38dK02tNTbiiy4,270
+cpi/download.py,sha256=TpiNQeEdUeVTgmigakYPbCa8Lf-tDBqQkIjVy_DZXA8,5897
+cpi/errors.py,sha256=CKP9J93kC6o_KjNZ_CObKBFr-tyRF4yKB58R8xQxzyU,432
+cpi/models.py,sha256=0fR7kR2ugZuGYqJctYMtS0lvbSfnOpCmk9KaRg7ysCw,12476
+cpi/parsers.py,sha256=ah7ZcmhclRklrTGdQ3Hn_weW5dLE6hbbxlFdqEEDcB4,5741
+cpi-2.0.0.dist-info/LICENSE,sha256=rL8rZwFTGsHogbAIXzBuGPZrc7tRu-aJT7pU9z6kjX8,1076
+cpi-2.0.0.dist-info/METADATA,sha256=RCwChl2Z5hyIOh_rGCoXPxvFnIhqbDxp-l_1s8rZPpw,1346
+cpi-2.0.0.dist-info/WHEEL,sha256=fS9sRbCBHs7VFcwJLnLXN1MZRR0_TVTxvXKzOnaSFs8,110
+cpi-2.0.0.dist-info/entry_points.txt,sha256=QK4gpcr7Qk2WAwXKvSTAHKQqi3b-oXnqCRcTTie9HCc,44
+cpi-2.0.0.dist-info/top_level.txt,sha256=9TRAFyj1-KCSznuPFdi9rBS8IzNiz97gvDjVhQIg-s4,4
+cpi-2.0.0.dist-info/RECORD,,
