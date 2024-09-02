@@ -1,0 +1,12 @@
+lookup_license/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lookup_license/__main__.py,sha256=XVcf_2twgADbLs7lpPCh3L3IfXiWT67k4qaX2hG0b90,3472
+lookup_license/config.py,sha256=-GR9Z9btW_CgSmFn5Rw0nGbfT3f3T8IjBOLH_2XsosE,177
+lookup_license/format.py,sha256=oj7KXoms6ya5h2GbICTxEJB3S8unnHVHCPZoTD68p8E,914
+lookup_license/ll_shell.py,sha256=_0VICJ8BRB2hEtxUfPrnb_FAcnI07j10V5-9uDHw0XI,3337
+lookup_license/lookuplicense.py,sha256=BNZo0cPMQcjQRMeHDaQm2VoPJ2_0pi_qCGevIKqJTsc,4961
+lookup_license-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+lookup_license-0.1.6.dist-info/METADATA,sha256=hbF7qBoflvsjky73Sd8gUO94f2kSPRX4JCxIeghBcM0,1540
+lookup_license-0.1.6.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+lookup_license-0.1.6.dist-info/entry_points.txt,sha256=acNi2gu5ZWFLBT1rMxhJGoOFZccebWdvfWGVlPebzFg,65
+lookup_license-0.1.6.dist-info/top_level.txt,sha256=UlJcEku7eYYocDRzkyppj0E8rSIgc9XobkFbCOjzUVI,15
+lookup_license-0.1.6.dist-info/RECORD,,
