@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Mensaje/__init__.py
+Mensaje/adios/__init__.py
+Mensaje/adios/despedidas.py
+Mensaje/hola/__init__.py
+Mensaje/hola/saludos.py
+Mensaje_CEGM.egg-info/PKG-INFO
+Mensaje_CEGM.egg-info/SOURCES.txt
+Mensaje_CEGM.egg-info/dependency_links.txt
+Mensaje_CEGM.egg-info/requires.txt
+Mensaje_CEGM.egg-info/top_level.txt
+tests/__init__.py
+tests/test_hola.py
