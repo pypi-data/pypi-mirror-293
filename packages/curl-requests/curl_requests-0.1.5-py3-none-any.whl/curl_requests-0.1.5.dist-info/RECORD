@@ -1,0 +1,7 @@
+curl_requests/__init__.py,sha256=mY3_v2ZDmeEa46wRwyXTTaU0Z18sWsT04AP0rjL37wo,28
+curl_requests/my_library.dll,sha256=roR8uNEu9G7JaJQBcVjD5O2Dz_PHbmTdLbgGZCLQwzg,1144832
+curl_requests/req.py,sha256=U8tPrwbalip9ifHLQm2xReseLn8SUEhBH5TraThM894,2284
+curl_requests-0.1.5.dist-info/METADATA,sha256=cDCCKKEGtodn-5JILXAPZEfC334SMJtX7q3mmz9siyc,256
+curl_requests-0.1.5.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+curl_requests-0.1.5.dist-info/top_level.txt,sha256=Y1OIf9mTJ0zcyBOm1pQKl7Wxr81qXpERj8i3Lz67sv4,14
+curl_requests-0.1.5.dist-info/RECORD,,
