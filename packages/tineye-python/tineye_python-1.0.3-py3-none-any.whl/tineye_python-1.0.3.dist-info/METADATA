@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: tineye-python
+Version: 1.0.3
+Summary: A Python library for Tineye
+Home-page: https://github.com/chukfinley/tineye-python
+Author: hackerman1337
+Author-email: chuk@chuk.dev
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: json
+
+# tineye-python
+A simple wrapper for tineye public api in python
+
+## Installation
+```bash
+pip install tineye-python
+```
+
+## Usage
+
+```bash
+import os
+import json
+from tineye_python import TinEyeAPIRequest
+
+tineye_api = TinEyeAPIRequest()
+image = 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg'
+response = tineye_api.search_data(image, save_to_file='output.json')
+```
