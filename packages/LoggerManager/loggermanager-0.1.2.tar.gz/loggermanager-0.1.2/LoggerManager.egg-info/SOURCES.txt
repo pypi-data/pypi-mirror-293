@@ -1,0 +1,14 @@
+README.md
+setup.py
+LoggerManager.egg-info/PKG-INFO
+LoggerManager.egg-info/SOURCES.txt
+LoggerManager.egg-info/dependency_links.txt
+LoggerManager.egg-info/top_level.txt
+LoggerManager2/__init__.py
+LoggerManager2/errors.py
+LoggerManager2/filter.py
+LoggerManager2/formatter.py
+LoggerManager2/internal_logger.py
+LoggerManager2/logger_typing.py
+LoggerManager2/manager.py
+LoggerManager2/time_executio.py

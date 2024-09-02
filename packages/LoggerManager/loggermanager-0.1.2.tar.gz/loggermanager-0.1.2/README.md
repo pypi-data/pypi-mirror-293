@@ -1,0 +1,246 @@
+```markdown
+# LoggerManager
+
+`LoggerManager` — это класс для управления логированием в Python, предоставляющий гибкие возможности для настройки логирования в консоль и файлы, поддержку ротации файлов, настраиваемые фильтры и внутреннее логирование.
+
+## Установка
+
+Чтобы установить `LoggerManager`, используйте pip:
+
+```bash
+pip install LoggerManager
+```
+
+## Использование
+
+Пример использования класса `LoggerManager`:
+
+```python
+import LoggerManager
+import time
+from datetime import datetime
+
+if __name__ == "__main__":
+    # Создаем экземпляр LoggerManager
+    logger_manager = LoggerManager.LoggerManager(name="TestLogger")
+    
+    # Отключаем и включаем внутреннее логирование
+    logger_manager.disable_internal_logging()
+    logger_manager.enable_internal_logging()
+    
+    # Устанавливаем форматы для файлового логирования
+    logger_manager.set_file_format("%(asctime)s - !DEBUG!: %(message)s (%(filename)s:%(lineno)d)")
+    logger_manager.set_file_level_format('INFO', "%(asctime)s - !INFO!: %(message)s")
+    
+    # Устанавливаем форматы для консольного логирования
+    logger_manager.set_console_format("%(asctime)s - [%(levelname)s] - %(name)s - (%(filename)s).%(funcName)s(%(lineno)d) - %(message)s")
+    logger_manager.set_console_level_format('INFO', "%(levelname)s")
+    
+    # Устанавливаем цвет для консольного логирования
+    logger_manager.set_console_color('DEBUG', 'blue')
+    
+    # Устанавливаем параметры ротации файлов
+    logger_manager.set_file_handler_params(max_bytes=2048*1024, backup_count=10)
+    
+    # Включаем и отключаем логирование
+    logger_manager.enable_console_logging()
+    logger_manager.disable_console_logging()
+    logger_manager.disable_logging()
+    logger_manager.enable_logging()
+    
+    # Устанавливаем уровень логирования
+    logger_manager.set_level('INFO')
+    
+    # Устанавливаем фильтры для логирования
+    logger_manager.set_filter_list(['DEBUG', 'WARNING', 'ERROR'])
+    logger_manager.set_filter('INFO')
+    logger_manager.clear_filter()
+    
+    # Сбрасываем уровень логирования и устанавливаем новое имя логгера
+    logger_manager.reset_level()
+    logger_manager.set_name("NewNameLogger")
+    
+    # Логирование времени выполнения блока кода
+    with logger_manager.time_execution():
+        for i in range(6):
+            # Включаем и отключаем логирование в файл
+            logger_manager.enable_file_logging(f"{datetime.now().strftime('%Y-%m-%d %H-%M')}-{i}.log")
+            # logger_manager.disable_file_logging()
+            
+            # Логирование сообщений
+            logger = logger_manager.logger
+            logger.debug(f"debug message {i}")
+            logger.info(f"info message {i}")
+            logger.warning(f"warning message {i}")
+            logger.error(f"error message {i}")
+            logger.critical(f"critical message {i}")
+            time.sleep(1)
+```
+
+## Конструктор
+
+```python
+def __init__(self, *, name: str, default_format: str = None, level: LogLevel = "DEBUG", log_to_file: bool = False, file_name: str = 'app.log', log_dir: str = 'logs', max_bytes: int = 1024 * 1024, backup_count: int = 5)
+```
+
+### Параметры:
+
+- **name** (`str`): Имя основного логгера.
+- **default_format** (`str`, опционально): Формат логов по умолчанию.
+- **level** (`LogLevel`, опционально): Уровень логирования. По умолчанию - `DEBUG`.
+- **log_to_file** (`bool`, опционально): Включить логирование в файл. По умолчанию - `False`.
+- **file_name** (`str`, опционально): Имя файла для логов (только если `log_to_file=True`).
+- **log_dir** (`str`, опционально): Директория для хранения файлов логов. По умолчанию - `logs`.
+- **max_bytes** (`int`, опционально): Максимальный размер файла лога до ротации. По умолчанию - 1 МБ.
+- **backup_count** (`int`, опционально): Количество резервных файлов логов. По умолчанию - 5.
+
+## Методы
+
+### `setup_console_handler(self, level: LogLevel)`
+
+Настраивает консольный обработчик и форматтер.
+
+- **level** (`LogLevel`): Уровень логирования для консоли.
+
+### `enable_console_logging(self)`
+
+Включает логирование в консоль.
+
+### `disable_console_logging(self)`
+
+Отключает логирование в консоль.
+
+### `enable_logging(self)`
+
+Включает логирование для основного логгера.
+
+### `disable_logging(self)`
+
+Отключает логирование для основного логгера.
+
+### `enable_file_logging(self, file_name: str = 'app.log', log_dir: str = 'logs')`
+
+Включает логирование в файл с поддержкой ротации.
+
+- **file_name** (`str`): Имя файла для логов.
+- **log_dir** (`str`): Директория для хранения файлов логов.
+
+### `disable_file_logging(self)`
+
+Отключает логирование в файл.
+
+### `set_file_handler_params(self, max_bytes: int, backup_count: int)`
+
+Устанавливает параметры для ротации файлов лога.
+
+- **max_bytes** (`int`): Максимальный размер файла до ротации.
+- **backup_count** (`int`): Количество резервных файлов логов.
+
+### `set_name(self, name: str)`
+
+Устанавливает новое имя логгера.
+
+- **name** (`str`): Новое имя логгера.
+
+### `set_level(self, level: LogLevel)`
+
+Устанавливает уровень логирования.
+
+- **level** (`LogLevel`): Уровень логирования (например, `DEBUG`, `INFO`).
+
+### `set_filter(self, level: LogLevel)`
+
+Устанавливает фильтр для логирования по уровню.
+
+- **level** (`LogLevel`): Уровень фильтрации логов.
+
+### `set_filter_list(self, levels: Sequence[LogLevel])`
+
+Устанавливает список уровней фильтров для логирования.
+
+- **levels** (`Sequence[LogLevel]`): Список уровней логов для фильтрации.
+
+### `reset_level(self)`
+
+Сбрасывает уровень логирования до уровня `DEBUG`.
+
+### `clear_filter(self)`
+
+Очищает установленный фильтр для логирования.
+
+### `time_execution(self)`
+
+Возвращает контекстный менеджер для логирования времени выполнения блока кода.
+
+### Методы для работы с форматтерами
+
+#### `set_console_format(self, format_string: str)`
+
+Устанавливает формат для консольного логирования.
+
+- **format_string** (`str`): Формат для консольных логов.
+
+#### `set_file_format(self, format_string: str)`
+
+Устанавливает формат для файлового логирования.
+
+- **format_string** (`str`): Формат для файловых логов.
+
+#### `set_console_level_format(self, level: LogLevel, format_string: str)`
+
+Устанавливает формат для консольного логирования по уровню.
+
+- **level** (`LogLevel`): Уровень логирования.
+- **format_string** (`str`): Формат для указанного уровня.
+
+#### `set_file_level_format(self, level: LogLevel, format_string: str)`
+
+Устанавливает формат для файлового логирования по уровню.
+
+- **level** (`LogLevel`): Уровень логирования.
+- **format_string** (`str`): Формат для указанного уровня.
+
+#### `set_console_color(self, level: LogLevel, color: ColorName)`
+
+Устанавливает цвет для консольного логирования по уровню.
+
+- **level** (`LogLevel`): Уровень логирования.
+- **color** (`ColorName`): Название цвета для указанного уровня.
+
+### Управление внутренним логгером
+
+#### `enable_internal_logging(self)`
+
+Включает внутреннее логирование для отслеживания состояния логгера.
+
+#### `disable_internal_logging(self)`
+
+Отключает внутреннее логирование.
+
+## Исключения
+
+- `LoggerErrors`: Исключение, вызываемое в случае ошибок при работе с файловой системой или настройками логгера.
+
+## Внутренние классы и зависимости
+
+### `InternalLogger`
+
+Класс, используемый для логирования событий, связанных с самим `LoggerManager`, таких как ошибки или предупреждения при настройке логирования.
+
+### `TimeExecutionLogger`
+
+Контекстный менеджер для логирования времени выполнения блока кода.
+
+### `ConsoleFormatter` и `FileFormatter`
+
+Классы форматтеров для консольного и файлового логирования соответственно.
+
+### `LevelFilter` и `MultiLevelFilter`
+
+Классы фильтров для логирования по уровням. `LevelFilter` используется для фильтрации по одному уровню, а `MultiLevelFilter` - для фильтрации по нескольким уровням.
+
+
+## Лицензия
+
+Этот проект лицензирован под MIT лицензией. 
+```
