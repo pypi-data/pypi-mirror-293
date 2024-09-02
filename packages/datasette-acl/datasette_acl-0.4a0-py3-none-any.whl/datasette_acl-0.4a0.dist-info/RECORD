@@ -1,0 +1,15 @@
+datasette_acl/__init__.py,sha256=FUVcIfotjCnDOe7Cr4uDdAuVreBZwNaHfXicTZYO_So,11781
+datasette_acl/hookspecs.py,sha256=kSYgwKZV3sclY6lRVOnDu74HogcZqRaJXMyqdUXza9E,223
+datasette_acl/utils.py,sha256=LRE9IfDhIPEkqC0co8jhQ70I8LlNAWCL2H-4IwpI_6Y,1023
+datasette_acl/templates/manage_acl_group.html,sha256=XZZl2zWRGRdPv6RqULf_ugcGlP0flwNOYD2KvKBdn0I,3117
+datasette_acl/templates/manage_acl_groups.html,sha256=de8Re8c6ZgljncmPA9kTA5MvBqraByjK8DquYGs3tJo,891
+datasette_acl/templates/manage_table_acls.html,sha256=kF2HLH2-NO7g7rxHX8_ehGVyOgeSvc8H_eJEg9xprlI,4292
+datasette_acl/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasette_acl/views/groups.py,sha256=LnobWT4XmubcNnZHN9uhjIdXyAby-6AM6Xs8nGsKRUk,8766
+datasette_acl/views/table_acls.py,sha256=4VfsuQ6gYtwhG5bzEb6464z5ZmUw6Qhlv0bnEaGiFW4,12373
+datasette_acl-0.4a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_acl-0.4a0.dist-info/METADATA,sha256=ByW0JxpStquIhDON9Zhk4tBBJl4CLWU3Ny5op7-k-3o,8531
+datasette_acl-0.4a0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+datasette_acl-0.4a0.dist-info/entry_points.txt,sha256=TvZmgPKdU4ZhjYIDAVeERV-SRzS0sSL71Ep0A-tac5w,32
+datasette_acl-0.4a0.dist-info/top_level.txt,sha256=HjCrMMG9DR-L31mQlkFZqfLr5tmN95oVoj7qp1CIWhg,14
+datasette_acl-0.4a0.dist-info/RECORD,,
