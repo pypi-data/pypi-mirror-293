@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: quantum-quarks
+Version: 0.1.0
+Summary: Example project created with pdm
+Author-Email: Real Captain Solaris <hello@spielprinzip.com>
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# quarks

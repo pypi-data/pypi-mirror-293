@@ -1,0 +1,28 @@
+[project]
+name = "quantum-quarks"
+version = "0.1.0"
+description = "Example project created with pdm"
+authors = [
+    { name = "Real Captain Solaris", email = "hello@spielprinzip.com" },
+]
+dependencies = []
+requires-python = ">= 3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+includes = [
+    "quarks",
+]
+distribution = true
+
+[tool.pdm.scripts]
+get_drink = "quarks.main:get_drink"
