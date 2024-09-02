@@ -1,0 +1,16 @@
+ebops-0.3.3.dist-info/METADATA,sha256=oHdhBdFn_7Tk2x2qERnsSatzKrxy7mPSR7_taDxAJek,2995
+ebops-0.3.3.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+ebops-0.3.3.dist-info/entry_points.txt,sha256=z40SAIEs6UTs5zfde_z-MkuWjEUlI-YfAJEXtIY7ZC8,53
+ebops-0.3.3.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ebops/__init__.py,sha256=h0-tzmyz6qQCBIE6ZbVULFbuS-AW_MPyKFygP68gFWY,69
+ebops/adapters/__init__.py,sha256=h0-tzmyz6qQCBIE6ZbVULFbuS-AW_MPyKFygP68gFWY,69
+ebops/adapters/anki.py,sha256=Gpq3-VZSVrgMy7HUGu2_Tpib5NO0jazHPr75KzNIyOI,8035
+ebops/entrypoints/__init__.py,sha256=h0-tzmyz6qQCBIE6ZbVULFbuS-AW_MPyKFygP68gFWY,69
+ebops/entrypoints/cli.py,sha256=56dVGr2R4bZdjZmyb7XET4_pgBqnu6OqvpJfMgYk7Ck,6671
+ebops/entrypoints/utils.py,sha256=RJcufTUxP4hMJy7R0rktmo2_o-6knVZIsK8SHyhklW0,1318
+ebops/exceptions.py,sha256=RbH3yqbTYMdmEZ2xGDB0T-BERgTMbzx2vjNt0rrbRzM,94
+ebops/model.py,sha256=VLn6JUwBK8k1pjgg9KF9oFVXMwWmXelSD5bLjjSTMJw,1886
+ebops/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ebops/services.py,sha256=22A_Iy1bE1hMVuhQTHWFiDjl9kUrJsVt3hq1089wYbE,23164
+ebops/version.py,sha256=oUkaiz1baB0EKJq0MVEe_TZPql-dFF8L38xvu2s-HGg,639
+ebops-0.3.3.dist-info/RECORD,,
