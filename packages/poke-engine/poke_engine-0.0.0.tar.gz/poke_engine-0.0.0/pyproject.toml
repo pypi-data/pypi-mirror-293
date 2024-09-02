@@ -1,0 +1,9 @@
+[tool.maturin]
+python-source = "python"
+module-name = "poke_engine._poke_engine"
+manifest-path = "poke-engine-py/Cargo.toml"
+#features = ["poke-engine/gen4"]
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
