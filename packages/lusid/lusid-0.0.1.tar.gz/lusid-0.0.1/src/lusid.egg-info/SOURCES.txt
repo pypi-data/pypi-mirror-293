@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/lusid/__init__.py
+src/lusid/lusid.py
+src/lusid.egg-info/PKG-INFO
+src/lusid.egg-info/SOURCES.txt
+src/lusid.egg-info/dependency_links.txt
+src/lusid.egg-info/top_level.txt
