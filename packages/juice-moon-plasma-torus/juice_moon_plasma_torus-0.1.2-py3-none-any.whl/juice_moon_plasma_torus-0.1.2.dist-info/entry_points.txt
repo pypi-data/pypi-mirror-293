@@ -1,0 +1,3 @@
+[console_scripts]
+juice_moon_plasma_sc2earth_crossing_torus = juice_plasma_torus.juice_moon_plasma_sc2earth_crossing_torus_cmd:main
+juice_moon_plasma_sc_within_torus = juice_plasma_torus.juice_moon_plasma_sc_within_torus_cmd:main

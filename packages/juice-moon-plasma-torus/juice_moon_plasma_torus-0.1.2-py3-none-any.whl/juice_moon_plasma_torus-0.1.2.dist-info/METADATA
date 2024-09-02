@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: juice-moon-plasma-torus
+Version: 0.1.2
+Summary: Python package to calculate Jupiter Moon Plasma Torus intercept by a ray spacecraft-to-body
+Home-page: https://juigitlab.esac.esa.int/core-system/uplink/juice_moon_plasma_torus
+Author: JUICE SOC team
+Author-email: juice_soc@cosmos.esa.int
+Keywords: esa,Juice,planetary,space,metrics,trajectory,assessment,crema,plasma,torus
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: tabulate
+Requires-Dist: mysql-connector-python>=8.0.32
+Requires-Dist: esac-juice-pyutils>=0.2.9
+
+# juice_moon_plasma_torus
+
+## 1. Getting Started
+
+Python package to calculate Jupiter Moon Plasma Torus intercept by a ray spacecraft-to-body.
+
+Currently two different Command Line Interfaces are available:
+ * [JUICE within Moon Plasma Torus Events](https://s2e2.cosmos.esa.int/confluence/display/SOCDEV/Generate+Juice+within+Moon+Plasma+Torus+Events)
+ * [JUICE-Earth ray crossing Moon Plasma Torus Events](https://s2e2.cosmos.esa.int/confluence/display/SOCDEV/Generate+Juice-to-Earth+ray+crossing+Moon+Plasma+Torus+Events)
+
+### 1.1 Installation
+
+#### 1.1.1 Prerequisites
+ 
+* Python 3.7 or higher.
+
+#### 1.1.2 Setup
+
+##### 1.1.2.1 Package installation 
+
+From command line install the following packages using pip:
+
+    pip install juice-moon-plasma-torus
+
