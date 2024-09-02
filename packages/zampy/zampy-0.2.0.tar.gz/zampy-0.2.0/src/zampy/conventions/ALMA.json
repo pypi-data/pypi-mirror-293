@@ -1,0 +1,96 @@
+{
+    "ALMA": {
+        "latitude_name": "x",
+        "longitude_name": "y",
+        "latitude_format": "(-90,90)",
+        "longitude_format": "(-180,180)"
+    },
+    "height_of_vegetation":{
+        "variable": "Hveg",
+        "units": "meter"
+    },
+    "height_of_vegetation_standard_deviation":{
+        "variable": "Hveg_sd",
+        "units": "meter"
+    },    
+    "net_shortwave_radiation": {
+        "variable": "SWnet",
+        "units": "watt/meter**2",
+        "positive_dir": "downward"
+    },
+    "net_longwave_radiation": {
+        "variable": "LWnet",
+        "units": "watt/meter**2",
+        "positive_dir": "downward"
+    },
+    "surface_solar_radiation_downwards": {
+        "variable": "SWdown",
+        "units": "watt/meter**2",
+        "positive_dir": "downward"
+    },
+    "surface_thermal_radiation_downwards": {
+        "variable": "LWdown",
+        "units": "watt/meter**2",
+        "positive_dir": "downward"
+    },    
+    "latent_heat_flux": {
+        "variable": "Qle",
+        "units": "watt/meter**2",
+        "positive_dir": "downward"
+    },
+    "sensible_heat_flux": {
+        "variable": "Qh",
+        "units": "watt/meter**2",
+        "positive_dir": "downward"
+    },
+    "surface_pressure": {
+        "variable": "Psurf",
+        "units": "pascal"
+    },
+    "eastward_component_of_wind": {
+        "variable": "Wind_E",
+        "units": "meter/second",
+        "positive_dir": "eastward"
+    },
+    "northward_component_of_wind": {
+        "variable": "Wind_N",
+        "units": "meter/second",
+        "positive_dir": "northward"
+    },
+    "total_precipitation": {
+        "variable": "Rainf",
+        "units": "millimeter/second"
+    },
+    "air_temperature": {
+        "variable": "Tair",
+        "units": "kelvin"
+    },
+    "dewpoint_temperature": {
+        "variable": "d2m",
+        "units": "kelvin"
+    },
+    "elevation": {
+        "variable": "elevation",
+        "units": "meter"
+    },
+    "co2_concentration": {
+        "variable": "CO2air",
+        "units": "kilogram/kilogram"
+    },
+    "leaf_area_index": {
+        "variable": "LAI",
+        "units": "fraction"
+    },
+    "land_cover": {
+        "variable": "land_cover",
+        "units": ""
+    },
+    "soil_temperature": {
+        "variable": "SoilTemp",
+        "units": "kelvin"
+    },
+    "soil_moisture": {
+        "variable": "SoilMoist",
+        "units": "kilogram/meter**3"
+    }
+}
