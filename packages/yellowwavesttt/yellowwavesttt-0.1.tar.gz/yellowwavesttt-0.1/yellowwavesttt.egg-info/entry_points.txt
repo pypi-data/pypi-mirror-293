@@ -1,0 +1,2 @@
+[console_scripts]
+yellowwavesttt = yellowwavesttt.__init__:main
