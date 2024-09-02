@@ -1,0 +1,6 @@
+duckdb_extension_excel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_excel/extensions/v1.0.0/excel.duckdb_extension.gz,sha256=lk8W0cEnQpRUH5m6PSDAOIUG41ALqb2hiA8QqqPndWk,2119620
+duckdb_extension_excel-1.0.3a1.dist-info/METADATA,sha256=SZsiYy9DhKZ7diEJNXegKLxA9zdcpI1oaFTSUKHrv6s,2153
+duckdb_extension_excel-1.0.3a1.dist-info/WHEEL,sha256=fic1ktR5qa8qLrG4GUvXD55amQcMceACg0DKhvXAHHw,102
+duckdb_extension_excel-1.0.3a1.dist-info/licenses/LICENSE.txt,sha256=nnxZWPH56sIZcjI_d3lzGiShkm7fMUnNisNrUJKahaU,1090
+duckdb_extension_excel-1.0.3a1.dist-info/RECORD,,
