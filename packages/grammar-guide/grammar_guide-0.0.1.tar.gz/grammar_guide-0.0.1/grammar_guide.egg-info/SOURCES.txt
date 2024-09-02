@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+grammar_guide/__init__.py
+grammar_guide/_logger.py
+grammar_guide/guide.py
+grammar_guide/typedefs.py
+grammar_guide/utils.py
+grammar_guide.egg-info/PKG-INFO
+grammar_guide.egg-info/SOURCES.txt
+grammar_guide.egg-info/dependency_links.txt
+grammar_guide.egg-info/requires.txt
+grammar_guide.egg-info/top_level.txt
+tests/test_generic.py
+tests/test_transformers.py
