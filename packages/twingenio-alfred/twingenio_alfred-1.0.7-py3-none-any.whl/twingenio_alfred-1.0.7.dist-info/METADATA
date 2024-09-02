@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: twingenio_alfred
+Version: 1.0.7
+Summary: Client di Twingenio
+Home-page: https://github.com/Twingenio/alfred
+Author: hypertrue
+Author-email: info@hypertrue.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp==3.10.0
+Requires-Dist: Flask==3.0.3
+Requires-Dist: Flask-Login==0.6.3
+Requires-Dist: pydantic==2.8.2
+Requires-Dist: Requests==2.32.3
+
+# alfred
+
+Richiede le seguenti variabili di ambiente:
+SKILL_ID: id della SKILL dell'applicazione
+    ad esempio
+    SKILL_ID=ASSISTANT
+
+TWINGENIO_BACKEND: url del server di twingenio. Questo Ã¨ il valore di default che puÃ² essere sovrascritto nel costruttore del client
+    ad esempio
+    TWINGENIO_BACKEND=https://twingenio-backend.azurewebsites.net/
