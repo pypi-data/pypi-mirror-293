@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bb7
+Version: 0.1.0
+Summary: A TDD coding bot
+Author-Email: Drunkwcodes <drunkwcodes@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/drunkwcodes/bb7
+Project-URL: Issues, https://github.com/drunkwcodes/bb7/issues
+Requires-Python: >=3.11
+Requires-Dist: rich>=13.7.1
+Requires-Dist: ollama>=0.3.1
+Requires-Dist: click>=8.1.7
+Requires-Dist: litellm>=1.43.13
+Description-Content-Type: text/markdown
+
+# bb7
+A TDD coding bot using ollama
+
+### Installation and Usage
+
+```
+pipx install bb7
+```
+
+
