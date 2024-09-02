@@ -1,0 +1,9 @@
+libcst>=1.2.0
+click>=8.1.7
+rich>=13.7.1
+
+[shapes]
+beartype
+numpy>=1.26.4
+pandas>=2.2.0
+torch>=2.3.1
