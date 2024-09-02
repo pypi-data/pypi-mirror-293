@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+PauliAlgebra/src/PauliAlgebra/Pauli.py
+PauliAlgebra/src/PauliAlgebra/__init__.py
+PauliAlgebra/src/PauliAlgebra/py.typed
+PauliAlgebra/src/PauliAlgebra.egg-info/PKG-INFO
+PauliAlgebra/src/PauliAlgebra.egg-info/SOURCES.txt
+PauliAlgebra/src/PauliAlgebra.egg-info/dependency_links.txt
+PauliAlgebra/src/PauliAlgebra.egg-info/requires.txt
+PauliAlgebra/src/PauliAlgebra.egg-info/top_level.txt

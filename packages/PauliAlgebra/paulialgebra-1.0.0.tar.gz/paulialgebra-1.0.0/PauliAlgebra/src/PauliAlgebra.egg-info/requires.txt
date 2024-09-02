@@ -1,0 +1,6 @@
+numpy
+sympy
+
+[test]
+pytest
+scipy
