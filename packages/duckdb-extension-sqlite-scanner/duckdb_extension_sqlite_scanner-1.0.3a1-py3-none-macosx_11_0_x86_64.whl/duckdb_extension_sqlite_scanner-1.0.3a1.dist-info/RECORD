@@ -1,0 +1,6 @@
+duckdb_extension_sqlite_scanner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_sqlite_scanner/extensions/v1.0.0/sqlite_scanner.duckdb_extension.gz,sha256=WbaY1ZsEB8v5O1D236TNZ6SqI9XeuvPG5kLxDBwSfO0,10369369
+duckdb_extension_sqlite_scanner-1.0.3a1.dist-info/METADATA,sha256=RpC1YAcdUS9TkskgPQ0gKNwcroqqRpbjeLGM0HOP0Ss,2261
+duckdb_extension_sqlite_scanner-1.0.3a1.dist-info/WHEEL,sha256=fic1ktR5qa8qLrG4GUvXD55amQcMceACg0DKhvXAHHw,102
+duckdb_extension_sqlite_scanner-1.0.3a1.dist-info/licenses/LICENSE.txt,sha256=nnxZWPH56sIZcjI_d3lzGiShkm7fMUnNisNrUJKahaU,1090
+duckdb_extension_sqlite_scanner-1.0.3a1.dist-info/RECORD,,
