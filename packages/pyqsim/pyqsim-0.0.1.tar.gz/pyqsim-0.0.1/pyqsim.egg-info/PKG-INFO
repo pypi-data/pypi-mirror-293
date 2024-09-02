@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyqsim
+Version: 0.0.1
+Summary: Interactive quantum computing simulator
+Home-page: https://github.com/cykim8811/pyqsim
+Author: cykim8811
+Author-email: cykim8811@snu.ac.kr
+Keywords: quantum,simulator,quantum computing
+Requires-Python: >=3.6
+Requires-Dist: numpy
