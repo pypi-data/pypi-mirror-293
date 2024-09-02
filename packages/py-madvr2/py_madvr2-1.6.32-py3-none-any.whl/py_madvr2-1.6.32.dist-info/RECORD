@@ -1,0 +1,16 @@
+madvr/__init__.py,sha256=0ORSJ0QPtoEUt6zpjMzzSxtLb56lUSkJfNCJjIUZ7yU,230
+madvr/commands.py,sha256=yu1PJhpuNdRenTJf26NTj-8EUSPeUA1fC1jdsRLCwn8,3909
+madvr/consts.py,sha256=2fUWk0JgToC1P7TMUMBrbEzv7lfE35d8Rae40-ic8_w,250
+madvr/errors.py,sha256=fK0vYOgANdb4c83asN_W99D_QdtiSv44d3IX2EeO9Pw,360
+madvr/madvr.py,sha256=Pv9t82qZBpnEUSuovutiwIfq9yx6XS5mdbZYxVKW-J0,23261
+madvr/notifications.py,sha256=KkI4DZb4fRltl5DGYaukEP7vLdJQ2MCBpKjRhbpg45Y,4527
+madvr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madvr/wol.py,sha256=J8jvMBbl2i9VrKnFb73XdeG1mEzbyd8lBqU-8Zsfc-I,3192
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=Xt4F4KkHuPDSEnmsV9iX_o_OhedSrNiHkZch9DK-RHY,1640
+tests/test_MadVR.py,sha256=B2fNtoVB-CnVMXwh0DZUk7Vcg0BUKGO4hBQGLYmd2I4,3724
+py_madvr2-1.6.32.dist-info/LICENSE,sha256=v8MmCiXdP_s8e9Bcck0Yqeu1xcRGdh92r4pjKAh-JSk,1074
+py_madvr2-1.6.32.dist-info/METADATA,sha256=dZecK0ogxGE5r6ex3NE8Q3MUmwtw_HV6MIGOu_PYuuU,1357
+py_madvr2-1.6.32.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+py_madvr2-1.6.32.dist-info/top_level.txt,sha256=nuqVnewbBkiCiWVq9ZZM0IPjuucZ1YvTA0Nh5LGvDQo,12
+py_madvr2-1.6.32.dist-info/RECORD,,
