@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+avocet/__init__.py
+avocet/avocet.py
+avocet.egg-info/PKG-INFO
+avocet.egg-info/SOURCES.txt
+avocet.egg-info/dependency_links.txt
+avocet.egg-info/requires.txt
+avocet.egg-info/top_level.txt
+tests/test_avocet.py
