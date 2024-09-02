@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/DataBaseConnectorAbubakar.egg-info/PKG-INFO
+src/DataBaseConnectorAbubakar.egg-info/SOURCES.txt
+src/DataBaseConnectorAbubakar.egg-info/dependency_links.txt
+src/DataBaseConnectorAbubakar.egg-info/requires.txt
+src/DataBaseConnectorAbubakar.egg-info/top_level.txt
