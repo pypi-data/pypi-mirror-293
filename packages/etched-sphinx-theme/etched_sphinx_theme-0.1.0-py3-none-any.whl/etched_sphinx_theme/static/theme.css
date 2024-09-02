@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'TT Interphases Pro';
+    src: url('fonts/TT Interphases Pro Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interphases Pro Mono';
+    src: url('fonts/TT Interphases Pro Mono Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+:root {
+    --background-color: #0f0f0f;
+    --text-color: #e0e0e0;
+    --heading-color: #ffffff;
+    --link-color: #d9b636;
+    --link-hover-color: #ebd359;
+    --border-color: #2d2d2d;
+    --sidebar-background: #1a1a1a;
+    --content-background: #0f0f0f;
+    --nav-background: #0f0f0f;
+    --muted: #232323;
+}
+
+html {
+    font-family: 'TT Interphases Pro', sans-serif !important;
+    line-height: 1.6 !important;
+}

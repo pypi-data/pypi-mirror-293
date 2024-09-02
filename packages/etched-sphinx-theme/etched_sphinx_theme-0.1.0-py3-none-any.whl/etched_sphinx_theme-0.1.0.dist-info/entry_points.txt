@@ -1,0 +1,2 @@
+[sphinx.html_themes]
+etched_sphinx_theme = etched_sphinx_theme
