@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kheops
+Version: 0.1.1
+Summary: A package for generating responses with an LLM and evaluating them on MMLU.
+Home-page: https://github.com/yourusername/your_package_name
+Author: KHEOPS TEAM
+Author-email: dev@kheops.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Import functions from your package
+from your_package_name import load_data, eval_mmlu
+
+# Use the load_data function to load your dataset
+file_path = 'mmlu.jsonl'  # Replace with the path to your JSONL file
+df = load_data(file_path)
+
+# Evaluate your LLM using the eval_mmlu function
+eval_mmlu(df)
