@@ -1,0 +1,11 @@
+tree_sitter_css-0.23.0.dist-info/RECORD,,
+tree_sitter_css-0.23.0.dist-info/LICENSE,sha256=xc-0MEK2tyBF9LqZeDTQp3htJ5PZFoCGi1gVs58U_Hg,1080
+tree_sitter_css-0.23.0.dist-info/WHEEL,sha256=PsPz3OqVRLG2Skfo-4gnHqbuh_mb9vmQ-qdts0fqnKA,109
+tree_sitter_css-0.23.0.dist-info/top_level.txt,sha256=1zPLWIoMNHruCbXMmbrUFCTVGt5Ql29k39BmBAeDjho,25
+tree_sitter_css-0.23.0.dist-info/METADATA,sha256=K8h6IXklVbkg6xoE5leZ_lVYj6uy8CmdKYRtPss8AoM,1787
+tree_sitter_css/__init__.pyi,sha256=BjUNGj0SDvRXiCsYuZOKhBWynroI8AhIq5fnsyY2m-o,86
+tree_sitter_css/binding.c,sha256=iHS1-22-Iqn93gImA63s3z6fvUkruFucOpP09BRFDTk,677
+tree_sitter_css/__init__.py,sha256=UpofWeACWYtfP1rChR1vhznx8R_m0yAke3P3RHlt5vU,719
+tree_sitter_css/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_css/_binding.abi3.so,sha256=fDg7E8DmC6ArBxI2dAAY5x87avFzBE1IpLoP9iEZpp4,98616
+tree_sitter_css/queries/highlights.scm,sha256=9m7ZwgpWagEITsHdWw9y2LCLIhveQ-n6_vZFSY6Q0o8,1144
