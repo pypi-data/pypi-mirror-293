@@ -1,0 +1,12 @@
+paretoset/__init__.py,sha256=_DvhJDoWMm91uQwndWgE2wYGN3Y6P-89XEw04yjPaU0,519
+paretoset/algorithms_numba.py,sha256=2g31-NmYsgS-VuG2DJpQYhZXUy2k6mRTw6OAsw-4i58,8947
+paretoset/algorithms_numpy.py,sha256=BN5RQeTnlIihp7xcLkYhacxJzPxcIYE1nA4KZ1rlik4,7349
+paretoset/user_interface.py,sha256=u0kwjmiJZqhp-EpIWBMeit9dMMUzuvQfbPFTU602fdg,9783
+paretoset/utils.py,sha256=9T1TKoLxJRLYXjl2v1sWHrLcFAbLV5Ew0Qegeh0cfVE,2554
+paretoset/tests/test_algorithms.py,sha256=WMmbTZpJcJ_uKw_zqbvh6L-AjaQfpJ-fY0aNA9t2gLU,11833
+paretoset/tests/test_api.py,sha256=5lx961iv4zWAmToKFpD11l4zOS33u4YccVBxdAHC2-M,7875
+paretoset-1.2.4.dist-info/LICENSE,sha256=QZIuV0etvkDx3-UDaAvB3TcOHOZDqzIVZxIF52cITBY,1062
+paretoset-1.2.4.dist-info/METADATA,sha256=HJGhQ-9XG1xN8PoEtsZshefW_Wp8W6xAaE1FpB6nBwI,5611
+paretoset-1.2.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+paretoset-1.2.4.dist-info/top_level.txt,sha256=a8-EUSBgI_GtEJCp1OVz2Sp_fQ6h-CyweBj7m-3lezk,10
+paretoset-1.2.4.dist-info/RECORD,,
