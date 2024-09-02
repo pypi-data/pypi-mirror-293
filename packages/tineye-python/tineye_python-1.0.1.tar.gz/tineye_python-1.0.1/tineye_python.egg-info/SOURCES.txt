@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test.py
+tineye_python/__init__.py
+tineye_python/tineye_python.py
+tineye_python.egg-info/PKG-INFO
+tineye_python.egg-info/SOURCES.txt
+tineye_python.egg-info/dependency_links.txt
+tineye_python.egg-info/requires.txt
+tineye_python.egg-info/top_level.txt
