@@ -1,0 +1,5 @@
+biopython
+tensorflow
+numpy
+matplotlib
+keras
