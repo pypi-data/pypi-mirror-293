@@ -1,0 +1,9 @@
+LICENSE
+README.md
+preisach.py
+setup.py
+preisach.egg-info/PKG-INFO
+preisach.egg-info/SOURCES.txt
+preisach.egg-info/dependency_links.txt
+preisach.egg-info/requires.txt
+preisach.egg-info/top_level.txt
