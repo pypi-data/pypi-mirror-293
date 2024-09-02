@@ -1,0 +1,9 @@
+terraform_backend_s3_bucket/__init__.py,sha256=ZpuNYrWRRMX5Rv_ks6QHCwwsTc3aHPBce4A677pBPrc,7561
+terraform_backend_s3_bucket/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+terraform_backend_s3_bucket/_jsii/__init__.py,sha256=7dL0rezUTuRJaZVjDAgWnj6b4NC54aPqd5cNvgGUIcc,1478
+terraform_backend_s3_bucket/_jsii/terraform-backend-s3-bucket@1.0.8.jsii.tgz,sha256=S09ic3Q-7qhK02bCAQes-UMWqlpXKJLMgiS9nYhZXgw,24370
+terraform_backend_s3_bucket-1.0.8.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+terraform_backend_s3_bucket-1.0.8.dist-info/METADATA,sha256=w1kL9GA9_7FyV1jw-k9mzsqYju7WAkDvItkev_QVJ4M,1609
+terraform_backend_s3_bucket-1.0.8.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+terraform_backend_s3_bucket-1.0.8.dist-info/top_level.txt,sha256=AS-lvAQHdvl_WTw4UqgNwVDp57CLqmZPpQZFvOd-_Ps,28
+terraform_backend_s3_bucket-1.0.8.dist-info/RECORD,,
