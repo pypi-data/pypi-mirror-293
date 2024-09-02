@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+ledoc_ui/__init__.py
+ledoc_ui.egg-info/PKG-INFO
+ledoc_ui.egg-info/SOURCES.txt
+ledoc_ui.egg-info/dependency_links.txt
+ledoc_ui.egg-info/top_level.txt
+ledoc_ui/static/index.css
+ledoc_ui/static/index.html
+ledoc_ui/static/index.js
+ledoc_ui/static/leptonai.svg
