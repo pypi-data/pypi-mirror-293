@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+pojang_resorter/your_executable.exe
+pojang_resorter.egg-info/PKG-INFO
+pojang_resorter.egg-info/SOURCES.txt
+pojang_resorter.egg-info/dependency_links.txt
+pojang_resorter.egg-info/top_level.txt
