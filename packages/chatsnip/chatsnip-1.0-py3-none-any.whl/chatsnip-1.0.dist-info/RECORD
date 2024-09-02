@@ -1,0 +1,11 @@
+chatsnip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatsnip/chatsnip.py,sha256=Jxo-jQEokDo_oS4kbyfCeAd8cIEO1k2HFg3d58vL5ss,994
+chatsnip/extract_chat.py,sha256=qbUlPJDvrEjNpbaUzCRHuC2oRyqoGVG4i7kEscjP0Lo,1127
+chatsnip/extractor.py,sha256=_npFmE4xihkd3mER27femABogrns5sALtl7_TWOfmdM,3662
+chatsnip/flask_app.py,sha256=ki9YcGVBwri7FUHR7TVYK2Ntv14ub9AcsJo72uzS6Lw,1072
+chatsnip/streamlit_ui.py,sha256=bPFQxYr8uPBNoTz9qR2cpN21mPXwmMzjVsZp5f6I2Sc,1186
+chatsnip-1.0.dist-info/METADATA,sha256=onblbqiDHU3t1P2oDKIN6OxrQXsJALD2VhIeyh8fITY,2113
+chatsnip-1.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+chatsnip-1.0.dist-info/entry_points.txt,sha256=rqs7DuYp9sqgv-jLiyP8IPHr2VrDQSBXqocVZm1g1A4,52
+chatsnip-1.0.dist-info/top_level.txt,sha256=KfueRnop_nxUcWQvZcqbbPkt5J-7KFNeJ_u_9HKf0IY,9
+chatsnip-1.0.dist-info/RECORD,,
