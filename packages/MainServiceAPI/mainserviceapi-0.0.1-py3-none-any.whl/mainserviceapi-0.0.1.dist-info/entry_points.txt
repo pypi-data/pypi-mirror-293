@@ -1,0 +1,4 @@
+[console_scripts]
+MainServiceAPI-make_svc=MainServiceAPI.__main__:make_svc
+MainServiceAPI-wrapper=MainServiceAPI.wrapper:__main__
+

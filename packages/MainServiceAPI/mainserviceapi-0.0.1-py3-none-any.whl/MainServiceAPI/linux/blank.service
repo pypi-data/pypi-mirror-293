@@ -1,0 +1,15 @@
+[Unit]
+After=network.target
+Description=Описание сервиса
+
+[Service]
+ExecStart=cat /dev/stdout
+Restart=always
+RestartSec=5
+Type=simple
+User=root
+WorkingDirectory=/
+
+[Install]
+Alias=Название сервиса
+WantedBy=multi-user.target
