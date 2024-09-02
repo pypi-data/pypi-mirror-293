@@ -1,0 +1,2 @@
+[console_scripts]
+quantum_language_optimizer = quantum_language_optimizer.cli:main
