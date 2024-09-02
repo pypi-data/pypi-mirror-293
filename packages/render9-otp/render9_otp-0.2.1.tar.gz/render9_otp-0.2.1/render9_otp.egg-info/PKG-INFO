@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: render9_otp
+Version: 0.2.1
+Requires-Dist: requests
+Requires-Dist: python-dotenv
