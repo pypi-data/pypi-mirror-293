@@ -1,0 +1,2 @@
+[console_scripts]
+zampy = zampy.cli:run_recipe
