@@ -1,0 +1,3 @@
+[console_scripts]
+screenbolt=screenbolt.main:main
+

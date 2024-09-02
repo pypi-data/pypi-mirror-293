@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: screenbolt
+Version: 1.1.0
+Summary: ScreenBolt - A PySide6-based GUI application for screen recording and editing.
+License: MIT
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Pillow (>=7.0,<=10.4.0)
+Requires-Dist: PySide6 (>=6.2.4,<7.0)
+Requires-Dist: mss (>=9.0.1,<10)
+Requires-Dist: opencv-python (>=4.6.0,<=4.10.0.84)
+Requires-Dist: pyautogui (>=0.9.54,<1.0)
+Description-Content-Type: text/markdown
+
+# ScreenBolt
+ScreenBolt is an open-source desktop application designed for screen recording. With ScreenBolt, you can easily capture your screen and apply various effects such as mouse tracking and zooming. It’s compatible with Windows, Linux, and macOS.
+
+## Features
+- Screen Recording: Capture your entire screen or a selected region.
+- Effects Editing: Apply effects such as tracking mouse movements and zooming to enhance your recordings.
+- Cross-Platform: Available for Windows, Linux, and macOS.
+
+## Installation
+### For End Users
+- Download: Go to the Releases page and download the appropriate version for your operating system.
+- Install and Run: Follow the installation instructions provided with the release.
+### For Developers
+1. Set Up Environment:
+
+- Install Anaconda.
+- Create a new Conda environment if needed.
+2. Prepare the Application:
+- Clone the repository or download the source code.
+- Navigate to the project directory.
+3. Compile Resources:
+
+```bash
+# Suppose you're in screenbolt/screenbolt
+python compile_resources.py
+```
+4. Run the Application:
+```bash
+# Suppose you're in the root directory
+python -m screenbolt.main
+```
+## Contributing
+We welcome contributions to ScreenBolt! If you’d like to contribute, please fork the repository and submit a pull request.
+
+## License
+ScreenBolt is released under the MIT License.
+
+## Contact
+For any questions or issues, please contact us at tamnvhustcc@gmail.com.
