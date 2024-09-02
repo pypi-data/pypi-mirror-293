@@ -1,0 +1,2 @@
+[console_scripts]
+expr_simplifier = expr_simplifier.__main__:main
