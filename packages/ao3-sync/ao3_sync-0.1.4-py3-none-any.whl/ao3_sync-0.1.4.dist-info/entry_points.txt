@@ -1,0 +1,3 @@
+[console_scripts]
+ao3-sync=ao3_sync.cli:cli
+
