@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: hfmonthlyreportALL
+Version: 0.2
+Summary: Send monthly file count only to monthly report server
+Home-page: UNKNOWN
+Author: VishalJain_NIOT
+Author-email: vishaljain9516@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: pyperclip (==1.8.2)
+Requires-Dist: qrcode (>=6.1)
+
+#year=2020,month=1,display=1/0,qr=1/0,0=never send,1=directly send/2(ask and send)/3(try to send if not display qr),1(default)/path string,1(Auto)/sitecode in string,0='RDLm'/1='RDLi'
+#for normal twice click : 2020,1,1,1,2,1,1,0
+#for auto send and if not dispaly qrcode 2020,7,0,1,3,1,1,0
+#for macbookpro user path no sending to server: 2020,7,1,0,0,"pad","GOPA",1/0
+#control1(2020,1,1,0,0,'/Users/codar/Desktop/KalpakkamTest',"Kalp",1)
+#display qr code with data
+#Try sending before displaying: control1(2020,1,0,1,3,'/Users/codar/Desktop/KalpakkamTest',"Kalp",0)  [Make qr=1 and display=0]
+#Send to Server::: sts
+
+#run default()
+Or install(1,1,1) :::: 1- Shortcut, 1- pyautui based cronies setter, 1-imp packages
+
+
+
