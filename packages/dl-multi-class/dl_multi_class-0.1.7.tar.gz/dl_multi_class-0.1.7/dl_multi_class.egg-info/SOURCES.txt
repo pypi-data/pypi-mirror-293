@@ -1,0 +1,8 @@
+setup.py
+dl_multi_class/__init__.py
+dl_multi_class/dl_multi_class.py
+dl_multi_class.egg-info/PKG-INFO
+dl_multi_class.egg-info/SOURCES.txt
+dl_multi_class.egg-info/dependency_links.txt
+dl_multi_class.egg-info/requires.txt
+dl_multi_class.egg-info/top_level.txt
