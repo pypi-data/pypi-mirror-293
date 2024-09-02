@@ -1,0 +1,42 @@
+---
+name: Test
+
+"on":
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      matrix:
+        python-version:
+          - "3.11"
+          - "3.12"
+          - "3.13.0-beta - 3.13"
+
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+        with:
+          # Need fetch-depth 0 for generating version based on tags/commits since tag
+          fetch-depth: 0
+
+      - uses: actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3 # v5.2.0
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install Deps
+        run: make setup
+
+      - name: Lint
+        run: make lint
+
+      - name: Run tests
+        run: make test
