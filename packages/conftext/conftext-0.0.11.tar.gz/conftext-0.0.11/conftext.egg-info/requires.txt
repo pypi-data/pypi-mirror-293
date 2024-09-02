@@ -1,0 +1,8 @@
+invoke
+pydantic
+
+[dev]
+twine
+py
+pytest
+pytest-regtest
