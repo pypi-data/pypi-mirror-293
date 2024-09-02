@@ -1,0 +1,6 @@
+hypha[s3]>=0.20.31
+hypha-rpc
+PyYAML
+hypha-launcher>=0.1.3
+pyotritonclient
+simpervisor
