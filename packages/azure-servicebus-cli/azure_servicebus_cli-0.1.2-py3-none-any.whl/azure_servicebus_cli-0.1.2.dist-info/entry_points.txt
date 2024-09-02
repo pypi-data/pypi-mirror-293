@@ -1,0 +1,2 @@
+[console_scripts]
+azsb = azure_servicebus_cli.cli:main
