@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "oneplan-sdk"
+version = "0.1.0"
+description = ""
+authors = ["Tsvetan Kintisheff <kintisheff@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+python-dotenv = "^1.0.1"
+certifi = "^2024.7.4"
+six = "^1.16.0"
+python-dateutil = "^2.9.0.post0"
+urllib3 = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+setuptools = "^70.0.0"
+pre-commit = "^3.6.2"
+flake8-bugbear = "^24.2.6"
+flake8-builtins = "^2.2.0"
+flake8-docstrings = "^1.7.0"
+flake8-comprehensions = "^3.14.0"
+pytest = "^8.0.2"
+gyp-next = "^0.18.0"
+jupyter = "^1.0.0"
+
+[tool.isort]
+profile = "black"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
