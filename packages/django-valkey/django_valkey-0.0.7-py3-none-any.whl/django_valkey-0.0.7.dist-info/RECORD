@@ -1,0 +1,7 @@
+django_valkey/__init__.py,sha256=sfrVPRHEjglkBiaVLjQD9hQVDETUw-T8-Ob-HWoDTYs,47
+django_valkey/backend/__init__.py,sha256=sfrVPRHEjglkBiaVLjQD9hQVDETUw-T8-Ob-HWoDTYs,47
+django_valkey/backend/backend.py,sha256=Ab9euZfeIee_u3PaN3H1N1HDJJc6kLDEgJ_0QbGvaj8,7932
+django_valkey-0.0.7.dist-info/LICENSE,sha256=5RwtJg-YkoAIBtyE0oK_y6TIdowpacNSrPTQ-3eZuCQ,1499
+django_valkey-0.0.7.dist-info/METADATA,sha256=fxmYwLeQtg8iqVUWq5nAoA_BJbDzp-55XpfFYONdviI,2871
+django_valkey-0.0.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_valkey-0.0.7.dist-info/RECORD,,
