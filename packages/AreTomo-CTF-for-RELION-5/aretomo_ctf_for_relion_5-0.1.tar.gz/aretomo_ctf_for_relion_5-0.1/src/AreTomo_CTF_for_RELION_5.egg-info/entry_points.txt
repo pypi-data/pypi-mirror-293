@@ -1,0 +1,2 @@
+[console_scripts]
+aretomo_ctf_4_relion = aretomo_ctf_4_relion.aretomo_ctf_4_relion:cli
