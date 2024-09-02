@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: retriever_transformers
+Version: 0.1.1
+Description-Content-Type: text/x-rst
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# Retriever Transformers
+
+Description.
