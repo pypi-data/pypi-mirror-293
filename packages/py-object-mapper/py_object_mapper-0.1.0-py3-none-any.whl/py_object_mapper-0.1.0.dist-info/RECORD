@@ -1,0 +1,9 @@
+mapper/__init__.py,sha256=JV5_dwPGZnITK3Fv7qU8DMMCPGrZLU4oCIIEiYyQOtY,64
+mapper/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mapper/core/mapper.py,sha256=BpNgNVGp5mHTo7Pw_Wa2JicAlWmpnkAv_OAqTX_nNWQ,1439
+mapper/core/singleton.py,sha256=XnAaku2czPYMc9oNNgKsSFT6TE4cuSx4DhO0VSWtkcQ,304
+py_object_mapper-0.1.0.dist-info/METADATA,sha256=JL-f9cOrVgGuVw_TyGTmI4LR6leWegA4VtDepZc2t-k,399
+py_object_mapper-0.1.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+util/catch.py,sha256=BOiwxyifGc5nag5cn9uUV674iK-3Q5dhdP1qNe05ko4,1032
+py_object_mapper-0.1.0.dist-info/RECORD,,

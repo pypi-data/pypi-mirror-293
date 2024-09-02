@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-object-mapper
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-Email: Choinhet <choinhet@gmail.com>
+License: MIT
+Requires-Python: ==3.9.10
+Requires-Dist: pydantic>=2.8.2
+Description-Content-Type: text/markdown
+
+# Mapper
+
+Simple wrapper around pydantic validator to add functionalities such as JSON subtypes and facilities such as `to_json`, `to_dict`...
