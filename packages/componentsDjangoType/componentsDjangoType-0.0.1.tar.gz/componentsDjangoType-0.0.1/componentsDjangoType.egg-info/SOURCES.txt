@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+componentsDjangoType.egg-info/PKG-INFO
+componentsDjangoType.egg-info/SOURCES.txt
+componentsDjangoType.egg-info/dependency_links.txt
+componentsDjangoType.egg-info/requires.txt
+componentsDjangoType.egg-info/top_level.txt
+settings/__init__.py
+settings/management/__init__.py
+settings/management/commands/__init__.py
+settings/management/commands/createcomponent.py
