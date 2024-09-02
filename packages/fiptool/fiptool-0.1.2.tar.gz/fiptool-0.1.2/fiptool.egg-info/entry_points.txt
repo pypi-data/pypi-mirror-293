@@ -1,0 +1,2 @@
+[console_scripts]
+fiptool = fiptool.core:main

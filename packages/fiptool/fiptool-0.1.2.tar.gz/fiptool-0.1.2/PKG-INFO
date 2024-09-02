@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fiptool
+Version: 0.1.2
+Summary: A tool for working with FIP files
+Home-page: https://github.com/primachenko/fiptool
+Author: Oleg Primachenko
+Author-email: primachenko_oleg@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FIPTool
+
+FIPTool is a Python utility for working with Firmware Image Package (FIP) files. It allows listing, extracting, adding, and deleting entries in FIP files.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install fiptool
