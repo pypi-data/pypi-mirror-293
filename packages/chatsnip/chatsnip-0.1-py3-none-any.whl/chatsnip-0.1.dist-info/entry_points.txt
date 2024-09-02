@@ -1,0 +1,3 @@
+[console_scripts]
+chatsnip = chatsnip:main
+
