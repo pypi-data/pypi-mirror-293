@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+DrillEda.egg-info/PKG-INFO
+DrillEda.egg-info/SOURCES.txt
+DrillEda.egg-info/dependency_links.txt
+DrillEda.egg-info/requires.txt
+DrillEda.egg-info/top_level.txt
