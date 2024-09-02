@@ -1,0 +1,4 @@
+[settings]
+local_only_mode = true
+gather_usage_stats = false
+verbose = false
