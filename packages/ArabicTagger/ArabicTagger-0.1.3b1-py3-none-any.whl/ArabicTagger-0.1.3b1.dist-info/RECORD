@@ -1,0 +1,9 @@
+ArabicTagger/CRF.py,sha256=Ey2MH1U4xkHEmrNRWct6ulhz98W6YXZz8c5LSESfPgs,4816
+ArabicTagger/NER.py,sha256=wn7ji-vfMQFByMkIAGAnxhCmhECnpWz5qopLrr-9CrE,4699
+ArabicTagger/Tagger.py,sha256=5Vs91JUcvXfouU4UDWx8u_f8KH68XdUkyPhAjyA_0nE,10401
+ArabicTagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ArabicTagger/utils.py,sha256=p-iDSWOPgUPQb9ls2kj8Dd-TeOMzln4CiKP_arXam9c,1272
+ArabicTagger-0.1.3b1.dist-info/METADATA,sha256=i8vfLwL-3vObzveslypBHRS9xUqV4xybnPWEKEQtiKQ,479
+ArabicTagger-0.1.3b1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ArabicTagger-0.1.3b1.dist-info/top_level.txt,sha256=D25_0kd48BnDUiqtFhGVHDbcuYGkZVJyJYR7ArxpcC4,13
+ArabicTagger-0.1.3b1.dist-info/RECORD,,
