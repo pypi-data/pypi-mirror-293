@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+simple_video_to_skeletal_animation.egg-info/PKG-INFO
+simple_video_to_skeletal_animation.egg-info/SOURCES.txt
+simple_video_to_skeletal_animation.egg-info/dependency_links.txt
+simple_video_to_skeletal_animation.egg-info/top_level.txt
+skelly/__init__.py
+skelly/main.py
