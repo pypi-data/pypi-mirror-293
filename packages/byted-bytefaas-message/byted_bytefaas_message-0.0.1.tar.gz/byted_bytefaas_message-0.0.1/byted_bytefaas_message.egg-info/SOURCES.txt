@@ -1,0 +1,5 @@
+pyproject.toml
+byted_bytefaas_message.egg-info/PKG-INFO
+byted_bytefaas_message.egg-info/SOURCES.txt
+byted_bytefaas_message.egg-info/dependency_links.txt
+byted_bytefaas_message.egg-info/top_level.txt
