@@ -1,0 +1,24 @@
+.venv/
+env/
+
+dist/
+*.egg-info
+build/
+__pycache__/
+
+htmlcov/
+.coverage
+
+.vscode/
+
+_version.py
+
+.mypy_cache/
+
+data/
+!test/**/data
+
+**/.DS_STORE
+
+# Prefix when opening an excel file in MS Excel, e.g., ~$template.xlsx
+~$*
