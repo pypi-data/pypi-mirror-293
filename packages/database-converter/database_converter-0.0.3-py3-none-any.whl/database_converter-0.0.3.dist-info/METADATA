@@ -1,0 +1,151 @@
+Metadata-Version: 2.3
+Name: database-converter
+Version: 0.0.3
+Project-URL: Repository, https://github.com/consithe1/database_utils
+Author: consithe1
+License: MIT License
+        
+        Copyright (c) 2024 Constantin THEBAUDEAU
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: database,extraction,json,sqlite3,xml
+Requires-Python: >=3.8
+Requires-Dist: blackboxprotobuf~=1.0.1
+Requires-Dist: func-timeout~=4.3.5
+Requires-Dist: openpyxl~=3.1.5
+Requires-Dist: setuptools~=40.8.0
+Requires-Dist: tabulate~=0.9.0
+Description-Content-Type: text/markdown
+
+# database-extractor
+
+## Description
+
+This project intends to create a python package to extract the content of a database and convert it into a python object.
+For the moment, this package can only extract the content of SQLite3 databases.
+
+## Export format
+
+A database can be exported as a JSON or as an XML at the moment. A short exemple of both implementation is given below.
+
+### XML
+
+```xml
+<?xml version='1.0' encoding='utf-8'?>
+<database name="resources/dummy.db">
+    <table name="Tab1">
+        <row>
+            <column type="str" key="userId" value="C2V6" />
+            <column type="NoneType" key="convId" value="None" />
+            <column type="str" key="sent" value="0" />
+        </row>
+    </table>
+    <table name="Tab2">
+        <row>
+            <column type="str" key="convId" value="uaz-57" />
+            <column type="int" key="messageId" value="1" />
+            <column type="str" key="extKey" value="chat" />
+        </row>
+        <row>
+            <column type="str" key="convId" value="r2d-2a" />
+            <column type="int" key="messageId" value="3" />
+            <column type="str" key="extKey" value="27FwAPH4QapLXF5fhDcs7" />
+        </row>
+        <row>
+            <column type="str" key="convId" value="av7-dp" />
+            <column type="int" key="messageId" value="5" />
+            <column type="bytes" key="extKey" value="0000040f" />
+        </row>
+    </table>
+</database>
+```
+
+### JSON
+
+```json
+{
+    "resources/dummy.db": {
+        "Tab1": [
+            {
+                "userId": {
+                    "value": "C2V6",
+                    "type": "str"
+                },
+                "convId": {
+                    "value": null,
+                    "type": "NoneType"
+                },
+                "sent": {
+                    "value": 0,
+                    "type": "int"
+                }
+            }
+        ],
+        "Tab2": [
+            {
+                "convId": {
+                    "value": "uaz-57",
+                    "type": "str"
+                },
+                "messageId": {
+                    "value": 1,
+                    "type": "int"
+                },
+                "extKey": {
+                    "value": "chat",
+                    "type": "str"
+                }
+            },
+            {
+                "convId": {
+                    "value": "r2d-2a",
+                    "type": "str"
+                },
+                "messageId": {
+                    "value": 3,
+                    "type": "int"
+                },
+                "extKey": {
+                    "value": "27FwAPH4QapLXF5fhDcs7",
+                    "type": "str"
+                }
+            },
+            {
+                "convId": {
+                    "value": "av7-dp",
+                    "type": "str"
+                },
+                "messageId": {
+                    "value": 5,
+                    "type": "int"
+                },
+                "extKey": {
+                    "value": "0000040f",
+                    "type": "bytes"
+                }
+            }
+        ]
+    }
+}
+```
+
+## Features to implement
+
+- extractors: sqlite3 WAL
