@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+foolson.py
+readme.md
+setup.py
+foolson.egg-info/PKG-INFO
+foolson.egg-info/SOURCES.txt
+foolson.egg-info/dependency_links.txt
+foolson.egg-info/top_level.txt
