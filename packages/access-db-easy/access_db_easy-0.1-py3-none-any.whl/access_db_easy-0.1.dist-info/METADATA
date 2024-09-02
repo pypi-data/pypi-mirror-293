@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: access_db_easy
+Version: 0.1
+Summary: A simple library to interact with Access databases
+Home-page: https://github.com/ThAnToI/PyPI
+Author: ThAnToI
+Author-email: thienphuoc08@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pyodbc
+
