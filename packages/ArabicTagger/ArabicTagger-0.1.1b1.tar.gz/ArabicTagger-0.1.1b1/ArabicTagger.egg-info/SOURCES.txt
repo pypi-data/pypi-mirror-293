@@ -1,0 +1,6 @@
+setup.py
+ArabicTagger.egg-info/PKG-INFO
+ArabicTagger.egg-info/SOURCES.txt
+ArabicTagger.egg-info/dependency_links.txt
+ArabicTagger.egg-info/requires.txt
+ArabicTagger.egg-info/top_level.txt
