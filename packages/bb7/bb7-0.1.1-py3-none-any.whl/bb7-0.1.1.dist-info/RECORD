@@ -1,0 +1,12 @@
+bb7-0.1.1.dist-info/METADATA,sha256=Y3lBnrUcAFOoMFvFsxo7aMqkDKCeo4FcCUQrDsBYxK4,528
+bb7-0.1.1.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+bb7-0.1.1.dist-info/entry_points.txt,sha256=5kTZCaYJWYgqufgAs2M_bChJHtjCjelrxJu9a7Jx9zY,38
+bb7-0.1.1.dist-info/licenses/LICENSE,sha256=pWNGpLDSFXfw83ptQ5Jjk7htC9AJLM9NdR8ghO6T2q4,1068
+bb7/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bb7/chat.py,sha256=_Ajsu3QxYN5sOAortxU4goVFLbDIlU4mxjWG4cck7OE,2761
+bb7/cli.py,sha256=9HE6WM5eigGri8yVsVokNp0FEZxitJd9thPIi9qTzxs,997
+bb7/examine.py,sha256=8axyRQv1Nh1glzg9VXo72RzdRi6A6F2Y6tAIlaKqYpw,553
+bb7/llm.py,sha256=H1ziiPeTIv8Vx7dqX0EcNKXCFBWGKnL3vT4kUjETPSc,579
+bb7/utils.py,sha256=sb3b3RcDCwKApsJWDTSuBbbqkbNo1cvyEErFvPL7XFk,861
+bb7/write.py,sha256=8I9au6EI_3-iTCu8Z44eROcI-sUq7qk0XEvwYgby-VE,3229
+bb7-0.1.1.dist-info/RECORD,,
