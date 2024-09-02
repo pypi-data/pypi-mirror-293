@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: existrike
+Version: 0.1.3
+Summary: Framework for pentesting
+Author: RADNET64
+Author-email: radnet@tutamail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: colorama
+Requires-Dist: tqdm
+
+# ExiStrike
+
+ExiStrike is a beta version of a security framework. This is not the final version. We are not responsible for any misuse of this software.
+
+## Features
+
+- Scanning capabilities
+- Auxiliary scans, auxiliaries, exploits
+## Installation
+
+You can install ExiStrike using pip:
+
+```bash
+pip install .

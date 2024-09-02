@@ -1,0 +1,11 @@
+# Incluir todos os arquivos em subdiretórios específicos
+recursive-include existrike/auxiliaries *
+recursive-include existrike/exploits *
+recursive-include existrike/scans *
+recursive-include existrike/utils *
+
+# Inclua o README.md
+include README.md
+
+# Inclua outros arquivos específicos
+include existrike/accounts/accounts.db
