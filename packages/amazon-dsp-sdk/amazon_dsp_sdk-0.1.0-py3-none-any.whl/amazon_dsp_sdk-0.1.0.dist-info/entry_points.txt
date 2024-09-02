@@ -1,0 +1,2 @@
+[console_scripts]
+your_sdk_command = your_module:main_function
