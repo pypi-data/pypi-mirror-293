@@ -1,0 +1,17 @@
+README.md
+setup.py
+pyqsim/__init__.py
+pyqsim/bitgate.py
+pyqsim/core.py
+pyqsim/gates.py
+pyqsim/operations.py
+pyqsim/qubit.py
+pyqsim/reggate.py
+pyqsim/types.py
+pyqsim.egg-info/PKG-INFO
+pyqsim.egg-info/SOURCES.txt
+pyqsim.egg-info/dependency_links.txt
+pyqsim.egg-info/requires.txt
+pyqsim.egg-info/top_level.txt
+tests/test_deutsch.py
+tests/test_grover.py
