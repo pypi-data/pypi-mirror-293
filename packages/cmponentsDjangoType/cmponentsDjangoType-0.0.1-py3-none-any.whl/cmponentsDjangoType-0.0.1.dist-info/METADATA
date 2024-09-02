@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cmponentsDjangoType
+Version: 0.0.1
+Summary: A Django app for ...
+Home-page: https://github.com/jose-CR/componentsDjangotype
+Author: Alejandro
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Django :: 3.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django (>=3.2)
+
+# componentsDjangotype
+
