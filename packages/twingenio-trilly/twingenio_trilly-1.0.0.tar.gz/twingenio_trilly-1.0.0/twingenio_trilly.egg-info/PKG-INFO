@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: twingenio_trilly
+Version: 1.0.0
+Summary: Supporto per servizi audio speech-to-text e text-to-speech
+Home-page: https://github.com/Twingenio/trilly
+Author: hypertrue
+Author-email: info@hypertrue.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: openai==1.38.0
+Requires-Dist: elevenlabs==1.6.1
+Requires-Dist: twingenio_alfred
+
+# trilly
+
+Richiede le seguenti variabili di ambiente:
+OPENAI_API_KEY
+    ad esempio
+    OPENAI_API_KEY=sk-000000000...
+
+
+ANTHROPIC_API_KEY
+    ad esempio
+    ANTHROPIC_API_KEY=sk-0000000....

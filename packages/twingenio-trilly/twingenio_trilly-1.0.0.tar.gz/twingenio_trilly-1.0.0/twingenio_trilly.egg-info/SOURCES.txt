@@ -1,0 +1,9 @@
+README.md
+setup.py
+./trilly/__init__.py
+./trilly/audio_tools.py
+twingenio_trilly.egg-info/PKG-INFO
+twingenio_trilly.egg-info/SOURCES.txt
+twingenio_trilly.egg-info/dependency_links.txt
+twingenio_trilly.egg-info/requires.txt
+twingenio_trilly.egg-info/top_level.txt

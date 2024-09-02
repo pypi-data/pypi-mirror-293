@@ -1,0 +1,3 @@
+openai==1.38.0
+elevenlabs==1.6.1
+twingenio_alfred
