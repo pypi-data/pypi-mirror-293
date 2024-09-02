@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyavc.egg-info/PKG-INFO
+pyavc.egg-info/SOURCES.txt
+pyavc.egg-info/dependency_links.txt
+pyavc.egg-info/entry_points.txt
+pyavc.egg-info/requires.txt
+pyavc.egg-info/top_level.txt
