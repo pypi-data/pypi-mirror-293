@@ -1,0 +1,5 @@
+pyproject.toml
+byted_m10n_event_validator.egg-info/PKG-INFO
+byted_m10n_event_validator.egg-info/SOURCES.txt
+byted_m10n_event_validator.egg-info/dependency_links.txt
+byted_m10n_event_validator.egg-info/top_level.txt
