@@ -1,0 +1,17 @@
+tokengrams-0.3.2.dist-info/METADATA,sha256=rv-bYVHCvSQJ2JPCe0ru5dpnIWkFdAvipTmP-9e4ySI,6387
+tokengrams-0.3.2.dist-info/WHEEL,sha256=2p5tBgD3F1K_C76F3epQNpaHzSZZ9-XYo4Ues2F1-Rk,131
+tokengrams-0.3.2.dist-info/licenses/LICENSE.md,sha256=pxdRpllG0ReV1QgmX0gYevamUEQBboRdZmkZM4P-5x8,1066
+tokengrams/tests/test_gram_index.py,sha256=y1Z_3rz04mZxvPx2WJpBFaJ8L5VrTgy7EGkB3vMgkGs,1513
+tokengrams/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tokengrams/tests/test_sharded_index.py,sha256=Tr0E8skHlfjUKO_GMPn3hFYKkA6FX29cMDg4Lyzxs8E,1885
+tokengrams/benchmark/MemmapIndex_build_times.png,sha256=mVKFHPMFqfc9PxXJpzl53kCD39pXeesWnBzQy6QMKpY,443386
+tokengrams/benchmark/InMemoryIndex_build_times.png,sha256=nwE7ICvCin_M3xVyP-Vnafivy0oiwwyaIp1uoCe2QbE,458655
+tokengrams/benchmark/benchmark.py,sha256=vZp870KRGQyNl8gdA6y1oKdcTvuYLL1qDfQFgP0J6lw,4731
+tokengrams/benchmark/MemmapIndex_count_next_times.png,sha256=9ZWex46ZsQjLHeNQkiUbANSFMYEU8TB6a-2OxAvzwFE,443814
+tokengrams/benchmark/InMemoryIndex_count_next_times.png,sha256=ce4BhHVdV7MQiiGvpZ8qyw9qWU3L6aVlZh_fFUSlf1w,446822
+tokengrams/utils/tokenize_hf_dataset.py,sha256=ukgjlYTaA4Pqlp-6dqi8wufRsR3ZV0I9A5rtqfPSFHY,4056
+tokengrams/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tokengrams/tokengrams.pyi,sha256=tVpjiqNk9y2L00tGBxgISdH4RiU6wZ3wRR6w1X41QzA,11366
+tokengrams/__init__.py,sha256=877t99hzcuoHfabTCTwFvGQY_VhuHOIQHV4P6xyVM24,172
+tokengrams/tokengrams.cpython-310-aarch64-linux-gnu.so,sha256=_-Z_gTYuR1LlXgqPUj6xO7dYiodm_VbXPY_DvUzuXqY,1985976
+tokengrams-0.3.2.dist-info/RECORD,,
