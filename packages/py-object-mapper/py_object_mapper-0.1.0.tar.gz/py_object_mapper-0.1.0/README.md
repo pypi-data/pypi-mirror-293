@@ -1,0 +1,3 @@
+# Mapper
+
+Simple wrapper around pydantic validator to add functionalities such as JSON subtypes and facilities such as `to_json`, `to_dict`...
