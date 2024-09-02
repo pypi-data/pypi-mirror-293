@@ -1,0 +1,10 @@
+grammar_guide/__init__.py,sha256=RIIQCdgVp6Zb48n2k1k1V4Q0VYPs1jo3tH8S2idWDVc,96
+grammar_guide/_logger.py,sha256=C8QuwOIs7s2y0CedWzfXanQB6cEXqwzW3l3Vsk8aI9U,2576
+grammar_guide/guide.py,sha256=AIr4xjp6Fxh80JV6Mo9lBT8nwt-IKcd7nZoMUAxzNuA,20075
+grammar_guide/typedefs.py,sha256=BG1j61ELftr30DgA_4iv7T9ZE94JejjHUGXecKsIFjU,1026
+grammar_guide/utils.py,sha256=Vfvzk0zVRPIHI-z-ajEBOpF3CFoHVtm96jOM7TUU2Tg,5443
+grammar_guide-0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+grammar_guide-0.0.0.dist-info/METADATA,sha256=oJ6SeV9CBnX7cZ0yUN9byD801-2B4MUjB-7gnbSvMeI,22793
+grammar_guide-0.0.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+grammar_guide-0.0.0.dist-info/top_level.txt,sha256=_rhCSO3qI428o86QhPRrpo-UgO_nDIXn_WtqsHm4xSs,14
+grammar_guide-0.0.0.dist-info/RECORD,,
