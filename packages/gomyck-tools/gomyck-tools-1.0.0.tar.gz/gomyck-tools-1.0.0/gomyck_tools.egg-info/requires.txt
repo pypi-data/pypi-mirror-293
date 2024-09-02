@@ -1,0 +1,6 @@
+jieba==0.42.1
+jsonpickle==3.2.2
+SQLAlchemy==2.0.32
+paddlepaddle==2.6.1
+chardet==5.2.0
+psycopg2-binary==2.9.9
