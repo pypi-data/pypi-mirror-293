@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: KirkukData
+Version: 0.0.3
+Requires-Dist: ttkbootstrap ==1.10.1
+
