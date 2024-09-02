@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/databaseautomationry/__init__.py
+src/databaseautomationry/mongo_crud.py
+src/databaseautomationry.egg-info/PKG-INFO
+src/databaseautomationry.egg-info/SOURCES.txt
+src/databaseautomationry.egg-info/dependency_links.txt
+src/databaseautomationry.egg-info/requires.txt
+src/databaseautomationry.egg-info/top_level.txt
