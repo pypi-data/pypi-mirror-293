@@ -1,0 +1,16 @@
+.DS_Store
+docs/_build
+*.pyc
+cpi/data/
+cpi/*.tsv
+cpi/*.csv
+cpi/cpi.db
+*.egg-info
+dist
+build
+.coverage
+.eggs
+*.*#
+.ipynb_checkpoints
+todo
+.ruff-cache
