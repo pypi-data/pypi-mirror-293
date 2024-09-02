@@ -1,0 +1,28 @@
+[project]
+name = "zuto"
+version = "0.1.0"
+description = "simple automator"
+authors = [
+    { name = "ZackaryW", email = "gitzackw@gmail.com" }
+]
+dependencies = [
+    "zuu>=0.1.12",
+    "pygetwindow>=0.0.9",
+    "psutil>=6.0.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/zuto"]
