@@ -1,0 +1,5 @@
+pyproject.toml
+byted_marketsuite_metrics.egg-info/PKG-INFO
+byted_marketsuite_metrics.egg-info/SOURCES.txt
+byted_marketsuite_metrics.egg-info/dependency_links.txt
+byted_marketsuite_metrics.egg-info/top_level.txt
