@@ -1,0 +1,9 @@
+torch
+transformers
+numpy
+tqdm
+matplotlib
+
+[dev]
+pip-tools
+pytest
