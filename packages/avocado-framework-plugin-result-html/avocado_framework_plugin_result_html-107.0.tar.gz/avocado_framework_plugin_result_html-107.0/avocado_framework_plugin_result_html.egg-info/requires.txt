@@ -1,0 +1,2 @@
+avocado-framework==107.0
+jinja2
