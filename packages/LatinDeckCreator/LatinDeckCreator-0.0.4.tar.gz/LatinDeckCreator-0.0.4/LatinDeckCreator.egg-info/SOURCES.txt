@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+LatinDeckCreator/__init__.py
+LatinDeckCreator/deckwriter.py
+LatinDeckCreator/filehandler.py
+LatinDeckCreator/jsonhandler.py
+LatinDeckCreator.egg-info/PKG-INFO
+LatinDeckCreator.egg-info/SOURCES.txt
+LatinDeckCreator.egg-info/dependency_links.txt
+LatinDeckCreator.egg-info/requires.txt
+LatinDeckCreator.egg-info/top_level.txt
+test/test.py
