@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+GenCareAI.egg-info/PKG-INFO
+GenCareAI.egg-info/SOURCES.txt
+GenCareAI.egg-info/dependency_links.txt
+GenCareAI.egg-info/top_level.txt
