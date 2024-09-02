@@ -1,0 +1,13 @@
+grscheller/boring_math/__init__.py,sha256=T1HYKHFanwScgd-7ooHjrFnL9nHBxCd1ORyxovB8fJM,843
+grscheller/boring_math/integer_math.py,sha256=m5Af8Ov24H7NzqegNz9hu6kOOIMJbrwiz-ef5Okgo4Q,5624
+grscheller/boring_math/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grscheller/boring_math/pythag3.py,sha256=tVSGzWZKU14g2B_e9KWgzMNw7puzK9Ie_1V8E_8FqFg,3561
+grscheller/boring_math/recursive.py,sha256=vhZ_iiVG2sWxV8vw0sMKkbsLgNVKGOFYYN6NmNWCpc0,1990
+grscheller/boring_math/cli/__init__.py,sha256=NdpWBtIpJJX8rQH7pAmVI6id0qzrF2nei3u8O1y9cmE,1146
+grscheller/boring_math/cli/ackermann.py,sha256=KVE7_jdd7daoDe2FpyE6sfLpvQB6Ga__0uNEHd7h9fA,2186
+grscheller/boring_math/cli/pythag3.py,sha256=GuGkHpqc7nbJ11GB4MHudX_60rk_gUf1G1ePp0mr01E,2445
+grscheller_boring_math-0.4.4.dist-info/entry_points.txt,sha256=ny17SVhm0Q6KUKu1905OA0as-ThJz6pTuh6KBSrgVhA,145
+grscheller_boring_math-0.4.4.dist-info/LICENSE,sha256=csqbZRvA3Nyuav1aszWvswE8CZtaKr-hMjjjcKqms7w,10774
+grscheller_boring_math-0.4.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+grscheller_boring_math-0.4.4.dist-info/METADATA,sha256=97AypjJx09bTn8N4TCNH9kgqmT835gn4YlPs17uHzDY,5225
+grscheller_boring_math-0.4.4.dist-info/RECORD,,
