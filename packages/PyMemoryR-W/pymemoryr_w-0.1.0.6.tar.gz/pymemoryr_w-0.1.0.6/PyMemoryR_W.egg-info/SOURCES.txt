@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyMemoryR_W.egg-info/PKG-INFO
+PyMemoryR_W.egg-info/SOURCES.txt
+PyMemoryR_W.egg-info/dependency_links.txt
+PyMemoryR_W.egg-info/requires.txt
+PyMemoryR_W.egg-info/top_level.txt
