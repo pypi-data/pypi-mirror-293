@@ -1,0 +1,73 @@
+#--------------------------------------------------------------------------------
+# 참조 모듈 목록.
+#--------------------------------------------------------------------------------
+from __future__ import annotations
+from typing import Any, Final, Callable, Iterator, Optional, Type, TypeVar, Union, Tuple, List, Dict, Set, cast
+import dduk.core.builtinex as builtinex
+from .anonymousclass import AnonymousClass
+# from .baseclass import BaseClass as Object
+# from .baseclass import BaseClassException as ObjectException
+from .builtinex import Builtinex as Builtins
+from .builtinex import MetaClass
+from .baseclass import BaseClass as Object
+from .constant import Constant
+from .decorator import overridemethod, basemethod
+from .node import NodeEventType, Node
+from .platform import PlatformType, GetPlatformType
+from .path import Path
+from .repository import Repository
+from .sharedclass import SharedClass
+from .singleton import Singleton, SingletonException
+
+
+#--------------------------------------------------------------------------------
+# 공개 인터페이스 목록.
+#--------------------------------------------------------------------------------
+__all__ = [
+	#--------------------------------------------------------------------------------
+	# anonymousclass.
+	"AnonymousClass",
+
+	#--------------------------------------------------------------------------------
+	# baseclass.
+	"BaseClass",
+	"Object",
+	# "ObjectException",
+
+	#--------------------------------------------------------------------------------
+	# builtinex.py.
+	"Builtinex",
+	"Builtins",
+	"MetaClass",
+
+	#--------------------------------------------------------------------------------
+	# constant.
+	"Constant",
+
+	#--------------------------------------------------------------------------------
+	# decorator.
+	"overridemethod",
+	"basemethod",
+
+	#--------------------------------------------------------------------------------
+	# platform.
+	"PlatformType",
+	"GetPlatformType",
+
+	#--------------------------------------------------------------------------------
+	# path.
+	"Path",
+
+	#--------------------------------------------------------------------------------
+	# repository.
+	"Repository",
+
+	#--------------------------------------------------------------------------------
+	# sharedclass.
+	"SharedClass",
+
+	#--------------------------------------------------------------------------------
+	# singleton.
+	"Singleton",
+	"SingletonException"
+]
