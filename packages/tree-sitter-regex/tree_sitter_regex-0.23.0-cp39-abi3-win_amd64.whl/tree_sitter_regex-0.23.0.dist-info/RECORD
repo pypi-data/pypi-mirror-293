@@ -1,0 +1,11 @@
+tree_sitter_regex/__init__.py,sha256=5vjyfYHT2OrKXxImh9mnTQv_vrToYXoojjc3fs_tnKM,88
+tree_sitter_regex/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_regex/_binding.pyd,sha256=c0WW8--9GTCjv0n1rWseMJKFaJuqGBVvY3KZ1gEa04c,23040
+tree_sitter_regex/binding.c,sha256=hRBNpEMkO1pQUY7HI7DTYwuDjcgz6rfHyzbH-CvSLQg,681
+tree_sitter_regex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_regex/queries/highlights.scm,sha256=WTAGJ0nhjdcc_T-p5mKiIPHtq-DWmJCpDwrV7RRBm3s,591
+tree_sitter_regex-0.23.0.dist-info/LICENSE,sha256=LgEQ4Hq-98JUiybsnWlpd1YXylOaDcjb7rFNZFLHEdE,1080
+tree_sitter_regex-0.23.0.dist-info/METADATA,sha256=FtsQZXsgh7Ndwl8qEAowjyt7KN9qv89FAoTUJ1b3q0k,1759
+tree_sitter_regex-0.23.0.dist-info/WHEEL,sha256=5nHCeh84H1Y7Xe2qsvzJe4PdPUPjiFKJvyXZzUjQXSY,100
+tree_sitter_regex-0.23.0.dist-info/top_level.txt,sha256=HoBWnD3ya0sdHcXsSEZ0rok6sHlWSSLiWxWuKy_iigQ,27
+tree_sitter_regex-0.23.0.dist-info/RECORD,,
