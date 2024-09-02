@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/scrume/__init__.py
+src/scrume/__main__.py
+src/scrume.egg-info/PKG-INFO
+src/scrume.egg-info/SOURCES.txt
+src/scrume.egg-info/dependency_links.txt
+src/scrume.egg-info/requires.txt
+src/scrume.egg-info/top_level.txt
