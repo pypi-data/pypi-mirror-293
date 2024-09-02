@@ -1,0 +1,68 @@
+[project]
+name = "sopsy"
+version = "0.2.4"
+description = "SOPS Python wrapper library"
+authors = [{ name = "Nicolas Karolak", email = "nicolas@karolak.fr" }]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security :: Cryptography",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+license = { text = "GPL-3.0-or-later" }
+keywords = ["sops"]
+
+[project.optional-dependencies]
+yaml = ["pyyaml>=6.0.1"]
+
+[project.urls]
+Homepage = "https://github.com/nikaro/sopsy"
+Repository = "https://github.com/nikaro/sopsy"
+Issues = "https://github.com/nikaro/sopsy/issues"
+Changelog = "https://github.com/nikaro/sopsy/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+universal = true
+generate-hashes = true
+dev-dependencies = [
+  "pytest>=7.4.3",
+  "basedpyright>=1.15.1",
+  "typing-extensions>=4.12.2",
+]
+
+[tool.rye.scripts]
+type-check = "basedpyright ./src/"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.lint.ruff]
+select = ["ALL"]
+ignore = ["COM812", "D203", "D212"]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.ruff.lint.pylint]
+max-args = 15
+
+[tool.pyright]
+reportAny = false
+reportImplicitOverride = false
+
+[tool.commitizen]
+version_provider = "pep621"
+update_changelog_on_bump = true
