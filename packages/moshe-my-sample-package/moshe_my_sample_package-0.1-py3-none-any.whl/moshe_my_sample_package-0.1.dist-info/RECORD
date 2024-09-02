@@ -1,0 +1,10 @@
+my_sample_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_sample_package/calculator.py,sha256=OOGbJh5vOqQpYz3BbvWuNBWKRtAK1_HoWtH0B-NU-IE,291
+my_sample_package/data_processor.py,sha256=KximStTeKA5xrg2nQRWVTy-UhtFP0C_j3IktnQm4I3k,217
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_calculator.py,sha256=AbgkR0jXktDM_Z5ZQNivoklo60oHUpU5O910ne0uJSA,775
+tests/test_data_processor.py,sha256=uuSQ0pdCmWxCScDfvOPV5ZEIxCCUoE644CRF4kqx6p8,434
+moshe_my_sample_package-0.1.dist-info/METADATA,sha256=tVkrhE72nNAB_NuQskpswZzePNIL2TB8zbiDFSX21cc,181
+moshe_my_sample_package-0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+moshe_my_sample_package-0.1.dist-info/top_level.txt,sha256=uS8SVOj-QmTeige8en6okj-poh69pQxJ8cbSYqMfE9E,24
+moshe_my_sample_package-0.1.dist-info/RECORD,,
