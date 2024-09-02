@@ -1,0 +1,13 @@
+akasha/__init__.py,sha256=u68j1mglpJIhLNlh3VSkbSQdTwjXfgldc9hFWYIQwpg,87
+akasha/client.py,sha256=FnBHZj3wDGZxm5rOmDD6IBMIYMgOKbwMS_9W9c7mK18,7331
+akasha/constants.py,sha256=40STJ-Zmcs3yEq4B1Z7si4u4T9Jrz_IPA4YcbqrWWLU,892
+akasha/enums.py,sha256=SqnwGFJjbd47kEga1mc4fx8aAkOXztgwvxG4voTUjm4,2082
+akasha/errors.py,sha256=Cq92NAdmFgJEMSafEP9xlQPCC_XITmRXKTw-FSL2DUg,874
+akasha/models/__init__.py,sha256=EYubwASKsPsi8nI3_Fp3W6Qo-Qtp9yJWg31F-Gc_clk,76
+akasha/models/artifact.py,sha256=tTaepxCaqx6Tpa0AfCyN3p-eg1hz0srTC_ZJAGvQilY,1478
+akasha/models/leaderboard.py,sha256=aop-Kw0p4ZZsEs7A1pRA271cexvqJC7uek_Ew4QH08E,5210
+akasha/models/user_calc.py,sha256=Mb50SWQjfhaHniWqWFKnowsB4sKL_BY5XIxbitUNe5A,1608
+akasha_py-0.1.3.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+akasha_py-0.1.3.dist-info/METADATA,sha256=n8nvCjEgaCLONusLWG7RMwB8efMFwYA068pR8IPzUTA,3394
+akasha_py-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+akasha_py-0.1.3.dist-info/RECORD,,
