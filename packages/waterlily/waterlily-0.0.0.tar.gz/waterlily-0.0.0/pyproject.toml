@@ -1,0 +1,11 @@
+[project]
+name = "waterlily"
+version = "0.0.0"
+description = "waterlily"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
