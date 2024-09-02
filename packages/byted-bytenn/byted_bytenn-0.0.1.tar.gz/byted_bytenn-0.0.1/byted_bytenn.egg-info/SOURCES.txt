@@ -1,0 +1,5 @@
+pyproject.toml
+byted_bytenn.egg-info/PKG-INFO
+byted_bytenn.egg-info/SOURCES.txt
+byted_bytenn.egg-info/dependency_links.txt
+byted_bytenn.egg-info/top_level.txt
