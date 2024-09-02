@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pinnies
+Version: 0.0.0
+Summary: A Physics-Informed Neural Network Framework for Solving Integral Equations
+Author: Alireza Afzal Aghaei
+Author-email: alirezaafzalaghaei@gmail.com
+License: MIT
+Description-Content-Type: text/markdown

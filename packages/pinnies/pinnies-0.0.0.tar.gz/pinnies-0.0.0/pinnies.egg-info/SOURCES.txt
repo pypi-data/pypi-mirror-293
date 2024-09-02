@@ -1,0 +1,6 @@
+README.md
+setup.py
+pinnies.egg-info/PKG-INFO
+pinnies.egg-info/SOURCES.txt
+pinnies.egg-info/dependency_links.txt
+pinnies.egg-info/top_level.txt
