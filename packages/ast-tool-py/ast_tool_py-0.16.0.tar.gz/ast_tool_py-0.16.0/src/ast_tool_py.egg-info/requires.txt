@@ -1,0 +1,6 @@
+scapy
+cryptography
+libasterix
+
+[:python_version < "3.10"]
+typing_extensions
