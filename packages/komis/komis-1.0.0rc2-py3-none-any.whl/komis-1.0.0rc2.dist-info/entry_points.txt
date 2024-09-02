@@ -1,0 +1,10 @@
+[console_scripts]
+komis=komis.cli:app
+
+[komis.frametype]
+DIALOGUE=komis.engines.DialogueEngine:DialogueEngine
+DIALOGUE-REVERSE=komis.engines.ReverseDialogueEngine:ReverseDialogueEngine
+DRAW-LOGO=komis.engines.LogoEngine:LogoEngine
+GAY=komis.engines.GayEngine:GayEngine
+SIMPLE-TEXT=komis.engines.SimpleTextEngine:SimpleTextEngine
+
