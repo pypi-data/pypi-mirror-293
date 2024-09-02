@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "f_program"
+version = "0.3.3"
+description = "A description of f_program"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+# Add other dependencies here
+
+[tool.poetry.dev-dependencies]
+# Add development dependencies here
+
+[tool.poetry.scripts]
+f_program = "f_program.__main__:main_function"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

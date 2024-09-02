@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: f_program
+Version: 0.3.3
+Summary: A description of f_program
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# f_program
+
+`f_program` is a Python package that provides functionality for generating outputs using Gaussian Naive Bayes on the Iris dataset and Multinomial Naive Bayes on the 20 Newsgroups dataset.
+
+## Installation
+
+You can install the package using pip:
+
+```sh
+pip install f_program
+
