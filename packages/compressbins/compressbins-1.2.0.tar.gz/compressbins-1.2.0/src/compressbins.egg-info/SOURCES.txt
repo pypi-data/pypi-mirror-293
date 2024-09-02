@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/compressbins/__init__.py
+src/compressbins/compressbins.py
+src/compressbins.egg-info/PKG-INFO
+src/compressbins.egg-info/SOURCES.txt
+src/compressbins.egg-info/dependency_links.txt
+src/compressbins.egg-info/requires.txt
+src/compressbins.egg-info/top_level.txt
+tests/test_compressbins.py
