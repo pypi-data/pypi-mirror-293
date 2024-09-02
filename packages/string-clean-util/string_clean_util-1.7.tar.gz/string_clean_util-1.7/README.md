@@ -1,0 +1,1 @@
+Simple cleans the string
