@@ -1,0 +1,10 @@
+README.md
+setup.py
+v_ml_program/__init__.py
+v_ml_program/iris_classifier.py
+v_ml_program/text_classifier.py
+v_ml_program.egg-info/PKG-INFO
+v_ml_program.egg-info/SOURCES.txt
+v_ml_program.egg-info/dependency_links.txt
+v_ml_program.egg-info/requires.txt
+v_ml_program.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: v_ml_program
+Version: 0.2
+Summary: A package for Iris and text classification
+Author: Arasu
+Author-email: arasum6262@gmail.com
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
