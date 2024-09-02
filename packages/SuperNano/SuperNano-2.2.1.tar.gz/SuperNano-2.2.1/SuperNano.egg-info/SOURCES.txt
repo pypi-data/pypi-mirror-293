@@ -1,0 +1,10 @@
+README.md
+setup.py
+SuperNano.egg-info/PKG-INFO
+SuperNano.egg-info/SOURCES.txt
+SuperNano.egg-info/dependency_links.txt
+SuperNano.egg-info/entry_points.txt
+SuperNano.egg-info/top_level.txt
+supernano/__init__.py
+supernano/install.py
+supernano/main.py
