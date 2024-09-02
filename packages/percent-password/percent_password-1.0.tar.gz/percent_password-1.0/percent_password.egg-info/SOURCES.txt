@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+percent_password/__init__.py
+percent_password/pwgv.py
+percent_password.egg-info/PKG-INFO
+percent_password.egg-info/SOURCES.txt
+percent_password.egg-info/dependency_links.txt
+percent_password.egg-info/top_level.txt

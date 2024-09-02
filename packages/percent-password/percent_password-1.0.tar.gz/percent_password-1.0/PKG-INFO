@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: percent_password
+Version: 1.0
+Summary: Pwgv (password generation and verification) генерация и проверка паролей
+Home-page: https://github.com/G0ga1/percent_password
+Author: testg1
+Author-email: radan85669@avashost.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+### Проверка
+Прежде чем устанавливать пакет убедитесь что у вас установлит __Python__, ведя команду:
+```
+python -V
+```
+В результате должен вывести `Python 3.12.X`. Если у вас результат совпадает, то-гда Python существует на вашем системе, а если нет то вам нужно перейти [на официальный сайт Python](https://www.python.org/) скачать и установить в свою систему.
+
+Нужно ещё проверить в наличий менеджер пакетов __pip__, вводим команду:
+```
+pip -V
+```
+Если будет в результате `pip 24.2 from <Тут должен находится путь менеджеру пакетов>` то тогда вы готовы к установки пакета __percent_password__.
+
+> Посути менеджер __pip__ он устанавливается автомотически при установки __Python__ вашу систему, но для надежности, нужно всётаки проверять каждый раз при установки __Python__.
+
+### Загрузка percent_password
+Просле проверки наличий __Python__ и __менеджер пакетов pip__. Мы можем загрузить пакет __percent_password__ одной командой:
+```
+pip install percent_password
+```
+
+После установки можете использовать покет __percent_password__
+ипортировать в свой проект:
+```
+import percent_password
+```
+Или ипротировать класс `Pwgv`:
+```
+from percent_password import Pwgv
+```
