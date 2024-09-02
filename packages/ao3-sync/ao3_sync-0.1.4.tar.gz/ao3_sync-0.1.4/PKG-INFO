@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: ao3-sync
+Version: 0.1.4
+Summary: A CLI tool to download your bookmarked works from Archive of Our Own.
+Home-page: https://thalida.github.io/ao3-sync/
+License: MIT
+Keywords: ao3,archiveofourown,fanfiction,cli,tool,download,bookmark
+Author: Thalida Noel
+Author-email: hello@thalida.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: mike (>=2.1.2,<3.0.0)
+Requires-Dist: mkdocs (>=1.6.0,<2.0.0)
+Requires-Dist: mkdocs-awesome-pages-plugin (>=2.9.3,<3.0.0)
+Requires-Dist: mkdocs-click (>=0.8.1,<0.9.0)
+Requires-Dist: mkdocs-material (>=9.5.31,<10.0.0)
+Requires-Dist: mkdocstrings[python] (>=0.25.2,<0.26.0)
+Requires-Dist: parsel (>=1.9.1,<2.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.4.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: requests-ratelimiter (>=0.7.0,<0.8.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: rich-click (>=1.8.3,<2.0.0)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Requires-Dist: yaspin (>=3.0.2,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/thalida/ao3-sync/issues
+Project-URL: Documentation, https://thalida.github.io/ao3-sync/
+Project-URL: Repository, https://github.com/thalida/ao3-sync
+Description-Content-Type: text/markdown
+
+# AO3 Sync
+
+AO3 Sync is a tool to downlaod your bookmarks from [Archive of Our Own](https://archiveofourown.org) (AO3)
+and save them to your local machine. This tool is designed to be run on a regular basis to
+keep your local bookmarks up-to-date with your AO3 account.
+
+
+## Quick Start
+
+
+### Installation
+
+```bash
+poetry add ao3-sync
+```
+
+
+### Sync Bookmarks
+
+```bash
+ao3-sync bookmarks
+```
+
+
+## Features
+
+- Set the start and end page for bookmarks
+- Sort bookmarks by date bookmarked or date updated
+- Specifcy the file format to download (eg. HTML, EPUB, MOBI, PDF, AZW3)
+
+
+## Roadmap
+
+- [ ] Add support for syncing subscriptions
+- [ ] Support filtering and searching bookmarks
+
