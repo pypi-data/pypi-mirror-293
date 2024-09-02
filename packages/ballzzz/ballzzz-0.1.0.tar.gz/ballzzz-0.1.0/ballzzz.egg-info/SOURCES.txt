@@ -1,0 +1,8 @@
+README.md
+setup.py
+ballzzz.egg-info/PKG-INFO
+ballzzz.egg-info/SOURCES.txt
+ballzzz.egg-info/dependency_links.txt
+ballzzz.egg-info/entry_points.txt
+ballzzz.egg-info/requires.txt
+ballzzz.egg-info/top_level.txt
