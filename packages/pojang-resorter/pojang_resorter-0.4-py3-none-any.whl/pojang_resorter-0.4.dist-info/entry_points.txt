@@ -1,0 +1,2 @@
+[console_scripts]
+run_po_jar_resorter = pojang_resorter.install_script:post_install
