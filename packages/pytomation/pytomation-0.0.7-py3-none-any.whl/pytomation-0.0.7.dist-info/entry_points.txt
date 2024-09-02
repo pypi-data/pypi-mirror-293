@@ -1,0 +1,3 @@
+[console_scripts]
+pytomation=pytomation.cli:run
+
