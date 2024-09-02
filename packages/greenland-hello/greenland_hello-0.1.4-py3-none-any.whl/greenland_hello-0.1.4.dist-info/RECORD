@@ -1,0 +1,10 @@
+greenland/hello/.gitignore,sha256=u0CUrbBhSIjiHIzKkNfRmPqdazdFLe9yLN9sQo_1bcY,16
+greenland/hello/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+greenland/hello/__version__.py,sha256=ueomeUeqAufjKmcXhLtYff-LGfSoK08ImpzzbMvY_es,44
+greenland/hello/version.py,sha256=umWmXJk5R3kNwZsgiFmq7_VBun04AOyDrKK4gQ8aiL4,2310
+greenland/hello/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+greenland/hello/bin/greenland_hello.py,sha256=9MIW7zA8uOQ-RKKSRx3E1iBqKE4Z4B1LSRvw0epJjI4,1447
+greenland_hello-0.1.4.dist-info/METADATA,sha256=jZED_HyfSK03m17ixCsTJUhxbFCKpPOppqEplQhPbYQ,1731
+greenland_hello-0.1.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+greenland_hello-0.1.4.dist-info/licenses/LICENSE.txt,sha256=-5gWaMGKJ54oX8TYP7oeg2zITdTapzyWl9PP0tispuA,34674
+greenland_hello-0.1.4.dist-info/RECORD,,
