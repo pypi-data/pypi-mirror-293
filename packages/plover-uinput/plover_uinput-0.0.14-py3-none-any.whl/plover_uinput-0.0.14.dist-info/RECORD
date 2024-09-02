@@ -1,0 +1,11 @@
+plover_uinput/__init__.py,sha256=cs77car2t0aok1E53VL4bXgOWoZ8x_FAjjmggjna8RA,9584
+plover_uinput/all_keys.py,sha256=exMelwy8uwNSgJ1eL4NNmXgllm-gYTyjFicUkqh_OOU,130
+plover_uinput/keyboard_capture.py,sha256=MeEFeywGiI7n4NTt_eg5vU4_4l-LMAKl_AHEWR48axQ,1807
+plover_uinput/keys.py,sha256=EPxONmmXmLn-4wYbHK_A1aAWJKCSQ8wlWzGF5zoq4Qs,10000
+plover_uinput/symbols.py,sha256=9J8OjI6DlH_vlcc4DDj0z4MiqXGH2kiVvK-p-wvIKNA,1936
+plover_uinput-0.0.14.dist-info/LICENSE,sha256=_HF1gERg-c7DjHWNsxb7ZKm_WcJ8cNy80RcAHSpiYrA,1053
+plover_uinput-0.0.14.dist-info/METADATA,sha256=35FwXobdpoGh0a9NVs1BeAtx1-qxWL2hDTdsXoicBp8,2798
+plover_uinput-0.0.14.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+plover_uinput-0.0.14.dist-info/entry_points.txt,sha256=Tz6K2iNqA2dw5en8FcsO3pcrMuelCOPFlAfO-3fhjdk,119
+plover_uinput-0.0.14.dist-info/top_level.txt,sha256=9vw3Ei6zHazGYSyDwukeMotrdlnr6gIF4mT7KpJjYcc,14
+plover_uinput-0.0.14.dist-info/RECORD,,
