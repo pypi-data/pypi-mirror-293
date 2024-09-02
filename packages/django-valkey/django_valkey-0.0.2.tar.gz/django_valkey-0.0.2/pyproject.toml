@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "django-valkey"
+version = "0.0.2"
+description = "a backend for valkey database, based on django's redis backend"
+authors = ["amirreza <amir.rsf1380@gmail.com>"]
+readme = "README.md"
+license = "BSD 3"
+
+[project.urls]
+Homepage = "https://github.com/amirreza8002/django-valkey-backend"
+Issues = "https://github.com/amirreza8002/django-valkey-backend/issues"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1"
+valkey = "^6.0.0"
+
+libvalkey = { version = "^4.0.0", optional = true }
+
+[tool.poetry.extras]
+libvalkey = ["libvalkey"]
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+ruff = "^0.6.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
