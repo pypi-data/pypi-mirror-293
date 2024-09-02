@@ -1,0 +1,3 @@
+[console_scripts]
+pojang-resorter = pojang_resorter.automation:main
+pojang-utils = pojang_resorter.utilities:main
