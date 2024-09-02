@@ -1,0 +1,8 @@
+pyfilestructuredemo/__init__.py,sha256=c6ghtrIafTYi7RPv8waYU2xBfBVinyZn2Y38j2k7mKA,49
+pyfilestructuredemo/add.py,sha256=EwtIabPusYl7kCTwFgjzKiCDqBmwRQXmelMlsQVaVms,45
+pyfilestructuredemo/file/__init__.py,sha256=qM0emsgfUmzwbBkDHwkFtECApdouZtq6Tjs9-by4q7U,64
+pyfilestructuredemo/file/getPath.py,sha256=8Oj4ZLPhQabDcOUruyTGFrCEXUH6DJiuJOHPevX5kLs,379
+pyfilestructuredemo-0.0.4.dist-info/METADATA,sha256=hzGC44uwG9ZzkvdzVxNiZrOAo_2IRoCH7Ir4HTl1M8w,544
+pyfilestructuredemo-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyfilestructuredemo-0.0.4.dist-info/top_level.txt,sha256=FqStzkcuaU3Jxgfc7W5L4cF52OmljbnXT98ZLvZjLI0,20
+pyfilestructuredemo-0.0.4.dist-info/RECORD,,
