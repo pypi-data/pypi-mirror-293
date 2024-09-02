@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=C,I,R,W0212
+# ruff: noqa: E402
+
+
+"service"
+
+
+import getpass
+import os
+
+
+from nixt.face import config, forever, init, pidfile, privileges, scan, wrap
+
+
+def main():
+    "main"
+    cfg = config()
+    cfg.mod = "cmd,err,irc,rss,thr"
+    cfg.user = getpass.getuser()
+    privileges(cfg.user)
+    pidfile(cfg.pidfile)
+    from nixt.modules import all as modules
+    scan(cfg.mod, modules)
+    init(cfg.mod, modules)
+    forever()
+
+
+if __name__ == "__main__":
+    wrap(main)
+    os._exit(0)
