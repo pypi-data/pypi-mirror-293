@@ -1,0 +1,6 @@
+antares-ptb[job-queue]==v21.4
+aiosqlite
+objgraph
+
+[pika]
+aio-pika
