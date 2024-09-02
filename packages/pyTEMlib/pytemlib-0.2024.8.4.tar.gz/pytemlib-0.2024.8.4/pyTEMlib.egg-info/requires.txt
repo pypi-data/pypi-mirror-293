@@ -1,0 +1,17 @@
+scipy
+numpy
+pillow
+ase
+tqdm
+plotly
+pandas
+requests
+lxml
+ipympl
+build
+spglib
+scikit-image
+scikit-learn
+pyNSID>=0.0.7
+sidpy>=0.12.1
+SciFiReaders>=0.0.8
