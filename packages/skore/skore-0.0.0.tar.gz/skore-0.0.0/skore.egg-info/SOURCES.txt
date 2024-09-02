@@ -1,0 +1,8 @@
+README.md
+setup.py
+skore/__init__.py
+skore.egg-info/PKG-INFO
+skore.egg-info/SOURCES.txt
+skore.egg-info/dependency_links.txt
+skore.egg-info/requires.txt
+skore.egg-info/top_level.txt
