@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+emerald_monitor/__init__.py
+emerald_monitor.egg-info/PKG-INFO
+emerald_monitor.egg-info/SOURCES.txt
+emerald_monitor.egg-info/dependency_links.txt
+emerald_monitor.egg-info/requires.txt
+emerald_monitor.egg-info/top_level.txt

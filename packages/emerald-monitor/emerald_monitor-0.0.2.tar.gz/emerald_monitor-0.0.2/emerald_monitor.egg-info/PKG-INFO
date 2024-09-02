@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: emerald_monitor
+Version: 0.0.2
+Summary: Monitoring utility
+Home-page: https://github.com/emerald-geomodelling/emerald-monitor
+Author: Benjamin Bloss
+Author-email: bb@emrld.no
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+Monitoring utility
