@@ -1,0 +1,15 @@
+reposnap/__init__.py,sha256=FGadYKcWDEh_AL8PbUuUrcCZDlF510JZfdGhHdT6XQk,80
+reposnap/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reposnap/core/collector.py,sha256=TY42k2pN8B9vpuop_g6Dj5PACnr6ncpCYs3b08P1Rog,1253
+reposnap/core/file_system.py,sha256=X3JdnClpNUqbz_Taj6G3GIozk63wpQ_nG3Jd0yNpxsY,886
+reposnap/core/git_repo.py,sha256=Zx6DU87KuKAD-0JcKKqcb0OK1glzKMdS_przDlP4ZV0,707
+reposnap/core/markdown_generator.py,sha256=dcQYDMyhZXjz1DY9e1zMsVS_dDGRVPm9f31Ug0QHANc,5126
+reposnap/interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reposnap/interfaces/cli.py,sha256=3bfyVpVNN5LiuxJ2UxUIpIdNugy75mLpuE-cgjI2J3I,1186
+reposnap/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reposnap/utils/path_utils.py,sha256=lMuZMMIX2lEE1o6V3QqifmyO5dO5fuA5OUXMxSvYcHI,290
+reposnap-0.2.4.dist-info/METADATA,sha256=_HWwwMx9j57TYX_Aj_jahtu3LuCcrlBTZ1cupJ04JX4,2329
+reposnap-0.2.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+reposnap-0.2.4.dist-info/entry_points.txt,sha256=aaCuB0RZOLW2--ymW8VCEOm0Qz9KvTZCUjwQFZsGaDU,43
+reposnap-0.2.4.dist-info/licenses/LICENSE,sha256=Aj7WCYBXi98pvi723HPn4GDRyjxToNWb3PC6j1_lnPk,1069
+reposnap-0.2.4.dist-info/RECORD,,
