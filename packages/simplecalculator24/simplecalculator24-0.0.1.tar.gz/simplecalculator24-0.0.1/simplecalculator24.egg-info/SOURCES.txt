@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+simplecalculator24/__init__.py
+simplecalculator24/calculations.py
+simplecalculator24.egg-info/PKG-INFO
+simplecalculator24.egg-info/SOURCES.txt
+simplecalculator24.egg-info/dependency_links.txt
+simplecalculator24.egg-info/top_level.txt
