@@ -1,0 +1,6 @@
+accelerate
+torch
+transformers
+flash_attn
+PIL
+io
