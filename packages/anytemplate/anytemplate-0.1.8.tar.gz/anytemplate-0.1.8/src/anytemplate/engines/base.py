@@ -1,0 +1,258 @@
+#
+# Author: Satoru SATOH <ssato redhat.com>
+# License: MIT
+#
+# pylint: disable=unused-argument
+"""Base class for template engine implementations."""
+from __future__ import absolute_import, annotations
+
+import functools
+import logging
+import typing
+
+import anytemplate.compat
+import anytemplate.utils
+
+from anytemplate.globals import TemplateNotFound
+from anytemplate.compat import get_file_extension
+
+if typing.TYPE_CHECKING:
+    import collections.abc
+
+
+LOGGER: logging.Logger = logging.getLogger(__name__)
+
+
+def to_method(func: typing.Callable) -> typing.Callable:
+    """
+    Lift :func:`func` to a method; it will be called with the first argument
+    `self` ignored.
+
+    :param func: Any callable object
+    """
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        """Wrapper function.
+        """
+        return func(*args[1:], **kwargs)
+
+    return wrapper
+
+
+def fallback_renders(template_content: str, *args, **kwargs) -> str:
+    """
+    Render given template string `template_content`.
+
+    This is a basic implementation actually does nothing and just returns
+    original template content `template_content`.
+
+    :param template_content: Template content
+    :params args:
+        List of arguments like context, a dict or dict-like object to
+        instantiate given template file
+    :param kwargs: Keyword arguments such as:
+        - at_paths: Template search paths
+        - at_encoding: Template encoding
+        - kwargs: Optional keyword arguments passed to the template engine to
+          render templates with specific features enabled.
+
+    :return: Rendered result string
+    """
+    return template_content
+
+
+def fallback_render(
+    template: str, context: dict,
+    at_paths: typing.Optional[list[str]] = None,
+    at_encoding: str = anytemplate.compat.ENCODING,
+    **kwargs
+):
+    """
+    Render from given template and context.
+
+    This is a basic implementation actually does nothing and just returns
+    the content of given template file `template`.
+
+    :param template: Template file path
+    :param context: A dict or dict-like object to instantiate given
+        template file
+    :param at_paths: Template search paths
+    :param at_encoding: Template encoding
+    :param kwargs: Keyword arguments passed to the template engine to
+        render templates with specific features enabled.
+
+    :return: Rendered result string
+    """
+    tmpl = anytemplate.utils.find_template_from_path(template, at_paths)
+    if tmpl is None:
+        raise TemplateNotFound(f"template: {template}")
+
+    try:
+        return anytemplate.compat.copen(tmpl, encoding=at_encoding).read()
+    except UnicodeDecodeError:
+        return open(tmpl, encoding=at_encoding).read()
+
+
+def filter_kwargs(
+    keys: collections.abc.Iterable[str], kwargs: dict
+) -> typing.Iterator[tuple[str, typing.Any]]:
+    """
+    :param keys: A iterable key names to select items
+    :param kwargs: A dict or dict-like object reprensents keyword args
+
+    >>> list(filter_kwargs(("a", "b"), dict(a=1, b=2, c=3, d=4)))
+    [('a', 1), ('b', 2)]
+    """
+    for k in keys:
+        if k in kwargs:
+            yield (k, kwargs[k])
+
+
+class Engine:
+    """Abstract class implementation of Template Engines."""
+
+    _name: str = "base"
+    _file_extensions: list[str] = []
+    _priority: int = 99  # Lowest priority
+    _engine_valid_opts: tuple[str, ...] = ()
+    _render_valid_opts: tuple[str, ...] = ()
+
+    @classmethod
+    def name(cls) -> str:
+        """
+        :return: Template Engine name (! class name)
+        """
+        return cls._name
+
+    @classmethod
+    def file_extensions(cls) -> list[str]:
+        """
+        :return: File extensions this engine can process
+        """
+        return cls._file_extensions
+
+    @classmethod
+    def supports(cls, template_file: typing.Optional[str] = None) -> bool:
+        """
+        :return: Whether the engine can process given template file or not.
+        """
+        if template_file is None:
+            return False
+
+        return get_file_extension(template_file) in cls.file_extensions()
+
+    @classmethod
+    def priority(cls) -> int:
+        """
+        :return: priority from 0 to 99, smaller gets highter priority.
+        """
+        return cls._priority
+
+    @classmethod
+    def engine_valid_options(cls) -> tuple[str, ...]:
+        """
+        :return: A list of template engine specific initialization options
+        """
+        return cls._engine_valid_opts
+
+    @classmethod
+    def render_valid_options(cls) -> tuple[str, ...]:
+        """
+        :return: A list of template engine specific rendering options
+        """
+        return cls._render_valid_opts
+
+    @classmethod
+    def filter_options(
+        cls, kwargs: dict, keys: collections.abc.Iterable[str]
+    ) -> dict:
+        """
+        Make optional kwargs valid and optimized for each template engines.
+
+        :param kwargs: keyword arguements to process
+        :param keys: optional argument names
+
+        >>> Engine.filter_options(dict(aaa=1, bbb=2), ("aaa", ))
+        {'aaa': 1}
+        >>> Engine.filter_options(dict(bbb=2), ("aaa", ))
+        {}
+        """
+        return dict((k, v) for k, v in filter_kwargs(keys, kwargs))
+
+    def __init__(self, **kwargs) -> None:
+        """
+        Instantiate and initialize a template engine object.
+
+        :param kwargs: Keyword arguments passed to the template engine to
+            configure/setup its specific features.
+        """
+        LOGGER.debug(
+            "Intialize %s with kwargs: %s",
+            self.name(),
+            ", ".join(f"{k}={v}" for k, v in kwargs.items())
+        )
+
+    renders_impl = to_method(fallback_renders)
+    render_impl = to_method(fallback_render)
+
+    def renders(
+        self, template_content: str,
+        context: typing.Optional[dict] = None,
+        at_paths: typing.Optional[list[str]] = None,
+        at_encoding: str = anytemplate.compat.ENCODING,
+        **kwargs
+    ) -> str:
+        """
+        :param template_content: Template content
+        :param context: A dict or dict-like object to instantiate given
+            template file or None
+        :param at_paths: Template search paths
+        :param at_encoding: Template encoding
+        :param kwargs: Keyword arguments passed to the template engine to
+            render templates with specific features enabled.
+
+        :return: Rendered string
+        """
+        kwargs = self.filter_options(kwargs, self.render_valid_options())
+        paths = anytemplate.utils.mk_template_paths(None, at_paths)
+        if context is None:
+            context = {}
+
+        LOGGER.debug(
+            "Render template %s... %s context, options=%s",
+            template_content[:10],
+            "without" if context is None else "with a",
+            str(kwargs)
+        )
+        return self.renders_impl(template_content, context, at_paths=paths,
+                                 at_encoding=at_encoding, **kwargs)
+
+    def render(
+        self, template: str, context: typing.Optional[dict] = None,
+        at_paths: typing.Optional[list[str]] = None,
+        at_encoding: str = anytemplate.compat.ENCODING,
+        **kwargs
+    ) -> str:
+        """
+        :param template: Template file path
+        :param context: A dict or dict-like object to instantiate given
+            template file
+        :param at_paths: Template search paths
+        :param at_encoding: Template encoding
+        :param kwargs: Keyword arguments passed to the template engine to
+            render templates with specific features enabled.
+
+        :return: Rendered string
+        """
+        kwargs = self.filter_options(kwargs, self.render_valid_options())
+        paths = anytemplate.utils.mk_template_paths(template, at_paths)
+        if context is None:
+            context = {}
+
+        LOGGER.debug(
+            "Render template %s %s context, options=%s",
+            template, "without" if context is None else "with a",
+            str(kwargs)
+        )
+        return self.render_impl(template, context, at_paths=paths,
+                                at_encoding=at_encoding, **kwargs)

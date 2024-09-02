@@ -1,0 +1,7 @@
+anyconfig
+jinja2
+
+[engines]
+Cheetah3
+mako
+pystache

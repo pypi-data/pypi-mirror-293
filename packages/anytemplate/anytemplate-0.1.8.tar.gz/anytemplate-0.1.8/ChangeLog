@@ -1,0 +1,94 @@
+* Sun Sep  1 2024 Satoru SATOH <satoru.satoh@gmail.com> - 0.1.8
+- change: migrate and swtich to use pyproject.toml instead of setup.*
+- fix/change: use 'build' to build dists instead of calling setup.py directly
+- fix: add build time dependency to 'build'; seealso:
+  https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html
+- fix: corrections for pylint/flake8 errors
+- fix: add configuration for mypy to suppress some ignorable errors
+- fix: corrections of dependencies for min tox target
+- fix: re-organize and cleanup dependencies
+- fix: set PKG_NAME explicitely
+
+* Sun Sep  1 2024 Satoru SATOH <satoru.satoh@gmail.com> - 0.1.7
+- change: add python 3.12 support
+- change: drop tenjin (template engine) support
+- change: drop python 2 and python < 3.9 support
+- enhancement: add type hints
+- enhancement/fix: fix for errors and warnings by mypy, linter (flake8), etc.
+- fix/change: cleanup and migrate test cases from unittest (nose) based to
+  pytest based, and switched to it
+- change: switch to Github Actions and Azure Pipelines instead of Travis-CI
+- change: use f-string as much as possible
+- fix: don't use locale.getdefaultlocale because it was deprecated and not
+  recommended
+- Do not use jinja2.loaders.open_if_exists; may close #9 and #10 reported by @
+  jorgeegomez (thanks a lot!)
+- fix: add type hints
+- fix/change: a lot of cleanup and fixes in setup.* and related stuff
+- enhancement: add releng, min test targets
+
+* Thu May  7 2020 Satoru SATOH <satoru.satoh@gmail.com> - 0.1.6
+- change: drop py2 support by default; keep py27 support for a while but it'll
+  be removed in the later versions
+- change: drop py3{3,4,5} support
+- fix/change: a lot of cleanup and fixes in setup.* and related stuff
+- enhancement: add releng, min test targets
+
+* Tue Mar  1 2018 Satoru SATOH <ssato@redhat.com> - 0.1.4-1
+- enhancement: support to load templates and contexts from stdin '-'
+- fix/refactor: clean up the RPM SPEC to comply w/ the Fedora python guidelines
+
+* Sat Nov 18 2017 Satoru SATOH <ssato@redhat.com> - 0.1.3-1
+- fix: make it runnable even if locale is not set such like in docker env
+- fix: some warnings such as deprecated-method, no-else-return and invalid-name
+
+* Sun Oct 29 2017 Satoru SATOH <ssato@redhat.com> - 0.1.2-1
+- fix: remove macro expansion in the comment line in this RPM SPEC
+- fix: remove duplicated buildarch lines in this RPM SPEC
+
+* Tue Apr 25 2017 Satoru SATOH <ssato@redhat.com> - 0.1.1-1
+- fix: follow API changes in anyconfig; anyconfig.to_container was deprecated
+  and removed, etc.
+- change: move test cases under tests/
+- various small bug fixes and refactorings
+
+* Wed Nov  9 2016 Satoru SATOH <ssato@redhat.com> - 0.1.0-1
+- add schema file support if anyconfig >=0.0.10 is installed
+- add python 3.5 support
+- fix: make cheetah (dummy) engine works for python 3.x even if it's not
+  available
+- enhancement: implement basic renders method to tenjin module
+- fix: encode str to byte correctly (especially for python 3.x)
+- fix: follow API changes in python-anyconfig >= 0.5.0
+- fix: initialize ctx even if options.cotentxs was empty
+- some more minor fixes, refactorings and enhancements
+- jumped up the version as it may be in stable enough
+
+* Tue Jun 16 2015 Satoru SATOH <ssato@redhat.com> - 0.0.5-1
+- fix bugs that template engine specific keyword options are not correctly
+  processed in jinja2 and cheetah modules
+- fix a lot of potential issues found by pylint and flake8
+- make pep8/flake8 ignoring 'module level import not at top of file' error"
+- various small bug fixes and refactorings
+
+* Wed Jun  3 2015 Satoru SATOH <ssato@redhat.com> - 0.0.4-1
+- fix a bug that _render cannot render alternate template passed by user
+- [engines.jinja2] fix a bug that jinja2's exception while fetching template
+  but failed is not caught
+- fix a few bugs around the code to compute template search paths
+- fix a bug that _render cannot render alternate template passed by user
+- various small bug fixes and refactorings
+
+* Tue May 12 2015 Satoru SATOH <ssato@redhat.com> - 0.0.3-1
+- Changed the license from BSD to MIT as it's easier to understand
+- Added an API to list available template engines
+- Added mako support which was accidentally not in the supported engines list
+- Added pystache support
+- Various fixes and enhancements for warnings/errors/comments from flake8,
+  pylint and other code inspection tools
+
+* Sun May 10 2015 Satoru SATOH <ssato@redhat.com> - 0.0.2-1
+- Fix a bug that the CLI tool does not work
+
+* Fri May  1 2015 Satoru SATOH <ssato@redhat.com> - 0.0.1-1
+- Initial packaging

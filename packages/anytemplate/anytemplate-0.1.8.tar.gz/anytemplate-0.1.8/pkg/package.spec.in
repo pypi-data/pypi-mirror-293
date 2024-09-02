@@ -1,0 +1,63 @@
+%global pkgname anytemplate
+
+%global desc \
+Python library works as an abstraction layer for various python template\
+engines and rendering libraries, and provide a few very simple and easily\
+understandable APIs to render templates.\
+\
+Also a CLI tool called anytemplate_cli is provided to render templates written\
+in these template languages.
+
+Name:           python-%{pkgname}
+Version:        @VERSION@
+Release:        @RELEASE@
+Summary:        Python library provides common APIs for various template engines
+Group:          Development/Tools
+License:        MIT
+URL:            https://github.com/ssato/python-anytemplate
+Source0:        %{url}/archive/RELEASE_%{version}.tar.gz
+BuildArch:      noarch
+BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
+
+%description %{desc}
+
+%package -n python3-%{pkgname}
+Summary:        %{summary}
+Requires:       python3-PyYAML
+Requires:       python3-jinja2
+Requires:       python3-anyconfig
+%{?python_provide:%python_provide python3-%{pkgname}}
+
+%description -n python3-%{pkgname} %{desc}
+
+%prep
+%autosetup -n %{pkgname}-%{version}
+
+%build
+%py3_build
+
+%install
+%py3_install
+
+%files -n python3-%{pkgname}
+%doc README.rst examples
+%license LICENSE.MIT
+%{python3_sitelib}/%{pkgname}*
+%{_bindir}/*
+
+%changelog
+* Thu May  7 2020 Satoru SATOH <satoru.satoh@gmail.com> - 0.1.6-1
+- New upstream
+
+* Fri Nov  2 2018 Satoru SATOH <ssato@redhat.com> - 0.1.5-2
+- Cleanups and fixes of the RPM SPEC
+
+* Tue Aug  7 2018 Satoru SATOH <ssato@redhat.com> - 0.1.5-1
+- New upstream release
+
+* Tue May  1 2018 Satoru SATOH <ssato@redhat.com> - 0.1.4-1
+- New upstream release
+
+* Fri May  1 2015 Satoru SATOH <ssato@redhat.com> - 0.0.1-1
+- Initial packaging
