@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+trackdir/__init__.py
+trackdir/tracker.py
+trackdir.egg-info/PKG-INFO
+trackdir.egg-info/SOURCES.txt
+trackdir.egg-info/dependency_links.txt
+trackdir.egg-info/entry_points.txt
+trackdir.egg-info/requires.txt
+trackdir.egg-info/top_level.txt
