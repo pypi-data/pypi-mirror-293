@@ -1,0 +1,9 @@
+agent_tasks/__init__.py,sha256=cI9dAnYzOF80MENIRGJYxHAXgQJrieT3D6LOiYChlV8,49
+agent_tasks/prompt_template.j2,sha256=x-QOTQ6SP_6Fvh_6iptmoSdR2zE0NT-8Z7sCuTAPLfE,701
+agent_tasks/prompts.py,sha256=iwjPsASScTOhvgJXPRNrs0GcXq2AZ4FyN3Fsw70UOYM,37176
+agent_tasks/run.py,sha256=KnXe5xZhZbhTU7z9uO5s_VYgjAF7TmGq8hEeBg-bQyw,3239
+agent_tasks-0.1.dist-info/METADATA,sha256=fEhCjxWGhXwyNTv03Qrr_gUszNTKOT34e1Vr89OBmH8,787
+agent_tasks-0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+agent_tasks-0.1.dist-info/entry_points.txt,sha256=_51VPsekvMgkFGI--iBzoEXBSNdELDrX8pvlUEa8e-c,57
+agent_tasks-0.1.dist-info/top_level.txt,sha256=qky4B73QiIwx7gqC7DrwMPQmx9aQnbuUC4tGDvs1tqI,12
+agent_tasks-0.1.dist-info/RECORD,,
