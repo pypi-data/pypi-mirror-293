@@ -1,0 +1,6 @@
+duckdb_extension_delta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_delta/extensions/v1.0.0/delta.duckdb_extension.gz,sha256=_aFp8a0iucl36esl8TqLIaMiUL3vGkojYRMeyhuWoUc,19542710
+duckdb_extension_delta-1.0.2.dist-info/METADATA,sha256=vHBOaxL9KI_ypOWx6wrBkSWR6LjnCMQAaEjHgsBKcmw,2117
+duckdb_extension_delta-1.0.2.dist-info/WHEEL,sha256=SsKlOR0kdo0sTatq65no-WkrO6uYpPWcVfRcZEhJxiY,104
+duckdb_extension_delta-1.0.2.dist-info/licenses/LICENSE.txt,sha256=nnxZWPH56sIZcjI_d3lzGiShkm7fMUnNisNrUJKahaU,1090
+duckdb_extension_delta-1.0.2.dist-info/RECORD,,
