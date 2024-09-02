@@ -1,0 +1,11 @@
+dialogicai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dialogicai/core.py,sha256=kDkFi41K2Vehr54RG6dmgujVL4x98Enh5NSKB3Rx0H4,7086
+dialogicai/utils.py,sha256=LoU3-aCE0DpSYVV_Za98ek16VxweDwts7qFv1T0Po5k,256
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=MXc3m19G-iWT4HMXb1iVw4krrgt2unkt1r_tq9iyWnc,3034
+tests/test_utils.py,sha256=iGjSFJdXGc9mQ-i-wokiKz-1RGpzzORXVllgOu2bEGs,1034
+dialogic_ai-0.0.4.dist-info/LICENSE,sha256=tg8tOLfrv3BqAExXZCc51s2pf7AM8KtQW73nLy5WsQw,1062
+dialogic_ai-0.0.4.dist-info/METADATA,sha256=ExCUTqomXu_t-GGppNAu6XIDDerjGr2mnzh7Kfm0Jn8,5065
+dialogic_ai-0.0.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+dialogic_ai-0.0.4.dist-info/top_level.txt,sha256=OOyzdCdfzKyN8PB-mTe-pl4kn55d_JhWCbBSJxT8VoU,17
+dialogic_ai-0.0.4.dist-info/RECORD,,
