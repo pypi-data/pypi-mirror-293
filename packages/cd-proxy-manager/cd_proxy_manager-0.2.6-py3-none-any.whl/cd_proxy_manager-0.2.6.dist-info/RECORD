@@ -1,0 +1,14 @@
+cd_proxy_manager/__init__.py,sha256=D_-h_CPkLqMMM5hmckw1OypkFX-MaxXWvfsKcjo9n5Q,841
+cd_proxy_manager/browser_judges.py,sha256=CdU3ouZqoQAwVC9ez5S2hpQuD32q4zOG1kSA2qrySm0,189
+cd_proxy_manager/format_proxy.py,sha256=Wb_xe0Vzt3cQXZMxrLvqNYaKHzag2deBTFsMzhYkV2k,1478
+cd_proxy_manager/http_judges.py,sha256=x56sO2u8LVHwnBM9HWMQegiDVtTDE3z5vCDAXj4B24Q,326
+cd_proxy_manager/my_private_proxies_api.py,sha256=Ya2jkVj4oQ5j_i6mBfub3gNXhu_pRVfAw_COqVyd0Do,5132
+cd_proxy_manager/proxy_dealer.py,sha256=fo2knspcTCTX1EsXr3IBAtwmCYy2yGJI6RfEMtwOn5I,1546
+cd_proxy_manager/set_env_proxy.py,sha256=3vtKrQjhmxt8IQqBEKF4laVj7b9c-1Ryp5LPce0-BoE,955
+cd_proxy_manager/set_global_proxy.py,sha256=OjtpyHKbJ00A1BaEQa0ws3x8kLqQPoCMJQJ19wfUOog,3535
+cd_proxy_manager/version.py,sha256=-PlEVSVU0gTlP_wD3xffzA9LlqJQ7GGQdBSP6mKnDvY,23
+cd_proxy_manager-0.2.6.dist-info/LICENSE.md,sha256=xXPRashrI0cnQQXx2q4Ypb5FmNlRGcJx0D2iCSTOGls,1100
+cd_proxy_manager-0.2.6.dist-info/LICENSE.txt,sha256=xXPRashrI0cnQQXx2q4Ypb5FmNlRGcJx0D2iCSTOGls,1100
+cd_proxy_manager-0.2.6.dist-info/METADATA,sha256=biGkRC5htmNEVJPZv9x1CekCePGjVdSC7e_yrctjr_w,3103
+cd_proxy_manager-0.2.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cd_proxy_manager-0.2.6.dist-info/RECORD,,
