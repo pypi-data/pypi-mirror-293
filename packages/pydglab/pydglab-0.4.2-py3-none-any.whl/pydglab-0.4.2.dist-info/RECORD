@@ -1,0 +1,9 @@
+pydglab/__init__.py,sha256=paEKU_j5Mgapc3SkAEfKLhLIYNupm0w_CUVJBRTtPiA,420
+pydglab/bthandler.py,sha256=kaVLCsH4l3MGTwYy1V1y7cJp5b5JyOdPVdtIlGQS2J0,3547
+pydglab/model.py,sha256=SVY6H1-9R6KV0WJffZXfnz_YGewsaKiFd46-kq_FER8,1256
+pydglab/service.py,sha256=XNQWvwuvmKMDnXmbYi5oDXJ0pzV9rnfq5y8xzI19qsU,13803
+pydglab/uuid.py,sha256=_eheZKXUIEFHOaTfAv-ABZW8cZEX92K7-y-96d_L-ls,1290
+pydglab-0.4.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pydglab-0.4.2.dist-info/METADATA,sha256=kWif0qFsUtLB-o-gfgG7b8m3PC02kwGqywl3SfZuZZE,2566
+pydglab-0.4.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pydglab-0.4.2.dist-info/RECORD,,
