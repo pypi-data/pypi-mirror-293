@@ -1,0 +1,4 @@
+[console_scripts]
+heliport=heliport:cli_run
+heliport-compile=heliport:cli_compile
+heliport-download=heliport:cli_download
