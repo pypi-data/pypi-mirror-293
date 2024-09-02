@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pymetalearning/__init__.py
+pymetalearning/__version__.py
+pymetalearning.egg-info/PKG-INFO
+pymetalearning.egg-info/SOURCES.txt
+pymetalearning.egg-info/dependency_links.txt
+pymetalearning.egg-info/requires.txt
+pymetalearning.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pymetalearning
+Version: 0.0.1
+Summary: A python package for metalearning.
+Home-page: https://github.com/mkumar73/pymetalearning
+Author: Manish Kumar
+Author-email: manishkr7003@gmail.com
+License: Copyright (c) Manish Kumar 2024 
+Project-URL: Documentation, https://pymetalearning.readthedocs.io/en/
+Description: # pymetalearning
+        Repository for metalearning
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <=3.12.3
+Description-Content-Type: text/markdown
