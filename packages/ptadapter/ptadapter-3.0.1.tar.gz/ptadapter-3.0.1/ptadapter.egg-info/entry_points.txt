@@ -1,0 +1,2 @@
+[console_scripts]
+ptadapter = ptadapter.console_script:main
