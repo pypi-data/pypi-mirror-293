@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/bb_core.egg-info/PKG-INFO
+src/bb_core.egg-info/SOURCES.txt
+src/bb_core.egg-info/dependency_links.txt
+src/bb_core.egg-info/top_level.txt
