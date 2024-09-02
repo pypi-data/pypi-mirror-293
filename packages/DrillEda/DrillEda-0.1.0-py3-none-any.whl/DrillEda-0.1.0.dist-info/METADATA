@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: DrillEda
+Version: 0.1.0
+Summary: A package for exploratory data analysis of drillhole data.
+Home-page: https://github.com/Mining-Geologist/drill_eda
+Author: Mining Geologist
+Author-email: geologytrainings@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas==1.4.2
+Requires-Dist: matplotlib==3.5.2
+Requires-Dist: numpy==1.26.4
+
+# DrillEda
+
+DrillEda is a Python package for processing and visualizing drillhole data, particularly in the context of geological and mining exploration.
+
+## Features
+
+- Merge and process geological and assay data.
+- Combine lithologies and visualize the data using scatter plots, box plots, and histograms.
+- Validate and summarize data.
+- Compute descriptive statistics for specific lithologies.
+
+## Installation
+
+```bash
+pip install DrillEda
+
+
