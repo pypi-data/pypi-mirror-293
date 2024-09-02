@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ pathto('_static/theme.css', 1) }}" />
+    <link rel="stylesheet" type="text/css" href="{{ pathto('_static/tw_output.css', 1) }}" />
+    {%- for css in css_files %}
+        {%- if css|attr("filename") %}
+        {{ css_tag(css) }}
+        {%- else %}
+        <link rel="stylesheet" href="{{ pathto(css, 1) }}" type="text/css" />
+        {%- endif %}
+    {%- endfor %}
+    {%- for cssfile in extra_css_files %}
+        <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
+    {%- endfor %}
+    {%- block linktags %}
+        {%- if hasdoc('about') %}
+        <link rel="author" title="{{ _('About these documents') }}" href="{{ pathto('about') }}" />
+        {%- endif %}
+        {%- if hasdoc('genindex') %}
+        <link rel="index" title="{{ _('Index') }}" href="{{ pathto('genindex') }}" />
+        {%- endif %}
+        {%- if hasdoc('search') %}
+        <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
+        {%- endif %}
+        {%- if hasdoc('copyright') %}
+        <link rel="copyright" title="{{ _('Copyright') }}" href="{{ pathto('copyright') }}" />
+        {%- endif %}
+        <link rel="top" title="{{ docstitle|e }}" href="{{ pathto(master_doc) }}" />
+        {%- if parents %}
+        <link rel="up" title="{{ parents[-1].title|striptags|e }}" href="{{ parents[-1].link|e }}" />
+        {%- endif %}
+        {%- if next %}
+        <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />
+        {%- endif %}
+        {%- if prev %}
+        <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}" />
+        {%- endif %}
+    {%- endblock %}
+    {%- block extrahead %} {% endblock %}
+</head>
+
+<body class="bg-background-color text-text-color m-0 p-0 min-h-screen flex flex-col">
+    <nav class="h-14 sticky top-0 z-50 flex justify-center bg-background-color/95 backdrop-blur supports-[background-filter]:bg-background-color/60">
+        <div class="container h-full flex-1 flex justify-between items-center -mx-2">
+            <img
+                src="{{ pathto('_static/logo.svg', 1)}}"
+                alt="logo"
+                href="{{ pathto(master_doc) }}"
+                class="h-6 w-auto"
+            />
+            <div class="flex flex-row gap-6 items-center">
+                <a class="hover:text-link-hover-color" href="#">Changelog</a>
+                <a class="hover:text-link-hover-color" href="{{ pathto(master_doc) }}">Docs</a>
+                <a class="hover:text-link-hover-color" href="https://etched.com" target="_blank">Company</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-1 flex justify-center">
+        <div class="container self-center flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols[240px_minmax(0,1fr)] lg:gap-10">
+            <aside class="fixed top-14 z-30 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 md:sticky md:block">
+                <div class="sidebar-section relative overflow-y-scroll h-full py-6 pr-6 lg:py-8">
+                    {{ toctree(maxdepth=1, collapse=True, includehidden=True) }}
+                </div>
+            </aside>
+
+            <main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+                <div class="content grow p-8 overflow-y-auto h-full">
+                    <div class="text-sm mb-4">
+                        <a href="{{ pathto(master_doc) }}">{{ _('Docs') }}</a> /
+                        {%- for parent in parents %}
+                        <a href="{{ parent.link|e }}">{{ parent.title }}</a> /
+                        {%- endfor %}
+                        {{ title }}
+                    </div>
+                    {%- if meta is mapping and (meta.get("colab-url") or meta.get("download-link") or meta.get("github-url"))%}
+
+                        <div class="flex flex-row justify-between items-start my-4">
+                            {%- if meta.get("colab-url") %}
+                            <a class="pb-1 border-b-2 border-border-color" href={{ meta.get("colab-url") }} target="_blank">
+                                <img class="h-6 w-auto mb-2" src="{{ pathto('_static/images/colab.svg', 1) }}"/>
+                                <div class="hidden md:block">Run in Google Colab</div>
+                                <div class="block md:hidden">Colab</div>
+                            </a>
+                            {%- endif %}
+                            {%- if meta.get("download-link") %}
+                            <div id="download-notebook-link">
+                                <img class="h-6 w-auto mb-2" src="{{ pathto('_static/images/download.svg', 1) }}"/>
+                                <div class="hidden md:block">Download Notebook</div>
+                                <div class="block md:hidden">Notebook</div>
+                            </div>
+                            {%- endif %}
+                            {%- if meta.get("github-url") %}
+                            <a class="pb-1 border-b-2 border-border-color" href={{ meta.get("github-url") }} target="_blank">
+                                <img class="h-6 w-auto mb-2"" src="{{ pathto('_static/images/github.svg', 1) }}"/>
+                                <div class="hidden md:block">View on GitHub</div>
+                                <div class="block md:hidden">GitHub</div>
+                            </a>
+                            {%- endif %}
+                        </div>
+          
+                    {% endif %}
+
+                    {% block body %} {% endblock %}
+                </div>
+
+                <div class="hidden text-sm xl:block">
+                    <div class="right-sidebar sticky top-16 -mt-10 pt-4">
+                        <h3 class="font-medium mb-4">{{ _('On this page') }}</h3>
+                        {{ toc }}
+                    </div>
+                </div>
+            </main>
+        </div>
+    </main>
+
+    <footer class="p-4 text-center border-t-[1px] border-solid border-border-color">
+        {%- if show_copyright %}
+        {%- if hasdoc('copyright') %}
+            {% trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+        {%- else %}
+            {% trans copyright=copyright|e %}&#169; Copyright {{ copyright }}.{% endtrans %}
+        {%- endif %}
+        {%- endif %}
+        {%- if last_updated %}
+        {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+        {%- endif %}
+        {%- if show_sphinx %}
+        {% trans sphinx_version=sphinx_version|e %}Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+        {%- endif %}
+    </footer>
+
+    <script type="text/javascript" id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ pathto('_static/js/notebook-cells.js', 1 ) }}"></script>
+    <script type="text/javascript" src="{{ pathto('_static/js/toc-highlight.js', 1 ) }}"></script>
+
+    {%- for scriptfile in script_files %}
+    <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
+    {%- endfor %}
+
+</body>
+</html>
