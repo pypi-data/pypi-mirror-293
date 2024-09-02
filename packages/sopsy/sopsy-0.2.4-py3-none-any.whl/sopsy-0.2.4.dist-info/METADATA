@@ -1,0 +1,74 @@
+Metadata-Version: 2.3
+Name: sopsy
+Version: 0.2.4
+Summary: SOPS Python wrapper library
+Project-URL: Homepage, https://github.com/nikaro/sopsy
+Project-URL: Repository, https://github.com/nikaro/sopsy
+Project-URL: Issues, https://github.com/nikaro/sopsy/issues
+Project-URL: Changelog, https://github.com/nikaro/sopsy/blob/main/CHANGELOG.md
+Author-email: Nicolas Karolak <nicolas@karolak.fr>
+License: GPL-3.0-or-later
+License-File: LICENSE
+Keywords: sops
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Provides-Extra: yaml
+Requires-Dist: pyyaml>=6.0.1; extra == 'yaml'
+Description-Content-Type: text/markdown
+
+# SOPSy
+
+SOPSy is a simple Python wrapper arround [SOPS](https://github.com/getsops/sops).
+
+## Installation
+
+SOPS binary should be installed and found in `$PATH`.
+
+```sh
+pip install sopsy
+```
+
+## Usage
+
+### Retrieve a secret value
+
+```python
+from sopsy import Sops
+
+sops = Sops("secrets.yml")
+
+my_secret_key = sops.get("my_secret_key")
+# or
+secrets = sops.decrypt()
+my_secret_key = secrets.get("my_secret_key")
+
+print(my_secret_key)
+```
+
+### Encrypt a file
+
+```python
+import json
+from pathlib import Path
+from sopsy import Sops
+
+plaintext_content = json.dumps({"hello": "world"})
+Path("secrets.json").write_text(plaintext_content)
+
+
+s = Sops("secrets.json", in_place=True)
+# you either need a `.sops.yml` configuration file with `creation_rules` set
+# or append some arguments to the `Sops.global_args` attribute:
+# s.global_args.extend([
+#     "--age", "age1yt3tfqlfrwdwx0z0ynwplcr6qxcxfaqycuprpmy89nr83ltx74tqdpszlw"
+# ])
+s.encrypt()
+```
