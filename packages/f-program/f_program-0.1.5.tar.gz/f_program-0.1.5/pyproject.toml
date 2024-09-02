@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "f_program"
+version = "0.1.5"  # Incremented version number
+description = "A package for demonstrating Naive Bayes classification."
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+# Add any development dependencies here
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

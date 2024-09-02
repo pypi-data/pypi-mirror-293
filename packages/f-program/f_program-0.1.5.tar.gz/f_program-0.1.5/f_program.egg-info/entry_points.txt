@@ -1,0 +1,2 @@
+[console_scripts]
+f_program = f_program:generate_output
