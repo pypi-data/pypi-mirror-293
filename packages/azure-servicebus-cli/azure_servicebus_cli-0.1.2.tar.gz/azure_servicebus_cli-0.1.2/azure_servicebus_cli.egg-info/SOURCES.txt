@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+azure_servicebus_cli/__init__.py
+azure_servicebus_cli/cli.py
+azure_servicebus_cli.egg-info/PKG-INFO
+azure_servicebus_cli.egg-info/SOURCES.txt
+azure_servicebus_cli.egg-info/dependency_links.txt
+azure_servicebus_cli.egg-info/entry_points.txt
+azure_servicebus_cli.egg-info/requires.txt
+azure_servicebus_cli.egg-info/top_level.txt
