@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: sihl
+Version: 0.0.0.dev0
+Summary: Simple Image Heads and Layers
+Home-page: https://sihl.ai
+License: Apache-2.0
+Author: Jon
+Author-email: jon@sihl.ai
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: all
+Provides-Extra: lightning
+Provides-Extra: onnx
+Provides-Extra: timm
+Requires-Dist: faster-coco-eval (>=1.5.7,<2.0.0)
+Requires-Dist: lightning (>=2.3.3,<3.0.0) ; extra == "all" or extra == "lightning"
+Requires-Dist: matplotlib (>=3.9.1,<4.0.0) ; extra == "all"
+Requires-Dist: onnx (>=1.16.1,<2.0.0) ; extra == "all" or extra == "onnx"
+Requires-Dist: onnxruntime (>=1.18.1,<2.0.0) ; extra == "all" or extra == "onnx"
+Requires-Dist: onnxsim (>=0.4.36,<0.5.0) ; extra == "all" or extra == "onnx"
+Requires-Dist: tensorboard (>=2.17.0,<3.0.0) ; extra == "all"
+Requires-Dist: timm (>=1.0.7,<2.0.0) ; extra == "all" or extra == "timm"
+Requires-Dist: torch (>=2.3.1,<3.0.0)
+Requires-Dist: torchmetrics (>=1.4.0.post0,<2.0.0)
+Requires-Dist: torchvision (>=0.18.1,<0.19.0)
+Description-Content-Type: text/markdown
+
+# Simple Image Heads and Layers
+
+[![PyPI](https://img.shields.io/pypi/v/sihl.svg)][pypi_]
+[![python versions](https://img.shields.io/pypi/pyversions/sihl)][python version]
+[![coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jonregef/c203d6bce2a485ab49d1814ff3218a06/raw/covbadge.json)][coverage]
+
+[pypi_]: https://pypi.org/project/sihl/
+[python version]: https://pypi.org/project/sihl
+[coverage]: https://coverage.readthedocs.io/en/7.2.5/
+
+**Simple** implementations of **image** based deep learning model **heads** and **layers**.
+
+`pip install sihl` to get started. Check out the [examples](./examples/README.md).
+
+## Model architecture
+Models have a backbone, an optional neck, and one or more heads.
+
+The spatial dimensions of feature maps on level `level` are `stride=2^level` times smaller than the original image.
+
+Example of an object detection model architecture similar to FCOS:
+```mermaid
+block-beta
+  columns 7
+
+  classDef title fill:#0000,stroke:#0000;
+
+  block:level_group
+    columns 1
+    Level
+    l7["7"] l6["6"] l5["5"] l4["4"] l3["3"] l2["2"] l1["1"] l0["0"]
+
+    class Level,l7,l6,l5,l4,l3,l2,l1,l0 title
+  end
+  class level_group title
+
+  block:stride_group
+    columns 1
+    Stride
+    s7["128"] s6["64"] s5["32"] s4["16"] s3["8"] s2["4"] s1["2"] s0["1"]
+
+    class Stride,s7,s6,s5,s4,s3,s2,s1,s0 title
+  end
+  class stride_group title
+
+
+  block:input_group
+    columns 1
+    space:8
+    image
+  end
+  class input_group title
+
+  block:backbone_group:1
+    columns 1
+    Backbone
+    space:2 C5 C4 C3 C2 C1 space
+    class Backbone title
+  end
+  image --> C1
+  block:neck_group:1
+    columns 1
+    Neck
+    P7 P6 P5 P4 P3 space:3
+    class Neck title
+  end
+  C5 --> P5
+  C4 --> P4
+  C3 --> P3
+  block:head_group:1
+    columns 1
+    Head
+    h7["shared head"] h6["shared head"] h5["shared head"] h4["shared head"] h3["shared head"] space:3
+    class Head title
+  end
+  P7 --> h7
+  P6 --> h6
+  P5 --> h5
+  P4 --> h4
+  P3 --> h3
+```
+## Development
+
+We recommend using [pipx](https://pipx.pypa.io/stable/installation/#installing-pipx) to [install poetry](https://python-poetry.org/docs/#installing-with-pipx).
+
+Run tests with: `poetry run pytest tests/`
+
+If you have a local GPU, run tests with: `poetry run python examples/[...].py`.<br/>
+See logs with `poetry run tensorboard --logdir examples/logs/[...]`
+
+<!-- github-only -->
+
+[license]: https://github.com/sihlAI/sihl/blob/main/LICENSE
+
