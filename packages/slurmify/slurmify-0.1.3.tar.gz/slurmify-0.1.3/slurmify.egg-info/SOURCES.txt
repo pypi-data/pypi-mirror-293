@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+slurmify/__init__.py
+slurmify/cli.py
+slurmify/job_submission.py
+slurmify.egg-info/PKG-INFO
+slurmify.egg-info/SOURCES.txt
+slurmify.egg-info/dependency_links.txt
+slurmify.egg-info/entry_points.txt
+slurmify.egg-info/requires.txt
+slurmify.egg-info/top_level.txt
