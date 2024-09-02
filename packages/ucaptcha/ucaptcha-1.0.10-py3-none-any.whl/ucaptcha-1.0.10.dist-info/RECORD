@@ -1,0 +1,15 @@
+ucaptcha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ucaptcha/anticaptcha.py,sha256=xbIVTO5lul9BEFKvUMowkXf5pViXi4MUA0VFOYXGAYw,3461
+ucaptcha/capmonster.py,sha256=TlFeKFwUG0Hwc4P5RBZVn_jjIrf1IffrScUndtTjwu0,3558
+ucaptcha/exceptions.py,sha256=HczlCI2TX12aMROtMfh01iQsjeeVizvTlfbuqYN1Noc,220
+ucaptcha/logger.py,sha256=hdjiBB_VHyiFgwsDmn3N62ATfeaeddhJGQ4-Ralkn7o,2087
+ucaptcha/nocaptchaai.py,sha256=28Act8lppC757C-H9CwQMHAB61qXZbQH4ASB_ZhpsZM,3127
+ucaptcha/nopecha.py,sha256=DHoNuxYo0zGB-n-v6FRNdtANQn8hB6u2VQpalrWAZlc,2666
+ucaptcha/proxies.py,sha256=7MIHvQo_cDaYO35i7-UhHihhEVppRvEM0ZGh-CeCr38,648
+ucaptcha/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ucaptcha/solver.py,sha256=_DrjCniRPVvP07wun1vSEHB6Ziqg-xo-sz-G8f2E8dI,1670
+ucaptcha-1.0.10.dist-info/LICENSE,sha256=P3CnzORjenBdD1DNJFVkbtTpEupOMl4epeWqwgB7ut8,1061
+ucaptcha-1.0.10.dist-info/METADATA,sha256=ktRZAKY-E4Gi6aba5wXDuT9rlBTXfmnt5sYMo_OdgT0,1864
+ucaptcha-1.0.10.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+ucaptcha-1.0.10.dist-info/top_level.txt,sha256=5tV__wQrkRhjajLFIiyAw92pTseGoYcE8hE13hbrqZk,9
+ucaptcha-1.0.10.dist-info/RECORD,,
