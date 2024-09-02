@@ -1,0 +1,11 @@
+habanero
+numpy
+pandas
+scipy
+pdfplumber
+beautifulsoup4
+scikit-learn
+selenium
+webdriver_manager
+jupyterlab
+lxml
