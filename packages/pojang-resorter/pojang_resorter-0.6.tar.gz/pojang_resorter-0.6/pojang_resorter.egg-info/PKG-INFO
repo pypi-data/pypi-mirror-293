@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pojang_resorter
+Version: 0.6
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: requests
