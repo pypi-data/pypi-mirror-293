@@ -1,0 +1,24 @@
+[project]
+name = "tokengrams"
+version = "0.3.3"
+description = "Efficiently computing & storing token n-grams from large corpora "
+authors = [
+    { name = "Nora Belrose", email = "nora@eleuther.ai" },
+    { name = "Lucia Quirke", email = "lucia@eleuther.ai" }
+]
+dependencies = [
+    "numpy>=1.24.4",
+    "datasets>=1.14.0",
+    "transformers>=4.11.3",
+    "tqdm>=4.0.0",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["maturin>=1.2,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+module-name = "tokengrams.tokengrams"
+features = ["pyo3/extension-module"]

@@ -1,0 +1,37 @@
+[package]
+name = "tokengrams"
+description = "Compute n-gram statistics and model language over pre-tokenized text corpora used to train large language models." 
+license = "MIT"
+version = "0.3.3"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "tokengrams"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = ["pyo3/extension-module"]
+rust = []
+
+[dependencies]
+anyhow = "1.0.81"
+bincode = "1.3.3"
+funty = "2.0.0"
+indicatif = "0.17.8"
+memmap2 = "0.9.4"
+pyo3 = { version = "0.22.2", features = ["extension-module", "anyhow"] }
+rand = "0.8.5"
+rayon = "1.10.0"
+rayon-core = "1.12.1"
+serde = { version = "1.0.197", features = ["derive"] }
+typetag = "0.2.17"
+utf16_literal = "0.2.1"
+
+[[test]]
+name = "tests"
+path = "tests/tests.rs"
+
+[dev-dependencies]
+quickcheck = { version = "0.9", default-features = false }
+rand = "0.8.4"
