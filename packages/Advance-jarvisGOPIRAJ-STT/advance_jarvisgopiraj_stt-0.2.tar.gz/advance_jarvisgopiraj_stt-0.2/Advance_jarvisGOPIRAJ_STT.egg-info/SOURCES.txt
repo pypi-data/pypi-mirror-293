@@ -1,0 +1,6 @@
+setup.py
+Advance_jarvisGOPIRAJ_STT.egg-info/PKG-INFO
+Advance_jarvisGOPIRAJ_STT.egg-info/SOURCES.txt
+Advance_jarvisGOPIRAJ_STT.egg-info/dependency_links.txt
+Advance_jarvisGOPIRAJ_STT.egg-info/top_level.txt
+jarvis_STT/_init_.py
