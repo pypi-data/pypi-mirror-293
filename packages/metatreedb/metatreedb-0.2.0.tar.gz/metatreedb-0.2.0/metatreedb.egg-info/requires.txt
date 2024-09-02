@@ -1,0 +1,8 @@
+boto3
+fsspec
+pyyaml
+requests
+
+[dev]
+pytest
+wheel
