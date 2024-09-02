@@ -1,0 +1,6 @@
+duckdb_extension_mysql_scanner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_mysql_scanner/extensions/v1.0.0/mysql_scanner.duckdb_extension.gz,sha256=Ab9fCzartknjX9ns-GyFkY-rzKf495Jhk-e5zrhe0O4,17679100
+duckdb_extension_mysql_scanner-1.0.3.dist-info/METADATA,sha256=-Zg7Rb5lsPZBS7BxBVVFhxKMEgzqGVHImimqK8zJ2U8,2247
+duckdb_extension_mysql_scanner-1.0.3.dist-info/WHEEL,sha256=SsKlOR0kdo0sTatq65no-WkrO6uYpPWcVfRcZEhJxiY,104
+duckdb_extension_mysql_scanner-1.0.3.dist-info/licenses/LICENSE.txt,sha256=nnxZWPH56sIZcjI_d3lzGiShkm7fMUnNisNrUJKahaU,1090
+duckdb_extension_mysql_scanner-1.0.3.dist-info/RECORD,,
