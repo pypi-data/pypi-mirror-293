@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+findNplot.egg-info/PKG-INFO
+findNplot.egg-info/SOURCES.txt
+findNplot.egg-info/dependency_links.txt
+findNplot.egg-info/requires.txt
+findNplot.egg-info/top_level.txt
+main/__init__.py
+main/findNplot.py
