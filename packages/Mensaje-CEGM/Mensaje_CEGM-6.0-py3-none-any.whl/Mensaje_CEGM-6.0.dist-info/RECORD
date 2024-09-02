@@ -1,0 +1,12 @@
+Mensaje/__init__.py,sha256=vW0Xh9ADVSLUGSz-iB9dFE6cXV2b1_r1dJYjNwARTcw,39
+Mensaje/adios/__init__.py,sha256=gVOoCYNlbvrJF7Kacci9owBk44alEa_MrqWuAct6oq0,48
+Mensaje/adios/despedidas.py,sha256=CxjstrtsH02TE1GSuRwcSQkfsxYrsMhrj2ApT3AtEvQ,187
+Mensaje/hola/__init__.py,sha256=02JwVfnpphsl2SwXvqaAeCYvj_C6bcdf0NS_5owuG-8,47
+Mensaje/hola/saludos.py,sha256=6vIMvuMLQMELTqxTcQeGe8r9QOwSNNLMik-ouFBT_04,469
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=88wkKjtc7RMM9Ew4wsuxPriVNaGAj9gwMiipixR5-iU,745
+Mensaje_CEGM-6.0.dist-info/LICENSE,sha256=424_WKqbLnsMPdTHgthc6WBHKU0rTRPIu41bmxJmbzM,1098
+Mensaje_CEGM-6.0.dist-info/METADATA,sha256=i1WZlAbvK--FqmomYp9plHfXils4mqcyCWWnjOUSSok,711
+Mensaje_CEGM-6.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+Mensaje_CEGM-6.0.dist-info/top_level.txt,sha256=oeqVLT3SJWrtPoHGiyxTtcl9Hh9-FQjev2GanRlxL0A,14
+Mensaje_CEGM-6.0.dist-info/RECORD,,
