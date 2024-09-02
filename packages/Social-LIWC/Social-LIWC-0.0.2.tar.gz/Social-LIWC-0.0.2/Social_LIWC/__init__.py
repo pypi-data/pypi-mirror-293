@@ -1,0 +1,1 @@
+from .main import analise_social_liwc, words_categorizer, phrases_categorizer
