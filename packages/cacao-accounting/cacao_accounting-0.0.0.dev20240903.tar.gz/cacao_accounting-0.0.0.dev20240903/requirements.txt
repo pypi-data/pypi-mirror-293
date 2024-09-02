@@ -1,0 +1,20 @@
+# Mantener en orden alfabetico
+alembic
+argon2-cffi
+argon2-cffi-bindings
+cuid2
+cryptography
+Flask
+Flask-Alembic
+flask-babel
+flask-login
+flask-sqlalchemy
+flask-wtf
+loguru
+pg8000
+pyjwt
+PyMySQL
+python-ulid
+teritorio
+waitress
+wtforms
