@@ -1,0 +1,11 @@
+starlette_sqlalchemy/__init__.py,sha256=iMvR5HF_-99ueU7LJPWARp17HaER_kmJr1FpK2JA36Q,594
+starlette_sqlalchemy/collection.py,sha256=2TzUjzJUxBgWhvbOIKWhtXBBnmeFbvqaxgklSVnQIYM,5125
+starlette_sqlalchemy/middleware.py,sha256=KKV8k2ZtwBUkc8FINud5Tvsm8pPtUco2ggmso6Bpt-4,711
+starlette_sqlalchemy/pagination.py,sha256=TxgqkvbApCRx17Upv_z-Ed19sZEH6dPXMN6K1UAlGoE,6008
+starlette_sqlalchemy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starlette_sqlalchemy/query.py,sha256=aMU-3zOMSSyakdDBe2lq98RbegQrInPF33quNjn_9W8,4660
+starlette_sqlalchemy/repos.py,sha256=HYZuE09yzIH4w2yryfe9e4n23lFNxdDlvrmcGxMFKuQ,5213
+starlette_sqlalchemy-0.1.1.dist-info/LICENSE,sha256=6YRo8gB8uTdsIrIV4gTubih8DTCtK3d265EbNsh87p0,1074
+starlette_sqlalchemy-0.1.1.dist-info/METADATA,sha256=PBpeOw3XwvHHir7R-PW2jVIJQ3CStHV_RFH14KIAgZs,7070
+starlette_sqlalchemy-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+starlette_sqlalchemy-0.1.1.dist-info/RECORD,,
