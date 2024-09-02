@@ -1,0 +1,33 @@
+[project]
+name = "cfcrawler"
+version = "0.1.0"
+description = "Cloudflare scraper and cralwer written in Async"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Mani Mozaffar", email = "mani.mozaffar@gmail.com" }]
+dependencies = ["httpx>=0.20", "typing-extensions>=4.12.2"]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.2",
+    "ruff>=0.6.3",
+    "pyright==1.1.353",
+    "fake-useragent>=1.5.1",
+    "pytest-asyncio<0.24",
+    "tox>=4.18.0",
+    "tox-gh-actions>=3.2.0",
+    "tox-uv>=1.11.2",
+]
+
+
+[project.optional-dependencies]
+ua = ["fake-useragent>=1.5.1"]
+
+[tool.pyright]
+typeCheckingMode = "standard"
+
+[tool.pytest.ini_options]
+addopts = "--tb=short --show-capture stdout"
+
+[tool.setuptools.package-data]
+"aioclock" = ["py.typed"]

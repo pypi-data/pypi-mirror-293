@@ -1,0 +1,5 @@
+httpx>=0.20
+typing-extensions>=4.12.2
+
+[ua]
+fake-useragent>=1.5.1
