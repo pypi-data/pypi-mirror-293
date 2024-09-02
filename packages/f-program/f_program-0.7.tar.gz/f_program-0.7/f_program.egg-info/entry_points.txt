@@ -1,0 +1,2 @@
+[console_scripts]
+f_program_download = f_program.__main__:main

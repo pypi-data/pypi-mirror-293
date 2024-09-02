@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: f_program
+Version: 0.7
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: pandas

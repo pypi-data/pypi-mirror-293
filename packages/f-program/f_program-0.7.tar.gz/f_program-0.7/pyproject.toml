@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "f_program"
+version = "0.5"
+description = "A package for demonstrating Naive Bayes classification."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.2"
+pandas = "^2.0"
+numpy = "^1.24"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[tool.poetry.scripts]
+f_program_download = "f_program.__main__:main_function"
