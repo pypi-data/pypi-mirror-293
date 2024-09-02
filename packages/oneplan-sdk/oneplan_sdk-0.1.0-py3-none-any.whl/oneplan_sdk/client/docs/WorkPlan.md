@@ -1,0 +1,41 @@
+# WorkPlan
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | **str** |  | [optional] 
+**archived** | **bool** |  | [optional] 
+**author** | [**GloballyUniqueIdentifier**](GloballyUniqueIdentifier.md) |  | [optional] 
+**created** | **date** |  | [optional] 
+**modified** | **date** |  | [optional] 
+**editor** | [**GloballyUniqueIdentifier**](GloballyUniqueIdentifier.md) |  | [optional] 
+**planner_type_id** | [**GloballyUniqueIdentifier**](GloballyUniqueIdentifier.md) |  | [optional] 
+**parent_plan_id** | [**GloballyUniqueIdentifier**](GloballyUniqueIdentifier.md) |  | [optional] 
+**portfolio_parent_id** | [**GloballyUniqueIdentifier**](GloballyUniqueIdentifier.md) |  | [optional] 
+**portfolio_order** | **int** |  | [optional] 
+**user_list** | [**list[UserAccess]**](UserAccess.md) |  | [optional] 
+**inherit_user_list** | [**list[UserAccess]**](UserAccess.md) |  | [optional] 
+**team_list** | [**list[TeamAccess]**](TeamAccess.md) |  | [optional] 
+**inherit_team_list** | [**list[TeamAccess]**](TeamAccess.md) |  | [optional] 
+**fields** | [**dict(str, Object)**](Object.md) |  | [optional] 
+**summary_fields** | [**dict(str, Object)**](Object.md) |  | [optional] 
+**folder** | **bool** |  | [optional] 
+**fragment** | **bool** |  | [optional] 
+**fragment_info** | [**FragmentInfo**](FragmentInfo.md) |  | [optional] 
+**hidden** | **bool** |  | [optional] 
+**comments** | [**list[TaskComment]**](TaskComment.md) |  | [optional] 
+**last_comment** | **date** |  | [optional] 
+**date_sets** | [**list[PlanDateSet]**](PlanDateSet.md) |  | [optional] 
+**integrations** | [**list[IntegratedSystem]**](IntegratedSystem.md) |  | [optional] 
+**snapshots** | [**list[FieldSnapshot]**](FieldSnapshot.md) |  | [optional] 
+**sub_plans** | [**list[GloballyUniqueIdentifier]**](GloballyUniqueIdentifier.md) |  | [optional] 
+**plan_number** | **str** |  | [optional] 
+**rate_tables** | [**list[PlanRateTable]**](PlanRateTable.md) |  | [optional] 
+**splits** | [**list[LookupSplit]**](LookupSplit.md) |  | [optional] 
+**lock_info** | [**PlanLockInfo**](PlanLockInfo.md) |  | [optional] 
+**last_location** | **str** |  | [optional] 
+**id** | [**GloballyUniqueIdentifier**](GloballyUniqueIdentifier.md) |  | [optional] 
+**config_id** | [**GloballyUniqueIdentifier**](GloballyUniqueIdentifier.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
