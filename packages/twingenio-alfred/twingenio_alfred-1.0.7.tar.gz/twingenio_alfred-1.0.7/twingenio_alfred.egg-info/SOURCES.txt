@@ -1,0 +1,13 @@
+README.md
+setup.py
+./alfred/__init__.py
+./alfred/logger.py
+./alfred/twingenio.py
+alfred/__init__.py
+alfred/logger.py
+alfred/twingenio.py
+twingenio_alfred.egg-info/PKG-INFO
+twingenio_alfred.egg-info/SOURCES.txt
+twingenio_alfred.egg-info/dependency_links.txt
+twingenio_alfred.egg-info/requires.txt
+twingenio_alfred.egg-info/top_level.txt
