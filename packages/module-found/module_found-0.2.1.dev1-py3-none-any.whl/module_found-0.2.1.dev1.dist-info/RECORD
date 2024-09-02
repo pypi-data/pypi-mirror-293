@@ -1,0 +1,8 @@
+module_found/__init__.py,sha256=9wvctUvpiwmGJlMhbYI5IyG2sFtZk3MOi7A5RgpW7MY,31
+module_found/import_hook.py,sha256=ELmRQsqzZW8BXlpUTr1Rx1ggvLIVUJRpDN9PMlaaRUE,1484
+module_found/lazy_object.py,sha256=PrkZlGBvMqhGWMzOSp2ICgpZZCHvvUJYVUNljhJhz28,5361
+module_found.pth,sha256=qCIjmkT7y9UX7D9WXfgvizhhJu1FcX4CixY6ubEs65w,42
+module_found-0.2.1.dev1.dist-info/LICENSE,sha256=guMNcegv6vbmJJ-jBq496LQktyfehfFNXSi9AV3NNEs,1063
+module_found-0.2.1.dev1.dist-info/METADATA,sha256=wcvyks-1aMtjL8rOMPXCfqKfq6cYZUwbNPaw2b9ZAZc,4443
+module_found-0.2.1.dev1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+module_found-0.2.1.dev1.dist-info/RECORD,,
