@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fiptool/__init__.py
+fiptool/core.py
+fiptool.egg-info/PKG-INFO
+fiptool.egg-info/SOURCES.txt
+fiptool.egg-info/dependency_links.txt
+fiptool.egg-info/entry_points.txt
+fiptool.egg-info/top_level.txt
+tests/__init__.py
+tests/test_fiptool.py
