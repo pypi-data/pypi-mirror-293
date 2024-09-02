@@ -1,0 +1,5 @@
+setup.py
+kc_hello.egg-info/PKG-INFO
+kc_hello.egg-info/SOURCES.txt
+kc_hello.egg-info/dependency_links.txt
+kc_hello.egg-info/top_level.txt
