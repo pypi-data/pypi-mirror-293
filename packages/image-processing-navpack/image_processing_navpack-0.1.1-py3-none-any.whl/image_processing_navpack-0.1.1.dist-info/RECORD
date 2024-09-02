@@ -1,0 +1,13 @@
+image_processing_navpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing_navpack/imgs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing_navpack/imgs/imagem1.jpg,sha256=Hy-QfHDJ5hsDav0c2Qt06BYFYcUyjHRhFESwlOlm6kA,121361
+image_processing_navpack/imgs/imagem2.jpg,sha256=Q8CsvKspSQjGERPPe8hdVPvR0uhFf3glzYirpDJv6kg,116551
+image_processing_navpack/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing_navpack/processing/combination.py,sha256=NLqLBq4rY6jnD6Me81DXrEeDxptf-rVZ7guPgAyHkWs,1457
+image_processing_navpack/processing/transformation.py,sha256=lenE-KameAb5ZmD4GZS09S4XNx0D4G5HwqPtT57akjE,703
+image_processing_navpack/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing_navpack/utils/io.py,sha256=WD6VZESDUEdUQTcUPySf8tyBMTfpoIvOemTgyV0YRM0,654
+image_processing_navpack/utils/plot.py,sha256=ZmG1sXcYgMlBL26o6HPclJ-x_oe7O7xCgeT3Gx9pXLM,1365
+image_processing_navpack-0.1.1.dist-info/METADATA,sha256=DmVn-jnQJ_vz_cYmMl4DQ3NQ572YijAYqTB_DrWPpDw,891
+image_processing_navpack-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+image_processing_navpack-0.1.1.dist-info/RECORD,,
