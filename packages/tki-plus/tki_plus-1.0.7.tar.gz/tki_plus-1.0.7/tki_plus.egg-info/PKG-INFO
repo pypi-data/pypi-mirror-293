@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tki-plus
+Version: 1.0.7
+Summary: This library make tkinter more useful.
+Home-page: https://github.com/sora81dev/tki-plus
+Author: sora81dev
+Author-email: sora81dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: numpy
+
+# tki-plus
+詳しくは[Wiki](https://github.com/sora81dev/tki-plus/wiki)を見てください。
