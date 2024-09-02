@@ -1,0 +1,13 @@
+tree_sitter_ruby/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_ruby/binding.c,sha256=8Lt6pZ9CxmaeyYmjGApDRn5DyPei24LMm4EmknW8Zrc,679
+tree_sitter_ruby/__init__.py,sha256=vrMEyz2j3AC-AVHBXwQEcbyoEsgBJuAOp3IFV3GYRcY,87
+tree_sitter_ruby/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_ruby/_binding.abi3.so,sha256=4CIYX4vdJbXiy4Fc0p9IuTouBPUiPkeJInzo3NiYan4,2203216
+tree_sitter_ruby/queries/tags.scm,sha256=7R59wHqVuHrvJn5_lxXGcXpw8J7717b0i71Rx7dRDPM,1087
+tree_sitter_ruby/queries/locals.scm,sha256=8AF46UucLqZy_U7i5grF19kL5Zxy6GKS4iYgNYrJ27A,895
+tree_sitter_ruby/queries/highlights.scm,sha256=CFjen-7Obc00CKVB-ZWjSRjVh6wsVSCWAmsOR-KzMuY,2377
+tree_sitter_ruby-0.23.0.dist-info/RECORD,,
+tree_sitter_ruby-0.23.0.dist-info/LICENSE,sha256=7gBvAqPYVt8oLkCb4qhuJKZbtXOpi5woNDdxFBNRu2s,1075
+tree_sitter_ruby-0.23.0.dist-info/WHEEL,sha256=ZSV89yugP6n57uzL7PcR464GWV9LR9_INhUx-AOXHHI,108
+tree_sitter_ruby-0.23.0.dist-info/top_level.txt,sha256=alWEhf5fKHtvsyRJqRJ9G5X6vcvgNm8TM-WwzWCnReY,26
+tree_sitter_ruby-0.23.0.dist-info/METADATA,sha256=UXfrZxqUaS3yv9FiIm5p51HbaswXU5WWszley5sZ83M,1836
