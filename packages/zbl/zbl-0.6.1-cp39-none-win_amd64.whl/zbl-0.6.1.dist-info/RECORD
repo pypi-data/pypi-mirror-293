@@ -1,0 +1,7 @@
+zbl-0.6.1.dist-info/METADATA,sha256=D-gezMSQEdn8tN68S6xwp_bc9vxL1fxtzRkG9u6uYdg,2931
+zbl-0.6.1.dist-info/WHEEL,sha256=9gdSmIoQieRKFI_krqG6wxNRIco3eJJW2ekPs9SF4ro,94
+zbl-0.6.1.dist-info/licenses/LICENSE.txt,sha256=C0xa5fq1PYyI4s53IU9j6hE7ogKpZQPEjn86Pht9ydU,1087
+zbl/__init__.py,sha256=UOL4ABqvI5yToeaw5pk564izoemr0JD-lRyuK5Q3vao,2846
+zbl/__main__.py,sha256=Yu6UFvpevK5xwO5hFWV-LUJswBsM6_MWzEiVneFToCo,431
+zbl/zbl.cp39-win_amd64.pyd,sha256=EBJTvIfGlTDI4R9axcstDcqts8mtCnTZ4aFabvWU3a4,416256
+zbl-0.6.1.dist-info/RECORD,,
