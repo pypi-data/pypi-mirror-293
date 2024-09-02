@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pojang_resorter
+Version: 1.97
+Summary: A package with multiple features including command-line tools and custom install actions
+Home-page: https://github.com/yourusername/pojang_resorter
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests>=2.25.1
+Requires-Dist: PyYAML
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
