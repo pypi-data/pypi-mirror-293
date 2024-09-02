@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cd-proxy-manager"
+version = "0.2.6"
+description = "Manages proxies for http or selenium and some common uses cases like random,cycle, or set env/sys proxy."
+authors = ["Nicholas Capasso <codedocta@gmail.com>"]
+license = "LICENSE.md"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
