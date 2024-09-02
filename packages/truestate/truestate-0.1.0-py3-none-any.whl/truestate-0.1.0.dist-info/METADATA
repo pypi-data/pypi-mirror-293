@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: truestate
+Version: 0.1.0
+Summary: A Python client for the Truestate API
+Home-page: https://docs.truestate.io/
+Author: TrueState
+Author-email: support@truestate.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TrueState Python SDK
+
+The TrueState Python SDK is a Python library that allows you to interact with the TrueState API. The SDK provides a convenient way to access the TrueState API from your Python application.
+
+## Installation
+
+You can install the TrueState Python SDK using pip:
+
+```bash
+pip install truestate
+```
+
+
