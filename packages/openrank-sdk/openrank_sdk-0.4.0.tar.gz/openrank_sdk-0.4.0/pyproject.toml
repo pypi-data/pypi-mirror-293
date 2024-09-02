@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "openrank-sdk"
+version = "0.4.0"
+description = ""
+authors = [
+    "SeungJu Lee <sj@karma3labs.com>",
+    "Eugene Kim <ek@karma3labs.com>",
+    "Jenya <hypnagonia@gmail.com>",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = ">=0.6.7"
+boto3 = ">=1.0"
+dataclasses-json = "^0.6.7"
+numpy = ">=1.22.2"
+pandas = ">=1.4.0"
+sphinx = ">=7.1.0"
+
+[tool.poetry-version-plugin]
+source = "init"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
