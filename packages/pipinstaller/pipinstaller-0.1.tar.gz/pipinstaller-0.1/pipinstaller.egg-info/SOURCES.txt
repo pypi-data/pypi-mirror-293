@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pipinstaller/__init__.py
+pipinstaller/pipinstaller.py
+pipinstaller.egg-info/PKG-INFO
+pipinstaller.egg-info/SOURCES.txt
+pipinstaller.egg-info/dependency_links.txt
+pipinstaller.egg-info/entry_points.txt
+pipinstaller.egg-info/requires.txt
+pipinstaller.egg-info/top_level.txt
+tests/test_pipinstaller.py
