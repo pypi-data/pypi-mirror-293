@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: KirkukData
+Version: 0.0.4
+Summary: This is a basic libary to make grading students in Kirkuk Univercity college of education of pure science(all floors in that building)
+Requires-Dist: ttkbootstrap ==1.10.1
+
+So What we have here is a libary you can run with:
+python -m Databaser
+it uses:
+- Tkinter
+- TTk
+- TTkBootstrap
+- Sqlite
+- Csv
