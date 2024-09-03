@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+candit/__init__.py
+candit/data_loader.py
+candit/enjoysport.csv
+candit/main.py
+candit.egg-info/PKG-INFO
+candit.egg-info/SOURCES.txt
+candit.egg-info/dependency_links.txt
+candit.egg-info/requires.txt
+candit.egg-info/top_level.txt
