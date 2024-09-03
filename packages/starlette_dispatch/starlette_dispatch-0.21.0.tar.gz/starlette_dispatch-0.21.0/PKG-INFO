@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: starlette_dispatch
+Version: 0.21.0
+Summary: Routing extensions for Starlette.
+Home-page: https://github.com/alex-oleshkevich/starlette_dispatch
+License: MIT
+Author: Alex Oleshkevich
+Author-email: alex.oleshkevich@gmail.com
+Requires-Python: >=3.10.0,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Project-URL: Documentation, https://github.com/alex-oleshkevich/starlette_dispatch
+Project-URL: Repository, https://github.com/alex-oleshkevich/starlette_dispatch
+Description-Content-Type: text/markdown
+
+# Starlette Dispatch
+
+Routing extensions for Starlette.
+
+![PyPI](https://img.shields.io/pypi/v/starlette_dispatch)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/alex-oleshkevich/starlette_dispatch/Lint)
+![GitHub](https://img.shields.io/github/license/alex-oleshkevich/starlette_dispatch)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/pypi/starlette_dispatch)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/starlette_dispatch)
+![GitHub Release Date](https://img.shields.io/github/release-date/alex-oleshkevich/starlette_dispatch)
+
+## Installation
+
+Install `starlette_dispatch` using PIP or poetry:
+
+```bash
+pip install starlette_dispatch
+# or
+poetry add starlette_dispatch
+```
+
+## Features
+
+-   TODO
+
+## Quick start
+
+See example application in [examples/](examples/) directory of this repository.
+
