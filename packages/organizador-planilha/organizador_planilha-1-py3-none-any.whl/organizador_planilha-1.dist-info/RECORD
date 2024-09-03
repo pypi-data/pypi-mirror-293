@@ -1,0 +1,9 @@
+organizador_planilha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+organizador_planilha/db_utils.py,sha256=c81CAokSzbvKik71urf8VMEoeNWFUMsHg7wB8RZcvKg,2190
+organizador_planilha/gui.py,sha256=E3Ue1oo9-WVX5QTs3HC3thkrej44bHXg1ZUYg-aNhbs,1941
+organizador_planilha/organizador.py,sha256=TmTJzGXybjixzqbwOAJYkBxqk5_HI5aNxLMj3YVsZxE,1454
+organizador_planilha-1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+organizador_planilha-1.dist-info/METADATA,sha256=2ONZHYxxKhuU8CDkeBgFChinIxwAKks1GuAyyu9tuHw,4322
+organizador_planilha-1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+organizador_planilha-1.dist-info/top_level.txt,sha256=dn-MMNjvjyCt_-ow4qUAWwgoFCQivEjVAJ_UtK_4Ynw,21
+organizador_planilha-1.dist-info/RECORD,,
