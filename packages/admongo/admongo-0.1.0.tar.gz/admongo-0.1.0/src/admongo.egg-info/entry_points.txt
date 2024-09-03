@@ -1,0 +1,2 @@
+[console_scripts]
+mongo_admin = pymongo_admin.mongo_admin:main

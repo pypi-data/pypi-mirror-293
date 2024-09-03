@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/admongo.egg-info/PKG-INFO
+src/admongo.egg-info/SOURCES.txt
+src/admongo.egg-info/dependency_links.txt
+src/admongo.egg-info/entry_points.txt
+src/admongo.egg-info/not-zip-safe
+src/admongo.egg-info/requires.txt
+src/admongo.egg-info/top_level.txt
+src/pymongo_admin/__init__.py
+src/pymongo_admin/mongo_admin.py
