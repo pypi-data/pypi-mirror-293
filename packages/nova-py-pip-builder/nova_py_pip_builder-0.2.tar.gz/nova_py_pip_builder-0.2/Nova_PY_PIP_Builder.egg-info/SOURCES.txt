@@ -1,0 +1,10 @@
+setup.py
+Nova_PY_PIP_Builder.egg-info/PKG-INFO
+Nova_PY_PIP_Builder.egg-info/SOURCES.txt
+Nova_PY_PIP_Builder.egg-info/dependency_links.txt
+Nova_PY_PIP_Builder.egg-info/top_level.txt
+PIPBUILDER/__init__.py
+nova_py_pip_builder.egg-info/PKG-INFO
+nova_py_pip_builder.egg-info/SOURCES.txt
+nova_py_pip_builder.egg-info/dependency_links.txt
+nova_py_pip_builder.egg-info/top_level.txt
