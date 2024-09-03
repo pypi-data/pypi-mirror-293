@@ -1,0 +1,8 @@
+README.md
+setup.py
+syslog_manager.egg-info/PKG-INFO
+syslog_manager.egg-info/SOURCES.txt
+syslog_manager.egg-info/dependency_links.txt
+syslog_manager.egg-info/entry_points.txt
+syslog_manager.egg-info/requires.txt
+syslog_manager.egg-info/top_level.txt
