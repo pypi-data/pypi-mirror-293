@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "ch5mpy"
+version = "0.4.6"
+description = "Collection of helper tools for reading or writing to h5 files using the h5py library."
+authors = ["MatteoBouvierVidium <m.bouvier@vidium-solutions.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+h5py = "*"
+numpy = "*"
+tqdm = "*"
+typing-extensions = "^4.9.0"
+packaging = "^21.3"
+h5py-stubs = "^0.1.1"
+scipy = "^1.13.1"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.1"
+pytest = '*'
+pre-commit = '*'
+types-tqdm = "^4.66.0.20240106"
+vulture = "^2.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+extend-select = ["I"]
+exclude = ["vulture_whitelist.py"]
+
+[tool.vulture]
+paths = ["ch5mpy", "vulture_whitelist.py"]
+
+[tool.mypy]
+strict = true
+
+[[tool.mypy.overrides]]
+module = ["scipy.sparse.*"]
+ignore_missing_imports = true
