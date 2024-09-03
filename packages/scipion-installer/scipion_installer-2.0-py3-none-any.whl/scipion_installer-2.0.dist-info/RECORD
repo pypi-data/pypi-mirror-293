@@ -1,0 +1,10 @@
+scipioninstaller/__init__.py,sha256=7JKE4zdZOJzGffBJNa9rd3t_rWt3a-uLvhM2FmpoksE,53
+scipioninstaller/__main__.py,sha256=gbxsbTSjmc-bNM4fZf0n_JG1gz8EEvmZkaW6J4tRZtU,83
+scipioninstaller/installer.py,sha256=I9VjAr6GxjEgHNQJ-fqMEN15JwovZ2cU5WWs3Gafx9A,13400
+scipioninstaller/launchers.py,sha256=eb5us3in7kvMX_HOShTknGASqlODvcXKXsCji7FEXPw,1285
+scipion_installer-2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+scipion_installer-2.0.dist-info/METADATA,sha256=TKTntA1Xwk-VbN21UPwpIW8dxHCb7BCp0j-TYFzxnGk,3754
+scipion_installer-2.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+scipion_installer-2.0.dist-info/entry_points.txt,sha256=GpLYUUGqrspCiVPepuVdIlTuT99kAv6mUCYeZyCH0Cs,67
+scipion_installer-2.0.dist-info/top_level.txt,sha256=3cvl_dNXHSH73Nmf6aplkCAgd6-ZXUstNRfGP2Yp-ms,17
+scipion_installer-2.0.dist-info/RECORD,,
