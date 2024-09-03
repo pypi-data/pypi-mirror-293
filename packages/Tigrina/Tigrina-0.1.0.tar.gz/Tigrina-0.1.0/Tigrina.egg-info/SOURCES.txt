@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+Tigrina.egg-info/PKG-INFO
+Tigrina.egg-info/SOURCES.txt
+Tigrina.egg-info/dependency_links.txt
+Tigrina.egg-info/requires.txt
+Tigrina.egg-info/top_level.txt

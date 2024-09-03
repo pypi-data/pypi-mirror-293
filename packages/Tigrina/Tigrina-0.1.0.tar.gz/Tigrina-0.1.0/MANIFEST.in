@@ -1,0 +1,15 @@
+include Tigrina_alphabets/data/*.csv
+# Include all files in the specified directories
+recursive-include Tigrina_alphabets/templates *
+recursive-include Tigrina_alphabets/static *
+
+# Include specific files in the root directory
+include README.md
+include LICENSE
+
+# Include all text files in the entire package
+recursive-include Tigrina_alphabets *.txt
+
+# Exclude unwanted files (e.g., __pycache__)
+global-exclude __pycache__
+global-exclude *.py[cod]
