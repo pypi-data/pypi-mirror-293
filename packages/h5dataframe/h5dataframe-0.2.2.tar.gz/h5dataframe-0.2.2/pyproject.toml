@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "h5dataframe"
+version = "0.2.2"
+description = "Drop-in replacement for pandas DataFrames that allows to store data on an hdf5 file and manipulate data directly from that hdf5 file without loading it in memory."
+authors = ["Matteo Bouvier <m.bouvier@vidium-solutions.com>"]
+license = "CeCILL-B"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2"
+pandas-stubs = "^2.2.2.240603"
+ch5mpy = "^0.4.6"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+mypy = "^1.9.0"
+pandas-stubs = "^2.2.1.240316"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+
+[tool.vulture]
+paths = ["h5dataframe", "vulture_whitelist.py"]
+
+[tool.mypy]
+strict = true
+disable_error_code = ["method-assign"]
+
+[[tool.mypy.overrides]]
+module = ['numpy_indexed', 'h5py']
+ignore_missing_imports = true
