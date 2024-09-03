@@ -1,0 +1,13 @@
+autophylo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autophylo/autophylo.py,sha256=omkpqMYm95DiGhyU8m1W0vkubGQlKc9I2bj1Kbn-uEw,4982
+autophylo/label.py,sha256=3v_Y4qwGwwb9kUEssX6a71GE5kU-Rh5_Y-M5xjKHHEM,1744
+autophylo/plot.py,sha256=Pe2aw8VteVXAn_dEO8Ily5jRgi0Uil04T-XCNGYpJ2U,4861
+autophylo/tree_builder.py,sha256=0qwukUlcQbtdOaPnD7ydnTam4Y_p6o9FFJPxnk8MuxY,28576
+autophylo/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autophylo-1.0.4.data/data/autophylo/autophylo.conf,sha256=fE_mUBGa77IOSuwI4Fkok1hfqyYw8b2ofjj6cR_UwaU,392
+autophylo-1.0.4.dist-info/LICENSE.txt,sha256=AIUved96yIpuNV1TcvV0ovLucNgMNmXq1fpx40oPrTI,1102
+autophylo-1.0.4.dist-info/METADATA,sha256=5f-Mg36RklUrte9cQxPxpxDA0JReNA6giU7wnhVYKM0,5626
+autophylo-1.0.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+autophylo-1.0.4.dist-info/entry_points.txt,sha256=4mk3V8n1eDSkJHXPRAVo8gZYlQLTPBifi_q_j-SvopI,55
+autophylo-1.0.4.dist-info/top_level.txt,sha256=88LxalviBTup_HNmLaSfrdkL0Hs1nohqXLpnzKMs7tI,10
+autophylo-1.0.4.dist-info/RECORD,,
