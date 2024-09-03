@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+organizador_planilha/__init__.py
+organizador_planilha/organizador.py
+organizador_planilha.egg-info/PKG-INFO
+organizador_planilha.egg-info/SOURCES.txt
+organizador_planilha.egg-info/dependency_links.txt
+organizador_planilha.egg-info/requires.txt
+organizador_planilha.egg-info/top_level.txt
+tests/test_organizador.py
