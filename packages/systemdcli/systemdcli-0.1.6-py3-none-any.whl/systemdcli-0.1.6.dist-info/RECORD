@@ -1,0 +1,7 @@
+systemdcli/__init__.py,sha256=V2YtRuC9R0X6yoZZ3O_YsDIr-f2Y8Gk0ieTEdAxf3rU,32
+systemdcli/init_command.py,sha256=MuFkiP4R9A4_szSUSMje7fN7CLaguLyEEuLhzU9mV3o,3692
+systemdcli/main.py,sha256=RvAejfJpnuYZdz-sCs4SDUA6nU-oOj3i4JolQnvAd7M,194
+systemdcli-0.1.6.dist-info/entry_points.txt,sha256=L-c0GS7QqTi3v_IS2G0LNiSp1OoDOihuan-cVABKmJU,46
+systemdcli-0.1.6.dist-info/METADATA,sha256=nw3_rOPk6ssgp-eU1mQz6g-r2ZWCll2qC9Uk5Wv6MO0,525
+systemdcli-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+systemdcli-0.1.6.dist-info/RECORD,,
