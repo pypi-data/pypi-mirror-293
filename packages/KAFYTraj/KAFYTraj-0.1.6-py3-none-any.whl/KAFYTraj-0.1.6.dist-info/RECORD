@@ -1,0 +1,13 @@
+KAFY/Pipeline.py,sha256=qXTMwsGoae0K0jVYk7c8tPCr3D-sNK9YWeFT7NOVVoc,18453
+KAFY/SQLRunner.py,sha256=EsExS4Nrp_IYF0enfkSqpFJZpWgh1IAh4CVkpG3uu4s,2286
+KAFY/__init__.py,sha256=sQLzj5OXIUHR7DBqvW5Ulrf9g9VkS2IlWZICOoEek_I,191
+KAFY/constraintsClass.py,sha256=lLeSlZgN2v24s5gkvNRzXRpFhkJZJE5kkyHDT3WA71M,2908
+KAFY/installPackages.py,sha256=RC5N88BIiK6W0jqzbSfPIGqhuTvkgToUz7BLF3GMs48,459
+KAFY/partioningClass.py,sha256=IB29rm1ZJAWZ66staBYHY02uclppXXowvyfuJKPWocc,13195
+KAFY/utilFunctions.py,sha256=i5Wt0VXQ1hjPeOHBw6oNjst8Y1HASjPm5ZK-KUbwQtQ,7474
+KAFYTraj-0.1.6.dist-info/LICENSE,sha256=K04RPD1GGvEq7v1bBvlBBJvF6hBwJbhgGrHTMp346HA,1064
+KAFYTraj-0.1.6.dist-info/METADATA,sha256=Wxi-8ML8WCGyR9Zqlt-n9ZDhrstoCYo7rPjsQ3CDs0Q,1789
+KAFYTraj-0.1.6.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+KAFYTraj-0.1.6.dist-info/entry_points.txt,sha256=Pc-YcI_Lh0o9ZQrpjnWRg-0XsyEVYCF90Yi3CA1Sewc,65
+KAFYTraj-0.1.6.dist-info/top_level.txt,sha256=tBPid-ZvfM0Jlq8sU4qBpGt5WY_Ur980oS_EUMtoE9I,5
+KAFYTraj-0.1.6.dist-info/RECORD,,

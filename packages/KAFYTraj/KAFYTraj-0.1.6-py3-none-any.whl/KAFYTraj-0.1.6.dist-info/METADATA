@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: KAFYTraj
+Version: 0.1.6
+Summary: This library includes an extensible system for building various trajectory operations.
+Author: Youssef Hussein
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: h3>=3.7.0
+
+# KAFY Library
+
+The KAFY library provides an extensible system for various trajectory operations. It functions as a versatile toolkit for researchers, facilitating the construction and management of diverse trajectory operations.
+
+## Features
+
+- **Extensible System**: Designed to accommodate various trajectory operations with flexibility and ease.
+- **User-Friendly**: Simplifies the construction of trajectory operations, making it accessible to researchers.
+
+## Installation
+
+You can install the KAFY library using pip:
+
+```bash
+pip install KAFYTraj==0.1.6
+```
+
+## Usage
+
+To use the library, import the `Pipeline` class from `KAFY`:
+
+```python
+from KAFY import Pipeline
+```
+
+# Example usage
+pipeline = Pipeline()
+# Further operations with the pipeline
+
+## Features
+-   **Extensible System**: Designed to accommodate various trajectory operations with flexibility and ease.
+-   **User-Friendly**: Simplifies the construction of trajectory operations, making it accessible to researchers.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+For any questions or support, please contact husse408@umn.edu.
