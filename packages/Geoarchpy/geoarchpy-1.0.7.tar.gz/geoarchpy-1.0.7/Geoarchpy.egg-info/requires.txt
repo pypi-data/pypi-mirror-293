@@ -1,0 +1,16 @@
+matplotlib
+numpy<2,>=1
+pyvista
+trame
+trame-vuetify
+trame-vtk
+scipy
+scikit-learn
+scikit-image
+pyyaml
+pandas
+shapely
+rasterio
+geopandas
+ipywidgets
+notebook
