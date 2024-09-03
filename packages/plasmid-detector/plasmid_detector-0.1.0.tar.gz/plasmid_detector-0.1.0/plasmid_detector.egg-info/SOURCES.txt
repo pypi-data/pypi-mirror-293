@@ -1,0 +1,17 @@
+README.md
+setup.py
+plasmid_detector/__init__.py
+plasmid_detector/anomaly_detector.py
+plasmid_detector/data_processor.py
+plasmid_detector/feature_extractor.py
+plasmid_detector/utils.py
+plasmid_detector.egg-info/PKG-INFO
+plasmid_detector.egg-info/SOURCES.txt
+plasmid_detector.egg-info/dependency_links.txt
+plasmid_detector.egg-info/entry_points.txt
+plasmid_detector.egg-info/requires.txt
+plasmid_detector.egg-info/top_level.txt
+tests/__init__.py
+tests/test_anomaly_detector.py
+tests/test_data_processor.py
+tests/test_feature_extractor.py
