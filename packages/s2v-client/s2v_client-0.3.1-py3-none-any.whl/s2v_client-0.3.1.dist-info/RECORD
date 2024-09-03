@@ -1,0 +1,11 @@
+s2v/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s2v/client/__init__.py,sha256=XtMQpeLys7ku6uQASDYnEQj_cg_iHQL5AY4qWmlWQaQ,242
+s2v/client/auth.py,sha256=d_Z-diHdegCKDFy1ar7v0oOmb8MYr9vUFgQfkVTMNxQ,3895
+s2v/client/cli.py,sha256=NHZw4178F2KzcVp_xwXE__9ATDZts9mV20pZv6nGazQ,5909
+s2v/client/lib.py,sha256=voIYpBtOtTPiU-HUV9o2PtOobzpyolP0A1aUnOQLTIc,4997
+s2v/client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s2v/version.py,sha256=Cv9sQYjPPG610rq1WWA4q0OVYn5mIETf-vnsNpGG4mg,106
+s2v_client-0.3.1.dist-info/WHEEL,sha256=sobxWSyDDkdg_rinUth-jxhXHqoNqlmNMJY3aTZn2Us,91
+s2v_client-0.3.1.dist-info/METADATA,sha256=NmRakvbU9jU_exV82RN_ca6Z5jEcMeQVF9abKwH5SjQ,2461
+s2v_client-0.3.1.dist-info/entry_points.txt,sha256=KfZmY_wsAPWa6s2PwhqHStNMBTLarDB0hv8BNEyD-9w,39
+s2v_client-0.3.1.dist-info/RECORD,,
