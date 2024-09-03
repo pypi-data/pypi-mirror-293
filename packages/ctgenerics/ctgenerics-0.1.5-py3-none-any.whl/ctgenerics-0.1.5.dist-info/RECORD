@@ -1,0 +1,9 @@
+ctgenerics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ctgenerics/connect.py,sha256=NB0IY5hQyNFS8_C6D-I3dwR5hOmX4S31BEJqsv3jgRo,4446
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/connect_test.py,sha256=n2P531CD42SXZ9cg0CIEVXNBu3ASkXFDUffaMsxF3f0,3168
+ctgenerics-0.1.5.dist-info/LICENSE,sha256=EKOFEfCMgQajPsByLAGJq2Osdi5lW63wH7TCHA_g_T8,1086
+ctgenerics-0.1.5.dist-info/METADATA,sha256=qt8oEzFgAAij1MDE_coypOQCKWJIQBpa9m8QqeOHz9g,576
+ctgenerics-0.1.5.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+ctgenerics-0.1.5.dist-info/top_level.txt,sha256=r8Qa79lOx7bopAgiPpIUW-goiZd0wiJrCw9bWaTh-mE,17
+ctgenerics-0.1.5.dist-info/RECORD,,
