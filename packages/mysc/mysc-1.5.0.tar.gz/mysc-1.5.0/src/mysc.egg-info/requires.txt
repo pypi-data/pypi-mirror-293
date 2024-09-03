@@ -1,0 +1,16 @@
+loguru
+adbutils
+av
+numpy
+pyaudio
+pyflac
+
+[gui]
+dearpygui
+pygame
+pyperclip
+moosegesture
+pyvirtualcam
+
+[web]
+nicegui
