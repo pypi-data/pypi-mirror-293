@@ -1,0 +1,15 @@
+randonneur/__init__.py,sha256=afFl4DMIiLxslENmc8oWgWFeq29J4CoLq1gNiYIwFZ8,400
+randonneur/config.py,sha256=ZvUvseY7hMM7J2AEnoXIWbtTvygcM03MeLzzcCgLRas,3894
+randonneur/constants.py,sha256=Qj9t_MmAezlB5rRYjQJUBQcQ0Ci1monVVslNuy38HBE,3152
+randonneur/datapackage.py,sha256=pPA80hAA_96Y-cQWVXpwuGCdt74rJoEgw6CSBHgKdk8,3344
+randonneur/datasets.py,sha256=s4kCcrcKF7jk98HdbMidHi5UbRYDYhRHKu5dvV23pU0,3070
+randonneur/edge_functions.py,sha256=CiPMSW6PfhkYK0mFvEZL4RJQZPAr_7rG9e-POKSgr8Q,2491
+randonneur/edges.py,sha256=-fyjQ9zmzPtpi7HyvIBPvlDL9RvSpTEJCCm3aH9Sqig,3724
+randonneur/errors.py,sha256=hFpVBX_ISY3ykh_osE0xgm8BUw3IDkrBEdYJ9XU3CgQ,486
+randonneur/utils.py,sha256=JmxHb4yQyl-iuXSys50tktuhoDuKfx_NYd7IO_VZV9c,10136
+randonneur/validation.py,sha256=AR2rSwd1G8wwMS7XtbeSo0T1AHYXfFyfRZ5emxCiIrM,2293
+randonneur-0.3.dist-info/LICENSE,sha256=EnOLdxnr0l1bUdL0iLihUAbAlBBCHpdvCMOtZXn8eN4,1067
+randonneur-0.3.dist-info/METADATA,sha256=IQSdPnKR9f0X5PdOWBE8lVHez5MHbbGRXVRjAXfBlPs,19322
+randonneur-0.3.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+randonneur-0.3.dist-info/top_level.txt,sha256=dSoPiS2a0eew-KoNfEFjTicGToWXTBdse5Tu_y6JTGE,11
+randonneur-0.3.dist-info/RECORD,,
