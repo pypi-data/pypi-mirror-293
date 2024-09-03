@@ -1,0 +1,6 @@
+transformers
+torch
+accelerate
+datasets
+mamba_ssm
+causal-conv1d
