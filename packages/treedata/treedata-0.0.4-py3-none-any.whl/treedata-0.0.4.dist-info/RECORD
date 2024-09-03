@@ -1,0 +1,11 @@
+treedata/__init__.py,sha256=jLUs3qbravB3meiyIin_8O301bUFVvEYIJqHnb5AnAU,189
+treedata/_utils.py,sha256=STr4HXS7CZF8ke8ZZ0uW4Y1tQ7nHgPYdgNEP56oRkLA,2584
+treedata/_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+treedata/_core/aligned_mapping.py,sha256=id1dz-KhxB2trW3IDe1rhsiAj6K3SN-NruGo1jN9Esc,8613
+treedata/_core/merge.py,sha256=5eYRmmmqbc5M1EhQEWQ30rTCgy-F0oAZcLUDh1fiGW4,4864
+treedata/_core/read.py,sha256=q3m78rWvgLRXuh-nmH2Da2B8tg3AFww3EsBoyhOjquc,3293
+treedata/_core/treedata.py,sha256=w4Mhdri5R6V39SWgisfrevUgUtO4st4Xooq-15QYsyA,14891
+treedata-0.0.4.dist-info/METADATA,sha256=OXOFkzzFe_Hbs7X8BX826VCiMzoiIBjrgPO5S1X1ErE,5479
+treedata-0.0.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+treedata-0.0.4.dist-info/licenses/LICENSE,sha256=4FXAdrg2FSWdARsb7Z4FQl9OrVnGklpwfsRe-MFV-Ts,1522
+treedata-0.0.4.dist-info/RECORD,,
