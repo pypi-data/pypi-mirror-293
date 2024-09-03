@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+enjoysport.csv
+setup.py
+enjoysport/__init__.py
+enjoysport/__main__.py
+enjoysport/enjoysport.py
+enjoysport.egg-info/PKG-INFO
+enjoysport.egg-info/SOURCES.txt
+enjoysport.egg-info/dependency_links.txt
+enjoysport.egg-info/requires.txt
+enjoysport.egg-info/top_level.txt
