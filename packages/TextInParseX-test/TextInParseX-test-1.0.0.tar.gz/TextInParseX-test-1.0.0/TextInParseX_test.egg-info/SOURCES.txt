@@ -1,0 +1,11 @@
+setup.py
+TextInParseX/TextInParseX.py
+TextInParseX/__init__.py
+TextInParseX_test.egg-info/PKG-INFO
+TextInParseX_test.egg-info/SOURCES.txt
+TextInParseX_test.egg-info/dependency_links.txt
+TextInParseX_test.egg-info/requires.txt
+TextInParseX_test.egg-info/top_level.txt
+tests/__init__.py
+tests/test_parseX.py
+tests/test_parseX2.py
