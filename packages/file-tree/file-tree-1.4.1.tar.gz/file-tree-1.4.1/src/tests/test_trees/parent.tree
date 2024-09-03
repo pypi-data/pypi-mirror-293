@@ -1,0 +1,5 @@
+->base (base1)
+->base subject=A
+sub
+    ->base session=02,other_var=foo (base2)
+->base session=03 (base3)

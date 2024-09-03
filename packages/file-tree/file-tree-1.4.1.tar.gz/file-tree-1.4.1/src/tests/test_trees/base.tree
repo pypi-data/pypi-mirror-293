@@ -1,0 +1,9 @@
+session=01
+
+{subject}
+    file1.txt
+    {session}_file2.txt (file2)
+    nested_dir
+        deep_file.txt
+    int_file.txt
+top_file.txt
