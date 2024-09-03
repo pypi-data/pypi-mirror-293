@@ -1,0 +1,11 @@
+jollyjack/jollyjack.h,sha256=fgctWVTs2wRIOnx1HRVBcAVgmiGlYjGDfipdgV7keGQ,475
+jollyjack/jollyjack_cython.pyx,sha256=Ysa1hRUr2nhoOA5NrgcKx9HFCnEOcWeRCnRW8L6-zlM,3157
+jollyjack/__init__.py,sha256=bI9tvcpfZ19v2LdI3pDTybuKmyqNSEedVew4mF7OVxI,118
+jollyjack/jollyjack_cython.cpython-310-x86_64-linux-gnu.so,sha256=Dh7I7lIrG6fw7Pt9wJMcvYXxoa6SccA_-gO1yZ8SI3g,3564328
+jollyjack/jollyjack_cython.pyi,sha256=kjto9d5-LyyBzt6yKQAZtj0NlOqY28PRcwuYtNyixd4,2251
+jollyjack/cjollyjack.pxd,sha256=aXEe49aLnEjB5-bwD8KHaamzu4vyratJE6KT0Srnbzc,660
+jollyjack-0.8.1.dist-info/RECORD,,
+jollyjack-0.8.1.dist-info/WHEEL,sha256=eZYQwPolxE7sOgbp3k3h098-tRlhJzb7BJ1y1KTBv54,152
+jollyjack-0.8.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jollyjack-0.8.1.dist-info/top_level.txt,sha256=Z94XWzd8L_tHmjuV2fgg-ooHe6ca8jmdIGfweTJXnoQ,10
+jollyjack-0.8.1.dist-info/METADATA,sha256=9iOKjIi1SRYppHCk3Ao-xGAkDrw3oTGlVk6_K8fBzdc,6297
