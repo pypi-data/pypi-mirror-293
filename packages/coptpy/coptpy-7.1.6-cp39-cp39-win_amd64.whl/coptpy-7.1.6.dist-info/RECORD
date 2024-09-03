@@ -1,0 +1,10 @@
+coptpy-7.1.6.data/purelib/coptpy/__init__.py,sha256=xMhTpaJ_jpbpEX1P0u3HkQxr2n6rAhY7xKaBA2pxLeI,52
+coptpy-7.1.6.data/purelib/coptpy/copt_python.dll,sha256=MyvH_sbbGzAnBJZY-HZ7FtUogH2HQYk6VB5w5JMnDto,34010112
+coptpy-7.1.6.data/purelib/coptpy/coptcore.pyd,sha256=WxE629jHNGGjoFNbbWvg2j5WZ9W1J0bHi7aC8zZZMGw,6186496
+coptpy-7.1.6.data/purelib/coptpy/coptcore.pyi,sha256=N2wNfoHrGQ32wADuGymQhYDELDRqhId5e-hhqUik84E,114651
+coptpy-7.1.6.data/purelib/coptpy/coptpywrap.pyd,sha256=dT6BybZ7OGyU--2jHJEtmuqMY819-tNfx_4GFnjPFZs,4628480
+coptpy-7.1.6.data/purelib/coptpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coptpy-7.1.6.dist-info/METADATA,sha256=IBQDXGcZcYPEvzW6GBlSjF9h9lT9pJq_3jgZzZg2xHA,326
+coptpy-7.1.6.dist-info/WHEEL,sha256=GZFS91_ufm4WrNPBaFVPB9MvOXR6bMZQhPcZRRTN5YM,100
+coptpy-7.1.6.dist-info/top_level.txt,sha256=_xqv2qrsddWd2fOZt99t-CUB5eqDB_bujd5X7IC_Kmw,7
+coptpy-7.1.6.dist-info/RECORD,,
