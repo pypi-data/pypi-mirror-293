@@ -1,0 +1,21 @@
+repos:
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.5.7
+  hooks:
+    - id: ruff
+      args: [--fix, --preview]
+      exclude: tests/resources/|playgrounds/
+    - id: ruff-format
+      exclude: tests/resources/|playgrounds/
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: v1.11.1
+  hooks:
+  -   id: mypy
+      args: [ --ignore-missing-imports, --check-untyped-defs ]
+      files: "src/"
+      exclude: tests/resources/
+- repo: https://github.com/igorshubovych/markdownlint-cli
+  rev: v0.41.0
+  hooks:
+  - id: markdownlint-fix
+    exclude: docs/index.md
