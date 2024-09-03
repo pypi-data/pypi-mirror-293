@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+astropy
+configobj
+bs4
+lxml
+robobrowser
+requests
+fortranformat
+tabulate
+rows
+f311>=24.9.2.0
+airvacuumvald
