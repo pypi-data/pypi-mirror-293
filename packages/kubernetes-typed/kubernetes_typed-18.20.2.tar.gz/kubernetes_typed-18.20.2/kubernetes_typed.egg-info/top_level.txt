@@ -1,0 +1,4 @@
+crd_typed
+kubernetes-stubs
+kubernetes_typed
+tests
