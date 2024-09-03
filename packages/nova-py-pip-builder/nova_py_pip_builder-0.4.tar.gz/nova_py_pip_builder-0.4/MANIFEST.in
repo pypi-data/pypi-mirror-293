@@ -1,0 +1,2 @@
+include PIPBUILDER/*.py
+include PIPBUILDER/*.exe
