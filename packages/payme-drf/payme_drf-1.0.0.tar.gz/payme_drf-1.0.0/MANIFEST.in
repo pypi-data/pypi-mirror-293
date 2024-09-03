@@ -1,0 +1,9 @@
+exclude settings
+exclude venv
+exclude db.sqlite
+
+include README.md
+include LICENSE
+include setup.py
+recursive-include payme *
+
