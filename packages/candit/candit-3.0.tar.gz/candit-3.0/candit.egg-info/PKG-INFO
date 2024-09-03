@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: candit
+Version: 3.0
+Author: Raghul
+Author-email: raghulares@gmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
