@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: sedpack
+Version: 0.0.4
+Summary: General ML dataset package
+Author: Elie Bursztein, Karel Král, Jean-Michel Picod
+License: Apache License 2.0
+Project-URL: Homepage, https://security-and-privacy-group-research.googlesource.com/sedpack_prototype
+Project-URL: Bug Tracker, https://security-and-privacy-group-research.googlesource.com/sedpack_prototype
+Keywords: machine learning,dataset
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiofiles
+Requires-Dist: asyncstdlib
+Requires-Dist: flatbuffers
+Requires-Dist: lz4
+Requires-Dist: numpy
+Requires-Dist: perfcounters
+Requires-Dist: pydantic
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
+Requires-Dist: schema
+Requires-Dist: semver
+Requires-Dist: tabulate
+Requires-Dist: tensorflow
+Requires-Dist: termcolor
+Requires-Dist: tqdm
+
+# Dataset library prototype
+
+Sedpack: scalable and efficient data packing
+
+This is a prototype of a dataset library. Mainly refactored from the [SCAAML](https://github.com/google/scaaml) project.
+
+## Available components
+
+- TODO
+
+## Install
+
+### Dependencies
+
+To use this library you need to have a working version of [TensorFlow 2.x](https://www.tensorflow.org/install) and a version of Python >=3.8.
+
+### Dataset install
+
+#### Development install
+
+1. Clone the repository: `git clone https://security-and-privacy-group-research.googlesource.com/dataset_lib_prototype`
+2. Install dependencies: `python3 -m pip install --require-hashes -r requirements.txt`
+3. Install the package in development mode: `python3 -m pip install --editable .` (short `pip install -e .` or legacy `python setup.py develop`)
+
+### Update dependencies
+
+Make sure to have: `sudo apt install python3 python3-pip python3-venv` and
+activated the virtual environment.
+
+Install requirements: `pip install --require-hashes -r base-tooling-requirements.txt`
+
+Update: `pip-compile requirements.in --generate-hashes --upgrade` and commit requirements.txt.
+
+#### Package install
+
+`pip install TODO(package name)`
+
+### Tutorial
+
+TODO provide instructions how to use this package.
+
+## Disclaimer
+
+This is not an official Google product.
