@@ -1,0 +1,11 @@
+[console_scripts]
+auraflow=sd_tools.auraflow:main
+flux=sd_tools.flux:main
+sd=sd_tools.sd:main
+sd-2fp16=sd_tools.misc:to_fp16
+sd-inspect=sd_tools.misc:st_inspect
+sd-path=sd_tools.misc:hf_path
+sd-pt2st=sd_tools.misc:pt2st
+sd3=sd_tools.sd3:main
+sdxl=sd_tools.sdxl:main
+
