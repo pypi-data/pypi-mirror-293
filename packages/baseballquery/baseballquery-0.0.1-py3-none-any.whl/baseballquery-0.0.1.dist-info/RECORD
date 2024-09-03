@@ -1,0 +1,10 @@
+baseballquery/__init__.py,sha256=2KDn4n4nR9WNFErzp03XsTunzDkTN8GpugsRrf5Ekac,811
+baseballquery/download.py,sha256=Ubww_Frk9q6BKpNcXHoLyg_PlxFw-em1LS2DgkYkgzo,1385
+baseballquery/linear_weights.py,sha256=lRaxNcH_55M8kK-w1BAOi8qCtcEygCq520Up1qNLsk0,7552
+baseballquery/retrosheet_cwevent_convert.py,sha256=VtvSRpK49YRcYKmADRac7ksYnGSqC6NVMn394JlBD1U,7289
+baseballquery/stat_calculator.py,sha256=oHJilnH5_wVnivHF53QlGqZjNiuONsubX76Jy4YG3Jc,32238
+baseballquery/stat_splits.py,sha256=8b8-woYPPZsiu0PZBe43QaT-A7VhbNKdQAXsiO0MTB4,14703
+baseballquery-0.0.1.dist-info/METADATA,sha256=gAkHjfYKvJnB_k80NF-Qt9HN95ngkCp42oVtGgGc-9c,2576
+baseballquery-0.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+baseballquery-0.0.1.dist-info/top_level.txt,sha256=kVSEm_2UToC7uN0jT6qLd0SCwIz6RM9PQoqZhOG3uyQ,14
+baseballquery-0.0.1.dist-info/RECORD,,
