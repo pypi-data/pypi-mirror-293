@@ -1,0 +1,8 @@
+import pytest
+
+from cel_in_py import Runtime
+
+
+def test_visitor_interp():
+    runtime = Runtime("1 + 2")
+    assert runtime.evaluate({}) == 3
