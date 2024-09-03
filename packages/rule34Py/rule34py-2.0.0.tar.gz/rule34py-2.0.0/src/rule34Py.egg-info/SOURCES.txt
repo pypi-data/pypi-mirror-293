@@ -1,0 +1,9 @@
+LICENSE
+NOTICE.md
+README.md
+pyproject.toml
+src/rule34Py.egg-info/PKG-INFO
+src/rule34Py.egg-info/SOURCES.txt
+src/rule34Py.egg-info/dependency_links.txt
+src/rule34Py.egg-info/requires.txt
+src/rule34Py.egg-info/top_level.txt
