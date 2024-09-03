@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: chiga
+Version: 0.1
+Summary: A custom package installer that manages requirements.txt
+Home-page: https://github.com/CHiigaw/chiga
+Author: AHMED FAHIM
+Author-email: amhex01@gmail.com
+Description-Content-Type: text/markdown
+
+# MyPackage
+
+This is a package that helps manage Python dependencies and updates the requirements.txt file.

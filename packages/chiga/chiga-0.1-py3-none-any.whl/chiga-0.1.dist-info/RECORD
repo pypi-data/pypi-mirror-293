@@ -1,0 +1,9 @@
+chiga/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiga/cli.py,sha256=3u_biMS7_Iuq8vrrtsJ44g2jatqOJkrIBKo3GRWyG44,841
+pp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pp/cli.py,sha256=3u_biMS7_Iuq8vrrtsJ44g2jatqOJkrIBKo3GRWyG44,841
+chiga-0.1.dist-info/METADATA,sha256=K1o0QdNdjz4j6T8_D4UUuCCkRFD9Jt6qYaBvN3YTb3s,370
+chiga-0.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+chiga-0.1.dist-info/entry_points.txt,sha256=2REGGJQg7F3t3jfSor7QlVga0m7MqZ_hOAefdzFj_go,41
+chiga-0.1.dist-info/top_level.txt,sha256=WFn_GWI29KHNZ79V8o5DUZ9gRXdVNUBoPwa9RpupLPI,6
+chiga-0.1.dist-info/RECORD,,
