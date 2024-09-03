@@ -1,0 +1,15 @@
+llama/__init__.py,sha256=Hp0iMkkDMcJ5z-7g9rAZwXvvl13L4ofT6rF_ibqsfs0,198
+llama/_llama_cli_cpu.pypy310-pp73-x86_64-linux-gnu.so,sha256=QjIIVP6LpontRNiHfzNAPhHCllwtvf-aoBUHCIww7jk,57300952
+llama/_llama_cli_cuda_12_4_1.pypy310-pp73-x86_64-linux-gnu.so,sha256=1-jasIT0M2peXT8yDchkakPhvmp04goFGYUt_LIklAk,521441648
+llama/_llama_cli_vulkan_1_x.pypy310-pp73-x86_64-linux-gnu.so,sha256=k-tMeaZ8YmlMDqeqBmMO5Gq95xe94-mTMIZflaGlJ_E,68650040
+llama/formatter.py,sha256=hJQpu-trA22vyTMvZ_xMTzleBRRL0Vm8G3YDF7_gjYI,6330
+llama/llama_cli.py,sha256=KTzb-LIGP92hNNOSbjNI-p3GKUBgJnuTNosZsIdOjtg,5515
+llama/model.py,sha256=g8HAu22BvW2k37akynyeFugIy9nVKkUpL3Qnom8_3d8,457
+llama/openai.py,sha256=racgpeeFO4ut3s2Z8qmzt-71BjS63uaQhh6Ix7bsNV0,5496
+llama/options.py,sha256=9eUGDKRhbb_cI2KwMhjpFa_iVsPIlCEVx_ZpjmqOzr4,22686
+llama/util.py,sha256=0mjdbXuou4-uvLRqDmGWdsnSl-YILPmmDi9mWl3oCfI,1331
+llama_cpp_cffi-0.1.16.dist-info/LICENSE,sha256=jaX_Invr278Ihgo-qKDHtGTa3MDM67DBb3JeruqK2XE,1068
+llama_cpp_cffi-0.1.16.dist-info/METADATA,sha256=hiApi24DUwyOi6on4OHec7p9WMug-suCnEZ16oDyFT4,5806
+llama_cpp_cffi-0.1.16.dist-info/WHEEL,sha256=P0JVv1hszaRq-oKybwCOHM4Dm1yv7hQcogxaX7PDDVM,117
+llama_cpp_cffi-0.1.16.dist-info/entry_points.txt,sha256=x37I4rfItJAfRwJz4WMJomu8mdCFtak_9fVIy1OjLFc,167
+llama_cpp_cffi-0.1.16.dist-info/RECORD,,
