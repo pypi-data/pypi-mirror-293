@@ -1,0 +1,2 @@
+[pytest11]
+lovely_pytest_docker = lovely.pytest.docker.compose
