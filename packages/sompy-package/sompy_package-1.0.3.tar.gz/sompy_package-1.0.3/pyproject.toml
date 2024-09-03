@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+  "numpy<2.0",
+  "scipy<=1.14.0",
+  "pandas<=2.2.2",
+  "scikit-learn<=1.5.1",
+  "numexpr>=2.5",
+  "scikit-image<=0.24.0",
+  "matplotlib<=3.9.1",
+]
+name = "sompy-package"
+version = "1.0.3"
+authors = [
+  { name = "Stefano Tornelli", email = "stefano.tornelli@outlook.com" },
+]
+description = "Self Organizing Maps Package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/stefano-tornelli/SOMPY"
+Issues = "https://github.com/stefano-tornelli/SOMPY/issues"
