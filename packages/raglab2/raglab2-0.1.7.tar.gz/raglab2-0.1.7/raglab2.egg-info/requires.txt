@@ -1,0 +1,11 @@
+openai
+requests
+numpy
+pyecharts
+matplotlib
+networkx
+communities
+pandas
+loguru
+regex
+tqdm
