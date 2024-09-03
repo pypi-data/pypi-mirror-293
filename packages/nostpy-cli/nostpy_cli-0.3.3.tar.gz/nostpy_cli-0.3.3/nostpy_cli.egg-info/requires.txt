@@ -1,0 +1,5 @@
+argparse
+asyncio
+cryptography
+secp256k1
+websockets

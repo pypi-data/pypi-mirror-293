@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+nostpy_cli/__init__.py
+nostpy_cli/create_event.py
+nostpy_cli/kind4.py
+nostpy_cli/main.py
+nostpy_cli.egg-info/PKG-INFO
+nostpy_cli.egg-info/SOURCES.txt
+nostpy_cli.egg-info/dependency_links.txt
+nostpy_cli.egg-info/entry_points.txt
+nostpy_cli.egg-info/requires.txt
+nostpy_cli.egg-info/top_level.txt
