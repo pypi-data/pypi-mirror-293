@@ -1,0 +1,5 @@
+[console_scripts]
+smiffer = smiffer.main:main
+
+[src.main]
+smiffer = smiffer.main:main
