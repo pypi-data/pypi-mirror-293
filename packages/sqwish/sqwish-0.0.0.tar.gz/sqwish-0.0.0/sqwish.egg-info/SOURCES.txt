@@ -1,0 +1,6 @@
+pyproject.toml
+sqwish/__init__.py
+sqwish.egg-info/PKG-INFO
+sqwish.egg-info/SOURCES.txt
+sqwish.egg-info/dependency_links.txt
+sqwish.egg-info/top_level.txt

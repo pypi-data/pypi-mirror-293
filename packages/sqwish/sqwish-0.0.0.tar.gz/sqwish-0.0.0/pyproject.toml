@@ -1,0 +1,7 @@
+[project]
+name = "sqwish"
+authors = [
+    {name = "Federica", email = "federica@sqwish.ai"}
+]
+version = "0.0.0"
+description = "Coming soon"
