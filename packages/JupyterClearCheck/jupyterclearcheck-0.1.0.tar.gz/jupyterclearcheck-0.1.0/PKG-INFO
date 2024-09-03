@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: JupyterClearCheck
+Version: 0.1.0
+Summary: A Python CLI to check that a Jupyter Notebook's Outputs' have been cleared.
+Author-Email: Gururaj Deshpande <gurudesh@gatech.edu>
+License: 3
+Requires-Python: >=3.8
+Requires-Dist: nbformat>=5.10.4
+Description-Content-Type: text/markdown
+
+# JupyterClearCheck
+A Python CLI to check that a Jupyter Notebook's Outputs' have been cleared.
