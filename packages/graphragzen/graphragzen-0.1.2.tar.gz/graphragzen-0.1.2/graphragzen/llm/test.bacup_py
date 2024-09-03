@@ -1,0 +1,131 @@
+# # import json
+# # import os
+# # import sys
+# # from typing import List
+
+# # from graphragzen.llm.load_llm import load_phi35_mini_gguf
+# # from graphragzen.llm.typing import LlmLoadingConfig
+# # from pydantic import BaseModel
+# # # llama_prompter imports pydantic._internal._fields.PydanticGeneralMetadata
+# # # but it should import pydantic._internal._fields.PydanticMetadata
+# # # This hack fixes that by creating an alias
+# # from pydantic._internal._fields import PydanticMetadata
+
+# # sys.modules["pydantic._internal._fields"].PydanticGeneralMetadata = PydanticMetadata
+# # from llama_prompter import Prompter
+
+
+# # # llama_prompter calls llama_cpp.llama_grammar.LlamaGrammar.from_string with verbosity to False
+# # # Sadly the function did not implement verbosity check and still prints to the terminal.
+# # # The following function calls another function while suppressing sys.stdout
+# # def suppress_output(func, *args, **kwargs):
+# #     # Save the current stdout
+# #     original_stdout = sys.stdout
+# #     try:
+# #         # Redirect stdout to null (suppress output)
+# #         sys.stdout = open(os.devnull, "w")
+# #         # Call the function
+# #         result = func(*args, **kwargs)
+# #     finally:
+# #         # Restore the original stdout
+# #         sys.stdout = original_stdout
+
+# #     return result
+
+
+# # class Findings(BaseModel):
+# #     summary: str
+# #     explanation: str
+
+
+# # class ClusterDescription(BaseModel):
+# #     title: str
+# #     summary: str
+# #     rating: int
+# #     rating_explanation: str
+# #     findings: List[Findings]
+
+
+# # input_text = """id,entity,description
+# # 5,VERDANT OASIS PLAZA,Verdant Oasis Plaza is the location of the Unity March
+# # 6,HARMONY ASSEMBLY,Harmony Assembly is an organization that is holding a march at Verdant Oasis Plaza
+
+# # Relationships
+
+# # id,source,target,description
+# # 37,VERDANT OASIS PLAZA,UNITY MARCH,Verdant Oasis Plaza is the location of the Unity March
+# # 38,VERDANT OASIS PLAZA,HARMONY ASSEMBLY,Harmony Assembly is holding a march at Verdant Oasis Plaza
+# # 39,VERDANT OASIS PLAZA,UNITY MARCH,The Unity March is taking place at Verdant Oasis Plaza
+# # 40,VERDANT OASIS PLAZA,TRIBUNE SPOTLIGHT,Tribune Spotlight is reporting on the Unity march taking place at Verdant Oasis Plaza
+# # 41,VERDANT OASIS PLAZA,BAILEY ASADI,Bailey Asadi is speaking at Verdant Oasis Plaza about the march
+# # 43,HARMONY ASSEMBLY,UNITY MARCH,Harmony Assembly is organizing the Unity March"""
+
+# # from graphragzen.prompts.default_prompts.cluster_description_prompts import (
+# #     CLUSTER_DESCRIPTION_PROMPT_JSON,
+# # )
+
+# # prompt = CLUSTER_DESCRIPTION_PROMPT_JSON.format(input_text=input_text)
+
+# # grammar = suppress_output(Prompter, """{cluster_description:ClusterDescription}""")._grammar
+
+# # config = LlmLoadingConfig(
+# #     model_storage_path="/home/bens/projects/GraphRAGZen/models/Phi-3.5-mini-instruct-Q4_K_M.gguf",
+# #     tokenizer_URI="microsoft/Phi-3.5-mini-instruct",
+# #     context_size=32786,
+# #     persistent_cache_file="./phi35_mini_persistent_cache.yaml",
+# # )
+
+# # llm = load_phi35_mini_gguf(config=config)
+
+# # chat = llm.format_chat(
+# #     [("user", prompt)],
+# # )
+
+# # llm_output = llm.run_chat(chat, output_structure=ClusterDescription)
+
+# # # llm_input = llm.tokenizer.apply_chat_template(
+# # #     chat, tokenize=False, add_generation_prompt=True
+# # # )
+# # # llm_input = llm_input.removeprefix("<bos>")
+
+# # # llm_output = llm.model(
+# # #     llm_input,
+# # #     stop=["<eos>"],
+# # #     echo=False,
+# # #     repeat_penalty=1.0,
+# # #     max_tokens=-1,
+# # #     stream=False,
+# # #     grammar=grammar,
+# # # )
+
+# # llm_output_text = llm_output["choices"][0]["text"]
+
+# # print(json.dumps(json.loads(llm_output_text), indent=2))
+
+# # 1 + 1
+
+# from graphragzen.llm.openAI_API_client import OpenAICompatibleClient
+# from graphragzen.llm.typing import LlmAPIClientConfig
+# from pydantic import BaseModel
+
+# config = LlmAPIClientConfig(
+#     base_url="http://localhost:8081",
+#     context_size=32800,
+#     use_cache=False,
+# )
+# api_client = OpenAICompatibleClient(config=config)
+
+# chat = api_client.format_chat(
+#     [("system", "you are a helpfull AI assistent"), ("user", "write me a joke")]
+# )
+
+
+# class JokeStructure(BaseModel):
+#     joke: str
+#     explanation: str
+
+
+# output_structure = JokeStructure
+
+# results = api_client.run_chat(chat, output_structure=JokeStructure)
+# 1 + 1

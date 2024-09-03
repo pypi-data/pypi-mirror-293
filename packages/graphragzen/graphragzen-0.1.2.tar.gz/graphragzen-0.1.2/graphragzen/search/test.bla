@@ -1,0 +1,75 @@
+import pandas as pd
+from graphragzen.embedding import load_nomic_embed_text
+from graphragzen.embedding.vector_db import add_points_to_vector_db, create_vector_db
+
+client = create_vector_db(
+    database_location="qdrant/temp_db0", overwrite_existing_db=True, vector_size=768
+)
+
+embedder = load_nomic_embed_text()
+
+docs = [
+    "Qdrant has Langchain integrations for fast vector search",
+    "Apple pies are best made with hard apples",
+]
+vectors = embedder.embed(docs)
+metadata = [
+    {"source": "graph"},
+    {"source": "cluster"},
+]
+ids = ["hello", "world"]
+
+vector_df = pd.DataFrame(
+    {
+        "vector": vectors.tolist(),
+        "id": ids,
+        "metadata": metadata,
+    }
+)
+
+add_points_to_vector_db(client, vector_df)
+1 + 1
+
+# test_embed = model.embed("hello world")
+
+# # Make a new collection
+# if not client.collection_exists("demo_collection"):
+#     vectors_config=VectorParams(size=test_embed.shape[1], distance=Distance.COSINE)
+#     client.create_collection(collection_name="demo_collection", vectors_config=vectors_config)
+
+# # Create some embeddings
+# output = model.embed(docs)
+
+# # Add to client
+# points = [PointStruct(id=id, vector=vector, payload=payload) for id, vector, payload in zip(ids, output.tolist(), metadata)]
+# client.upsert(
+#     collection_name="demo_collection",
+#     points=points,
+# )
+
+# # Search
+# query_text="My vector database is quick"
+# query_vector = model.embed(query_text)[0]
+search_result = client.search(collection_name="demo_collection", query_vector=query_vector, limit=1)
+# print(search_result)
+
+# # Search with filter
+# query_text="My vector database is quick"
+# query_vector = model.embed(query_text)[0]
+# query_filter=Filter(
+#         must=[
+#             FieldCondition(
+#                 key="source",
+#                 match=MatchValue(value="cluster")
+#             )
+#         ]
+#     )
+
+# search_result = client.search(
+#     collection_name="demo_collection",
+#     query_vector=query_vector,
+#     query_filter=query_filter,
+#     limit=1
+# )
+# print(search_result)
+# 1+1
