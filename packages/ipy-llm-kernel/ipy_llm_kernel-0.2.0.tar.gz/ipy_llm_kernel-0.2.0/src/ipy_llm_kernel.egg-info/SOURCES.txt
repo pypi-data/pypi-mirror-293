@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ipy_llm_kernel/__init__.py
+src/ipy_llm_kernel/__main__.py
+src/ipy_llm_kernel/_endpoints.py
+src/ipy_llm_kernel/_kernel.py
+src/ipy_llm_kernel.egg-info/PKG-INFO
+src/ipy_llm_kernel.egg-info/SOURCES.txt
+src/ipy_llm_kernel.egg-info/dependency_links.txt
+src/ipy_llm_kernel.egg-info/requires.txt
+src/ipy_llm_kernel.egg-info/top_level.txt
+src/ipy_llm_kernel/_tests/__init__.py
