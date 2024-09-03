@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "rms-models"
+version = "0.1.5"
+description = "Models for RMS System"
+authors = ["AlexGat27 <aleksandrgataulin745@gmail.com>"]
+readme = "README.md"
+include = [
+    { path = "rms_models", format = "sdist" },
+    { path = "migrations", format = "sdist" },
+    { path = "alembic.ini", format = ["sdist", "wheel"] }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+alembic = "^1.13.2"
+sqlalchemy = "^2.0.32"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.3"
+mypy = "^1.11.2"
+black = "^24.8.0"
+
+
+[tool.poetry.scripts]
+run-migrations = "rms_models.migrate:main"
+
+[tool.poetry.urls]
+"Repository" = "http://git.vald.ai:8282/rms/rms_models.git"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
