@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ccrex
+Version: 0.3.3
+Summary: A module for predicting on protein sequences using CCREx models. 
+Home-page: https://github.com/donEnno/ccrex
+Author: Enno Belz
+Author-email: enno.belz@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.9
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: keras
