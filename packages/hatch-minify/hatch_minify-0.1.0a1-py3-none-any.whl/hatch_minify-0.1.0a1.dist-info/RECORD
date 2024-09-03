@@ -1,0 +1,8 @@
+hatch_minify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_minify/hooks.py,sha256=FGbAZeoyaB8BLUEQkJqS3uirbuAJyVl2KE6LFWU5dZo,159
+hatch_minify/plugin.py,sha256=uQdlcRFpNd3kGIDt7CpWuqC9s-QWi7SzNFAvVoNEZlo,1825
+hatch_minify-0.1.0a1.dist-info/METADATA,sha256=0wayPoE-CfqYIixqm62bScyAkqn3v_RaA-nVJeSVSTQ,41538
+hatch_minify-0.1.0a1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+hatch_minify-0.1.0a1.dist-info/entry_points.txt,sha256=deYBSUzMSNabEjd8HRD1Cu-VUsWR6N8rNv-4vztlN24,35
+hatch_minify-0.1.0a1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hatch_minify-0.1.0a1.dist-info/RECORD,,
