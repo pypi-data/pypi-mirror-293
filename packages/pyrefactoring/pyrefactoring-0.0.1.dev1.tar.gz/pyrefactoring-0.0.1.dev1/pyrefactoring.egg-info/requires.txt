@@ -1,0 +1,5 @@
+pydantic
+networkx
+pandas
+rawpy
+pillow_heif
