@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: haptic_harness_generator
+Version: 0.0.22
+Summary: Software to easily generate parameterized tiles for haptic harnesses
+Author: kaleFruit
+Project-URL: Homepage, https://github.com/HaRVI-Lab/haptic-harness
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pyvista>=0.43.6
+Requires-Dist: ezdxf
+Requires-Dist: PyQt5
+Requires-Dist: pyvistaqt
+
+# Haptic Harness Toolkit Generator
+
+A software to easily generate parameterized tiles for haptic harnesses
+
+## Description
+
+-   This software allows researchers to create an easy haptic harness by generating a tile solution
+-   Researchers can change harness parameters to meet their needs
+
+## Getting Started
+
+Setting up a new Conda environment through the ternminal with the correct dependencies:
+
+1. Create a new conda environment with Python 3.9 using: `conda create -n hapticsHarnessGenerator python=3.9`
+2. Run: `conda activate hapticsHarnessGenerator`
+3. Install VTKBool with: `conda install -c conda-forge vtkbool` (ensure conda-forge is in your conda config)
+4. Install ezdxf with: `pip install haptic_harness_generator`
+5. Run the program from your cli with: `run-haptic-harness` 
+
+Tested in:
+-   Windows
+-   WSL
+-   
+
+## Software Operation
+
+1. Change parameters in the "Generate Tiles" tab
+2. In the "Generaet Tiles" tab, click "Generate Parts" to generate the .dxf files
+3. In the "Generate Peripherals" tab, click "Generate Parts" to generate the .stl files
+4. Generated files can be found in the "exports" directory
+![Alt text](images/anatomyOfTile.png)
+## Dependencies:
+
+-   Pyvista
+-   vtkbool
+-   ezdxf
+-   Numpy
+-   PyQT5
+-   pyvistaqt
