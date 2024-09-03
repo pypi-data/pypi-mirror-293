@@ -1,0 +1,10 @@
+installlib/__init__.py,sha256=WFC90emA_KPOibxsH3S4fcI103IjOQ9SGn9FP2JJEkw,637
+installlib/__main__.py,sha256=-GqoftNECZBtC8F82KWJrdSD05BcKBrrL0ElHEEUHyk,36
+installlib/flow.py,sha256=MkZe1bvrlnAW8QxYr1hAqlqrStD8nOBj34NSR-KlqxI,1143
+installlib/tasks.py,sha256=_4B8B39UOpM9yVI_HKvLkdkPYJ_RWAYWcLMZuZx71y8,6623
+installlib/utils.py,sha256=brPE1i1lJjNuTVQ68H4-zewiYNI1uHwTPzF1vvhEbe0,293
+installlib-0.1.0.dist-info/LICENSE,sha256=0S6VzM-8IobqsoiA3kv2k0hS0hjVv02WOLUMQ25dp_c,1081
+installlib-0.1.0.dist-info/METADATA,sha256=xkmgt4bqxhUyZqMoTKEluGpX4YOc1WEnm_EnAwS3-1I,2588
+installlib-0.1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+installlib-0.1.0.dist-info/top_level.txt,sha256=yPvHORrEfLXvnuqU5NoA_Ukqn-lvHVEXjWWItJ4lAfQ,11
+installlib-0.1.0.dist-info/RECORD,,
