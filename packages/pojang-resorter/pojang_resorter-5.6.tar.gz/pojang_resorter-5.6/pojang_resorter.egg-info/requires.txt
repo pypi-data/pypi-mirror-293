@@ -1,0 +1,14 @@
+pillow
+pyautogui
+requests
+discord.py
+gitpython
+opencv-python
+pycurl
+pywin32
+aiohttp
+numpy
+pygetwindow
+pyscreenshot
+scipy
+pytest
