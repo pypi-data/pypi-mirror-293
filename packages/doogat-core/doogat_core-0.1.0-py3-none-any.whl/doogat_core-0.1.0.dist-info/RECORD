@@ -1,0 +1,9 @@
+doogat/core/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+doogat/core/domain/__init__.py,sha256=rJPLsLPEl6xM_sKaq-WHhFDj07tuOnSuRaFESHzYW5w,76
+doogat/core/domain/entity/zettel/zettel_data.py,sha256=PgRjOeBWpeHa4zozUBmx_YXbXZmMm9t-3eHORo45Ta0,146
+doogat/core/utils/__init__.py,sha256=UOzdyv0Wc7cP0idqapBFi71-EADKPt0fISN0QyEy-Bs,72
+doogat/core/utils/string/string_utils.py,sha256=jiciYtmd4yOVfTxUqgM5h6E61k9nA1fMldRlgl72Lts,236
+doogat_core-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+doogat_core-0.1.0.dist-info/METADATA,sha256=Vz5xnDVfrMeuzWu5yeoFxzF6nlnPbDKFXSNuiTCzHVM,431
+doogat_core-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+doogat_core-0.1.0.dist-info/RECORD,,
