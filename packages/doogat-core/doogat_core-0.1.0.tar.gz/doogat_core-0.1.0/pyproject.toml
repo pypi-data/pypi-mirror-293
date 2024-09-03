@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "doogat-core"
+version = "0.1.0"
+description = ""
+authors = ["Tomáš Bouška <admin@doogat.com>"]
+license = "GNU GPLv3"
+readme = "README.md"
+packages = [
+  { include = "doogat", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+inflection = "^0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
