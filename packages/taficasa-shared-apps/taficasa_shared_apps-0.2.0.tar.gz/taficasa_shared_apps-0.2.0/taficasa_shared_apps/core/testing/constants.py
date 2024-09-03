@@ -1,0 +1,1 @@
+DEFAULT_TEST_PASSWORD = "TestPassword@1"
