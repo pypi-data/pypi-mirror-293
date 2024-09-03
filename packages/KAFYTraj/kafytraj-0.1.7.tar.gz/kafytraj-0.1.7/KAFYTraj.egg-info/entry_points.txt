@@ -1,0 +1,2 @@
+[console_scripts]
+kafy_sql_parser = KAFY.SQLRunner:parse_command
