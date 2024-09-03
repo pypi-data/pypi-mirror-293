@@ -1,0 +1,96 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{ include "bitcoincore.fullname" . }}
+  labels:
+    {{- include "bitcoincore.labels" . | nindent 4 }}
+    {{- with .Values.podLabels }}
+        {{- toYaml . | nindent 4 }}
+    {{- end }}
+    app: {{ include "bitcoincore.fullname" . }}
+    {{- if .Values.collectLogs }}
+    collect_logs: "true"
+    {{- end }}
+  annotations:
+    init_peers: "{{ .Values.connect | len }}"
+spec:
+  restartPolicy: "{{ .Values.restartPolicy }}"
+  {{- with .Values.imagePullSecrets }}
+  imagePullSecrets:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  securityContext:
+    {{- toYaml .Values.podSecurityContext | nindent 4 }}
+  containers:
+    - name: {{ .Chart.Name }}
+      securityContext:
+        {{- toYaml .Values.securityContext | nindent 8 }}
+      image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+      imagePullPolicy: {{ .Values.image.pullPolicy }}
+      ports:
+        - name: rpc
+          containerPort: {{ .Values.regtest.RPCPort }}
+          protocol: TCP
+        - name: p2p
+          containerPort: {{ .Values.regtest.P2PPort }}
+          protocol: TCP
+        - name: zmq-tx
+          containerPort: {{ .Values.regtest.ZMQTxPort }}
+          protocol: TCP
+        - name: zmq-block
+          containerPort: {{ .Values.regtest.ZMQBlockPort }}
+          protocol: TCP
+      livenessProbe:
+        {{- toYaml .Values.livenessProbe | nindent 8 }}
+      readinessProbe:
+        {{- toYaml .Values.readinessProbe | nindent 8 }}
+      resources:
+        {{- toYaml .Values.resources | nindent 8 }}
+      volumeMounts:
+        {{- with .Values.volumeMounts }}
+          {{- toYaml . | nindent 8 }}
+        {{- end }}
+        - mountPath: /root/.bitcoin/bitcoin.conf
+          name: config
+          subPath: bitcoin.conf
+    {{- if .Values.metricsExport }}
+    - name: prometheus
+      image: bitcoindevproject/bitcoin-exporter:latest
+      imagePullPolicy: IfNotPresent
+      ports:
+        - name: prom-metrics
+          containerPort: {{ .Values.prometheusMetricsPort }}
+          protocol: TCP
+      env:
+        - name: BITCOIN_RPC_HOST
+          value: "127.0.0.1"
+        - name: BITCOIN_RPC_PORT
+          value: "{{ .Values.regtest.RPCPort }}"
+        - name: BITCOIN_RPC_USER
+          value: user
+        - name: BITCOIN_RPC_PASSWORD
+          value: password
+        {{- if .Values.metrics }}
+        - name: METRICS
+          value: {{ .Values.metrics }}
+        {{- end }}
+    {{- end}}
+  volumes:
+    {{- with .Values.volumes }}
+      {{- toYaml . | nindent 4 }}
+    {{- end }}
+    - configMap:
+        name: {{ include "bitcoincore.fullname" . }}
+      name: config
+  {{- with .Values.nodeSelector }}
+  nodeSelector:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- with .Values.affinity }}
+  affinity:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- with .Values.tolerations }}
+  tolerations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
