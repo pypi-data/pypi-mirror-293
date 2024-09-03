@@ -1,0 +1,9 @@
+README.md
+setup.py
+chiga/__init__.py
+chiga/cli.py
+chiga.egg-info/PKG-INFO
+chiga.egg-info/SOURCES.txt
+chiga.egg-info/dependency_links.txt
+chiga.egg-info/entry_points.txt
+chiga.egg-info/top_level.txt
