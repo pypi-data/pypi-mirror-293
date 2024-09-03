@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+BehindIt.egg-info/PKG-INFO
+BehindIt.egg-info/SOURCES.txt
+BehindIt.egg-info/dependency_links.txt
+BehindIt.egg-info/entry_points.txt
+BehindIt.egg-info/requires.txt
+BehindIt.egg-info/top_level.txt
+behindit/__init__.py
+behindit/main.py
