@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: a99
+Version: 23.7.27.0
+Summary: A multi-purpose API in Python
+Home-page: https://github.com/trevisanj/a99
+Author: Julio Trevisan
+Author-email: juliotrevisan@gmail.com
+License: GNU GPLv3
+Keywords: astronomy,debugging,introspection,file,search,conversion,datetime,config,litedb,matplotlib,text,cryptography
+Platform: any
+License-File: LICENSE
