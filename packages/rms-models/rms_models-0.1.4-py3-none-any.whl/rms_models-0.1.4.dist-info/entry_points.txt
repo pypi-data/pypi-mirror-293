@@ -1,0 +1,3 @@
+[console_scripts]
+run-migrations=rms_models.migrate:main
+
