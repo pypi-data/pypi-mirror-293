@@ -1,0 +1,2 @@
+[console_scripts]
+plasmid_detector = plasmid_detector.anomaly_detector:main
