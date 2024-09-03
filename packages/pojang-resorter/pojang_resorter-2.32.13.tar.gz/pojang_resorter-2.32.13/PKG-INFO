@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pojang_resorter
+Version: 2.32.13
+Requires-Python: >=3.12
+Requires-Dist: pillow
+Requires-Dist: pyautogui
+Requires-Dist: requests
+Requires-Dist: discord.py
+Requires-Dist: gitpython
+Requires-Dist: opencv-python
+Requires-Dist: pycurl
+Requires-Dist: pywin32
