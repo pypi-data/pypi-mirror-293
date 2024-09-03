@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: moshi
+Version: 0.0.0
+Summary: Moshi is moshi
+Author-email: Laurent Mazaré <laurent@kyutai.org>
+Maintainer-email: Laurent Mazaré <laurent@kyutai.org>
+Requires-Python: >=3.10

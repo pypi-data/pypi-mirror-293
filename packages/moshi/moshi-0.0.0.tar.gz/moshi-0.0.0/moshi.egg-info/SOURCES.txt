@@ -1,0 +1,6 @@
+moshi.py
+pyproject.toml
+moshi.egg-info/PKG-INFO
+moshi.egg-info/SOURCES.txt
+moshi.egg-info/dependency_links.txt
+moshi.egg-info/top_level.txt
