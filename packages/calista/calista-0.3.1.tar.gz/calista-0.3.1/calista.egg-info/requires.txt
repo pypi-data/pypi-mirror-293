@@ -1,0 +1,17 @@
+pandas
+pyarrow
+pydantic
+overrides
+schema
+python-dotenv
+polars
+
+[bigquery]
+sqlalchemy-bigquery-calista
+
+[snowflake]
+snowflake-snowpark-python
+
+[spark]
+pyspark
+delta-spark
