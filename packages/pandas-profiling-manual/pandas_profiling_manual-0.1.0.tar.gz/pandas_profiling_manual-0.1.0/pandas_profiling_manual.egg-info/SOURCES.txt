@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pandas_profiling_manual/__init__.py
+pandas_profiling_manual/pandasProfilingManual.py
+pandas_profiling_manual.egg-info/PKG-INFO
+pandas_profiling_manual.egg-info/SOURCES.txt
+pandas_profiling_manual.egg-info/dependency_links.txt
+pandas_profiling_manual.egg-info/requires.txt
+pandas_profiling_manual.egg-info/top_level.txt
+tests/test_pandas_profiling_manual.py
