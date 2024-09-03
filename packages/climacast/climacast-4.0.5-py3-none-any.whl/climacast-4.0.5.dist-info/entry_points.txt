@@ -1,0 +1,4 @@
+[console_scripts]
+climacast=src.__main__:main
+climacast-setup=src.__setup__:main
+
