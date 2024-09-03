@@ -1,0 +1,2 @@
+[console_scripts]
+pj = personal_jinja.__main__:main
