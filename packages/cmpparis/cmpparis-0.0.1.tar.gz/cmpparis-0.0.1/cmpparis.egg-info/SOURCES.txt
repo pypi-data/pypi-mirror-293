@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cmpparis/__init__.py
+cmpparis/utils.py
+cmpparis.egg-info/PKG-INFO
+cmpparis.egg-info/SOURCES.txt
+cmpparis.egg-info/dependency_links.txt
+cmpparis.egg-info/requires.txt
+cmpparis.egg-info/top_level.txt
+tests/test_utils.py
