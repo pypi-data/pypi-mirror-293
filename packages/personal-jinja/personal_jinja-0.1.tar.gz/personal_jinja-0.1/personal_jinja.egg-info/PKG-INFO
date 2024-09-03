@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: personal-jinja
+Version: 0.1
+Summary: Reach out / Touch text
+Home-page: https://github.com/hamelin/personal-jinja
+Author: Benoit Hamelin
+Author-email: benoit@benoithamelin.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Interpreters
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jinja2
+
+# personal-jinja
+Your own / Personal / Jinja / Something to crunch the text / Within the text [editor]

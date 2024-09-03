@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+personal_jinja/__init__.py
+personal_jinja/__main__.py
+personal_jinja.egg-info/PKG-INFO
+personal_jinja.egg-info/SOURCES.txt
+personal_jinja.egg-info/dependency_links.txt
+personal_jinja.egg-info/entry_points.txt
+personal_jinja.egg-info/requires.txt
+personal_jinja.egg-info/top_level.txt
+test/test_pj_args.py
