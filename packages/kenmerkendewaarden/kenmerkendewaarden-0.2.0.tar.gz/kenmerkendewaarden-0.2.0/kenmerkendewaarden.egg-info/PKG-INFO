@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: kenmerkendewaarden
+Version: 0.2.0
+Summary: Derive indicators from waterlevel measurements
+Maintainer-email: Jelmer Veenstra <jelmer.veenstra@deltares.nl>
+License: GPLv3
+Project-URL: Home, https://github.com/deltares-research/kenmerkendewaarden
+Project-URL: Code, https://github.com/deltares-research/kenmerkendewaarden
+Project-URL: Issues, https://github.com/deltares-research/kenmerkendewaarden/issues
+Keywords: kenmerkendewaarden
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: matplotlib>=3.5.2
+Requires-Dist: netcdf4>=1.5.4
+Requires-Dist: xarray>=2023.4.0
+Requires-Dist: rws-ddlpy>=0.5.0
+Requires-Dist: hatyan>=2.8.0
+Requires-Dist: statsmodels>=0.13.2
+Requires-Dist: pyproj>=3.1.0
+Requires-Dist: pooch>=1.1.0
+Provides-Extra: dev
+Requires-Dist: bump2version>=0.5.11; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=1.8.1; extra == "docs"
+Requires-Dist: sphinx_mdinclude; extra == "docs"
+Requires-Dist: nbsphinx; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Provides-Extra: examples
+Requires-Dist: jupyter; extra == "examples"
+Requires-Dist: notebook; extra == "examples"
+
+[![pytest](https://github.com/deltares-research/kenmerkendewaarden/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/deltares-research/kenmerkendewaarden/actions/workflows/pytest.yml)
+[![codecov](https://img.shields.io/codecov/c/github/deltares-research/kenmerkendewaarden.svg?style=flat-square)](https://app.codecov.io/gh/deltares-research/kenmerkendewaarden?displayType=list)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Deltares-research_kenmerkendewaarden&metric=alert_status)](https://sonarcloud.io/dashboard?id=Deltares-research_kenmerkendewaarden)
+
+# kenmerkendewaarden
+Voor het afleiden van kengetallen als slotgemiddelden, gemiddelde getijkrommen, havengetallen, overschrijdingsfrequenties en andere indicatoren op basis van waterstandsmetingen. Meer informatie over Kenmerkende Waarden is beschikbaar op [rijkswaterstaat.nl](https://www.rijkswaterstaat.nl/water/waterbeheer/metingen/meten-bij-rijkswaterstaat/waternormalen)
+
+## LET OP
+De methodieken in deze repository hebben nog geen definitieve status en zijn daarom nog niet geschikt voor productie.
+
+## installation
+- download Miniforge3 from [the miniforge github](https://github.com/conda-forge/miniforge?tab=readme-ov-file#download) and install it with the recommended settings.
+- open Miniforge Prompt
+- `conda create --name kw_env python=3.11 git -y`
+- `conda activate kw_env`
+- `pip install git+https://github.com/Deltares-research/kenmerkendewaarden`
