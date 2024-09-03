@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: CTRF-VScode
+Version: 1.0.9
+Summary: Please add the appropriate description
+Home-page: https://github.com/hemanth2410
+Author: Srinivas M
+Author-email: maddimsetti34@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CTRF
+# Author M. Srinivas
+# e-mail : Please add your email here sir
+
+<i>Please add a detailed description here</i>
+
+Requirements
+
+1. matplotlib
+2. numpy
+3. pandas
+4. scikit-learn
+5. scipy
+6. pyeda
+
+Python Requirements
+
+1. Python >= 3.11
+
+Project Structure
+
+CTRF
+|
+|->CTRF
+	|
+	|-> *All python files*
+	|-> Output
+	|	  |-> *All pickle files*	
+	|-> Training Files
+	|	  |-> *All training files csv*
+
+You will have to download the Training and output files from the following line as CSV files are not included while using *pip install CTRF*
