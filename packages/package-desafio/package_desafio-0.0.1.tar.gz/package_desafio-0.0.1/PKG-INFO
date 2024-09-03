@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: package_desafio
+Version: 0.0.1
+Summary: My short description
+Home-page: https://github.com/LeeoDurante/image-processing-package
+Author: Leonardo Durante
+Author-email: leo.durante_@hotmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# package_desafio
+
+Description. 
+The package package_desafio is used to:
+	- Processamento:
+	- CorrespondÃªncia de histograma
+	- SemelhanÃ§a estrutural
+	- Redimensionar imagem
+UtilitÃ¡rios:
+	- Ler imagem
+	- Salvar imagem
+	- Imagem plotada
+	- Resultado do grÃ¡fico
+	- Plotar histograma
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_desafio
+
+```bash
+pip install package_desafio
+```
+
+## Usage
+
+```python
+from package_name.module1_name import file1_name
+file1_name.my_function()
+```
+
+## Author
+Leonardo Durante Pereira
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
