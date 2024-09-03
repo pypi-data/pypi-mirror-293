@@ -1,0 +1,17 @@
+README.md
+setup.py
+Tigrina_alphabets/Tigrinya_alphabet_coder_decoder.py
+Tigrina_alphabets/__init__.py
+Tigrina_alphabets/adjectives.py
+Tigrina_alphabets/alphabets.py
+Tigrina_alphabets/code_decode.py
+Tigrina_alphabets/data_process.py
+Tigrina_alphabets/nouns.py
+Tigrina_alphabets/test.py
+Tigrina_alphabets/verb_to_be.py
+Tigrina_alphabets/verbs.py
+Tigrinya_alphabets.egg-info/PKG-INFO
+Tigrinya_alphabets.egg-info/SOURCES.txt
+Tigrinya_alphabets.egg-info/dependency_links.txt
+Tigrinya_alphabets.egg-info/entry_points.txt
+Tigrinya_alphabets.egg-info/top_level.txt
