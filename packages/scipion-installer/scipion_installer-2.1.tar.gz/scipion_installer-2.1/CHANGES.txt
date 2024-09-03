@@ -1,0 +1,14 @@
+2.1 - Fix readme. python arg added.
+2.0    - Main refactorization:
+  setup.py removes using toml
+  -python option added to choose python version defaults to 3.8 in conda and available python3 in virtualenv
+  xmipp and dev options removed (git clones etc...)
+1.0.17 - allow spaces in args
+1.0.16 - Compatible with python2
+1.0.15 - replace distutils
+1.0.14 - cd to scipion home when composing the environment command
+1.0.13 - added SCIPION_SCRATCH param
+1.0.12 - Changing the environment installation name
+1.0.11 - fix python=3.8
+1.0.10 - fix csh/tcsh installations
+19-December-2019 - First version of the scipion installer
