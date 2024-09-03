@@ -1,0 +1,17 @@
+komis/BaseEngine.py,sha256=nsI0ScssLdYm8ICoizdBy-lsXeF4rm4nkwAIQZDDHaM,691
+komis/__init__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+komis/__main__.py,sha256=mgVl0Cmw-LMd73Bwd_Tx_5YopW_G2IEKzCWWNfT8DV4,97
+komis/cli.py,sha256=8a6-HBYnFR3wNIcBxQ114Z0I0rkJyUF2_tBCSIuN9Vc,421
+komis/engines/DialogueEngine.py,sha256=ANPx9R2amJq2nWO5fYwnYNLdZlSpCuR970zEHfU56gM,1849
+komis/engines/GayEngine.py,sha256=68EmbMwtyATd9It8menAQD5HA8OEJh1uRvZhQ6Sd1hw,1561
+komis/engines/LogoEngine.py,sha256=tTrYDSN9tx2cYeWizmmIaQGLalgG1dM4I3ht049cWFM,709
+komis/engines/ReverseDialogueEngine.py,sha256=P6QKu_S_L2py2WHT3V1CyaopVBm6DQv58-4w0KK9xyA,1735
+komis/engines/SimpleTextEngine.py,sha256=XudY7NrU-z18d6EnUkGr40enYIU3rm0JsAKWp-SMj4s,1997
+komis/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+komis/main.py,sha256=Nj9dyQGh5LRIiX9pc245J_kc-z2Ed0-JM6HVe3wz-Hg,5731
+komis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+komis-1.1.0.dist-info/LICENSE,sha256=9lX32P-yMGc1ZpmXW358_spz7l2GSMPz94lwlvLuTQI,35124
+komis-1.1.0.dist-info/METADATA,sha256=fdcluAO6aiYBQMIuPGVgkkV43CYlqRnMj6Df6knoIJw,4520
+komis-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+komis-1.1.0.dist-info/entry_points.txt,sha256=BR2Y1N3y-ferNgBgIylMvnB5i1G2lkOJjhLKf1KewlM,330
+komis-1.1.0.dist-info/RECORD,,
