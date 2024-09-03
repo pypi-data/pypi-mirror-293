@@ -1,0 +1,5 @@
+cymseed3
+dist
+earthscope
+tenv
+test
