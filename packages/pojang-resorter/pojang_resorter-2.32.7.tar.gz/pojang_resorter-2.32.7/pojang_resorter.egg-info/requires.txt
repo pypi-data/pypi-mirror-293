@@ -1,0 +1,6 @@
+pillow
+pyautogui
+requests
+discord.py
+opencv-python
+pycurl
