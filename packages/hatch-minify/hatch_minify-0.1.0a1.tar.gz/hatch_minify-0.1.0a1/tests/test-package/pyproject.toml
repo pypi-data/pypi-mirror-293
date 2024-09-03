@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling", "hatch-minify"]
+build-backend = "hatchling.build"
+
+[project]
+name = "test-package"
+version = "1.1.1"
+description = ''
+readme = "README.md"
+requires-python = ">=3.8,<3.12"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Daniel Copley", email = "djcopley@proton.me" },
+]
+dependencies = []
+
+[tool.hatch.build.targets.wheel.hooks.minify]
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/test_package tests}"
+
+[tool.coverage.run]
+source_pkgs = ["test_package", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/test_package/__about__.py",
+]
+
+[tool.coverage.paths]
+test_package = ["src/test_package", "*/test-package/src/test_package"]
+tests = ["tests", "*/test-package/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
