@@ -1,0 +1,23 @@
+# spritesheet-lib
+
+`spritesheet-lib` is a simple Python package that provides a utility class for handling spritesheets in Pygame.
+
+## Installation
+
+```bash
+pip install spritesheet-lib
+
+# Usage
+
+```python
+import pygame
+from spritesheet import SpriteSheet
+
+# Load your spritesheet image
+spritesheet_image = pygame.image.load('path_to_your_spritesheet.png').convert_alpha()
+
+# Create a SpriteSheet object
+spritesheet = SpriteSheet(spritesheet_image)
+
+# Get a specific sprite from the spritesheet
+sprite = spritesheet.get_image(frame=0, width=32, height=32, scale=2, colour=(0, 0, 0))

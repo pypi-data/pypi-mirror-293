@@ -1,0 +1,9 @@
+README.md
+setup.py
+pysprite_lib.egg-info/PKG-INFO
+pysprite_lib.egg-info/SOURCES.txt
+pysprite_lib.egg-info/dependency_links.txt
+pysprite_lib.egg-info/requires.txt
+pysprite_lib.egg-info/top_level.txt
+spritesheet/__init__.py
+spritesheet/spritesheet.py
