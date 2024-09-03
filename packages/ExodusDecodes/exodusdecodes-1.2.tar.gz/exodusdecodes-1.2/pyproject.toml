@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ExodusDecodes"
+version = "1.2"
+description = "Decode seed.seco file from Exodus)"
+authors = ["CodeLand"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Cipherbcrypt = "^1.2"
+mnemonic = "^0.21"
+pycryptodome = "^3.20.0"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
