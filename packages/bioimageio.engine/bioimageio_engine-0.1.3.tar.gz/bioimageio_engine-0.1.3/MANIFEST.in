@@ -1,0 +1,5 @@
+include environments/*
+recursive-include bioimageio/engine/apps *
+recursive-include bioimageio/engine/ray_apps *
+global-exclude *.pyc
+global-exclude *__pycache__*

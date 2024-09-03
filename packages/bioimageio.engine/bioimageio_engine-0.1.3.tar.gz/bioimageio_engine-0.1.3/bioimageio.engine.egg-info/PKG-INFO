@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bioimageio.engine
+Version: 0.1.3
+Summary: BioEngine: Your AI Engine for Advanced BioImage Analysis
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hypha[s3]>=0.20.31
+Requires-Dist: hypha-rpc
+Requires-Dist: PyYAML
+Requires-Dist: hypha-launcher>=0.1.3
+Requires-Dist: pyotritonclient
+Requires-Dist: simpervisor
