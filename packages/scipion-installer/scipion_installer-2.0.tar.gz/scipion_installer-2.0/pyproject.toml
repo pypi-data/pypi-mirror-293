@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scipion-installer"
+dynamic = ["version"]
+dependencies = [
+    "virtualenv"
+]
+
+authors = [
+    {name = "Pablo Conesa", email = "pconesa@cnb.csic.es"},
+]
+description = "Installs scipion 3 creating a virtual environment for it anc creates a launcher."
+readme = "README.rst"
+requires-python = ">=2.7"
+keywords = ["scipion cryoem imageprocessing scipion-3.0"]
+license = {text = "GNU General Public License v3 (GPLv3)"}
+
+[project.urls]
+Homepage = "https://github.com/scipion-em/scipion-installer"
+Issues = "https://github.com/scipion-em/scipion-installer/issues"
+
+[project.scripts]
+installscipion = "scipioninstaller.installer:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "scipioninstaller.__version__"}
