@@ -1,0 +1,14 @@
+nutrition_ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nutrition_ai/advisor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nutrition_ai/advisor/constants.py,sha256=qIr54Ut7Z60hSw5bjsWa39FTBjSwM-g6JoZnGfZSetM,198
+nutrition_ai/advisor/conversation.py,sha256=-Wv-npMuPJuYaSN4x5KEvy_V99lZ9Ub8cyd5y06r8HQ,1722
+nutrition_ai/advisor/tools.py,sha256=MpPrD98I55nBOpBMVeTw6AnWN_Y8t_4LZFswVKowLZU,3947
+nutrition_ai/advisor/types.py,sha256=I_3jcz9XTZjo8QIPdmnheu3yClcOKy9-hyrUyAufmtQ,1322
+nutrition_ai/auth.py,sha256=QKgG1_smbz6rd95eXhOS8uGaWqfbxm90qbpGL8KeLXM,1005
+nutrition_ai/constants.py,sha256=wBfSXLpVi4yrmWEgwt7C1ey1AQu230f2Yfw6Wrl1cK4,206
+nutrition_ai/fetch.py,sha256=6tlZtsdv6nXqNozwAb8xWOz0fJqHZd9p4pgBFdhk8Rk,1865
+nutrition_ai/search.py,sha256=2OUHRpDS9FhAbxMgkAVqadT0lQEf5Ewd2N6Ky13Li0w,1110
+nutrition_ai/types.py,sha256=KxHPoxWnUPJNAAUb3-2MVIrTpWLpzTWdloQ-_gs5d0Q,2486
+nutrition_ai-0.1.0.dist-info/METADATA,sha256=z5gwO5Qve1i0mqpccG91C0JRW2mP11OQ3BbUpINLKLk,4174
+nutrition_ai-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nutrition_ai-0.1.0.dist-info/RECORD,,
