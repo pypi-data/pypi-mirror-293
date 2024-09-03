@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "docx-python"
+version = "0.1.0"
+description = "A Python SDK for Docx API Service"
+authors = [
+"Renix Informatics <info@renix.com>"
+]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "docx", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+pytest = "^8.3.2"
+mypy = "^1.11.1"
+pydantic = "^2.8.2"
+flake8 = "^7.1.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.mypy]
+strict = true
+mypy_path = "."
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]
