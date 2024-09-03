@@ -1,0 +1,9 @@
+utde/__init__.py,sha256=FSkCUYF4nKE3JmwXMq65tfNmyGP09iczo59LSDcbwEk,179
+utde/checks.py,sha256=GUF9oD238dzjq4nURQHdZ1hEv1CABjNAeLKoh1Nsjh0,3415
+utde/errors.py,sha256=CjU-xuETBoa1nLTYYAJA-eUDoou5tPHWMkLHpLyEEI8,128
+utde/persist.py,sha256=5_aAcTRdaS5FNRaahuHI_v7-esSSSsf4VAX1VovVPTM,3645
+utde/profiling.py,sha256=dEdOahnIHpTCsccQyPU44Kddft_joioQYbl3sjc-Kgc,890
+utde-0.1.6.dist-info/METADATA,sha256=oMG99thHvDfslGogWPHWuaNEdjVSjpyFYLMu8MslJvc,3886
+utde-0.1.6.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+utde-0.1.6.dist-info/licenses/LICENSE,sha256=t0SRv3DUZSkjQqdotA_sFlVMx9hEOkn3p6u5Cs6gZy8,1069
+utde-0.1.6.dist-info/RECORD,,
