@@ -1,0 +1,2 @@
+[console_scripts]
+nostpy-cli = nostpy_cli.main:main
