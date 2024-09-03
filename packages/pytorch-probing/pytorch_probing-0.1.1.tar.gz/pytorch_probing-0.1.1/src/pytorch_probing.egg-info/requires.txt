@@ -1,0 +1,14 @@
+numpy<2.0
+torch
+
+[doc_generation]
+sphinx
+sphinx_rtd_theme
+nbsphinx
+sphinx-mdinclude==0.5.4
+
+[tests]
+mypy
+testbook
+ipython
+ipykernel
