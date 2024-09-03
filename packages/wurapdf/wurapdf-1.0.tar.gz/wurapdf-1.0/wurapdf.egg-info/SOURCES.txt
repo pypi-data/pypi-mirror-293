@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+wurapdf/__init__.py
+wurapdf/pdf2image.py
+wurapdf/pdf2text.py
+wurapdf.egg-info/PKG-INFO
+wurapdf.egg-info/SOURCES.txt
+wurapdf.egg-info/dependency_links.txt
+wurapdf.egg-info/top_level.txt
