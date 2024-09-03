@@ -1,0 +1,10 @@
+google-cloud-bigquery
+google-cloud-aiplatform
+google-auth
+langchain
+langchain-google-vertexai
+langchain-google-community[featurestore]
+jsonpatch
+tabulate
+db-dtypes
+pypdf
