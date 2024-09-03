@@ -1,0 +1,1 @@
+from systemdcli.main import main
