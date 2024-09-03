@@ -1,0 +1,9 @@
+climacast/__main__.py,sha256=Amm7xPp3vbOG4GLYF6aEHn_S2iSKGq8o_zy_l4ho9BI,595
+climacast/__setup__.py,sha256=AQkGcE_GQrkS_WSKD6KTWenac8RDh_CoWFX2Cb46HrI,666
+climacast/weather.py,sha256=KmcHahVf2pFcPZ6gF7JFekRnviBzrQQOCXmba_AIhec,4826
+climacast/weather_ascii.py,sha256=mFZY_2oIrnHDItWTY-emukD8kfaVtStw-fHjTSXzZJw,10701
+climacast-4.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+climacast-4.0.6.dist-info/METADATA,sha256=cGC-2uDeunj0NwRmoi83iBV3_SB7E1Rdeqzj86kEn94,2730
+climacast-4.0.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+climacast-4.0.6.dist-info/entry_points.txt,sha256=9vzch25xZgmZ0E2zbMfFx-MGJAxZX_NKzKtUksTGOPQ,94
+climacast-4.0.6.dist-info/RECORD,,
