@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+astropy
+configobj
+bs4
+lxml
+robobrowser
+requests
+tabulate
+rows
+a99>=23.7.27.0
+airvacuumvald
