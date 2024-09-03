@@ -1,0 +1,2 @@
+[console_scripts]
+treefolder = treefolder.tree:main
