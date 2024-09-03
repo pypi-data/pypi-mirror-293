@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "LoopEx"
+version = "0.0.1"
+authors = [{name = "glyzinieh", email = "wisteriatp@gmail.com"}]
+description = "A extension enhancing Python loop."
+readme = "README.md"
+requires-python = ">=3.0"
+
+[project.urls]
+Homepage = "https://github.com/glyzinieh/python-loop-extension"
+Issues = "https://github.com/glyzinieh/python-loop-extension/issues"
