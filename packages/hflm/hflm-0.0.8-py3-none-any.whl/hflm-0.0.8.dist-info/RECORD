@@ -1,0 +1,12 @@
+hflm/__init__.py,sha256=y-_5USG7bexcbiN6DblHEjz8GikBsJTrKleMehVBWS0,126
+hflm/huggingface_model.py,sha256=RqqiCg3QldWo3qnlHf6Ed23OWjjFq43UuWgo8F34VNc,32198
+hflm/model.py,sha256=GTXhIsmCeevW0MVAgw1r6uzfRxO5KGFd4ErN8lyRyEc,2179
+hflm/utils.py,sha256=dlW_nZBQWXMMhntG2zTfxlUZK01UdshomuDN2ZrlnEs,8069
+hflm/lm_gen/__main__.py,sha256=KUK7O9RrLMF9rgJsIOPPMCs-BtFZXFscJxddTjGMj0k,1693
+hflm/lm_prob/__main__.py,sha256=KPfvclZSP-8uN2-N8zG9Tc9ptBoJ_Ih9bTSLAlueKkU,1238
+hflm-0.0.8.dist-info/LICENSE,sha256=gbiNxxgJH4L3tA0QauTkHh7BJiP027PqOjksrzB-084,1502
+hflm-0.0.8.dist-info/METADATA,sha256=bzq1gMZIBvkzHRc0JlS1vF7AzNtqoRuYVUsw6FOVmK0,8479
+hflm-0.0.8.dist-info/WHEEL,sha256=ixB2d4u7mugx_bCBycvM9OzZ5yD7NmPXFRtKlORZS2Y,91
+hflm-0.0.8.dist-info/entry_points.txt,sha256=1hDlv4bSSoudeiqppvJJoyOrCPqRnJrtsJ-btqyxSIo,93
+hflm-0.0.8.dist-info/top_level.txt,sha256=L8Mtue73tZt3L5YRYy7WV_vXeO8Fw7BFP5W3Kqs3oyM,5
+hflm-0.0.8.dist-info/RECORD,,
