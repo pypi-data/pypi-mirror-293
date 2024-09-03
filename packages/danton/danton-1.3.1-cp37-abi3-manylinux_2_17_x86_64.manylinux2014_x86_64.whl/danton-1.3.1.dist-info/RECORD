@@ -1,0 +1,17 @@
+danton-1.3.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+danton-1.3.1.dist-info/top_level.txt,sha256=For5GHH2q8uHcYYHilSRTivg2sl2xhLxsFtgcnkM_do,7
+danton-1.3.1.dist-info/COPYING.LESSER,sha256=-XvEu5t66KZTlBBzZ4tcd3Xo3kSgHDvMIefNwUi5DmE,7632
+danton-1.3.1.dist-info/WHEEL,sha256=r_mm8MlGNmcqzlwuULfY23yrv70aGSnVjZrwMcamUnM,148
+danton-1.3.1.dist-info/RECORD,,
+danton-1.3.1.dist-info/METADATA,sha256=CP4_5OQa3aTx6k05RQVPinD3nIweynPn1_4zU6A-RXY,1817
+danton-1.3.1.dist-info/entry_points.txt,sha256=STe1amDmWgZ0dTXjiK8wnW_v7xNmuUrtj3IItYyH1QY,50
+danton/danton.abi3.so,sha256=SlXGUeRsnyChua-2JAdGKcb0m1104aRbtXnAS5NHHVE,1974544
+danton/__init__.py,sha256=ImsfONvB31kH_88dV_omgsmi4cUGl9n3iD3R-FgiStY,52
+danton/__main__.py,sha256=FlNR-8msO0cC2wjSVET_IUy6xiLzzZ82r0mL5Wk5XEQ,2169
+danton/data/geoid/egm96.png,sha256=eFNTEcsTBrP4j07slCvMsXJD7g-DvPFDE_PtDXqnIeg,1333334
+danton/data/pdf/CT14nlo_0000.dat,sha256=6ayOl9QJ5hnFmnS8Qb8is94ccbsMAs1cQCDDeTq5-Pg,1488728
+danton/data/pdf/NNPDF31sx_nlo_as_0118_LHCb_nf_6_0000.dat,sha256=LzLcNcF-luo-PfhSmPQBROKBhJJZ-zAs8VDGY5H-tps,2939479
+danton/data/pdf/HERAPDF15NLO_EIG_0000.dat,sha256=XS-amD3Rmn8JBVCTOof-OXkGOJJxQxpicKO_cL2oBxg,4319166
+danton/data/cs/CSMS.txt,sha256=ajbz6f5EiY67iiL9a_tMq3DoQ1fFAqOPJ5JuU3Taajk,22758
+danton/data/cs/BGR18.txt,sha256=OEHB8-jLpp0SKhrYs_C8hAjM2Q0L7Hm6bG1rr05p0MQ,22774
+danton/data/materials/default.xml,sha256=wa2g8OItKQFB9d4_V3dAVZwW7v_OD06ahisjR3Fk-xk,1289
