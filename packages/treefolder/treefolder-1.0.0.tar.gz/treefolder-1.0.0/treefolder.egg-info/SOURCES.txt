@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+treefolder/__init__.py
+treefolder/tree.py
+treefolder.egg-info/PKG-INFO
+treefolder.egg-info/SOURCES.txt
+treefolder.egg-info/dependency_links.txt
+treefolder.egg-info/entry_points.txt
+treefolder.egg-info/top_level.txt
