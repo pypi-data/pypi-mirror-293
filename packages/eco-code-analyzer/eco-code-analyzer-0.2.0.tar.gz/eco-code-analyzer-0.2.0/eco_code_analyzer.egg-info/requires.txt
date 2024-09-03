@@ -1,0 +1,6 @@
+astroid
+gitpython
+
+[dev]
+flake8
+pytest
