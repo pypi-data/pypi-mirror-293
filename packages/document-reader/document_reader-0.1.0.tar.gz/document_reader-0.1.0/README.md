@@ -1,0 +1,27 @@
+# document_reader
+
+A wrapper of different reading document python packages. The idea is to get a structured markdown string output out of any document. I am using the RFP+ code as a baseline: https://github.com/bearingpoint-no/generative-anbud.git
+
+# Setup Instructions
+
+1) Clone the GitHub repository
+2) Clone the repository into a folder on your computer or virtual machine:
+3) Create a virtual environment
+4) install the required dependencies (use Python 3.11.9 or a compatible version):
+6) Set env variables according to the format described below (you will need an Azure LLM deployment for vision)
+7) You will find a quick example of how to run the code in the main.py file. Use it to test the code and understand its functionality
+
+# setting env variables
+
+You will need to set values for these environment variables:
+    OPENAI_API_MODEL 
+    OPENAI_API_VERSION
+    OPENAI_API_DEPLOYMENT_GPT4_TURBO_VISION
+    OPENAI_API_KEY
+    AZURE_ENDPOINT
+
+# WARNINGS
+
+- the vision part writes down descriptions in English for now
+
+Small images (less than 200 of length or width)  wont be read  !
