@@ -1,0 +1,29 @@
+{
+  "MainServiceAPI/wrapper": {
+    "args": [
+      "echo",
+      "Hello"
+    ],
+    "args/comment": "Аргументы запуска программы",
+    "clear_env": false,
+    "clear_env/comment": "Очистить внешние переменные среды",
+    "cwd": "/root",
+    "cwd/comment": "Путь к рабочей папке",
+    "env": {
+      "DEBUG": "true"
+    },
+    "env/comment": "Переменные среды, строковые",
+    "exe": "/usr/bin/echo",
+    "exe/comment": "Путь к исполняемому файлу программы",
+    "format": 1,
+    "format/comment": "Формат данного файла",
+    "platforms": [
+      "linux"
+    ],
+    "platforms/comment": "Платформы, на которых разрешено запускать программу",
+    "stderr/comment": "Путь к файлу для записи stderr",
+    "stdin/comment": "Путь к файлу для чтения stdin",
+    "stdout": "/dev/null",
+    "stdout/comment": "Путь к файлу для записи stdout"
+  }
+}
