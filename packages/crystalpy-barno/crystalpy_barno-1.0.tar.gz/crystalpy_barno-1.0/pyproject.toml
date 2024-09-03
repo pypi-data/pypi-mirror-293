@@ -1,0 +1,43 @@
+[project]
+name = "crystalpy_barno"
+version = "1.0"
+description = "Python integration with crystal report"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [
+  { name = "barno1994", email = "barno.baptu@gmail.com" },
+]
+maintainers = [
+  { name = "barno.baptu", email = "barno.baptu@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+]
+keywords = ["crystal report", "python integration"]
+
+[project.urls]
+Homepage = "https://github.com/barno1994/RPT_PY"
+Issues = "https://github.com/barno1994/RPT_PY/issues"
+
+[project.optional-dependencies]
+dev = [
+  "cffi==1.17.0",
+  "clr-loader==0.2.6",
+  "pycparser==2.22",
+  "pythonnet==3.0.3",
+]
+
+[tool.setuptools.packages.find]
+include = ["ReportsClasses", "*"]
+
+[tool.setuptools.package-data]
+"*" = ["CR/*", "Helper/*", "Sales/*", "Stock/*", "rpt/*"]
