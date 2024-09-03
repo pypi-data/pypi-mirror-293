@@ -1,0 +1,8 @@
+wurapdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wurapdf/pdf2image.py,sha256=FKCPhiSyXj-tNDXA0VqlbWzKx6KZPmuJa5cBogvi_4o,40
+wurapdf/pdf2text.py,sha256=5--64-OYoPnJr369BowREbCyMU2VZrAXDrr2AB1VAx4,39
+wurapdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+wurapdf-1.0.dist-info/METADATA,sha256=5orMfcbqEvykw8bQXjbKLgjm-Tcvcwqb0vDgkApOI7E,115
+wurapdf-1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+wurapdf-1.0.dist-info/top_level.txt,sha256=QIWr2wW1bIvEtHV4VAtyThj0rU6AjG8sd5h7h4ycypU,8
+wurapdf-1.0.dist-info/RECORD,,
