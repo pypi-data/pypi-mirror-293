@@ -1,0 +1,2 @@
+[console_scripts]
+csv-trim = csv_trimming.cli:main
