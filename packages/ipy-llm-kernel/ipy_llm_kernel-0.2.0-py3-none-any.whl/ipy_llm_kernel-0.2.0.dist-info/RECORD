@@ -1,0 +1,10 @@
+ipy_llm_kernel/__init__.py,sha256=85yFjFW8GtyTTJ_XzMjZcEJCppLPuawHpXeeIFzRIe0,41
+ipy_llm_kernel/__main__.py,sha256=ZkEZu6rLwMUyd617hiNoPJSuftJqiihtRxJwQuo-qwQ,91
+ipy_llm_kernel/_endpoints.py,sha256=eEPXu5efH2jmW7aayCGNi_EjxS33z9oGvYrGe30E600,3857
+ipy_llm_kernel/_kernel.py,sha256=7CUalHH754F4U99pISe7TFIHO4aTYNwuTLBqQIiLqvI,4986
+ipy_llm_kernel/_tests/__init__.py,sha256=QNSEDdZvE5B8NuVasnkmp4FJsr5Sxc6jDcDY4B8biNU,31
+ipy_llm_kernel-0.2.0.dist-info/LICENSE,sha256=hpg97B4BCC8Ik92GN--DrOC8UJYx4DcnonHDdEl2PLU,1566
+ipy_llm_kernel-0.2.0.dist-info/METADATA,sha256=e54SOifFrjdRvy35a-Cql7WVrKN4igCOiKxEUzLVuWk,4844
+ipy_llm_kernel-0.2.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+ipy_llm_kernel-0.2.0.dist-info/top_level.txt,sha256=EvvkESz63cbzdNrU9aWPBBKm4gOL8H9NdvLUee1uV5k,15
+ipy_llm_kernel-0.2.0.dist-info/RECORD,,
