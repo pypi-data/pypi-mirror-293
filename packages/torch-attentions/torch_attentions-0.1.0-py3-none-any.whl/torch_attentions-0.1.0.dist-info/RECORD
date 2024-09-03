@@ -1,0 +1,6 @@
+torch_attentions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torch_attentions/channel.py,sha256=d35wDNDnbk2Dtn4hbFbW2dtATDs3bq9JZUhfR2DNzjE,895
+torch_attentions/spatial.py,sha256=_oFtGg5hwW14HF9je3WpLbv3cEKOyaKEtOCDLNxFhz8,429
+torch_attentions-0.1.0.dist-info/METADATA,sha256=BK7KhQVk86bIp9c0aTg9ZP_odvnk7HM9y3fknfqReCk,418
+torch_attentions-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+torch_attentions-0.1.0.dist-info/RECORD,,
