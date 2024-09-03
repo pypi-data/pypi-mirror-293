@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: taficasa-shared-apps
+Version: 0.3.0
+Summary: This package contains folders and apps needed within TafiCasa apps
+Author: Excel Okechukwu
+Author-email: excel@taficasa.com
+License: Custom License
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+===========================
+Taficasa Shared Apps
+===========================
+
+**Taficasa Shared Apps** is a private Python package that provides a collection of utilities, cloud scheduler files, and other useful components designed to be shared across various TafiCasa applications. This package simplifies the development process by centralizing common functionalities and tools used across different projects.
+
+
+Installation
+============
+
+To install the package, use `pip`:
+
+.. code-block:: bash
+
+    pip install taficasa_shared_apps
+
+Requirements
+============
+
+- Python 3.8 or higher
+- Django 4.2.2
+- Django REST Framework 3.14.0
+- Django REST Knox 4.2.0
+- Google Cloud Tasks 2.16.3
+- Google Cloud Scheduler 2.13.3
+
+Ensure these dependencies are installed in your environment.
