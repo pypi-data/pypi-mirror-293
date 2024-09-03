@@ -1,0 +1,9 @@
+ready2order_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ready2order_api/api.py,sha256=0JmQ3n1S7dPMT_R_y3KCXSi62juolo1hWjVb8Us6iVw,3592
+ready2order_api/get_acct_token.py,sha256=69jRp7dAmuicTzSWy5HxbP7FnC9MxIL77URYMd42oIg,765
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ready2order_api_wrapper-0.1.4.dist-info/LICENSE,sha256=MwbxYfuixHWYnM0dWSuXiD9PXlaqRO3w1PYhEDRQAvE,1085
+ready2order_api_wrapper-0.1.4.dist-info/METADATA,sha256=v-gyOXhoIpCp4iLJlBwutyZNH9fxk0wPNI-hkkU0SsM,1687
+ready2order_api_wrapper-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ready2order_api_wrapper-0.1.4.dist-info/top_level.txt,sha256=u0Wd7ASPL-OotujYhYt8WrfI8IQpytXcmNlvReu4GD4,22
+ready2order_api_wrapper-0.1.4.dist-info/RECORD,,
