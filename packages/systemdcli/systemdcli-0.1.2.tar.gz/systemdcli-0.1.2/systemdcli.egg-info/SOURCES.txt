@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+systemdcli.egg-info/PKG-INFO
+systemdcli.egg-info/SOURCES.txt
+systemdcli.egg-info/dependency_links.txt
+systemdcli.egg-info/entry_points.txt
+systemdcli.egg-info/requires.txt
+systemdcli.egg-info/top_level.txt
