@@ -1,0 +1,1 @@
+function r(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(n){let x=Math.random()*16|0;return(n==="x"?x:x&3|8).toString(16)})}function d(n,x,t=!1){let e=document.createElement("div");e.innerHTML=x;let i=r();e.id=i,t&&(e.style="display: none; visibility: hidden;"),n.appendChild(e)}export{d as add_html,r as generateUUID};

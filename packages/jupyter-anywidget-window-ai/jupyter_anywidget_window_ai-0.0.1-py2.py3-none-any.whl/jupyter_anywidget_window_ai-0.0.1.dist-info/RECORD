@@ -1,0 +1,11 @@
+jupyter_anywidget_window_ai/__init__.py,sha256=Bnws8vxSnHNeBeIIoAJoXV8-KZVnlpepu5hvFvxzcRQ,2703
+jupyter_anywidget_window_ai/panel.py,sha256=MBdXRm8ZkBkhcvCmVghuHGMAv7YhFHU-BA8OZYAJFug,858
+jupyter_anywidget_window_ai/static/utils.js,sha256=FlPsPH5q6DGay-G7DQwHDBb9k5wuGBhPzos2s6G5ZvM,346
+jupyter_anywidget_window_ai/static/widget.css,sha256=i8On0AtZuzRjKl8ww_iFCiihGVAwIvI3WbpYuoCfwz4,347
+jupyter_anywidget_window_ai/static/widget.js,sha256=tnEFFcJlHJgpYZK6Y9doQ8H5t4GWLn3fO7Nq0lhynWY,361
+jupyter_anywidget_window_ai/static/windowai.css,sha256=bBhTDxAfYkmr1QGlayoypaXpHDLt3ABoDSoZp4VlIho,241
+jupyter_anywidget_window_ai/static/windowai.js,sha256=bHeYaqDoLBAfRCJZd32z-sFSVxrNDJ8N786NZAPLlhI,1604
+jupyter_anywidget_window_ai-0.0.1.dist-info/METADATA,sha256=fhJnPi-f_l6Qvdde9WmGpH2YDXd-58jnHFA1FgZzpxE,901
+jupyter_anywidget_window_ai-0.0.1.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+jupyter_anywidget_window_ai-0.0.1.dist-info/licenses/LICENSE,sha256=Ogw7GUmeZIxmDNiKWsu_N07svNoGnPB7lWyiXHX_rMY,1074
+jupyter_anywidget_window_ai-0.0.1.dist-info/RECORD,,
