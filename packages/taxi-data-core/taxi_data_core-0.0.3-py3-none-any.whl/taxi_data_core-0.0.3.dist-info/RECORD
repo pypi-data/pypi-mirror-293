@@ -1,0 +1,14 @@
+taxi_data_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taxi_data_core/automate_bwc_web_site.py,sha256=C47cu9hIT0jcI97TCGKhZaUPWZiMMxByjhkuip6LjI8,2742
+taxi_data_core/automate_gps_tracker_web_site.py,sha256=qGmYDWnjfa_IO0-pvnASoGYogBzC4mtEv2gkaN3xMYw,12413
+taxi_data_core/browser_init.py,sha256=Is2k8bXV5oYYqlgMpDjHzpTGLM0TpE1u4p1-Y1xpCZ0,1699
+taxi_data_core/classes.py,sha256=oL1ca2L7nfLhIBp6nRWtw4ZgPJbxqWxc_tZqI3OeNyk,5273
+taxi_data_core/constants.py,sha256=TGLchnWQHRoPYU-jsWteZxj-XA-_-wPQhO1aOthEwL4,4168
+taxi_data_core/database_actions.py,sha256=s21enoBGg4Ch2Wxp32uu9uOLFAfIlWuOpfrhlEl0Kc0,28188
+taxi_data_core/initialize_database.py,sha256=IIpm6eKqk7lPp7aB1Qgt9fqXjGXC9ZBbg7gLSvuMjoQ,5393
+taxi_data_core/requirements.txt,sha256=c8oQsCIoRrs08G5hqYplEzqfcA80FmqhWO_dFZq8hUw,33
+taxi_data_core/setup.py,sha256=UB8VzqMILfw-OQPkhtWgbOSc6xHEExdlimWUtk2G3Eo,663
+taxi_data_core-0.0.3.dist-info/METADATA,sha256=UOVMpB1wCpANxIIgrKQRNaHWq-LNC3GULLhduapfoYg,614
+taxi_data_core-0.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+taxi_data_core-0.0.3.dist-info/licenses/LICENSE,sha256=M8zRvtcN09msetbnlVSZO3lwK4lv1nZyp0Ja-a3RBiI,1072
+taxi_data_core-0.0.3.dist-info/RECORD,,
