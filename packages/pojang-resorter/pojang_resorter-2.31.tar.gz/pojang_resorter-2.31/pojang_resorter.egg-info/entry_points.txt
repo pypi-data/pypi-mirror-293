@@ -1,0 +1,2 @@
+[console_scripts]
+pojang-resorter = pojang_resorter.automation:main
