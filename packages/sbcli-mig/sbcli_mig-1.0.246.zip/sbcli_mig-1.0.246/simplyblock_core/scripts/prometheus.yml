@@ -1,0 +1,17 @@
+global:
+  scrape_interval: 15s
+  external_labels:
+    monitor: 'codelab-monitor'
+
+scrape_configs:
+  - job_name: 'metricsgateway'
+    static_configs:
+      - targets: ['pushgateway:9091']
+      
+  - job_name: 'node'
+    dns_sd_configs:
+      - names:
+        - 'tasks.node-exporter'
+    relabel_configs:
+      - source_labels: [__meta_dns_name]
+        target_label: instance
