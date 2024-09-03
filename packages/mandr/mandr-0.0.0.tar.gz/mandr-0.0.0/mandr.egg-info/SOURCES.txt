@@ -1,0 +1,8 @@
+README.md
+setup.py
+mandr/__init__.py
+mandr.egg-info/PKG-INFO
+mandr.egg-info/SOURCES.txt
+mandr.egg-info/dependency_links.txt
+mandr.egg-info/requires.txt
+mandr.egg-info/top_level.txt

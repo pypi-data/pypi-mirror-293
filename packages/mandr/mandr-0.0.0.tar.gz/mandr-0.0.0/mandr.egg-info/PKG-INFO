@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mandr
+Version: 0.0.0
+Summary: All elements eventually decay to Pb...
+Home-page: https://github.com/probabl-ai/mandr
+Author: Camille Troillard
+Author-email: cam@probabl.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: mandr
+
+# New Package Name
+
+A synonym package for [mandr](https://pypi.org/project/mandr/).
