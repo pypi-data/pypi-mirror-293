@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: the-utility-belt
+Version: 0.0.5
+Summary: 
+Author: Peter Daly
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# The Utility Belt
