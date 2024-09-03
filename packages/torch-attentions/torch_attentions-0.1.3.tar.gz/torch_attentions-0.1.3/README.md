@@ -1,0 +1,2 @@
+# torch-attentions
+This repository contains PyTorch implementations of various attention mechanisms. The attention mechanisms are implemented as PyTorch modules and can be easily integrated into existing models.
