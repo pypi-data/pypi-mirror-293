@@ -1,0 +1,22 @@
+[project]
+name = "seqoptools"
+version = "0.0.1"
+authors = [
+  { name="Dariel Enmanuel Buret Rivera", email="darielburetrivera@gmail.com" },
+]
+description = "Efficients tools to deal with differents kinds of sequences."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/Darix001/seqtools.git"
+Issues = "https://github.com/Darix001/seqtools/seqtools"
