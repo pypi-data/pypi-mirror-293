@@ -1,0 +1,3 @@
+[console_scripts]
+fc=feather_converter:main
+
