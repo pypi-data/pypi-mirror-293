@@ -1,0 +1,44 @@
+# Lightsail Logger
+
+**Lightsail Logger** is a simple Python application designed to aggregate and display logs from all containers within a Lightsail service in one unified view. This tool is ideal for developers and operators who need a straightforward way to monitor and analyze logs from various containers running under a single Lightsail service.
+
+## Features
+
+- **Aggregate Logs**: Collect logs from multiple containers in one service.
+- **Unified View**: Display logs from all containers in a single overview.
+- **Customizable**: Adjust the logging window by specifying the time range.
+
+## Installation
+
+You can install Lightsail Logger using pip. Open your terminal and run:
+
+```bash
+pip install lightsaillogger
+```
+
+## Usage
+
+simply import the class and call the logger method
+
+```
+from lightsaillogger.logger import LightsailLogger
+
+# initiate a instance of lightsaillogger with the name of your service and the fetch interval
+logger = LightsailLogger(service_name="name_of_your_container_service", fetch_interval_seconds=10)
+
+logger.start_logging(minutes=10) # Looks back for logs in the last 10 minutes
+```
+
+## Output: 
+Outputs the logs of your containers in order
+```
+2024-09-02T14:06 rq-worker  12:06:15 low: Job OK (91add817-598d-4916-bb72-1acac49871bb)
+2024-09-02T14:06 rq-worker  Ending mock task
+2024-09-02T14:06 rq-worker  12:06:15 Result is kept for 900 seconds
+2024-09-02T14:11 nginx      172.26.37.209 - - [02/Sep/2024:12:11:03 +0000] "GET /fastapistatus HTTP/1.1" 200 15 "-" "ELB-HealthChecker/2.0" "-"
+2024-09-02T14:11 fastapi    INFO:     172.26.37.209:0 - "GET /fastapistatus HTTP/1.0" 200 OK
+2024-09-02T14:11 nginx      172.26.5.144 - - [02/Sep/2024:12:11:04 +0000] "GET /fastapistatus HTTP/1.1" 200 15 "-" "ELB-HealthChecker/2.0" "-"
+2024-09-02T14:11 fastapi    INFO:     172.26.28.92:0 - "GET /fastapistatus HTTP/1.0" 200 OK
+2024-09-02T14:11 fastapi    INFO:     172.26.5.144:0 - "GET /fastapistatus HTTP/1.0" 200 OK
+2024-09-02T14:11 nginx      172.26.28.92 - - [02/Sep/2024:12:11:04 +0000] "GET /fastapistatus HTTP/1.1" 200 15 "-" "ELB-HealthChecker/2.0" "-"
+```
