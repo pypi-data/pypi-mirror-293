@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pycolourslib
+Version: 0.1
+Summary: a python module with variabled colours for more simplicity and less time-wasting in your projects
+Home-page: https://github.com/KZed-K/pycolourslib
+Author: KZed-K
+Author-email: kuzeykural040510@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pycolourslib
+
+`pycolourslib` is a Python library that provides a collection of predefined colors for simplicity and efficiency in your projects.
+over 100+ colours
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install pycolourslib
