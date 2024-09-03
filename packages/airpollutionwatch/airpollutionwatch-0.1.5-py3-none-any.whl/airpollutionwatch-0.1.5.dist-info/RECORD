@@ -1,0 +1,13 @@
+airpollutionwatch/TM20210000.py,sha256=H3cBFXKn2K35nqdkGXBAJagPiIE9y5HJthaBgz7kFWE,973759
+airpollutionwatch/__init__.py,sha256=sTYy057Ew_0unCi2PlZnau6yXLssOElXYsPTke_Bcqg,338
+airpollutionwatch/amedas.py,sha256=fuYgr6zbcElEFJALWlAiX3j6DTktZ_zIbqlVLMXgf1w,3266
+airpollutionwatch/chiba.py,sha256=3TD3zkYHhDAmhbVZzp30yOj4ey3fxGzlOvp_hKpoVwQ,6516
+airpollutionwatch/convert.py,sha256=jGwZv4MEnz9V4vDmBdEOjWylIGIoRl0aUCDxeaW6Taw,5909
+airpollutionwatch/kanagawa.py,sha256=dU6AMiVnm1HGy5qQjTeX-opN_zQiOtmIpnnFc4bU5YM,6383
+airpollutionwatch/shizuoka.py,sha256=wHVacX7C-P4nImnKDDEv_3wWUmTIb4AlA58inpIraa4,3733
+airpollutionwatch/tokyo.py,sha256=rwUucRO24Sj3jw-dwWOFdmf1wfBPDAUULDVRjIP6dGU,5006
+airpollutionwatch/yamanashi.py,sha256=3XwPwbVw1B_Vpg9DHIQ4x3JDahQe_mZNNXTL-aS6S1c,4642
+airpollutionwatch-0.1.5.dist-info/LICENSE,sha256=4MmDN9nPC-iYBDs6P4ImAjTQ4L7OEIxYkuePqJgFIO4,1075
+airpollutionwatch-0.1.5.dist-info/METADATA,sha256=Hk1B-BGQGQ2_Rreq60P3sQ-64jgHe4zInjTZPjdayfk,790
+airpollutionwatch-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airpollutionwatch-0.1.5.dist-info/RECORD,,
