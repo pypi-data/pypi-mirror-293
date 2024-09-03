@@ -1,0 +1,15 @@
+crystalpy_barno/__init__.py,sha256=6hgArny_2tQmt5Y3jg4gCOAa2CoSYXxQv-VBTIJAYOM,29
+crystalpy_barno/main.py,sha256=ND3oVQngb7xstYsesopt2-Vz7psB43Wb9Yd_K_NuQxo,2255
+crystalpy_barno/ReportsClasses/Base_Report.py,sha256=paNr5G_FgYESB2gXSmAie3WxQHn4Rn76nVRHYQhHUh0,1747
+crystalpy_barno/ReportsClasses/__init__.py,sha256=swZFO6mH3_sX-2g8Urz27li2nHcxThtMvjv-2ScIGJs,148
+crystalpy_barno/ReportsClasses/Helper/__init__.py,sha256=XZhAzJPgwbMrGIogAy2mIfJ5tGwlXhCrNpPsd3H1R7A,51
+crystalpy_barno/ReportsClasses/Helper/database_helper.py,sha256=7WScjJowSlbt4iVpV9_f6QkuPPNcqOMAGdcGg--UjO8,1592
+crystalpy_barno/ReportsClasses/Sales/Sale_Memo.py,sha256=rOqrg9jsEcmbs58ycYibtCn4GHlwqNIep0noH8EIZIc,2651
+crystalpy_barno/ReportsClasses/Sales/__init__.py,sha256=DmvxAN1pHr9S3LN7ONJH8PJy18KObSxru49OW-suhtc,44
+crystalpy_barno/ReportsClasses/Stock/Stock_Report.py,sha256=vWddq_zWSHPlEFva5PMilU3sEvJEo4_lHsJMdjVO5iI,3738
+crystalpy_barno/ReportsClasses/Stock/__init__.py,sha256=VLJHoVT1LSjUQRoJZx5hIMyxgT9RRFJ4ePIylVRBr8g,47
+crystalpy_barno-1.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+crystalpy_barno-1.0.8.dist-info/METADATA,sha256=D8sdkLXi4vltsTBHzOi7AaLGA14udldX3RoWYYdiW_E,1431
+crystalpy_barno-1.0.8.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+crystalpy_barno-1.0.8.dist-info/top_level.txt,sha256=YJKmq2hzreIWhFpI-wgSe8qBmhSGCPPant0zfzihrjI,16
+crystalpy_barno-1.0.8.dist-info/RECORD,,
