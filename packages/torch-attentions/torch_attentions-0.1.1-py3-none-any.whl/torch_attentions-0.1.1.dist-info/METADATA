@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: torch-attentions
+Version: 0.1.1
+Summary: 
+Author: javi22020
+Author-email: 90896750+javi22020@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# torch-attentions
+This repository contains PyTorch implementations of various attention mechanisms. The attention mechanisms are implemented as PyTorch modules and can be easily integrated into existing models.
