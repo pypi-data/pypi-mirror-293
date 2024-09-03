@@ -1,0 +1,5 @@
+[console_scripts]
+mys-cli = myscrcpy.run:run
+
+[gui_scripts]
+mys-gui = myscrcpy.run:run
