@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ready2order-api-wrapper
+Version: 0.1.1
+Summary: A Python wrapper for the Ready2Order API
+Home-page: https://github.com/Wilhelm-Schweizer/ready2order_api
+Author: Joan Arau
+Author-email: arau.j@zinnfiguren.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
