@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: pojang_resorter
+Version: 2.32.1
+Requires-Dist: requests>=2.25.1
