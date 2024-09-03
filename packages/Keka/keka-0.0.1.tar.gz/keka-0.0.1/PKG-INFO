@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Keka
+Version: 0.0.1
+Summary: A Python library for interacting with the Keka REST API
+Author-email: Ankush Kumar <ankush1611996@gmail.com>
+Project-URL: Homepage, https://github.com/AnkushRozra/keka
+Project-URL: Bug Tracker, https://github.com/AnkushRozra/keka/issues
+Keywords: keka,keka API,keka SDK,REST API,keka python,KEKA
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Keka Python Library
+
+The `Keka` Python library provides a simple interface to interact with the Keka REST API. 

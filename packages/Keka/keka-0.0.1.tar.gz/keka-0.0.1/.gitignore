@@ -1,0 +1,6 @@
+/local.log
+wordpress/test.py
+env
+.venv
+.idea
+__pycache__
