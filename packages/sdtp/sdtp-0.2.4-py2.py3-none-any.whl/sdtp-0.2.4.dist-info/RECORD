@@ -1,0 +1,13 @@
+app.py,sha256=Htt3MJu5zXT_ghG49tJm42Of67jebsBha-u-u24d2sg,381
+sdtp/__init__.py,sha256=Y52SPyS7XL1suChADYSpsHsqPMqN_4PQkXeixR0Hnz0,2687
+sdtp/sdtp_filter.py,sha256=oF42IT5jBAX8YIoygCNgTdiPNWVF5So-y_ABJqUv_pk,15533
+sdtp/sdtp_server.py,sha256=-rJT35_YV4SLRMyQsKwwLeDhci42vFPNOra-OdljD-Q,16062
+sdtp/sdtp_table.py,sha256=6qR-EYdYv5ZFxPUxIt1AQNZBMj5R4Y_GRjM_i-RDzk4,34888
+sdtp/sdtp_utils.py,sha256=Ry6zL8JKB0jwUC93JT4om7Y3OB_KNkQykrGp97Zx2EA,11525
+sdtp/table_server.py,sha256=ghyirXK59o-Vw-ozRuPW6ydoe_YtLjFHorlEZ2UhbZc,10985
+sdtp-0.2.4.dist-info/LICENSE,sha256=vfmK7zZ3gqEWsGv-fG-wZyB6LP7wkJloXNJsa9cZ8Us,1568
+sdtp-0.2.4.dist-info/LICENSE.txt,sha256=vfmK7zZ3gqEWsGv-fG-wZyB6LP7wkJloXNJsa9cZ8Us,1568
+sdtp-0.2.4.dist-info/METADATA,sha256=BG56TueyDxO2Cy7MN_FHJJWgW6l1N0BPuDA1LscDWoQ,3581
+sdtp-0.2.4.dist-info/WHEEL,sha256=WDDPHYzpiOIm6GP1C2_8y8W6q16ICddAgOHlhTje9Qc,109
+sdtp-0.2.4.dist-info/top_level.txt,sha256=TWctdEciqpxROikM9syKIpKrCDaVPV4tBfxpuUG2GOg,9
+sdtp-0.2.4.dist-info/RECORD,,
