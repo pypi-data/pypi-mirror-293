@@ -1,0 +1,9 @@
+eco_code_analyzer/__init__.py,sha256=AenA6eB-0sl5kP6zcrOqDm8ZeIrAN2KYGolRpaxi0dE,49
+eco_code_analyzer/analyzer.py,sha256=lAs5AMlVktRWCVX0W7KvLu4N_oRQpe-Ol30kwoE1Ydc,6742
+eco_code_analyzer/cli.py,sha256=Gu8LH2OL3hv9pWcSoOAl-WutU6NCRDzAismt79eyfYs,3070
+eco_code_analyzer/rules.py,sha256=DQqycpMFNR4vGRsf8wuVreE5SPxhdQDhNDTzRIhMWu0,2924
+eco_code_analyzer-0.2.0.dist-info/METADATA,sha256=43XkMTAXmtLan9_v6dgKuSyZkBohLQLyyTbMD4DUQ-8,3013
+eco_code_analyzer-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+eco_code_analyzer-0.2.0.dist-info/entry_points.txt,sha256=MFPydGlfT2Oh9RdHITwzpdQlneK8f7dm6Zmi1QC0Ak8,66
+eco_code_analyzer-0.2.0.dist-info/top_level.txt,sha256=U4rf38tDrziLvW3_VrcBPTze_TCm9_JaqeJ38kdDYFo,18
+eco_code_analyzer-0.2.0.dist-info/RECORD,,
