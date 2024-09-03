@@ -1,0 +1,6 @@
+pyserial>=3.5
+beautifulsoup4>=4.12
+lxml>=5.3
+
+[tests]
+nose2>=0.15.1
